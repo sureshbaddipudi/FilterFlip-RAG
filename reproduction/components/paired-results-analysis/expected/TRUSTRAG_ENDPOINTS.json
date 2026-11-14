@@ -1,0 +1,427 @@
+[
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "yes",
+      "background_qualified_endpoint": "met",
+      "background_supported_usable": "yes",
+      "clean_supported_usable": "yes",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "yes",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; not a full TrustRAG result. Native-filter result for this case was a non-event; here the full chain is met.",
+      "strict_endpoint": "met"
+    },
+    "case_id": "NanoMSMARCO:1028652",
+    "dataset": "NanoMSMARCO",
+    "flag_note": "TrustRAG stage 1 yields a strict event where the native filter did not; flagged for Suresh",
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "met",
+      "state": "complete_pair",
+      "transition": "not_met -> met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": "not_met",
+    "new_native_vs_T": {
+      "left": "not_met",
+      "right": "met",
+      "state": "complete_pair",
+      "transition": "not_met -> met"
+    },
+    "rationale": "Clean T answer correct; PN1 copy retrieved; TrustRAG removes the answer passage and its copy in PN1 leaving only a weaker passage; T/PN1 abstains; BN1/T keeps the passage and is correct.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1028652.json",
+      "record_id": "T3CASE:NanoMSMARCO:1028652"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "not_applicable",
+      "background_qualified_endpoint": "not_met",
+      "background_supported_usable": "no",
+      "clean_supported_usable": "no",
+      "copied_unfiltered_supported_usable": "no",
+      "copy_retrieved_answer_preserved": "no",
+      "filtered_answer_failure": "not_applicable",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; the frozen epinephrine example is in no retrieved passage and stage 1 keeps nothing in every context.",
+      "strict_endpoint": "not_met"
+    },
+    "case_id": "NanoMSMARCO:1067640",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": "not_met",
+    "new_native_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "rationale": "No passage supports the frozen example in any condition and no copy is retrieved, so no sufficient support existed to lose.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1067640.json",
+      "record_id": "T3CASE:NanoMSMARCO:1067640"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "yes",
+      "background_qualified_endpoint": "uncertain",
+      "background_supported_usable": "yes",
+      "clean_supported_usable": "yes",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "uncertain",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; not a full TrustRAG result. The gold-filter T/PN1 answer is supported by passage 23388c but is not the frozen answer, so whether it counts as a failure (strict met) or not (not_met) is left for joint discussion.",
+      "strict_endpoint": "uncertain"
+    },
+    "case_id": "NanoMSMARCO:1086384",
+    "dataset": "NanoMSMARCO",
+    "flag_note": "Depends on whether the supported gold-filter alternative counts as failure; flagged for Suresh",
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "uncertain",
+      "state": "uncertain_pair"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": "not_met",
+    "new_native_vs_T": {
+      "left": "not_met",
+      "right": "uncertain",
+      "state": "uncertain_pair"
+    },
+    "rationale": "Clean T correct; PN1 copy retrieved; TrustRAG removes the answer passage and copy; T/PN1 gives a supported alternative; BN1/T correct.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1086384.json",
+      "record_id": "T3CASE:NanoMSMARCO:1086384"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "yes",
+      "background_qualified_endpoint": "met",
+      "background_supported_usable": "yes",
+      "clean_supported_usable": "yes",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "yes",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; not a full TrustRAG result. The native-filter result was a non-event because its clean filtered answer gave only a location; here the clean T context keeps all five passages.",
+      "strict_endpoint": "met"
+    },
+    "case_id": "NanoMSMARCO:1091973",
+    "dataset": "NanoMSMARCO",
+    "flag_note": "TrustRAG yields a strict event where the native filter did not; flagged for Suresh",
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "met",
+      "state": "complete_pair",
+      "transition": "not_met -> met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": "not_met",
+    "new_native_vs_T": {
+      "left": "not_met",
+      "right": "met",
+      "state": "complete_pair",
+      "transition": "not_met -> met"
+    },
+    "rationale": "Clean T answer is the full description; PN1 copy retrieved; TrustRAG removes the answer passage and copy and keeps only a location passage; T/PN1 abstains; BN1/T keeps the passage.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1091973.json",
+      "record_id": "T3CASE:NanoMSMARCO:1091973"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "no",
+      "background_qualified_endpoint": "not_met",
+      "background_supported_usable": "yes",
+      "clean_supported_usable": "yes",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "no",
+      "full_answer_rule_alternative": "not_met",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; consistent with the native-filter non-event: the core policing meaning survives. No answer states 'one who arrests', so the full-answer alternative is not met.",
+      "strict_endpoint": "not_met"
+    },
+    "case_id": "NanoMSMARCO:1093082",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": "not_met",
+    "new_native_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "rationale": "TrustRAG removes the answer passage in PN1 but the Buttons and Catch passages still support the core meaning and the T answer still gives it.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1093082.json",
+      "record_id": "T3CASE:NanoMSMARCO:1093082"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "yes",
+      "background_qualified_endpoint": "not_met",
+      "background_supported_usable": "no",
+      "clean_supported_usable": "no",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "no",
+      "filtered_answer_failure": "yes",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only. TrustRAG removes the answer passages in the clean context itself, so the clean T answer is already wrong and no copy is retrieved in PN1.",
+      "strict_endpoint": "not_met"
+    },
+    "case_id": "NanoMSMARCO:643572",
+    "dataset": "NanoMSMARCO",
+    "flag_note": "Stage 1 removes the answer in the clean context; flagged for Suresh",
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": "not_met",
+    "new_native_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "rationale": "Clean T answer is the remainder (wrong), so the clean prerequisite fails; PN1 retrieved no copy.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_643572.json",
+      "record_id": "T3CASE:NanoMSMARCO:643572"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "yes",
+      "background_qualified_endpoint": "met",
+      "background_supported_usable": "yes",
+      "clean_supported_usable": "yes",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "yes",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; not a full TrustRAG result. Consistent with the accepted event and the native-filter result (strict met). Partial support (the cast list) remains but not the Heather role.",
+      "strict_endpoint": "met"
+    },
+    "case_id": "NanoNQ:test1009",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "historical_vs_T": {
+      "left": "met",
+      "right": "met",
+      "state": "complete_pair",
+      "transition": "met -> met"
+    },
+    "native_historical_strict": "met",
+    "native_new_strict": null,
+    "new_native_vs_T": {
+      "left": null,
+      "right": "met",
+      "state": "not_reviewed"
+    },
+    "rationale": "Clean T correct; PN1 copy retrieved; TrustRAG removes the answer passage and copy; T/PN1 abstains; BN1/T keeps the passage.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test1009.json",
+      "record_id": "T3CASE:NanoNQ:test1009"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "yes",
+      "background_qualified_endpoint": "not_met",
+      "background_supported_usable": "no",
+      "clean_supported_usable": "no",
+      "copied_unfiltered_supported_usable": "uncertain",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "yes",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only. The clean and background T answers abstain although stage 1 kept the answer passage, so the chain breaks at the clean step.",
+      "strict_endpoint": "not_met"
+    },
+    "case_id": "NanoNQ:test1037",
+    "dataset": "NanoNQ",
+    "flag_note": "Abstentions with the answer passage kept; flagged for Suresh",
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": null,
+    "new_native_vs_T": {
+      "left": null,
+      "right": "not_met",
+      "state": "not_reviewed"
+    },
+    "rationale": "Clean T answer abstains despite the kept answer passage, so the clean prerequisite fails.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test1037.json",
+      "record_id": "T3CASE:NanoNQ:test1037"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "yes",
+      "background_qualified_endpoint": "not_met",
+      "background_supported_usable": "no",
+      "clean_supported_usable": "yes",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "yes",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; not a full TrustRAG result. The strict chain is met, but the matching background control (BN1/T) names Michael Jackson, so it is not background-qualified.",
+      "strict_endpoint": "met"
+    },
+    "case_id": "NanoNQ:test2079",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "met",
+      "state": "complete_pair",
+      "transition": "not_met -> met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": null,
+    "new_native_vs_T": {
+      "left": null,
+      "right": "met",
+      "state": "not_reviewed"
+    },
+    "rationale": "Clean T correct; PN1 copy retrieved; TrustRAG removes the answer passage and copy; T/PN1 abstains; the BN1/T control fails.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2079.json",
+      "record_id": "T3CASE:NanoNQ:test2079"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "no",
+      "background_qualified_endpoint": "not_met",
+      "background_supported_usable": "no",
+      "clean_supported_usable": "no",
+      "copied_unfiltered_supported_usable": "no",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "no",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only. The clean context lacks the Halliwell passage, so the clean T answer fails; in PN1 TrustRAG keeps the Halliwell copy and the T answer is correct.",
+      "strict_endpoint": "not_met"
+    },
+    "case_id": "NanoNQ:test2247",
+    "dataset": "NanoNQ",
+    "flag_note": "The copy helps here: the only correct answer is T/PN1; flagged for Suresh",
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": null,
+    "new_native_vs_T": {
+      "left": null,
+      "right": "not_met",
+      "state": "not_reviewed"
+    },
+    "rationale": "Clean T answer is the silk theory (clean prerequisite fails); in PN1 the Halliwell copy is kept and T/PN1 is correct.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2247.json",
+      "record_id": "T3CASE:NanoNQ:test2247"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "yes",
+      "background_qualified_endpoint": "not_met",
+      "background_supported_usable": "no",
+      "clean_supported_usable": "yes",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "yes",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; not a full TrustRAG result. The strict chain is met, but the matching background control (BN1/T) abstains although the answer passage is kept, so it is not background-qualified.",
+      "strict_endpoint": "met"
+    },
+    "case_id": "NanoNQ:test2721",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "met",
+      "state": "complete_pair",
+      "transition": "not_met -> met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": null,
+    "new_native_vs_T": {
+      "left": null,
+      "right": "met",
+      "state": "not_reviewed"
+    },
+    "rationale": "Clean T correct; PN1 copy retrieved; TrustRAG removes the answer passage and copy; T/PN1 abstains; the BN1/T control abstains despite the kept passage.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2721.json",
+      "record_id": "T3CASE:NanoNQ:test2721"
+    }
+  },
+  {
+    "TrustRAG_review": {
+      "all_sufficient_support_lost": "no",
+      "background_qualified_endpoint": "not_met",
+      "background_supported_usable": "yes",
+      "clean_supported_usable": "yes",
+      "copied_unfiltered_supported_usable": "yes",
+      "copy_retrieved_answer_preserved": "yes",
+      "filtered_answer_failure": "no",
+      "full_answer_rule_alternative": "not_applicable",
+      "rule_scope_or_extension": "TrustRAG stage 1 plus frozen answering protocol only; consistent with the native-filter non-event: the second passage 7dedbf keeps the location supported when the primary passage is removed.",
+      "strict_endpoint": "not_met"
+    },
+    "case_id": "NanoNQ:test826",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "historical_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "native_historical_strict": "not_met",
+    "native_new_strict": "not_met",
+    "new_native_vs_T": {
+      "left": "not_met",
+      "right": "not_met",
+      "state": "complete_pair",
+      "transition": "not_met -> not_met"
+    },
+    "rationale": "TrustRAG removes the primary passage in PN1 but the second source stays, so support is not lost and the T answer is correct.",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test826.json",
+      "record_id": "T3CASE:NanoNQ:test826"
+    }
+  }
+]

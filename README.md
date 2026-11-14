@@ -18,3 +18,7 @@ python3 reproduction/components/paired-results-analysis/code/plot_results.py --o
 Open `figures-local/copy_exposure_endpoints.png` to see how many copies reached retrieval and how the reviewed outcomes changed across conditions. Open `figures-local/trustrag_support_core.png` to compare evidence support and answer usability for all 36 paired contexts. Each figure is also available in SVG format.
 
 The [saved summaries](reproduction/components/paired-results-analysis/expected/) come from the semester paired analysis. The plotting script and four summary files are copied from that analysis. The TrustRAG context file includes only the case ID, condition and four recorded judgment fields used by the figure. Plotting uses the recorded labels and performs no model calls.
+
+## Reproduction and extended comparisons
+
+The [extended comparison guide](reproduction/EXTENDED_COMPARISONS.md) links the answer recovery code, copy-variant tables, TrustRAG stage-1 comparison and paired results. It includes commands for the offline recovery tests and copy-variant figure.
