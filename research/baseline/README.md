@@ -113,3 +113,9 @@ base=research/baseline/reference/output
 python3 -B "$base/filterflip_study_v1_answers/test_answers.py"
 python3 -B "$base/filterflip_study_v1_second_generator/test_execution_checks.py"
 ```
+
+### How the original answer runs were audited
+
+The [Qwen audit](reference/output/filterflip_study_v1_answers/audit_answers.py) reconstructs requests from the saved passages and checks their identities, response reuse and token counts. The [Llama audit](reference/output/filterflip_study_v1_second_generator/audit_second.py) also compares each request with its Qwen counterpart to verify that the supplied messages and passage order were preserved.
+
+Both scripts operate on the full semester handover, including its frozen inputs and raw response logs. Run them in a working copy of that handover using standard Python with assertions enabled. They write validation reports locally, and the Llama audit also writes a paired-answer table. For a checkout containing only the published evidence, use the [answer count checker](reference/output/filterflip_study_v1_answers/check_answer_counts.py).
