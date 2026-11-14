@@ -22,3 +22,7 @@ The [saved summaries](reproduction/components/paired-results-analysis/expected/)
 ## Reproduction and extended comparisons
 
 The [extended comparison guide](reproduction/EXTENDED_COMPARISONS.md) links the answer recovery code, copy-variant tables, TrustRAG stage-1 comparison and paired results. It includes commands for the offline recovery tests and copy-variant figure.
+
+## Security and handover
+
+See the [security and handover guide](reproduction/SECURITY_AND_HANDOVER.md) for STRIDE and OWASP coverage, dependency findings, compatibility results and an offline integrity check.

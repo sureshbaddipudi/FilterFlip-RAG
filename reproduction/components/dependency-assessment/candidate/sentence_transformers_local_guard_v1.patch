@@ -1,0 +1,14 @@
+--- a/sentence_transformers/util/misc.py
++++ b/sentence_transformers/util/misc.py
+@@ -128,6 +128,11 @@
+     if class_ref.startswith("sentence_transformers."):
+         return import_from_string(class_ref)
+ 
++    # FilterFlip candidate guard v1: explicit trust for non-builtin module classes.
++    # The upstream 5.6 release warns but still implicitly trusts local directories.
++    if not trust_remote_code:
++        raise ValueError("Custom module classes require explicit trust_remote_code=True")
++
+     if model_name_or_path is not None and (trust_remote_code or os.path.exists(model_name_or_path)):
+         from transformers.dynamic_module_utils import get_class_from_dynamic_module
+ 

@@ -1,0 +1,561 @@
+[
+  {
+    "id": "CTRL01",
+    "legacy_namespace": "DEMO-v2:SEC-01",
+    "requirement": "Restrict the browser-facing service to the intended local origin and mutation token.",
+    "implementation": "Loopback bind; exact Host/Origin and Fetch-Site checks; constant-time request-token comparison.",
+    "code": [
+      {
+        "file": "app/server.py",
+        "symbol": "Server.__init__"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Handler.guard"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_bad_host"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_bad_origin"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_cross_site"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_csrf_missing"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_csrf_wrong"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV20"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Request token is CSRF protection, not login or proof of a reviewer. Trusted local processes and the separate model API can bypass the app boundary."
+  },
+  {
+    "id": "CTRL02",
+    "legacy_namespace": "DEMO-v2:SEC-02",
+    "requirement": "Reject unsupported JSON, modes, objects and properties before worker launch.",
+    "implementation": "Duplicate/nonfinite rejection, exact field allowlist, known case/mode/condition validation and fixed routes.",
+    "code": [
+      {
+        "file": "app/safety.py",
+        "symbol": "decode"
+      },
+      {
+        "file": "app/safety.py",
+        "symbol": "check_selection"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Handler.do_POST"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_duplicate_and_nonfinite_json"
+      },
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_unauthorized_modes_and_fields"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_method"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "No multi-user object or role model; absence of such features narrows scope rather than proving public authorization safety."
+  },
+  {
+    "id": "CTRL03",
+    "legacy_namespace": "DEMO-v2:SEC-03",
+    "requirement": "Bind trusted code, inputs, models and requests to expected identities.",
+    "implementation": "Release/input/model/template/request hashes and fixed native profile, before service/work and model use.",
+    "code": [
+      {
+        "file": "app/safety.py",
+        "symbol": "verify_release"
+      },
+      {
+        "file": "app/common.py",
+        "symbol": "verified"
+      },
+      {
+        "file": "app/backend.py",
+        "symbol": "main"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "validate_release"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "verify_model_assets"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_release_tampering_is_rejected"
+      },
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_request_settings_frozen"
+      },
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_source_mutation_refused_before_model_transport"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV15",
+      "EV16",
+      "EV17"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Checksums do not authenticate the distributor or detect an already-backdoored approved model. Same-account replacement/races and coordinated manifest replacement remain assumptions."
+  },
+  {
+    "id": "CTRL04",
+    "legacy_namespace": "DEMO-v2:SEC-04",
+    "requirement": "Constrain data access and preserve private run storage.",
+    "implementation": "Fixed served assets and run IDs; confined/size-bounded reads; ownership/private folders; atomic mode-0600 output.",
+    "code": [
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.__init__"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.snapshot"
+      },
+      {
+        "file": "app/safety.py",
+        "symbol": "read"
+      },
+      {
+        "file": "app/safety.py",
+        "symbol": "save"
+      },
+      {
+        "file": "app/common.py",
+        "symbol": "confined"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_atomic_write_symlink_and_permissions"
+      },
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_read_symlink_and_oversized"
+      },
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "ProcessTests.test_private_run_folder_required"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_unknown_file"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV04"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "The trusted account can read/export full passages, names, paths and model metadata. No dataset de-identification, encryption-at-rest or hostile-local-user isolation is established."
+  },
+  {
+    "id": "CTRL05",
+    "legacy_namespace": "DEMO-v2:SEC-05",
+    "requirement": "Treat corpus/model text as data across the browser, process and model-client boundaries.",
+    "implementation": "Current JS uses textContent; subprocess argument lists are fixed; no shell use; model client uses fixed loopback and rejects redirects/proxies.",
+    "code": [
+      {
+        "file": "app/backend.py",
+        "symbol": "NoRedirect"
+      },
+      {
+        "file": "app/backend.py",
+        "symbol": "request"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.work"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_no_redirect"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "ControlTests.test_no_arbitrary_browser_arguments"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV03",
+      "EV08"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Browser/OS injection protection is distinct from LLM instruction resistance. Prior browser fixture has selected coverage and changed current JS; no general prompt-injection defense follows."
+  },
+  {
+    "id": "CTRL06",
+    "legacy_namespace": "DEMO-v2:SEC-06",
+    "requirement": "Bound concurrency and response/job time.",
+    "implementation": "UI: one job/eight HTTP slots/body-header-socket limits/four answer starts/590s each/2400s job. Task 3 has its own approved 60+1 starts and 7200s cap.",
+    "code": [
+      {
+        "file": "app/server.py",
+        "symbol": "Server.process_request"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.start"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.work"
+      },
+      {
+        "file": "app/backend.py",
+        "symbol": "main"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "Budget"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "run_session"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_large_body"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "HTTPTests.test_busy"
+      },
+      {
+        "file": "app/tests/test_lifecycle.py",
+        "symbol": "LifecycleTests.test_timeout_becomes_terminal"
+      },
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_time_cap_includes_preflight_and_resumed_elapsed"
+      },
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_real_deadline_interrupts_blocking_operation"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV15",
+      "EV16",
+      "EV17",
+      "EV19"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "These profiles are different; do not transfer UI limits to CLI studies. No hard RAM/cgroup isolation; historical task-1 actual combined active time remains unknown."
+  },
+  {
+    "id": "CTRL07",
+    "legacy_namespace": "DEMO-v2:SEC-07",
+    "requirement": "Limit disk/archive and model-response growth.",
+    "implementation": "UI: 2MiB model response, 128MiB run, 60-run/1GiB archive, 1GiB free admission/256MiB stop thresholds; bounded reads.",
+    "code": [
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.start"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.work"
+      },
+      {
+        "file": "app/backend.py",
+        "symbol": "main"
+      },
+      {
+        "file": "app/safety.py",
+        "symbol": "read"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_lifecycle.py",
+        "symbol": "LifecycleTests.test_resource_limit_preserves_partial_output"
+      },
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_read_symlink_and_oversized"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Poll-based admission/stop checks are not filesystem quotas, and Task 3 does not inherit all UI disk/archive caps. Full disk/OS pressure coverage remains limited."
+  },
+  {
+    "id": "CTRL08",
+    "legacy_namespace": "DEMO-v2:SEC-08",
+    "requirement": "Cancel only owned processes and retain terminal state/partial evidence.",
+    "implementation": "Owned worker/process-group cleanup; cancelled/timed-out/resource-limit/failed status; interrupted snapshots not shown as complete.",
+    "code": [
+      {
+        "file": "app/server.py",
+        "symbol": "kill"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.work"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.cancel"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.snapshot"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "Backend.close"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "ProcessTests.test_owned_descendant_listener_is_closed"
+      },
+      {
+        "file": "app/tests/test_lifecycle.py",
+        "symbol": "LifecycleTests.test_cancel_and_second_job_refusal"
+      },
+      {
+        "file": "app/tests/test_lifecycle.py",
+        "symbol": "LifecycleTests.test_failed_worker_does_not_become_completed"
+      },
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_timeout_and_operator_interruption_are_consumed_not_retried"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV10",
+      "EV16",
+      "EV17"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Synthetic cleanup plus selected live cancellations do not prove every native/Ollama/OS failure path. Verify exact ownership before intervention; system Ollama is separate."
+  },
+  {
+    "id": "CTRL09",
+    "legacy_namespace": "DEMO-v2:SEC-09",
+    "requirement": "Retain attributable execution/review records without silent retries or substitution.",
+    "implementation": "Run IDs, timestamps, exact requests, raw responses, explicit interruption disposition; Task 3 journal is hash-chained with consumed attempt begins.",
+    "code": [
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.snapshot"
+      },
+      {
+        "file": "app/backend.py",
+        "symbol": "main"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "Journal"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "validate_state"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_terminal_snapshot_retains_original_worker"
+      },
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_unclosed_session_and_ambiguous_begin_refuse_resume"
+      },
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_raw_capture_corruption_missing_duplicate_and_orphan_rejected"
+      }
+    ],
+    "evidence_ids": [
+      "EV04",
+      "EV06",
+      "EV10",
+      "EV15",
+      "EV16",
+      "EV17",
+      "EV19"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Local records and hashes can be rewritten by the account; no independent timestamping, signature, nonrepudiation or external alerting."
+  },
+  {
+    "id": "CTRL10",
+    "legacy_namespace": "DEMO-v2:SEC-10",
+    "requirement": "Keep scientific outcomes and review attribution tied to exact evidence.",
+    "implementation": "Current/historical individual/joint/assisted records remain separate; fresh answers have pending semantic review; source qualifications and unknown dates preserved.",
+    "code": [
+      {
+        "file": "app/server.py",
+        "symbol": "Manager.__init__"
+      },
+      {
+        "file": "task03/audit_task03.py",
+        "symbol": "audit"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_all_attempts_raw_links_and_audit_do_not_inherit_historical_answers"
+      }
+    ],
+    "evidence_ids": [
+      "EV05",
+      "EV10",
+      "EV11",
+      "EV12",
+      "EV13",
+      "EV15",
+      "EV18"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Human confirmation is not blinded/unaided proof or a signature; task-2/3 new outputs remain unreviewed and broader teammate report/release binding remains task 6."
+  },
+  {
+    "id": "CTRL11",
+    "legacy_namespace": "DEMO-v2:SEC-11",
+    "requirement": "Fail safely on invalid/truncated backend output and sanitize public errors.",
+    "implementation": "Bounded response bytes/schema/token/finish checks; preserve raw payload before parsing; no incomplete answer becomes a successful scientific outcome.",
+    "code": [
+      {
+        "file": "app/backend.py",
+        "symbol": "response_status"
+      },
+      {
+        "file": "app/backend.py",
+        "symbol": "main"
+      },
+      {
+        "file": "app/server.py",
+        "symbol": "Handler.do_POST"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "response_status"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_primary_backend_error_not_hidden"
+      },
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "ExtraHTTPTests.test_unexpected_failure_sanitized"
+      },
+      {
+        "file": "app/tests/test_live.py",
+        "symbol": "ControlTests.test_truncation_not_success"
+      },
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_malformed_empty_wrong_model_tokens_overflow_and_http_stop"
+      }
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV10",
+      "EV15",
+      "EV16",
+      "EV17"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Local console/export may reveal paths; real backend branch coverage is not proved by synthetic tests or the report-only 16% figure. UI stops on truncation; approved Task 3 preserves it and may continue other requests."
+  },
+  {
+    "id": "CTRL12",
+    "legacy_namespace": "DEMO-v2:SEC-12",
+    "requirement": "Track software/model supply-chain exposure and preserve the accepted environment.",
+    "implementation": "Pinned source/models, flat inventory/SBOM and historical advisory/static/secret scans. Fixes must use a separate environment and compatibility checks.",
+    "code": [
+      {
+        "file": "app/backend.py",
+        "symbol": "main"
+      },
+      {
+        "file": "app/common.py",
+        "symbol": "verified"
+      },
+      {
+        "file": "task03/run_task03.py",
+        "symbol": "verify_model_assets"
+      }
+    ],
+    "test_references": [
+      {
+        "file": "app/tests/test_security.py",
+        "symbol": "StrictInputTests.test_release_tampering_is_rejected"
+      },
+      {
+        "file": "task03/test_task03.py",
+        "symbol": "Task03Checks.test_wrong_served_version_digest_template_and_gpu_rejected"
+      }
+    ],
+    "evidence_ids": [
+      "EV07",
+      "EV08",
+      "EV09",
+      "EV15",
+      "EV20"
+    ],
+    "status": "implemented_with_bounded_evidence",
+    "residual_limit": "Baseline advisories remain open and per-finding reachability/patch validation is pending task 5/9; hashes and fixed inputs do not patch libraries or establish model/training provenance."
+  }
+]

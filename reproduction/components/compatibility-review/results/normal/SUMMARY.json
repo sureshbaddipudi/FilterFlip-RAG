@@ -1,0 +1,328 @@
+{
+  "status": "PASS_BOUNDED_COMPATIBILITY",
+  "checks": [
+    {
+      "check": "baseline recorded runtime identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline complete planned coverage",
+      "passed": true,
+      "detail": {
+        "status": "COMPLETE",
+        "contexts": 75,
+        "retrieval_contexts": 72,
+        "challenge_contexts": 3,
+        "probes": 75,
+        "counts": {
+          "encode_calls": 373,
+          "native_calls": 225
+        },
+        "active_seconds": 131.3145482079999,
+        "model_constructions": 1,
+        "generation_attempts": 0
+      }
+    },
+    {
+      "check": "baseline recorded execution within frozen bounds",
+      "passed": true,
+      "detail": {
+        "encode_calls": 373,
+        "active_seconds": 131.3145482079999,
+        "maximum_encode_calls": 1000,
+        "maximum_seconds": 1800
+      }
+    },
+    {
+      "check": "candidate recorded runtime identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "candidate recorded local guard binding",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "candidate complete planned coverage",
+      "passed": true,
+      "detail": {
+        "status": "COMPLETE",
+        "contexts": 75,
+        "retrieval_contexts": 72,
+        "challenge_contexts": 3,
+        "probes": 75,
+        "counts": {
+          "encode_calls": 373,
+          "native_calls": 225
+        },
+        "active_seconds": 133.1559784419951,
+        "model_constructions": 1,
+        "generation_attempts": 0
+      }
+    },
+    {
+      "check": "candidate recorded execution within frozen bounds",
+      "passed": true,
+      "detail": {
+        "encode_calls": 373,
+        "active_seconds": 133.1559784419951,
+        "maximum_encode_calls": 1000,
+        "maximum_seconds": 1800
+      }
+    },
+    {
+      "check": "baseline exact planned probe text inventory",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline complete valid probe token records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline planned probe dimensions/window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "candidate exact planned probe text inventory",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "candidate complete valid probe token records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "candidate planned probe dimensions/window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "same predeclared probe texts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "encoder tokenizer IDs identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline actual probe array has planned dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "candidate actual probe array has planned dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "probe embeddings within frozen tolerances",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "maximum_absolute": 0.0,
+        "mean_absolute": 0.0,
+        "shape": [
+          75,
+          384
+        ],
+        "bit_equal_values": true
+      }
+    },
+    {
+      "check": "same exact case/context keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline exact planned case/context keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "candidate exact planned case/context keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all contexts retrieved_order_and_text",
+      "passed": true,
+      "detail": {
+        "matching": 75,
+        "total": 75
+      }
+    },
+    {
+      "check": "all contexts added_chunk_records",
+      "passed": true,
+      "detail": {
+        "matching": 75,
+        "total": 75
+      }
+    },
+    {
+      "check": "all contexts passage_token_IDs",
+      "passed": true,
+      "detail": {
+        "matching": 75,
+        "total": 75
+      }
+    },
+    {
+      "check": "all contexts policy_decisions",
+      "passed": true,
+      "detail": {
+        "matching": 75,
+        "total": 75
+      }
+    },
+    {
+      "check": "all contexts answer_request_and_token_IDs",
+      "passed": true,
+      "detail": {
+        "matching": 75,
+        "total": 75
+      }
+    },
+    {
+      "check": "all contexts numeric query_vector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all contexts numeric copy_vectors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all contexts numeric scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all contexts numeric matrix",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all contexts numeric retrieval_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "baseline exact planned cached-index probe inventory",
+      "passed": true,
+      "detail": {
+        "original_chunks_checked": 40,
+        "expected_original_chunks": 40,
+        "inventory_matches": true,
+        "invalid_records": 0,
+        "outside_embedding_tolerance": 0,
+        "maximum_absolute": 8.195638656616211e-08
+      }
+    },
+    {
+      "check": "baseline valid cached-index deviations within frozen tolerances",
+      "passed": true,
+      "detail": {
+        "original_chunks_checked": 40,
+        "expected_original_chunks": 40,
+        "inventory_matches": true,
+        "invalid_records": 0,
+        "outside_embedding_tolerance": 0,
+        "maximum_absolute": 8.195638656616211e-08
+      }
+    },
+    {
+      "check": "candidate exact planned cached-index probe inventory",
+      "passed": true,
+      "detail": {
+        "original_chunks_checked": 40,
+        "expected_original_chunks": 40,
+        "inventory_matches": true,
+        "invalid_records": 0,
+        "outside_embedding_tolerance": 0,
+        "maximum_absolute": 8.195638656616211e-08
+      }
+    },
+    {
+      "check": "candidate valid cached-index deviations within frozen tolerances",
+      "passed": true,
+      "detail": {
+        "original_chunks_checked": 40,
+        "expected_original_chunks": 40,
+        "inventory_matches": true,
+        "invalid_records": 0,
+        "outside_embedding_tolerance": 0,
+        "maximum_absolute": 8.195638656616211e-08
+      }
+    }
+  ],
+  "errors": [],
+  "comparator_version": 2,
+  "context_count": 75,
+  "expected_context_count": 75,
+  "policies_per_context": 4,
+  "answer_requests_compared": 300,
+  "encoder_probe_texts": 75,
+  "probe_embedding_difference": {
+    "passed": true,
+    "maximum_absolute": 0.0,
+    "mean_absolute": 0.0,
+    "shape": [
+      75,
+      384
+    ],
+    "bit_equal_values": true
+  },
+  "historical_comparison": {
+    "baseline": {
+      "retrieval_contexts": 72,
+      "retrieved_ids_match": 67,
+      "native_kept_match": 72,
+      "U_request_match": 72,
+      "N_request_match": 72,
+      "cutoff_exact_ties": 0,
+      "cutoff_near_ties": 0
+    },
+    "candidate": {
+      "retrieval_contexts": 72,
+      "retrieved_ids_match": 67,
+      "native_kept_match": 72,
+      "U_request_match": 72,
+      "N_request_match": 72,
+      "cutoff_exact_ties": 0,
+      "cutoff_near_ties": 0
+    }
+  },
+  "frozen_index_probe_comparison": {
+    "baseline": {
+      "original_chunks_checked": 40,
+      "expected_original_chunks": 40,
+      "inventory_matches": true,
+      "invalid_records": 0,
+      "outside_embedding_tolerance": 0,
+      "maximum_absolute": 8.195638656616211e-08
+    },
+    "candidate": {
+      "original_chunks_checked": 40,
+      "expected_original_chunks": 40,
+      "inventory_matches": true,
+      "invalid_records": 0,
+      "outside_embedding_tolerance": 0,
+      "maximum_absolute": 8.195638656616211e-08
+    }
+  },
+  "discrepancies": 0,
+  "generation_attempts": 0,
+  "answer_scope": "Same request bytes and Qwen token IDs/estimates, frozen prompt/options, synthetic status/transport validation only. No fresh Qwen service or semantic answer rerun.",
+  "filter_scope": "RAGDefender U/N/E/CN on predeclared subset, verified frozen full corpus embedding index reused with fresh query/copy encodings. No whole-corpus re-embedding or new TrustRAG stage-1 execution.",
+  "acceptance_scope": "Computational verification only; no deployment, human scientific/risk acceptance, all-advisory closure or whole-system guarantee inferred."
+}

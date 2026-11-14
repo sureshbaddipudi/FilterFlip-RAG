@@ -1,0 +1,358 @@
+[
+  {
+    "id": "R01",
+    "title": "Supported-answer availability loss",
+    "scenario": "An accessible correct source is copied into a target-question corpus; joint filtering may remove all sufficient evidence and the downstream answer fails.",
+    "controls": [
+      "CTRL03",
+      "CTRL10"
+    ],
+    "evidence_ids": [
+      "EV12",
+      "EV13",
+      "EV14",
+      "EV15",
+      "EV18"
+    ],
+    "residual_gap": "Eight events and 51 non-events among 59 selected cases form the primary assessment, not population success rate. Current mitigation is mixed and no general successful defense is established. Task-3 answers still need human review.",
+    "follow_up_tasks": [
+      7,
+      8,
+      11
+    ],
+    "priority": "observed_research_risk",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R02",
+    "title": "Misleading or unsupported answer content",
+    "scenario": "The generator may repeat planted false claims or wrong material, including mixed answers with accepted cores and incorrect extras.",
+    "controls": [
+      "CTRL05",
+      "CTRL10",
+      "CTRL11"
+    ],
+    "evidence_ids": [
+      "EV13",
+      "EV14",
+      "EV10",
+      "EV15"
+    ],
+    "residual_gap": "Separate support, core/full completeness and wrong extras. CN adds two false-claim harms and avoids one in accepted selected tests; no deployment-grade truth guarantee.",
+    "follow_up_tasks": [
+      7,
+      8,
+      11
+    ],
+    "priority": "observed_research_risk",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R03",
+    "title": "Indirect instruction influence",
+    "scenario": "A separately approved instruction fixture enters retrieved context; obeying it could divert answers.",
+    "controls": [
+      "CTRL02",
+      "CTRL05",
+      "CTRL10"
+    ],
+    "evidence_ids": [
+      "EV13",
+      "EV14",
+      "EV10"
+    ],
+    "residual_gap": "Zero marker successes on selected cases/policies is narrow. Exposure misses, the unresolved report 0/15 denominator and general semantic/obfuscated attacks remain limits.",
+    "follow_up_tasks": [
+      6,
+      7,
+      8
+    ],
+    "priority": "bounded_research_evidence",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R04",
+    "title": "Dependency and model supply-chain compromise",
+    "scenario": "Trusted packages/checkpoints/installation paths could be vulnerable, replaced or already malicious at the accepted hash.",
+    "controls": [
+      "CTRL03",
+      "CTRL12"
+    ],
+    "evidence_ids": [
+      "EV07",
+      "EV08",
+      "EV09",
+      "EV15"
+    ],
+    "residual_gap": "71 preserved baseline component/advisory records are not 71 demonstrated exploits. Per-advisory reachability, platform matching and separate-environment selected fixes remain open.",
+    "follow_up_tasks": [
+      5,
+      9
+    ],
+    "priority": "next_security_assessment",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R05",
+    "title": "Evidence or reviewer provenance manipulation",
+    "scenario": "A local actor changes answers, hashes, dates, attribution or current/historical overlays and presents them as signed-off.",
+    "controls": [
+      "CTRL03",
+      "CTRL09",
+      "CTRL10"
+    ],
+    "evidence_ids": [
+      "EV04",
+      "EV05",
+      "EV06",
+      "EV10",
+      "EV12",
+      "EV15"
+    ],
+    "residual_gap": "Same-account rewrite is not prevented by hashes/chains. No independent signing/timestamping or authenticated reviewer service; no fabricated dates or acceptance.",
+    "follow_up_tasks": [
+      6,
+      7,
+      13
+    ],
+    "priority": "coursework_follow_up",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R06",
+    "title": "Operational resource exhaustion",
+    "scenario": "Long generation, repeated submissions, HTTP pressure or growing outputs consume CPU/RAM/disk.",
+    "controls": [
+      "CTRL06",
+      "CTRL07",
+      "CTRL08",
+      "CTRL11"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV10",
+      "EV15",
+      "EV19"
+    ],
+    "residual_gap": "UI quotas differ from CLI caps. No hard OS RAM/disk quota; polling can overshoot; full overload/failure-path proof absent. Research evidence suppression is a separate availability mechanism.",
+    "follow_up_tasks": [
+      6,
+      9
+    ],
+    "priority": "coursework_follow_up",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R07",
+    "title": "Disclosure through local storage/export",
+    "scenario": "Full passages, model outputs, reviewer information, archived contacts and absolute source paths are exposed to unintended recipients.",
+    "controls": [
+      "CTRL04",
+      "CTRL05",
+      "CTRL09"
+    ],
+    "evidence_ids": [
+      "EV03",
+      "EV04",
+      "EV09",
+      "EV10"
+    ],
+    "residual_gap": "Private account/storage assumptions and intended exports only; no de-identification, encryption-at-rest or model-training privacy guarantee. No private corpus was evaluated.",
+    "follow_up_tasks": [
+      6,
+      11,
+      13
+    ],
+    "priority": "coursework_follow_up",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R08",
+    "title": "Local-interface impersonation or bypass",
+    "scenario": "A browser-origin attacker targets compute endpoints, or an untrusted local process talks directly to localhost/model services.",
+    "controls": [
+      "CTRL01",
+      "CTRL02",
+      "CTRL04",
+      "CTRL05"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV20"
+    ],
+    "residual_gap": "App token is not authentication and does not guard separate Ollama management APIs. No hostile-local-user or public/multiuser deployment approval.",
+    "follow_up_tasks": [
+      6,
+      9,
+      13
+    ],
+    "priority": "coursework_follow_up",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R09",
+    "title": "Trusted artifact or configuration replacement",
+    "scenario": "An operator/local compromise substitutes code, model, executable or source manifest, or exploits check-to-use races.",
+    "controls": [
+      "CTRL03",
+      "CTRL04",
+      "CTRL12"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV07",
+      "EV15"
+    ],
+    "residual_gap": "Pinned content is not authenticated origin or backdoor detection. Local configuration/OS account are trusted; broader race/adversarial loader assurance is not established.",
+    "follow_up_tasks": [
+      5,
+      9,
+      13
+    ],
+    "priority": "coursework_follow_up",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R10",
+    "title": "Testing and release claims exceed supplied evidence",
+    "scenario": "A report-only pass, shared backend hash or stale display text is treated as independent acceptance of all current UI/code/new answers.",
+    "controls": [
+      "CTRL09",
+      "CTRL10"
+    ],
+    "evidence_ids": [
+      "EV05",
+      "EV10",
+      "EV11"
+    ],
+    "residual_gap": "Raw report scanner/coverage/probe evidence and UI release identity remain missing. Earlier exact-run acceptance is preserved; no blanket transfer to v2.4 or 88 answers.",
+    "follow_up_tasks": [
+      6,
+      7,
+      13
+    ],
+    "priority": "next_testing_reconciliation",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R11",
+    "title": "Exceptional conditions produce misleading states",
+    "scenario": "Partial/truncated/malformed data or native failure becomes completed, or public errors leak detail.",
+    "controls": [
+      "CTRL08",
+      "CTRL09",
+      "CTRL11"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV10",
+      "EV15"
+    ],
+    "residual_gap": "Synthetic branch checks and selected real runs do not exhaust backend/native/OS failures. Preserve fault semantics and retain uncertainty.",
+    "follow_up_tasks": [
+      6,
+      9
+    ],
+    "priority": "coursework_follow_up",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R12",
+    "title": "Pretrained-model privacy uncertainty",
+    "scenario": "Queries could reveal memorized training information or support inversion/membership inference in a different/private-data deployment.",
+    "controls": [
+      "CTRL04",
+      "CTRL06",
+      "CTRL12"
+    ],
+    "evidence_ids": [
+      "EV09",
+      "EV20"
+    ],
+    "residual_gap": "No inversion/membership/privacy audit performed; no DP or training-data control. Current public fixed-fixture profile does not demonstrate or solve these attacks.",
+    "follow_up_tasks": [
+      11,
+      13
+    ],
+    "priority": "conditional_inherited_model_risk",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R13",
+    "title": "Training/update threats outside current lifecycle",
+    "scenario": "Transfer learning, adaptive feedback skew or parameter poisoning would require a training/update path not present in this coursework pipeline.",
+    "controls": [
+      "CTRL02",
+      "CTRL03",
+      "CTRL12"
+    ],
+    "evidence_ids": [
+      "EV20",
+      "EV22"
+    ],
+    "residual_gap": "Keep pretrained supply-chain risk separate. No training, fine-tuning, feedback learning or weight modification is implemented; reassess if those features are added.",
+    "follow_up_tasks": [
+      11,
+      13
+    ],
+    "priority": "scoped_lifecycle_exclusion",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  },
+  {
+    "id": "R14",
+    "title": "Untrusted output gains executable authority",
+    "scenario": "Future tool execution/HTML rendering could turn model content into system actions, links or code.",
+    "controls": [
+      "CTRL02",
+      "CTRL05",
+      "CTRL11"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV03",
+      "EV08",
+      "EV20"
+    ],
+    "residual_gap": "Current generation has no tools/action executor and text is rendered literally. Privileged local workers are fixed application code, not LLM agency. Reassess before adding tool, upload or rendering features.",
+    "follow_up_tasks": [
+      6,
+      9,
+      13
+    ],
+    "priority": "conditional_feature_risk",
+    "priority_basis": "Project-specific sequencing and observed gaps; not a CVSS score or measured likelihood",
+    "risk_acceptance": "not recorded by this mapping",
+    "status": "open_or_partially_controlled"
+  }
+]

@@ -1,0 +1,1196 @@
+[
+  {
+    "framework": "STRIDE",
+    "id": "S",
+    "title": "Spoofing",
+    "applicability": "applicable",
+    "scenario": "Cross-origin client or forged reviewer identity targets browser jobs/review provenance.",
+    "controls": [
+      "CTRL01",
+      "CTRL02",
+      "CTRL10"
+    ],
+    "risk_ids": [
+      "R05",
+      "R08"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV05"
+    ],
+    "remaining_gap": "No public account or authenticated reviewer system; request token is not login.",
+    "scoped_exclusion_or_reassessment_trigger": "No blanket exclusion; bounds stated in scenario/gap.",
+    "official_reference": "https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "STRIDE",
+    "id": "T",
+    "title": "Tampering",
+    "applicability": "applicable",
+    "scenario": "Inputs, responses, release identities or review overlays are changed.",
+    "controls": [
+      "CTRL02",
+      "CTRL03",
+      "CTRL09",
+      "CTRL10",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R04",
+      "R05",
+      "R09"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV06",
+      "EV15"
+    ],
+    "remaining_gap": "Same-account/coordinated manifest rewrite and malicious approved artifacts remain possible.",
+    "scoped_exclusion_or_reassessment_trigger": "No blanket exclusion; bounds stated in scenario/gap.",
+    "official_reference": "https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "STRIDE",
+    "id": "R",
+    "title": "Repudiation",
+    "applicability": "applicable",
+    "scenario": "An actor disputes a run, intervention or scientific review attribution.",
+    "controls": [
+      "CTRL09",
+      "CTRL10"
+    ],
+    "risk_ids": [
+      "R05",
+      "R10"
+    ],
+    "evidence_ids": [
+      "EV04",
+      "EV06",
+      "EV10",
+      "EV12"
+    ],
+    "remaining_gap": "Mutable local logs cannot provide independent nonrepudiation; record missing dates honestly.",
+    "scoped_exclusion_or_reassessment_trigger": "No blanket exclusion; bounds stated in scenario/gap.",
+    "official_reference": "https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "STRIDE",
+    "id": "I",
+    "title": "Information Disclosure",
+    "applicability": "applicable",
+    "scenario": "Unintended file access or export exposes passages, reviewer details, local paths or model outputs.",
+    "controls": [
+      "CTRL01",
+      "CTRL04",
+      "CTRL05",
+      "CTRL09"
+    ],
+    "risk_ids": [
+      "R07",
+      "R08",
+      "R12"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV04",
+      "EV09"
+    ],
+    "remaining_gap": "No confidential-training privacy assurance or hostile-local-user isolation.",
+    "scoped_exclusion_or_reassessment_trigger": "No blanket exclusion; bounds stated in scenario/gap.",
+    "official_reference": "https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "STRIDE",
+    "id": "D",
+    "title": "Denial of Service",
+    "applicability": "applicable",
+    "scenario": "HTTP/model/disk load blocks local use; separately, evidence suppression denies a supported answer.",
+    "controls": [
+      "CTRL06",
+      "CTRL07",
+      "CTRL08",
+      "CTRL10",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R01",
+      "R06",
+      "R11"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV12",
+      "EV15",
+      "EV19"
+    ],
+    "remaining_gap": "Operational quotas do not solve research answer suppression or enforce hard RAM/disk isolation.",
+    "scoped_exclusion_or_reassessment_trigger": "No blanket exclusion; bounds stated in scenario/gap.",
+    "official_reference": "https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "STRIDE",
+    "id": "E",
+    "title": "Elevation of Privilege",
+    "applicability": "applicable_with_limited_exposure",
+    "scenario": "Browser selections or generated text could become paths, commands or privileged actions.",
+    "controls": [
+      "CTRL02",
+      "CTRL04",
+      "CTRL05",
+      "CTRL08",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R08",
+      "R09",
+      "R14"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV03",
+      "EV08"
+    ],
+    "remaining_gap": "Run trusted local code without admin privileges; no proof against compromised account/dependencies.",
+    "scoped_exclusion_or_reassessment_trigger": "No blanket exclusion; bounds stated in scenario/gap.",
+    "official_reference": "https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A01:2025",
+    "title": "Broken Access Control",
+    "applicability": "applicable_with_scope",
+    "scenario": "Fixed routes/run objects and strict selections limit access within a local single-user service.",
+    "controls": [
+      "CTRL01",
+      "CTRL02",
+      "CTRL04"
+    ],
+    "risk_ids": [
+      "R07",
+      "R08"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "remaining_gap": "No per-user object ownership or remote authorization model.",
+    "scoped_exclusion_or_reassessment_trigger": "Remote/multiuser access is outside profile; reassess before exposure.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A02:2025",
+    "title": "Security Misconfiguration",
+    "applicability": "applicable_with_scope",
+    "scenario": "Loopback, headers, CPU/offline profile and configured private storage define deployment.",
+    "controls": [
+      "CTRL01",
+      "CTRL04",
+      "CTRL05",
+      "CTRL06"
+    ],
+    "risk_ids": [
+      "R06",
+      "R08",
+      "R09"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV20"
+    ],
+    "remaining_gap": "Separate Ollama service is not protected by app nonce; hardening every local service is not demonstrated.",
+    "scoped_exclusion_or_reassessment_trigger": "No public hosting or arbitrary model/upload configuration.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A03:2025",
+    "title": "Software Supply Chain Failures",
+    "applicability": "applicable_with_scope",
+    "scenario": "Packages, vendored code and pretrained assets enter the trusted execution chain.",
+    "controls": [
+      "CTRL03",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R04",
+      "R09"
+    ],
+    "evidence_ids": [
+      "EV07",
+      "EV08",
+      "EV09",
+      "EV15"
+    ],
+    "remaining_gap": "Open historical advisories, no signed release/provenance or general backdoor detection.",
+    "scoped_exclusion_or_reassessment_trigger": "Task 5 assesses findings; task 9 verifies selected changes.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A04:2025",
+    "title": "Cryptographic Failures",
+    "applicability": "applicable_with_scope",
+    "scenario": "Checksums protect consistency, random token supports CSRF, loopback transport carries local data.",
+    "controls": [
+      "CTRL01",
+      "CTRL03",
+      "CTRL04",
+      "CTRL09"
+    ],
+    "risk_ids": [
+      "R05",
+      "R07",
+      "R08"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV20"
+    ],
+    "remaining_gap": "No TLS, storage encryption, signed audit or crypto protocol audit. Hashes are not signatures.",
+    "scoped_exclusion_or_reassessment_trigger": "No password/payment/remote session system; those paths need new design if introduced.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A05:2025",
+    "title": "Injection",
+    "applicability": "applicable_with_scope",
+    "scenario": "Untrusted corpus/model/browser text crosses request, render and process boundaries.",
+    "controls": [
+      "CTRL02",
+      "CTRL05",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R03",
+      "R14"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV03",
+      "EV08",
+      "EV14"
+    ],
+    "remaining_gap": "Literal rendering/fixed arguments address app sinks; they do not establish LLM instruction immunity.",
+    "scoped_exclusion_or_reassessment_trigger": "No SQL/database or model-generated shell executor is exposed.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A06:2025",
+    "title": "Insecure Design",
+    "applicability": "applicable_with_scope",
+    "scenario": "Correct-copy suppression and mitigation trade-offs affect useful answers despite valid inputs.",
+    "controls": [
+      "CTRL02",
+      "CTRL06",
+      "CTRL10",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R01",
+      "R02",
+      "R03",
+      "R06"
+    ],
+    "evidence_ids": [
+      "EV12",
+      "EV13",
+      "EV14",
+      "EV15"
+    ],
+    "remaining_gap": "No generally successful mitigation; no population robustness claim.",
+    "scoped_exclusion_or_reassessment_trigger": "Approved fixed cases/profiles only; expansion/new mitigation research deferred.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A07:2025",
+    "title": "Authentication Failures",
+    "applicability": "applicable_with_scope",
+    "scenario": "Local origin/token gates govern browser jobs, with a trusted OS account.",
+    "controls": [
+      "CTRL01",
+      "CTRL02",
+      "CTRL04"
+    ],
+    "risk_ids": [
+      "R05",
+      "R08"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV20"
+    ],
+    "remaining_gap": "No user login, role/session or authenticated reviewer model.",
+    "scoped_exclusion_or_reassessment_trigger": "Authentication feature tests are scoped out because no account system exists; not a public-service pass.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A08:2025",
+    "title": "Software or Data Integrity Failures",
+    "applicability": "applicable_with_scope",
+    "scenario": "Evidence, code/model identities and interpretation overlays require integrity.",
+    "controls": [
+      "CTRL03",
+      "CTRL09",
+      "CTRL10",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R04",
+      "R05",
+      "R09",
+      "R10"
+    ],
+    "evidence_ids": [
+      "EV06",
+      "EV10",
+      "EV12",
+      "EV15"
+    ],
+    "remaining_gap": "Coordinated local replacement, provenance authenticity and unreviewed new outputs remain limits.",
+    "scoped_exclusion_or_reassessment_trigger": "No automatic acceptance of task-2/3 answers.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A09:2025",
+    "title": "Security Logging and Alerting Failures",
+    "applicability": "applicable_with_scope",
+    "scenario": "Run events/raw replies support reconstruction of jobs and interventions.",
+    "controls": [
+      "CTRL09",
+      "CTRL10",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R05",
+      "R10",
+      "R11"
+    ],
+    "evidence_ids": [
+      "EV06",
+      "EV10",
+      "EV15"
+    ],
+    "remaining_gap": "HTTP access/security logging is suppressed; no centralized monitoring/alerting or external timestamps.",
+    "scoped_exclusion_or_reassessment_trigger": "No claim that local artifact logs constitute production monitoring.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "WEB",
+    "id": "A10:2025",
+    "title": "Mishandling of Exceptional Conditions",
+    "applicability": "applicable_with_scope",
+    "scenario": "Malformed responses, native faults, timeouts and cancellation must stay terminal/incomplete.",
+    "controls": [
+      "CTRL02",
+      "CTRL06",
+      "CTRL07",
+      "CTRL08",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R06",
+      "R11"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV10",
+      "EV15"
+    ],
+    "remaining_gap": "Coverage of all native/OS errors is not established; retain original failure bytes.",
+    "scoped_exclusion_or_reassessment_trigger": "Original upstream assertion use remains historical; new explicit guards are the tested surface.",
+    "official_reference": "https://top10.owasp.org/2025/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API1:2023",
+    "title": "Broken Object Level Authorization",
+    "applicability": "applicable_with_scope",
+    "scenario": "Allowlisted cases and validated run IDs constrain objects.",
+    "controls": [
+      "CTRL01",
+      "CTRL02",
+      "CTRL04"
+    ],
+    "risk_ids": [
+      "R07",
+      "R08"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "remaining_gap": "No cross-user ownership model; run IDs are not authorization credentials.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API2:2023",
+    "title": "Broken Authentication",
+    "applicability": "applicable_with_scope",
+    "scenario": "Origin/token checks protect local browser actions under trusted account scope.",
+    "controls": [
+      "CTRL01",
+      "CTRL04"
+    ],
+    "risk_ids": [
+      "R05",
+      "R08"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "remaining_gap": "No login/authenticated reviewer service; app token does not secure direct local model APIs.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API3:2023",
+    "title": "Broken Object Property Level Authorization",
+    "applicability": "applicable_with_scope",
+    "scenario": "Exact mutation fields keep paths, endpoints, models and reviewer flags out of browser-selected properties.",
+    "controls": [
+      "CTRL02",
+      "CTRL10"
+    ],
+    "risk_ids": [
+      "R05",
+      "R08",
+      "R09"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "remaining_gap": "Trusted operator config and review imports remain separate local boundaries.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API4:2023",
+    "title": "Unrestricted Resource Consumption",
+    "applicability": "applicable_with_scope",
+    "scenario": "Bounded HTTP work, one job and response/job/output caps constrain compute.",
+    "controls": [
+      "CTRL06",
+      "CTRL07",
+      "CTRL08"
+    ],
+    "risk_ids": [
+      "R06"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV15"
+    ],
+    "remaining_gap": "No hard RAM/disk quota or public multi-client load assurance; CLI limits differ.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API5:2023",
+    "title": "Broken Function Level Authorization",
+    "applicability": "applicable_with_scope",
+    "scenario": "Fixed GET/POST inventory; unsupported methods and operations rejected.",
+    "controls": [
+      "CTRL01",
+      "CTRL02",
+      "CTRL04"
+    ],
+    "risk_ids": [
+      "R08",
+      "R14"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "remaining_gap": "No admin/multi-role model; separate Ollama management routes are not app routes.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API6:2023",
+    "title": "Unrestricted Access to Sensitive Business Flows",
+    "applicability": "applicable_with_scope",
+    "scenario": "Repeated job starts/cancels consume local compute and affect demonstration flow.",
+    "controls": [
+      "CTRL01",
+      "CTRL02",
+      "CTRL06",
+      "CTRL08"
+    ],
+    "risk_ids": [
+      "R06",
+      "R08"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "remaining_gap": "No per-user rate limiting, payment or account workflows; one-job control is a bound, not production fraud protection.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API7:2023",
+    "title": "Server Side Request Forgery",
+    "applicability": "applicable_with_scope",
+    "scenario": "Client endpoint is fixed loopback; browser cannot pass a destination; redirects/proxies refused.",
+    "controls": [
+      "CTRL02",
+      "CTRL05"
+    ],
+    "risk_ids": [
+      "R07",
+      "R08",
+      "R14"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02"
+    ],
+    "remaining_gap": "Trusted local configuration/executable compromise is outside this browser-destination guard.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API8:2023",
+    "title": "Security Misconfiguration",
+    "applicability": "applicable_with_scope",
+    "scenario": "Loopback bind, headers, fixed deployment/profile and private files.",
+    "controls": [
+      "CTRL01",
+      "CTRL04",
+      "CTRL05",
+      "CTRL06"
+    ],
+    "risk_ids": [
+      "R06",
+      "R08",
+      "R09"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV20"
+    ],
+    "remaining_gap": "No public-hosting, all-service hardening or network TLS acceptance.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API9:2023",
+    "title": "Improper Inventory Management",
+    "applicability": "applicable_with_scope",
+    "scenario": "Browser and separate model-service interfaces need an accurate inventory.",
+    "controls": [
+      "CTRL01",
+      "CTRL02",
+      "CTRL05",
+      "CTRL09"
+    ],
+    "risk_ids": [
+      "R08",
+      "R10"
+    ],
+    "evidence_ids": [
+      "EV20",
+      "EV22"
+    ],
+    "remaining_gap": "Route inventory is the app surface plus used model client calls, not an exhaustive audit of Ollama management APIs.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "API",
+    "id": "API10:2023",
+    "title": "Unsafe Consumption of APIs",
+    "applicability": "applicable_with_scope",
+    "scenario": "Model replies are size/schema/token bounded and raw failures retained before interpretation.",
+    "controls": [
+      "CTRL03",
+      "CTRL05",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R04",
+      "R11"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV15"
+    ],
+    "remaining_gap": "Checked shape/identity is not semantic truth; backend/native failure coverage remains bounded.",
+    "scoped_exclusion_or_reassessment_trigger": "Public/multiuser/remote business flows are outside this local profile; reassess before adding them.",
+    "official_reference": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM01:2025",
+    "title": "Prompt Injection",
+    "applicability": "applicable_to_instruction_challenge",
+    "scenario": "Separate instruction-bearing fixtures can influence generation; the main correct-copy attack contains no instruction override.",
+    "controls": [
+      "CTRL02",
+      "CTRL05",
+      "CTRL10"
+    ],
+    "risk_ids": [
+      "R03",
+      "R14"
+    ],
+    "evidence_ids": [
+      "EV13",
+      "EV14",
+      "EV10"
+    ],
+    "remaining_gap": "Evidence-only prompt is a constraint, not a complete defense. Selected marker tests do not prove semantic/obfuscated resistance.",
+    "scoped_exclusion_or_reassessment_trigger": "Do not relabel all eight correct-copy events as prompt injections.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM02:2025",
+    "title": "Sensitive Information Disclosure",
+    "applicability": "applicable_with_scope",
+    "scenario": "Responses, full evidence/export and pretrained memorization may disclose data.",
+    "controls": [
+      "CTRL04",
+      "CTRL05",
+      "CTRL09",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R07",
+      "R12"
+    ],
+    "evidence_ids": [
+      "EV04",
+      "EV09",
+      "EV20"
+    ],
+    "remaining_gap": "No private training/corpus privacy audit, inversion test or DP claim.",
+    "scoped_exclusion_or_reassessment_trigger": "Current public research fixtures; reassess before using confidential documents or personal training data.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm022025-sensitive-information-disclosure/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM03:2025",
+    "title": "Supply Chain",
+    "applicability": "applicable",
+    "scenario": "Packages, encoder/Qwen checkpoints and vendored defense code are trusted dependencies.",
+    "controls": [
+      "CTRL03",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R04",
+      "R09"
+    ],
+    "evidence_ids": [
+      "EV07",
+      "EV08",
+      "EV15"
+    ],
+    "remaining_gap": "Pinned hashes identify approved content; unresolved dependency reachability and malicious-origin/backdoor risks remain.",
+    "scoped_exclusion_or_reassessment_trigger": "No installation or patch run performed by task 4.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm032025-supply-chain/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM04:2025",
+    "title": "Data and Model Poisoning",
+    "applicability": "conditional_analogy_not_demonstrated_training_attack",
+    "scenario": "Controlled corpus insertion changes inference-time retrieval context; future mutable data/embedding/training intake could enable poisoning.",
+    "controls": [
+      "CTRL02",
+      "CTRL03",
+      "CTRL10",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R01",
+      "R02",
+      "R04",
+      "R13"
+    ],
+    "evidence_ids": [
+      "EV12",
+      "EV13",
+      "EV14",
+      "EV20"
+    ],
+    "remaining_gap": "The study never alters training data or weights, and does not demonstrate compromise of an ingestion service. Primary fit is LLM08/ML01.",
+    "scoped_exclusion_or_reassessment_trigger": "Training, fine-tuning, learned backdoors and malicious parameter updates are outside the experiment.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM05:2025",
+    "title": "Improper Output Handling",
+    "applicability": "applicable",
+    "scenario": "Model/corpus text must not become browser HTML, commands or trusted actions.",
+    "controls": [
+      "CTRL02",
+      "CTRL05",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R07",
+      "R14"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV03",
+      "EV08"
+    ],
+    "remaining_gap": "Current literal text/fixed process code limits sinks; no blanket new-JS browser test or future action safety.",
+    "scoped_exclusion_or_reassessment_trigger": "No generated code execution, SQL sink, arbitrary hyperlink fetch or tool executor.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM06:2025",
+    "title": "Excessive Agency",
+    "applicability": "scoped_feature_exclusion_with_reassessment",
+    "scenario": "The model returns text; trusted application code starts a fixed worker, rather than obeying model-selected tool calls.",
+    "controls": [
+      "CTRL02",
+      "CTRL05",
+      "CTRL06"
+    ],
+    "risk_ids": [
+      "R08",
+      "R14"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV20"
+    ],
+    "remaining_gap": "Model API itself is a separate trusted-local surface. Adding actions/tools/credentials would create a new boundary.",
+    "scoped_exclusion_or_reassessment_trigger": "No autonomous agent/tool/action execution; no adversarial agentic workflow evaluated.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM07:2025",
+    "title": "System Prompt Leakage",
+    "applicability": "scoped_low_confidentiality_requirement",
+    "scenario": "The frozen system prompt is deliberately documented and contains no designed secret/access-control credential.",
+    "controls": [
+      "CTRL01",
+      "CTRL05",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R07",
+      "R08",
+      "R12"
+    ],
+    "evidence_ids": [
+      "EV09",
+      "EV20"
+    ],
+    "remaining_gap": "No extraction-resistance evaluation. Do not place secrets in prompts or rely on prompt secrecy as authorization.",
+    "scoped_exclusion_or_reassessment_trigger": "Prompt disclosure is not a demonstrated confidentiality breach for this public template; reassess if secrets or hidden policy become assets.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM08:2025",
+    "title": "Vector and Embedding Weaknesses",
+    "applicability": "direct_research_applicability",
+    "scenario": "Copies alter top-five context composition and joint filter geometry, suppressing sufficient answer evidence.",
+    "controls": [
+      "CTRL03",
+      "CTRL10"
+    ],
+    "risk_ids": [
+      "R01",
+      "R02",
+      "R09"
+    ],
+    "evidence_ids": [
+      "EV12",
+      "EV13",
+      "EV14",
+      "EV15",
+      "EV18"
+    ],
+    "remaining_gap": "No successful general defense or shared-tenant/vector-store privacy assessment. Stage-1 new answers remain pending human review.",
+    "scoped_exclusion_or_reassessment_trigger": "Mapping is an application-specific interpretation, not endorsement by OWASP or proof of every vector-store attack.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM09:2025",
+    "title": "Misinformation",
+    "applicability": "direct_research_applicability",
+    "scenario": "Wrong/unsupported claims and the false-claim mitigation challenge affect answer trustworthiness.",
+    "controls": [
+      "CTRL05",
+      "CTRL10",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R01",
+      "R02"
+    ],
+    "evidence_ids": [
+      "EV12",
+      "EV13",
+      "EV14",
+      "EV10",
+      "EV15"
+    ],
+    "remaining_gap": "Abstention/support loss is availability, not automatically misinformation. Mixed-answer cores and wrong extras remain distinct.",
+    "scoped_exclusion_or_reassessment_trigger": "Archived contact/medical/legal examples are source-relative evidence, not current advice; no truth guarantee from matching strings.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm092025-misinformation/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "LLM",
+    "id": "LLM10:2025",
+    "title": "Unbounded Consumption",
+    "applicability": "applicable",
+    "scenario": "HTTP jobs and model response lengths/durations/output growth can exhaust resources.",
+    "controls": [
+      "CTRL06",
+      "CTRL07",
+      "CTRL08",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R06",
+      "R11"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV15",
+      "EV19"
+    ],
+    "remaining_gap": "Application/CLI bounds are finite but do not provide hard OS isolation; task-1 historical total active time is unknown.",
+    "scoped_exclusion_or_reassessment_trigger": "No paid remote inference or autonomous loops in this deployment; do not equate their absence with all resource risks solved.",
+    "official_reference": "https://genai.owasp.org/llmrisk/llm102025-unbounded-consumption/",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML01:2023",
+    "title": "Input Manipulation Attack",
+    "applicability": "direct_research_applicability",
+    "scenario": "Answer-preserving copies change inference-time input composition and can alter filter/answer behavior.",
+    "controls": [
+      "CTRL02",
+      "CTRL03",
+      "CTRL10"
+    ],
+    "risk_ids": [
+      "R01",
+      "R02",
+      "R03"
+    ],
+    "evidence_ids": [
+      "EV12",
+      "EV13",
+      "EV14",
+      "EV15",
+      "EV18"
+    ],
+    "remaining_gap": "The result is for selected cases/configurations; schema-valid inputs may still induce semantic loss.",
+    "scoped_exclusion_or_reassessment_trigger": "No new adversarial training, threshold tuning or prevalence claim.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML01_2023-Input_Manipulation_Attack.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML02:2023",
+    "title": "Data Poisoning Attack",
+    "applicability": "scoped_training_lifecycle_exclusion",
+    "scenario": "The draft category targets training-data manipulation; the coursework changes retrieval inputs, not a training dataset.",
+    "controls": [
+      "CTRL03",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R04",
+      "R13"
+    ],
+    "evidence_ids": [
+      "EV20",
+      "EV22"
+    ],
+    "remaining_gap": "Pretrained supply-chain uncertainty remains, but no training-data poisoning experiment or protection is claimed.",
+    "scoped_exclusion_or_reassessment_trigger": "No training/fine-tuning path; future mutable training ingestion requires reassessment.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML02_2023-Data_Poisoning_Attack.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML03:2023",
+    "title": "Model Inversion Attack",
+    "applicability": "conditional_inherited_model_risk",
+    "scenario": "A private-training deployment could expose reconstructed training information through outputs.",
+    "controls": [
+      "CTRL04",
+      "CTRL06",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R07",
+      "R12"
+    ],
+    "evidence_ids": [
+      "EV09",
+      "EV20"
+    ],
+    "remaining_gap": "No inversion experiment or privacy protection measured; private files/query caps are not a proof.",
+    "scoped_exclusion_or_reassessment_trigger": "No sensitive training dataset under project control; do not declare pretrained models privacy-safe.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML03_2023-Model_Inversion_Attack.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML04:2023",
+    "title": "Membership Inference Attack",
+    "applicability": "conditional_inherited_model_risk",
+    "scenario": "A query process might infer whether a record belonged to model training data.",
+    "controls": [
+      "CTRL04",
+      "CTRL06",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R07",
+      "R12"
+    ],
+    "evidence_ids": [
+      "EV09",
+      "EV20"
+    ],
+    "remaining_gap": "No training membership labels, membership audit or DP mechanism; retrieval-source membership is a different concept.",
+    "scoped_exclusion_or_reassessment_trigger": "No confidential training cohort used here; reassess with private data or model-serving changes.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML04_2023-Membership_Inference_Attack.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML05:2023",
+    "title": "Model Theft",
+    "applicability": "scoped_asset_exclusion_with_reassessment",
+    "scenario": "Selected pretrained weights are already locally available; the app serves text and fixed evidence, not a proprietary weights endpoint.",
+    "controls": [
+      "CTRL02",
+      "CTRL04",
+      "CTRL06"
+    ],
+    "risk_ids": [
+      "R07",
+      "R08",
+      "R12"
+    ],
+    "evidence_ids": [
+      "EV01",
+      "EV02",
+      "EV20"
+    ],
+    "remaining_gap": "No extraction resistance evaluated; direct local model access and a compromised account are trusted-boundary assumptions.",
+    "scoped_exclusion_or_reassessment_trigger": "No proprietary model-IP protection objective or private-weight API; reassess if those assets are introduced.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML05_2023-Model_Theft.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML06:2023",
+    "title": "AI Supply Chain Attacks",
+    "applicability": "applicable",
+    "scenario": "Trusted packages/checkpoints/vendored code can be vulnerable or originate from an untrusted supply chain.",
+    "controls": [
+      "CTRL03",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R04",
+      "R09"
+    ],
+    "evidence_ids": [
+      "EV07",
+      "EV08",
+      "EV15"
+    ],
+    "remaining_gap": "The index uses AI Supply Chain Attacks while its category page says ML Supply Chain Attacks; same ML06:2023 ID. Hashes do not authenticate origin.",
+    "scoped_exclusion_or_reassessment_trigger": "No source authenticity/backdoor or universal dependency safety claim.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML06_2023-AI_Supply_Chain_Attacks.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML07:2023",
+    "title": "Transfer Learning Attack",
+    "applicability": "scoped_training_lifecycle_exclusion",
+    "scenario": "The project loads pretrained encoders/models but performs no local task-to-task fine-tuning or adapter training.",
+    "controls": [
+      "CTRL03",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R04",
+      "R13"
+    ],
+    "evidence_ids": [
+      "EV20",
+      "EV22"
+    ],
+    "remaining_gap": "Inherited malicious checkpoint risk is handled as supply-chain exposure, not proof of a performed transfer-learning attack.",
+    "scoped_exclusion_or_reassessment_trigger": "No transfer-training pipeline is evaluated; reassess before fine-tuning/adapters.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML07_2023-Transfer_Learning_Attack.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML08:2023",
+    "title": "Model Skewing",
+    "applicability": "scoped_training_lifecycle_exclusion",
+    "scenario": "The draft describes training-distribution/feedback manipulation; this project has no feedback-based model update.",
+    "controls": [
+      "CTRL02",
+      "CTRL03",
+      "CTRL10",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R01",
+      "R04",
+      "R13"
+    ],
+    "evidence_ids": [
+      "EV12",
+      "EV20",
+      "EV22"
+    ],
+    "remaining_gap": "A changed retrieval mixture or filter geometry is not evidence of changed learned parameters/training distribution.",
+    "scoped_exclusion_or_reassessment_trigger": "No online learning or feedback retraining; do not confuse ML08 with LLM08.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML08_2023-Model_Skewing.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML09:2023",
+    "title": "Output Integrity Attack",
+    "applicability": "applicable",
+    "scenario": "A local artifact/API/export manipulation could change what a reviewer sees as model output.",
+    "controls": [
+      "CTRL03",
+      "CTRL04",
+      "CTRL09",
+      "CTRL10",
+      "CTRL11"
+    ],
+    "risk_ids": [
+      "R05",
+      "R07",
+      "R09",
+      "R10",
+      "R11"
+    ],
+    "evidence_ids": [
+      "EV04",
+      "EV06",
+      "EV10",
+      "EV15"
+    ],
+    "remaining_gap": "Byte/response integrity and semantic correctness are distinct; mutable logs have no external authenticity.",
+    "scoped_exclusion_or_reassessment_trigger": "The main research does not demonstrate an attacker rewriting raw answer files; this is tool/evidence integrity mapping.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML09_2023-Output_Integrity_Attack.html",
+    "status": "applicability_mapped_not_category_certified"
+  },
+  {
+    "framework": "ML",
+    "id": "ML10:2023",
+    "title": "Model Poisoning",
+    "applicability": "scoped_parameter_lifecycle_exclusion",
+    "scenario": "The draft category concerns malicious changes to model parameters.",
+    "controls": [
+      "CTRL03",
+      "CTRL12"
+    ],
+    "risk_ids": [
+      "R04",
+      "R09",
+      "R13"
+    ],
+    "evidence_ids": [
+      "EV15",
+      "EV20",
+      "EV22"
+    ],
+    "remaining_gap": "Known model hashes detect mismatch but cannot reveal a backdoor in the approved content.",
+    "scoped_exclusion_or_reassessment_trigger": "No weight modification or parameter-update experiment; corpus-copy insertion is not model-weight poisoning.",
+    "official_reference": "https://owasp.github.io/www-project-machine-learning-security-top-10/docs/ML10_2023-Model_Poisoning.html",
+    "status": "applicability_mapped_not_category_certified"
+  }
+]
