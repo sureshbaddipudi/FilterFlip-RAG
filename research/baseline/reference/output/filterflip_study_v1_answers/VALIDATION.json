@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "logical_conditions": 1062,
+  "distinct_requests": 706,
+  "reused_logical_conditions": 356,
+  "questions": 59,
+  "max_prompt_count_difference": 0,
+  "response_status_counts": {
+    "ok": 706
+  },
+  "checks": [
+    "frozen requests reconstructed from saved passages",
+    "no expected answer or label added to prompts",
+    "all 59 questions and nine conditions paired",
+    "duplicate reuse mapped to first exact request",
+    "raw response and logical answer agreement",
+    "completed nonempty responses within token limits",
+    "frozen hashes unchanged"
+  ],
+  "limits": "This audit establishes execution and accounting, not response correctness or semantic grounding."
+}
