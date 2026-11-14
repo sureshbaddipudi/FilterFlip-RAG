@@ -77,3 +77,15 @@ The [answer request ledger](reference/output/filterflip_study_v1_answers/answer_
 ```bash
 python3 -B research/baseline/reference/output/filterflip_study_v1_answers/check_answer_counts.py
 ```
+
+## Primary outcome after review
+
+Across the 59 selected questions, **8 met the strict endpoint, 51 fell outside it, and 0 remained unresolved**. The endpoint asks whether the clean filtered system could give a supported answer, whether that answer was still available before filtering in the answer-source-copy condition, and whether filtering then removed sufficient support and the answer failed. A lost quote or a completed model request alone cannot settle that judgment.
+
+The initial assistant assessment recorded 4 events, 47 outside the endpoint, and 8 open cases. Shradha and Suresh jointly decided the 8 open cases using the agreed interpretation of core and mixed answers. Four met the endpoint and four fell outside it. The project recorded human confirmation for all 59 saved outcomes. The [case table](reference/output/filterflip_study_v1_outcome_review/primary_outcomes.csv) preserves the initial assessment and the basis of the accepted decision. For 10 rows the basis is an individual case review, for 8 it is joint adjudication, and for 41 it is the later confirmation of the existing assessment reported by Suresh. These counts apply to the selected baseline cases.
+
+To check the case IDs against eligibility and recount the decisions against the published paired analysis:
+
+```bash
+python3 -B research/baseline/reference/output/filterflip_study_v1_outcome_review/check_primary_outcomes.py
+```
