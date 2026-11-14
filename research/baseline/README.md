@@ -89,3 +89,15 @@ To check the case IDs against eligibility and recount the decisions against the 
 ```bash
 python3 -B research/baseline/reference/output/filterflip_study_v1_outcome_review/check_primary_outcomes.py
 ```
+
+## Did the finding depend on the setup?
+
+Three follow-up checks used a preselected subset of 12 questions. Each asked a different question about the original result.
+
+| What changed? | What the saved results showed |
+|---|---|
+| Passage order | Across the 36 contexts from those 12 questions, changing the order changed which passages survived in 7 contexts. Including the additional ordering checks on two selected cases, all 42 original-order comparisons reproduced the saved survivor sets. [Passage-order audit](reference/output/filterflip_study_v1_order_check/VALIDATION.json) |
+| Filter encoder and text window | The original configuration reproduced all 36 saved decisions. In the Heather case, both MiniLM encoders removed the answer evidence in PN1, including when the input fit the text window. The three configurations accounted for 108 filter calls. [Configuration audit](reference/output/filterflip_study_v1_config_check/VALIDATION.json) |
+| Answer model | On the same saved passages, both Qwen2.5:3b and Llama3.2:3b named Nicole Gale Anderson before PN1 filtering and abstained afterward. Across the subset, 66 distinct Llama requests covered 72 answer conditions. [Second-model audit](reference/output/filterflip_study_v1_second_generator/VALIDATION.json) |
+
+The archived model comparison also records a counterexample. For the Three-Fifths Compromise question, a different retained passage still supported the answer, and both models answered correctly. The execution audits linked above document coverage and consistency. The Heather and Three-Fifths interpretations come from the original assistant-reviewed diagnostics. The 12 selected questions are a follow-up to the primary study and contribute no additional cases to its denominator of 59.
