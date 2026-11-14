@@ -15,3 +15,11 @@ For each condition, we inspected the retrieved passages, the passages retained b
 - [Core Python requirements](requirements-core.txt) records package versions used in the baseline environment.
 
 See the [literature comparison](../literature/LITERATURE_MATRIX.md) for the research context and the [project README](../../README.md) for instructions to reproduce the study figures.
+
+## How the study questions were selected
+
+The [preparation scripts](reference/output/filterflip_study_v1/) record how the team obtained pinned dataset revisions, checked question-to-document links, screened for overlap with earlier examples, and checked reviewers' evidence quotes. The full screening run uses the original handover's dataset files and earlier study records. To run the self-contained preparation tests from the repository root using Python 3:
+
+```bash
+python3 -B -m unittest discover -s research/baseline/reference/output/filterflip_study_v1 -p test_preparation.py
+```
