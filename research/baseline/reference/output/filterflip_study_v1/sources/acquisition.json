@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "scope": "Source acquisition only; no retrieval/filter/generator outcomes",
+  "pyarrow_version": "17.0.0",
+  "datasets": {
+    "NanoNQ": {
+      "repo": "zeta-alpha-ai/NanoNQ",
+      "revision": "77540146379abf95df8326a3c5bb9eb21c7146c3",
+      "card": {
+        "url": "https://huggingface.co/datasets/zeta-alpha-ai/NanoNQ/resolve/77540146379abf95df8326a3c5bb9eb21c7146c3/README.md",
+        "path": "NanoNQ/README.md",
+        "bytes": 1088,
+        "sha256": "828250b4b7c259a2051a9fa6e578b3f793b06843947c33905e2156b3ff8aded0"
+      },
+      "splits": {
+        "corpus": {
+          "url": "https://huggingface.co/datasets/zeta-alpha-ai/NanoNQ/resolve/77540146379abf95df8326a3c5bb9eb21c7146c3/corpus/train-00000-of-00001.parquet",
+          "path": "NanoNQ/corpus.parquet",
+          "bytes": 1776094,
+          "sha256": "0a23818bfb7f8eeb0aa3c6db6dcd629122adeb1db9ee74a7344b0b17405d06f5",
+          "rows": 5035,
+          "columns": [
+            "_id",
+            "text"
+          ],
+          "jsonl_sha256": "621b51d46b59e0ba9d070d7994ac82f4074c2ca44d2266fdf00240382e2ed2d2"
+        },
+        "queries": {
+          "url": "https://huggingface.co/datasets/zeta-alpha-ai/NanoNQ/resolve/77540146379abf95df8326a3c5bb9eb21c7146c3/queries/train-00000-of-00001.parquet",
+          "path": "NanoNQ/queries.parquet",
+          "bytes": 3658,
+          "sha256": "fbcbcff5d8a537e68075a891b565c1891b51c0bcbac4556ed97ff48aa8cebc5b",
+          "rows": 50,
+          "columns": [
+            "_id",
+            "text"
+          ],
+          "jsonl_sha256": "29596b3dd9a1343217f52e5a719108f15f2a9b70d2de7401e813d62464b596c0"
+        },
+        "qrels": {
+          "url": "https://huggingface.co/datasets/zeta-alpha-ai/NanoNQ/resolve/77540146379abf95df8326a3c5bb9eb21c7146c3/qrels/train-00000-of-00001.parquet",
+          "path": "NanoNQ/qrels.parquet",
+          "bytes": 2020,
+          "sha256": "ec0344cbf2075407a0472ab1cc91186b42a0ca5387f4b0af92cb260b19d8b6f5",
+          "rows": 57,
+          "columns": [
+            "query-id",
+            "corpus-id"
+          ],
+          "jsonl_sha256": "2957a886458568497f9aa110e6417d4b0db1be7ee196de7360cdf2e5471ff9b8"
+        }
+      }
+    },
+    "NanoMSMARCO": {
+      "repo": "zeta-alpha-ai/NanoMSMARCO",
+      "revision": "7b8ff22f2771dc65ac5b439f222eb19a1f56abda",
+      "card": {
+        "url": "https://huggingface.co/datasets/zeta-alpha-ai/NanoMSMARCO/resolve/7b8ff22f2771dc65ac5b439f222eb19a1f56abda/README.md",
+        "path": "NanoMSMARCO/README.md",
+        "bytes": 1093,
+        "sha256": "1440aa4313ff11b46ff612a06fcfe760364c43d401b2bcebb675122b406607b8"
+      },
+      "splits": {
+        "corpus": {
+          "url": "https://huggingface.co/datasets/zeta-alpha-ai/NanoMSMARCO/resolve/7b8ff22f2771dc65ac5b439f222eb19a1f56abda/corpus/train-00000-of-00001.parquet",
+          "path": "NanoMSMARCO/corpus.parquet",
+          "bytes": 1115821,
+          "sha256": "98a9e3acf124ede0af69e2691843321568a653207c615d648c3f79e8b92b8c2f",
+          "rows": 5043,
+          "columns": [
+            "_id",
+            "text"
+          ],
+          "jsonl_sha256": "ba84765683204ed67837f453780e1debff876a89a4d7d754993b6ba224b8885f"
+        },
+        "queries": {
+          "url": "https://huggingface.co/datasets/zeta-alpha-ai/NanoMSMARCO/resolve/7b8ff22f2771dc65ac5b439f222eb19a1f56abda/queries/train-00000-of-00001.parquet",
+          "path": "NanoMSMARCO/queries.parquet",
+          "bytes": 3219,
+          "sha256": "c61105bc59b5b7dfef6c03cdee008ff6b6ddba0c4f13d3f09807689ddb8efebd",
+          "rows": 50,
+          "columns": [
+            "_id",
+            "text"
+          ],
+          "jsonl_sha256": "34180975459269d24c526f4cb1163ef988ff810a366cc3000029c3d18b057681"
+        },
+        "qrels": {
+          "url": "https://huggingface.co/datasets/zeta-alpha-ai/NanoMSMARCO/resolve/7b8ff22f2771dc65ac5b439f222eb19a1f56abda/qrels/train-00000-of-00001.parquet",
+          "path": "NanoMSMARCO/qrels.parquet",
+          "bytes": 2095,
+          "sha256": "e804d7e5f0e90c9c06fd8d187fa6989efb9e041eef0000cd732928ca04b1174e",
+          "rows": 50,
+          "columns": [
+            "query-id",
+            "corpus-id"
+          ],
+          "jsonl_sha256": "c02422790f0542c1de81029160633b42b2cb9eec485c3f9c586b99c8897735ab"
+        }
+      }
+    }
+  },
+  "comparator": {
+    "repo": "https://github.com/HuichiZhou/TrustRAG",
+    "commit": "11dcea0262d14b0e38e22e1d7ddce4a151e82a61",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/HuichiZhou/TrustRAG/11dcea0262d14b0e38e22e1d7ddce4a151e82a61/README.md",
+        "path": "TrustRAG/README.md",
+        "bytes": 2391,
+        "sha256": "30794ca5a1c089f8d0ed7ac02584527d71b7cfef50dd103de64ca8bac925a686"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/HuichiZhou/TrustRAG/11dcea0262d14b0e38e22e1d7ddce4a151e82a61/defend_module.py",
+        "path": "TrustRAG/defend_module.py",
+        "bytes": 31620,
+        "sha256": "9c3e79600525756c1938f64f14cb1cfae3961c0a108d04ff6eec1a487634832d"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/HuichiZhou/TrustRAG/11dcea0262d14b0e38e22e1d7ddce4a151e82a61/main_trustrag.py",
+        "path": "TrustRAG/main_trustrag.py",
+        "bytes": 15078,
+        "sha256": "570b6bf6ad76ce7aec00ff30a4f8b1bde30159696cd0b9d8d3eaa4ad45646a8f"
+      }
+    ],
+    "executed": false
+  },
+  "acquisition_note": "Data downloads completed. Optional requirements.txt lookup returned 404; corrected snapshot list to the three existing source files. No data replacement."
+}

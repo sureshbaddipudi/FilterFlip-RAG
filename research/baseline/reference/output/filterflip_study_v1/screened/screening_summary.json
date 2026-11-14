@@ -1,0 +1,25 @@
+{
+  "datasets": {
+    "NanoNQ": {
+      "documents": 5035,
+      "queries": 50,
+      "qrels": 57,
+      "excluded_overlap": 1,
+      "pending_support_review": 49
+    },
+    "NanoMSMARCO": {
+      "documents": 5043,
+      "queries": 50,
+      "qrels": 50,
+      "excluded_overlap": 0,
+      "pending_support_review": 50
+    }
+  },
+  "candidate_count": 100,
+  "prior_questions": 200,
+  "prior_unique_texts": 229,
+  "source_family_count": 100,
+  "family_edges": [],
+  "outcomes_examined": false,
+  "limitation": "Lexical screening only; source URLs are absent. Article/entity or semantic independence is not guaranteed. Qrels are relevance labels, not complete answer labels."
+}

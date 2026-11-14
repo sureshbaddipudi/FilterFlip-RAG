@@ -23,3 +23,5 @@ The [preparation scripts](reference/output/filterflip_study_v1/) record how the 
 ```bash
 python3 -B -m unittest discover -s research/baseline/reference/output/filterflip_study_v1 -p test_preparation.py
 ```
+
+At the initial screen, one of 100 candidate questions overlapped with earlier work. The remaining 99 went forward for source review. See the [selection rules](reference/output/filterflip_study_v1/SOURCE_SELECTION.md), [recorded screening counts](reference/output/filterflip_study_v1/screened/screening_summary.json) and [dataset acquisition record](reference/output/filterflip_study_v1/sources/acquisition.json). The 59 primary cases reported above belong to the later outcome evaluation.
