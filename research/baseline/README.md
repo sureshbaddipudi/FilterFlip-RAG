@@ -25,3 +25,15 @@ python3 -B -m unittest discover -s research/baseline/reference/output/filterflip
 ```
 
 At the initial screen, one of 100 candidate questions overlapped with earlier work. The remaining 99 went forward for source review. See the [selection rules](reference/output/filterflip_study_v1/SOURCE_SELECTION.md), [recorded screening counts](reference/output/filterflip_study_v1/screened/screening_summary.json) and [dataset acquisition record](reference/output/filterflip_study_v1/sources/acquisition.json). The 59 primary cases reported above belong to the later outcome evaluation.
+
+### Which questions entered the primary study?
+
+| Dataset | Starting questions | Prior overlap | Reviewed for source support | Excluded at source review | Eligible |
+|---|---:|---:|---:|---:|---:|
+| NanoNQ | 50 | 1 | 49 | 14 | 35 |
+| NanoMSMARCO | 50 | 0 | 50 | 26 | 24 |
+| **Total** | **100** | **1** | **99** | **40** | **59** |
+
+The [case-level eligibility table](reference/output/filterflip_study_v1/screened/source_eligibility.csv) joins the original screening records to the frozen source decisions and retrieval case manifest by case ID. The overlap exclusion has a blank source decision because it did not proceed to source review. In the overlap-screen column, `pending_support_review` records the status before source eligibility was decided.
+
+The last column preserves the manifest's original source-review status for eligible cases. At selection, 24 carried `user_recorded_review` and 35 carried `assistant_only`. Later human confirmation concerned the recorded experimental outcomes. The table describes how questions entered the study, before those outcomes were known.
