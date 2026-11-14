@@ -37,3 +37,13 @@ At the initial screen, one of 100 candidate questions overlapped with earlier wo
 The [case-level eligibility table](reference/output/filterflip_study_v1/screened/source_eligibility.csv) joins the original screening records to the frozen source decisions and retrieval case manifest by case ID. The overlap exclusion has a blank source decision because it did not proceed to source review. In the overlap-screen column, `pending_support_review` records the status before source eligibility was decided.
 
 The last column preserves the manifest's original source-review status for eligible cases. At selection, 24 carried `user_recorded_review` and 35 carried `assistant_only`. Later human confirmation concerned the recorded experimental outcomes. The table describes how questions entered the study, before those outcomes were known.
+
+## What the retriever found
+
+Each eligible question contributed five retrieved passages in each of nine corpus conditions. In the clean corpus, the designated answer source appeared in the top five for 39 of 59 questions. With one prefixed answer-source copy (PN1), the original or its copy appeared for 41 of 59. A retrieved passage can come from the right document yet omit the sentence needed to answer the question. The filtering and answer reviews address that separate question.
+
+The [case-level retrieval indicators](reference/output/filterflip_study_v1_retrieval/retrieval_indicators.csv) summarize the saved contexts. A value of 1 means the indicator was observed for that question and condition. The [original summary](reference/output/filterflip_study_v1_retrieval/results/retrieval_run1/summary.json) gives totals by condition. The [original structural audit](reference/output/filterflip_study_v1_retrieval/RESULT_AUDIT.json) records the checks performed on the full retrieval evidence at that stage. To recount the published indicators from the repository root:
+
+```bash
+python3 -B research/baseline/reference/output/filterflip_study_v1_retrieval/check_retrieval_counts.py
+```

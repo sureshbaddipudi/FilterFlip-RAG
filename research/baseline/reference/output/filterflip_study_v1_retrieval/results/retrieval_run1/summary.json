@@ -1,0 +1,228 @@
+{
+  "stage": "retrieval_only",
+  "status": "PROVISIONAL_SOURCE_LABELS",
+  "planned_questions": 59,
+  "planned_contexts": 531,
+  "completed_contexts": 531,
+  "unavailable_contexts": 0,
+  "faults": 0,
+  "seconds": 521.36,
+  "label_strata": {
+    "user_recorded_review": 24,
+    "assistant_only": 35
+  },
+  "corpora": {
+    "NanoNQ": {
+      "documents": 5035,
+      "chunks": 5547,
+      "max_chunk_tokens": 242,
+      "truncated_chunks": 0
+    },
+    "NanoMSMARCO": {
+      "documents": 5043,
+      "chunks": 5044,
+      "max_chunk_tokens": 242,
+      "truncated_chunks": 0
+    }
+  },
+  "conditions": {
+    "C": {
+      "completed": 59,
+      "original_source_retrieved": 39,
+      "original_or_source_copy_retrieved": 39,
+      "quote_in_single_chunk": 40,
+      "contexts_with_additions": 0,
+      "inserted_document_exposure_counts": {
+        "0": 59
+      },
+      "boundary_exact_ties": 0,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 24
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    },
+    "BN1": {
+      "completed": 59,
+      "original_source_retrieved": 39,
+      "original_or_source_copy_retrieved": 39,
+      "quote_in_single_chunk": 39,
+      "contexts_with_additions": 57,
+      "inserted_document_exposure_counts": {
+        "1": 57,
+        "0": 2
+      },
+      "boundary_exact_ties": 0,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 24
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    },
+    "BN2": {
+      "completed": 59,
+      "original_source_retrieved": 37,
+      "original_or_source_copy_retrieved": 37,
+      "quote_in_single_chunk": 37,
+      "contexts_with_additions": 58,
+      "inserted_document_exposure_counts": {
+        "2": 55,
+        "1": 3,
+        "0": 1
+      },
+      "boundary_exact_ties": 1,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 22
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    },
+    "PN1": {
+      "completed": 59,
+      "original_source_retrieved": 39,
+      "original_or_source_copy_retrieved": 41,
+      "quote_in_single_chunk": 42,
+      "contexts_with_additions": 41,
+      "inserted_document_exposure_counts": {
+        "1": 41,
+        "0": 18
+      },
+      "boundary_exact_ties": 0,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 26
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    },
+    "PN2": {
+      "completed": 59,
+      "original_source_retrieved": 38,
+      "original_or_source_copy_retrieved": 41,
+      "quote_in_single_chunk": 42,
+      "contexts_with_additions": 41,
+      "inserted_document_exposure_counts": {
+        "2": 39,
+        "0": 18,
+        "1": 2
+      },
+      "boundary_exact_ties": 0,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 26
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    },
+    "BE1": {
+      "completed": 59,
+      "original_source_retrieved": 39,
+      "original_or_source_copy_retrieved": 39,
+      "quote_in_single_chunk": 39,
+      "contexts_with_additions": 59,
+      "inserted_document_exposure_counts": {
+        "1": 59
+      },
+      "boundary_exact_ties": 0,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 24
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    },
+    "BE2": {
+      "completed": 59,
+      "original_source_retrieved": 37,
+      "original_or_source_copy_retrieved": 37,
+      "quote_in_single_chunk": 37,
+      "contexts_with_additions": 59,
+      "inserted_document_exposure_counts": {
+        "2": 59
+      },
+      "boundary_exact_ties": 0,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 22
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    },
+    "PE1": {
+      "completed": 59,
+      "original_source_retrieved": 39,
+      "original_or_source_copy_retrieved": 39,
+      "quote_in_single_chunk": 40,
+      "contexts_with_additions": 39,
+      "inserted_document_exposure_counts": {
+        "1": 39,
+        "0": 20
+      },
+      "boundary_exact_ties": 0,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 24
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    },
+    "PE2": {
+      "completed": 59,
+      "original_source_retrieved": 39,
+      "original_or_source_copy_retrieved": 39,
+      "quote_in_single_chunk": 40,
+      "contexts_with_additions": 39,
+      "inserted_document_exposure_counts": {
+        "2": 37,
+        "0": 20,
+        "1": 2
+      },
+      "boundary_exact_ties": 2,
+      "by_review_status": {
+        "assistant_only": {
+          "completed": 35,
+          "original_or_source_copy_retrieved": 24
+        },
+        "user_recorded_review": {
+          "completed": 24,
+          "original_or_source_copy_retrieved": 15
+        }
+      }
+    }
+  }
+}

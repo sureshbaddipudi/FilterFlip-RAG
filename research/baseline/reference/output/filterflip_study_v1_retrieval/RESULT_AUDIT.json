@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "contexts": 531,
+  "unique_questions": 59,
+  "checks": [
+    "all planned query-condition pairs once each",
+    "all top-five text spans match source or condition-specific addition",
+    "whole-source copy construction",
+    "scores and deterministic within-context ordering",
+    "same-text scores equal within contexts",
+    "summary recomputed from raw contexts",
+    "no truncated saved chunks",
+    "review provenance retained",
+    "frozen input and result hashes match"
+  ],
+  "limits": "No independent semantic support or answer-accuracy adjudication. Source annotations remain partially user-reviewed."
+}
