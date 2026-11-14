@@ -12,3 +12,12 @@ From the repository root, these two suites exercise the published code with temp
 python3 -B -m unittest discover -s research/week06/audit/tests
 python3 -B research/week06/generation-logging/tests/test_response_capture.py
 ```
+
+The original policy runner and its logging revision each include a filter worker and synthetic runner tests. The tests use temporary fixtures for review checks, request identity, worker cancellation and recorded execution limits. From the repository root:
+
+```bash
+python3 -B -m unittest discover -s research/week06/policies/tests
+python3 -B -m unittest discover -s research/week06/generation-logging/tests
+```
+
+A live filter run requires the matching full preparation, approved review, model and vendor files from the semester handover.
