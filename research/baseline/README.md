@@ -119,3 +119,9 @@ python3 -B "$base/filterflip_study_v1_second_generator/test_execution_checks.py"
 The [Qwen audit](reference/output/filterflip_study_v1_answers/audit_answers.py) reconstructs requests from the saved passages and checks their identities, response reuse and token counts. The [Llama audit](reference/output/filterflip_study_v1_second_generator/audit_second.py) also compares each request with its Qwen counterpart to verify that the supplied messages and passage order were preserved.
 
 Both scripts operate on the full semester handover, including its frozen inputs and raw response logs. Run them in a working copy of that handover using standard Python with assertions enabled. They write validation reports locally, and the Llama audit also writes a paired-answer table. For a checkout containing only the published evidence, use the [answer count checker](reference/output/filterflip_study_v1_answers/check_answer_counts.py).
+
+### How answer runs were prepared and reviewed
+
+The [Qwen preparation script](reference/output/filterflip_study_v1_answers/prepare.py) records the model configuration, checks token accounting with a local probe, and freezes the filtered and unfiltered requests. The [Llama preparation script](reference/output/filterflip_study_v1_second_generator/prepare.py) prepares the comparison on the selected 12 questions. These are the original setup scripts for the full semester handover and require its inputs and model service.
+
+The [progress tracker](reference/output/filterflip_study_v1_answers/track_progress.py) counts completed requests from the saved Qwen logs. The [paired-answer review builder](reference/output/filterflip_study_v1_answers/build_review.py) puts the six primary and control answers side by side for each of the 59 questions. It produces the worksheet used before outcome scoring. The accepted decisions are in the [primary outcome table](reference/output/filterflip_study_v1_outcome_review/primary_outcomes.csv).
