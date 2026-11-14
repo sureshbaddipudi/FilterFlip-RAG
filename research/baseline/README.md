@@ -101,3 +101,15 @@ Three follow-up checks used a preselected subset of 12 questions. Each asked a d
 | Answer model | On the same saved passages, both Qwen2.5:3b and Llama3.2:3b named Nicole Gale Anderson before PN1 filtering and abstained afterward. Across the subset, 66 distinct Llama requests covered 72 answer conditions. [Second-model audit](reference/output/filterflip_study_v1_second_generator/VALIDATION.json) |
 
 The archived model comparison also records a counterexample. For the Three-Fifths Compromise question, a different retained passage still supported the answer, and both models answered correctly. The execution audits linked above document coverage and consistency. The Heather and Three-Fifths interpretations come from the original assistant-reviewed diagnostics. The 12 selected questions are a follow-up to the primary study and contribute no additional cases to its denominator of 59.
+
+## Answer-generation code and offline tests
+
+The [Qwen runner](reference/output/filterflip_study_v1_answers/run_answers.py) formats the question and passages, identifies identical requests, and records the response and its execution status. The [Llama runner](reference/output/filterflip_study_v1_second_generator/run_second.py) uses the same request-handling helpers for the second-model comparison. The original full runs depend on the semester handover's frozen request files, manifests, tokenizer assets and pinned local model service.
+
+From the repository root, run the original unit tests with Python 3. They use small in-memory examples and require no model service:
+
+```bash
+base=research/baseline/reference/output
+python3 -B "$base/filterflip_study_v1_answers/test_answers.py"
+python3 -B "$base/filterflip_study_v1_second_generator/test_execution_checks.py"
+```
