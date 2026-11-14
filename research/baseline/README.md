@@ -47,3 +47,21 @@ The [case-level retrieval indicators](reference/output/filterflip_study_v1_retri
 ```bash
 python3 -B research/baseline/reference/output/filterflip_study_v1_retrieval/check_retrieval_counts.py
 ```
+
+## What remained after filtering
+
+For each of the same 59 questions and nine conditions, the native filter selected passages from the retrieved top five. The table counts questions where the full reference quote appeared in a single passage.
+
+| Corpus condition | Before filtering | After filtering |
+|---|---:|---:|
+| Clean (C) | 40 | 20 |
+| One prefixed background copy (BN1) | 39 | 33 |
+| One prefixed answer-source copy (PN1) | 42 | 9 |
+
+In PN1, 33 questions lost the literal quote during filtering. Another passage could still express the same fact. Establishing a failure in the final answer required a separate review of the surviving evidence and the generated answers.
+
+See the [original filter summary](reference/output/filterflip_study_v1_filter/results/filter_run1/summary.json) for all nine conditions and the [archived validation record](reference/output/filterflip_study_v1_filter/VALIDATION.json) for the original checks. The [case-level indicators](reference/output/filterflip_study_v1_filter/filter_indicators.csv) preserve the before-and-after quote and source-presence flags. To match those inputs to the published retrieval records and recount the totals, run this from the repository root:
+
+```bash
+python3 -B research/baseline/reference/output/filterflip_study_v1_filter/check_filter_counts.py
+```
