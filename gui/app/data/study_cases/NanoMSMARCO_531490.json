@@ -1,0 +1,2749 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:531490",
+    "dataset": "NanoMSMARCO",
+    "question": "uh uh definition",
+    "source_family": "NanoMSMARCO:531490",
+    "review_status": "assistant_only",
+    "target_document_id": "3550561",
+    "expected_answer": "An expression used to say no or emphasize a negative answer.",
+    "answer_aliases": [],
+    "support_quote": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+    "source_qualification": "Uh-uh, not the affirmative expression uh-huh.",
+    "qrel_document_ids": [
+      "3550561"
+    ],
+    "family_reference_texts": [
+      "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:531490",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "3550561",
+    "expected_answer": "An expression used to say no or emphasize a negative answer.",
+    "answer_aliases": [],
+    "support_quote": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+    "source_qualification": "Uh-uh, not the affirmative expression uh-huh.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:531490",
+    "dataset": "NanoMSMARCO",
+    "question": "uh uh definition",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:531490",
+      "dataset": "NanoMSMARCO",
+      "question": "uh uh definition",
+      "expected_answer": "An expression used to say no or emphasize a negative answer.",
+      "source_qualification": "Uh-uh, not the affirmative expression uh-huh.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Clean-answer prerequisite fails",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "clean_answer_fails_frozen_rubric",
+      "historical_rationale": "Clean filtered answer describes uncertainty (uh), rather than the negative response uh-uh.",
+      "current_assistant_rationale": "Clean filtered answer describes uncertainty (uh), rather than the negative response uh-uh.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/49",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/49",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoMSMARCO_531490.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 442,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 295,
+              "call_id": "NanoMSMARCO:531490__C__unfiltered",
+              "request_sha256": "3ee98485e4704a228b41cea3c4d1ff2650953e7dd8524a05416bbac851b26e19"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 296,
+              "call_id": "NanoMSMARCO:531490__C__filtered",
+              "request_sha256": "06772f253ab550f40dedc9cca6e48b78e6f56d2d47a9f1c60e3c827732e9bc05"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 443,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 297,
+              "call_id": "NanoMSMARCO:531490__BN1__unfiltered",
+              "request_sha256": "d4815583597d4d01b7e33bed42a0d26dc184c222bdf855e2b746f6d380f910d5"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 298,
+              "call_id": "NanoMSMARCO:531490__BN1__filtered",
+              "request_sha256": "e6d6c3604d43c86ec5b5be6534b3a034bf7101ca64589bf42e0caea661be70d4"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 445,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 299,
+              "call_id": "NanoMSMARCO:531490__PN1__unfiltered",
+              "request_sha256": "7e3ab8b99bd645c902843e1a2368b46d819e013628aa46dc7327c32877c5d1c9"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 300,
+              "call_id": "NanoMSMARCO:531490__PN1__filtered",
+              "request_sha256": "08669901618a97bd0b19f247700c4a7823e8fd38e4663793d0dd044396d56ee5"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:531490",
+    "question": "uh uh definition",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:531490"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7054660320281982,
+          "kept": true
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6337102651596069,
+          "kept": true
+        },
+        {
+          "chunk_id": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7698064",
+          "instance_key": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Use uh in a sentence. 1  huh. 2  used when hesitating in speaking, as while searching for a word or collecting one's thoughts: a prolonged sound.",
+          "text_sha256": "1533d99615ec094eb8975a8117a4b76e408bda8ed18d5e04093206280297ee5c",
+          "char_start": 0,
+          "char_end": 145,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5898847579956055,
+          "kept": true
+        },
+        {
+          "chunk_id": "877455c63378c8042766d767ddabaa57112d42d3d11642ad97f3c50db5855ff8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592497",
+          "instance_key": "877455c63378c8042766d767ddabaa57112d42d3d11642ad97f3c50db5855ff8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "ur·ban. adj. 1. Of, relating to, or located in a city. 2. Characteristic of the city or city life.",
+          "text_sha256": "abb73dd7037b16688a96ec1d813670914317a98a75e137957ee802165389a47d",
+          "char_start": 0,
+          "char_end": 98,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.41417473554611206,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.6158109288091431,
+          0.6158109288091431,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.007309317588806152,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7462395429611206
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6877423524856567
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6762243509292603
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6656312346458435
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.3367592692375183
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3177768588066101
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.24488136172294617
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.2187606245279312
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__C__unfiltered",
+          "request_sha256": "3ee98485e4704a228b41cea3c4d1ff2650953e7dd8524a05416bbac851b26e19",
+          "reference": {
+            "status": "ok",
+            "answer": "uh uh is used to say no or to emphasize a negative answer.",
+            "first_call_id": "NanoMSMARCO:531490__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is used to say no or to emphasize a negative answer. It can also be used as a filler or pause during conversation.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__C__filtered",
+          "request_sha256": "06772f253ab550f40dedc9cca6e48b78e6f56d2d47a9f1c60e3c827732e9bc05",
+          "reference": {
+            "status": "ok",
+            "answer": "uh is an expression of confusion or uncertainty.",
+            "first_call_id": "NanoMSMARCO:531490__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is used as an expression of confusion or uncertainty.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "97565cf19e9958168ad741c89c0c9255c9b19afc82ceac3c017e0840d2be4432:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/BN/1",
+          "instance_key": "97565cf19e9958168ad741c89c0c9255c9b19afc82ceac3c017e0840d2be4432",
+          "chunk_index": 0,
+          "copied_from": "3550563",
+          "copy_number": 1,
+          "text": "Source excerpt.\nWiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "eda3d11218aa97f6d7f6a1623cbfb2a5b1a6ce74a50ca0dfe8465792ee267f3f",
+          "char_start": 0,
+          "char_end": 236,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7097287178039551,
+          "kept": false
+        },
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7054660320281982,
+          "kept": false
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6337102651596069,
+          "kept": false
+        },
+        {
+          "chunk_id": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7698064",
+          "instance_key": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Use uh in a sentence. 1  huh. 2  used when hesitating in speaking, as while searching for a word or collecting one's thoughts: a prolonged sound.",
+          "text_sha256": "1533d99615ec094eb8975a8117a4b76e408bda8ed18d5e04093206280297ee5c",
+          "char_start": 0,
+          "char_end": 145,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5898847579956055,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.2039100050166773,
+          1.7638732319644461,
+          2.1991283563777912,
+          1.7950627300935587,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          3,
+          1,
+          4
+        ],
+        "removal_gap": 1.7638732319644461,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.05849701166152954,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.989406168460846
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7961134314537048
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7847362756729126
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7774270176887512
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7688880562782288
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7462394833564758
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6877424716949463
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6762243509292603
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6656314134597778
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6611173748970032
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__BN1__unfiltered",
+          "request_sha256": "d4815583597d4d01b7e33bed42a0d26dc184c222bdf855e2b746f6d380f910d5",
+          "reference": {
+            "status": "ok",
+            "answer": "uh uh is used to say no or to emphasize a negative answer. It can also be used as a space filler or pause during conversation.",
+            "first_call_id": "NanoMSMARCO:531490__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh uh is used to say no or to emphasize a negative answer. It can also be used to indicate confusion or uncertainty, or as a space filler or pause during conversation.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__BN1__filtered",
+          "request_sha256": "e6d6c3604d43c86ec5b5be6534b3a034bf7101ca64589bf42e0caea661be70d4",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:531490__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Uh is used when hesitating in speaking, as while searching for a word or collecting one's thoughts: a prolonged sound.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "c277ee17f76fe071d871379c1fed2d2a000537c0e9a94419257b44a01ae3bc50:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/BN/2",
+          "instance_key": "c277ee17f76fe071d871379c1fed2d2a000537c0e9a94419257b44a01ae3bc50",
+          "chunk_index": 0,
+          "copied_from": "3550563",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nWiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "85f6d47a9cf2f2625a1bc2e649bbdf46bdf423fd26d2d47c235ab37b3e31c037",
+          "char_start": 0,
+          "char_end": 239,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7099802494049072,
+          "kept": false
+        },
+        {
+          "chunk_id": "97565cf19e9958168ad741c89c0c9255c9b19afc82ceac3c017e0840d2be4432:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/BN/1",
+          "instance_key": "97565cf19e9958168ad741c89c0c9255c9b19afc82ceac3c017e0840d2be4432",
+          "chunk_index": 0,
+          "copied_from": "3550563",
+          "copy_number": 1,
+          "text": "Source excerpt.\nWiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "eda3d11218aa97f6d7f6a1623cbfb2a5b1a6ce74a50ca0dfe8465792ee267f3f",
+          "char_start": 0,
+          "char_end": 236,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7097287178039551,
+          "kept": false
+        },
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.706095278263092,
+          "kept": true
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7054660320281982,
+          "kept": false
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6337102651596069,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          1.9820126921502208,
+          1.9769040367234147,
+          0.0,
+          1.9629577878035498,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "removal_gap": 1.9629577878035498,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.1932927370071411,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9989892244338989
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.991984486579895
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.989406168460846
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7961134314537048
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7890139818191528
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7847362756729126
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7774270176887512
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.769074559211731
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7688880562782288
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7462394833564758
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__BN2__unfiltered",
+          "request_sha256": "4d46f4b50fe4753ac81088e7f4ec66e23392640bb5de94ec002b23321e22e722",
+          "reference": {
+            "status": "ok",
+            "answer": "uh uh is used to say no or to emphasize a negative answer to a question, request, or offer. It can also be used as an expression of confusion or uncertainty, or as a space filler or pause during conversation.",
+            "first_call_id": "NanoMSMARCO:531490__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh uh is used to say no or to emphasize a negative answer. It can also be used as an expression of confusion or uncertainty, or as a space filler or pause during conversation.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__BN2__filtered",
+          "request_sha256": "dada072bac1ebfa072f5128c13a668615294c916899d28ab8b0a24a73e86ce28",
+          "reference": {
+            "status": "ok",
+            "answer": "uh–uh is used to say no or to emphasize a negative answer.",
+            "first_call_id": "NanoMSMARCO:531490__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh–uh is used to say no or to emphasize a negative answer.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7054660320281982,
+          "kept": true
+        },
+        {
+          "chunk_id": "2a344823bc91fbed1cf389c00fa71a5c13b8a151486a44f573e63bee7e04d853:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/PN/1",
+          "instance_key": "2a344823bc91fbed1cf389c00fa71a5c13b8a151486a44f573e63bee7e04d853",
+          "chunk_index": 0,
+          "copied_from": "3550561",
+          "copy_number": 1,
+          "text": "Source excerpt.\nDefinition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "2315ea1c0c885ede128588cf290df8022f724e29ef76101c13528e1dcc12272f",
+          "char_start": 0,
+          "char_end": 150,
+          "tokens_with_specials": 35,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6796742081642151,
+          "kept": false
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6337102651596069,
+          "kept": true
+        },
+        {
+          "chunk_id": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7698064",
+          "instance_key": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Use uh in a sentence. 1  huh. 2  used when hesitating in speaking, as while searching for a word or collecting one's thoughts: a prolonged sound.",
+          "text_sha256": "1533d99615ec094eb8975a8117a4b76e408bda8ed18d5e04093206280297ee5c",
+          "char_start": 0,
+          "char_end": 145,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5898847579956055,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.879597278113252,
+          0.0,
+          0.879597278113252,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 0.879597278113252,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.15313225984573364,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9378684759140015
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7462395429611206
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7024067640304565
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6877423524856567
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6820873022079468
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6762243509292603
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6656312346458435
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6342072486877441
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__PN1__unfiltered",
+          "request_sha256": "7e3ab8b99bd645c902843e1a2368b46d819e013628aa46dc7327c32877c5d1c9",
+          "reference": {
+            "status": "ok",
+            "answer": "\"uh uh\" is used to say no or to emphasize a negative answer.",
+            "first_call_id": "NanoMSMARCO:531490__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "\"uh uh\" is used to say no or to emphasize a negative answer.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__PN1__filtered",
+          "request_sha256": "08669901618a97bd0b19f247700c4a7823e8fd38e4663793d0dd044396d56ee5",
+          "reference": {
+            "status": "ok",
+            "answer": "uh is an interjection used to express confusion or uncertainty.",
+            "first_call_id": "NanoMSMARCO:531490__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is an expression of confusion or uncertainty.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7054660320281982,
+          "kept": true
+        },
+        {
+          "chunk_id": "2b8062a6596507d872b5deb8a52d713066c16a98938cf7bfb6a46c11d7c44031:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/PN/2",
+          "instance_key": "2b8062a6596507d872b5deb8a52d713066c16a98938cf7bfb6a46c11d7c44031",
+          "chunk_index": 0,
+          "copied_from": "3550561",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nDefinition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "60682cd1bf16de0ec653c7faf505b7abdaa6dc4872bf6f7584400573608edfde",
+          "char_start": 0,
+          "char_end": 153,
+          "tokens_with_specials": 35,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7048331499099731,
+          "kept": false
+        },
+        {
+          "chunk_id": "2a344823bc91fbed1cf389c00fa71a5c13b8a151486a44f573e63bee7e04d853:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/PN/1",
+          "instance_key": "2a344823bc91fbed1cf389c00fa71a5c13b8a151486a44f573e63bee7e04d853",
+          "chunk_index": 0,
+          "copied_from": "3550561",
+          "copy_number": 1,
+          "text": "Source excerpt.\nDefinition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "2315ea1c0c885ede128588cf290df8022f724e29ef76101c13528e1dcc12272f",
+          "char_start": 0,
+          "char_end": 150,
+          "tokens_with_specials": 35,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6796742081642151,
+          "kept": false
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6337102651596069,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.7167214246557734,
+          0.0,
+          1.7612709139383043,
+          1.8037440455090348,
+          0.0
+        ],
+        "removal_ranking": [
+          3,
+          2,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 1.7167214246557734,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.13020867109298706,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9613255262374878
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.9378684759140015
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9149448871612549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7462395429611206
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7096350193023682
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7024067640304565
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7002318501472473
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6820873022079468
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__PN2__unfiltered",
+          "request_sha256": "f803cd599c6fdd05df1ff6ef0dfa438cdc4c87ba99e83f237185c9682ccfd292",
+          "reference": {
+            "status": "ok",
+            "answer": "used to say no or to emphasize a negative answer to a question, request, or offer.",
+            "first_call_id": "NanoMSMARCO:531490__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "\"uh uh\" is used to say no or to emphasize a negative answer to a question, request, or offer. It can also be used as a space filler or pause during conversation.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__PN2__filtered",
+          "request_sha256": "98a2c37f5c38839b0257cf2af052d5849a5b66097611804be0598dce741015e6",
+          "reference": {
+            "status": "ok",
+            "answer": "uh is an expression of confusion or uncertainty.",
+            "first_call_id": "NanoMSMARCO:531490__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is an expression of confusion or uncertainty.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7054660320281982,
+          "kept": false
+        },
+        {
+          "chunk_id": "dd7819b6770012f129a30b7a0906c35cf9213e4a051e6cbbe36e40eabd1fb5da:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/BE/1",
+          "instance_key": "dd7819b6770012f129a30b7a0906c35cf9213e4a051e6cbbe36e40eabd1fb5da",
+          "chunk_index": 0,
+          "copied_from": "3550563",
+          "copy_number": 1,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7054660320281982,
+          "kept": false
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6337102651596069,
+          "kept": false
+        },
+        {
+          "chunk_id": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7698064",
+          "instance_key": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Use uh in a sentence. 1  huh. 2  used when hesitating in speaking, as while searching for a word or collecting one's thoughts: a prolonged sound.",
+          "text_sha256": "1533d99615ec094eb8975a8117a4b76e408bda8ed18d5e04093206280297ee5c",
+          "char_start": 0,
+          "char_end": 145,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5898847579956055,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.7884953130971084,
+          2.2202035112885383,
+          2.2202035112885383,
+          1.7656586204376126,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.7656586204376126,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.05849719047546387,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7462395429611206
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6877423524856567
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6762243509292603
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6656312346458435
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6656312346458435
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__BE1__unfiltered",
+          "request_sha256": "7d9f5ead3450a8873cca8504fd8c7f63e70697c7e06423b0acdc80153dbdd660",
+          "reference": {
+            "status": "ok",
+            "answer": "uh-uh is used to say no or to emphasize a negative answer.",
+            "first_call_id": "NanoMSMARCO:531490__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "\"Uh uh\" is used to say no or to emphasize a negative answer.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__BE1__filtered",
+          "request_sha256": "e6d6c3604d43c86ec5b5be6534b3a034bf7101ca64589bf42e0caea661be70d4",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:531490__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Uh is used when hesitating in speaking, as while searching for a word or collecting one's thoughts: a prolonged sound.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.706095278263092,
+          "kept": true
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7054660320281982,
+          "kept": false
+        },
+        {
+          "chunk_id": "247df26982c2b2fa443f5dc2bc4c89fb73c3b24a597bdb662c5ed253574329a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/BE/2",
+          "instance_key": "247df26982c2b2fa443f5dc2bc4c89fb73c3b24a597bdb662c5ed253574329a2",
+          "chunk_index": 0,
+          "copied_from": "3550563",
+          "copy_number": 2,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7054660320281982,
+          "kept": false
+        },
+        {
+          "chunk_id": "dd7819b6770012f129a30b7a0906c35cf9213e4a051e6cbbe36e40eabd1fb5da:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/BE/1",
+          "instance_key": "dd7819b6770012f129a30b7a0906c35cf9213e4a051e6cbbe36e40eabd1fb5da",
+          "chunk_index": 0,
+          "copied_from": "3550563",
+          "copy_number": 1,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7054660320281982,
+          "kept": false
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6337102651596069,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.0,
+          2.0,
+          2.0,
+          2.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.21526378393173218,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7462395429611206
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__BE2__unfiltered",
+          "request_sha256": "d2a3cb6966474725c7796b5a7dbe4b8786a518b4bf83e777ed703a8518417366",
+          "reference": {
+            "status": "ok",
+            "answer": "uh is used to say no or to emphasize a negative answer. It can also be an expression of confusion or uncertainty, or a space filler during conversation.",
+            "first_call_id": "NanoMSMARCO:531490__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is used to express confusion or uncertainty and can also be a space filler or pause during conversation.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__BE2__filtered",
+          "request_sha256": "dada072bac1ebfa072f5128c13a668615294c916899d28ab8b0a24a73e86ce28",
+          "reference": {
+            "status": "ok",
+            "answer": "uh–uh is used to say no or to emphasize a negative answer.",
+            "first_call_id": "NanoMSMARCO:531490__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh–uh is used to say no or to emphasize a negative answer.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "82f0ae87090f8dd2c5376a9938c630ad8ff70c3dd79e416413b97235d667489e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/PE/1",
+          "instance_key": "82f0ae87090f8dd2c5376a9938c630ad8ff70c3dd79e416413b97235d667489e",
+          "chunk_index": 0,
+          "copied_from": "3550561",
+          "copy_number": 1,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7054660320281982,
+          "kept": false
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6337102651596069,
+          "kept": true
+        },
+        {
+          "chunk_id": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7698064",
+          "instance_key": "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Use uh in a sentence. 1  huh. 2  used when hesitating in speaking, as while searching for a word or collecting one's thoughts: a prolonged sound.",
+          "text_sha256": "1533d99615ec094eb8975a8117a4b76e408bda8ed18d5e04093206280297ee5c",
+          "char_start": 0,
+          "char_end": 145,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5898847579956055,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.6158116440650083,
+          1.6158116440650083,
+          1.2316218576182862,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.2316218576182862,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.007309317588806152,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000003576278687
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7462395429611206
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7462395429611206
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6877423524856567
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6762243509292603
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6762243509292603
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6656312346458435
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__PE1__unfiltered",
+          "request_sha256": "68833894b50b743302a6ace5c695533f5831b0d01e33177038c960277ab5d7ef",
+          "reference": {
+            "status": "ok",
+            "answer": "uh uh is used to say no or to emphasize a negative answer.",
+            "first_call_id": "NanoMSMARCO:531490__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is used to say no or to emphasize a negative answer. It can also be used as a filler or pause during conversation.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__PE1__filtered",
+          "request_sha256": "8ea3094316bb0b330fe0dda7f3ce1c7880e579d28ace66a11344fde18715577e",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:531490__PE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is used for expression of confusion or uncertainty or as a space filler during conversation.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:531490",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "76cb3b41643d1b36d1c141618b10b8042b344e4a2a424878e9b5c32b14b24569:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/PE/2",
+          "instance_key": "76cb3b41643d1b36d1c141618b10b8042b344e4a2a424878e9b5c32b14b24569",
+          "chunk_index": 0,
+          "copied_from": "3550561",
+          "copy_number": 2,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "82f0ae87090f8dd2c5376a9938c630ad8ff70c3dd79e416413b97235d667489e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:531490/PE/1",
+          "instance_key": "82f0ae87090f8dd2c5376a9938c630ad8ff70c3dd79e416413b97235d667489e",
+          "chunk_index": 0,
+          "copied_from": "3550561",
+          "copy_number": 1,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550561",
+          "instance_key": "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition of uh–uh for English Language Learners. —used to say no or to emphasize a negative answer to a question, request, or offer.",
+          "text_sha256": "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 32,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.706095278263092,
+          "kept": false
+        },
+        {
+          "chunk_id": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550563",
+          "instance_key": "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wiktionary(0.00 / 0 votes)Rate this definition: 1  uh(Noun) An occurrence of the interjection uh. 2  uh(Interjection) Expression of confusion or uncertainty. 3  uh(Interjection) Space filler or pause during conversation.",
+          "text_sha256": "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "char_start": 0,
+          "char_end": 220,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7054660320281982,
+          "kept": true
+        },
+        {
+          "chunk_id": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3550559",
+          "instance_key": "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "uh (US) 1  Expression of confusion or uncertainty. 2  Space filler or pause during conversation.",
+          "text_sha256": "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "char_start": 0,
+          "char_end": 96,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6337102651596069,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0000014305117304,
+          2.0000014305117304,
+          2.0000014305117304,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0000014305117304,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.21526414155960083,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000003576278687
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000003576278687
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000003576278687
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7847362160682678
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7774268984794617
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7462395429611206
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7462395429611206
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7462395429611206
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:531490__PE2__unfiltered",
+          "request_sha256": "11f6b8b02dd467968d71c43cb82ece127388a92a9f45d902495ff57f1747f781",
+          "reference": {
+            "status": "ok",
+            "answer": "uh–uh is used to say no or to emphasize a negative answer to a question, request, or offer. It can also be used as a space filler or pause during conversation.",
+            "first_call_id": "NanoMSMARCO:531490__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is used to say no or emphasize a negative answer, and can also be an expression of confusion or uncertainty, or a space filler during conversation.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:531490__PE2__filtered",
+          "request_sha256": "98a2c37f5c38839b0257cf2af052d5849a5b66097611804be0598dce741015e6",
+          "reference": {
+            "status": "ok",
+            "answer": "uh is an expression of confusion or uncertainty.",
+            "first_call_id": "NanoMSMARCO:531490__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "uh is an expression of confusion or uncertainty.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

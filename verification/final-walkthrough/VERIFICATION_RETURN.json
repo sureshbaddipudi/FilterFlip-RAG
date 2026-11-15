@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "packet_version": "2.0",
+  "packet_manifest_sha256": "0e4688d950f13942e3d1c832ace1af4b5c83ba89b70f4e70a43f3c259a659725",
+  "received_zip_sha256": "921ad047d7f60620992698f8fbc5d91ee0fd4e680f9d4260fcbf79600e3b0252",
+  "reviewer": "Shradha",
+  "review_date": "2026-11-05",
+  "assistance_disclosure": "none",
+  "execution_ledger": "offline/EXECUTION.json",
+  "checks": {
+    "pristine_integrity_before": {
+      "status": "PASS",
+      "evidence": "pristine_before.json",
+      "notes": "Fresh v2.0 packet: 2733 files, 18 sealed components, manifest sha 0e4688d9...; no files modified."
+    },
+    "offline_reproduction": {
+      "status": "PASS",
+      "evidence": "offline/EXECUTION.json",
+      "notes": "39/39 steps PASS (NumPy and Node available), 0 model calls, no downloads or installs, 126 s (2026-11-05 10:06:43-10:08:54)."
+    },
+    "current_GUI_labels": {
+      "status": "PASS",
+      "evidence": "browser_notes/findings_and_evidence_text.txt",
+      "notes": "v2.0 live v2.6 app: title \"Semester walkthrough v2.6\", badge \"Local CPU \u00b7 Fresh inference\", tabs Live demonstration / All nine saved conditions / Findings and Evidence, four modes, all-nine mode lists 59 cases and C,BN1,BN2,PN1,PN2,BE1,BE2,PE1,PE2. Run enabled, Stop and Export disabled at start. Run was never clicked."
+    },
+    "Heather_recorded_case": {
+      "status": "PASS",
+      "evidence": "browser_notes/03_heather_expanded.txt",
+      "notes": "Recorded case opened and all sections expanded in the live v2.6 app."
+    },
+    "joint_rule_case": {
+      "status": "PASS",
+      "evidence": "browser_notes/04_targeted_victory_expanded.txt",
+      "notes": "Targeted victory recorded case opened; joint and core-answer rule text present."
+    },
+    "non_event_case": {
+      "status": "PASS",
+      "evidence": "browser_notes/05_ucc_expanded.txt",
+      "notes": "UCC recorded case opened; not-applicable text present."
+    },
+    "saved_Task12_answer_review": {
+      "status": "PASS",
+      "evidence": "TASK12_ANSWER_REVIEW.json",
+      "notes": "20 records reviewed (10 correct_supported, 9 abstention, 1 incorrect). Decisions made 2026-11-03 for the first Task 13 return and confirmed again 2026-11-05."
+    },
+    "limitations_and_source_precedence": {
+      "status": "PASS",
+      "evidence": "TASK13_REPORT.md",
+      "notes": "Limitations listed in section 5 of the report; earlier attribution, R110 uncertainty and scientific labels unchanged."
+    },
+    "pristine_integrity_after": {
+      "status": "PASS",
+      "evidence": "pristine_after.json",
+      "notes": ""
+    },
+    "live_v26_GUI_and_existing_evidence": {
+      "status": "PASS",
+      "evidence": "existing_GUI_evidence/BINDINGS.json",
+      "notes": "Existing v2.6 GUI returns (Suresh 10 jobs/22 answers; Shradha 9+9 jobs/36 answers) accepted for the technical scope; Heather only; cancellation, download and other live modes not tested."
+    },
+    "human_report_completed": {
+      "status": "PASS",
+      "evidence": "TASK13_REPORT.md",
+      "notes": ""
+    }
+  },
+  "recommendation": "accept_with_listed_limitations",
+  "unresolved_discrepancy_ids": [],
+  "comments": "",
+  "human_review_scope": "New Task-12 saved 20-answer review and final handover verification. Existing v2.6 GUI test evidence is supplied for reference; no new model calls are required.",
+  "human_report": {
+    "status": "completed",
+    "file": "TASK13_REPORT.md"
+  }
+}

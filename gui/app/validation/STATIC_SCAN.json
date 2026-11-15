@@ -1,0 +1,255 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-27T17:01:10Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 7,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 576,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "development/FilterFlip_Review_Demo_v2/backend.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 201,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "development/FilterFlip_Review_Demo_v2/common.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 51,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "development/FilterFlip_Review_Demo_v2/launch.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 11,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "development/FilterFlip_Review_Demo_v2/policies.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 37,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "development/FilterFlip_Review_Demo_v2/safety.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 87,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "development/FilterFlip_Review_Demo_v2/server.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 185,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "development/FilterFlip_Review_Demo_v2/verify_release.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "6 import argparse, contextlib, hashlib, importlib.util, importlib.metadata\n7 import json, os, socket, subprocess, sys, time, urllib.request, urllib.error\n8 from safety import load, save, decode, check_selection, verify_release, policy_decision\n",
+      "col_offset": 0,
+      "end_col_offset": 76,
+      "filename": "development/FilterFlip_Review_Demo_v2/backend.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "134         tok=Qwen2Tokenizer(vocab_file=str(verified(prefix+'vocab.json')),merges_file=str(verified(prefix+'merges.txt')),\n135             eos_token='<|im_end|>',additional_special_tokens=['<|im_start|>','<|im_end|>'])\n136         result['identity']={'files':used,'versions':profile['versions'],'encoder_files':profile['model_files'],\n137                             'backend_sha256':sha(Path(__file__).read_bytes()),'ollama_binary_sha256':sha(Path(cfg['ollama_binary']).read_bytes())}\n",
+      "col_offset": 12,
+      "end_col_offset": 91,
+      "filename": "development/FilterFlip_Review_Demo_v2/backend.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: '<|im_end|>'",
+      "line_number": 135,
+      "line_range": [
+        134,
+        135
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b106_hardcoded_password_funcarg.html",
+      "test_id": "B106",
+      "test_name": "hardcoded_password_funcarg"
+    },
+    {
+      "code": "144         log=(out/'ollama.log').open('wb')\n145         daemon=subprocess.Popen([cfg['ollama_binary'],'serve'],env=env,stdin=subprocess.DEVNULL,stdout=log,stderr=log)\n146         op=urllib.request.build_opener(urllib.request.ProxyHandler({}),NoRedirect())\n",
+      "col_offset": 15,
+      "end_col_offset": 118,
+      "filename": "development/FilterFlip_Review_Demo_v2/backend.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 145,
+      "line_range": [
+        145
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1 \"\"\"Launch the fixed CPU-only localhost review demo.\"\"\"\n2 import os,subprocess,sys\n3 from pathlib import Path\n",
+      "col_offset": 0,
+      "end_col_offset": 24,
+      "filename": "development/FilterFlip_Review_Demo_v2/launch.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 2,
+      "line_range": [
+        2
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "10     if len(sys.argv)>2:raise SystemExit('Usage: python3 launch.py [absolute-config-path]')\n11     raise SystemExit(subprocess.call([sys.executable,str(root/'server.py'),'--config',config]))\n",
+      "col_offset": 21,
+      "end_col_offset": 94,
+      "filename": "development/FilterFlip_Review_Demo_v2/launch.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1 \"\"\"Local, single-job live demonstration. Browser inputs never become paths/commands.\"\"\"\n2 import argparse, hmac, importlib.util, json, os, re, secrets, signal, subprocess\n3 import threading, time, uuid, shutil\n",
+      "col_offset": 0,
+      "end_col_offset": 80,
+      "filename": "development/FilterFlip_Review_Demo_v2/server.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 2,
+      "line_range": [
+        2
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "62                     if self.cancel_requested:state['status']='cancelled';return\n63                     p=subprocess.Popen([self.cfg['python'],'-u',str(ROOT/'backend.py'),'--config',str(self.config_path),\n64                       '--out',str(folder),'--case',state['case_id'],'--mode',state['mode'],'--condition',state['condition']],\n65                       start_new_session=True,stdin=subprocess.DEVNULL,stdout=log,stderr=log,env=env)\n66                     self.process=p\n",
+      "col_offset": 22,
+      "end_col_offset": 100,
+      "filename": "development/FilterFlip_Review_Demo_v2/server.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 63,
+      "line_range": [
+        63,
+        64,
+        65
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

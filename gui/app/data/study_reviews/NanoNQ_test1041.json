@@ -1,0 +1,776 @@
+{
+  "case_id": "NanoNQ:test1041",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test1041.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+  "records": [
+    {
+      "record_id": "R1:5ff06701389c0b5b25ae8aee03a52e1a961a10a14ce15390b836f6ad19ba03ac",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1041",
+      "request_sha256": "5ff06701389c0b5b25ae8aee03a52e1a961a10a14ce15390b836f6ad19ba03ac",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1041__BN2__unfiltered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+            "293f2358b2b3defe98e13f948a8a3000c640bc794a5f9235b7075511f3295199:00000",
+            "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+            "6671ae7bcf25eabed4c8096c55b926f0b6a96d0a5210fa8038f1f002235946d4:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000"
+          ],
+          "text_hashes": [
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "fac6a99d5b8640c121a1a092403ae5a582f7b97f88e8eeaf3c296e565f90c97a",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "f5e92cdb1a4ece37c898c5432877deab2d32c7dc872d1169b2b2b56388124847",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff (genus Haliaeetus)"
+        ],
+        "rationale": "Answer passage 8d71ff is in context (or kept) and states the genus Haliaeetus.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:9a82e280954ec815912f2947da1b9508f80c386244c1d259e30282eb3ea31cea",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1041",
+      "request_sha256": "9a82e280954ec815912f2947da1b9508f80c386244c1d259e30282eb3ea31cea",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1041__BN2__filtered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000"
+          ],
+          "text_hashes": [
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1041__BE2__filtered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000"
+          ],
+          "text_hashes": [
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff (genus Haliaeetus)"
+        ],
+        "rationale": "Answer passage 8d71ff is in context (or kept) and states the genus Haliaeetus.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:ea03ff46db8902d26f51325d2ba0842f4c43b42c4bfbff9de9ed1ece45f75970",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1041",
+      "request_sha256": "ea03ff46db8902d26f51325d2ba0842f4c43b42c4bfbff9de9ed1ece45f75970",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1041__PN2__unfiltered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "710b01709d33474ffa9a1c3339d23a2e48ba02201573d2326b516228057c24ce:00000",
+            "b798320626219f8183dba568f021e7fc6d439a7b1edc0e1821de7c0de4fec634:00000",
+            "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+            "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000"
+          ],
+          "text_hashes": [
+            "bc2dbbcf6722981dc3024d7b2dcb62db041cd2be00d6cdfcf9c6a9d7fab1ee37",
+            "21eb07af0ec892563e79b331f62615f1fc2610bb331c6efceb83491ab5b886e4",
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff (genus Haliaeetus)"
+        ],
+        "rationale": "Answer passage 8d71ff is in context (or kept) and states the genus Haliaeetus.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:8e1c8db93ab9d68bdadd7f5125a46013a80ea3f475f48e57a5bd68ad92bc7767",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1041",
+      "request_sha256": "8e1c8db93ab9d68bdadd7f5125a46013a80ea3f475f48e57a5bd68ad92bc7767",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1041__PN2__filtered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000"
+          ],
+          "text_hashes": [
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1041__PE2__filtered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000"
+          ],
+          "text_hashes": [
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "768524",
+          "08f553",
+          "8d71ff removed"
+        ],
+        "rationale": "Answer passage and copies removed; kept passages (national bird, largest raptor) do not name the genus.",
+        "disagreement": "Correct but unsupported answer; flagged for discussion with Suresh"
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "correct but unsupported by the kept passages 768524/08f553 (neither names the genus); likely model prior knowledge",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:35e043d249a19c2c9d0835ca67ff211f2e3085641f19d0c0f41e16f6b1646ad6",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1041",
+      "request_sha256": "35e043d249a19c2c9d0835ca67ff211f2e3085641f19d0c0f41e16f6b1646ad6",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1041__BE1__unfiltered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+            "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+            "e459f190ecec29ba521174083e149cfe632597bc2c36ee061a41e0bbb3cd6968:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+            "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac:00000"
+          ],
+          "text_hashes": [
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+            "840f7684206451ab815b4d2869a85f8edcbe6e9f03b430e34adda9708a327190"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff (genus Haliaeetus)"
+        ],
+        "rationale": "Answer passage 8d71ff is in context (or kept) and states the genus Haliaeetus.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:6fcfaa22206ad264397759ad4a1879dd69b97362915576d1abe72cf429dc5a86",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1041",
+      "request_sha256": "6fcfaa22206ad264397759ad4a1879dd69b97362915576d1abe72cf429dc5a86",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1041__BE2__unfiltered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+            "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+            "e459f190ecec29ba521174083e149cfe632597bc2c36ee061a41e0bbb3cd6968:00000",
+            "f5a32fb26ff766f930cf070b456c9eb9f24770a9f062edd50520782fc50a7a5e:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000"
+          ],
+          "text_hashes": [
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff (genus Haliaeetus)"
+        ],
+        "rationale": "Answer passage 8d71ff is in context (or kept) and states the genus Haliaeetus.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:1ed186c0c5de9ef639ef63940d92682ec6c013d1cad9f2ba5cc0c8292e0dca1a",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1041",
+      "request_sha256": "1ed186c0c5de9ef639ef63940d92682ec6c013d1cad9f2ba5cc0c8292e0dca1a",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1041__PE1__unfiltered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "141edf1b94de63a9c729121efda1980b6aad2dde2ade8e7d7626ef8601886214:00000",
+            "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+            "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+            "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac:00000"
+          ],
+          "text_hashes": [
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+            "840f7684206451ab815b4d2869a85f8edcbe6e9f03b430e34adda9708a327190"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff (genus Haliaeetus)"
+        ],
+        "rationale": "Answer passage 8d71ff is in context (or kept) and states the genus Haliaeetus.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:4c7f44e301c3daa28523b0149455633fa7ab5474e53d33275113d0bde4736b33",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1041",
+      "request_sha256": "4c7f44e301c3daa28523b0149455633fa7ab5474e53d33275113d0bde4736b33",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1041__PE2__unfiltered",
+          "case_id": "NanoNQ:test1041",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "03611cff0b6f7febb0d066e7b05565fb35dec2e7867e0894f75e3d7c3701b0a7:00000",
+            "141edf1b94de63a9c729121efda1980b6aad2dde2ade8e7d7626ef8601886214:00000",
+            "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+            "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+            "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000"
+          ],
+          "text_hashes": [
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+            "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+            "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1041.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff (genus Haliaeetus)"
+        ],
+        "rationale": "Answer passage 8d71ff is in context (or kept) and states the genus Haliaeetus.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1041:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1041",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:5ff06701389c0b5b25ae8aee03a52e1a961a10a14ce15390b836f6ad19ba03ac",
+          "R1:9a82e280954ec815912f2947da1b9508f80c386244c1d259e30282eb3ea31cea"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1041:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1041",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "768524",
+          "08f553"
+        ],
+        "rationale": "P condition; the filtered answer is still correct (though unsupported), so it does not fail and strict endpoint is not met.",
+        "disagreement": "Correct but unsupported filtered answer; flagged for Suresh"
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "filtered: correct but unsupported by the kept passages 768524/08f553 (neither names the genus); likely model prior knowledge",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "filtered: correct but unsupported by the kept passages 768524/08f553 (neither names the genus); likely model prior knowledge",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:ea03ff46db8902d26f51325d2ba0842f4c43b42c4bfbff9de9ed1ece45f75970",
+          "R1:8e1c8db93ab9d68bdadd7f5125a46013a80ea3f475f48e57a5bd68ad92bc7767"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1041:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1041",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:35e043d249a19c2c9d0835ca67ff211f2e3085641f19d0c0f41e16f6b1646ad6"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1041:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1041",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:9a82e280954ec815912f2947da1b9508f80c386244c1d259e30282eb3ea31cea",
+          "R1:6fcfaa22206ad264397759ad4a1879dd69b97362915576d1abe72cf429dc5a86"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1041:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1041",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8d71ff",
+          "5298e1"
+        ],
+        "rationale": "P condition: clean answer correct, copy retrieved, answer passage and copy removed, filtered answer fails (Aquila), matching control BE1 keeps the passage and is correct; strict chain met in both panels.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered (original prefix): Aquila, taken from the golden-eagle passage 5298e1 that stays kept; wrong genus",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered (original prefix): Aquila, taken from the golden-eagle passage 5298e1 that stays kept; wrong genus",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": [
+          "R1:1ed186c0c5de9ef639ef63940d92682ec6c013d1cad9f2ba5cc0c8292e0dca1a"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1041:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1041",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "768524",
+          "08f553"
+        ],
+        "rationale": "P condition; the filtered answer is still correct (though unsupported), so it does not fail and strict endpoint is not met.",
+        "disagreement": "Correct but unsupported filtered answer; flagged for Suresh"
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "filtered: correct but unsupported by the kept passages 768524/08f553 (neither names the genus); likely model prior knowledge",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "filtered: correct but unsupported by the kept passages 768524/08f553 (neither names the genus); likely model prior knowledge",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:8e1c8db93ab9d68bdadd7f5125a46013a80ea3f475f48e57a5bd68ad92bc7767",
+          "R1:4c7f44e301c3daa28523b0149455633fa7ab5474e53d33275113d0bde4736b33"
+        ]
+      }
+    }
+  ]
+}

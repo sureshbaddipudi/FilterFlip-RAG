@@ -1,0 +1,2771 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test29",
+    "dataset": "NanoNQ",
+    "question": "does joe die in the purge election year",
+    "source_family": "NanoNQ:test29",
+    "review_status": "assistant_only",
+    "target_document_id": "doc807",
+    "expected_answer": "Yes. Joe is fatally wounded after shooting James and asks Marcos to look after his store before dying.",
+    "answer_aliases": [],
+    "support_quote": "Joe shoots him, but is fatally wounded. Before dying, Joe asks Marcos to take care of his store.",
+    "source_qualification": "Plot outcome in the supplied account of The Purge: Election Year.",
+    "qrel_document_ids": [
+      "doc807"
+    ],
+    "family_reference_texts": [
+      "While fleeing the city, the ambulance is hit by Danzinger's team. Roan is pulled from the van by the soldiers before Barnes can assist. He leads the group and Bishop's team to a fortified cathedral where the NFFA plans to sacrifice her. Before Roan can be killed by the NFFA, the group arrives and assassinates Warrens, causing a shootout that kills the entire congregation except Owens and another NFFA loyalist, Harmon James, who escape. Owens is caught by Bishop's group, who still intends to kill him, but Roan manages to persuade them to spare him. The remaining paramilitary forces arrive, killing Bishop and his team. Danzinger and Barnes engage in a melee which ends with the former's death. As Roan and the team free the imprisoned purge victims, James emerges and kills a released prisoner. Joe shoots him, but is fatally wounded. Before dying, Joe asks Marcos to take care of his store."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test29",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc807",
+    "expected_answer": "Yes. Joe is fatally wounded after shooting James and asks Marcos to look after his store before dying.",
+    "answer_aliases": [],
+    "support_quote": "Joe shoots him, but is fatally wounded. Before dying, Joe asks Marcos to take care of his store.",
+    "source_qualification": "Plot outcome in the supplied account of The Purge: Election Year.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test29",
+    "dataset": "NanoNQ",
+    "question": "does joe die in the purge election year",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test29",
+      "dataset": "NanoNQ",
+      "question": "does joe die in the purge election year",
+      "expected_answer": "Yes. Joe is fatally wounded after shooting James and asks Marcos to look after his store before dying.",
+      "source_qualification": "Plot outcome in the supplied account of The Purge: Election Year.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Identical filtered requests",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+      "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/22",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/22",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test29.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 199,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 133,
+              "call_id": "NanoNQ:test29__C__unfiltered",
+              "request_sha256": "0e2837f979767506e91753abd76abbc9148427ad078f8a2e86565ed991c45aad"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 134,
+              "call_id": "NanoNQ:test29__C__filtered",
+              "request_sha256": "382ed4338d037d49aca9d3d7e26c8481a12fa8baf5308758023ec938cfd3a46d"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 200,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 135,
+              "call_id": "NanoNQ:test29__BN1__unfiltered",
+              "request_sha256": "9bac1658ced154c37db264b857353b6f1e53c5ef0bf20942eede9fe250eb85d6"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 136,
+              "call_id": "NanoNQ:test29__BN1__filtered",
+              "request_sha256": "3ed723887821c8b192e8c6ce66327fa3664c22b233343d082deb76ebfa887f19"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 202,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 137,
+              "call_id": "NanoNQ:test29__PN1__unfiltered",
+              "request_sha256": "0e2837f979767506e91753abd76abbc9148427ad078f8a2e86565ed991c45aad"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 138,
+              "call_id": "NanoNQ:test29__PN1__filtered",
+              "request_sha256": "382ed4338d037d49aca9d3d7e26c8481a12fa8baf5308758023ec938cfd3a46d"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test29",
+    "question": "does joe die in the purge election year",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test29"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": true
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5234987735748291,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5016008019447327,
+          "kept": false
+        },
+        {
+          "chunk_id": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1370451",
+          "instance_key": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The seventh and final season mainly follows Santos and Vinick on the campaign trail, while also addressing the aftermath of the shuttle leak investigation. The Bartlet administration's last year in office is featured, but not prominently. Toby admits to leaking the story about a military spacecraft and President Bartlet is forced to fire him. Later, he refuses to name his recently deceased brother as the source of the classified information, despite being urged to by his ex-wife, his lawyer and a federal prosecutor, as he feels it would be wrong to dishonor his memory. Also, C.J.'s tenure as Chief of Staff becomes more stressful as she deals with the war between Russia and China over Kazakhstan. The presidential race tightens up when Vinick's lead is dampened by an accident at a nuclear plant he had championed. Leo suffers a heart attack, and dies on the night of the election — reflecting the death of portrayer John Spencer — which Santos eventually wins.  The last few episodes show the final days of the Bartlet administration and Santos' transition; in the series finale, Santos is sworn in as President.",
+          "text_sha256": "afecc48014f8db5f9e4ca36dd47a0bee6f3bc84bbc4fbf88cf2e257042dcbf10",
+          "char_start": 0,
+          "char_end": 1121,
+          "tokens_with_specials": 230,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.484811931848526,
+          "kept": true
+        },
+        {
+          "chunk_id": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1319077",
+          "instance_key": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He also played a patient named Joe Dugan (a campaign manager of a New Jersey senator) in the House episode of \"Office Politics\" in 2010.",
+          "text_sha256": "2256c5271bebec49eb4bd287f98cc5d73ed567b6d05336ebc3fe3ac3d4f021c5",
+          "char_start": 0,
+          "char_end": 136,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.47810107469558716,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.21170648569509254,
+          0.21170648569509254,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.21170648569509254,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03911995887756348,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4601157307624817
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4209957718849182
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.41214606165885925
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.40222424268722534
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3828977346420288
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.35045844316482544
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.31152793765068054
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2738853693008423
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.239650696516037
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__C__unfiltered",
+          "request_sha256": "0e2837f979767506e91753abd76abbc9148427ad078f8a2e86565ed991c45aad",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__C__filtered",
+          "request_sha256": "382ed4338d037d49aca9d3d7e26c8481a12fa8baf5308758023ec938cfd3a46d",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": false
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5234987735748291,
+          "kept": true
+        },
+        {
+          "chunk_id": "45f387aced079fa6e579ed1a4d0ed9f51a82b2efdd3582af86cf1cd0de9671b9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test29/BN/1",
+          "instance_key": "45f387aced079fa6e579ed1a4d0ed9f51a82b2efdd3582af86cf1cd0de9671b9",
+          "chunk_index": 0,
+          "copied_from": "doc221817",
+          "copy_number": 1,
+          "text": "Source excerpt.\nMrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "c8cb257676f980e0a20dc49073e0ffabdeb41ec5995602007d27a55570c70894",
+          "char_start": 0,
+          "char_end": 104,
+          "tokens_with_specials": 25,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5102051496505737,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5016008019447327,
+          "kept": true
+        },
+        {
+          "chunk_id": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1370451",
+          "instance_key": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The seventh and final season mainly follows Santos and Vinick on the campaign trail, while also addressing the aftermath of the shuttle leak investigation. The Bartlet administration's last year in office is featured, but not prominently. Toby admits to leaking the story about a military spacecraft and President Bartlet is forced to fire him. Later, he refuses to name his recently deceased brother as the source of the classified information, despite being urged to by his ex-wife, his lawyer and a federal prosecutor, as he feels it would be wrong to dishonor his memory. Also, C.J.'s tenure as Chief of Staff becomes more stressful as she deals with the war between Russia and China over Kazakhstan. The presidential race tightens up when Vinick's lead is dampened by an accident at a nuclear plant he had championed. Leo suffers a heart attack, and dies on the night of the election — reflecting the death of portrayer John Spencer — which Santos eventually wins.  The last few episodes show the final days of the Bartlet administration and Santos' transition; in the series finale, Santos is sworn in as President.",
+          "text_sha256": "afecc48014f8db5f9e4ca36dd47a0bee6f3bc84bbc4fbf88cf2e257042dcbf10",
+          "char_start": 0,
+          "char_end": 1121,
+          "tokens_with_specials": 230,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.484811931848526,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9041159680617881,
+          0.0,
+          0.9041159680617881,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 0.9041159680617881,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.49073439836502075,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9508501291275024
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4601157307624817
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4209957718849182
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.41214606165885925
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.3885366916656494
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.35045844316482544
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.3209376335144043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.29718858003616333
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.239650696516037
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__BN1__unfiltered",
+          "request_sha256": "9bac1658ced154c37db264b857353b6f1e53c5ef0bf20942eede9fe250eb85d6",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__BN1__filtered",
+          "request_sha256": "3ed723887821c8b192e8c6ce66327fa3664c22b233343d082deb76ebfa887f19",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": false
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5234987735748291,
+          "kept": true
+        },
+        {
+          "chunk_id": "45f387aced079fa6e579ed1a4d0ed9f51a82b2efdd3582af86cf1cd0de9671b9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test29/BN/1",
+          "instance_key": "45f387aced079fa6e579ed1a4d0ed9f51a82b2efdd3582af86cf1cd0de9671b9",
+          "chunk_index": 0,
+          "copied_from": "doc221817",
+          "copy_number": 1,
+          "text": "Source excerpt.\nMrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "c8cb257676f980e0a20dc49073e0ffabdeb41ec5995602007d27a55570c70894",
+          "char_start": 0,
+          "char_end": 104,
+          "tokens_with_specials": 25,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5102051496505737,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5016008019447327,
+          "kept": true
+        },
+        {
+          "chunk_id": "d7769eed7b34555217d94c55f1871fdc67bb41e189849daed66eb7d151d7fcfb:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test29/BN/2",
+          "instance_key": "d7769eed7b34555217d94c55f1871fdc67bb41e189849daed66eb7d151d7fcfb",
+          "chunk_index": 0,
+          "copied_from": "doc221817",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nMrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "e4a7cf9e7cb162be8ec4ed3969ef4339918336e1a12a2c83785dc612ab50bea5",
+          "char_start": 0,
+          "char_end": 107,
+          "tokens_with_specials": 25,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.49031615257263184,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        3
+      ],
+      "removed_indices": [
+        0,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.7975554521990063,
+          0.0,
+          1.889182289079045,
+          0.0,
+          1.8785058051544752
+        ],
+        "removal_ranking": [
+          2,
+          4,
+          0,
+          1,
+          3
+        ],
+        "removal_gap": 1.7975554521990063,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.48510345816612244,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.9925050735473633
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9508501291275024
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.9452192783355713
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.46011582016944885
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4209958016872406
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.3885367810726166
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.36531826853752136
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.3209376335144043
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2978655695915222
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__BN2__unfiltered",
+          "request_sha256": "c520652a38171098ec62b18073b72b2b446d3f9b2637c02b0df0ec6df60e7cb8",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__BN2__filtered",
+          "request_sha256": "4aef261b78e5186fdbf0ba830ff2d8081b7b882940cd2972f595a3d948c5a35b",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": true
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5234987735748291,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5016008019447327,
+          "kept": false
+        },
+        {
+          "chunk_id": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1370451",
+          "instance_key": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The seventh and final season mainly follows Santos and Vinick on the campaign trail, while also addressing the aftermath of the shuttle leak investigation. The Bartlet administration's last year in office is featured, but not prominently. Toby admits to leaking the story about a military spacecraft and President Bartlet is forced to fire him. Later, he refuses to name his recently deceased brother as the source of the classified information, despite being urged to by his ex-wife, his lawyer and a federal prosecutor, as he feels it would be wrong to dishonor his memory. Also, C.J.'s tenure as Chief of Staff becomes more stressful as she deals with the war between Russia and China over Kazakhstan. The presidential race tightens up when Vinick's lead is dampened by an accident at a nuclear plant he had championed. Leo suffers a heart attack, and dies on the night of the election — reflecting the death of portrayer John Spencer — which Santos eventually wins.  The last few episodes show the final days of the Bartlet administration and Santos' transition; in the series finale, Santos is sworn in as President.",
+          "text_sha256": "afecc48014f8db5f9e4ca36dd47a0bee6f3bc84bbc4fbf88cf2e257042dcbf10",
+          "char_start": 0,
+          "char_end": 1121,
+          "tokens_with_specials": 230,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.484811931848526,
+          "kept": true
+        },
+        {
+          "chunk_id": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1319077",
+          "instance_key": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He also played a patient named Joe Dugan (a campaign manager of a New Jersey senator) in the House episode of \"Office Politics\" in 2010.",
+          "text_sha256": "2256c5271bebec49eb4bd287f98cc5d73ed567b6d05336ebc3fe3ac3d4f021c5",
+          "char_start": 0,
+          "char_end": 136,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.47810107469558716,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.21170648569509254,
+          0.21170648569509254,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.21170648569509254,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03911995887756348,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4601157307624817
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4209957718849182
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.41214606165885925
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.40222424268722534
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3828977346420288
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.35045844316482544
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.31152793765068054
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2738853693008423
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.239650696516037
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__PN1__unfiltered",
+          "request_sha256": "0e2837f979767506e91753abd76abbc9148427ad078f8a2e86565ed991c45aad",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__PN1__filtered",
+          "request_sha256": "382ed4338d037d49aca9d3d7e26c8481a12fa8baf5308758023ec938cfd3a46d",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": true
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5234987735748291,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5016008019447327,
+          "kept": false
+        },
+        {
+          "chunk_id": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1370451",
+          "instance_key": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The seventh and final season mainly follows Santos and Vinick on the campaign trail, while also addressing the aftermath of the shuttle leak investigation. The Bartlet administration's last year in office is featured, but not prominently. Toby admits to leaking the story about a military spacecraft and President Bartlet is forced to fire him. Later, he refuses to name his recently deceased brother as the source of the classified information, despite being urged to by his ex-wife, his lawyer and a federal prosecutor, as he feels it would be wrong to dishonor his memory. Also, C.J.'s tenure as Chief of Staff becomes more stressful as she deals with the war between Russia and China over Kazakhstan. The presidential race tightens up when Vinick's lead is dampened by an accident at a nuclear plant he had championed. Leo suffers a heart attack, and dies on the night of the election — reflecting the death of portrayer John Spencer — which Santos eventually wins.  The last few episodes show the final days of the Bartlet administration and Santos' transition; in the series finale, Santos is sworn in as President.",
+          "text_sha256": "afecc48014f8db5f9e4ca36dd47a0bee6f3bc84bbc4fbf88cf2e257042dcbf10",
+          "char_start": 0,
+          "char_end": 1121,
+          "tokens_with_specials": 230,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.484811931848526,
+          "kept": true
+        },
+        {
+          "chunk_id": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1319077",
+          "instance_key": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He also played a patient named Joe Dugan (a campaign manager of a New Jersey senator) in the House episode of \"Office Politics\" in 2010.",
+          "text_sha256": "2256c5271bebec49eb4bd287f98cc5d73ed567b6d05336ebc3fe3ac3d4f021c5",
+          "char_start": 0,
+          "char_end": 136,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.47810107469558716,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.21170648569509254,
+          0.21170648569509254,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.21170648569509254,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03911995887756348,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4601157307624817
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4209957718849182
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.41214606165885925
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.40222424268722534
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3828977346420288
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.35045844316482544
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.31152793765068054
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2738853693008423
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.239650696516037
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__PN2__unfiltered",
+          "request_sha256": "0e2837f979767506e91753abd76abbc9148427ad078f8a2e86565ed991c45aad",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__PN2__filtered",
+          "request_sha256": "382ed4338d037d49aca9d3d7e26c8481a12fa8baf5308758023ec938cfd3a46d",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": false
+        },
+        {
+          "chunk_id": "97cbc5e49354a0e252ed0ef2810ebbb7c75af3360970525a7a5fe5dee5972279:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test29/BE/1",
+          "instance_key": "97cbc5e49354a0e252ed0ef2810ebbb7c75af3360970525a7a5fe5dee5972279",
+          "chunk_index": 0,
+          "copied_from": "doc221817",
+          "copy_number": 1,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5430945158004761,
+          "kept": false
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5234987735748291,
+          "kept": true
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5016008019447327,
+          "kept": true
+        },
+        {
+          "chunk_id": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1370451",
+          "instance_key": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The seventh and final season mainly follows Santos and Vinick on the campaign trail, while also addressing the aftermath of the shuttle leak investigation. The Bartlet administration's last year in office is featured, but not prominently. Toby admits to leaking the story about a military spacecraft and President Bartlet is forced to fire him. Later, he refuses to name his recently deceased brother as the source of the classified information, despite being urged to by his ex-wife, his lawyer and a federal prosecutor, as he feels it would be wrong to dishonor his memory. Also, C.J.'s tenure as Chief of Staff becomes more stressful as she deals with the war between Russia and China over Kazakhstan. The presidential race tightens up when Vinick's lead is dampened by an accident at a nuclear plant he had championed. Leo suffers a heart attack, and dies on the night of the election — reflecting the death of portrayer John Spencer — which Santos eventually wins.  The last few episodes show the final days of the Bartlet administration and Santos' transition; in the series finale, Santos is sworn in as President.",
+          "text_sha256": "afecc48014f8db5f9e4ca36dd47a0bee6f3bc84bbc4fbf88cf2e257042dcbf10",
+          "char_start": 0,
+          "char_end": 1121,
+          "tokens_with_specials": 230,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.484811931848526,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5398842692375183,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4601157307624817
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4209957718849182
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4209957718849182
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.41214606165885925
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.35045844316482544
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.35045844316482544
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.239650696516037
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__BE1__unfiltered",
+          "request_sha256": "d937be3a5c06888a1a5e5e481f49ab225a33586fa22c720b05698329f3b93d85",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__BE1__filtered",
+          "request_sha256": "3ed723887821c8b192e8c6ce66327fa3664c22b233343d082deb76ebfa887f19",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": false
+        },
+        {
+          "chunk_id": "97cbc5e49354a0e252ed0ef2810ebbb7c75af3360970525a7a5fe5dee5972279:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test29/BE/1",
+          "instance_key": "97cbc5e49354a0e252ed0ef2810ebbb7c75af3360970525a7a5fe5dee5972279",
+          "chunk_index": 0,
+          "copied_from": "doc221817",
+          "copy_number": 1,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5430945158004761,
+          "kept": false
+        },
+        {
+          "chunk_id": "a50b9aae45cdaeb3f3eb8c9bf1472d50b596b75288b5d5559c4991c04bedb264:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test29/BE/2",
+          "instance_key": "a50b9aae45cdaeb3f3eb8c9bf1472d50b596b75288b5d5559c4991c04bedb264",
+          "chunk_index": 0,
+          "copied_from": "doc221817",
+          "copy_number": 2,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5430945158004761,
+          "kept": false
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5234987735748291,
+          "kept": true
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5016008019447327,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5398841798305511,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.46011582016944885
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4209958016872406
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4209958016872406
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4209958016872406
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.3423633277416229
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__BE2__unfiltered",
+          "request_sha256": "634f742075a6fb58e71c85b5c21e5055edc43169ad89177e4f86ea24e129b826",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__BE2__filtered",
+          "request_sha256": "4aef261b78e5186fdbf0ba830ff2d8081b7b882940cd2972f595a3d948c5a35b",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": true
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5234987735748291,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5016008019447327,
+          "kept": false
+        },
+        {
+          "chunk_id": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1370451",
+          "instance_key": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The seventh and final season mainly follows Santos and Vinick on the campaign trail, while also addressing the aftermath of the shuttle leak investigation. The Bartlet administration's last year in office is featured, but not prominently. Toby admits to leaking the story about a military spacecraft and President Bartlet is forced to fire him. Later, he refuses to name his recently deceased brother as the source of the classified information, despite being urged to by his ex-wife, his lawyer and a federal prosecutor, as he feels it would be wrong to dishonor his memory. Also, C.J.'s tenure as Chief of Staff becomes more stressful as she deals with the war between Russia and China over Kazakhstan. The presidential race tightens up when Vinick's lead is dampened by an accident at a nuclear plant he had championed. Leo suffers a heart attack, and dies on the night of the election — reflecting the death of portrayer John Spencer — which Santos eventually wins.  The last few episodes show the final days of the Bartlet administration and Santos' transition; in the series finale, Santos is sworn in as President.",
+          "text_sha256": "afecc48014f8db5f9e4ca36dd47a0bee6f3bc84bbc4fbf88cf2e257042dcbf10",
+          "char_start": 0,
+          "char_end": 1121,
+          "tokens_with_specials": 230,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.484811931848526,
+          "kept": true
+        },
+        {
+          "chunk_id": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1319077",
+          "instance_key": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He also played a patient named Joe Dugan (a campaign manager of a New Jersey senator) in the House episode of \"Office Politics\" in 2010.",
+          "text_sha256": "2256c5271bebec49eb4bd287f98cc5d73ed567b6d05336ebc3fe3ac3d4f021c5",
+          "char_start": 0,
+          "char_end": 136,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.47810107469558716,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.21170648569509254,
+          0.21170648569509254,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.21170648569509254,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03911995887756348,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4601157307624817
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4209957718849182
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.41214606165885925
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.40222424268722534
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3828977346420288
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.35045844316482544
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.31152793765068054
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2738853693008423
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.239650696516037
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__PE1__unfiltered",
+          "request_sha256": "0e2837f979767506e91753abd76abbc9148427ad078f8a2e86565ed991c45aad",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__PE1__filtered",
+          "request_sha256": "382ed4338d037d49aca9d3d7e26c8481a12fa8baf5308758023ec938cfd3a46d",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test29",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc221817",
+          "instance_key": "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mrs Downey's husband Joe died of consumption. He was a union member for seventeen years.",
+          "text_sha256": "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+          "char_start": 0,
+          "char_end": 88,
+          "tokens_with_specials": 22,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5430945158004761,
+          "kept": true
+        },
+        {
+          "chunk_id": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2262639",
+          "instance_key": "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Joe is still shaken up from that match, both mentally and physically. Soon after, during matches, his trainer Danpei realises that Joe is having a serious problem with boxing: he's unable to give headshots to his opponents, Rikiishi's accidental death having traumatized him. It takes Joe quite some time to get over it and costs him three straight losses. But then he finally conquers his fears when he faces the globally #6 ranked Carlos Rivera. The fight ends with a draw, yet it gives Joe tremendous fame and respect around the world, especially since Rivera was going to face the World Champion JosÃ© Mendoza in his next match.",
+          "text_sha256": "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 138,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5234987735748291,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1877808",
+          "instance_key": "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The finale received mixed to negative reviews from critics. Matt Fowler of IGN gave the episode a 7.4 out of 10, signaling positive reviews, saying it \"was a fairly focused episode. Escape the church and rescue Claire. Not much else going on. It attempted to get deep during the dinner scene, where Ryan had to admit (again) that he was a bad person, but that stuff always winds up sliding off the back of this series like a rainwater. Still, I liked the dinner showdown and appreciated that the episode was mostly a straightforward affair.\"[6] He then commented on James Purefoy's role in the finale and season, saying \"After last week's church massacre, Joe has seemed to have purged his system of all future cult activity, satisfied that his name will probably now live forever. Which made him a more docile, agreeable Joe when it came time to pair up with Ryan. It's all utterly silly, but at least it looks like next year Ryan and Joe might have a different dynamic.\"[6]",
+          "text_sha256": "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+          "char_start": 0,
+          "char_end": 975,
+          "tokens_with_specials": 219,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5016008019447327,
+          "kept": false
+        },
+        {
+          "chunk_id": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1370451",
+          "instance_key": "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The seventh and final season mainly follows Santos and Vinick on the campaign trail, while also addressing the aftermath of the shuttle leak investigation. The Bartlet administration's last year in office is featured, but not prominently. Toby admits to leaking the story about a military spacecraft and President Bartlet is forced to fire him. Later, he refuses to name his recently deceased brother as the source of the classified information, despite being urged to by his ex-wife, his lawyer and a federal prosecutor, as he feels it would be wrong to dishonor his memory. Also, C.J.'s tenure as Chief of Staff becomes more stressful as she deals with the war between Russia and China over Kazakhstan. The presidential race tightens up when Vinick's lead is dampened by an accident at a nuclear plant he had championed. Leo suffers a heart attack, and dies on the night of the election — reflecting the death of portrayer John Spencer — which Santos eventually wins.  The last few episodes show the final days of the Bartlet administration and Santos' transition; in the series finale, Santos is sworn in as President.",
+          "text_sha256": "afecc48014f8db5f9e4ca36dd47a0bee6f3bc84bbc4fbf88cf2e257042dcbf10",
+          "char_start": 0,
+          "char_end": 1121,
+          "tokens_with_specials": 230,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.484811931848526,
+          "kept": true
+        },
+        {
+          "chunk_id": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1319077",
+          "instance_key": "44944aae811023ab64ee0a52b98f9121c9026a3a322b3d9b57eeb9a4fb0e4587",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He also played a patient named Joe Dugan (a campaign manager of a New Jersey senator) in the House episode of \"Office Politics\" in 2010.",
+          "text_sha256": "2256c5271bebec49eb4bd287f98cc5d73ed567b6d05336ebc3fe3ac3d4f021c5",
+          "char_start": 0,
+          "char_end": 136,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.47810107469558716,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.21170648569509254,
+          0.21170648569509254,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.21170648569509254,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03911995887756348,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4601157307624817
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4209957718849182
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.41214606165885925
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.40222424268722534
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3828977346420288
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.35045844316482544
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3423633277416229
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.31152793765068054
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2738853693008423
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.239650696516037
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test29__PE2__unfiltered",
+          "request_sha256": "0e2837f979767506e91753abd76abbc9148427ad078f8a2e86565ed991c45aad",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test29__PE2__filtered",
+          "request_sha256": "382ed4338d037d49aca9d3d7e26c8481a12fa8baf5308758023ec938cfd3a46d",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test29__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

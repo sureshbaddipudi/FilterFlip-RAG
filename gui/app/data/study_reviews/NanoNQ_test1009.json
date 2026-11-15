@@ -1,0 +1,773 @@
+{
+  "case_id": "NanoNQ:test1009",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test1009.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+  "records": [
+    {
+      "record_id": "R1:772ad9b75df0cc5dda74d3c8979ff4e40cc211630db795f14f527e746741c98c",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1009",
+      "request_sha256": "772ad9b75df0cc5dda74d3c8979ff4e40cc211630db795f14f527e746741c98c",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1009__BN2__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "64c648046c3222b5ba39469f53c8b7ed99a61ee3c7411fdab81ac38681582287:00000",
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "50b0237a016622d2941bc27ef3fea5f73fbd97aad042d258c459f804d863ba89:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000"
+          ],
+          "text_hashes": [
+            "4afbac0b16c5246cccc99b1e99838ffc4321f5ea0527122b54decfa631e0cab6",
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "3c099a015ba4dd48e225b95d4f46a8d6379ff0e46ec1fada39196f4ff972e555",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf (Nicole Gale Anderson as Heather Chandler)"
+        ],
+        "rationale": "Answer passage dbacbf is in context (or kept) and names Nicole Gale Anderson as Heather Chandler.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:5fab7001c337490f38d82db371417e5a0e073bf0e8b43856de6d0a691dcf6644",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1009",
+      "request_sha256": "5fab7001c337490f38d82db371417e5a0e073bf0e8b43856de6d0a691dcf6644",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1009__BN2__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000"
+          ],
+          "text_hashes": [
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1009__BE2__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000"
+          ],
+          "text_hashes": [
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf (Nicole Gale Anderson as Heather Chandler)"
+        ],
+        "rationale": "Answer passage dbacbf is in context (or kept) and names Nicole Gale Anderson as Heather Chandler.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:e2c6fdfc9de40e0b8f15ad6e96192d2dc930debb58e41ca74c0f7134dabb6924",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1009",
+      "request_sha256": "e2c6fdfc9de40e0b8f15ad6e96192d2dc930debb58e41ca74c0f7134dabb6924",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1009__PN2__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0:00000",
+            "696774e7b1144b275eac3218b4888438dcf145494beb18f57f8cfb716bf8b6e9:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "f83529e2c9ac886a22d666e7d0d9862438354e221a7f286c3b08109e8eecda25",
+            "05d8f17a74cdfbdbff53895fa28e4a3e9db565de6fafdcdd877d20c68f931439",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf (Nicole Gale Anderson as Heather Chandler)"
+        ],
+        "rationale": "Answer passage dbacbf is in context (or kept) and names Nicole Gale Anderson as Heather Chandler.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:86dc7ab4607f7579c10583b5e325330ed59a15708bd982d272036f6139ea233f",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1009",
+      "request_sha256": "86dc7ab4607f7579c10583b5e325330ed59a15708bd982d272036f6139ea233f",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1009__PN2__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1009__PE2__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d9d1ff",
+          "8d510d",
+          "dbacbf removed"
+        ],
+        "rationale": "Answer passage and copies removed; kept passages (Joe Bishop, 2017 film) do not name Anderson, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:3c129240fc9c7158b5f1b37db206cc1af5551c39f396b8e84cbfb3eecae6ce66",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1009",
+      "request_sha256": "3c129240fc9c7158b5f1b37db206cc1af5551c39f396b8e84cbfb3eecae6ce66",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1009__BE1__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "824e663f7e5c60c83034e5383923f63a19fbbcd53b4a69b2b8cb85402fdaed39:00000",
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf (Nicole Gale Anderson as Heather Chandler)"
+        ],
+        "rationale": "Answer passage dbacbf is in context (or kept) and names Nicole Gale Anderson as Heather Chandler.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:336a77f4958c6f72ff15f912a374c57678de286de5718e5ed8034d3ecbb9d33f",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1009",
+      "request_sha256": "336a77f4958c6f72ff15f912a374c57678de286de5718e5ed8034d3ecbb9d33f",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1009__BE2__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "22699cfdacb8746053a349b72a3c72ddcde8edd51516112dd4e6799026422815:00000",
+            "824e663f7e5c60c83034e5383923f63a19fbbcd53b4a69b2b8cb85402fdaed39:00000",
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf (Nicole Gale Anderson as Heather Chandler)"
+        ],
+        "rationale": "Answer passage dbacbf is in context (or kept) and names Nicole Gale Anderson as Heather Chandler.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:5ee01a64dcb144a43407109436dd7cce3c0c08135ca97ca4fbfa344122d7b4c8",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1009",
+      "request_sha256": "5ee01a64dcb144a43407109436dd7cce3c0c08135ca97ca4fbfa344122d7b4c8",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1009__PE1__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "7f90702661507b7db1680852fb6f4935ac79f5ce8f69dfa206abb9566d7c4493:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf (Nicole Gale Anderson as Heather Chandler)"
+        ],
+        "rationale": "Answer passage dbacbf is in context (or kept) and names Nicole Gale Anderson as Heather Chandler.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:0870db3b66c4f43f73433cbc92d66f226fe69a5e22085bf648c7a1a5d8d6a7d2",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1009",
+      "request_sha256": "0870db3b66c4f43f73433cbc92d66f226fe69a5e22085bf648c7a1a5d8d6a7d2",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1009__PE2__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "5ed2bab873467fe19e3c199def42b20297574dbf36c4e1cdb87ccd8b78e5d959:00000",
+            "7f90702661507b7db1680852fb6f4935ac79f5ce8f69dfa206abb9566d7c4493:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1009.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf (Nicole Gale Anderson as Heather Chandler)"
+        ],
+        "rationale": "Answer passage dbacbf is in context (or kept) and names Nicole Gale Anderson as Heather Chandler.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1009:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1009",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:772ad9b75df0cc5dda74d3c8979ff4e40cc211630db795f14f527e746741c98c",
+          "R1:5fab7001c337490f38d82db371417e5a0e073bf0e8b43856de6d0a691dcf6644"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1009:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1009",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf"
+        ],
+        "rationale": "P condition: clean answer correct, copy retrieved, answer passage and copies removed, answer abstains, matching control BN2 keeps the passage and answers correctly; strict chain met in both panels.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": [
+          "R1:e2c6fdfc9de40e0b8f15ad6e96192d2dc930debb58e41ca74c0f7134dabb6924",
+          "R1:86dc7ab4607f7579c10583b5e325330ed59a15708bd982d272036f6139ea233f"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1009:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1009",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:3c129240fc9c7158b5f1b37db206cc1af5551c39f396b8e84cbfb3eecae6ce66"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1009:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1009",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:5fab7001c337490f38d82db371417e5a0e073bf0e8b43856de6d0a691dcf6644",
+          "R1:336a77f4958c6f72ff15f912a374c57678de286de5718e5ed8034d3ecbb9d33f"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1009:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1009",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf"
+        ],
+        "rationale": "P condition: clean answer correct, copy retrieved, answer passage and copies removed, answer abstains, matching control BE1 keeps the passage and answers correctly; strict chain met in both panels.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": [
+          "R1:5ee01a64dcb144a43407109436dd7cce3c0c08135ca97ca4fbfa344122d7b4c8"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1009:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1009",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dbacbf"
+        ],
+        "rationale": "P condition: clean answer correct, copy retrieved, answer passage and copies removed, answer abstains, matching control BE2 keeps the passage and answers correctly; strict chain met in both panels.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": [
+          "R1:86dc7ab4607f7579c10583b5e325330ed59a15708bd982d272036f6139ea233f",
+          "R1:0870db3b66c4f43f73433cbc92d66f226fe69a5e22085bf648c7a1a5d8d6a7d2"
+        ]
+      }
+    }
+  ]
+}

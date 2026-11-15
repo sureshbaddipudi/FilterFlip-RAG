@@ -1,0 +1,2759 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1829",
+    "dataset": "NanoNQ",
+    "question": "where does blood go when it leaves the pulmonary artery",
+    "source_family": "NanoNQ:test1829",
+    "review_status": "assistant_only",
+    "target_document_id": "doc64317",
+    "expected_answer": "To the lungs, through smaller branches of the pulmonary arteries.",
+    "answer_aliases": [],
+    "support_quote": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+    "source_qualification": "The answer is the destination described in doc64317. Do not confuse this with blood returning from the lungs through pulmonary veins.",
+    "qrel_document_ids": [
+      "doc64317",
+      "doc64318"
+    ],
+    "family_reference_texts": [
+      "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+      "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test1829",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc64317",
+    "expected_answer": "To the lungs, through smaller branches of the pulmonary arteries.",
+    "answer_aliases": [],
+    "support_quote": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+    "source_qualification": "The answer is the destination described in doc64317. Do not confuse this with blood returning from the lungs through pulmonary veins.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used. doc64317 is the lexicographically smallest supporting document. doc64318 additionally describes gas exchange and capillaries."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test1829",
+    "dataset": "NanoNQ",
+    "question": "where does blood go when it leaves the pulmonary artery",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test1829",
+      "dataset": "NanoNQ",
+      "question": "where does blood go when it leaves the pulmonary artery",
+      "expected_answer": "To the lungs, through smaller branches of the pulmonary arteries.",
+      "source_qualification": "The answer is the destination described in doc64317. Do not confuse this with blood returning from the lungs through pulmonary veins.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Sufficient support retained",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "alternative_support_survives",
+      "historical_rationale": "Other retained pulmonary-artery passages support the lungs destination, which the filtered model answer preserves. Not complete evidence loss.",
+      "current_assistant_rationale": "Other retained pulmonary-artery passages support the lungs destination, which the filtered model answer preserves. Not complete evidence loss.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/8",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/8",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test1829.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 73,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 49,
+              "call_id": "NanoNQ:test1829__C__unfiltered",
+              "request_sha256": "903feb0b2c45d7710338b66b58919455c15fe69057a46a5f1ace20498aa3f2cd"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 50,
+              "call_id": "NanoNQ:test1829__C__filtered",
+              "request_sha256": "277f1e72f0947f1f6108fc6096761c8a89ae5136ce7b44b25f0f224d17440f79"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 74,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 51,
+              "call_id": "NanoNQ:test1829__BN1__unfiltered",
+              "request_sha256": "31556961b2656d13ed9ae31e5915fabf3a352ac485a3a720e555c43574f2de36"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 52,
+              "call_id": "NanoNQ:test1829__BN1__filtered",
+              "request_sha256": "fdaf6e1c1eb7c57528d062c42064360c595ded2212d9b7b01cfab0c6a9dc1863"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 76,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 53,
+              "call_id": "NanoNQ:test1829__PN1__unfiltered",
+              "request_sha256": "2abbd7f0a549c684ad2749c43e51b681ce1c537e3ab5b472ed22e5f14f1900a0"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 54,
+              "call_id": "NanoNQ:test1829__PN1__filtered",
+              "request_sha256": "900a16d21971d754f82faba24d2791ae9449ea3f9121c92fd5d6006fd2f38ab8"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test1829",
+    "question": "where does blood go when it leaves the pulmonary artery",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1829"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": false
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": true
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7110803723335266,
+          "kept": false
+        },
+        {
+          "chunk_id": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64317",
+          "instance_key": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6754798889160156,
+          "kept": true
+        },
+        {
+          "chunk_id": "8c2d5018695caa206034a9079e2ae6cc1634015ff73433d1854d03bc5d5d1a0b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64314",
+          "instance_key": "8c2d5018695caa206034a9079e2ae6cc1634015ff73433d1854d03bc5d5d1a0b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary circulation is the portion of the circulatory system which carries deoxygenated blood away from the right ventricle of the heart, to the lungs, and returns oxygenated blood to the left atrium and ventricle of the heart.[1] The term pulmonary circulation is readily paired and contrasted with the systemic circulation. The vessels of the pulmonary circulation are the pulmonary arteries and the pulmonary veins.",
+          "text_sha256": "fe221bef955e309ccc121a1a4f0fe7a061d76826f2de7d495d43e1db1ae95e0c",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6535255312919617,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        3
+      ],
+      "removed_indices": [
+        0,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.36766932948996,
+          0.0,
+          1.366670721256881,
+          0.0,
+          1.248367999428087
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "removal_gap": 1.248367999428087,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03854501247406006,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7903690934181213
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7897371053695679
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7237802743911743
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7080777287483215
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6660714149475098
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__C__unfiltered",
+          "request_sha256": "903feb0b2c45d7710338b66b58919455c15fe69057a46a5f1ace20498aa3f2cd",
+          "reference": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "first_call_id": "NanoNQ:test1829__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__C__filtered",
+          "request_sha256": "277f1e72f0947f1f6108fc6096761c8a89ae5136ce7b44b25f0f224d17440f79",
+          "reference": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it will become oxygenated.",
+            "first_call_id": "NanoNQ:test1829__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it will become oxygenated.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": false
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": false
+        },
+        {
+          "chunk_id": "9b7d0eb420472e4061804b902f5cc34a10a0dadb33084418216bf31eb4a2124c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/BN/1",
+          "instance_key": "9b7d0eb420472e4061804b902f5cc34a10a0dadb33084418216bf31eb4a2124c",
+          "chunk_index": 0,
+          "copied_from": "doc41344",
+          "copy_number": 1,
+          "text": "Source excerpt.\nA pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "0000c0fa7c738554c02a91dd51daf85ae3a5f516d727d9eabf669a0cc878c8e9",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.719474196434021,
+          "kept": false
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7110803723335266,
+          "kept": true
+        },
+        {
+          "chunk_id": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64317",
+          "instance_key": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6754798889160156,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.3072755860881102,
+          1.5502344539390833,
+          0.9859448935103501,
+          0.742986025659377,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.2429588678509731,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00693964958190918,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9929475784301758
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7350396513938904
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6660714149475098
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6616116166114807
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6542404890060425
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__BN1__unfiltered",
+          "request_sha256": "31556961b2656d13ed9ae31e5915fabf3a352ac485a3a720e555c43574f2de36",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "first_call_id": "NanoNQ:test1829__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration. From there, it enters the pulmonary veins.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__BN1__filtered",
+          "request_sha256": "fdaf6e1c1eb7c57528d062c42064360c595ded2212d9b7b01cfab0c6a9dc1863",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide. From there, it returns to the left atrium of the heart.",
+            "first_call_id": "NanoNQ:test1829__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide. From there, it returns to the left atrium of the heart.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": true
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": false
+        },
+        {
+          "chunk_id": "9b7d0eb420472e4061804b902f5cc34a10a0dadb33084418216bf31eb4a2124c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/BN/1",
+          "instance_key": "9b7d0eb420472e4061804b902f5cc34a10a0dadb33084418216bf31eb4a2124c",
+          "chunk_index": 0,
+          "copied_from": "doc41344",
+          "copy_number": 1,
+          "text": "Source excerpt.\nA pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "0000c0fa7c738554c02a91dd51daf85ae3a5f516d727d9eabf669a0cc878c8e9",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.719474196434021,
+          "kept": false
+        },
+        {
+          "chunk_id": "0bbc3f5b75c5e1bbd1815b2695f98e7c8571957b852a7954ff45c3e9ac2f820f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/BN/2",
+          "instance_key": "0bbc3f5b75c5e1bbd1815b2695f98e7c8571957b852a7954ff45c3e9ac2f820f",
+          "chunk_index": 0,
+          "copied_from": "doc41344",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nA pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "7b7cc7425b531831f721eb5b6607b3c717b900fe3a65fb3c1b28f7352066a9d9",
+          "char_start": 0,
+          "char_end": 359,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7164962291717529,
+          "kept": false
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7110803723335266,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          0.0,
+          1.970357628044983,
+          1.9852601533992846,
+          1.9837279944235675,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          1,
+          0,
+          4
+        ],
+        "removal_gap": 1.970357628044983,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.13020938634872437,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9996575713157654
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9929475784301758
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9921757578849792
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7350396513938904
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7301821708679199
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6660714149475098
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6542404890060425
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6490048170089722
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__BN2__unfiltered",
+          "request_sha256": "1c949959900c4e90f8cba70ada9f1f7a4e28a58a0e4c8fc1c149ba72fcb8a980",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide during respiration. From there, it enters the pulmonary veins.",
+            "first_call_id": "NanoNQ:test1829__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__BN2__filtered",
+          "request_sha256": "83f8e43852c77cc0bbe1ac87bc65fd6b71fb8c47f69c46b390a04ddc82b4f9bc",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to go to the lungs, where it picks up oxygen and releases carbon dioxide.",
+            "first_call_id": "NanoNQ:test1829__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to go to the lungs, where it picks up oxygen and releases carbon dioxide.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": false
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": true
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7110803723335266,
+          "kept": true
+        },
+        {
+          "chunk_id": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64317",
+          "instance_key": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6754798889160156,
+          "kept": false
+        },
+        {
+          "chunk_id": "32e39c9324ffeef94a835bb5fc0853f5c6029cc9788c4b5dfac6c3526c246749:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/PN/1",
+          "instance_key": "32e39c9324ffeef94a835bb5fc0853f5c6029cc9788c4b5dfac6c3526c246749",
+          "chunk_index": 0,
+          "copied_from": "doc64317",
+          "copy_number": 1,
+          "text": "Source excerpt.\nFrom the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "72c08ace6d31c0c7f5f6dcbf7d68d88f93a441f0b657d3f460e39d85ba7ee32c",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 49,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6619558334350586,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.3072755860881102,
+          0.5642895604287332,
+          0.742986025659377,
+          0.9668483556672527,
+          0.9668483556672527
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          2,
+          1
+        ],
+        "removal_gap": 0.2238623300078757,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00693964958190918,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9832844734191895
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7290887236595154
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6660714149475098
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6657368540763855
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6539832353591919
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__PN1__unfiltered",
+          "request_sha256": "2abbd7f0a549c684ad2749c43e51b681ce1c537e3ab5b472ed22e5f14f1900a0",
+          "reference": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "first_call_id": "NanoNQ:test1829__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__PN1__filtered",
+          "request_sha256": "900a16d21971d754f82faba24d2791ae9449ea3f9121c92fd5d6006fd2f38ab8",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide. From there, it enters the pulmonary veins and returns to the left atrium of the heart.",
+            "first_call_id": "NanoNQ:test1829__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "When blood leaves the pulmonary artery, it goes to the lungs to be oxygenated.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": false
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": true
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7110803723335266,
+          "kept": true
+        },
+        {
+          "chunk_id": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64317",
+          "instance_key": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6754798889160156,
+          "kept": false
+        },
+        {
+          "chunk_id": "32e39c9324ffeef94a835bb5fc0853f5c6029cc9788c4b5dfac6c3526c246749:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/PN/1",
+          "instance_key": "32e39c9324ffeef94a835bb5fc0853f5c6029cc9788c4b5dfac6c3526c246749",
+          "chunk_index": 0,
+          "copied_from": "doc64317",
+          "copy_number": 1,
+          "text": "Source excerpt.\nFrom the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "72c08ace6d31c0c7f5f6dcbf7d68d88f93a441f0b657d3f460e39d85ba7ee32c",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 49,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6619558334350586,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.3072755860881102,
+          0.5642895604287332,
+          0.742986025659377,
+          0.9668483556672527,
+          0.9668483556672527
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          2,
+          1
+        ],
+        "removal_gap": 0.2238623300078757,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00693964958190918,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9832844734191895
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7290887236595154
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6660714149475098
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6657368540763855
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6539832353591919
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__PN2__unfiltered",
+          "request_sha256": "2abbd7f0a549c684ad2749c43e51b681ce1c537e3ab5b472ed22e5f14f1900a0",
+          "reference": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "first_call_id": "NanoNQ:test1829__PN1__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__PN2__filtered",
+          "request_sha256": "900a16d21971d754f82faba24d2791ae9449ea3f9121c92fd5d6006fd2f38ab8",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide. From there, it enters the pulmonary veins and returns to the left atrium of the heart.",
+            "first_call_id": "NanoNQ:test1829__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "When blood leaves the pulmonary artery, it goes to the lungs to be oxygenated.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": false
+        },
+        {
+          "chunk_id": "3fb31db138f16983b60aa5a19fc3f306f58a5f56e2fb4b3de3723b5ff43c119b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/BE/1",
+          "instance_key": "3fb31db138f16983b60aa5a19fc3f306f58a5f56e2fb4b3de3723b5ff43c119b",
+          "chunk_index": 0,
+          "copied_from": "doc41344",
+          "copy_number": 1,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": false
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7255604863166809,
+          "kept": false
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7110803723335266,
+          "kept": true
+        },
+        {
+          "chunk_id": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64317",
+          "instance_key": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6754798889160156,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.3072755860881102,
+          1.5642895604287332,
+          1.0,
+          0.742986025659377,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.257013974340623,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6660714149475098
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6660714149475098
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__BE1__unfiltered",
+          "request_sha256": "2bca396b4db1be0f02e68a35e454aa46af2bec14767c746cca34da93da1a4694",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration. From there, it enters the pulmonary veins.",
+            "first_call_id": "NanoNQ:test1829__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__BE1__filtered",
+          "request_sha256": "fdaf6e1c1eb7c57528d062c42064360c595ded2212d9b7b01cfab0c6a9dc1863",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide. From there, it returns to the left atrium of the heart.",
+            "first_call_id": "NanoNQ:test1829__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide. From there, it returns to the left atrium of the heart.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": true
+        },
+        {
+          "chunk_id": "3fb31db138f16983b60aa5a19fc3f306f58a5f56e2fb4b3de3723b5ff43c119b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/BE/1",
+          "instance_key": "3fb31db138f16983b60aa5a19fc3f306f58a5f56e2fb4b3de3723b5ff43c119b",
+          "chunk_index": 0,
+          "copied_from": "doc41344",
+          "copy_number": 1,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": false
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7255604863166809,
+          "kept": false
+        },
+        {
+          "chunk_id": "9001baafc73f724c913b8436783a74144c81799d38fc2ba4c354d7f195c322bd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/BE/2",
+          "instance_key": "9001baafc73f724c913b8436783a74144c81799d38fc2ba4c354d7f195c322bd",
+          "chunk_index": 0,
+          "copied_from": "doc41344",
+          "copy_number": 2,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7255604863166809,
+          "kept": false
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7110803723335266,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          0.0,
+          2.0,
+          2.0,
+          2.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.13803362846374512,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6660714149475098
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6660714149475098
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6660714149475098
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__BE2__unfiltered",
+          "request_sha256": "180853de8af6e17c3a787189c42d5878ad6cff9523433ab809d9496e03ee4bba",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide during respiration. From there, it enters the pulmonary veins and returns to the left atrium of the heart.",
+            "first_call_id": "NanoNQ:test1829__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide. From there, it enters the pulmonary veins and returns to the left atrium of the heart.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__BE2__filtered",
+          "request_sha256": "83f8e43852c77cc0bbe1ac87bc65fd6b71fb8c47f69c46b390a04ddc82b4f9bc",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to go to the lungs, where it picks up oxygen and releases carbon dioxide.",
+            "first_call_id": "NanoNQ:test1829__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to go to the lungs, where it picks up oxygen and releases carbon dioxide.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": false
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": true
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7110803723335266,
+          "kept": true
+        },
+        {
+          "chunk_id": "533819783e9db74ce7ea74d1dbde58973ddb25b425f2a232ffb634c9d5c30477:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/PE/1",
+          "instance_key": "533819783e9db74ce7ea74d1dbde58973ddb25b425f2a232ffb634c9d5c30477",
+          "chunk_index": 0,
+          "copied_from": "doc64317",
+          "copy_number": 1,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6754798889160156,
+          "kept": false
+        },
+        {
+          "chunk_id": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64317",
+          "instance_key": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6754798889160156,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.3072755860881102,
+          0.5642895604287332,
+          0.742986025659377,
+          1.0,
+          1.0
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          2,
+          1
+        ],
+        "removal_gap": 0.257013974340623,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00693964958190918,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6660714149475098
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__PE1__unfiltered",
+          "request_sha256": "77c684d5e584ba7a9d783e3f22d60e9b394c9c6637afe21f67ca266d6dcff58d",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration. From there, it enters the pulmonary veins.",
+            "first_call_id": "NanoNQ:test1829__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery in the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__PE1__filtered",
+          "request_sha256": "900a16d21971d754f82faba24d2791ae9449ea3f9121c92fd5d6006fd2f38ab8",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide. From there, it enters the pulmonary veins and returns to the left atrium of the heart.",
+            "first_call_id": "NanoNQ:test1829__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "When blood leaves the pulmonary artery, it goes to the lungs to be oxygenated.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1829",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": true,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64318",
+          "instance_key": "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The pulmonary arteries carry deoxygenated blood to the lungs, where carbon dioxide is released and oxygen is picked up during respiration. Arteries are further divided into very fine capillaries which are extremely thin-walled. The pulmonary vein returns oxygenated blood to the left atrium of the heart.",
+          "text_sha256": "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+          "char_start": 0,
+          "char_end": 304,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7714661359786987,
+          "kept": false
+        },
+        {
+          "chunk_id": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc41344",
+          "instance_key": "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A pulmonary artery is an artery in the pulmonary circulation that carries deoxygenated blood from the right side of the heart to the lungs. The largest pulmonary artery is the main pulmonary artery or pulmonary trunk from the heart, and the smallest ones are the arterioles which lead to the capillaries that surround the pulmonary alveoli.",
+          "text_sha256": "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+          "char_start": 0,
+          "char_end": 340,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7255604863166809,
+          "kept": true
+        },
+        {
+          "chunk_id": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc851269",
+          "instance_key": "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Blood is circulated around the body through blood vessels by the pumping action of the heart. In humans, blood is pumped from the strong left ventricle of the heart through arteries to peripheral tissues and returns to the right atrium of the heart through veins. It then enters the right ventricle and is pumped through the pulmonary artery to the lungs and returns to the left atrium through the pulmonary veins. Blood then enters the left ventricle to be circulated again. Arterial blood carries oxygen from inhaled air to all of the cells of the body, and venous blood carries carbon dioxide, a waste product of metabolism by cells, to the lungs to be exhaled. However, one exception includes pulmonary arteries, which contain the most deoxygenated blood in the body, while the pulmonary veins contain oxygenated blood.",
+          "text_sha256": "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+          "char_start": 0,
+          "char_end": 823,
+          "tokens_with_specials": 164,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7110803723335266,
+          "kept": true
+        },
+        {
+          "chunk_id": "533819783e9db74ce7ea74d1dbde58973ddb25b425f2a232ffb634c9d5c30477:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1829/PE/1",
+          "instance_key": "533819783e9db74ce7ea74d1dbde58973ddb25b425f2a232ffb634c9d5c30477",
+          "chunk_index": 0,
+          "copied_from": "doc64317",
+          "copy_number": 1,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6754798889160156,
+          "kept": false
+        },
+        {
+          "chunk_id": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc64317",
+          "instance_key": "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "From the right ventricle, blood is pumped through the semilunar pulmonary valve into the left and right main pulmonary arteries (one for each lung), which branch into smaller pulmonary arteries that spread throughout the lungs.",
+          "text_sha256": "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+          "char_start": 0,
+          "char_end": 227,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6754798889160156,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.3072755860881102,
+          0.5642895604287332,
+          0.742986025659377,
+          1.0,
+          1.0
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          2,
+          1
+        ],
+        "removal_gap": 0.257013974340623,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00693964958190918,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8619663715362549
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7511920928955078
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7442524433135986
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6956709623336792
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6757206320762634
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6660714149475098
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1829__PE2__unfiltered",
+          "request_sha256": "77c684d5e584ba7a9d783e3f22d60e9b394c9c6637afe21f67ca266d6dcff58d",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to enter the lungs, where it picks up oxygen and releases carbon dioxide during respiration. From there, it enters the pulmonary veins.",
+            "first_call_id": "NanoNQ:test1829__PE1__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery in the lungs, where it picks up oxygen and releases carbon dioxide during respiration.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1829__PE2__filtered",
+          "request_sha256": "900a16d21971d754f82faba24d2791ae9449ea3f9121c92fd5d6006fd2f38ab8",
+          "reference": {
+            "status": "ok",
+            "answer": "The blood leaves the pulmonary artery to the lungs, where it picks up oxygen and releases carbon dioxide. From there, it enters the pulmonary veins and returns to the left atrium of the heart.",
+            "first_call_id": "NanoNQ:test1829__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "When blood leaves the pulmonary artery, it goes to the lungs to be oxygenated.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

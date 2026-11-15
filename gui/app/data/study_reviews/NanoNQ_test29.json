@@ -1,0 +1,534 @@
+{
+  "case_id": "NanoNQ:test29",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test29.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test29.md",
+  "records": [
+    {
+      "record_id": "R1:c520652a38171098ec62b18073b72b2b446d3f9b2637c02b0df0ec6df60e7cb8",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test29",
+      "request_sha256": "c520652a38171098ec62b18073b72b2b446d3f9b2637c02b0df0ec6df60e7cb8",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test29__BN2__unfiltered",
+          "case_id": "NanoNQ:test29",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+            "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+            "45f387aced079fa6e579ed1a4d0ed9f51a82b2efdd3582af86cf1cd0de9671b9:00000",
+            "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+            "d7769eed7b34555217d94c55f1871fdc67bb41e189849daed66eb7d151d7fcfb:00000"
+          ],
+          "text_hashes": [
+            "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+            "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+            "c8cb257676f980e0a20dc49073e0ffabdeb41ec5995602007d27a55570c70894",
+            "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+            "e4a7cf9e7cb162be8ec4ed3969ef4339918336e1a12a2c83785dc612ab50bea5"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test29.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a",
+          "af90db"
+        ],
+        "rationale": "No retrieved passage is about The Purge: Election Year; the only Joe passages are about other works, and the response correctly did not use them.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:4aef261b78e5186fdbf0ba830ff2d8081b7b882940cd2972f595a3d948c5a35b",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test29",
+      "request_sha256": "4aef261b78e5186fdbf0ba830ff2d8081b7b882940cd2972f595a3d948c5a35b",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test29__BN2__filtered",
+          "case_id": "NanoNQ:test29",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+            "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000"
+          ],
+          "text_hashes": [
+            "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+            "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test29__BE2__filtered",
+          "case_id": "NanoNQ:test29",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+            "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000"
+          ],
+          "text_hashes": [
+            "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+            "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test29.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a",
+          "af90db"
+        ],
+        "rationale": "No retrieved passage is about The Purge: Election Year; the only Joe passages are about other works, and the response correctly did not use them.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:d937be3a5c06888a1a5e5e481f49ab225a33586fa22c720b05698329f3b93d85",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test29",
+      "request_sha256": "d937be3a5c06888a1a5e5e481f49ab225a33586fa22c720b05698329f3b93d85",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test29__BE1__unfiltered",
+          "case_id": "NanoNQ:test29",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+            "97cbc5e49354a0e252ed0ef2810ebbb7c75af3360970525a7a5fe5dee5972279:00000",
+            "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+            "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000",
+            "f9be71aeb2ca30e1affd8716ebbfda3a2f02f4aae4f4702087e42f7d6fd08c54:00000"
+          ],
+          "text_hashes": [
+            "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+            "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+            "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+            "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd",
+            "afecc48014f8db5f9e4ca36dd47a0bee6f3bc84bbc4fbf88cf2e257042dcbf10"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test29.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a",
+          "af90db"
+        ],
+        "rationale": "No retrieved passage is about The Purge: Election Year; the only Joe passages are about other works, and the response correctly did not use them.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:634f742075a6fb58e71c85b5c21e5055edc43169ad89177e4f86ea24e129b826",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test29",
+      "request_sha256": "634f742075a6fb58e71c85b5c21e5055edc43169ad89177e4f86ea24e129b826",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test29__BE2__unfiltered",
+          "case_id": "NanoNQ:test29",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "04eb0a71bdc780c93267b0493f0ba9f1162a3d0bb7fdd599c9d7d88af6c3a4fe:00000",
+            "97cbc5e49354a0e252ed0ef2810ebbb7c75af3360970525a7a5fe5dee5972279:00000",
+            "a50b9aae45cdaeb3f3eb8c9bf1472d50b596b75288b5d5559c4991c04bedb264:00000",
+            "af90dbb9b5f5513b802f5d34fd155e8ca96f0b65caaf749378c760ca8b4d599b:00000",
+            "aa84a45d225db396127d2c537e6a30586cd4d64899ced16c74173542f91b56bc:00000"
+          ],
+          "text_hashes": [
+            "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+            "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+            "bba356484e0004b79dffc5815624011af68a4e389098f1a36bae1020dcbb1538",
+            "326ea824ae159bfe8dd02ed9adcafebde6d909ce08584c55e0665a0467bc8bcc",
+            "5009d0b25b478f11695e8ebd58273b7c917b2a1d2ff1ae45559dbd70671d0fbd"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test29.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a",
+          "af90db"
+        ],
+        "rationale": "No retrieved passage is about The Purge: Election Year; the only Joe passages are about other works, and the response correctly did not use them.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test29:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test29",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:c520652a38171098ec62b18073b72b2b446d3f9b2637c02b0df0ec6df60e7cb8",
+          "R1:4aef261b78e5186fdbf0ba830ff2d8081b7b882940cd2972f595a3d948c5a35b"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test29:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test29",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a"
+        ],
+        "rationale": "P condition; no passage ever supported the answer, so there was no support to lose; strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test29:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test29",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:d937be3a5c06888a1a5e5e481f49ab225a33586fa22c720b05698329f3b93d85"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test29:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test29",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:4aef261b78e5186fdbf0ba830ff2d8081b7b882940cd2972f595a3d948c5a35b",
+          "R1:634f742075a6fb58e71c85b5c21e5055edc43169ad89177e4f86ea24e129b826"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test29:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test29",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a"
+        ],
+        "rationale": "P condition; no passage ever supported the answer, so there was no support to lose; strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test29:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test29",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "04eb0a"
+        ],
+        "rationale": "P condition; no passage ever supported the answer, so there was no support to lose; strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    }
+  ]
+}

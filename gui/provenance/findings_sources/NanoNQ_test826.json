@@ -1,0 +1,949 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test826",
+    "question": "where was the 3/5 compromise originally stated in the constitution",
+    "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+    "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+    "source_review_status_historical": "user_recorded_review",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoNQ:test826",
+      "assessment": "alternative_support_retained",
+      "rationale": "PN1 retains doc101561 explicitly giving Article I, Section 2, Clause 3 despite dropping the designated source/copy.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "17ddf5f223176f3d772d16b9e87927e9fdeb157b73985e2af1518ad915dfc8b8:00000"
+        ],
+        "BN1": [
+          "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000"
+        ],
+        "PN1": [
+          "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 5,
+    "novel_request_hashes": 1
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoNQ:test826",
+    "question": "where was the 3/5 compromise originally stated in the constitution",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test826"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6463983058929443
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6445382833480835
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6315333843231201
+        },
+        {
+          "chunk_id": "17ddf5f223176f3d772d16b9e87927e9fdeb157b73985e2af1518ad915dfc8b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29764",
+          "instance_key": "17ddf5f223176f3d772d16b9e87927e9fdeb157b73985e2af1518ad915dfc8b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise gave a disproportionate representation of slave states in the House of Representatives relative to the voters in free states until the American Civil War. In 1793, for example, Southern slave states had 47 of the 105 members but would have had 33, had seats been assigned based on free populations. In 1812, slave states had 76 out of 143 instead of the 59 they would have had; in 1833, 98 out of 240 instead of 73. As a result, Southern states had disproportionate influence on the presidency, the speakership of the House, and the Supreme Court in the period prior to the Civil War.[8] Along with this must be considered the number of slave and free states, which remained mostly equal until 1850, safeguarding the Southern bloc in the Senate as well as Electoral College votes.",
+          "text_sha256": "d2070d726f84f90511d2b3b137287fd9f0c4d4e1dba8116079f31e391d3e6c45",
+          "char_start": 0,
+          "char_end": 808,
+          "tokens_with_specials": 175,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.611113965511322
+        }
+      ],
+      "T_native_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+        "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+        "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+        "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+        "The Three-Fifths Compromise gave a disproportionate representation of slave states in the House of Representatives relative to the voters in free states until the American Civil War. In 1793, for example, Southern slave states had 47 of the 105 members but would have had 33, had seats been assigned based on free populations. In 1812, slave states had 76 out of 143 instead of the 59 they would have had; in 1833, 98 out of 240 instead of 73. As a result, Southern states had disproportionate influence on the presidency, the speakership of the House, and the Supreme Court in the period prior to the Civil War.[8] Along with this must be considered the number of slave and free states, which remained mostly equal until 1850, safeguarding the Southern bloc in the Senate as well as Electoral College votes."
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test826__C__U",
+          "case_id": "NanoNQ:test826",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "ordinal": 12,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test826__C__unfiltered",
+          "case_id": "NanoNQ:test826",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "where was the 3/5 compromise originally stated in the constitution",
+          "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+          "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+            "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+            "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+            "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+            "17ddf5f223176f3d772d16b9e87927e9fdeb157b73985e2af1518ad915dfc8b8:00000"
+          ],
+          "text_hashes": [
+            "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+            "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+            "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+            "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+            "d2070d726f84f90511d2b3b137287fd9f0c4d4e1dba8116079f31e391d3e6c45"
+          ],
+          "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+          "estimated_prompt_tokens": 692,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test826__C__unfiltered",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "prompt_eval_count": 692,
+          "eval_count": 27,
+          "done_reason": "stop",
+          "wall_seconds": 36.042043216999446,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test826__C__unfiltered",
+          "case_id": "NanoNQ:test826",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test826__C__T",
+          "case_id": "NanoNQ:test826",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "ordinal": 12,
+          "same_run_reuse_of": "NanoNQ:test826__C__U",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test826__C__unfiltered",
+          "case_id": "NanoNQ:test826",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "where was the 3/5 compromise originally stated in the constitution",
+          "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+          "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+            "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+            "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+            "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+            "17ddf5f223176f3d772d16b9e87927e9fdeb157b73985e2af1518ad915dfc8b8:00000"
+          ],
+          "text_hashes": [
+            "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+            "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+            "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+            "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+            "d2070d726f84f90511d2b3b137287fd9f0c4d4e1dba8116079f31e391d3e6c45"
+          ],
+          "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+          "estimated_prompt_tokens": 692,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test826__C__unfiltered",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "prompt_eval_count": 692,
+          "eval_count": 27,
+          "done_reason": "stop",
+          "wall_seconds": 36.042043216999446,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test826__C__unfiltered",
+          "case_id": "NanoNQ:test826",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test826__C__filtered",
+          "case_id": "NanoNQ:test826",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "where was the 3/5 compromise originally stated in the constitution",
+          "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+          "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+            "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+            "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+            "17ddf5f223176f3d772d16b9e87927e9fdeb157b73985e2af1518ad915dfc8b8:00000"
+          ],
+          "text_hashes": [
+            "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+            "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+            "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+            "d2070d726f84f90511d2b3b137287fd9f0c4d4e1dba8116079f31e391d3e6c45"
+          ],
+          "request_sha256": "c32836eb12b2b8973498f82a3c3134d879e3702d851de17bf29fb9a571b758dc",
+          "estimated_prompt_tokens": 581,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test826__C__filtered",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "prompt_eval_count": 581,
+          "eval_count": 27,
+          "done_reason": "stop",
+          "wall_seconds": 23.300597574998392,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6463983058929443
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6445382833480835
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6315333843231201
+        },
+        {
+          "chunk_id": "2e5cbca5e2b676bf7532631de5cd966c16c8fb28d5e3b64e02c8f00d9ccb62eb:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/BN/1",
+          "instance_key": "2e5cbca5e2b676bf7532631de5cd966c16c8fb28d5e3b64e02c8f00d9ccb62eb",
+          "chunk_index": 0,
+          "copied_from": "doc1486663",
+          "copy_number": 1,
+          "text": "Source excerpt.\nSherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "7946fa638b73d3979ac6a0c98a25d3138775fc98c9ca1501e9e2f19751e8c97e",
+          "char_start": 0,
+          "char_end": 813,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6154108047485352
+        }
+      ],
+      "T_native_indices": [
+        0,
+        2,
+        3
+      ],
+      "T_output_texts": [
+        "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+        "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+        "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that"
+      ],
+      "T_removed_indices": [
+        1,
+        4
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        2
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test826__BN1__U",
+          "case_id": "NanoNQ:test826",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "a51be56d94c89e9f5f3695cf5f3861a55a954239f8d09268caaf44111e7fec3a",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "ordinal": 14,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test826__BN1__unfiltered",
+          "case_id": "NanoNQ:test826",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "where was the 3/5 compromise originally stated in the constitution",
+          "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+          "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+            "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+            "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+            "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+            "2e5cbca5e2b676bf7532631de5cd966c16c8fb28d5e3b64e02c8f00d9ccb62eb:00000"
+          ],
+          "text_hashes": [
+            "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+            "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+            "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+            "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+            "7946fa638b73d3979ac6a0c98a25d3138775fc98c9ca1501e9e2f19751e8c97e"
+          ],
+          "request_sha256": "a51be56d94c89e9f5f3695cf5f3861a55a954239f8d09268caaf44111e7fec3a",
+          "estimated_prompt_tokens": 641,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test826__BN1__unfiltered",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "prompt_eval_count": 641,
+          "eval_count": 27,
+          "done_reason": "stop",
+          "wall_seconds": 17.403005386004224,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test826__BN1__unfiltered",
+          "case_id": "NanoNQ:test826",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "a51be56d94c89e9f5f3695cf5f3861a55a954239f8d09268caaf44111e7fec3a",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test826__BN1__T",
+          "case_id": "NanoNQ:test826",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "f2f646eece852acec1e842f113bd6f9897bcdc8e71a885f95f377d8043037a7d",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "ordinal": 13,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test826__BE2__filtered",
+          "case_id": "NanoNQ:test826",
+          "condition": "BE2",
+          "mode": "filtered",
+          "question": "where was the 3/5 compromise originally stated in the constitution",
+          "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+          "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+            "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000"
+          ],
+          "text_hashes": [
+            "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+            "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6"
+          ],
+          "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449",
+          "estimated_prompt_tokens": 218,
+          "identical_request_to": "NanoNQ:test826__BN1__filtered",
+          "first_call_id": "NanoNQ:test826__BN1__filtered",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "prompt_eval_count": 218,
+          "eval_count": 27,
+          "done_reason": "stop",
+          "wall_seconds": 17.139325903997815,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858
+        },
+        {
+          "chunk_id": "d1ad76bf42bf19938862da3c2289f2c004c988446b1681148057b16e81553dda:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/PN/1",
+          "instance_key": "d1ad76bf42bf19938862da3c2289f2c004c988446b1681148057b16e81553dda",
+          "chunk_index": 0,
+          "copied_from": "doc29757",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "90c8cb8e5dfa8c955eb1df21ad64f4192c395beffec72c37f10b193607c7a47e",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8436755537986755
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6463983058929443
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6445382833480835
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6315333843231201
+        }
+      ],
+      "T_native_indices": [
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+        "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+        "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that"
+      ],
+      "T_removed_indices": [
+        0,
+        1
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "d1ad76bf42bf19938862da3c2289f2c004c988446b1681148057b16e81553dda:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test826__PN1__U",
+          "case_id": "NanoNQ:test826",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "f1eb4779cc1b85f80c3311d8a20947198b014b1498db5440b186ad15fe250ec3",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution.",
+          "ordinal": 15,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test826__PN1__unfiltered",
+          "case_id": "NanoNQ:test826",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "where was the 3/5 compromise originally stated in the constitution",
+          "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+          "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+            "d1ad76bf42bf19938862da3c2289f2c004c988446b1681148057b16e81553dda:00000",
+            "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+            "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+            "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000"
+          ],
+          "text_hashes": [
+            "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+            "90c8cb8e5dfa8c955eb1df21ad64f4192c395beffec72c37f10b193607c7a47e",
+            "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+            "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+            "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a"
+          ],
+          "request_sha256": "f1eb4779cc1b85f80c3311d8a20947198b014b1498db5440b186ad15fe250ec3",
+          "estimated_prompt_tokens": 525,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test826__PN1__unfiltered",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution.",
+          "prompt_eval_count": 525,
+          "eval_count": 18,
+          "done_reason": "stop",
+          "wall_seconds": 27.524514338998415,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test826__PN1__unfiltered",
+          "case_id": "NanoNQ:test826",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "f1eb4779cc1b85f80c3311d8a20947198b014b1498db5440b186ad15fe250ec3",
+          "status": "ok",
+          "answer": "Article 1, Section 2, Clause 3 of the United States Constitution.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test826__PN1__T",
+          "case_id": "NanoNQ:test826",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+          "status": "ok",
+          "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "ordinal": 16,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test826__PE1__filtered",
+          "case_id": "NanoNQ:test826",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "where was the 3/5 compromise originally stated in the constitution",
+          "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+          "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+            "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+            "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000"
+          ],
+          "text_hashes": [
+            "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+            "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+            "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a"
+          ],
+          "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+          "estimated_prompt_tokens": 462,
+          "identical_request_to": "NanoNQ:test826__PN1__filtered",
+          "first_call_id": "NanoNQ:test826__PN1__filtered",
+          "status": "ok",
+          "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "prompt_eval_count": 462,
+          "eval_count": 26,
+          "done_reason": "stop",
+          "wall_seconds": 29.010609684002702,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test826__PE1__filtered",
+          "case_id": "NanoNQ:test826",
+          "condition": "PE1",
+          "mode": "filtered",
+          "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+          "status": "ok",
+          "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test826__PE1__filtered",
+          "case_id": "NanoNQ:test826",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "where was the 3/5 compromise originally stated in the constitution",
+          "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+          "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+            "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+            "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000"
+          ],
+          "text_hashes": [
+            "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+            "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+            "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a"
+          ],
+          "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+          "estimated_prompt_tokens": 462,
+          "identical_request_to": "NanoNQ:test826__PN1__filtered",
+          "first_call_id": "NanoNQ:test826__PN1__filtered",
+          "status": "ok",
+          "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+          "prompt_eval_count": 462,
+          "eval_count": 26,
+          "done_reason": "stop",
+          "wall_seconds": 29.010609684002702,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

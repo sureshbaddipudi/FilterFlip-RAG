@@ -1,0 +1,124 @@
+{
+  "version": "2.6.1",
+  "result": "PASS",
+  "checks": [
+    {
+      "id": "python-normal",
+      "command": [
+        "/home/suresh/anaconda3/envs/filterflip-core/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app",
+      "exit_code": 0,
+      "status": "PASS",
+      "elapsed_seconds": 7.7935,
+      "log_sha256": "b45555dfa1dc966c1f5a7949d1c13a4a59ae693c35af12e27ec4d99b6dd146b3"
+    },
+    {
+      "id": "python-optimized",
+      "command": [
+        "/home/suresh/anaconda3/envs/filterflip-core/bin/python",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app",
+      "exit_code": 0,
+      "status": "PASS",
+      "elapsed_seconds": 8.3589,
+      "log_sha256": "ab623319201adf67a31bed617f17b9615ff963c0c5938f30cf0a9df3cc973799"
+    },
+    {
+      "id": "js-syntax-app",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/static/app.js"
+      ],
+      "cwd": "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05",
+      "exit_code": 0,
+      "status": "PASS",
+      "elapsed_seconds": 0.3029,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "js-syntax-study",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/static/study.js"
+      ],
+      "cwd": "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05",
+      "exit_code": 0,
+      "status": "PASS",
+      "elapsed_seconds": 0.2981,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "recorded-renderer",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/validation/check_recorded_view.cjs"
+      ],
+      "cwd": "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05",
+      "exit_code": 0,
+      "status": "PASS",
+      "elapsed_seconds": 0.3656,
+      "log_sha256": "ac68bce7efa6331f6205f6c6596432e99ea5342ab246837e53a145ff23f8d6d0"
+    },
+    {
+      "id": "saved-renderer",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/tools/check_saved_conditions.cjs"
+      ],
+      "cwd": "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05",
+      "exit_code": 0,
+      "status": "PASS",
+      "elapsed_seconds": 0.8679,
+      "log_sha256": "a4bac4b008c12efb56e4e634c42ecea699f8be9ab841d22c66777f4921151af7"
+    },
+    {
+      "id": "ui-controls",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/tools/check_controls.cjs"
+      ],
+      "cwd": "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05",
+      "exit_code": 0,
+      "status": "PASS",
+      "elapsed_seconds": 0.1458,
+      "log_sha256": "6e5c55e6e2a56fd47d434ce943c9263b22c44f92c2a903e9fa9e194b0426c25d"
+    },
+    {
+      "id": "identity-regressions",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/tools/check_gui_identity.cjs"
+      ],
+      "cwd": "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05",
+      "exit_code": 0,
+      "status": "PASS",
+      "elapsed_seconds": 0.1879,
+      "log_sha256": "b71c3837f78a051324f2abb74b8cfffea51ffdb9b5aa5a129eaec6d0a04a610e"
+    }
+  ],
+  "app_manifest_sha256": "0ba6c49624732961beb5c5e371c7aea0bee17207d5e38299765fa30a7a8c2011",
+  "checked_frontend_sha256": "f25dbd544526e0f20dc236fcc186b085b36d51276ae1b02b468383d95a37da1f",
+  "identity_regression_code_sha256": "a19782308baff78b4aff364beac6d196b85c9f1483bb655697cd5e8848ab7ebb",
+  "backend_sha256": "565d1d1c09ad35bb8a52c6b687f888d242373b56c50a546582c016516880d801",
+  "existing_control_fixture_schema_correction": "state.case_id added; actual server unchanged",
+  "standalone_synthetic_fixture": "Identity fields corrected; Python syntax compiled without cache; not used to generate research output",
+  "no_scientific_generations": true
+}

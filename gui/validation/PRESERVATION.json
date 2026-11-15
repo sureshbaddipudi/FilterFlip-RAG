@@ -1,0 +1,37 @@
+{
+  "result": "PASS",
+  "old_app_manifested_files": 156,
+  "unchanged_old_app_files": 145,
+  "changed_old_app_files": [
+    "CHANGELOG.md",
+    "HANDOVER.md",
+    "README.md",
+    "SECURITY.md",
+    "VALIDATION.md",
+    "backend.py",
+    "launch.py",
+    "safety.py",
+    "server.py",
+    "static/app.js",
+    "static/index.html"
+  ],
+  "new_backend_only_delta": "import run_plan; replace mode routing with shared run_plan; remaining backend byte-equivalent",
+  "unchanged_scientific_files": [
+    "policies.py",
+    "native_profile.json",
+    "common.py",
+    "data/recorded.json",
+    "data/human_reviews.json",
+    "data/CURRENT_REVIEW_SUMMARY.json",
+    "data/DEMO_JOINT_ADJUDICATION.json",
+    "data/challenge_contexts.json",
+    "data/challenge_definitions.json",
+    "data/challenge_review.json",
+    "data/week06_plan.json"
+  ],
+  "CSS_unchanged": true,
+  "unchanged_source_copy_count": 126,
+  "original_v1_1_zip_sha256": "36348ecc8a9202e4f34f72eee51569e6fe392233ccec42ba8e7889874d6f0272",
+  "original_v1_1_manifested_files": 2078,
+  "original_v1_1_integrity": "PASS"
+}

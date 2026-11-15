@@ -1,0 +1,118 @@
+{
+  "checks": [
+    {
+      "name": "python_normal",
+      "command": [
+        "/home/suresh/anaconda3/envs/filterflip-core/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 11.252028589995462,
+      "log": "validation/python_normal.log"
+    },
+    {
+      "name": "python_optimized",
+      "command": [
+        "/home/suresh/anaconda3/envs/filterflip-core/bin/python",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 10.486533415998565,
+      "log": "validation/python_optimized.log"
+    },
+    {
+      "name": "js_main_syntax",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "static/app.js"
+      ],
+      "exit_code": 0,
+      "seconds": 3.265820619999431,
+      "log": "validation/js_main_syntax.log"
+    },
+    {
+      "name": "js_study_syntax",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "static/study.js"
+      ],
+      "exit_code": 0,
+      "seconds": 0.06555317399761407,
+      "log": "validation/js_study_syntax.log"
+    },
+    {
+      "name": "primary_59_dom",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "validation/check_recorded_view.cjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.8707253059983486,
+      "log": "validation/primary_59_dom.log"
+    },
+    {
+      "name": "all_531_dom",
+      "command": [
+        "/home/suresh/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_All_Conditions_2026-11-03/tools/check_saved_conditions.cjs"
+      ],
+      "exit_code": 0,
+      "seconds": 1.3589158460017643,
+      "log": "validation/all_531_dom.log"
+    }
+  ],
+  "all_pass": true,
+  "new_model_calls": 0,
+  "new_encoder_loads": 0,
+  "final_UI_checks_after_layout_update": [
+    {
+      "name": "js_study_syntax",
+      "exit_code": 0,
+      "log": "validation/js_study_syntax.log"
+    },
+    {
+      "name": "all_531_dom",
+      "exit_code": 0,
+      "log": "validation/all_531_dom.log"
+    },
+    {
+      "name": "ui_controls",
+      "exit_code": 0,
+      "log": "validation/ui_controls.log"
+    }
+  ],
+  "final_executable_sha256": {
+    "app/backend.py": "565d1d1c09ad35bb8a52c6b687f888d242373b56c50a546582c016516880d801",
+    "app/common.py": "4194a01d77377d5205695cd3f2f9d3a000895c4068e55d6fb77c581cf16087ea",
+    "app/configure.py": "ddd5f4a5642fb322e59304c7177022b81ba77bbaff244b1fc42a24a4b2b06a1e",
+    "app/launch.py": "beb2245c9adf7252ae2df3b78e1fd11b4ca644674919ea1e27c509e0542ea441",
+    "app/policies.py": "648c0e3a5264315201ba3b6b7cdbd40db05e0be3c4f5d9e8dfef3c955ae52492",
+    "app/safety.py": "80a33197e608ecc3faf4ccccb0153aad81ae2a3fba229b84bbc1260eca85cca1",
+    "app/server.py": "2392223bf33fdca794c853fb8ee1580b6e644a7306310883314405f512e7572c",
+    "app/static/app.js": "2a5864fdb7e78bb3c5bdf60f54183c24fdea62b3c40f93346047719b8d0abd0a",
+    "app/static/study.js": "71bfd27ad6c56594ddfba60661934333e5e943b290fbdf14b738017cfe9ed2f7",
+    "app/study.py": "d8b68a3bcfab3161e7b28c1b6b703bc6dcba7780a5428d83fb127b4d8b1380f2",
+    "app/tests/browser_fixture.py": "f7c9028a64ced3943065d5c35cc9b1749da5d507fdcbc0aad6030f98c81c3073",
+    "app/tests/test_all_conditions.py": "9773b887ad0b1ff1e1b489106fdf2554e26d6fc07e0efafbdd4aef20dbc601bb",
+    "app/tests/test_lifecycle.py": "4981fd4fa8f79f523b57d1f1b603f065729bd6173f39d9818a18786adddf9b1a",
+    "app/tests/test_live.py": "07f518052d79902ee40d7a9dd747f81b172365ba6b0264c6ede31d217f48582b",
+    "app/tests/test_security.py": "36dce6a7ac9b740f36fc33c4e0201bfa18ddb2d7c6f329ac48e172f1240e645b",
+    "app/validation/audit_evidence.py": "ca93aaaf0810607b511f7861aff1261ce978c115627bde8bcb09533a79ebb99b",
+    "app/verify_release.py": "dfe1d4c4e8c86a038add6a29366cff8c233c1c8f895b2d3a5646170d4200d69e"
+  }
+}

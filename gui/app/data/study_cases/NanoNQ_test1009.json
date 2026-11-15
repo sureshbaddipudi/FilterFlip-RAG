@@ -1,0 +1,2853 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1009",
+    "dataset": "NanoNQ",
+    "question": "who plays heather in beauty and the beast",
+    "source_family": "NanoNQ:test1009",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc35719",
+    "expected_answer": "Nicole Gale Anderson",
+    "answer_aliases": [],
+    "support_quote": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast.",
+    "source_qualification": "Refers to the CW television series",
+    "qrel_document_ids": [
+      "doc35719"
+    ],
+    "family_reference_texts": [
+      "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test1009",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc35719",
+    "expected_answer": "Nicole Gale Anderson",
+    "answer_aliases": [],
+    "support_quote": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast.",
+    "source_qualification": "Refers to the CW television series",
+    "exclusion_reason": "",
+    "notes": ""
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test1009",
+    "dataset": "NanoNQ",
+    "question": "who plays heather in beauty and the beast",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test1009",
+      "dataset": "NanoNQ",
+      "question": "who plays heather in beauty and the beast",
+      "expected_answer": "Nicole Gale Anderson",
+      "source_qualification": "Refers to the CW television series",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Assistant-confirmed event",
+      "reason_group": "Strict recorded event (assistant)",
+      "historical_decision": "provisional_event",
+      "historical_reason_code": "provisional_event",
+      "historical_rationale": "Correct actress-role answers in C, BN1 and PN1 without filtering. PN1 filtering removes the role relation and the model abstains. The surviving cast-list occurrence of the actress name is insufficient.",
+      "current_assistant_rationale": "All five checks pass for this recorded configuration under the frozen source interpretation.\nclean: The retained biography explicitly links Nicole Gale Anderson to Heather Chandler. The clean answer gives that actress.\nunfiltered: The retrieved original and prefixed copy both state the actress-role relation; the unfiltered answer gives Nicole Gale Anderson.\nloss: The remaining passages concern other roles, the 2017 film, and an unlabelled television cast list. Nicole Gale Anderson occurs in that list, but nothing links her to Heather. The relation, not just an answer token, is required.\nfailure: The model says Not enough information.\ncontrol: The biography remains in the background-copy filtered context and the answer is Nicole Gale Anderson.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/0",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/0",
+      "review_priority": 1,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test1009.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 1,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 1,
+              "call_id": "NanoNQ:test1009__C__unfiltered",
+              "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 2,
+              "call_id": "NanoNQ:test1009__C__filtered",
+              "request_sha256": "7248b8693cc9e05fa9324f900d0d0ae1b56108c96f9034cab789b7626cfe36ec"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 2,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 3,
+              "call_id": "NanoNQ:test1009__BN1__unfiltered",
+              "request_sha256": "4b0b712742de6d22c776eb6ec52ae7d6d46b55842f5eeaef6d51556f5ba3ccc0"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 4,
+              "call_id": "NanoNQ:test1009__BN1__filtered",
+              "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 4,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 5,
+              "call_id": "NanoNQ:test1009__PN1__unfiltered",
+              "request_sha256": "1b02ca4c2e6cfc6382a311d35516a6bdb8345f1d0a040f041f2f63dcbad1d40b"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 6,
+              "call_id": "NanoNQ:test1009__PN1__filtered",
+              "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "Later fixed-context check: 3 orders per C/BN1/PN1; same survivor set in each condition. No generator rerun per order.",
+      "later_order_source": "output/filterflip_study_v1_order_check/ORDER_REVIEW.json"
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test1009",
+      "Question": "who plays heather in beauty and the beast",
+      "Evidence packet": "evidence/NanoNQ_test1009.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "abstention",
+      "Strict event judgment": "yes",
+      "Background-qualified event?": "yes",
+      "Evidence and reasoning": "Q1: C P2 doc35719 kept: \"best known for her role as Heather Chandler on The CW series Beauty & the Beast\". Q2: PN1 P2 copy of doc35719. Q3: unfiltered names Nicole Gale Anderson. Q4: survivors P1 doc436998 (season notes), P4 doc2832 (2017 film), P5 doc973089 (cast list naming Nicole Gale Anderson with no role) - name without the Heather relation is not support. Q5: \"Not enough information.\" Q6: BN1 P3 doc35719 kept, correct.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (event). Reviewer decision 2026-10-14: P5 cast-list name without the Heather role is not support.",
+      "workbook_row": 3,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "question": "who plays heather in beauty and the beast",
+        "expected_answer": "Nicole Gale Anderson",
+        "source_qualification": "Refers to the CW television series",
+        "source_review_status": "user_recorded_review",
+        "assistant_status": "Assistant-confirmed event",
+        "reason_group": "Strict recorded event (assistant)",
+        "historical_decision": "provisional_event",
+        "historical_reason_code": "provisional_event",
+        "historical_rationale": "Correct actress-role answers in C, BN1 and PN1 without filtering. PN1 filtering removes the role relation and the model abstains. The surviving cast-list occurrence of the actress name is insufficient.",
+        "current_assistant_rationale": "All five checks pass for this recorded configuration under the frozen source interpretation.\nclean: The retained biography explicitly links Nicole Gale Anderson to Heather Chandler. The clean answer gives that actress.\nunfiltered: The retrieved original and prefixed copy both state the actress-role relation; the unfiltered answer gives Nicole Gale Anderson.\nloss: The remaining passages concern other roles, the 2017 film, and an unlabelled television cast list. Nicole Gale Anderson occurs in that list, but nothing links her to Heather. The relation, not just an answer token, is required.\nfailure: The model says Not enough information.\ncontrol: The biography remains in the background-copy filtered context and the answer is Nicole Gale Anderson.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/0",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/0",
+        "review_priority": 1,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoNQ_test1009.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 1,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 1,
+                "call_id": "NanoNQ:test1009__C__unfiltered",
+                "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 2,
+                "call_id": "NanoNQ:test1009__C__filtered",
+                "request_sha256": "7248b8693cc9e05fa9324f900d0d0ae1b56108c96f9034cab789b7626cfe36ec"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 2,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 3,
+                "call_id": "NanoNQ:test1009__BN1__unfiltered",
+                "request_sha256": "4b0b712742de6d22c776eb6ec52ae7d6d46b55842f5eeaef6d51556f5ba3ccc0"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 4,
+                "call_id": "NanoNQ:test1009__BN1__filtered",
+                "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 4,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 5,
+                "call_id": "NanoNQ:test1009__PN1__unfiltered",
+                "request_sha256": "1b02ca4c2e6cfc6382a311d35516a6bdb8345f1d0a040f041f2f63dcbad1d40b"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 6,
+                "call_id": "NanoNQ:test1009__PN1__filtered",
+                "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "Later fixed-context check: 3 orders per C/BN1/PN1; same survivor set in each condition. No generator rerun per order.",
+        "later_order_source": "output/filterflip_study_v1_order_check/ORDER_REVIEW.json"
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test1009",
+    "question": "who plays heather in beauty and the beast",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1009"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674,
+          "kept": true
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.699398934841156,
+          "kept": true
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6898062229156494,
+          "kept": false
+        },
+        {
+          "chunk_id": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc973089",
+          "instance_key": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+          "text_sha256": "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+          "char_start": 0,
+          "char_end": 441,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6478601694107056,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d781f925766c4adbeb0292c73e33acc42806d1a3c16963ea4527be1a0bc9ea2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2846",
+          "instance_key": "8d781f925766c4adbeb0292c73e33acc42806d1a3c16963ea4527be1a0bc9ea2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In January 2015, Emma Watson announced that she would be starring as Belle, the female lead.[32] She was the first choice of Walt Disney Studios chairman Alan F. Horn, as he had previously overseen Warner Bros. which released the eight Harry Potter films that co-starred Watson as Hermione Granger.[31] Two months later, Luke Evans and Dan Stevens were revealed to be in talks to play Gaston and the Beast respectively,[33][34] and Watson confirmed their casting the following day through tweets.[11][35] The rest of the principal cast, including Josh Gad, Emma Thompson, Kevin Kline, Audra McDonald, Ian McKellen, Gugu Mbatha-Raw, Ewan McGregor and Stanley Tucci were announced between March and April to play LeFou, Mrs. Potts, Maurice, Madame de Garderobe, Cogsworth, Plumette, LumiÃ¨re and Cadenza, respectively.[14][13][17][19][18][15][16][36]",
+          "text_sha256": "a766aaeb2bf84418ef4b09eb5f9f7a549deb4f469df86abdda0475e9e00b54f8",
+          "char_start": 0,
+          "char_end": 848,
+          "tokens_with_specials": 225,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.611467719078064,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        4
+      ],
+      "removed_indices": [
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.5630476615056637,
+          0.5630476615056637,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.5630476615056637,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.08968460559844971,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7503650188446045
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6606804132461548
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6158584952354431
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5569202899932861
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5337033867835999
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5087877511978149
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4956868290901184
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4503781497478485
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__C__unfiltered",
+          "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__C__filtered",
+          "request_sha256": "7248b8693cc9e05fa9324f900d0d0ae1b56108c96f9034cab789b7626cfe36ec",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674,
+          "kept": false
+        },
+        {
+          "chunk_id": "50b0237a016622d2941bc27ef3fea5f73fbd97aad042d258c459f804d863ba89:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/BN/1",
+          "instance_key": "50b0237a016622d2941bc27ef3fea5f73fbd97aad042d258c459f804d863ba89",
+          "chunk_index": 0,
+          "copied_from": "doc436998",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBrian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On",
+          "text_sha256": "3c099a015ba4dd48e225b95d4f46a8d6379ff0e46ec1fada39196f4ff972e555",
+          "char_start": 0,
+          "char_end": 1086,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7317287921905518,
+          "kept": false
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.699398934841156,
+          "kept": true
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6898062229156494,
+          "kept": true
+        },
+        {
+          "chunk_id": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc973089",
+          "instance_key": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+          "text_sha256": "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+          "char_start": 0,
+          "char_end": 441,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6478601694107056,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9748005586425315,
+          0.9748005586425315,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9748005586425315,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.23695486783981323,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9873198866844177
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7503650188446045
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6635284423828125
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6606804132461548
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6196371912956238
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6044046878814697
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5337033867835999
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5087877511978149
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__BN1__unfiltered",
+          "request_sha256": "4b0b712742de6d22c776eb6ec52ae7d6d46b55842f5eeaef6d51556f5ba3ccc0",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__BN1__filtered",
+          "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "64c648046c3222b5ba39469f53c8b7ed99a61ee3c7411fdab81ac38681582287:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/BN/2",
+          "instance_key": "64c648046c3222b5ba39469f53c8b7ed99a61ee3c7411fdab81ac38681582287",
+          "chunk_index": 0,
+          "copied_from": "doc436998",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nBrian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On",
+          "text_sha256": "4afbac0b16c5246cccc99b1e99838ffc4321f5ea0527122b54decfa631e0cab6",
+          "char_start": 0,
+          "char_end": 1089,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7337701320648193,
+          "kept": false
+        },
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7328882813453674,
+          "kept": false
+        },
+        {
+          "chunk_id": "50b0237a016622d2941bc27ef3fea5f73fbd97aad042d258c459f804d863ba89:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/BN/1",
+          "instance_key": "50b0237a016622d2941bc27ef3fea5f73fbd97aad042d258c459f804d863ba89",
+          "chunk_index": 0,
+          "copied_from": "doc436998",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBrian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On",
+          "text_sha256": "3c099a015ba4dd48e225b95d4f46a8d6379ff0e46ec1fada39196f4ff972e555",
+          "char_start": 0,
+          "char_end": 1086,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7317287921905518,
+          "kept": false
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.699398934841156,
+          "kept": true
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6898062229156494,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.9745636602276875,
+          1.9499465906450446,
+          1.9742181868677058,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 1.9499465906450446,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3658856749534607,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9997087717056274
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9874948263168335
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9873198866844177
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.621434211730957
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6196371912956238
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.608249306678772
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6044046878814697
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5087877511978149
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__BN2__unfiltered",
+          "request_sha256": "772ad9b75df0cc5dda74d3c8979ff4e40cc211630db795f14f527e746741c98c",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__BN2__filtered",
+          "request_sha256": "5fab7001c337490f38d82db371417e5a0e073bf0e8b43856de6d0a691dcf6644",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674,
+          "kept": true
+        },
+        {
+          "chunk_id": "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/PN/1",
+          "instance_key": "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0",
+          "chunk_index": 0,
+          "copied_from": "doc35719",
+          "copy_number": 1,
+          "text": "Source excerpt.\nNicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "f83529e2c9ac886a22d666e7d0d9862438354e221a7f286c3b08109e8eecda25",
+          "char_start": 0,
+          "char_end": 386,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7212523818016052,
+          "kept": false
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.699398934841156,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6898062229156494,
+          "kept": true
+        },
+        {
+          "chunk_id": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc973089",
+          "instance_key": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+          "text_sha256": "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+          "char_start": 0,
+          "char_end": 441,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6478601694107056,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9857118395591478,
+          0.9857118395591478,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9857118395591478,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.24246519804000854,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.992830216884613
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7503650188446045
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6606804132461548
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6146135926246643
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5337033867835999
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5308901071548462
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5087877511978149
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.49957922101020813
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__PN1__unfiltered",
+          "request_sha256": "1b02ca4c2e6cfc6382a311d35516a6bdb8345f1d0a040f041f2f63dcbad1d40b",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__PN1__filtered",
+          "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1009__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674,
+          "kept": true
+        },
+        {
+          "chunk_id": "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/PN/1",
+          "instance_key": "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0",
+          "chunk_index": 0,
+          "copied_from": "doc35719",
+          "copy_number": 1,
+          "text": "Source excerpt.\nNicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "f83529e2c9ac886a22d666e7d0d9862438354e221a7f286c3b08109e8eecda25",
+          "char_start": 0,
+          "char_end": 386,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7212523818016052,
+          "kept": false
+        },
+        {
+          "chunk_id": "696774e7b1144b275eac3218b4888438dcf145494beb18f57f8cfb716bf8b6e9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/PN/2",
+          "instance_key": "696774e7b1144b275eac3218b4888438dcf145494beb18f57f8cfb716bf8b6e9",
+          "chunk_index": 0,
+          "copied_from": "doc35719",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nNicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "05d8f17a74cdfbdbff53895fa28e4a3e9db565de6fafdcdd877d20c68f931439",
+          "char_start": 0,
+          "char_end": 389,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7206941246986389,
+          "kept": false
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.699398934841156,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6898062229156494,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.0,
+          1.984946066532025,
+          1.98540000861529,
+          1.9718776212015605,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9718776212015605,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3777772784233093,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9996170401573181
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9930588006973267
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.992830216884613
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6150529384613037
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6146135926246643
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5087877511978149
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.49957922101020813
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4990510046482086
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__PN2__unfiltered",
+          "request_sha256": "e2c6fdfc9de40e0b8f15ad6e96192d2dc930debb58e41ca74c0f7134dabb6924",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__PN2__filtered",
+          "request_sha256": "86dc7ab4607f7579c10583b5e325330ed59a15708bd982d272036f6139ea233f",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1009__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "824e663f7e5c60c83034e5383923f63a19fbbcd53b4a69b2b8cb85402fdaed39:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/BE/1",
+          "instance_key": "824e663f7e5c60c83034e5383923f63a19fbbcd53b4a69b2b8cb85402fdaed39",
+          "chunk_index": 0,
+          "copied_from": "doc436998",
+          "copy_number": 1,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674,
+          "kept": false
+        },
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7328882813453674,
+          "kept": false
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.699398934841156,
+          "kept": true
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6898062229156494,
+          "kept": true
+        },
+        {
+          "chunk_id": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc973089",
+          "instance_key": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+          "text_sha256": "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+          "char_start": 0,
+          "char_end": 441,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6478601694107056,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.999999880790714,
+          0.999999880790714,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.999999880790714,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.24963492155075073,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7503650188446045
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6606804132461548
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6606804132461548
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5337033867835999
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5087877511978149
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__BE1__unfiltered",
+          "request_sha256": "3c129240fc9c7158b5f1b37db206cc1af5551c39f396b8e84cbfb3eecae6ce66",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__BE1__filtered",
+          "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "22699cfdacb8746053a349b72a3c72ddcde8edd51516112dd4e6799026422815:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/BE/2",
+          "instance_key": "22699cfdacb8746053a349b72a3c72ddcde8edd51516112dd4e6799026422815",
+          "chunk_index": 0,
+          "copied_from": "doc436998",
+          "copy_number": 2,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674,
+          "kept": false
+        },
+        {
+          "chunk_id": "824e663f7e5c60c83034e5383923f63a19fbbcd53b4a69b2b8cb85402fdaed39:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/BE/1",
+          "instance_key": "824e663f7e5c60c83034e5383923f63a19fbbcd53b4a69b2b8cb85402fdaed39",
+          "chunk_index": 0,
+          "copied_from": "doc436998",
+          "copy_number": 1,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7328882813453674,
+          "kept": false
+        },
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7328882813453674,
+          "kept": false
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.699398934841156,
+          "kept": true
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6898062229156494,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.999999761581428,
+          1.999999761581428,
+          1.999999761581428,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.999999761581428,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3881033658981323,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5087877511978149
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__BE2__unfiltered",
+          "request_sha256": "336a77f4958c6f72ff15f912a374c57678de286de5718e5ed8034d3ecbb9d33f",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__BE2__filtered",
+          "request_sha256": "5fab7001c337490f38d82db371417e5a0e073bf0e8b43856de6d0a691dcf6644",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674,
+          "kept": true
+        },
+        {
+          "chunk_id": "7f90702661507b7db1680852fb6f4935ac79f5ce8f69dfa206abb9566d7c4493:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/PE/1",
+          "instance_key": "7f90702661507b7db1680852fb6f4935ac79f5ce8f69dfa206abb9566d7c4493",
+          "chunk_index": 0,
+          "copied_from": "doc35719",
+          "copy_number": 1,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.699398934841156,
+          "kept": false
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.699398934841156,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6898062229156494,
+          "kept": true
+        },
+        {
+          "chunk_id": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc973089",
+          "instance_key": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+          "text_sha256": "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+          "char_start": 0,
+          "char_end": 441,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6478601694107056,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2496352195739746,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7503650188446045
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6606804132461548
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5337033867835999
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5337033867835999
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5087877511978149
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5087877511978149
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__PE1__unfiltered",
+          "request_sha256": "5ee01a64dcb144a43407109436dd7cce3c0c08135ca97ca4fbfa344122d7b4c8",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__PE1__filtered",
+          "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1009__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1009",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674,
+          "kept": true
+        },
+        {
+          "chunk_id": "5ed2bab873467fe19e3c199def42b20297574dbf36c4e1cdb87ccd8b78e5d959:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/PE/2",
+          "instance_key": "5ed2bab873467fe19e3c199def42b20297574dbf36c4e1cdb87ccd8b78e5d959",
+          "chunk_index": 0,
+          "copied_from": "doc35719",
+          "copy_number": 2,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.699398934841156,
+          "kept": false
+        },
+        {
+          "chunk_id": "7f90702661507b7db1680852fb6f4935ac79f5ce8f69dfa206abb9566d7c4493:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/PE/1",
+          "instance_key": "7f90702661507b7db1680852fb6f4935ac79f5ce8f69dfa206abb9566d7c4493",
+          "chunk_index": 0,
+          "copied_from": "doc35719",
+          "copy_number": 1,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.699398934841156,
+          "kept": false
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.699398934841156,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6898062229156494,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.0,
+          2.00000095367443,
+          2.00000095367443,
+          2.00000095367443,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.00000095367443,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3881036639213562,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6118965744972229
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5962000489234924
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5087877511978149
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5087877511978149
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5087877511978149
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1009__PE2__unfiltered",
+          "request_sha256": "0870db3b66c4f43f73433cbc92d66f226fe69a5e22085bf648c7a1a5d8d6a7d2",
+          "reference": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test1009__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1009__PE2__filtered",
+          "request_sha256": "86dc7ab4607f7579c10583b5e325330ed59a15708bd982d272036f6139ea233f",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1009__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

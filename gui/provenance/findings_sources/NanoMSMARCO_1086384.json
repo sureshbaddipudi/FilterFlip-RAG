@@ -1,0 +1,892 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1086384",
+    "question": "what can be used in place of a coffee filter?",
+    "expected_answer": "Paper towels or clean cloth, such as a clean handkerchief or a piece of clean tea-towel.",
+    "source_qualification": "Examples proposed by the supplied source, not an exhaustive list or an independently tested food-safety recommendation. The truncated sock/stocking suggestion is not required.",
+    "source_review_status_historical": "assistant_only",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoMSMARCO:1086384",
+      "assessment": "alternative_answer_rubric_qualified",
+      "rationale": "PN1 loses the cloth/paper passage but retains an explicit gold-filter alternative. That is relevant to the broad question, although it differs from the frozen cloth/paper answer. Do not call all usable support absent.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+          "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+          "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+          "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+          "349e53b78966a60ad2d677780f1bfe97e49d90c34541fbde07737c4fbfde7c3a:00000"
+        ],
+        "BN1": [
+          "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+          "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+          "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+        ],
+        "PN1": [
+          "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+          "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+          "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 5,
+    "novel_request_hashes": 2
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoMSMARCO:1086384",
+    "question": "what can be used in place of a coffee filter?",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1086384"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110606",
+          "instance_key": "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As well as paper towels as Phlume has mentioned, there are also a couple of other materials that can be used in place of a coffee filter: Cloth You can use a clean handkerchief or cut a square of cloth from a clean tea-towel and push down into your filter basket - cut away any excess and place the grounds into the 'filter' and continue as you were. Sock or similar If cloth or paper isn't to your liking then you can use a clean sock, stocking or pair of",
+          "text_sha256": "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+          "char_start": 0,
+          "char_end": 456,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8049956560134888
+        },
+        {
+          "chunk_id": "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110612",
+          "instance_key": "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "I woke up this morning to no filters for our coffee maker. We use standard sized basket type filters: Any thoughts on what could be used to replace the filter? I could resort to seeping the loose grounds in the hot water, but this undesired gritty coffee is not what I am looking for. As I use cream/sugar I tend to stir while enjoying the full cup so grounds within the water/coffee will become agitated, making it less than desirable to drink.",
+          "text_sha256": "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+          "char_start": 0,
+          "char_end": 445,
+          "tokens_with_specials": 99,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.718117892742157
+        },
+        {
+          "chunk_id": "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110611",
+          "instance_key": "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Substitute Coffee Filter in a Pinch. Another great tip: At Wal-mart they have those gold filters to fit any coffee machine. You pay about $5 for one and it lasts you forever. You not only save money in the long run, but paper and you never have to worry about running out of coffee filters. (01/31/2005) By MrsCatherine. Substitute Coffee Filter in a Pinch",
+          "text_sha256": "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6185682415962219
+        },
+        {
+          "chunk_id": "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7770196",
+          "instance_key": "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To keep the inside area around basket, filter, lid area clean (from coffee ground spatter) simply place a second filter over the top of the grounds in the first filter. Push second filter down so that spout will clear top of second filter (on many makes of coffee makers) as lid is closed.",
+          "text_sha256": "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964",
+          "char_start": 0,
+          "char_end": 289,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6000642776489258
+        },
+        {
+          "chunk_id": "349e53b78966a60ad2d677780f1bfe97e49d90c34541fbde07737c4fbfde7c3a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8310623",
+          "instance_key": "349e53b78966a60ad2d677780f1bfe97e49d90c34541fbde07737c4fbfde7c3a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "No plastics! Adding the water and ground coffee. As with other brewing methods, you add one tablespoon of ground coffee for every cup, or 8 ounces of water. With a percolator, you use a coarse grind. Don’t grind it too fine, or you will get grinds in your coffee. In a basic percolator there is no filter beyond the holes in the steel filter basket.",
+          "text_sha256": "c7cd6e6d713a141331fe5fcc387f8f47a69d6c474309cdedd7203a1940e2fc92",
+          "char_start": 0,
+          "char_end": 349,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5980446338653564
+        }
+      ],
+      "T_native_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "As well as paper towels as Phlume has mentioned, there are also a couple of other materials that can be used in place of a coffee filter: Cloth You can use a clean handkerchief or cut a square of cloth from a clean tea-towel and push down into your filter basket - cut away any excess and place the grounds into the 'filter' and continue as you were. Sock or similar If cloth or paper isn't to your liking then you can use a clean sock, stocking or pair of",
+        "I woke up this morning to no filters for our coffee maker. We use standard sized basket type filters: Any thoughts on what could be used to replace the filter? I could resort to seeping the loose grounds in the hot water, but this undesired gritty coffee is not what I am looking for. As I use cream/sugar I tend to stir while enjoying the full cup so grounds within the water/coffee will become agitated, making it less than desirable to drink.",
+        "Substitute Coffee Filter in a Pinch. Another great tip: At Wal-mart they have those gold filters to fit any coffee machine. You pay about $5 for one and it lasts you forever. You not only save money in the long run, but paper and you never have to worry about running out of coffee filters. (01/31/2005) By MrsCatherine. Substitute Coffee Filter in a Pinch",
+        "To keep the inside area around basket, filter, lid area clean (from coffee ground spatter) simply place a second filter over the top of the grounds in the first filter. Push second filter down so that spout will clear top of second filter (on many makes of coffee makers) as lid is closed.",
+        "No plastics! Adding the water and ground coffee. As with other brewing methods, you add one tablespoon of ground coffee for every cup, or 8 ounces of water. With a percolator, you use a coarse grind. Don’t grind it too fine, or you will get grinds in your coffee. In a basic percolator there is no filter beyond the holes in the steel filter basket."
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1086384__C__U",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+          "status": "ok",
+          "answer": "Cloth, a cut square of cloth from a tea-towel, or a clean sock can be used in place of a coffee filter.",
+          "ordinal": 38,
+          "same_run_reuse_of": "NanoMSMARCO:1086384__C__T",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1086384__C__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "what can be used in place of a coffee filter?",
+          "expected_answer": "Paper towels or clean cloth, such as a clean handkerchief or a piece of clean tea-towel.",
+          "source_qualification": "Examples proposed by the supplied source, not an exhaustive list or an independently tested food-safety recommendation. The truncated sock/stocking suggestion is not required.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+            "349e53b78966a60ad2d677780f1bfe97e49d90c34541fbde07737c4fbfde7c3a:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964",
+            "c7cd6e6d713a141331fe5fcc387f8f47a69d6c474309cdedd7203a1940e2fc92"
+          ],
+          "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+          "estimated_prompt_tokens": 512,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1086384__C__unfiltered",
+          "status": "ok",
+          "answer": "Cloth, such as a handkerchief or cut from a tea towel, can be used as a substitute for a coffee filter.",
+          "prompt_eval_count": 512,
+          "eval_count": 28,
+          "done_reason": "stop",
+          "wall_seconds": 29.653786233000574,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1086384__C__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+          "status": "ok",
+          "answer": "Cloth, a cut square of cloth from a tea-towel, or a clean sock can be used in place of a coffee filter.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1086384__C__T",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+          "status": "ok",
+          "answer": "Cloth, a cut square of cloth from a tea-towel, or a clean sock can be used in place of a coffee filter.",
+          "ordinal": 38,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1086384__C__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "what can be used in place of a coffee filter?",
+          "expected_answer": "Paper towels or clean cloth, such as a clean handkerchief or a piece of clean tea-towel.",
+          "source_qualification": "Examples proposed by the supplied source, not an exhaustive list or an independently tested food-safety recommendation. The truncated sock/stocking suggestion is not required.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+            "349e53b78966a60ad2d677780f1bfe97e49d90c34541fbde07737c4fbfde7c3a:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964",
+            "c7cd6e6d713a141331fe5fcc387f8f47a69d6c474309cdedd7203a1940e2fc92"
+          ],
+          "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+          "estimated_prompt_tokens": 512,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1086384__C__unfiltered",
+          "status": "ok",
+          "answer": "Cloth, such as a handkerchief or cut from a tea towel, can be used as a substitute for a coffee filter.",
+          "prompt_eval_count": 512,
+          "eval_count": 28,
+          "done_reason": "stop",
+          "wall_seconds": 29.653786233000574,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1086384__C__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+          "status": "ok",
+          "answer": "Cloth, a cut square of cloth from a tea-towel, or a clean sock can be used in place of a coffee filter.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1086384__C__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "what can be used in place of a coffee filter?",
+          "expected_answer": "Paper towels or clean cloth, such as a clean handkerchief or a piece of clean tea-towel.",
+          "source_qualification": "Examples proposed by the supplied source, not an exhaustive list or an independently tested food-safety recommendation. The truncated sock/stocking suggestion is not required.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+            "349e53b78966a60ad2d677780f1bfe97e49d90c34541fbde07737c4fbfde7c3a:00000"
+          ],
+          "text_hashes": [
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964",
+            "c7cd6e6d713a141331fe5fcc387f8f47a69d6c474309cdedd7203a1940e2fc92"
+          ],
+          "request_sha256": "9eb5e3cb2513e73943268a85939f6de209272674cb4b1e194e5c3db40011287d",
+          "estimated_prompt_tokens": 220,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1086384__C__filtered",
+          "status": "ok",
+          "answer": "A second filter can be used in place of a coffee filter.",
+          "prompt_eval_count": 220,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 14.557559161999961,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110606",
+          "instance_key": "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As well as paper towels as Phlume has mentioned, there are also a couple of other materials that can be used in place of a coffee filter: Cloth You can use a clean handkerchief or cut a square of cloth from a clean tea-towel and push down into your filter basket - cut away any excess and place the grounds into the 'filter' and continue as you were. Sock or similar If cloth or paper isn't to your liking then you can use a clean sock, stocking or pair of",
+          "text_sha256": "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+          "char_start": 0,
+          "char_end": 456,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8049956560134888
+        },
+        {
+          "chunk_id": "cffcc738b690b2c7f45598b2c4ab4273e9992ece4b56a0d88ffe45abf2443778:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1086384/BN/1",
+          "instance_key": "cffcc738b690b2c7f45598b2c4ab4273e9992ece4b56a0d88ffe45abf2443778",
+          "chunk_index": 0,
+          "copied_from": "7110612",
+          "copy_number": 1,
+          "text": "Source excerpt.\nI woke up this morning to no filters for our coffee maker. We use standard sized basket type filters: Any thoughts on what could be used to replace the filter? I could resort to seeping the loose grounds in the hot water, but this undesired gritty coffee is not what I am looking for. As I use cream/sugar I tend to stir while enjoying the full cup so grounds within the water/coffee will become agitated, making it less than desirable to drink.",
+          "text_sha256": "4a08288d507e436519b81289bb592f62e1716131ec1066f6878b62a17c67ae43",
+          "char_start": 0,
+          "char_end": 461,
+          "tokens_with_specials": 102,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7339449524879456
+        },
+        {
+          "chunk_id": "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110612",
+          "instance_key": "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "I woke up this morning to no filters for our coffee maker. We use standard sized basket type filters: Any thoughts on what could be used to replace the filter? I could resort to seeping the loose grounds in the hot water, but this undesired gritty coffee is not what I am looking for. As I use cream/sugar I tend to stir while enjoying the full cup so grounds within the water/coffee will become agitated, making it less than desirable to drink.",
+          "text_sha256": "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+          "char_start": 0,
+          "char_end": 445,
+          "tokens_with_specials": 99,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.718117892742157
+        },
+        {
+          "chunk_id": "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110611",
+          "instance_key": "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Substitute Coffee Filter in a Pinch. Another great tip: At Wal-mart they have those gold filters to fit any coffee machine. You pay about $5 for one and it lasts you forever. You not only save money in the long run, but paper and you never have to worry about running out of coffee filters. (01/31/2005) By MrsCatherine. Substitute Coffee Filter in a Pinch",
+          "text_sha256": "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6185682415962219
+        },
+        {
+          "chunk_id": "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7770196",
+          "instance_key": "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To keep the inside area around basket, filter, lid area clean (from coffee ground spatter) simply place a second filter over the top of the grounds in the first filter. Push second filter down so that spout will clear top of second filter (on many makes of coffee makers) as lid is closed.",
+          "text_sha256": "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964",
+          "char_start": 0,
+          "char_end": 289,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6000642776489258
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "As well as paper towels as Phlume has mentioned, there are also a couple of other materials that can be used in place of a coffee filter: Cloth You can use a clean handkerchief or cut a square of cloth from a clean tea-towel and push down into your filter basket - cut away any excess and place the grounds into the 'filter' and continue as you were. Sock or similar If cloth or paper isn't to your liking then you can use a clean sock, stocking or pair of",
+        "Substitute Coffee Filter in a Pinch. Another great tip: At Wal-mart they have those gold filters to fit any coffee machine. You pay about $5 for one and it lasts you forever. You not only save money in the long run, but paper and you never have to worry about running out of coffee filters. (01/31/2005) By MrsCatherine. Substitute Coffee Filter in a Pinch",
+        "To keep the inside area around basket, filter, lid area clean (from coffee ground spatter) simply place a second filter over the top of the grounds in the first filter. Push second filter down so that spout will clear top of second filter (on many makes of coffee makers) as lid is closed."
+      ],
+      "T_removed_indices": [
+        1,
+        2
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1086384__BN1__U",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "cc0298fbe5a8b3df4998e4cf1fc98fc2f521d6683bd32a3dcd4ecaed11a35e50",
+          "status": "ok",
+          "answer": "Cloth, such as a handkerchief or cut from a tea towel, or a sock can be used in place of a coffee filter.",
+          "ordinal": 39,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1086384__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "what can be used in place of a coffee filter?",
+          "expected_answer": "Paper towels or clean cloth, such as a clean handkerchief or a piece of clean tea-towel.",
+          "source_qualification": "Examples proposed by the supplied source, not an exhaustive list or an independently tested food-safety recommendation. The truncated sock/stocking suggestion is not required.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "cffcc738b690b2c7f45598b2c4ab4273e9992ece4b56a0d88ffe45abf2443778:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "4a08288d507e436519b81289bb592f62e1716131ec1066f6878b62a17c67ae43",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ],
+          "request_sha256": "cc0298fbe5a8b3df4998e4cf1fc98fc2f521d6683bd32a3dcd4ecaed11a35e50",
+          "estimated_prompt_tokens": 529,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1086384__BN1__unfiltered",
+          "status": "ok",
+          "answer": "Cloth, such as a handkerchief or cut from a tea towel, or a sock can be used as a substitute for a coffee filter.",
+          "prompt_eval_count": 529,
+          "eval_count": 31,
+          "done_reason": "stop",
+          "wall_seconds": 24.19209043900628,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1086384__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "cc0298fbe5a8b3df4998e4cf1fc98fc2f521d6683bd32a3dcd4ecaed11a35e50",
+          "status": "ok",
+          "answer": "Cloth, such as a handkerchief or cut from a tea towel, or a sock can be used in place of a coffee filter.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1086384__BN1__T",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "790a86e81a227adf5c006fbd562aac32fcd689b4eaeaf9a1eb9d7a4c49cfedf4",
+          "status": "ok",
+          "answer": "Cloth, a clean handkerchief or cut square of cloth from a tea-towel, or a clean sock can be used in place of a coffee filter.",
+          "ordinal": 40,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1086384__PE1__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "what can be used in place of a coffee filter?",
+          "expected_answer": "Paper towels or clean cloth, such as a clean handkerchief or a piece of clean tea-towel.",
+          "source_qualification": "Examples proposed by the supplied source, not an exhaustive list or an independently tested food-safety recommendation. The truncated sock/stocking suggestion is not required.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ],
+          "request_sha256": "f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+          "estimated_prompt_tokens": 138,
+          "identical_request_to": "NanoMSMARCO:1086384__BN1__filtered",
+          "first_call_id": "NanoMSMARCO:1086384__BN1__filtered",
+          "status": "ok",
+          "answer": "A second filter can be used in place of a coffee filter.",
+          "prompt_eval_count": 138,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 3.6513207940006396,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "faadb4a29402e0d8e3e4345c9ed5febd94ca361c2b4285fd68bf49b10899f456:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1086384/PN/1",
+          "instance_key": "faadb4a29402e0d8e3e4345c9ed5febd94ca361c2b4285fd68bf49b10899f456",
+          "chunk_index": 0,
+          "copied_from": "7110606",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAs well as paper towels as Phlume has mentioned, there are also a couple of other materials that can be used in place of a coffee filter: Cloth You can use a clean handkerchief or cut a square of cloth from a clean tea-towel and push down into your filter basket - cut away any excess and place the grounds into the 'filter' and continue as you were. Sock or similar If cloth or paper isn't to your liking then you can use a clean sock, stocking or pair of",
+          "text_sha256": "3eebc441976d43966e23bd3af82f019f87a612201d5edd98d012d6a8eefcde3d",
+          "char_start": 0,
+          "char_end": 472,
+          "tokens_with_specials": 108,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8145997524261475
+        },
+        {
+          "chunk_id": "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110606",
+          "instance_key": "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As well as paper towels as Phlume has mentioned, there are also a couple of other materials that can be used in place of a coffee filter: Cloth You can use a clean handkerchief or cut a square of cloth from a clean tea-towel and push down into your filter basket - cut away any excess and place the grounds into the 'filter' and continue as you were. Sock or similar If cloth or paper isn't to your liking then you can use a clean sock, stocking or pair of",
+          "text_sha256": "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+          "char_start": 0,
+          "char_end": 456,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8049956560134888
+        },
+        {
+          "chunk_id": "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110612",
+          "instance_key": "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "I woke up this morning to no filters for our coffee maker. We use standard sized basket type filters: Any thoughts on what could be used to replace the filter? I could resort to seeping the loose grounds in the hot water, but this undesired gritty coffee is not what I am looking for. As I use cream/sugar I tend to stir while enjoying the full cup so grounds within the water/coffee will become agitated, making it less than desirable to drink.",
+          "text_sha256": "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+          "char_start": 0,
+          "char_end": 445,
+          "tokens_with_specials": 99,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.718117892742157
+        },
+        {
+          "chunk_id": "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7110611",
+          "instance_key": "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Substitute Coffee Filter in a Pinch. Another great tip: At Wal-mart they have those gold filters to fit any coffee machine. You pay about $5 for one and it lasts you forever. You not only save money in the long run, but paper and you never have to worry about running out of coffee filters. (01/31/2005) By MrsCatherine. Substitute Coffee Filter in a Pinch",
+          "text_sha256": "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6185682415962219
+        },
+        {
+          "chunk_id": "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7770196",
+          "instance_key": "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To keep the inside area around basket, filter, lid area clean (from coffee ground spatter) simply place a second filter over the top of the grounds in the first filter. Push second filter down so that spout will clear top of second filter (on many makes of coffee makers) as lid is closed.",
+          "text_sha256": "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964",
+          "char_start": 0,
+          "char_end": 289,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6000642776489258
+        }
+      ],
+      "T_native_indices": [
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "I woke up this morning to no filters for our coffee maker. We use standard sized basket type filters: Any thoughts on what could be used to replace the filter? I could resort to seeping the loose grounds in the hot water, but this undesired gritty coffee is not what I am looking for. As I use cream/sugar I tend to stir while enjoying the full cup so grounds within the water/coffee will become agitated, making it less than desirable to drink.",
+        "Substitute Coffee Filter in a Pinch. Another great tip: At Wal-mart they have those gold filters to fit any coffee machine. You pay about $5 for one and it lasts you forever. You not only save money in the long run, but paper and you never have to worry about running out of coffee filters. (01/31/2005) By MrsCatherine. Substitute Coffee Filter in a Pinch",
+        "To keep the inside area around basket, filter, lid area clean (from coffee ground spatter) simply place a second filter over the top of the grounds in the first filter. Push second filter down so that spout will clear top of second filter (on many makes of coffee makers) as lid is closed."
+      ],
+      "T_removed_indices": [
+        0,
+        1
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "faadb4a29402e0d8e3e4345c9ed5febd94ca361c2b4285fd68bf49b10899f456:00000",
+          "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1086384__PN1__U",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "434919b6c14dd1161f6d8edfa67e98a4dbd7b96b17e212fcafa6f00295665534",
+          "status": "ok",
+          "answer": "Cloth, such as a handkerchief or tea-towel, or a sock can be used in place of a coffee filter.",
+          "ordinal": 42,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1086384__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "what can be used in place of a coffee filter?",
+          "expected_answer": "Paper towels or clean cloth, such as a clean handkerchief or a piece of clean tea-towel.",
+          "source_qualification": "Examples proposed by the supplied source, not an exhaustive list or an independently tested food-safety recommendation. The truncated sock/stocking suggestion is not required.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "faadb4a29402e0d8e3e4345c9ed5febd94ca361c2b4285fd68bf49b10899f456:00000",
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "3eebc441976d43966e23bd3af82f019f87a612201d5edd98d012d6a8eefcde3d",
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ],
+          "request_sha256": "434919b6c14dd1161f6d8edfa67e98a4dbd7b96b17e212fcafa6f00295665534",
+          "estimated_prompt_tokens": 538,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1086384__PN1__unfiltered",
+          "status": "ok",
+          "answer": "Cloth, such as a handkerchief or a square of tea-towel, or a sock can be used in place of a coffee filter.",
+          "prompt_eval_count": 538,
+          "eval_count": 31,
+          "done_reason": "stop",
+          "wall_seconds": 30.357869897001365,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1086384__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "434919b6c14dd1161f6d8edfa67e98a4dbd7b96b17e212fcafa6f00295665534",
+          "status": "ok",
+          "answer": "Cloth, such as a handkerchief or tea-towel, or a sock can be used in place of a coffee filter.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1086384__PN1__T",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "1d764ad83b83706bb4a65944dc5c6034e8a1d64517f46883f70b8cab95bd8a8a",
+          "status": "ok",
+          "answer": "Gold filters from Wal-mart can be used as a substitute for coffee filters.",
+          "ordinal": 41,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1086384__PE1__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "what can be used in place of a coffee filter?",
+          "expected_answer": "Paper towels or clean cloth, such as a clean handkerchief or a piece of clean tea-towel.",
+          "source_qualification": "Examples proposed by the supplied source, not an exhaustive list or an independently tested food-safety recommendation. The truncated sock/stocking suggestion is not required.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ],
+          "request_sha256": "f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+          "estimated_prompt_tokens": 138,
+          "identical_request_to": "NanoMSMARCO:1086384__BN1__filtered",
+          "first_call_id": "NanoMSMARCO:1086384__BN1__filtered",
+          "status": "ok",
+          "answer": "A second filter can be used in place of a coffee filter.",
+          "prompt_eval_count": 138,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 3.6513207940006396,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

@@ -1,0 +1,12 @@
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('#results').getByText('T · TrustRAG stage 1', { exact: true }) to be visible[22m
+[2m    56 × locator resolved to hidden <h4>T · TrustRAG stage 1</h4>[22m
+
+    at run (/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/tools/check_browser.cjs:143:83) {
+  log: [
+    "  - waiting for locator('#results').getByText('T · TrustRAG stage 1', { exact: true }) to be visible",
+    '    56 × locator resolved to hidden <h4>T · TrustRAG stage 1</h4>'
+  ],
+  name: 'TimeoutError'
+}

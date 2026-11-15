@@ -1,0 +1,30 @@
+{
+  "version": "2.9.3",
+  "date": "2026-11-14",
+  "based_on": "2.9.2",
+  "scope": "TrustRAG stage-1 SimCSE label correction from the submitted v2.9.2 archive, with consistent release numbering and restored historical review records.",
+  "live_modes": [
+    "original",
+    "variants",
+    "mitigation",
+    "challenge",
+    "trust"
+  ],
+  "trust_live_cases": 12,
+  "trust_conditions": [
+    "C",
+    "BN1",
+    "PN1"
+  ],
+  "trust_inputs": "frozen contexts and verified saved SimCSE CPU embeddings",
+  "trust_computed_now": "original stage-1 filtering and two fresh Qwen answers",
+  "research_outcomes_changed": false,
+  "independent_v29_acceptance": "Accepted for semester demonstration by Shradha and Suresh on 14 November 2026",
+  "Task11": "report draft awaiting user review; presentation pending instructions",
+  "new_development_model_calls": 0,
+  "new_answers_human_review": "pending",
+  "dependency_candidate_adopted": false,
+  "trust_runtime_advisories": "73 raw rows / 41 NLTK package-advisory groups; bounded input controls, not remediation",
+  "v29_integration_calls_before_this_patch": 6,
+  "trust_embedding_model": "princeton-nlp/sup-simcse-bert-base-uncased @ 2d82fab19ac3a73a20dd20333d27eb8a52d6e97f"
+}

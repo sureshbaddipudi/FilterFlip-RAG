@@ -1,0 +1,2861 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test826",
+    "dataset": "NanoNQ",
+    "question": "where was the 3/5 compromise originally stated in the constitution",
+    "source_family": "NanoNQ:test826",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc29757",
+    "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+    "answer_aliases": [
+      "Article 1, Section 2, Clause 3"
+    ],
+    "support_quote": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+    "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+    "qrel_document_ids": [
+      "doc29757"
+    ],
+    "family_reference_texts": [
+      "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test826",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc29757",
+    "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+    "answer_aliases": [
+      "Article 1, Section 2, Clause 3"
+    ],
+    "support_quote": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+    "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test826",
+    "dataset": "NanoNQ",
+    "question": "where was the 3/5 compromise originally stated in the constitution",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test826",
+      "dataset": "NanoNQ",
+      "question": "where was the 3/5 compromise originally stated in the constitution",
+      "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+      "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Sufficient support retained",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "alternative_support_survives",
+      "historical_rationale": "A retained alternative passage explicitly supports Article I, Section 2, Clause 3. The filtered answer remains correct.",
+      "current_assistant_rationale": "A retained alternative passage explicitly supports Article I, Section 2, Clause 3. The filtered answer remains correct.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/33",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/33",
+      "review_priority": 3,
+      "sample_reason": "Alternative support survives",
+      "evidence_file": "evidence/NanoNQ_test826.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 298,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 199,
+              "call_id": "NanoNQ:test826__C__unfiltered",
+              "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 200,
+              "call_id": "NanoNQ:test826__C__filtered",
+              "request_sha256": "c32836eb12b2b8973498f82a3c3134d879e3702d851de17bf29fb9a571b758dc"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 299,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 201,
+              "call_id": "NanoNQ:test826__BN1__unfiltered",
+              "request_sha256": "a51be56d94c89e9f5f3695cf5f3861a55a954239f8d09268caaf44111e7fec3a"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 202,
+              "call_id": "NanoNQ:test826__BN1__filtered",
+              "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 301,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 203,
+              "call_id": "NanoNQ:test826__PN1__unfiltered",
+              "request_sha256": "f1eb4779cc1b85f80c3311d8a20947198b014b1498db5440b186ad15fe250ec3"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 204,
+              "call_id": "NanoNQ:test826__PN1__filtered",
+              "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test826",
+      "Question": "where was the 3/5 compromise originally stated in the constitution",
+      "Evidence packet": "evidence/NanoNQ_test826.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "no",
+      "PN1 filtered answer category": "correct-supported",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: C P1 doc29757 kept; answer Article 1, Section 2, Clause 3. Q2: PN1 P2 copy of doc29757. Q3: correct. Q4: NO - PN1 survivor P4 doc101561: \"Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise\". Q5: filtered answer still correct. Q6: BN1 correct.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (not an event: alternative support survives).",
+      "workbook_row": 19,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "question": "where was the 3/5 compromise originally stated in the constitution",
+        "expected_answer": "Article I, Section 2, Clause 3 of the United States Constitution",
+        "source_qualification": "Original constitutional location as stated in the supplied historical reference.",
+        "source_review_status": "user_recorded_review",
+        "assistant_status": "Not a strict event",
+        "reason_group": "Sufficient support retained",
+        "historical_decision": "not_strict_event",
+        "historical_reason_code": "alternative_support_survives",
+        "historical_rationale": "A retained alternative passage explicitly supports Article I, Section 2, Clause 3. The filtered answer remains correct.",
+        "current_assistant_rationale": "A retained alternative passage explicitly supports Article I, Section 2, Clause 3. The filtered answer remains correct.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/33",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/33",
+        "review_priority": 3,
+        "sample_reason": "Alternative support survives",
+        "evidence_file": "evidence/NanoNQ_test826.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 298,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 199,
+                "call_id": "NanoNQ:test826__C__unfiltered",
+                "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 200,
+                "call_id": "NanoNQ:test826__C__filtered",
+                "request_sha256": "c32836eb12b2b8973498f82a3c3134d879e3702d851de17bf29fb9a571b758dc"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 299,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 201,
+                "call_id": "NanoNQ:test826__BN1__unfiltered",
+                "request_sha256": "a51be56d94c89e9f5f3695cf5f3861a55a954239f8d09268caaf44111e7fec3a"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 202,
+                "call_id": "NanoNQ:test826__BN1__filtered",
+                "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 301,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 203,
+                "call_id": "NanoNQ:test826__PN1__unfiltered",
+                "request_sha256": "f1eb4779cc1b85f80c3311d8a20947198b014b1498db5440b186ad15fe250ec3"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 204,
+                "call_id": "NanoNQ:test826__PN1__filtered",
+                "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test826",
+    "question": "where was the 3/5 compromise originally stated in the constitution",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test826"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": true
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6463983058929443,
+          "kept": true
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6445382833480835,
+          "kept": false
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6315333843231201,
+          "kept": true
+        },
+        {
+          "chunk_id": "17ddf5f223176f3d772d16b9e87927e9fdeb157b73985e2af1518ad915dfc8b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29764",
+          "instance_key": "17ddf5f223176f3d772d16b9e87927e9fdeb157b73985e2af1518ad915dfc8b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise gave a disproportionate representation of slave states in the House of Representatives relative to the voters in free states until the American Civil War. In 1793, for example, Southern slave states had 47 of the 105 members but would have had 33, had seats been assigned based on free populations. In 1812, slave states had 76 out of 143 instead of the 59 they would have had; in 1833, 98 out of 240 instead of 73. As a result, Southern states had disproportionate influence on the presidency, the speakership of the House, and the Supreme Court in the period prior to the Civil War.[8] Along with this must be considered the number of slave and free states, which remained mostly equal until 1850, safeguarding the Southern bloc in the Senate as well as Electoral College votes.",
+          "text_sha256": "d2070d726f84f90511d2b3b137287fd9f0c4d4e1dba8116079f31e391d3e6c45",
+          "char_start": 0,
+          "char_end": 808,
+          "tokens_with_specials": 175,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.611113965511322,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "removed_indices": [
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.5974825608655578,
+          0.0,
+          0.5974825608655578
+        ],
+        "removal_ranking": [
+          2,
+          4,
+          0,
+          1,
+          3
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.05370062589645386,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7729699611663818
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.719269335269928
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6768770217895508
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6451827883720398
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6345893144607544
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6317894458770752
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5777153968811035
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5626424551010132
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__C__unfiltered",
+          "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__C__filtered",
+          "request_sha256": "c32836eb12b2b8973498f82a3c3134d879e3702d851de17bf29fb9a571b758dc",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": true
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6463983058929443,
+          "kept": false
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6445382833480835,
+          "kept": true
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6315333843231201,
+          "kept": false
+        },
+        {
+          "chunk_id": "2e5cbca5e2b676bf7532631de5cd966c16c8fb28d5e3b64e02c8f00d9ccb62eb:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/BN/1",
+          "instance_key": "2e5cbca5e2b676bf7532631de5cd966c16c8fb28d5e3b64e02c8f00d9ccb62eb",
+          "chunk_index": 0,
+          "copied_from": "doc1486663",
+          "copy_number": 1,
+          "text": "Source excerpt.\nSherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "7946fa638b73d3979ac6a0c98a25d3138775fc98c9ca1501e9e2f19751e8c97e",
+          "char_start": 0,
+          "char_end": 813,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6154108047485352,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2
+      ],
+      "removed_indices": [
+        1,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.4116387978415901,
+          1.3941334025364682,
+          0.4116387978415901,
+          0.416260753499742,
+          0.9778726490367262
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          3,
+          0,
+          2
+        ],
+        "removal_gap": 0.004621955658151933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.007001638412475586,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9888744354248047
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.645182728767395
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6317894458770752
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6292192935943604
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.606224775314331
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5842185616493225
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5626424551010132
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__BN1__unfiltered",
+          "request_sha256": "a51be56d94c89e9f5f3695cf5f3861a55a954239f8d09268caaf44111e7fec3a",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__BN1__filtered",
+          "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": true
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6463983058929443,
+          "kept": false
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6445382833480835,
+          "kept": true
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6315333843231201,
+          "kept": false
+        },
+        {
+          "chunk_id": "2813a4c92d8f9de4c60424dda3867532ea380ad979c5c040769ca428e124a9c1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/BN/2",
+          "instance_key": "2813a4c92d8f9de4c60424dda3867532ea380ad979c5c040769ca428e124a9c1",
+          "chunk_index": 0,
+          "copied_from": "doc1486663",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nSherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "7ba7e011c9e5a4c82fc625b58b1bb2570ea2c416d0045dab99bbd86b618309a7",
+          "char_start": 0,
+          "char_end": 816,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6194119453430176,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2
+      ],
+      "removed_indices": [
+        1,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.4116387978415901,
+          1.3980922586426239,
+          0.4116387978415901,
+          0.416260753499742,
+          0.9818315051428819
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          3,
+          0,
+          2
+        ],
+        "removal_gap": 0.004621955658151933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.007001638412475586,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9908741116523743
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.645182728767395
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6317894458770752
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6305696964263916
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6094745993614197
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5861947536468506
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5626424551010132
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__BN2__unfiltered",
+          "request_sha256": "d9c5d0bd4df39b1b995a1e5193573f814ca81863f14528cec41ad31ae4819779",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__BN2__filtered",
+          "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": false
+        },
+        {
+          "chunk_id": "d1ad76bf42bf19938862da3c2289f2c004c988446b1681148057b16e81553dda:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/PN/1",
+          "instance_key": "d1ad76bf42bf19938862da3c2289f2c004c988446b1681148057b16e81553dda",
+          "chunk_index": 0,
+          "copied_from": "doc29757",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "90c8cb8e5dfa8c955eb1df21ad64f4192c395beffec72c37f10b193607c7a47e",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8436755537986755,
+          "kept": false
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6463983058929443,
+          "kept": true
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6445382833480835,
+          "kept": true
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6315333843231201,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.9506902521124836,
+          0.9506902521124836,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9506902521124836,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3298507332801819,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9750334620475769
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.645182728767395
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6317894458770752
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6157141923904419
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.580837607383728
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5638822317123413
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5626424551010132
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__PN1__unfiltered",
+          "request_sha256": "f1eb4779cc1b85f80c3311d8a20947198b014b1498db5440b186ad15fe250ec3",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution.",
+            "first_call_id": "NanoNQ:test826__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__PN1__filtered",
+          "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+          "reference": {
+            "status": "ok",
+            "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": true
+        },
+        {
+          "chunk_id": "ccd0e496fa3edeafb92a564c0f7b1040e995a88d5394e99ff1dc793974f68076:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/PN/2",
+          "instance_key": "ccd0e496fa3edeafb92a564c0f7b1040e995a88d5394e99ff1dc793974f68076",
+          "chunk_index": 0,
+          "copied_from": "doc29757",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "4a4c097a73eb5ed0f8b706c5bc8503eaf819aadb56268faec80c7f7a654cc303",
+          "char_start": 0,
+          "char_end": 137,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8541662096977234,
+          "kept": false
+        },
+        {
+          "chunk_id": "d1ad76bf42bf19938862da3c2289f2c004c988446b1681148057b16e81553dda:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/PN/1",
+          "instance_key": "d1ad76bf42bf19938862da3c2289f2c004c988446b1681148057b16e81553dda",
+          "chunk_index": 0,
+          "copied_from": "doc29757",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "90c8cb8e5dfa8c955eb1df21ad64f4192c395beffec72c37f10b193607c7a47e",
+          "char_start": 0,
+          "char_end": 134,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8436755537986755,
+          "kept": false
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6463983058929443,
+          "kept": true
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6445382833480835,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9908307945312487,
+          0.9908307945312487,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9908307945312487,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.014699876308441162,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.995404839515686
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9807049632072449
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9750334620475769
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6278784871101379
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6157141923904419
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.586664080619812
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.580837607383728
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__PN2__unfiltered",
+          "request_sha256": "11d1a3a43bce92a9bbaa413d2d729ad9f650c1789ea8946e6b32338719f70fc6",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution",
+            "first_call_id": "NanoNQ:test826__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__PN2__filtered",
+          "request_sha256": "2b1364c131ee76fe9ad05e154b80d35b237cbf91e3d7933e562a93fab58565e9",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": true
+        },
+        {
+          "chunk_id": "a7936155b06662b546ac7b2d13c6bf236fd5a8cf0ddc738a197e9e9be0f49f22:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/BE/1",
+          "instance_key": "a7936155b06662b546ac7b2d13c6bf236fd5a8cf0ddc738a197e9e9be0f49f22",
+          "chunk_index": 0,
+          "copied_from": "doc1486663",
+          "copy_number": 1,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6463983058929443,
+          "kept": false
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6463983058929443,
+          "kept": false
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6445382833480835,
+          "kept": true
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6315333843231201,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        3
+      ],
+      "removed_indices": [
+        1,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.4162605150811771,
+          1.4162605150811771,
+          0.0,
+          0.832521506999484
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "removal_gap": 0.832521506999484,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00359189510345459,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.645182728767395
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.645182728767395
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6317894458770752
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5626424551010132
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__BE1__unfiltered",
+          "request_sha256": "3c04274f072652b6cb4c563128861d913436610c6798a334725793deef45a8b2",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__BE1__filtered",
+          "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": true
+        },
+        {
+          "chunk_id": "7eabcd8799bcb9d0b84b207cb6e4dc0372868b79dad0f2eedd561d9e29427eec:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/BE/2",
+          "instance_key": "7eabcd8799bcb9d0b84b207cb6e4dc0372868b79dad0f2eedd561d9e29427eec",
+          "chunk_index": 0,
+          "copied_from": "doc1486663",
+          "copy_number": 2,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6463983058929443,
+          "kept": false
+        },
+        {
+          "chunk_id": "a7936155b06662b546ac7b2d13c6bf236fd5a8cf0ddc738a197e9e9be0f49f22:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/BE/1",
+          "instance_key": "a7936155b06662b546ac7b2d13c6bf236fd5a8cf0ddc738a197e9e9be0f49f22",
+          "chunk_index": 0,
+          "copied_from": "doc1486663",
+          "copy_number": 1,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6463983058929443,
+          "kept": false
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6463983058929443,
+          "kept": false
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6445382833480835,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.9999995231628702,
+          1.9999995231628702,
+          1.9999995231628702,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9999995231628702,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.35840904712677,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5991051197052002
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__BE2__unfiltered",
+          "request_sha256": "dabc1d5bea5197b5ca2f89d0d24938598819994445682f62ccba815bcd88802f",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__BE2__filtered",
+          "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "8ebc1e7f85e3d28101cf8df2865b60ce1fc63777f92f1f7ee318cd8004d1002b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/PE/1",
+          "instance_key": "8ebc1e7f85e3d28101cf8df2865b60ce1fc63777f92f1f7ee318cd8004d1002b",
+          "chunk_index": 0,
+          "copied_from": "doc29757",
+          "copy_number": 1,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": false
+        },
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8679794073104858,
+          "kept": false
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6463983058929443,
+          "kept": true
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6445382833480835,
+          "kept": true
+        },
+        {
+          "chunk_id": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc38721",
+          "instance_key": "30558bd588a91389c53b94d35c88e72f577a2120381d0f3a6a90995425afa3fe",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Legal scholars Akhil Amar and Vikram Amar have argued the original Electoral College compromise was enacted partially because it enabled the southern states to disenfranchise its slave populations.[123] It permitted southern states to disfranchise large numbers of slaves while allowing these states to maintain political clout within the federation by using the three-fifths compromise. They noted that constitutional Framer James Madison believed the question of counting slaves had presented a serious challenge but that \"the substitution of electors obviated this difficulty and seemed on the whole to be liable to the fewest objections.\"[124] Akhil and Vikram Amar added that",
+          "text_sha256": "19a27ddcb63e9c1059a400438efdddd61a643414e4ce92116d02c58d46de1a3a",
+          "char_start": 0,
+          "char_end": 680,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6315333843231201,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.354817271232605,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.645182728767395
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6317894458770752
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5626424551010132
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5626424551010132
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__PE1__unfiltered",
+          "request_sha256": "0ad4f95b25a2995ec29b7589606bb0d31dd68f22872b177cf0c88f8ec0a8bb39",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__PE1__filtered",
+          "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+          "reference": {
+            "status": "ok",
+            "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test826",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "8ebc1e7f85e3d28101cf8df2865b60ce1fc63777f92f1f7ee318cd8004d1002b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/PE/1",
+          "instance_key": "8ebc1e7f85e3d28101cf8df2865b60ce1fc63777f92f1f7ee318cd8004d1002b",
+          "chunk_index": 0,
+          "copied_from": "doc29757",
+          "copy_number": 1,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8679794073104858,
+          "kept": false
+        },
+        {
+          "chunk_id": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc29757",
+          "instance_key": "b94abdea50cc569496b77d1568d557ce5e7059bee3f7ba49eb7dc9fa25ee79d3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8679794073104858,
+          "kept": false
+        },
+        {
+          "chunk_id": "e52d1dac39b6786ccd7d260b37d0f03911fd97004e3ca2448879f6de749f8f4c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test826/PE/2",
+          "instance_key": "e52d1dac39b6786ccd7d260b37d0f03911fd97004e3ca2448879f6de749f8f4c",
+          "chunk_index": 0,
+          "copied_from": "doc29757",
+          "copy_number": 2,
+          "text": "The Three-Fifths Compromise is found in Article 1, Section 2, Clause 3 of the United States Constitution, which reads:",
+          "text_sha256": "7c611479cf27cb04af5f24743ac380d09a104b0bab0c20cb65f6c3acc08bd4a7",
+          "char_start": 0,
+          "char_end": 118,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8679794073104858,
+          "kept": true
+        },
+        {
+          "chunk_id": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1486663",
+          "instance_key": "feaa71036263132ed38294708746ad819418560412808746894df0fe286efaf0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sherman served as a delegate to the 1787 Philadelphia Convention, which produced the United States Constitution. After Benjamin Franklin, he was the second oldest delegate present at the convention. Along with James Wilson, he proposed the Three-Fifths Compromise, which counted three-fifths of the slave population for the purposes of representation in the United States House of Representatives and the Electoral College. He favored granting the federal government power to raise revenue and regulate commerce, but initially opposed efforts to supplant the Articles of Confederation with a new constitution. He ultimately came to support the establishment of a new constitution, and proposed the Connecticut Compromise, which won the approval of both the larger states and the smaller states.[2]",
+          "text_sha256": "f9f3a2145c543965a06cebc027eb51f6049a7c533818c2176fec2247459f82b4",
+          "char_start": 0,
+          "char_end": 797,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6463983058929443,
+          "kept": true
+        },
+        {
+          "chunk_id": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc101561",
+          "instance_key": "7dedbf104c36339fd8b823ff45d7319e7aa85766e38185412ad1c10ae7f99a8c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Slavery had been tacitly enshrined in the original Constitution through provisions such as Article I, Section 2, Clause 3, commonly known as the Three-Fifths Compromise, which detailed how each state's total slave population would be factored into its total population count for the purposes of apportioning seats in the United States House of Representatives and direct taxes among the states. Although many slaves had been declared free by Lincoln's 1863 Emancipation Proclamation, their legal status after the Civil War was uncertain.",
+          "text_sha256": "8cb2a9672730e676c9f4aa59d8b322ef0be1f6efd629b7ba4489721a11a282e6",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 106,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6445382833480835,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6415908336639404
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6345891952514648
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5991051197052002
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5991051197052002
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test826__PE2__unfiltered",
+          "request_sha256": "d4f3e4ec4cff547fff4dce08a2f3fb9225a8bc9438b0f8cfa000f22cbf6dca89",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution",
+            "first_call_id": "NanoNQ:test826__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test826__PE2__filtered",
+          "request_sha256": "2b1364c131ee76fe9ad05e154b80d35b237cbf91e3d7933e562a93fab58565e9",
+          "reference": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+            "first_call_id": "NanoNQ:test826__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Article 1, Section 2, Clause 3 of the United States Constitution",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

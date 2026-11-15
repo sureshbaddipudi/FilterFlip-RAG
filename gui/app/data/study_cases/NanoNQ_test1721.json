@@ -1,0 +1,2931 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1721",
+    "dataset": "NanoNQ",
+    "question": "what is the meaning of the name von",
+    "source_family": "NanoNQ:test1721",
+    "review_status": "assistant_only",
+    "target_document_id": "doc61036",
+    "expected_answer": "\"Of\" or \"from\"; in German surnames it can also be a nobiliary particle indicating noble patrilineality.",
+    "answer_aliases": [],
+    "support_quote": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+    "source_qualification": "The common-preposition meaning and the nobiliary use are different uses; not every surname containing von establishes nobility.",
+    "qrel_document_ids": [
+      "doc61036"
+    ],
+    "family_reference_texts": [
+      "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test1721",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc61036",
+    "expected_answer": "\"Of\" or \"from\"; in German surnames it can also be a nobiliary particle indicating noble patrilineality.",
+    "answer_aliases": [],
+    "support_quote": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+    "source_qualification": "The common-preposition meaning and the nobiliary use are different uses; not every surname containing von establishes nobility.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test1721",
+    "dataset": "NanoNQ",
+    "question": "what is the meaning of the name von",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test1721",
+      "dataset": "NanoNQ",
+      "question": "what is the meaning of the name von",
+      "expected_answer": "\"Of\" or \"from\"; in German surnames it can also be a nobiliary particle indicating noble patrilineality.",
+      "source_qualification": "The common-preposition meaning and the nobiliary use are different uses; not every surname containing von establishes nobility.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Needs adjudication",
+      "reason_group": "Unresolved rubric/support judgment",
+      "historical_decision": "needs_adjudication",
+      "historical_reason_code": "partial_support_not_counted",
+      "historical_rationale": "PN1 survivors retain related nobility/place-name information. The filtered answer omits the explicit of/from translation but retains related meaning. Complete support loss remains ambiguous.",
+      "current_assistant_rationale": "PN1 survivors retain related nobility/place-name information. The filtered answer omits the explicit of/from translation but retains related meaning. Complete support loss remains ambiguous.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/6",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/6",
+      "review_priority": 2,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test1721.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 55,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 37,
+              "call_id": "NanoNQ:test1721__C__unfiltered",
+              "request_sha256": "2bae53a0fe3b0999e443790f624580b59c0d1ca343e5f87977b315721b056230"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 38,
+              "call_id": "NanoNQ:test1721__C__filtered",
+              "request_sha256": "3cc0fbba63d889e159d29d559d6d73c79d216f3f39377d25a496fd5faa3dc355"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 56,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 39,
+              "call_id": "NanoNQ:test1721__BN1__unfiltered",
+              "request_sha256": "12e132bb0dd38e6afe1196b79c3f2582d5e7df9793ca7648a29b75ab6f8afdca"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 40,
+              "call_id": "NanoNQ:test1721__BN1__filtered",
+              "request_sha256": "bb138794069aef31b234619d41f8b889d34b85693784517f54662e904b8e4e70"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 58,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 41,
+              "call_id": "NanoNQ:test1721__PN1__unfiltered",
+              "request_sha256": "14076c7ff28b33ced11f648aa1dc8c8f5eb8cf76c029f2d28e01d20b246fb566"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 42,
+              "call_id": "NanoNQ:test1721__PN1__filtered",
+              "request_sha256": "c64e7a27bf1b13f6a48f2033a81e13b33b196fc939916e5781f1d7aad2a3afc1"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test1721",
+      "Question": "what is the meaning of the name von",
+      "Evidence packet": "evidence/NanoNQ_test1721.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "partial",
+      "Strict event judgment": "yes",
+      "Background-qualified event?": "yes",
+      "Evidence and reasoning": "Q1: C P1 doc61036 kept; answer \"of or from ... commoners ... noble patrilineality\". Q2: PN1 P2 copy of doc61036. Q3: correct. Q4: survivors P3 doc61045, P4 doc61043 support the noble/non-noble use; P5 doc1376346 (Dutch \"van\": \"signify any ancestral relation to a particular place ... hails from Ghent\") gives only indirect support for \"from\". Q5: filtered answer mixes cognate \"van\", nobility and place relation - partly right. Q6: BN1 correct.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Reviewer decision 2026-10-14: indirect support via the Dutch cognate \"van\" judged not sufficient (Q4 yes) and the muddled filtered answer judged unusable (Q5). DISAGREES with \"Needs adjudication\".",
+      "workbook_row": 10,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "jointly_agreed_under_named_core_mixed_rule",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "question": "what is the meaning of the name von",
+        "expected_answer": "\"Of\" or \"from\"; in German surnames it can also be a nobiliary particle indicating noble patrilineality.",
+        "source_qualification": "The common-preposition meaning and the nobiliary use are different uses; not every surname containing von establishes nobility.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Needs adjudication",
+        "reason_group": "Unresolved rubric/support judgment",
+        "historical_decision": "needs_adjudication",
+        "historical_reason_code": "partial_support_not_counted",
+        "historical_rationale": "PN1 survivors retain related nobility/place-name information. The filtered answer omits the explicit of/from translation but retains related meaning. Complete support loss remains ambiguous.",
+        "current_assistant_rationale": "PN1 survivors retain related nobility/place-name information. The filtered answer omits the explicit of/from translation but retains related meaning. Complete support loss remains ambiguous.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/6",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/6",
+        "review_priority": 2,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoNQ_test1721.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 55,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 37,
+                "call_id": "NanoNQ:test1721__C__unfiltered",
+                "request_sha256": "2bae53a0fe3b0999e443790f624580b59c0d1ca343e5f87977b315721b056230"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 38,
+                "call_id": "NanoNQ:test1721__C__filtered",
+                "request_sha256": "3cc0fbba63d889e159d29d559d6d73c79d216f3f39377d25a496fd5faa3dc355"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 56,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 39,
+                "call_id": "NanoNQ:test1721__BN1__unfiltered",
+                "request_sha256": "12e132bb0dd38e6afe1196b79c3f2582d5e7df9793ca7648a29b75ab6f8afdca"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 40,
+                "call_id": "NanoNQ:test1721__BN1__filtered",
+                "request_sha256": "bb138794069aef31b234619d41f8b889d34b85693784517f54662e904b8e4e70"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 58,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 41,
+                "call_id": "NanoNQ:test1721__PN1__unfiltered",
+                "request_sha256": "14076c7ff28b33ced11f648aa1dc8c8f5eb8cf76c029f2d28e01d20b246fb566"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 42,
+                "call_id": "NanoNQ:test1721__PN1__filtered",
+                "request_sha256": "c64e7a27bf1b13f6a48f2033a81e13b33b196fc939916e5781f1d7aad2a3afc1"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only",
+      "joint_adjudication": {
+        "joint_decision": "event",
+        "participants": [
+          "Shradha",
+          "Suresh"
+        ],
+        "agreement_recorded_date": "2026-10-26",
+        "suresh_response": "accept",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+      }
+    },
+    "prior_joint_adjudication": {
+      "case_id": "NanoNQ:test1721",
+      "case_name": "von",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "von",
+        "Suresh's Label": "Event",
+        "Decided by": "'of/from' is the primary meaning"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "doc61036 (support quote) and its copy removed in PN1; survivors doc61045, doc61043, doc1376346 (Dutch 'van' cognate).",
+        "PN1 filtered: \"The name von can be a cognate of Dutch 'van' and is often used to indicate nobility or royalty, though it can also signify any ancestral relation to a particular place...\""
+      ],
+      "agreed_rationale": "Event, with 'of/from' treated as the primary meaning the question asks for. Q4 yes: the surviving cognate passages concern Dutch 'van' and never state 'of/from' for German 'von', so indirect support is not treated as sufficient. Q5 yes (unusable): the filtered answer misses the primary meaning even though it gives nobility and place relation. Weak point to discuss: under a strict core reading the filtered answer could be called usable (non-event); Q4 and Q5 are recorded separately for that reason.",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test1721",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "yes",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "doc61036 (support quote) and its copy removed in PN1; survivors doc61045, doc61043, doc1376346 (Dutch 'van' cognate).",
+          "PN1 filtered: \"The name von can be a cognate of Dutch 'van' and is often used to indicate nobility or royalty, though it can also signify any ancestral relation to a particular place...\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Event, with 'of/from' treated as the primary meaning the question asks for. Q4 yes: the surviving cognate passages concern Dutch 'van' and never state 'of/from' for German 'von', so indirect support is not treated as sufficient. Q5 yes (unusable): the filtered answer misses the primary meaning even though it gives nobility and place relation. Weak point to discuss: under a strict core reading the filtered answer could be called usable (non-event); Q4 and Q5 are recorded separately for that reason.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "event",
+        "suresh_response": null
+      }
+    }
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test1721",
+    "question": "what is the meaning of the name von",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1721"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": true
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6879265904426575,
+          "kept": false
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6795949935913086,
+          "kept": false
+        },
+        {
+          "chunk_id": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1376346",
+          "instance_key": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The German \"von\" is a cognate of Dutch \"van\", though unlike the German \"von\", the Dutch \"van\" is more often part of a common surname than an indication of nobility or royalty. It can both imply nobility (Willem van Oranje \"William of [the] Orange [family]\") or signify any ancestral relation to a particular place (Jan van Ghent \"John [who hails] from Ghent\").",
+          "text_sha256": "7bdde2c22c16a5911b51361dcc17cb558c6ae1efe6eeea38ed9cf18c2237918e",
+          "char_start": 0,
+          "char_end": 360,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6792032718658447,
+          "kept": false
+        },
+        {
+          "chunk_id": "b633a368086c49b7ba63916b71d39a6a58d4e6446708e7253869ddce8582615c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61054",
+          "instance_key": "b633a368086c49b7ba63916b71d39a6a58d4e6446708e7253869ddce8582615c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the Nordic countries, von is common but not universal in the surnames of noble families of German origin and has occasionally been used as a part of names of ennobled families of native or foreign, but non-German, extraction, as with the family of the philosopher Georg Henrik von Wright, which is of Scottish origin or as with the family of the painter Carl Frederik von Breda who was of Dutch ancestry.",
+          "text_sha256": "887ea7635e65f8267271c96fe656889c9a1df58e3f76d6927ee9928151d7f1af",
+          "char_start": 0,
+          "char_end": 407,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6510358452796936,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.48528156610281314,
+          0.5379183818732258,
+          1.023199947976039,
+          0.4921229036629029,
+          0.4921229036629029
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          3,
+          4,
+          0
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.02481168508529663,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.701514720916748
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6966215372085571
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6718098521232605
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6536186933517456
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6450082063674927
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6428762674331665
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6307359933853149
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6213425993919373
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5888487100601196
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__C__unfiltered",
+          "request_sha256": "2bae53a0fe3b0999e443790f624580b59c0d1ca343e5f87977b315721b056230",
+          "reference": {
+            "status": "ok",
+            "answer": "The name von can indicate nobility or signify any ancestral relation to a particular place in German language surnames.",
+            "first_call_id": "NanoNQ:test1721__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von means either of or from in German language surnames. It can indicate noble patrilineality or be used by commoners.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__C__filtered",
+          "request_sha256": "3cc0fbba63d889e159d29d559d6d73c79d216f3f39377d25a496fd5faa3dc355",
+          "reference": {
+            "status": "ok",
+            "answer": "Von means of or from in the case of commoners. In the context of noble families of German origin, it indicates a noble patrilineality.",
+            "first_call_id": "NanoNQ:test1721__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von means of or from in German surnames. It can indicate noble patrilineality or be used by commoners. In the Nordic countries, it's used by some noble families of German origin.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": true
+        },
+        {
+          "chunk_id": "15973070e3b1fc4c3b5143bb4228430e391577164835d0a53835322a9b0265cf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/BN/1",
+          "instance_key": "15973070e3b1fc4c3b5143bb4228430e391577164835d0a53835322a9b0265cf",
+          "chunk_index": 0,
+          "copied_from": "doc61045",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "eb165af648be52101e91813e87017f6bc79b7708ef03e1a09dce452f3ee5d33c",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6985587477684021,
+          "kept": false
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6879265904426575,
+          "kept": false
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6795949935913086,
+          "kept": false
+        },
+        {
+          "chunk_id": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1376346",
+          "instance_key": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The German \"von\" is a cognate of Dutch \"van\", though unlike the German \"von\", the Dutch \"van\" is more often part of a common surname than an indication of nobility or royalty. It can both imply nobility (Willem van Oranje \"William of [the] Orange [family]\") or signify any ancestral relation to a particular place (Jan van Ghent \"John [who hails] from Ghent\").",
+          "text_sha256": "7bdde2c22c16a5911b51361dcc17cb558c6ae1efe6eeea38ed9cf18c2237918e",
+          "char_start": 0,
+          "char_end": 360,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6792032718658447,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.0,
+          1.523396471248919,
+          1.517503795323055,
+          1.0817294396723156,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.0817294396723156,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03680765628814697,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9897400736808777
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7374354600906372
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6966215372085571
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6659184098243713
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6558418273925781
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6536186933517456
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6450082063674927
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6428762674331665
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6213425993919373
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__BN1__unfiltered",
+          "request_sha256": "12e132bb0dd38e6afe1196b79c3f2582d5e7df9793ca7648a29b75ab6f8afdca",
+          "reference": {
+            "status": "ok",
+            "answer": "The term \"von\" in German surnames can indicate noble patrilineality or simply mean \"of\" or \"from.\"",
+            "first_call_id": "NanoNQ:test1721__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The term \"von\" can indicate noble patrilineality or simply mean \"of\" or \"from\" in German language surnames.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__BN1__filtered",
+          "request_sha256": "bb138794069aef31b234619d41f8b889d34b85693784517f54662e904b8e4e70",
+          "reference": {
+            "status": "ok",
+            "answer": "Von means either of or from in the case of commoners in German language surnames. It can also indicate nobility or signify any ancestral relation to a particular place.",
+            "first_call_id": "NanoNQ:test1721__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von indicates either a noble patrilineality or is a preposition meaning of or from.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": true
+        },
+        {
+          "chunk_id": "15973070e3b1fc4c3b5143bb4228430e391577164835d0a53835322a9b0265cf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/BN/1",
+          "instance_key": "15973070e3b1fc4c3b5143bb4228430e391577164835d0a53835322a9b0265cf",
+          "chunk_index": 0,
+          "copied_from": "doc61045",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "eb165af648be52101e91813e87017f6bc79b7708ef03e1a09dce452f3ee5d33c",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6985587477684021,
+          "kept": false
+        },
+        {
+          "chunk_id": "a5496faeeaaff496026703337d9d3adf6370a5b6711a83b63509aaf05c1f6660:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/BN/2",
+          "instance_key": "a5496faeeaaff496026703337d9d3adf6370a5b6711a83b63509aaf05c1f6660",
+          "chunk_index": 0,
+          "copied_from": "doc61045",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nIn order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "1e01b93452f07ff61cf11a5e0f615f6394ac7c61ededd7de000bbfe53c008323",
+          "char_start": 0,
+          "char_end": 413,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6979906558990479,
+          "kept": false
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6879265904426575,
+          "kept": false
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6795949935913086,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          0.0,
+          1.977693265835203,
+          1.9824250217731425,
+          1.9639025828375978,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9639025828375978,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2482510209083557,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9990534782409668
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9921275973320007
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9897400736808777
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.741489052772522
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7374354600906372
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6966215372085571
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6685830950737
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6659184098243713
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6536186933517456
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__BN2__unfiltered",
+          "request_sha256": "c3a4db39515deeeb03c58342eb30200ac3ec6573fde067e61a295067eec668b8",
+          "reference": {
+            "status": "ok",
+            "answer": "The term \"von\" in German language surnames can indicate either noble patrilineality or simply mean \"of\" or \"from\" for commoners. In the Prussian military, it was sometimes abbreviated to \"v.\" without a space.",
+            "first_call_id": "NanoNQ:test1721__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The term \"von\" can indicate noble patrilineality or be a simple preposition meaning of or from. It can also be abbreviated to \"v.\" in Prussian military contexts.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__BN2__filtered",
+          "request_sha256": "0d542fb5c2ee27450f3171170d747018cf061b48af2b9649e43d4b9fd6b3d0f8",
+          "reference": {
+            "status": "ok",
+            "answer": "Von means of or from in the context of German surnames. It can indicate noble patrilineality or be used by commoners.",
+            "first_call_id": "NanoNQ:test1721__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von means of or from in the case of commoners.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": false
+        },
+        {
+          "chunk_id": "3f96f4d94a07e9d708ea3a46cd41e04f0f928577b2a1465659683bffa1a0e760:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/PN/1",
+          "instance_key": "3f96f4d94a07e9d708ea3a46cd41e04f0f928577b2a1465659683bffa1a0e760",
+          "chunk_index": 0,
+          "copied_from": "doc61036",
+          "copy_number": 1,
+          "text": "Source excerpt.\nVon [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "c88f396cad2691d58adb4de0afa7c5b5992f3464a2b271f1ed223b268681f17a",
+          "char_start": 0,
+          "char_end": 223,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.748742938041687,
+          "kept": false
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6879265904426575,
+          "kept": true
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6795949935913086,
+          "kept": true
+        },
+        {
+          "chunk_id": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1376346",
+          "instance_key": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The German \"von\" is a cognate of Dutch \"van\", though unlike the German \"von\", the Dutch \"van\" is more often part of a common surname than an indication of nobility or royalty. It can both imply nobility (Willem van Oranje \"William of [the] Orange [family]\") or signify any ancestral relation to a particular place (Jan van Ghent \"John [who hails] from Ghent\").",
+          "text_sha256": "7bdde2c22c16a5911b51361dcc17cb558c6ae1efe6eeea38ed9cf18c2237918e",
+          "char_start": 0,
+          "char_end": 360,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6792032718658447,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9783914031004315,
+          0.9783914031004315,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9783914031004315,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2557075023651123,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9891366958618164
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6966215372085571
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.682427167892456
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6536186933517456
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6450082063674927
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6428762674331665
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6268733739852905
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6213425993919373
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6012918949127197
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__PN1__unfiltered",
+          "request_sha256": "14076c7ff28b33ced11f648aa1dc8c8f5eb8cf76c029f2d28e01d20b246fb566",
+          "reference": {
+            "status": "ok",
+            "answer": "Von means either of or from in the case of commoners. In the case of nobility, it indicates a noble patrilineality.",
+            "first_call_id": "NanoNQ:test1721__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von is used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition meaning of or from for commoners.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__PN1__filtered",
+          "request_sha256": "c64e7a27bf1b13f6a48f2033a81e13b33b196fc939916e5781f1d7aad2a3afc1",
+          "reference": {
+            "status": "ok",
+            "answer": "The name von can be a cognate of Dutch \"van\" and is often used to indicate nobility or royalty, though it can also signify any ancestral relation to a particular place. It can be part of a common surname or an indication of nobility.",
+            "first_call_id": "NanoNQ:test1721__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name von is a cognate of Dutch \"van\" and can indicate nobility or signify any ancestral relation to a particular place.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": false
+        },
+        {
+          "chunk_id": "55301fdf6867d92fc4906978c26f5df4d6eb635257132a190a7737e72ce07b9d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/PN/2",
+          "instance_key": "55301fdf6867d92fc4906978c26f5df4d6eb635257132a190a7737e72ce07b9d",
+          "chunk_index": 0,
+          "copied_from": "doc61036",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nVon [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "69deb7a40e607b595e6ca17b080954357db58b0ff5d37f4e35524749cb572407",
+          "char_start": 0,
+          "char_end": 226,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7563183307647705,
+          "kept": false
+        },
+        {
+          "chunk_id": "3f96f4d94a07e9d708ea3a46cd41e04f0f928577b2a1465659683bffa1a0e760:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/PN/1",
+          "instance_key": "3f96f4d94a07e9d708ea3a46cd41e04f0f928577b2a1465659683bffa1a0e760",
+          "chunk_index": 0,
+          "copied_from": "doc61036",
+          "copy_number": 1,
+          "text": "Source excerpt.\nVon [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "c88f396cad2691d58adb4de0afa7c5b5992f3464a2b271f1ed223b268681f17a",
+          "char_start": 0,
+          "char_end": 223,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.748742938041687,
+          "kept": false
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6879265904426575,
+          "kept": true
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6795949935913086,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.9630954743721674,
+          1.981873545152002,
+          1.9755608769806976,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.9630954743721674,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2557075023651123,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9985837340354919
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.992322564125061
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9891366958618164
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6966214776039124
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6846199035644531
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6824270486831665
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6536187529563904
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.633118212223053
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6268733739852905
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__PN2__unfiltered",
+          "request_sha256": "1b2a116a382e1b0571c1fc013472e88d9bf75ef1b23ec2d511a45e2d4fe3bd5b",
+          "reference": {
+            "status": "ok",
+            "answer": "The term \"von\" in German language surnames can indicate a noble patrilineality or simply mean \"of\" or \"from\" for commoners.",
+            "first_call_id": "NanoNQ:test1721__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von is used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition meaning of or from for commoners.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__PN2__filtered",
+          "request_sha256": "fcb61521914315e2d54afd26303ed3441b8af9fcb54acccf4681dc59c498181f",
+          "reference": {
+            "status": "ok",
+            "answer": "The name von was often used by aristocrats and land owners, and could be added to an existing name when families were raised to nobility. It could also be used by both noble and humble individuals.",
+            "first_call_id": "NanoNQ:test1721__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name von is often used as a prefix for noble surnames in Prussian military, abbreviated to v. in some cases without a space. It is also used by aristocrats and land owners, sometimes compounded with the main surname element in Austria and Bavaria.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": true
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6879265904426575,
+          "kept": false
+        },
+        {
+          "chunk_id": "802d6c87e2fe58592fafb13e793690a36cce62090afd3baa382ec32c169cf64a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/BE/1",
+          "instance_key": "802d6c87e2fe58592fafb13e793690a36cce62090afd3baa382ec32c169cf64a",
+          "chunk_index": 0,
+          "copied_from": "doc61045",
+          "copy_number": 1,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6879265904426575,
+          "kept": false
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6795949935913086,
+          "kept": false
+        },
+        {
+          "chunk_id": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1376346",
+          "instance_key": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The German \"von\" is a cognate of Dutch \"van\", though unlike the German \"von\", the Dutch \"van\" is more often part of a common surname than an indication of nobility or royalty. It can both imply nobility (Willem van Oranje \"William of [the] Orange [family]\") or signify any ancestral relation to a particular place (Jan van Ghent \"John [who hails] from Ghent\").",
+          "text_sha256": "7bdde2c22c16a5911b51361dcc17cb558c6ae1efe6eeea38ed9cf18c2237918e",
+          "char_start": 0,
+          "char_end": 360,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6792032718658447,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.0,
+          1.5379186202918191,
+          1.5379186202918191,
+          1.0758367637464517,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.0758367637464517,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03680765628814697,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6966215372085571
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6536186933517456
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6536186933517456
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6450082063674927
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6428762674331665
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6428762674331665
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6213425993919373
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__BE1__unfiltered",
+          "request_sha256": "74821a187477ad4bc2aa2bd3830eed29f66a30c1b1f297f3a066fd182e5d3afb",
+          "reference": {
+            "status": "ok",
+            "answer": "The name von can indicate nobility or signify an ancestral relation to a particular place in German and Dutch surnames.",
+            "first_call_id": "NanoNQ:test1721__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The term \"von\" in German surnames can indicate noble patrilineality or simply mean \"of\" or \"from.\"",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__BE1__filtered",
+          "request_sha256": "bb138794069aef31b234619d41f8b889d34b85693784517f54662e904b8e4e70",
+          "reference": {
+            "status": "ok",
+            "answer": "Von means either of or from in the case of commoners in German language surnames. It can also indicate nobility or signify any ancestral relation to a particular place.",
+            "first_call_id": "NanoNQ:test1721__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von indicates either a noble patrilineality or is a preposition meaning of or from.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": true
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6879265904426575,
+          "kept": false
+        },
+        {
+          "chunk_id": "6eb7cad9278be1a1c5d9d18b1d5c7ef9a208422a6dd5e54673b12d5006426d0d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/BE/2",
+          "instance_key": "6eb7cad9278be1a1c5d9d18b1d5c7ef9a208422a6dd5e54673b12d5006426d0d",
+          "chunk_index": 0,
+          "copied_from": "doc61045",
+          "copy_number": 2,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6879265904426575,
+          "kept": false
+        },
+        {
+          "chunk_id": "802d6c87e2fe58592fafb13e793690a36cce62090afd3baa382ec32c169cf64a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/BE/1",
+          "instance_key": "802d6c87e2fe58592fafb13e793690a36cce62090afd3baa382ec32c169cf64a",
+          "chunk_index": 0,
+          "copied_from": "doc61045",
+          "copy_number": 1,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6879265904426575,
+          "kept": false
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6795949935913086,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          0.0,
+          2.0,
+          2.0,
+          2.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2665708065032959,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6966214776039124
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6536187529563904
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6536187529563904
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6536187529563904
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__BE2__unfiltered",
+          "request_sha256": "1fa10254de8f9a8977b4c9bb7a367f5340d8e96ed18b6e5a0b0e5ab7d911bc89",
+          "reference": {
+            "status": "ok",
+            "answer": "The term \"von\" in German language surnames can indicate either noble patrilineality or simply mean \"of\" or \"from\" for commoners.",
+            "first_call_id": "NanoNQ:test1721__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The term \"von\" can indicate a noble patrilineality or simply mean \"of\" or \"from\" for commoners.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__BE2__filtered",
+          "request_sha256": "0d542fb5c2ee27450f3171170d747018cf061b48af2b9649e43d4b9fd6b3d0f8",
+          "reference": {
+            "status": "ok",
+            "answer": "Von means of or from in the context of German surnames. It can indicate noble patrilineality or be used by commoners.",
+            "first_call_id": "NanoNQ:test1721__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von means of or from in the case of commoners.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "344208a35db23e81afe2722a2c5dff2ab14f97fad4ccb2e066cf58034802ef2d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/PE/1",
+          "instance_key": "344208a35db23e81afe2722a2c5dff2ab14f97fad4ccb2e066cf58034802ef2d",
+          "chunk_index": 0,
+          "copied_from": "doc61036",
+          "copy_number": 1,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": false
+        },
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7683862447738647,
+          "kept": false
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6879265904426575,
+          "kept": true
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6795949935913086,
+          "kept": true
+        },
+        {
+          "chunk_id": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1376346",
+          "instance_key": "270fc3c825c18663c2b02cc75d2d52d0a7af942b543792f7309dcb967579ba1b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The German \"von\" is a cognate of Dutch \"van\", though unlike the German \"von\", the Dutch \"van\" is more often part of a common surname than an indication of nobility or royalty. It can both imply nobility (Willem van Oranje \"William of [the] Orange [family]\") or signify any ancestral relation to a particular place (Jan van Ghent \"John [who hails] from Ghent\").",
+          "text_sha256": "7bdde2c22c16a5911b51361dcc17cb558c6ae1efe6eeea38ed9cf18c2237918e",
+          "char_start": 0,
+          "char_end": 360,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6792032718658447,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.26657092571258545,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6966215372085571
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6966215372085571
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6536186933517456
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6536186933517456
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6450082063674927
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6428762674331665
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6213425993919373
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6213425993919373
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__PE1__unfiltered",
+          "request_sha256": "3f0cfed1ae61dac469a1deb0fc86a25bdbcd501bede56eca401e2060d4aea87a",
+          "reference": {
+            "status": "ok",
+            "answer": "The term \"von\" in German language surnames can indicate noble patrilineality or simply mean \"of\" or \"from\" for commoners.",
+            "first_call_id": "NanoNQ:test1721__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Von indicates either a noble patrilineality or is a simple preposition meaning of or from for commoners.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__PE1__filtered",
+          "request_sha256": "c64e7a27bf1b13f6a48f2033a81e13b33b196fc939916e5781f1d7aad2a3afc1",
+          "reference": {
+            "status": "ok",
+            "answer": "The name von can be a cognate of Dutch \"van\" and is often used to indicate nobility or royalty, though it can also signify any ancestral relation to a particular place. It can be part of a common surname or an indication of nobility.",
+            "first_call_id": "NanoNQ:test1721__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name von is a cognate of Dutch \"van\" and can indicate nobility or signify any ancestral relation to a particular place.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1721",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "344208a35db23e81afe2722a2c5dff2ab14f97fad4ccb2e066cf58034802ef2d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/PE/1",
+          "instance_key": "344208a35db23e81afe2722a2c5dff2ab14f97fad4ccb2e066cf58034802ef2d",
+          "chunk_index": 0,
+          "copied_from": "doc61036",
+          "copy_number": 1,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7683862447738647,
+          "kept": false
+        },
+        {
+          "chunk_id": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61036",
+          "instance_key": "5ed3a7089d5cdc81aba1e972b314b780836575b82d1d6395eb75c8d9010c63c3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7683862447738647,
+          "kept": false
+        },
+        {
+          "chunk_id": "ab8fe4af3ce6d8a922c6b3873fd309006c18755d2f7648e719cd636a63e52e03:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1721/PE/2",
+          "instance_key": "ab8fe4af3ce6d8a922c6b3873fd309006c18755d2f7648e719cd636a63e52e03",
+          "chunk_index": 0,
+          "copied_from": "doc61036",
+          "copy_number": 2,
+          "text": "Von [fÉ”n] is a term used in German language surnames either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners.",
+          "text_sha256": "9c6aecec66e31cf248258e5ecd28655c6fc51387e3164b11f3fe939523d95c00",
+          "char_start": 0,
+          "char_end": 207,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7683862447738647,
+          "kept": false
+        },
+        {
+          "chunk_id": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61045",
+          "instance_key": "1f3c7e998f577a35585d1411af5c6eb74164fb50e7988bd37b98913a4dd85803",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to distinguish the noble von from the non-noble one, the Prussian military abbreviated it to v. in noble names, often without a space following it, whereas the non-noble von was always spelled in full.[2] In the 19th century in Austria and Bavaria non-noble surnames containing von were widely altered by compounding it to the main surname element, such as von Werden â†’ Vonwerden.[1]",
+          "text_sha256": "d98d3f58ca87c0b7e3c5cdd5598a0e5f601316753822c99a5a08ab9f270bce68",
+          "char_start": 0,
+          "char_end": 394,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6879265904426575,
+          "kept": true
+        },
+        {
+          "chunk_id": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc61043",
+          "instance_key": "ae579423dfa24b543ce65a4a32a771c445c4008d84b0796270110d6dd7754ce9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nevertheless, it was mostly aristocrats and other land owners who acquired a surname consisting of von, zu or zur and a toponym. When families were raised to nobility later on, the prefix was added in front of their existing name whatever its source, e.g. von Goethe. In some cases even an existing non-noble von became noble, or vice versa, therefore the same surname sometimes would be shared by noble and humble individuals.",
+          "text_sha256": "5cf1eec360a1628ddd1657f64b90f081c44b462e6bdcab02b9ddf6f9b47c6fc5",
+          "char_start": 0,
+          "char_end": 427,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6795949935913086,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          2.0000004768371866,
+          2.0000004768371866,
+          2.0000004768371866,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0000004768371866,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.26657092571258545,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7334291934967041
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6966214776039124
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6966214776039124
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6966214776039124
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6536187529563904
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6536187529563904
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6536187529563904
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1721__PE2__unfiltered",
+          "request_sha256": "8af68c09de9d8f9c0501d8ed903f09089bbd44b43c3fe86d8b33623013952493",
+          "reference": {
+            "status": "ok",
+            "answer": "The term \"von\" in German language surnames can indicate a noble patrilineality or simply mean \"of\" or \"from\" for commoners.",
+            "first_call_id": "NanoNQ:test1721__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The term \"von\" in German language surnames can indicate a noble patrilineality or simply mean \"of\" or \"from\" for commoners.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1721__PE2__filtered",
+          "request_sha256": "fcb61521914315e2d54afd26303ed3441b8af9fcb54acccf4681dc59c498181f",
+          "reference": {
+            "status": "ok",
+            "answer": "The name von was often used by aristocrats and land owners, and could be added to an existing name when families were raised to nobility. It could also be used by both noble and humble individuals.",
+            "first_call_id": "NanoNQ:test1721__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name von is often used as a prefix for noble surnames in Prussian military, abbreviated to v. in some cases without a space. It is also used by aristocrats and land owners, sometimes compounded with the main surname element in Austria and Bavaria.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

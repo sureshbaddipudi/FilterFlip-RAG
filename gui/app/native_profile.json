@@ -1,0 +1,48 @@
+{
+  "vendor_files": {
+    "ragdefender/__init__.py": "1100b98179bc64332729b6b7b0179ef23f04a02ac8a773d4f0e69ef9349d1e0f",
+    "ragdefender/_logging.py": "efc2a17c8dc1a99a803ad5c968585f829e6409c6f2483b674c42be8b18ac7ec3",
+    "ragdefender/cli.py": "0f2901b68096775da3d5efdb01667f0841785b9008ad501b6131425a4765a9a9",
+    "ragdefender/core/__init__.py": "918c53c9df3ac56698248e5cd2df6126259f1edfa8d4041f2539788fc57cbd61",
+    "ragdefender/core/defender.py": "50ff175cb597ce687c1e5ad98e20a656d660f21bc2b29319b3d8ea4d18b8b315",
+    "ragdefender/core/evaluator.py": "0fb2e0a1a0d17490765cd87cb922cbb108b8df93a37ce8cab76e12aa3ee06bfa",
+    "ragdefender/defender.py": "ebafa3c44020a8f11efd273f24672ca1ae7842f48725be84e7b30c9f4c61f554",
+    "ragdefender/embedders.py": "460d186e2ec040b1978c36306e7fa34446a57d3473dce9a15be55774eeb7c806",
+    "ragdefender/evaluator.py": "a48fadec7814ae4611c77b9d0f6f985bffc34710a99601e1b09974add0628bc2",
+    "ragdefender/grouping/__init__.py": "a7bcfef0029c79c39b467f1f0aaf2a95de9c6439a9910be094156fb74fa2e3b9",
+    "ragdefender/grouping/base.py": "8cfc667e1d1230831201b8736036cafeec349946cb15bcb387c61a138bb72625",
+    "ragdefender/grouping/clustering.py": "2daadad505f95f682cd311d03b2119201fcf8dbca30e9948b1bdf968c95d1658",
+    "ragdefender/grouping/concentration.py": "69e771e0016e80c07ae923ad0606884038345c1ac95880b82c1e0ee755812722",
+    "ragdefender/identification/__init__.py": "b163438bc884fc68795495f311857bf2294c9c9b1ef2b6422ef851571837d8a9",
+    "ragdefender/identification/topk.py": "b537b82ff91510f690c68e89d9a7535dceaa0a102d6aaf0f826fb111c5601b72",
+    "ragdefender/similarity.py": "978ea4418bfffb5096ee0d5efe093fd46b3c5fd025c54d2ba7fb64c1db0c09d2"
+  },
+  "model_files": {
+    "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+    "config_sentence_transformers.json": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+    "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+    "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+    "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+    "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+    "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+    "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23"
+  },
+  "versions": {
+    "ragdefender": "0.2.0",
+    "sentence-transformers": "5.1.0",
+    "transformers": "4.51.3",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1"
+  },
+  "settings": {
+    "task_type": "single_hop",
+    "m": 5,
+    "p": 2,
+    "device": "cpu",
+    "encoder": "all-MiniLM-L6-v2",
+    "planned_calls": 531
+  }
+}

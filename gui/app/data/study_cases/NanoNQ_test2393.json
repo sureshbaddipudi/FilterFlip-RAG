@@ -1,0 +1,2777 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test2393",
+    "dataset": "NanoNQ",
+    "question": "what was the biggest tank in world war 2",
+    "source_family": "NanoNQ:test2393",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc82650",
+    "expected_answer": "Panzerkampfwagen VIII Maus",
+    "answer_aliases": [
+      "Maus",
+      "Panzer VIII Maus"
+    ],
+    "support_quote": "Panzerkampfwagen VIII Maus (\"Mouse\") was a German World War II super-heavy tank completed in late 1944. It is the heaviest fully enclosed armoured fighting vehicle ever built. Five were ordered, but only two hulls and one turret were completed before the testing grounds were captured by the advancing Soviet forces.",
+    "source_qualification": "\"Biggest\" is interpreted as heaviest, matching the source. This does not claim it was the largest operational/combat-deployed tank or largest by every dimension.",
+    "qrel_document_ids": [
+      "doc82650"
+    ],
+    "family_reference_texts": [
+      "Panzerkampfwagen VIII Maus (\"Mouse\") was a German World War II super-heavy tank completed in late 1944. It is the heaviest fully enclosed armoured fighting vehicle ever built. Five were ordered, but only two hulls and one turret were completed before the testing grounds were captured by the advancing Soviet forces."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test2393",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc82650",
+    "expected_answer": "Panzerkampfwagen VIII Maus",
+    "answer_aliases": [
+      "Maus",
+      "Panzer VIII Maus"
+    ],
+    "support_quote": "Panzerkampfwagen VIII Maus (\"Mouse\") was a German World War II super-heavy tank completed in late 1944. It is the heaviest fully enclosed armoured fighting vehicle ever built. Five were ordered, but only two hulls and one turret were completed before the testing grounds were captured by the advancing Soviet forces.",
+    "source_qualification": "\"Biggest\" is interpreted as heaviest, matching the source. This does not claim it was the largest operational/combat-deployed tank or largest by every dimension.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test2393",
+    "dataset": "NanoNQ",
+    "question": "what was the biggest tank in world war 2",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test2393",
+      "dataset": "NanoNQ",
+      "question": "what was the biggest tank in world war 2",
+      "expected_answer": "Panzerkampfwagen VIII Maus",
+      "source_qualification": "\"Biggest\" is interpreted as heaviest, matching the source. This does not claim it was the largest operational/combat-deployed tank or largest by every dimension.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Identical filtered requests",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+      "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/15",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/15",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test2393.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 136,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 91,
+              "call_id": "NanoNQ:test2393__C__unfiltered",
+              "request_sha256": "880f96b9e9ee24dc2fbfec58413e4acf810f8e76b1c4780474b67d441c04b7c1"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 92,
+              "call_id": "NanoNQ:test2393__C__filtered",
+              "request_sha256": "c31f97b5541c58fae352d752ceb4deaac1f0cbf7dc99a12920a538ae12a38178"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 137,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 93,
+              "call_id": "NanoNQ:test2393__BN1__unfiltered",
+              "request_sha256": "83410fb967d7bde58fe08f739d0b02eb633315b2c2666fdf62661484753109fd"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 94,
+              "call_id": "NanoNQ:test2393__BN1__filtered",
+              "request_sha256": "fd0d965f814f320ea5dc3be087eb50b3476ee5772022a1a1bf9163090286f56c"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 139,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 95,
+              "call_id": "NanoNQ:test2393__PN1__unfiltered",
+              "request_sha256": "880f96b9e9ee24dc2fbfec58413e4acf810f8e76b1c4780474b67d441c04b7c1"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 96,
+              "call_id": "NanoNQ:test2393__PN1__filtered",
+              "request_sha256": "c31f97b5541c58fae352d752ceb4deaac1f0cbf7dc99a12920a538ae12a38178"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test2393",
+    "question": "what was the biggest tank in world war 2",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test2393"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6932215094566345,
+          "kept": true
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756801009178162,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520300",
+          "instance_key": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Panzer IV was the only German tank to remain in both production and combat throughout World War II,[93][94] and measured over the entire war it comprised 30% of the Wehrmacht's total tank strength.[95] In came into service by early 1939, in time for the occupation of Czechoslovakia,[96] but at the start of the war the majority of German armor was made up of obsolete Panzer Is and Panzer IIs.[97] The Panzer I in particular had already proved inferior to Soviet tanks, such as the T-26, during the Spanish Civil War.[98]",
+          "text_sha256": "6ebcc77ca9be1edf204820c9d7a94adc2a6b751d73d1818ba58b027e406e2eea",
+          "char_start": 0,
+          "char_end": 526,
+          "tokens_with_specials": 125,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6749227046966553,
+          "kept": false
+        },
+        {
+          "chunk_id": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520311",
+          "instance_key": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the war, the mass of a panzer increased from the 5.4 tonnes of a pre-war Panzer I light tank, to the whopping 68.5 tonnes of the Tiger II. In the meantime, the Soviets continued to produce the T-34 by the tens of thousands, and U.S. industry nearly matched them in the number of M4 Sherman tanks built and deployed in Europe after D-Day.",
+          "text_sha256": "6889639c05eb8ae98089edf9d89d7d76494093303f314a898ac375393f55d787",
+          "char_start": 0,
+          "char_end": 344,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6554322838783264,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.4881041637222694,
+          0.4881041637222694,
+          0.49020469895572205,
+          0.9383002298157095,
+          0.44809553085998743
+        ],
+        "removal_ranking": [
+          3,
+          2,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.033681511878967285,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7001461982727051
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6693993806838989
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6357178688049316
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.624809741973877
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5956898927688599
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5948914885520935
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5545105934143066
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5163228511810303
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__C__unfiltered",
+          "request_sha256": "880f96b9e9ee24dc2fbfec58413e4acf810f8e76b1c4780474b67d441c04b7c1",
+          "reference": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "first_call_id": "NanoNQ:test2393__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__C__filtered",
+          "request_sha256": "c31f97b5541c58fae352d752ceb4deaac1f0cbf7dc99a12920a538ae12a38178",
+          "reference": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "first_call_id": "NanoNQ:test2393__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "913290f551d96ef7448dd471435c0aa1d5df122320ace0996cae4a6c1b3eb464:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2393/BN/1",
+          "instance_key": "913290f551d96ef7448dd471435c0aa1d5df122320ace0996cae4a6c1b3eb464",
+          "chunk_index": 1,
+          "copied_from": "doc539428",
+          "copy_number": 1,
+          "text": "largest production run of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "89bb0ddbb8f101ae429bb53efa9929d95059bc46790e83e5e32096cbd7065c52",
+          "char_start": 1020,
+          "char_end": 1707,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7645161151885986,
+          "kept": false
+        },
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6932215094566345,
+          "kept": true
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6756801009178162,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520300",
+          "instance_key": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Panzer IV was the only German tank to remain in both production and combat throughout World War II,[93][94] and measured over the entire war it comprised 30% of the Wehrmacht's total tank strength.[95] In came into service by early 1939, in time for the occupation of Czechoslovakia,[96] but at the start of the war the majority of German armor was made up of obsolete Panzer Is and Panzer IIs.[97] The Panzer I in particular had already proved inferior to Soviet tanks, such as the T-26, during the Spanish Civil War.[98]",
+          "text_sha256": "6ebcc77ca9be1edf204820c9d7a94adc2a6b751d73d1818ba58b027e406e2eea",
+          "char_start": 0,
+          "char_end": 526,
+          "tokens_with_specials": 125,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6749227046966553,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.4396628383628922,
+          0.9506759555015378,
+          0.4889868828613544,
+          0.49020469895572205,
+          0.49020469895572205
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          4,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0006313323974609375,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9750261306762695
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7001461982727051
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6992759704589844
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6986446380615234
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6439404487609863
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6300307512283325
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5956898927688599
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5948914885520935
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5868356227874756
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5545105934143066
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__BN1__unfiltered",
+          "request_sha256": "83410fb967d7bde58fe08f739d0b02eb633315b2c2666fdf62661484753109fd",
+          "reference": {
+            "status": "ok",
+            "answer": "The Char 2C was the largest tank in World War II.",
+            "first_call_id": "NanoNQ:test2393__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The largest tank in World War II was the Char 2C, which was the Char 2C, the most complex and technologically advanced tank of its day.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__BN1__filtered",
+          "request_sha256": "fd0d965f814f320ea5dc3be087eb50b3476ee5772022a1a1bf9163090286f56c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2393__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "59ae3e303fbc4a791682991a34b0dad23108a65fa18f1be0f6ea48f2d7fd39e5:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2393/BN/2",
+          "instance_key": "59ae3e303fbc4a791682991a34b0dad23108a65fa18f1be0f6ea48f2d7fd39e5",
+          "chunk_index": 1,
+          "copied_from": "doc539428",
+          "copy_number": 2,
+          "text": "largest production run of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "89bb0ddbb8f101ae429bb53efa9929d95059bc46790e83e5e32096cbd7065c52",
+          "char_start": 1023,
+          "char_end": 1710,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7645161151885986,
+          "kept": false
+        },
+        {
+          "chunk_id": "913290f551d96ef7448dd471435c0aa1d5df122320ace0996cae4a6c1b3eb464:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2393/BN/1",
+          "instance_key": "913290f551d96ef7448dd471435c0aa1d5df122320ace0996cae4a6c1b3eb464",
+          "chunk_index": 1,
+          "copied_from": "doc539428",
+          "copy_number": 1,
+          "text": "largest production run of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "89bb0ddbb8f101ae429bb53efa9929d95059bc46790e83e5e32096cbd7065c52",
+          "char_start": 1020,
+          "char_end": 1707,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7645161151885986,
+          "kept": false
+        },
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6932215094566345,
+          "kept": false
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6756801009178162,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          2.4396633152001073,
+          2.4396633152001073,
+          2.3894562412951927,
+          1.4660780960148259,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.4660780960148259,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.05470418930053711,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9750261306762695
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9750261306762695
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6992759704589844
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6992759704589844
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6986446380615234
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6439404487609863
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6439404487609863
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6300307512283325
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5545105934143066
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__BN2__unfiltered",
+          "request_sha256": "eeead1fa264f9f6b1253ee41429726bb0d1879af9685bbc20a55812760091e19",
+          "reference": {
+            "status": "ok",
+            "answer": "Char 2C",
+            "first_call_id": "NanoNQ:test2393__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The largest tank in World War II was the Char 2C.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__BN2__filtered",
+          "request_sha256": "5533a2801ed554dde7e37daeb169f3c970da8c6bff6cb14cd0d092ebfbd2b7a4",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2393__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6932215094566345,
+          "kept": true
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756801009178162,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520300",
+          "instance_key": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Panzer IV was the only German tank to remain in both production and combat throughout World War II,[93][94] and measured over the entire war it comprised 30% of the Wehrmacht's total tank strength.[95] In came into service by early 1939, in time for the occupation of Czechoslovakia,[96] but at the start of the war the majority of German armor was made up of obsolete Panzer Is and Panzer IIs.[97] The Panzer I in particular had already proved inferior to Soviet tanks, such as the T-26, during the Spanish Civil War.[98]",
+          "text_sha256": "6ebcc77ca9be1edf204820c9d7a94adc2a6b751d73d1818ba58b027e406e2eea",
+          "char_start": 0,
+          "char_end": 526,
+          "tokens_with_specials": 125,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6749227046966553,
+          "kept": false
+        },
+        {
+          "chunk_id": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520311",
+          "instance_key": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the war, the mass of a panzer increased from the 5.4 tonnes of a pre-war Panzer I light tank, to the whopping 68.5 tonnes of the Tiger II. In the meantime, the Soviets continued to produce the T-34 by the tens of thousands, and U.S. industry nearly matched them in the number of M4 Sherman tanks built and deployed in Europe after D-Day.",
+          "text_sha256": "6889639c05eb8ae98089edf9d89d7d76494093303f314a898ac375393f55d787",
+          "char_start": 0,
+          "char_end": 344,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6554322838783264,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.4881041637222694,
+          0.4881041637222694,
+          0.49020469895572205,
+          0.9383002298157095,
+          0.44809553085998743
+        ],
+        "removal_ranking": [
+          3,
+          2,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.033681511878967285,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7001461982727051
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6693993806838989
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6357178688049316
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.624809741973877
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5956898927688599
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5948914885520935
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5545105934143066
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5163228511810303
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__PN1__unfiltered",
+          "request_sha256": "880f96b9e9ee24dc2fbfec58413e4acf810f8e76b1c4780474b67d441c04b7c1",
+          "reference": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "first_call_id": "NanoNQ:test2393__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__PN1__filtered",
+          "request_sha256": "c31f97b5541c58fae352d752ceb4deaac1f0cbf7dc99a12920a538ae12a38178",
+          "reference": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "first_call_id": "NanoNQ:test2393__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6932215094566345,
+          "kept": true
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756801009178162,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520300",
+          "instance_key": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Panzer IV was the only German tank to remain in both production and combat throughout World War II,[93][94] and measured over the entire war it comprised 30% of the Wehrmacht's total tank strength.[95] In came into service by early 1939, in time for the occupation of Czechoslovakia,[96] but at the start of the war the majority of German armor was made up of obsolete Panzer Is and Panzer IIs.[97] The Panzer I in particular had already proved inferior to Soviet tanks, such as the T-26, during the Spanish Civil War.[98]",
+          "text_sha256": "6ebcc77ca9be1edf204820c9d7a94adc2a6b751d73d1818ba58b027e406e2eea",
+          "char_start": 0,
+          "char_end": 526,
+          "tokens_with_specials": 125,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6749227046966553,
+          "kept": false
+        },
+        {
+          "chunk_id": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520311",
+          "instance_key": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the war, the mass of a panzer increased from the 5.4 tonnes of a pre-war Panzer I light tank, to the whopping 68.5 tonnes of the Tiger II. In the meantime, the Soviets continued to produce the T-34 by the tens of thousands, and U.S. industry nearly matched them in the number of M4 Sherman tanks built and deployed in Europe after D-Day.",
+          "text_sha256": "6889639c05eb8ae98089edf9d89d7d76494093303f314a898ac375393f55d787",
+          "char_start": 0,
+          "char_end": 344,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6554322838783264,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.4881041637222694,
+          0.4881041637222694,
+          0.49020469895572205,
+          0.9383002298157095,
+          0.44809553085998743
+        ],
+        "removal_ranking": [
+          3,
+          2,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.033681511878967285,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7001461982727051
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6693993806838989
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6357178688049316
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.624809741973877
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5956898927688599
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5948914885520935
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5545105934143066
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5163228511810303
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__PN2__unfiltered",
+          "request_sha256": "880f96b9e9ee24dc2fbfec58413e4acf810f8e76b1c4780474b67d441c04b7c1",
+          "reference": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "first_call_id": "NanoNQ:test2393__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__PN2__filtered",
+          "request_sha256": "c31f97b5541c58fae352d752ceb4deaac1f0cbf7dc99a12920a538ae12a38178",
+          "reference": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "first_call_id": "NanoNQ:test2393__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "965e8ae08f8af66b5167007a2d96f419a656aec227bc646473ac59b016c5f192:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2393/BE/1",
+          "instance_key": "965e8ae08f8af66b5167007a2d96f419a656aec227bc646473ac59b016c5f192",
+          "chunk_index": 1,
+          "copied_from": "doc539428",
+          "copy_number": 1,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6932215094566345,
+          "kept": true
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6756801009178162,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520300",
+          "instance_key": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Panzer IV was the only German tank to remain in both production and combat throughout World War II,[93][94] and measured over the entire war it comprised 30% of the Wehrmacht's total tank strength.[95] In came into service by early 1939, in time for the occupation of Czechoslovakia,[96] but at the start of the war the majority of German armor was made up of obsolete Panzer Is and Panzer IIs.[97] The Panzer I in particular had already proved inferior to Soviet tanks, such as the T-26, during the Spanish Civil War.[98]",
+          "text_sha256": "6ebcc77ca9be1edf204820c9d7a94adc2a6b751d73d1818ba58b027e406e2eea",
+          "char_start": 0,
+          "char_end": 526,
+          "tokens_with_specials": 125,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6749227046966553,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.4881044021408627,
+          1.0000002384185933,
+          0.4881041637222694,
+          0.49020469895572205,
+          0.49020469895572205
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          4,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7001461982727051
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5956898927688599
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5948914885520935
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5948914885520935
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5545105934143066
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__BE1__unfiltered",
+          "request_sha256": "d78405b7aeb0491592d3306240775fe8fdfe79b277cd1fb76f67fdfb119a13a7",
+          "reference": {
+            "status": "ok",
+            "answer": "The Char 2C was the largest tank of its day, though it was not produced in time for World War I. It was the first tank with a three-man turret and was the heaviest to enter service until late in World War II.",
+            "first_call_id": "NanoNQ:test2393__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Char 2C was the biggest tank in World War II.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__BE1__filtered",
+          "request_sha256": "fd0d965f814f320ea5dc3be087eb50b3476ee5772022a1a1bf9163090286f56c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2393__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "70523d321df8b89bde298382485bc03e963043862b344282918595d5cce57e5b:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2393/BE/2",
+          "instance_key": "70523d321df8b89bde298382485bc03e963043862b344282918595d5cce57e5b",
+          "chunk_index": 1,
+          "copied_from": "doc539428",
+          "copy_number": 2,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "965e8ae08f8af66b5167007a2d96f419a656aec227bc646473ac59b016c5f192:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2393/BE/1",
+          "instance_key": "965e8ae08f8af66b5167007a2d96f419a656aec227bc646473ac59b016c5f192",
+          "chunk_index": 1,
+          "copied_from": "doc539428",
+          "copy_number": 1,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6932215094566345,
+          "kept": true
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6756801009178162,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          2.0000004768371866,
+          2.0000004768371866,
+          2.0000004768371866,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0000004768371866,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.30135560035705566,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5545105934143066
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__BE2__unfiltered",
+          "request_sha256": "e98be57294178d58fbaaee7f227228383eacfb8f51ca7424bda95ee26c9d3aec",
+          "reference": {
+            "status": "ok",
+            "answer": "The Char 2C was the biggest tank in World War II.",
+            "first_call_id": "NanoNQ:test2393__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The biggest tank in World War II was the Char 2C.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__BE2__filtered",
+          "request_sha256": "03cbe4f5f8ce48a0d0babb536a7c5c08ba5b17e6a4c7bb6057582588ec3fb4f3",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2393__BE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6932215094566345,
+          "kept": true
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756801009178162,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520300",
+          "instance_key": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Panzer IV was the only German tank to remain in both production and combat throughout World War II,[93][94] and measured over the entire war it comprised 30% of the Wehrmacht's total tank strength.[95] In came into service by early 1939, in time for the occupation of Czechoslovakia,[96] but at the start of the war the majority of German armor was made up of obsolete Panzer Is and Panzer IIs.[97] The Panzer I in particular had already proved inferior to Soviet tanks, such as the T-26, during the Spanish Civil War.[98]",
+          "text_sha256": "6ebcc77ca9be1edf204820c9d7a94adc2a6b751d73d1818ba58b027e406e2eea",
+          "char_start": 0,
+          "char_end": 526,
+          "tokens_with_specials": 125,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6749227046966553,
+          "kept": false
+        },
+        {
+          "chunk_id": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520311",
+          "instance_key": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the war, the mass of a panzer increased from the 5.4 tonnes of a pre-war Panzer I light tank, to the whopping 68.5 tonnes of the Tiger II. In the meantime, the Soviets continued to produce the T-34 by the tens of thousands, and U.S. industry nearly matched them in the number of M4 Sherman tanks built and deployed in Europe after D-Day.",
+          "text_sha256": "6889639c05eb8ae98089edf9d89d7d76494093303f314a898ac375393f55d787",
+          "char_start": 0,
+          "char_end": 344,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6554322838783264,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.4881041637222694,
+          0.4881041637222694,
+          0.49020469895572205,
+          0.9383002298157095,
+          0.44809553085998743
+        ],
+        "removal_ranking": [
+          3,
+          2,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.033681511878967285,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7001461982727051
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6693993806838989
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6357178688049316
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.624809741973877
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5956898927688599
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5948914885520935
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5545105934143066
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5163228511810303
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__PE1__unfiltered",
+          "request_sha256": "880f96b9e9ee24dc2fbfec58413e4acf810f8e76b1c4780474b67d441c04b7c1",
+          "reference": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "first_call_id": "NanoNQ:test2393__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__PE1__filtered",
+          "request_sha256": "c31f97b5541c58fae352d752ceb4deaac1f0cbf7dc99a12920a538ae12a38178",
+          "reference": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "first_call_id": "NanoNQ:test2393__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2393",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc539428",
+          "instance_key": "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "of any tank of the war, with over 3700 built, more numerous than all British tanks combined. That this would happen was at first far from certain; some in the French army lobbied for the alternative mass production of super-heavy tanks. Much design effort was put in this line of development resulting in the gigantic Char 2C, the most complex and technologically advanced tank of its day. Its very complexity ensured it being produced too late to participate in World War I and in the very small number of just ten, but it was the first tank with a three-man turret; the heaviest to enter service until late in World War II and still the largest ever operational.",
+          "text_sha256": "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+          "char_start": 1027,
+          "char_end": 1691,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7435572147369385,
+          "kept": false
+        },
+        {
+          "chunk_id": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437678",
+          "instance_key": "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "At the start of the war, France had one of the largest tank forces in the world along with the Soviet, British and German forces. Like the British and the Soviets, the French operated two classes of tank: cavalry tanks and infantry tanks.[4]",
+          "text_sha256": "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+          "char_start": 0,
+          "char_end": 241,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6932215094566345,
+          "kept": true
+        },
+        {
+          "chunk_id": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc437656",
+          "instance_key": "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The lack of an adequate high-explosive shell for the 2-pounder and the growing number of 5 cm KwK 38 anti-tank guns in the Afrika Korps gave the German army in Libya a huge advantage for much of late 1941 and early 1942. This began to be offset by late 1942 but the Wehrmacht continued to enjoy a 12â€“18 month lead in tank and anti-tank gun development and production until the end of 1944.[15] Britain produced 5000 tanks in the year of 1944.[16]",
+          "text_sha256": "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756801009178162,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520300",
+          "instance_key": "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Panzer IV was the only German tank to remain in both production and combat throughout World War II,[93][94] and measured over the entire war it comprised 30% of the Wehrmacht's total tank strength.[95] In came into service by early 1939, in time for the occupation of Czechoslovakia,[96] but at the start of the war the majority of German armor was made up of obsolete Panzer Is and Panzer IIs.[97] The Panzer I in particular had already proved inferior to Soviet tanks, such as the T-26, during the Spanish Civil War.[98]",
+          "text_sha256": "6ebcc77ca9be1edf204820c9d7a94adc2a6b751d73d1818ba58b027e406e2eea",
+          "char_start": 0,
+          "char_end": 526,
+          "tokens_with_specials": 125,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6749227046966553,
+          "kept": false
+        },
+        {
+          "chunk_id": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1520311",
+          "instance_key": "c2bd7b9c566b32e474cad8d5fcea8f183963f2de004b7cf44bab6b5d4cc7dabf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the war, the mass of a panzer increased from the 5.4 tonnes of a pre-war Panzer I light tank, to the whopping 68.5 tonnes of the Tiger II. In the meantime, the Soviets continued to produce the T-34 by the tens of thousands, and U.S. industry nearly matched them in the number of M4 Sherman tanks built and deployed in Europe after D-Day.",
+          "text_sha256": "6889639c05eb8ae98089edf9d89d7d76494093303f314a898ac375393f55d787",
+          "char_start": 0,
+          "char_end": 344,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6554322838783264,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.4881041637222694,
+          0.4881041637222694,
+          0.49020469895572205,
+          0.9383002298157095,
+          0.44809553085998743
+        ],
+        "removal_ranking": [
+          3,
+          2,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.033681511878967285,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7001461982727051
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6986445188522339
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6693993806838989
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6357178688049316
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.630030632019043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.624809741973877
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5956898927688599
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5948914885520935
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5545105934143066
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5163228511810303
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2393__PE2__unfiltered",
+          "request_sha256": "880f96b9e9ee24dc2fbfec58413e4acf810f8e76b1c4780474b67d441c04b7c1",
+          "reference": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "first_call_id": "NanoNQ:test2393__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Tiger II was the biggest tank in World War II.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2393__PE2__filtered",
+          "request_sha256": "c31f97b5541c58fae352d752ceb4deaac1f0cbf7dc99a12920a538ae12a38178",
+          "reference": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "first_call_id": "NanoNQ:test2393__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The biggest tank in World War 2 was the Tiger II, weighing 68. 5 tonnes.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

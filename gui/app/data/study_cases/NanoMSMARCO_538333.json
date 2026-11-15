@@ -1,0 +1,2771 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:538333",
+    "dataset": "NanoMSMARCO",
+    "question": "voluntary muscle definition",
+    "source_family": "NanoMSMARCO:538333",
+    "review_status": "user_recorded_review",
+    "target_document_id": "7672042",
+    "expected_answer": "A muscle that can be controlled at will.",
+    "answer_aliases": [],
+    "support_quote": "Muscles that can be controlled at will are referred to as voluntary muscles.",
+    "source_qualification": "Answer as stated in the supplied reference; no external fact verification.",
+    "qrel_document_ids": [
+      "7672042"
+    ],
+    "family_reference_texts": [
+      "A muscle may act ordinarily either under the control of the will or without conscious control. Muscles that can be controlled at will are referred to as voluntary muscles. Those that are not under the control of the will (volition) are called involuntary muscles. Examples of involuntary muscles are the smooth muscles, which are muscles lacking striations when viewed under a microscope. This is why involuntary muscles are sometimes called non-striated or un-striped muscles."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:538333",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "7672042",
+    "expected_answer": "A muscle that can be controlled at will.",
+    "answer_aliases": [],
+    "support_quote": "Muscles that can be controlled at will are referred to as voluntary muscles.",
+    "source_qualification": "Answer as stated in the supplied reference; no external fact verification.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:538333",
+    "dataset": "NanoMSMARCO",
+    "question": "voluntary muscle definition",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:538333",
+      "dataset": "NanoMSMARCO",
+      "question": "voluntary muscle definition",
+      "expected_answer": "A muscle that can be controlled at will.",
+      "source_qualification": "Answer as stated in the supplied reference; no external fact verification.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Identical filtered requests",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+      "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/50",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/50",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoMSMARCO_538333.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 451,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 301,
+              "call_id": "NanoMSMARCO:538333__C__unfiltered",
+              "request_sha256": "cf6b4d7647c9bb7bc2b72d6c35f6ac35be4a192305b59aa687c9aacf5d1be805"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 302,
+              "call_id": "NanoMSMARCO:538333__C__filtered",
+              "request_sha256": "c8b8942e048a51cf6335181f8101b77c4fa9bb10de166787735fed082b3cef71"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 452,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 303,
+              "call_id": "NanoMSMARCO:538333__BN1__unfiltered",
+              "request_sha256": "43c4b477cbeff01b634cf1cd945f0111581592a4d68409f7f4f6bbd66792e734"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 304,
+              "call_id": "NanoMSMARCO:538333__BN1__filtered",
+              "request_sha256": "a10020aca86618e01cb7658fbc2e14a09d1ec7035538a09ff554b61aa4ce9b2e"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 454,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 305,
+              "call_id": "NanoMSMARCO:538333__PN1__unfiltered",
+              "request_sha256": "cf6b4d7647c9bb7bc2b72d6c35f6ac35be4a192305b59aa687c9aacf5d1be805"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 306,
+              "call_id": "NanoMSMARCO:538333__PN1__filtered",
+              "request_sha256": "c8b8942e048a51cf6335181f8101b77c4fa9bb10de166787735fed082b3cef71"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:538333",
+    "question": "voluntary muscle definition",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:538333"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8484129309654236,
+          "kept": true
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        },
+        {
+          "chunk_id": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4502858",
+          "instance_key": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.",
+          "text_sha256": "19ce2561fe595b2a9579cc3ade1280a2895d08e55c1fcdaa0295f4023d0750c3",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 52,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7976973056793213,
+          "kept": false
+        },
+        {
+          "chunk_id": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1417034",
+          "instance_key": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.he tongue is a voluntary muscle. A voluntary muscle also is called a skeletal muscle. A slight movement by one or more of the 43 facial muscles results in one of the many different expressions that humans can make.",
+          "text_sha256": "6f9f1788fb906d262fc4b2722897d266cda09ae178972b1d12da0b2286ddf074",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7812145948410034,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.4884305642172997,
+          0.7589948841789216,
+          0.7294356800383781,
+          0.9244037160615335,
+          0.9244037160615335
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "removal_gap": 0.1654088318826119,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.045114099979400635,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9614591598510742
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8712031245231628
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8089559674263
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7986953258514404
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7983787059783936
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7829906344413757
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7637926340103149
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7128612995147705
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7110918164253235
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__C__unfiltered",
+          "request_sha256": "cf6b4d7647c9bb7bc2b72d6c35f6ac35be4a192305b59aa687c9aacf5d1be805",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are one of three types of muscle in the body, used to move bones, and some, like facial muscles, are used for movements below the skin.",
+            "first_call_id": "NanoMSMARCO:538333__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, often called skeletal muscles, and are used to move bones. They are composed of bundles of long muscle fibers and are one of three types of muscle in the body.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__C__filtered",
+          "request_sha256": "c8b8942e048a51cf6335181f8101b77c4fa9bb10de166787735fed082b3cef71",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are muscles that are within a person's control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers and can be controlled voluntarily.",
+            "first_call_id": "NanoMSMARCO:538333__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal, or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are composed of bundles of long muscle fibers.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "39f2a32a8826be4e166518a698be689d4405fb0fa46d10242cc31097362a1e40:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:538333/BN/1",
+          "instance_key": "39f2a32a8826be4e166518a698be689d4405fb0fa46d10242cc31097362a1e40",
+          "chunk_index": 0,
+          "copied_from": "1592532",
+          "copy_number": 1,
+          "text": "Source excerpt.\nvoluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "68c108585aa76dccbf895644b04b1b504ff2df2ca6b111fdf26eb4df834cc640",
+          "char_start": 0,
+          "char_end": 282,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.9147778153419495,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8484129309654236,
+          "kept": false
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        },
+        {
+          "chunk_id": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4502858",
+          "instance_key": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.",
+          "text_sha256": "19ce2561fe595b2a9579cc3ade1280a2895d08e55c1fcdaa0295f4023d0750c3",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 52,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7976973056793213,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.7455374966446584,
+          1.7637263219310206,
+          1.5361788013552236,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.5361788013552236,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.017133116722106934,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.993248462677002
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8815802931785583
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8712031841278076
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8508238792419434
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8089559674263
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7986953258514404
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.797327995300293
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7637926936149597
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7110917568206787
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__BN1__unfiltered",
+          "request_sha256": "43c4b477cbeff01b634cf1cd945f0111581592a4d68409f7f4f6bbd66792e734",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscle, also known as striated, skeletal or striped muscles, are muscles that are within a person’s control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers and are used to move bones.",
+            "first_call_id": "NanoMSMARCO:538333__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscle, also known as striated, skeletal or striped muscles, are those that can be controlled voluntarily and are attached to the skeleton. They are composed of bundles of long muscle fibers and are used to move bones.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__BN1__filtered",
+          "request_sha256": "a10020aca86618e01cb7658fbc2e14a09d1ec7035538a09ff554b61aa4ce9b2e",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as skeletal muscles, are those that are under an individual's control and are attached to the skeleton, used to move bones.",
+            "first_call_id": "NanoMSMARCO:538333__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those within a person's control and are attached to the skeleton, composed of bundles of long muscle fibers. They are used to move bones.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "95debcaf68271b9320a3667adcd781b9e6afa56e60e752d0207bed8c0f21b6e5:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:538333/BN/2",
+          "instance_key": "95debcaf68271b9320a3667adcd781b9e6afa56e60e752d0207bed8c0f21b6e5",
+          "chunk_index": 0,
+          "copied_from": "1592532",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nvoluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b11984c423f39e950a01aad91e21875943a7fbb8378c06d75a9e115c4aeb5f59",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9154230356216431,
+          "kept": false
+        },
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "39f2a32a8826be4e166518a698be689d4405fb0fa46d10242cc31097362a1e40:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:538333/BN/1",
+          "instance_key": "39f2a32a8826be4e166518a698be689d4405fb0fa46d10242cc31097362a1e40",
+          "chunk_index": 0,
+          "copied_from": "1592532",
+          "copy_number": 1,
+          "text": "Source excerpt.\nvoluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "68c108585aa76dccbf895644b04b1b504ff2df2ca6b111fdf26eb4df834cc640",
+          "char_start": 0,
+          "char_end": 282,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.9147778153419495,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.8484129309654236,
+          "kept": false
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          2.762707567495351,
+          2.733454093340473,
+          2.762935524696765,
+          2.3117605693890155,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          0,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 2.3117605693890155,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.017133116722106934,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9996045231819153
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9939399361610413
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.993248462677002
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8815802931785583
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8806712031364441
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8712031841278076
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8514548540115356
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8508238792419434
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7637926936149597
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__BN2__unfiltered",
+          "request_sha256": "8486c64c6587063950ded7dd9187688ccfaf7df4315991da02046d66f021358a",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, composed of bundles of long muscle fibers, and are generally attached to the skeleton. They are also known as striated, skeletal, or striped muscles.",
+            "first_call_id": "NanoMSMARCO:538333__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, composed of bundles of long muscle fibers, and are generally attached to the skeleton.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__BN2__filtered",
+          "request_sha256": "d3fb3088348f953326be89a049c35d75ad2c12c7895d1f6a40b0c7fb9c3bdbcf",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those that are within a person's control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers.",
+            "first_call_id": "NanoMSMARCO:538333__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those within a person's control and are attached to the skeleton, composed of bundles of long muscle fibers.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8484129309654236,
+          "kept": true
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        },
+        {
+          "chunk_id": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4502858",
+          "instance_key": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.",
+          "text_sha256": "19ce2561fe595b2a9579cc3ade1280a2895d08e55c1fcdaa0295f4023d0750c3",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 52,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7976973056793213,
+          "kept": false
+        },
+        {
+          "chunk_id": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1417034",
+          "instance_key": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.he tongue is a voluntary muscle. A voluntary muscle also is called a skeletal muscle. A slight movement by one or more of the 43 facial muscles results in one of the many different expressions that humans can make.",
+          "text_sha256": "6f9f1788fb906d262fc4b2722897d266cda09ae178972b1d12da0b2286ddf074",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7812145948410034,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.4884305642172997,
+          0.7589948841789216,
+          0.7294356800383781,
+          0.9244037160615335,
+          0.9244037160615335
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "removal_gap": 0.1654088318826119,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.045114099979400635,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9614591598510742
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8712031245231628
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8089559674263
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7986953258514404
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7983787059783936
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7829906344413757
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7637926340103149
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7128612995147705
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7110918164253235
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__PN1__unfiltered",
+          "request_sha256": "cf6b4d7647c9bb7bc2b72d6c35f6ac35be4a192305b59aa687c9aacf5d1be805",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are one of three types of muscle in the body, used to move bones, and some, like facial muscles, are used for movements below the skin.",
+            "first_call_id": "NanoMSMARCO:538333__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, often called skeletal muscles, and are used to move bones. They are composed of bundles of long muscle fibers and are one of three types of muscle in the body.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__PN1__filtered",
+          "request_sha256": "c8b8942e048a51cf6335181f8101b77c4fa9bb10de166787735fed082b3cef71",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are muscles that are within a person's control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers and can be controlled voluntarily.",
+            "first_call_id": "NanoMSMARCO:538333__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal, or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are composed of bundles of long muscle fibers.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8484129309654236,
+          "kept": true
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        },
+        {
+          "chunk_id": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4502858",
+          "instance_key": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.",
+          "text_sha256": "19ce2561fe595b2a9579cc3ade1280a2895d08e55c1fcdaa0295f4023d0750c3",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 52,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7976973056793213,
+          "kept": false
+        },
+        {
+          "chunk_id": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1417034",
+          "instance_key": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.he tongue is a voluntary muscle. A voluntary muscle also is called a skeletal muscle. A slight movement by one or more of the 43 facial muscles results in one of the many different expressions that humans can make.",
+          "text_sha256": "6f9f1788fb906d262fc4b2722897d266cda09ae178972b1d12da0b2286ddf074",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7812145948410034,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.4884305642172997,
+          0.7589948841789216,
+          0.7294356800383781,
+          0.9244037160615335,
+          0.9244037160615335
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "removal_gap": 0.1654088318826119,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.045114099979400635,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9614591598510742
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8712031245231628
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8089559674263
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7986953258514404
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7983787059783936
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7829906344413757
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7637926340103149
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7128612995147705
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7110918164253235
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__PN2__unfiltered",
+          "request_sha256": "cf6b4d7647c9bb7bc2b72d6c35f6ac35be4a192305b59aa687c9aacf5d1be805",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are one of three types of muscle in the body, used to move bones, and some, like facial muscles, are used for movements below the skin.",
+            "first_call_id": "NanoMSMARCO:538333__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, often called skeletal muscles, and are used to move bones. They are composed of bundles of long muscle fibers and are one of three types of muscle in the body.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__PN2__filtered",
+          "request_sha256": "c8b8942e048a51cf6335181f8101b77c4fa9bb10de166787735fed082b3cef71",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are muscles that are within a person's control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers and can be controlled voluntarily.",
+            "first_call_id": "NanoMSMARCO:538333__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal, or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are composed of bundles of long muscle fibers.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "3929dceabfdc065215adc6914bfff51947a3be15af0b719d409d6bb410dc3ac8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:538333/BE/1",
+          "instance_key": "3929dceabfdc065215adc6914bfff51947a3be15af0b719d409d6bb410dc3ac8",
+          "chunk_index": 0,
+          "copied_from": "1592532",
+          "copy_number": 1,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8484129309654236,
+          "kept": false
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        },
+        {
+          "chunk_id": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4502858",
+          "instance_key": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.",
+          "text_sha256": "19ce2561fe595b2a9579cc3ade1280a2895d08e55c1fcdaa0295f4023d0750c3",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 52,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7976973056793213,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.7589949880344307,
+          1.7589949880344307,
+          1.5179899760688613,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.5179899760688613,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.017133116722106934,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8712031841278076
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8712031841278076
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8089559674263
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8089559674263
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7986953258514404
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7637926936149597
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7110917568206787
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__BE1__unfiltered",
+          "request_sha256": "9b62a8818a1421ef7d2c3e979f597700e3c9575b38b4df4e96b6ed990119a5dc",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscle, also known as striated, skeletal or striped muscles, are muscles that are within a person’s control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers and are used to move bones.",
+            "first_call_id": "NanoMSMARCO:538333__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscle, also known as striated, skeletal or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are composed of bundles of long muscle fibers and are used to move bones.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__BE1__filtered",
+          "request_sha256": "a10020aca86618e01cb7658fbc2e14a09d1ec7035538a09ff554b61aa4ce9b2e",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as skeletal muscles, are those that are under an individual's control and are attached to the skeleton, used to move bones.",
+            "first_call_id": "NanoMSMARCO:538333__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those within a person's control and are attached to the skeleton, composed of bundles of long muscle fibers. They are used to move bones.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "36021281aab6999dea568109240a5b6ed648dc1767ef3e7eaf95f1cc49490723:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:538333/BE/2",
+          "instance_key": "36021281aab6999dea568109240a5b6ed648dc1767ef3e7eaf95f1cc49490723",
+          "chunk_index": 0,
+          "copied_from": "1592532",
+          "copy_number": 2,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "3929dceabfdc065215adc6914bfff51947a3be15af0b719d409d6bb410dc3ac8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:538333/BE/1",
+          "instance_key": "3929dceabfdc065215adc6914bfff51947a3be15af0b719d409d6bb410dc3ac8",
+          "chunk_index": 0,
+          "copied_from": "1592532",
+          "copy_number": 1,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.8484129309654236,
+          "kept": false
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          2.7589949880344307,
+          2.7589949880344307,
+          2.7589949880344307,
+          2.276984964103292,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.276984964103292,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.017133116722106934,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8712031841278076
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8712031841278076
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8712031841278076
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7637926936149597
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__BE2__unfiltered",
+          "request_sha256": "6329328f7c9dc7eb929df4994488e25100923d7bbb67e08bc67147d741d08e6e",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, composed of bundles of long muscle fibers, and are generally attached to the skeleton. They are also known as striated, skeletal, or striped muscles.",
+            "first_call_id": "NanoMSMARCO:538333__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, composed of bundles of long muscle fibers, and are generally attached to the skeleton. They are also known as striated, skeletal, or striped muscles.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__BE2__filtered",
+          "request_sha256": "d3fb3088348f953326be89a049c35d75ad2c12c7895d1f6a40b0c7fb9c3bdbcf",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those that are within a person's control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers.",
+            "first_call_id": "NanoMSMARCO:538333__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those within a person's control and are attached to the skeleton, composed of bundles of long muscle fibers.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8484129309654236,
+          "kept": true
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        },
+        {
+          "chunk_id": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4502858",
+          "instance_key": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.",
+          "text_sha256": "19ce2561fe595b2a9579cc3ade1280a2895d08e55c1fcdaa0295f4023d0750c3",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 52,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7976973056793213,
+          "kept": false
+        },
+        {
+          "chunk_id": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1417034",
+          "instance_key": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.he tongue is a voluntary muscle. A voluntary muscle also is called a skeletal muscle. A slight movement by one or more of the 43 facial muscles results in one of the many different expressions that humans can make.",
+          "text_sha256": "6f9f1788fb906d262fc4b2722897d266cda09ae178972b1d12da0b2286ddf074",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7812145948410034,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.4884305642172997,
+          0.7589948841789216,
+          0.7294356800383781,
+          0.9244037160615335,
+          0.9244037160615335
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "removal_gap": 0.1654088318826119,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.045114099979400635,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9614591598510742
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8712031245231628
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8089559674263
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7986953258514404
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7983787059783936
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7829906344413757
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7637926340103149
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7128612995147705
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7110918164253235
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__PE1__unfiltered",
+          "request_sha256": "cf6b4d7647c9bb7bc2b72d6c35f6ac35be4a192305b59aa687c9aacf5d1be805",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are one of three types of muscle in the body, used to move bones, and some, like facial muscles, are used for movements below the skin.",
+            "first_call_id": "NanoMSMARCO:538333__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, often called skeletal muscles, and are used to move bones. They are composed of bundles of long muscle fibers and are one of three types of muscle in the body.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__PE1__filtered",
+          "request_sha256": "c8b8942e048a51cf6335181f8101b77c4fa9bb10de166787735fed082b3cef71",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are muscles that are within a person's control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers and can be controlled voluntarily.",
+            "first_call_id": "NanoMSMARCO:538333__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal, or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are composed of bundles of long muscle fibers.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:538333",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1592532",
+          "instance_key": "34262f9abfa39c9eee0641939c83f1a68ce18876834f85651541bc44e9cc8b81",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "voluntary muscle. noun, Anatomy. 1. muscle whose action is normally controlled by an individual's will; mainly skeletal muscle, composed of parallel bundles of striated, multinucleate fibers. This compound has an action on voluntary muscle causing gradual paralysis.",
+          "text_sha256": "b34c7985dc494579362385b5f0ac6be13d90b5c7e27bed093abe88448fd454c9",
+          "char_start": 0,
+          "char_end": 266,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.9151393175125122,
+          "kept": false
+        },
+        {
+          "chunk_id": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3659405",
+          "instance_key": "6c47d138ffc4557813600bcb5e5fbd1427cfc4cd329106b915b3f8bb14b462c0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Definition. noun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.Other muscles act below the level of consciousness. Those muscles that can be controlled at one's will (volition) are called voluntary muscles.oun, plural: voluntary muscles. A muscle that can be controlled voluntarily. Supplement. Some of the muscles of the body may be controlled voluntarily.",
+          "text_sha256": "778d9bebd0801a3cc67d0c3adf1429717a0b3e5334a642251bccd973a3e04608",
+          "char_start": 0,
+          "char_end": 458,
+          "tokens_with_specials": 92,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8484129309654236,
+          "kept": true
+        },
+        {
+          "chunk_id": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "30088",
+          "instance_key": "ec8e58db1c5a3f7f125e4eec4b5e7136b515b8f16951c62d4f8bde83a39aa361",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to the Encyclopedia Dictionary of Biology, voluntary muscles, also known as striated, skeletal or striped muscles, refer to muscles that are within a person’s control and are generally attached to the skeleton. An individual muscle is composed of bundles of long muscle fibers.",
+          "text_sha256": "5eb83a2842e2c543d0741d81b1d166675b00dd164f8d635c4f0bcd22b07c5dc3",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8302416801452637,
+          "kept": true
+        },
+        {
+          "chunk_id": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4502858",
+          "instance_key": "875a1fe7277dfb9e621ee15ef5c9ec45fc713b199df2209096e6b7e95053a660",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.",
+          "text_sha256": "19ce2561fe595b2a9579cc3ade1280a2895d08e55c1fcdaa0295f4023d0750c3",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 52,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7976973056793213,
+          "kept": false
+        },
+        {
+          "chunk_id": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1417034",
+          "instance_key": "2e3828abee53f7c7b8b1b94de66fbe6e87e60df82542e829736836a7a984082c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A voluntary muscle, often called a skeletal muscle, is one of three types of muscle in the body. Most voluntary muscles are used to move bones, though some, such as the muscles in the face, are used to create movements below the skin.he tongue is a voluntary muscle. A voluntary muscle also is called a skeletal muscle. A slight movement by one or more of the 43 facial muscles results in one of the many different expressions that humans can make.",
+          "text_sha256": "6f9f1788fb906d262fc4b2722897d266cda09ae178972b1d12da0b2286ddf074",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7812145948410034,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2
+      ],
+      "removed_indices": [
+        0,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.4884305642172997,
+          0.7589948841789216,
+          0.7294356800383781,
+          0.9244037160615335,
+          0.9244037160615335
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "removal_gap": 0.1654088318826119,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.045114099979400635,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9614591598510742
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8712031245231628
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8540700674057007
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8089559674263
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7986953258514404
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7983787059783936
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7829906344413757
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7637926340103149
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7128612995147705
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7110918164253235
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:538333__PE2__unfiltered",
+          "request_sha256": "cf6b4d7647c9bb7bc2b72d6c35f6ac35be4a192305b59aa687c9aacf5d1be805",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are one of three types of muscle in the body, used to move bones, and some, like facial muscles, are used for movements below the skin.",
+            "first_call_id": "NanoMSMARCO:538333__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles are muscles that can be controlled voluntarily, often called skeletal muscles, and are used to move bones. They are composed of bundles of long muscle fibers and are one of three types of muscle in the body.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:538333__PE2__filtered",
+          "request_sha256": "c8b8942e048a51cf6335181f8101b77c4fa9bb10de166787735fed082b3cef71",
+          "reference": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal or striped muscles, are muscles that are within a person's control and are generally attached to the skeleton. They are composed of bundles of long muscle fibers and can be controlled voluntarily.",
+            "first_call_id": "NanoMSMARCO:538333__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Voluntary muscles, also known as striated, skeletal, or striped muscles, are those that can be controlled voluntarily and are generally attached to the skeleton. They are composed of bundles of long muscle fibers.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

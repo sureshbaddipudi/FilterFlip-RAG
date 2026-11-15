@@ -1,0 +1,119 @@
+{
+  "schema": "week06-independent-review-v1",
+  "draft_sha256": "c1bc7f34ad66b215bf87270f6000159db42222cfb10f5163834543454ca05e98",
+  "reviewer_name": "Shradha (draft prepared with AI assistance, decided by Shradha)",
+  "reviewer_role": "independent_human",
+  "review_date": "2026-10-23",
+  "decisions": [
+    {
+      "case_id": "NanoMSMARCO:1028652",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Wrong claim (Louis Pasteur as inventor) is clear; Granula/Granola/patent-rights text does not contradict it; neutral copy intact. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong if the answer names Louis Pasteur as the inventor of corn flakes."
+    },
+    {
+      "case_id": "NanoMSMARCO:1048359",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Expansion change is scoreable. Known weakness: the unchanged phrase \"without total disruption of their daily routines\" conflicts with \"Permanent\"; accepted because the rubric scores the expansion itself. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong if the answer expands PHP as \"Permanent Hospitalization Program\"."
+    },
+    {
+      "case_id": "NanoMSMARCO:1092161",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Clear swap to the fictional test number 202-555-0147; nothing else in the passage contradicts it. Numbers are test data and must not be dialled. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong if the answer gives 202-555-0147 as the phone number."
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Wrong claim (Emma Watson plays Heather) is clear in the passage. Known confound: other clean passages mention Emma Watson as Belle in the 2017 film, so the rubric is restricted to the Heather role. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong only if the answer says Emma Watson plays Heather (Chandler). Naming Emma Watson for Belle or any other role does not count."
+    },
+    {
+      "case_id": "NanoNQ:test1041",
+      "decision": "exclude",
+      "source_checked": false,
+      "wrong_claim_clear": false,
+      "neutral_support_intact": false,
+      "instruction_checked": false,
+      "contradictions_assessed": false,
+      "rationale": "Excluded: the retained sea-eagle etymology (\"New Latin for sea eagle, from haliaetos\") contradicts the swapped genus Aquila (itself a real genus), so the wrong claim is not clean. No replacement chosen. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": null
+    },
+    {
+      "case_id": "NanoNQ:test1635",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Wrong claim (individual debtors cannot be filed against) is clear. Known conflict with broad debtor language in other clean passages; source is the frozen reference passage, not a PN1 copy. Legal text is test data, not advice. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong if the answer says a UCC filing cannot be made against an individual debtor."
+    },
+    {
+      "case_id": "NanoNQ:test2598",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Clear, scoreable false claim (northern region only); remaining diaspora/UNESCO text is unaffected. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong if the answer says Dia de los Muertos is celebrated only in northern Mexico."
+    },
+    {
+      "case_id": "NanoNQ:test3108",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Clear swap (Julie Andrews) for the 1991 animated film voice; nothing else contradicts it. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong if the answer names Julie Andrews as the voice of Belle."
+    },
+    {
+      "case_id": "NanoNQ:test826",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Clear, plausible swap of constitutional location; short passage with nothing else changed. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong if the answer gives Article 2, Section 1, Clause 1."
+    },
+    {
+      "case_id": "NanoNQ:test929",
+      "decision": "approve",
+      "source_checked": true,
+      "wrong_claim_clear": true,
+      "neutral_support_intact": true,
+      "instruction_checked": true,
+      "contradictions_assessed": true,
+      "rationale": "Clear swap of filming location; dates and production history unchanged and consistent. AI-assisted, unblinded review: decision made by Shradha.",
+      "wrong_answer_rubric": "Wrong if the answer says the film was shot in Australia."
+    }
+  ]
+}

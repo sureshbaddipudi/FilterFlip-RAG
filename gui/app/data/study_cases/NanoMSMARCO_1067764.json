@@ -1,0 +1,2758 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1067764",
+    "dataset": "NanoMSMARCO",
+    "question": "what is a sales cycle process?",
+    "source_family": "NanoMSMARCO:1067764",
+    "review_status": "user_recorded_review",
+    "target_document_id": "7160805",
+    "expected_answer": "The sequence of phases a customer goes through when deciding to buy: perceiving a product or need, researching and evaluating it, and deciding to purchase.",
+    "answer_aliases": [],
+    "support_quote": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+    "source_qualification": "Customer-perspective definition in the supplied passage, not a salesperson's alternative pipeline model.",
+    "qrel_document_ids": [
+      "7160805"
+    ],
+    "family_reference_texts": [
+      "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:1067764",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "7160805",
+    "expected_answer": "The sequence of phases a customer goes through when deciding to buy: perceiving a product or need, researching and evaluating it, and deciding to purchase.",
+    "answer_aliases": [],
+    "support_quote": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+    "source_qualification": "Customer-perspective definition in the supplied passage, not a salesperson's alternative pipeline model.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:1067764",
+    "dataset": "NanoMSMARCO",
+    "question": "what is a sales cycle process?",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:1067764",
+      "dataset": "NanoMSMARCO",
+      "question": "what is a sales cycle process?",
+      "expected_answer": "The sequence of phases a customer goes through when deciding to buy: perceiving a product or need, researching and evaluating it, and deciding to purchase.",
+      "source_qualification": "Customer-perspective definition in the supplied passage, not a salesperson's alternative pipeline model.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Clean-answer prerequisite fails",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "clean_answer_fails_frozen_rubric",
+      "historical_rationale": "Clean filtered answer describes a service process rather than the specified customer purchase phases; it does not meet the frozen definition.",
+      "current_assistant_rationale": "Clean filtered answer describes a service process rather than the specified customer purchase phases; it does not meet the frozen definition.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/41",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/41",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoMSMARCO_1067764.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 370,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 247,
+              "call_id": "NanoMSMARCO:1067764__C__unfiltered",
+              "request_sha256": "c569d7504a0a3e143f9920323b793acb89af71974007529522274135303f0733"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 248,
+              "call_id": "NanoMSMARCO:1067764__C__filtered",
+              "request_sha256": "3ccde8219aa09a5c1988e5939cf89a39a217e7de5983b582658c723e7a516774"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 371,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 249,
+              "call_id": "NanoMSMARCO:1067764__BN1__unfiltered",
+              "request_sha256": "76f85ed78c54b095bad36e7882b8202d74f2dff99c9a7369a5caf77d38bfcbb8"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 250,
+              "call_id": "NanoMSMARCO:1067764__BN1__filtered",
+              "request_sha256": "dc66e2361a34a52b13e7cbb991298c23b52eca5806f1432301da7fb9364e9997"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 373,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 251,
+              "call_id": "NanoMSMARCO:1067764__PN1__unfiltered",
+              "request_sha256": "c4e71a28c97339244ff471457fba38fb78804a570efbda41899be87a8924411b"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 252,
+              "call_id": "NanoMSMARCO:1067764__PN1__filtered",
+              "request_sha256": "dc66e2361a34a52b13e7cbb991298c23b52eca5806f1432301da7fb9364e9997"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:1067764",
+    "question": "what is a sales cycle process?",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1067764"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        },
+        {
+          "chunk_id": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6193662",
+          "instance_key": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence. sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence.",
+          "text_sha256": "48048ed24a1c80ce41828049106e5361913b4fa270867ba03b3516900ab4463f",
+          "char_start": 0,
+          "char_end": 541,
+          "tokens_with_specials": 95,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.667920708656311,
+          "kept": false
+        },
+        {
+          "chunk_id": "9eb3bb5ade9252c0e91ecce8ef6f407312662bd4a424bddbcf2c072875c43627:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3457120",
+          "instance_key": "9eb3bb5ade9252c0e91ecce8ef6f407312662bd4a424bddbcf2c072875c43627",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The concept described above is referred to as a ‘product’s life cycle’. Specifically, it describes a number of commercialisation steps that each product goes through as it penetrates the market. These steps include the initial research, sales growth, maturing of market demand and ultimately the product’s decline.",
+          "text_sha256": "215d3d067ded3aa41cd839b3112c6b78fbdb65f62454bd24fb72ed440d7fb503",
+          "char_start": 0,
+          "char_end": 314,
+          "tokens_with_specials": 64,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6581231355667114,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.958260264273818,
+          0.5506059035988073,
+          0.49060106579014473,
+          0.8982554264651554,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          1,
+          2,
+          4
+        ],
+        "removal_gap": 0.060004837808662614,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00957798957824707,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7004292011260986
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.63847815990448
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6289001703262329
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5469960570335388
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5186342597007751
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4663907587528229
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.44605201482772827
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.43470388650894165
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__C__unfiltered",
+          "request_sha256": "c569d7504a0a3e143f9920323b793acb89af71974007529522274135303f0733",
+          "reference": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, viewed from the customer's perspective.",
+            "first_call_id": "NanoMSMARCO:1067764__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The sales cycle process is the sequence of phases a customer goes through when deciding to buy something, viewed from the customer's perspective.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__C__filtered",
+          "request_sha256": "3ccde8219aa09a5c1988e5939cf89a39a217e7de5983b582658c723e7a516774",
+          "reference": {
+            "status": "ok",
+            "answer": "A sales cycle process is a special kind of service process where the value is determined by whether the recipient takes the desired action.",
+            "first_call_id": "NanoMSMARCO:1067764__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A sales cycle process is a special kind of service process where the value is determined by whether the recipient takes the desired action.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        },
+        {
+          "chunk_id": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6193662",
+          "instance_key": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence. sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence.",
+          "text_sha256": "48048ed24a1c80ce41828049106e5361913b4fa270867ba03b3516900ab4463f",
+          "char_start": 0,
+          "char_end": 541,
+          "tokens_with_specials": 95,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.667920708656311,
+          "kept": true
+        },
+        {
+          "chunk_id": "3a28f79b3bb867cdbe7e97de86363ce34dadd07d68f4b8bbcc3b9fb7c95384c9:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/BN/1",
+          "instance_key": "3a28f79b3bb867cdbe7e97de86363ce34dadd07d68f4b8bbcc3b9fb7c95384c9",
+          "chunk_index": 0,
+          "copied_from": "4702013",
+          "copy_number": 1,
+          "text": "Source excerpt.\nMeasuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "84acab803b11fa24c0e4fd36f675e6f12921b86e146461db1d3ee14135c50e87",
+          "char_start": 0,
+          "char_end": 261,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6634604334831238,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.0440578685402357,
+          1.5067957490979467,
+          0.0,
+          0.0,
+          1.4496418104405677
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 1.0440578685402357,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.002032160758972168,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9778496026992798
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7024613618850708
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7004292011260986
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.63847815990448
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5469960570335388
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5186342597007751
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4869658052921295
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.48050087690353394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__BN1__unfiltered",
+          "request_sha256": "76f85ed78c54b095bad36e7882b8202d74f2dff99c9a7369a5caf77d38bfcbb8",
+          "reference": {
+            "status": "ok",
+            "answer": "A sales cycle process is a sequence of phases that a typical customer goes through when deciding to buy something, starting from the customer's perception of a need to the customer's decision to purchase the product.",
+            "first_call_id": "NanoMSMARCO:1067764__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A sales cycle process is a sequence of phases that a typical customer goes through when deciding to buy something, starting from their initial perception of a product or need, through research and evaluation, to their decision to purchase.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__BN1__filtered",
+          "request_sha256": "dc66e2361a34a52b13e7cbb991298c23b52eca5806f1432301da7fb9364e9997",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067764__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A sales cycle process is consultative when the stages and actions align with the customer's buying experience and are defined in terms of the customer relationship. It is successful when sales leadership and the sales force execute with dedication and competence.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        },
+        {
+          "chunk_id": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6193662",
+          "instance_key": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence. sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence.",
+          "text_sha256": "48048ed24a1c80ce41828049106e5361913b4fa270867ba03b3516900ab4463f",
+          "char_start": 0,
+          "char_end": 541,
+          "tokens_with_specials": 95,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.667920708656311,
+          "kept": true
+        },
+        {
+          "chunk_id": "ee6f137824f29d76cba4f90086218bff1507bd15618d7fc058965921bbf6c88b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/BN/2",
+          "instance_key": "ee6f137824f29d76cba4f90086218bff1507bd15618d7fc058965921bbf6c88b",
+          "chunk_index": 0,
+          "copied_from": "4702013",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nMeasuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "6f8d9834a4a7c3c218da97d90048b017b6f93d39f984148ccec6c3d6b0d21f4a",
+          "char_start": 0,
+          "char_end": 264,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6655863523483276,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.0553788050936852,
+          1.5107647122884522,
+          0.0,
+          0.0,
+          1.4649317101845227
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 1.0553788050936852,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.010044515132904053,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9798769354820251
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7104737162590027
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7004292011260986
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.63847815990448
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5469960570335388
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5186342597007751
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4882173538208008
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4855782985687256
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__BN2__unfiltered",
+          "request_sha256": "783376c9f5636197cc60a18e3a61f0629ed02f36ced5d1c1f4660646a0719beb",
+          "reference": {
+            "status": "ok",
+            "answer": "A sales cycle process is a sequence of phases that a typical customer goes through when deciding to buy something, measured from the first contact with the organization.",
+            "first_call_id": "NanoMSMARCO:1067764__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A sales cycle process is a sequence of phases that a typical customer goes through when deciding to buy something, measured from the first contact with the organization.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__BN2__filtered",
+          "request_sha256": "dc66e2361a34a52b13e7cbb991298c23b52eca5806f1432301da7fb9364e9997",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067764__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A sales cycle process is consultative when the stages and actions align with the customer's buying experience and are defined in terms of the customer relationship. It is successful when sales leadership and the sales force execute with dedication and competence.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "2227e280e61b666b28363a2e966742cca91d61aa21ac347d9c19ef634639bab9:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/PN/1",
+          "instance_key": "2227e280e61b666b28363a2e966742cca91d61aa21ac347d9c19ef634639bab9",
+          "chunk_index": 0,
+          "copied_from": "7160805",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "9a1ef2d72ae656021d5326423b04a8ce6e3f314a7ef14e63d2e4751ece26bcff",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 114,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.802433431148529,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        },
+        {
+          "chunk_id": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6193662",
+          "instance_key": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence. sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence.",
+          "text_sha256": "48048ed24a1c80ce41828049106e5361913b4fa270867ba03b3516900ab4463f",
+          "char_start": 0,
+          "char_end": 541,
+          "tokens_with_specials": 95,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.667920708656311,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          1.5382675329955227,
+          1.5332403921735427,
+          1.0961846663756347,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0961846663756347,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03820383548736572,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9938116669654846
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7386330366134644
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7004292011260986
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6384780406951904
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6321796178817749
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5896538496017456
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.585669755935669
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5469960570335388
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5186342597007751
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__PN1__unfiltered",
+          "request_sha256": "c4e71a28c97339244ff471457fba38fb78804a570efbda41899be87a8924411b",
+          "reference": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, starting from their perception of a product or a need it might satisfy, moving through research and evaluation, and ending with the decision to purchase.",
+            "first_call_id": "NanoMSMARCO:1067764__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, starting from their perception of a need or product to their decision to purchase.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__PN1__filtered",
+          "request_sha256": "dc66e2361a34a52b13e7cbb991298c23b52eca5806f1432301da7fb9364e9997",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067764__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A sales cycle process is consultative when the stages and actions align with the customer's buying experience and are defined in terms of the customer relationship. It is successful when sales leadership and the sales force execute with dedication and competence.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "20177f07a96e11a65ede68c9538a0191ee0fff57f554e28563acbb808ca5397c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/PN/2",
+          "instance_key": "20177f07a96e11a65ede68c9538a0191ee0fff57f554e28563acbb808ca5397c",
+          "chunk_index": 0,
+          "copied_from": "7160805",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "ce2cdceacbb998c8df982bde0b473f91a2040a8545811f8f1933bd83a404a860",
+          "char_start": 0,
+          "char_end": 579,
+          "tokens_with_specials": 114,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8046443462371826,
+          "kept": false
+        },
+        {
+          "chunk_id": "2227e280e61b666b28363a2e966742cca91d61aa21ac347d9c19ef634639bab9:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/PN/1",
+          "instance_key": "2227e280e61b666b28363a2e966742cca91d61aa21ac347d9c19ef634639bab9",
+          "chunk_index": 0,
+          "copied_from": "7160805",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "9a1ef2d72ae656021d5326423b04a8ce6e3f314a7ef14e63d2e4751ece26bcff",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 114,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.802433431148529,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.5270693063421454,
+          2.533860088726758,
+          2.5314037442786095,
+          1.6430796296507033,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.6430796296507033,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.14847958087921143,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9990812540054321
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9943851232528687
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9938116669654846
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7395234704017639
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7386330366134644
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5901534557342529
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5896538496017456
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.585669755935669
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5186342597007751
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__PN2__unfiltered",
+          "request_sha256": "2c40d72e08a5f380e038107dbe9f2f5227ee51360a332ddd72e6b9847f138a69",
+          "reference": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, starting from their perception of a product or a need it might satisfy, moving to research and evaluation, and ending with the decision to purchase.",
+            "first_call_id": "NanoMSMARCO:1067764__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, starting from their perception of a product or a need, moving to research and evaluation, and ending with the decision to purchase.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__PN2__filtered",
+          "request_sha256": "8f73d749ac556aad0acb5f0a9b4178105b81863089d133aea553e799ad98fcc8",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067764__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "6000c7396df9af7e2fda188a9c4c4e1866fab77b7259b9cbb4cd253dd2a303f8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/BE/1",
+          "instance_key": "6000c7396df9af7e2fda188a9c4c4e1866fab77b7259b9cbb4cd253dd2a303f8",
+          "chunk_index": 0,
+          "copied_from": "4702013",
+          "copy_number": 1,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        },
+        {
+          "chunk_id": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6193662",
+          "instance_key": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence. sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence.",
+          "text_sha256": "48048ed24a1c80ce41828049106e5361913b4fa270867ba03b3516900ab4463f",
+          "char_start": 0,
+          "char_end": 541,
+          "tokens_with_specials": 95,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.667920708656311,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.1012118071976147,
+          1.5506057843895213,
+          1.5506057843895213,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.1012118071976147,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.04159903526306152,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7004292011260986
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.63847815990448
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5469960570335388
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5469960570335388
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5186342597007751
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5186342597007751
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__BE1__unfiltered",
+          "request_sha256": "fc90f3402f6b367eaa567d80dec56df621fb990d8f94c0fb026f0f9b253c774e",
+          "reference": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something, starting from their perception of a need or a product to their decision to purchase.",
+            "first_call_id": "NanoMSMARCO:1067764__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, typically measured from first contact.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__BE1__filtered",
+          "request_sha256": "dc66e2361a34a52b13e7cbb991298c23b52eca5806f1432301da7fb9364e9997",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067764__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A sales cycle process is consultative when the stages and actions align with the customer's buying experience and are defined in terms of the customer relationship. It is successful when sales leadership and the sales force execute with dedication and competence.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "6000c7396df9af7e2fda188a9c4c4e1866fab77b7259b9cbb4cd253dd2a303f8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/BE/1",
+          "instance_key": "6000c7396df9af7e2fda188a9c4c4e1866fab77b7259b9cbb4cd253dd2a303f8",
+          "chunk_index": 0,
+          "copied_from": "4702013",
+          "copy_number": 1,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "b548680385a2d98ec1c784ecfb899a64b4d9ec501ae59d85a1fe1718585e69f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/BE/2",
+          "instance_key": "b548680385a2d98ec1c784ecfb899a64b4d9ec501ae59d85a1fe1718585e69f0",
+          "chunk_index": 0,
+          "copied_from": "4702013",
+          "copy_number": 2,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.651817710796422,
+          2.5506056651802353,
+          2.5506056651802353,
+          2.5506056651802353,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.651817710796422,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.152374267578125,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5186342597007751
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5186342597007751
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5186342597007751
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__BE2__unfiltered",
+          "request_sha256": "3cc88c5cb5fa6b1ab5e720d06157250a67a61af6cafde56412bfbf729b3d2d6b",
+          "reference": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something, starting from their perception of a need or a product to their decision to purchase.",
+            "first_call_id": "NanoMSMARCO:1067764__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, viewed from the customer's perspective.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__BE2__filtered",
+          "request_sha256": "8f73d749ac556aad0acb5f0a9b4178105b81863089d133aea553e799ad98fcc8",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067764__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "11e3de18c4b71932c0b85d3670ea89bbcc2932b7b203ceea06d050e0e250e434:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/PE/1",
+          "instance_key": "11e3de18c4b71932c0b85d3670ea89bbcc2932b7b203ceea06d050e0e250e434",
+          "chunk_index": 0,
+          "copied_from": "7160805",
+          "copy_number": 1,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        },
+        {
+          "chunk_id": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6193662",
+          "instance_key": "0807a17cdb055aa1488af4fcba74eb368c850675ff6274a2eb4e2254b15ebefc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence. sales process is consultative when the stages and actions align with the customer’s buying experience and are defined in terms of the customer relationship. However, it is successful only when sales leadership and the sales force execute with dedication and competence.",
+          "text_sha256": "48048ed24a1c80ce41828049106e5361913b4fa270867ba03b3516900ab4463f",
+          "char_start": 0,
+          "char_end": 541,
+          "tokens_with_specials": 95,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.667920708656311,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          1.5506061420174007,
+          1.5506061420174007,
+          1.1012118071976147,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.1012118071976147,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.04159903526306152,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7004292011260986
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.63847815990448
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.63847815990448
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5469960570335388
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5186342597007751
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__PE1__unfiltered",
+          "request_sha256": "3bc63a9d7469f96bd9c90709828ad948a94f9fc03fe2bf31a58c65bfa5cf4124",
+          "reference": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, starting from their perception of a need or product to their decision to purchase.",
+            "first_call_id": "NanoMSMARCO:1067764__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, starting from their perception of a need or a product to their decision to purchase.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__PE1__filtered",
+          "request_sha256": "dc66e2361a34a52b13e7cbb991298c23b52eca5806f1432301da7fb9364e9997",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067764__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A sales cycle process is consultative when the stages and actions align with the customer's buying experience and are defined in terms of the customer relationship. It is successful when sales leadership and the sales force execute with dedication and competence.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067764",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160805",
+          "instance_key": "05fd0c2b270570ba4823fda73b4ab205f3ca4c76c43ad28c185e7af9f233ac71",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "11e3de18c4b71932c0b85d3670ea89bbcc2932b7b203ceea06d050e0e250e434:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/PE/1",
+          "instance_key": "11e3de18c4b71932c0b85d3670ea89bbcc2932b7b203ceea06d050e0e250e434",
+          "chunk_index": 0,
+          "copied_from": "7160805",
+          "copy_number": 1,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "88681e2b9387aa9f46f6649da7a7a1578c6d28ae105ed58658dca6f84ec982b7:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067764/PE/2",
+          "instance_key": "88681e2b9387aa9f46f6649da7a7a1578c6d28ae105ed58658dca6f84ec982b7",
+          "chunk_index": 0,
+          "copied_from": "7160805",
+          "copy_number": 2,
+          "text": "The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. The sales cycle is the sequence of phases that a typical customer goes through when deciding to buy something. As a rule, the sales cycle is described from the customer's perspective. The first phase of the sales cycle may be either the customer's perception of a product, or a perception of a need that the product might satisfy. The following steps include research and evaluation; the last step is the customer's decision to purchase the product.",
+          "text_sha256": "8da805c703e64458f45514076a7441bc5d6a8c04306c0adad9b596199bb88640",
+          "char_start": 0,
+          "char_end": 560,
+          "tokens_with_specials": 111,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.815529465675354,
+          "kept": false
+        },
+        {
+          "chunk_id": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4702013",
+          "instance_key": "606dce9785b732876e56c25e8bab2f354e48f38b2ef6c51e64e2222c475e1040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Measuring the sales cycle from first contact gives organizations an advantage in determining the effectiveness of the sales team. Other methods of understanding the sales cycle start later in the sales process, such as at the first presentation.",
+          "text_sha256": "2ce5f5939f1d0bb8a9be7394706caa99cf5b78156207c74419f69660abf8e97e",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7136701345443726,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7160804",
+          "instance_key": "2ed8c6d630ab5d4b5de8f7865971d21a30627cc9d79439ac4115d16fb70e5b38",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sales processes are simply a special kind of service. They differ from other service processes in one primary respect. The value created by a sales process is determined by whether or not the recipient of the service takes the action you want them to take. For example, a landing page on a website could be considered a kind of sales process.",
+          "text_sha256": "a7bcda6e45d1e00e77c40cb9e86f47316aa6d1764a5a2119191f1aaa2d0edb6b",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6896577477455139,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.550606380435994,
+          2.550606380435994,
+          2.550606380435994,
+          1.651817710796422,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.651817710796422,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.152374267578125,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7420282363891602
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5896539688110352
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5186342597007751
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067764__PE2__unfiltered",
+          "request_sha256": "5874bd8160bb583146ef6639e186781d2472edd24eb651615fc41fa87f6b154d",
+          "reference": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, starting from their perception of a product or a need it might satisfy, moving through research and evaluation, and ending with the decision to purchase.",
+            "first_call_id": "NanoMSMARCO:1067764__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The sales cycle is the sequence of phases a typical customer goes through when deciding to buy something, starting from their perception of a need or product to their decision to purchase.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067764__PE2__filtered",
+          "request_sha256": "8f73d749ac556aad0acb5f0a9b4178105b81863089d133aea553e799ad98fcc8",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067764__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

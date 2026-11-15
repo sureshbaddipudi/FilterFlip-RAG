@@ -1,0 +1,532 @@
+[
+  {
+    "case_id": "NanoNQ:test3108",
+    "dataset": "NanoNQ",
+    "exact_reference_text_match": false,
+    "flag_note": "Names O'Hara but adds a false voice claim; core usability uncertain; flagged for Suresh",
+    "judgment": {
+      "answer_category": "wrong",
+      "context_support": "sufficient",
+      "core_usable": "uncertain",
+      "full_frozen_answer_complete": "no",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "false claim: says Penelope Cruz and Jeff Bridges \"voiced\" Belle (the passages say they posed in a portrait series)"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoNQ:test3108__C__unfiltered",
+        "case_id": "NanoNQ:test3108",
+        "chunk_ids": [
+          "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5:00000",
+          "640751a861be441e5ed0dbdb42ddd541e20e8faea029f23803af53e9b74da5d4:00000"
+        ],
+        "condition": "C",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "unfiltered",
+        "text_hashes": [
+          "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "a6acca59d41f78a1c1b7847532648fc569391d8ad119330872cebff36c0e67bb",
+          "c26a2558718b49a5600d7973e7652d548eac4892c523646933a8dd273ef41446"
+        ]
+      }
+    ],
+    "rationale": "Answer passage present; response names O'Hara but also asserts a false voice claim.",
+    "record_id": "R1:f0cfe72a7729ad254906127873b6e3f3ecb2bd4d50467d705eac84001cb66864",
+    "reference_answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series. Julie Nathanson voices Belle in the video game Kinect Disneyland Adventures.",
+    "reproduced_answer": "Penélope Cruz and Jeff Bridges voiced Belle in Beauty and the Beast. Paige O'Hara originally voiced Belle in the 1991 film.",
+    "request_sha256": "f0cfe72a7729ad254906127873b6e3f3ecb2bd4d50467d705eac84001cb66864",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoNQ_test3108.json",
+      "record_id": "R1:f0cfe72a7729ad254906127873b6e3f3ecb2bd4d50467d705eac84001cb66864"
+    },
+    "source_qualification": "The original voice of Belle in Disney's 1991 animated film, not another adaptation.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoNQ:test3108",
+    "dataset": "NanoNQ",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "correct",
+      "context_support": "sufficient",
+      "core_usable": "yes",
+      "full_frozen_answer_complete": "yes",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "adds the Penelope Cruz / Jeff Bridges Dream Portrait facts (supported by the Annie passages but off the question)"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoNQ:test3108__BN1__unfiltered",
+        "case_id": "NanoNQ:test3108",
+        "chunk_ids": [
+          "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "0b78816c6f33be6038368b9496afb48875546438cf34a97859bc44e9c33360d1:00001",
+          "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5:00000"
+        ],
+        "condition": "BN1",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "unfiltered",
+        "text_hashes": [
+          "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "5ddd522a4ec37c382adaf03da90adb303ea3316b92a502388a0480569b164336",
+          "a6acca59d41f78a1c1b7847532648fc569391d8ad119330872cebff36c0e67bb"
+        ]
+      }
+    ],
+    "rationale": "Answer passage 128fff is in context (or kept) and names Paige O'Hara.",
+    "record_id": "R1:7a1f89cb5c8464bea159921f5aff2ba4dcfa57110681d407c403c5ec9c627a1b",
+    "reference_answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series. Jeff Bridges poses as the Beast.",
+    "reproduced_answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series, but it was American actress and singer Paige O'Hara who voiced Belle in the original film.",
+    "request_sha256": "7a1f89cb5c8464bea159921f5aff2ba4dcfa57110681d407c403c5ec9c627a1b",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoNQ_test3108.json",
+      "record_id": "R1:7a1f89cb5c8464bea159921f5aff2ba4dcfa57110681d407c403c5ec9c627a1b"
+    },
+    "source_qualification": "The original voice of Belle in Disney's 1991 animated film, not another adaptation.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoMSMARCO:1048359",
+    "dataset": "NanoMSMARCO",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "correct",
+      "context_support": "sufficient",
+      "core_usable": "yes",
+      "full_frozen_answer_complete": "yes",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "none observed"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoMSMARCO:1048359__PN1__unfiltered",
+        "case_id": "NanoMSMARCO:1048359",
+        "chunk_ids": [
+          "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "3d287ce2070482f42dfc1eda241ae8c62537eff60c9d18ca86826b7196021b6c:00000",
+          "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783:00000"
+        ],
+        "condition": "PN1",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "unfiltered",
+        "text_hashes": [
+          "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "13abf56db645471a1f121720d3ab9363f207b2aad388b9f8938a2a340ca87c03",
+          "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "98f54153daa0727ea97830fe6932c1bcf357ce964683a0577b8ffd17c7202ab8"
+        ]
+      }
+    ],
+    "rationale": "Answer passage 63cf7b is in context (or kept) and defines PHP as a level of care.",
+    "record_id": "R1:0e01f0c020b276c42f986583c5c01f08dad5e6255109ae09a77c686f46dbdc0d",
+    "reference_answer": "Not enough information.",
+    "reproduced_answer": "PHP in mental health care refers to a partial hospitalization program, which is a level of care providing a safe, structured environment for clients without disrupting their daily routines.",
+    "request_sha256": "0e01f0c020b276c42f986583c5c01f08dad5e6255109ae09a77c686f46dbdc0d",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoMSMARCO_1048359.json",
+      "record_id": "R1:0e01f0c020b276c42f986583c5c01f08dad5e6255109ae09a77c686f46dbdc0d"
+    },
+    "source_qualification": "The meaning of PHP in the supplied mental-health context; not the programming language.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoMSMARCO:531490",
+    "dataset": "NanoMSMARCO",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "wrong",
+      "context_support": "absent",
+      "core_usable": "no",
+      "full_frozen_answer_complete": "no",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "defines the wrong term (\"uh\"), not \"uh-uh\""
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoMSMARCO:531490__BN1__filtered",
+        "case_id": "NanoMSMARCO:531490",
+        "chunk_ids": [
+          "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75:00000"
+        ],
+        "condition": "BN1",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "filtered",
+        "text_hashes": [
+          "1533d99615ec094eb8975a8117a4b76e408bda8ed18d5e04093206280297ee5c"
+        ]
+      },
+      {
+        "call_id": "NanoMSMARCO:531490__BE1__filtered",
+        "case_id": "NanoMSMARCO:531490",
+        "chunk_ids": [
+          "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75:00000"
+        ],
+        "condition": "BE1",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "filtered",
+        "text_hashes": [
+          "1533d99615ec094eb8975a8117a4b76e408bda8ed18d5e04093206280297ee5c"
+        ]
+      }
+    ],
+    "rationale": "Uh-uh passage a1c130 removed by the filter; kept passages define \"uh\" (confusion/hesitation), so the answer defines the wrong term.",
+    "record_id": "R1:e6d6c3604d43c86ec5b5be6534b3a034bf7101ca64589bf42e0caea661be70d4",
+    "reference_answer": "Not enough information.",
+    "reproduced_answer": "Uh is used when hesitating in speaking, as while searching for a word or collecting one's thoughts: a prolonged sound.",
+    "request_sha256": "e6d6c3604d43c86ec5b5be6534b3a034bf7101ca64589bf42e0caea661be70d4",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoMSMARCO_531490.json",
+      "record_id": "R1:e6d6c3604d43c86ec5b5be6534b3a034bf7101ca64589bf42e0caea661be70d4"
+    },
+    "source_qualification": "Uh-uh, not the affirmative expression uh-huh.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoNQ:test2079",
+    "dataset": "NanoNQ",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "correct",
+      "context_support": "sufficient",
+      "core_usable": "yes",
+      "full_frozen_answer_complete": "yes",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "none observed"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoNQ:test2079__BN2__filtered",
+        "case_id": "NanoNQ:test2079",
+        "chunk_ids": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000"
+        ],
+        "condition": "BN2",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "filtered",
+        "text_hashes": [
+          "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44"
+        ]
+      },
+      {
+        "call_id": "NanoNQ:test2079__BE2__filtered",
+        "case_id": "NanoNQ:test2079",
+        "chunk_ids": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000"
+        ],
+        "condition": "BE2",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "filtered",
+        "text_hashes": [
+          "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44"
+        ]
+      }
+    ],
+    "rationale": "Answer passage c8e11a is in context (or kept) and names Rockwell as the lead performer.",
+    "record_id": "R1:5faac84c8cc1240515d2daa6e36172085d0062e82619eaae8f78228c783519f1",
+    "reference_answer": "Not enough information.",
+    "reproduced_answer": "Michael Jackson sings with Rockwell in the chorus of \"Somebody's Watching Me.\"",
+    "request_sha256": "5faac84c8cc1240515d2daa6e36172085d0062e82619eaae8f78228c783519f1",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoNQ_test2079.json",
+      "record_id": "R1:5faac84c8cc1240515d2daa6e36172085d0062e82619eaae8f78228c783519f1"
+    },
+    "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoNQ:test2079",
+    "dataset": "NanoNQ",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "abstention",
+      "context_support": "sufficient",
+      "core_usable": "no",
+      "full_frozen_answer_complete": "no",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "none observed"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoNQ:test2079__BE2__unfiltered",
+        "case_id": "NanoNQ:test2079",
+        "chunk_ids": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "513a15ec114c91a1500f3bd3d1d18352ecd9e7f30440487487a2df5cb29f84c1:00000",
+          "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "b868131ee03c32b739c191aabfa65f294d62c5fce958c241a2295a6bb8293c6d:00000",
+          "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000"
+        ],
+        "condition": "BE2",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "unfiltered",
+        "text_hashes": [
+          "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44"
+        ]
+      }
+    ],
+    "rationale": "Answer passage is in context but the response abstains.",
+    "record_id": "R1:f045356fac48e2209e91755c00b6bb8af4ca19e291a38573c0ee67c51f86a9de",
+    "reference_answer": "Jermaine Jackson sings with Michael Jackson on the chorus.",
+    "reproduced_answer": "Not enough information.",
+    "request_sha256": "f045356fac48e2209e91755c00b6bb8af4ca19e291a38573c0ee67c51f86a9de",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoNQ_test2079.json",
+      "record_id": "R1:f045356fac48e2209e91755c00b6bb8af4ca19e291a38573c0ee67c51f86a9de"
+    },
+    "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoNQ:test2721",
+    "dataset": "NanoNQ",
+    "exact_reference_text_match": false,
+    "flag_note": "\"three part\" counted as 3 episodes; saved reference abstained; flagged for Suresh",
+    "judgment": {
+      "answer_category": "correct",
+      "context_support": "sufficient",
+      "core_usable": "yes",
+      "full_frozen_answer_complete": "yes",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "none observed"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoNQ:test2721__BE1__unfiltered",
+        "case_id": "NanoNQ:test2721",
+        "chunk_ids": [
+          "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+          "b4869cddb01aa309e2c8e47bb7cd0ee2147f35791aead47a49556e46ec828122:00000",
+          "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+          "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+          "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+        ],
+        "condition": "BE1",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "unfiltered",
+        "text_hashes": [
+          "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+          "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+          "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+          "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+          "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd"
+        ]
+      }
+    ],
+    "rationale": "Answer passage b035bc says three part BBC drama; answer gives three / three-part.",
+    "record_id": "R1:f847aa01101f26c36ce6088972ebdff58bb6ae4aecd235e8b5309a71cc84d1cf",
+    "reference_answer": "Not enough information.",
+    "reproduced_answer": "Three",
+    "request_sha256": "f847aa01101f26c36ce6088972ebdff58bb6ae4aecd235e8b5309a71cc84d1cf",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoNQ_test2721.json",
+      "record_id": "R1:f847aa01101f26c36ce6088972ebdff58bb6ae4aecd235e8b5309a71cc84d1cf"
+    },
+    "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoMSMARCO:1045374",
+    "dataset": "NanoMSMARCO",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "wrong",
+      "context_support": "absent",
+      "core_usable": "no",
+      "full_frozen_answer_complete": "no",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "wrong sense: describes the counterinsurgency meaning of \"targeted victory\", supported only by an off-topic passage (1ca72417), not the agency"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoMSMARCO:1045374__PE2__filtered",
+        "case_id": "NanoMSMARCO:1045374",
+        "chunk_ids": [
+          "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000"
+        ],
+        "condition": "PE2",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "filtered",
+        "text_hashes": [
+          "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06"
+        ]
+      }
+    ],
+    "rationale": "Agency passage and its copies were removed by the filter; kept passages are the counterinsurgency/dictionary/goals texts, so no support for the agency answer; response gives a wrong sense.",
+    "record_id": "R1:f52527f4f285798ea98049d647d40bd8f73ed52a8268a25a53f0f7674d0e0345",
+    "reference_answer": "Not enough information.",
+    "reproduced_answer": "The targeted victory is the permanent isolation of the insurgent from the population, achieved through and with the population, without enforcing isolation upon them.",
+    "request_sha256": "f52527f4f285798ea98049d647d40bd8f73ed52a8268a25a53f0f7674d0e0345",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoMSMARCO_1045374.json",
+      "record_id": "R1:f52527f4f285798ea98049d647d40bd8f73ed52a8268a25a53f0f7674d0e0345"
+    },
+    "source_qualification": "Description supplied by the agency; evaluative marketing claims such as optimized outcomes are not required factual answer elements.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoMSMARCO:1048359",
+    "dataset": "NanoMSMARCO",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "wrong",
+      "context_support": "sufficient",
+      "core_usable": "no",
+      "full_frozen_answer_complete": "no",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "claims PHP is not related to mental health care, contradicting passage 63cf7b (likely misled by the programming-language passage bd3d52)"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoMSMARCO:1048359__PE2__unfiltered",
+        "case_id": "NanoMSMARCO:1048359",
+        "chunk_ids": [
+          "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "7141dc4fe4eb8b82773c8d2f589cdb5757e33df0dc845d3172ba57cf4f2b2732:00000",
+          "c98d5e1d730bd7fac0727fe168b53f1b89fa22df8d5d6f4bf6f4dfdc1c8302e0:00000",
+          "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000"
+        ],
+        "condition": "PE2",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "unfiltered",
+        "text_hashes": [
+          "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1"
+        ]
+      }
+    ],
+    "rationale": "Answer passage is in context but the response says PHP is unrelated to mental health care.",
+    "record_id": "R1:7002f3a6de938331b59062a1f8e32fd7e651b744021d0336ef813aa22c81b7a0",
+    "reference_answer": "PHP in mental health care refers to a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+    "reproduced_answer": "PHP is not related to mental health care in the provided document.",
+    "request_sha256": "7002f3a6de938331b59062a1f8e32fd7e651b744021d0336ef813aa22c81b7a0",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoMSMARCO_1048359.json",
+      "record_id": "R1:7002f3a6de938331b59062a1f8e32fd7e651b744021d0336ef813aa22c81b7a0"
+    },
+    "source_qualification": "The meaning of PHP in the supplied mental-health context; not the programming language.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoMSMARCO:531490",
+    "dataset": "NanoMSMARCO",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "wrong",
+      "context_support": "sufficient",
+      "core_usable": "no",
+      "full_frozen_answer_complete": "no",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "omits the \"no\" meaning although a1c130 is in context; gives only the \"uh\" meanings"
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoMSMARCO:531490__BE2__unfiltered",
+        "case_id": "NanoMSMARCO:531490",
+        "chunk_ids": [
+          "a1c130c003046759de3d1ccab72dc0257615549869a35407b2653dc9c9ca3a1c:00000",
+          "07d3d6c8ea06bda5c88037a68e11c8ad247d23bd07b12e3fa66d2068dd6ebe35:00000",
+          "247df26982c2b2fa443f5dc2bc4c89fb73c3b24a597bdb662c5ed253574329a2:00000",
+          "dd7819b6770012f129a30b7a0906c35cf9213e4a051e6cbbe36e40eabd1fb5da:00000",
+          "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000"
+        ],
+        "condition": "BE2",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "unfiltered",
+        "text_hashes": [
+          "04addcd1d379b0bdc9c859f18be13877f41897a5497265a40797d0982f23b5d5",
+          "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "ab1307206088a200511da0ed93e6c3f79b8814cdcc1ab6ef2c560f7087642f9d",
+          "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec"
+        ]
+      }
+    ],
+    "rationale": "Uh-uh passage is in context but the answer gives only confusion/filler.",
+    "record_id": "R1:d2a3cb6966474725c7796b5a7dbe4b8786a518b4bf83e777ed703a8518417366",
+    "reference_answer": "uh is used to say no or to emphasize a negative answer. It can also be an expression of confusion or uncertainty, or a space filler during conversation.",
+    "reproduced_answer": "uh is used to express confusion or uncertainty and can also be a space filler or pause during conversation.",
+    "request_sha256": "d2a3cb6966474725c7796b5a7dbe4b8786a518b4bf83e777ed703a8518417366",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoMSMARCO_531490.json",
+      "record_id": "R1:d2a3cb6966474725c7796b5a7dbe4b8786a518b4bf83e777ed703a8518417366"
+    },
+    "source_qualification": "Uh-uh, not the affirmative expression uh-huh.",
+    "technical_status": "ok"
+  },
+  {
+    "case_id": "NanoMSMARCO:531490",
+    "dataset": "NanoMSMARCO",
+    "exact_reference_text_match": false,
+    "flag_note": null,
+    "judgment": {
+      "answer_category": "wrong",
+      "context_support": "absent",
+      "core_usable": "no",
+      "full_frozen_answer_complete": "no",
+      "semantic_difference_from_reference": "material",
+      "wrong_or_unsupported_extras": "defines the wrong term (\"uh\"), not \"uh-uh\""
+    },
+    "logical_links": [
+      {
+        "call_id": "NanoMSMARCO:531490__PE1__filtered",
+        "case_id": "NanoMSMARCO:531490",
+        "chunk_ids": [
+          "7ae26167320e5c72e590cdb9de0cbd8ac879b53f9f82a5220baac4445adfbf71:00000",
+          "b39a14de5e5bc39d5f5dbcfa10df8283f047a56bb928a866ce5d961073905b75:00000"
+        ],
+        "condition": "PE1",
+        "context_support": "UNREVIEWED_FOR_THIS_CALL",
+        "mode": "filtered",
+        "text_hashes": [
+          "80aaeee7399d69776c9de6a43f66c331ec5585c9a7ff15b4052708e102fddaec",
+          "1533d99615ec094eb8975a8117a4b76e408bda8ed18d5e04093206280297ee5c"
+        ]
+      }
+    ],
+    "rationale": "Uh-uh passage a1c130 removed by the filter; kept passages define \"uh\" (confusion/hesitation), so the answer defines the wrong term. Also adds filler.",
+    "record_id": "R1:8ea3094316bb0b330fe0dda7f3ce1c7880e579d28ace66a11344fde18715577e",
+    "reference_answer": "Not enough information.",
+    "reproduced_answer": "uh is used for expression of confusion or uncertainty or as a space filler during conversation.",
+    "request_sha256": "8ea3094316bb0b330fe0dda7f3ce1c7880e579d28ace66a11344fde18715577e",
+    "review_ref": {
+      "file": "inputs/returned/review_forms/primary_secondary/NanoMSMARCO_531490.json",
+      "record_id": "R1:8ea3094316bb0b330fe0dda7f3ce1c7880e579d28ace66a11344fde18715577e"
+    },
+    "source_qualification": "Uh-uh, not the affirmative expression uh-huh.",
+    "technical_status": "ok"
+  }
+]

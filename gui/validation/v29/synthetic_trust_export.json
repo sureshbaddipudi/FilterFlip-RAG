@@ -1,0 +1,60 @@
+{
+  "state": {
+    "case_id": "NanoMSMARCO:1028652",
+    "compute_profile": "cpu",
+    "condition": "C",
+    "exit_code": -9,
+    "finished_at": 1794330527.7934556,
+    "kind": "live_computation",
+    "mode": "trust",
+    "run_id": "ec3b5facd10a4c088c2f569c796e611b",
+    "semantic_review": "pending",
+    "started_at": 1794330525.3013263,
+    "status": "cancelled"
+  },
+  "result": {
+    "kind": "SYNTHETIC_CONTROL_TEST_ONLY",
+    "status": "running",
+    "conditions": {
+      "C": {
+        "retrieved": [
+          {
+            "text": "SYNTHETIC passage; not a research response."
+          }
+        ],
+        "policies": {
+          "U": {
+            "kept": [
+              0
+            ],
+            "representatives": [
+              0
+            ]
+          },
+          "T": {
+            "kept": [],
+            "representatives": [
+              0
+            ],
+            "source": "synthetic_filter_only"
+          }
+        },
+        "answers": {
+          "U": {
+            "text": "SYNTHETIC answer, not Qwen output.",
+            "status": "synthetic",
+            "seconds": 0
+          },
+          "T": {
+            "text": "SYNTHETIC partial export check.",
+            "status": "synthetic",
+            "seconds": 0
+          }
+        }
+      }
+    },
+    "generation_attempts": 0
+  },
+  "effective_status": "cancelled",
+  "snapshot_notice": "Job status is authoritative. An interrupted worker snapshot is retained as last observed, not completed."
+}

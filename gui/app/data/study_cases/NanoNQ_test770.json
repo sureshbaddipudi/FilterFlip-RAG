@@ -1,0 +1,2755 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test770",
+    "dataset": "NanoNQ",
+    "question": "how did the mini gun get its name",
+    "source_family": "NanoNQ:test770",
+    "review_status": "assistant_only",
+    "target_document_id": "doc27529",
+    "expected_answer": "\"Mini\" compares it with larger-calibre rotary guns such as the M61 Vulcan; \"gun\" refers to rifle-calibre bullets rather than autocannon shells.",
+    "answer_aliases": [],
+    "support_quote": "The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+    "source_qualification": "Explanation of the M134 Minigun name only.",
+    "qrel_document_ids": [
+      "doc27529"
+    ],
+    "family_reference_texts": [
+      "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test770",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc27529",
+    "expected_answer": "\"Mini\" compares it with larger-calibre rotary guns such as the M61 Vulcan; \"gun\" refers to rifle-calibre bullets rather than autocannon shells.",
+    "answer_aliases": [],
+    "support_quote": "The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+    "source_qualification": "Explanation of the M134 Minigun name only.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test770",
+    "dataset": "NanoNQ",
+    "question": "how did the mini gun get its name",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test770",
+      "dataset": "NanoNQ",
+      "question": "how did the mini gun get its name",
+      "expected_answer": "\"Mini\" compares it with larger-calibre rotary guns such as the M61 Vulcan; \"gun\" refers to rifle-calibre bullets rather than autocannon shells.",
+      "source_qualification": "Explanation of the M134 Minigun name only.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Clean-answer prerequisite fails",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "clean_answer_fails_frozen_rubric",
+      "historical_rationale": "Clean filtered answer speculates about certification and states that the name origin is unavailable; it fails the two-part frozen explanation.",
+      "current_assistant_rationale": "Clean filtered answer speculates about certification and states that the name origin is unavailable; it fails the two-part frozen explanation.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/32",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/32",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test770.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 289,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 193,
+              "call_id": "NanoNQ:test770__C__unfiltered",
+              "request_sha256": "64dba821089598f77673b284340eff8796b6924bc3a5f690b18b4fd3a8c56075"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 194,
+              "call_id": "NanoNQ:test770__C__filtered",
+              "request_sha256": "21f219c8e8a66cf8e22b2f3dac0825254574966b505bacd3d4f62c0ee94ecd69"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 290,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 195,
+              "call_id": "NanoNQ:test770__BN1__unfiltered",
+              "request_sha256": "a1b4cce50a7d4f95ae65bae05e10c84ae805a4d1f0b5b3a6f8641d53a6771af3"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 196,
+              "call_id": "NanoNQ:test770__BN1__filtered",
+              "request_sha256": "880501ff00f40569474644da5e953101acb9d70df5d0bce1dbda8ead59a74fcf"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 292,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 197,
+              "call_id": "NanoNQ:test770__PN1__unfiltered",
+              "request_sha256": "7d5d411295c02c31c043fd196aed64502b2d7d40b708fec495f2e6ff7d9bd9d3"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 198,
+              "call_id": "NanoNQ:test770__PN1__filtered",
+              "request_sha256": "bfb69c8a487a96904566fc0405fffdbe824fe93460611d0ca3c9988096658a82"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test770",
+    "question": "how did the mini gun get its name",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test770"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.667446494102478,
+          "kept": false
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6273142099380493,
+          "kept": true
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        },
+        {
+          "chunk_id": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27535",
+          "instance_key": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to develop a weapon with a more reliable, higher rate of fire, General Electric designers scaled down the rotating-barrel 20 mm M61 Vulcan cannon for 7.62×51mm NATO ammunition. The resulting weapon, designated M134 and known popularly as the Minigun, could fire up to 4,000 rounds per minute without overheating. The gun was originally specified to fire at 6,000 rpm, but this was later lowered to 4,000 rpm.",
+          "text_sha256": "4ebea3098ccfa2252002641544f5356b95b005eb3d6f8f0cfccd38888b68678c",
+          "char_start": 0,
+          "char_end": 417,
+          "tokens_with_specials": 98,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6131175756454468,
+          "kept": false
+        },
+        {
+          "chunk_id": "e6e09432d0c86c1a371d7ae8c8b7f8c4ea978b5178c5048f74fc8b8149bbb922:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc27538",
+          "instance_key": "e6e09432d0c86c1a371d7ae8c8b7f8c4ea978b5178c5048f74fc8b8149bbb922",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "virtually every component of the minigun had been improved, so Dillon began producing complete weapons with improved components. The guns were purchased quickly by the 160th SOAR as its standardized weapon system. The gun then went through the Army's formal procurement system approval process and in 2003 the Dillon Aero minigun was certified and designated M134D.[11]",
+          "text_sha256": "86961f8e62908fd20cb1c471ca0671d065f2a940b9529825681e6a41560956b7",
+          "char_start": 1005,
+          "char_end": 1374,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5973121523857117,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.6771184966787622,
+          0.0,
+          0.0,
+          0.6771184966787622,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          1,
+          2,
+          4
+        ],
+        "removal_gap": 0.6771184966787622,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.22282153367996216,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8228721022605896
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6000505685806274
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5899161696434021
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5721720457077026
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5698275566101074
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5290005207061768
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5007648468017578
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.47090575098991394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__C__unfiltered",
+          "request_sha256": "64dba821089598f77673b284340eff8796b6924bc3a5f690b18b4fd3a8c56075",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name by being a scaled-down version of the larger 20mm M61 Vulcan cannon, with \"Mini\" in the name referring to its smaller caliber compared to larger designs.",
+            "first_call_id": "NanoNQ:test770__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its six-barrel design, which is in comparison to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The \"Mini\" part of the name is in reference to this smaller caliber design, while \"gun\" refers to the use of rifle caliber bullets.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__C__filtered",
+          "request_sha256": "21f219c8e8a66cf8e22b2f3dac0825254574966b505bacd3d4f62c0ee94ecd69",
+          "reference": {
+            "status": "ok",
+            "answer": "The name \"minigun\" likely comes from its designation as the M134D, which was certified in 2003. The document does not provide the exact origin of the name \"minigun.\"",
+            "first_call_id": "NanoNQ:test770__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name \"minigun\" likely comes from its high rate of fire, often referred to as a \"mini\" machine gun.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.667446494102478,
+          "kept": true
+        },
+        {
+          "chunk_id": "7f1e056df032257472c7cd9100cee3a2f29f84961ed1dab4b32d5a22de083615:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/BN/1",
+          "instance_key": "7f1e056df032257472c7cd9100cee3a2f29f84961ed1dab4b32d5a22de083615",
+          "chunk_index": 0,
+          "copied_from": "doc27536",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "e9cc93fc507ca5f91238a9afa588d1a836ca7d50b7214e3908c9241766464e14",
+          "char_start": 0,
+          "char_end": 592,
+          "tokens_with_specials": 149,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6505615711212158,
+          "kept": false
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6273142099380493,
+          "kept": false
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        },
+        {
+          "chunk_id": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27535",
+          "instance_key": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to develop a weapon with a more reliable, higher rate of fire, General Electric designers scaled down the rotating-barrel 20 mm M61 Vulcan cannon for 7.62×51mm NATO ammunition. The resulting weapon, designated M134 and known popularly as the Minigun, could fire up to 4,000 rounds per minute without overheating. The gun was originally specified to fire at 6,000 rpm, but this was later lowered to 4,000 rpm.",
+          "text_sha256": "4ebea3098ccfa2252002641544f5356b95b005eb3d6f8f0cfccd38888b68678c",
+          "char_start": 0,
+          "char_end": 417,
+          "tokens_with_specials": 98,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6131175756454468,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9780643362183952,
+          0.9780643362183952,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9780643362183952,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.16609925031661987,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9889713525772095
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8228721022605896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5290005207061768
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5193048715591431
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5122154355049133
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5007648468017578
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4734673798084259
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47090575098991394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__BN1__unfiltered",
+          "request_sha256": "a1b4cce50a7d4f95ae65bae05e10c84ae805a4d1f0b5b3a6f8641d53a6771af3",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its six-barrel design, which is in comparison to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The \"Mini\" part of the name is in reference to this smaller caliber, while \"gun\" refers to the use of rifle caliber bullets.",
+            "first_call_id": "NanoNQ:test770__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its six-barrel design, which is in comparison to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The \"gun\" part of the name is used because it fires rifle caliber bullets.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__BN1__filtered",
+          "request_sha256": "880501ff00f40569474644da5e953101acb9d70df5d0bce1dbda8ead59a74fcf",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name in comparison to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The \"Mini\" in the name refers to this smaller caliber, while \"gun\" indicates it uses rifle caliber bullets.",
+            "first_call_id": "NanoNQ:test770__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its use of 7. 62×51mm NATO ammunition, which is a smaller caliber compared to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The \"Mini\" in the name is in comparison to these larger designs.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.667446494102478,
+          "kept": true
+        },
+        {
+          "chunk_id": "7f1e056df032257472c7cd9100cee3a2f29f84961ed1dab4b32d5a22de083615:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/BN/1",
+          "instance_key": "7f1e056df032257472c7cd9100cee3a2f29f84961ed1dab4b32d5a22de083615",
+          "chunk_index": 0,
+          "copied_from": "doc27536",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "e9cc93fc507ca5f91238a9afa588d1a836ca7d50b7214e3908c9241766464e14",
+          "char_start": 0,
+          "char_end": 592,
+          "tokens_with_specials": 149,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6505615711212158,
+          "kept": false
+        },
+        {
+          "chunk_id": "ae41eda49ea301318648666048f6cfc598886e3db5017e3f7388aa2914ff5395:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/BN/2",
+          "instance_key": "ae41eda49ea301318648666048f6cfc598886e3db5017e3f7388aa2914ff5395",
+          "chunk_index": 0,
+          "copied_from": "doc27536",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "9fccd55a759265ad0abcc1e5e6c732d2fccd40234e105a4f0d435fedd18d3b56",
+          "char_start": 0,
+          "char_end": 595,
+          "tokens_with_specials": 149,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6408398151397705,
+          "kept": false
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6273142099380493,
+          "kept": true
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9981098770261418,
+          0.9981098770261418,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9981098770261418,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.007076680660247803,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.999054491519928
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9919778108596802
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9889713525772095
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5193048715591431
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5138710737228394
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5122154355049133
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5077476501464844
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5007648468017578
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__BN2__unfiltered",
+          "request_sha256": "68f8187ce56749ebd57df0b60ac706c707fb8306376cc224b5a96e262f666b0e",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name due to its use of a six-barrel rotary design, which is in comparison to larger caliber designs that use a rotary barrel design, such as the earlier 20-millimeter M61 Vulcan. The \"Mini\" in the name is specifically in reference to this smaller caliber design.",
+            "first_call_id": "NanoNQ:test770__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its use of rifle caliber bullets and its comparison to larger caliber designs that use a rotary barrel design, such as the M61 Vulcan.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__BN2__filtered",
+          "request_sha256": "85daef7c234094a5caa31ea16e6367ede6ba1426fc664ec578705235aed2dfd5",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name because \"Mini\" refers to it being in comparison to larger caliber designs that use a rotary barrel design, and \"gun\" indicates it uses rifle caliber bullets.",
+            "first_call_id": "NanoNQ:test770__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name due to its use of rifle caliber bullets and its comparison to larger caliber designs that use a rotary barrel design, such as the earlier 20-millimeter M61 Vulcan.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d40e14d271c0ae2e1a0573f6cc6b75ff691c2d5dc7ec0a707f1acb35b7df2704:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/PN/1",
+          "instance_key": "d40e14d271c0ae2e1a0573f6cc6b75ff691c2d5dc7ec0a707f1acb35b7df2704",
+          "chunk_index": 0,
+          "copied_from": "doc27529",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "e590e5e0d5c08b745a18960b93d8095174be597780a36cd94ad87b15e9af2588",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 132,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6952077746391296,
+          "kept": false
+        },
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.667446494102478,
+          "kept": false
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6273142099380493,
+          "kept": true
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        },
+        {
+          "chunk_id": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27535",
+          "instance_key": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to develop a weapon with a more reliable, higher rate of fire, General Electric designers scaled down the rotating-barrel 20 mm M61 Vulcan cannon for 7.62×51mm NATO ammunition. The resulting weapon, designated M134 and known popularly as the Minigun, could fire up to 4,000 rounds per minute without overheating. The gun was originally specified to fire at 6,000 rpm, but this was later lowered to 4,000 rpm.",
+          "text_sha256": "4ebea3098ccfa2252002641544f5356b95b005eb3d6f8f0cfccd38888b68678c",
+          "char_start": 0,
+          "char_end": 417,
+          "tokens_with_specials": 98,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6131175756454468,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.6224029498220176,
+          1.6567830804757655,
+          0.0,
+          0.0,
+          1.3198568627037766
+        ],
+        "removal_ranking": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "removal_gap": 1.3198568627037766,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.24952411651611328,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.989780068397522
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8228721022605896
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8017096519470215
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5521855354309082
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5290005207061768
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5166606903076172
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5007648468017578
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47090575098991394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__PN1__unfiltered",
+          "request_sha256": "7d5d411295c02c31c043fd196aed64502b2d7d40b708fec495f2e6ff7d9bd9d3",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its use of rifle caliber bullets (\"gun\") and its being a smaller version of the larger 20-millimeter M61 Vulcan (\"Mini\").",
+            "first_call_id": "NanoNQ:test770__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its use of rifle caliber bullets (\"gun\") and its being a smaller version of the larger caliber designs that use a rotary barrel design, such as the M61 Vulcan (\"Mini\").",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__PN1__filtered",
+          "request_sha256": "bfb69c8a487a96904566fc0405fffdbe824fe93460611d0ca3c9988096658a82",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test770__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "8b6023b6b188b6858dc9dc63de16c64791c6d75e7f32f9a6275cf405d01ca746:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/PN/2",
+          "instance_key": "8b6023b6b188b6858dc9dc63de16c64791c6d75e7f32f9a6275cf405d01ca746",
+          "chunk_index": 0,
+          "copied_from": "doc27529",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "02d48eae3c5333421dfb987a2fe356f9b137fad2ce6f0e804a14d01912160573",
+          "char_start": 0,
+          "char_end": 537,
+          "tokens_with_specials": 132,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6964668035507202,
+          "kept": false
+        },
+        {
+          "chunk_id": "d40e14d271c0ae2e1a0573f6cc6b75ff691c2d5dc7ec0a707f1acb35b7df2704:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/PN/1",
+          "instance_key": "d40e14d271c0ae2e1a0573f6cc6b75ff691c2d5dc7ec0a707f1acb35b7df2704",
+          "chunk_index": 0,
+          "copied_from": "doc27529",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "e590e5e0d5c08b745a18960b93d8095174be597780a36cd94ad87b15e9af2588",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 132,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6952077746391296,
+          "kept": false
+        },
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.667446494102478,
+          "kept": false
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6273142099380493,
+          "kept": true
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.9753027106642662,
+          1.9780082610920573,
+          1.9566236171662155,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.9566236171662155,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4325050115585327,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9991714954376221
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.989780068397522
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9884123802185059
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5559073686599731
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5521855354309082
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5173196792602539
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5166606903076172
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5007648468017578
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__PN2__unfiltered",
+          "request_sha256": "b826420c6b8bd1dcb893e0a12b444303614b96641c5fc63be3c38d72a9089e08",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name with \"Mini\" in comparison to larger caliber designs that use a rotary barrel design, such as the M61 Vulcan.",
+            "first_call_id": "NanoNQ:test770__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name \"Mini\" in comparison to larger caliber designs that use a rotary barrel design, such as the earlier 20-millimeter M61 Vulcan.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__PN2__filtered",
+          "request_sha256": "bfb69c8a487a96904566fc0405fffdbe824fe93460611d0ca3c9988096658a82",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test770__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.667446494102478,
+          "kept": true
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6273142099380493,
+          "kept": false
+        },
+        {
+          "chunk_id": "cd9eddad5ffd75f6aeb66ad3b594907a582e4b6b6731453b9b529cfa825e476f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/BE/1",
+          "instance_key": "cd9eddad5ffd75f6aeb66ad3b594907a582e4b6b6731453b9b529cfa825e476f",
+          "chunk_index": 0,
+          "copied_from": "doc27536",
+          "copy_number": 1,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6273142099380493,
+          "kept": false
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        },
+        {
+          "chunk_id": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27535",
+          "instance_key": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to develop a weapon with a more reliable, higher rate of fire, General Electric designers scaled down the rotating-barrel 20 mm M61 Vulcan cannon for 7.62×51mm NATO ammunition. The resulting weapon, designated M134 and known popularly as the Minigun, could fire up to 4,000 rounds per minute without overheating. The gun was originally specified to fire at 6,000 rpm, but this was later lowered to 4,000 rpm.",
+          "text_sha256": "4ebea3098ccfa2252002641544f5356b95b005eb3d6f8f0cfccd38888b68678c",
+          "char_start": 0,
+          "char_end": 417,
+          "tokens_with_specials": 98,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6131175756454468,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.1771281361579895,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8228721022605896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5290005207061768
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5007648468017578
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5007648468017578
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.47090575098991394
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47090575098991394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__BE1__unfiltered",
+          "request_sha256": "a08252d6a3416b684aacf18af8e2f0bcd536a6097464d2da35c78c4fbb64cabd",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its six-barrel design, which is in comparison to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The \"Mini\" part of the name is in reference to this smaller caliber, while \"gun\" refers to the use of rifle caliber bullets.",
+            "first_call_id": "NanoNQ:test770__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name in comparison to larger caliber designs that use a rotary barrel design, such as the earlier 20-millimeter M61 Vulcan. The \"Mini\" part is for the use of rifle caliber bullets, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__BE1__filtered",
+          "request_sha256": "880501ff00f40569474644da5e953101acb9d70df5d0bce1dbda8ead59a74fcf",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name in comparison to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The \"Mini\" in the name refers to this smaller caliber, while \"gun\" indicates it uses rifle caliber bullets.",
+            "first_call_id": "NanoNQ:test770__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its use of 7. 62×51mm NATO ammunition, which is a smaller caliber compared to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The \"Mini\" in the name is in comparison to these larger designs.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.667446494102478,
+          "kept": true
+        },
+        {
+          "chunk_id": "1be0acf5851b9131c88aaac2ff0744609075e425afc2bcfaf918b40ba388c9dd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/BE/2",
+          "instance_key": "1be0acf5851b9131c88aaac2ff0744609075e425afc2bcfaf918b40ba388c9dd",
+          "chunk_index": 0,
+          "copied_from": "doc27536",
+          "copy_number": 2,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6273142099380493,
+          "kept": false
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6273142099380493,
+          "kept": false
+        },
+        {
+          "chunk_id": "cd9eddad5ffd75f6aeb66ad3b594907a582e4b6b6731453b9b529cfa825e476f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/BE/1",
+          "instance_key": "cd9eddad5ffd75f6aeb66ad3b594907a582e4b6b6731453b9b529cfa825e476f",
+          "chunk_index": 0,
+          "copied_from": "doc27536",
+          "copy_number": 1,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6273142099380493,
+          "kept": false
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          2.00000095367443,
+          2.00000095367443,
+          2.00000095367443,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.00000095367443,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.45385050773620605,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5007648468017578
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5007648468017578
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5007648468017578
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__BE2__unfiltered",
+          "request_sha256": "e4abbf60d175c0b29c837968160c7149c51c5f5359ff90ace2f3b66a0dbdbb70",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name due to its use of a \"mini\" caliber design and \"gun\" for the use of rifle caliber bullets.",
+            "first_call_id": "NanoNQ:test770__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name due to its use of rifle caliber bullets and its comparison to larger caliber designs that use a rotary barrel design, such as the M61 Vulcan.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__BE2__filtered",
+          "request_sha256": "64f07c2ee9f33f54f7639147e4bdfebfd032784a91ecd8306dde9b954c3764df",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its use of Minié ball bullets.",
+            "first_call_id": "NanoNQ:test770__BE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name due to its use of Minié ball bullets.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.667446494102478,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfe140c9066205e80f3e1473c8cad784ca60e448011729747fc1a6797f645ab9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/PE/1",
+          "instance_key": "dfe140c9066205e80f3e1473c8cad784ca60e448011729747fc1a6797f645ab9",
+          "chunk_index": 0,
+          "copied_from": "doc27529",
+          "copy_number": 1,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.667446494102478,
+          "kept": false
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6273142099380493,
+          "kept": true
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        },
+        {
+          "chunk_id": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27535",
+          "instance_key": "f3f7bed6c21b4e3851cd8bc7a8feceebbf8443cfe4af9fcb940d0aa413bc3be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In order to develop a weapon with a more reliable, higher rate of fire, General Electric designers scaled down the rotating-barrel 20 mm M61 Vulcan cannon for 7.62×51mm NATO ammunition. The resulting weapon, designated M134 and known popularly as the Minigun, could fire up to 4,000 rounds per minute without overheating. The gun was originally specified to fire at 6,000 rpm, but this was later lowered to 4,000 rpm.",
+          "text_sha256": "4ebea3098ccfa2252002641544f5356b95b005eb3d6f8f0cfccd38888b68678c",
+          "char_start": 0,
+          "char_end": 417,
+          "tokens_with_specials": 98,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6131175756454468,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.6771184966787622,
+          1.6771184966787622,
+          0.0,
+          0.0,
+          1.3542369933575245
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "removal_gap": 1.3542369933575245,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.27672237157821655,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8228721022605896
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8228721022605896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5290005207061768
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5007648468017578
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47090575098991394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__PE1__unfiltered",
+          "request_sha256": "0a4e5f80863afaab054e66ec311af9fdb7d24faeb110035af6ce392fa9328e89",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name because \"Mini\" is in comparison to larger caliber designs that use a rotary barrel design, and \"gun\" refers to the use of rifle caliber bullets.",
+            "first_call_id": "NanoNQ:test770__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun got its name because \"Mini\" is in comparison to larger caliber designs that use a rotary barrel design, such as the M61 Vulcan, and \"gun\" refers to the use of rifle caliber bullets.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__PE1__filtered",
+          "request_sha256": "bfb69c8a487a96904566fc0405fffdbe824fe93460611d0ca3c9988096658a82",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test770__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test770",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "712497e01c423103ba42ca59fd1d784d4dc84312ec5b56865a398c189702aa10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/PE/2",
+          "instance_key": "712497e01c423103ba42ca59fd1d784d4dc84312ec5b56865a398c189702aa10",
+          "chunk_index": 0,
+          "copied_from": "doc27529",
+          "copy_number": 2,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.667446494102478,
+          "kept": false
+        },
+        {
+          "chunk_id": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27529",
+          "instance_key": "7dbcafd5b47251fb51c10d9ccb95d6555700b7b673fce85ca728952ac82b29f1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.667446494102478,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfe140c9066205e80f3e1473c8cad784ca60e448011729747fc1a6797f645ab9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test770/PE/1",
+          "instance_key": "dfe140c9066205e80f3e1473c8cad784ca60e448011729747fc1a6797f645ab9",
+          "chunk_index": 0,
+          "copied_from": "doc27529",
+          "copy_number": 1,
+          "text": "The M134 Minigun is a 7.62×51mm NATO, six-barrel rotary machine gun with a high rate of fire (2,000 to 6,000 rounds per minute) which can also fire at a high sustained rate.[3] It features Gatling-style rotating barrels with an external power source, normally an electric motor. The \"Mini\" in the name is in comparison to larger caliber designs that use a rotary barrel design, such as General Electric's earlier 20-millimeter M61 Vulcan, and \"gun\" for the use of rifle caliber bullets as opposed to autocannon shells.",
+          "text_sha256": "b0d053d0a5947847f914009a45981d8af0d152ec53a1173ab50a8ff3a3e46468",
+          "char_start": 0,
+          "char_end": 518,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.667446494102478,
+          "kept": false
+        },
+        {
+          "chunk_id": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc27536",
+          "instance_key": "99fe900a84b9880f4183f190ae2bb05b3b0b902350cd6f26465cfae50ca09c1d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Minigun was mounted on Hughes OH-6 Cayuse and Bell OH-58 Kiowa side pods; in the turret and on pylon pods of Bell AH-1 Cobra attack helicopters; and on door, pylon and pod mounts on Bell UH-1 Iroquois transport helicopters. Several larger aircraft were outfitted with miniguns specifically for close air support: the Cessna A-37 Dragonfly with an internal gun and with pods on wing hardpoints; and the Douglas A-1 Skyraider, also with pods on wing hardpoints. Other famous gunship airplanes were the Douglas AC-47 Spooky, the Fairchild AC-119, and the Lockheed AC-130.[10]",
+          "text_sha256": "40691305dd4bb172288682d802742ff6b43d41cc10a9bae5d1cc5486e0a440bd",
+          "char_start": 0,
+          "char_end": 576,
+          "tokens_with_specials": 146,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6273142099380493,
+          "kept": true
+        },
+        {
+          "chunk_id": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1324046",
+          "instance_key": "380e8021b45596057f58e7d47591eedb8fa03431bb2d1efd208b6552f329a3f8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soft lead Minié ball was first introduced in 1847 by Claude-Étienne Minié, a captain in the French Army. It was another improvement of the work done by Delvigne. As designed by Minié, the bullet was conical in shape with a hollow cavity in the rear, which was fitted with a small iron cap instead of a wooden plug. When fired, the iron cap would force itself into the hollow cavity at the rear of the bullet, thus expanding the sides of the bullet to grip and engage the rifling. In 1855, the British adopted the Minié ball for their Enfield rifles. In 1855 James Burton, a machinist at the US Armory at Harper's Ferry, West Virginia improved the Minié Ball further by eliminating the metal cup in the bottom of the bullet.[23][24] The Minié ball first saw widespread use in the American Civil War. Roughly 90% of the battlefield casualties in this war were caused by Minié balls fired from rifled muskets.[25]",
+          "text_sha256": "894d60fc6182c4c9fafacadf6971b20c019c3d041e5428befa6f18bc98e36690",
+          "char_start": 0,
+          "char_end": 914,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6190568208694458,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.45385026931762695,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.546149730682373
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5129979848861694
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5007648468017578
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test770__PE2__unfiltered",
+          "request_sha256": "bd0d9386b2841ce256b029e899d84fe681848acf0b8f5d61ce786b2b3cdc4dad",
+          "reference": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name due to its \"Mini\" in comparison to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The term \"gun\" is used for its use of rifle caliber bullets.",
+            "first_call_id": "NanoNQ:test770__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The M134 Minigun gets its name due to its \"Mini\" in comparison to larger caliber designs that use a rotary barrel design, such as the 20-millimeter M61 Vulcan. The term \"gun\" is used for its use of rifle caliber bullets.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test770__PE2__filtered",
+          "request_sha256": "bfb69c8a487a96904566fc0405fffdbe824fe93460611d0ca3c9988096658a82",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test770__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

@@ -1,0 +1,1166 @@
+{
+  "case_id": "NanoNQ:test697",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test697.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+  "records": [
+    {
+      "record_id": "R1:1795e7a97612fa864bf6f095fc312fac7247161adc644984d88735347a87ae5b",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "1795e7a97612fa864bf6f095fc312fac7247161adc644984d88735347a87ae5b",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__C__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "C",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000",
+            "b3978b4d80c99289c76373de5af29d6c443d7ef6d57947571ec3b4337d6db450:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f",
+            "958034c161b3d36a02da998bf8bb9cc945fe0d2673ed60474b87bc2c93eba36e"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage in context or kept; the answer gives only the stellar rotation period.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:011b948ccc9e0eb966634d8ff9d16ef8ba0254a71c3b6a14ac623a9e9e78575d",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "011b948ccc9e0eb966634d8ff9d16ef8ba0254a71c3b6a14ac623a9e9e78575d",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__C__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "C",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "b3978b4d80c99289c76373de5af29d6c443d7ef6d57947571ec3b4337d6db450:00000"
+          ],
+          "text_hashes": [
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "958034c161b3d36a02da998bf8bb9cc945fe0d2673ed60474b87bc2c93eba36e"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "b3978b"
+        ],
+        "rationale": "Stellar-day passage b3978b is kept; the answer gives the stellar period only.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:b8a4d42e950181c09c84f5f528f62561e37a9a9e944dde918ce5cd9172efc465",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "b8a4d42e950181c09c84f5f528f62561e37a9a9e944dde918ce5cd9172efc465",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__BN1__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "dd5afaab045d6157ee63a7bfd1b8224c30e05cfc3ec497a7554f194c3774aed8:00000",
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000"
+          ],
+          "text_hashes": [
+            "338e3562567fc765c779fb150fecbdfe3f84cbfe1d26822c2fb2235d1f048ab4",
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage 07f24a is in context and the answer gives both the solar and stellar rotation periods.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:94567b8efec3ceff9d9db3ce9bdd60c90bc730fae96d51c8c8071986d9cbb755",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "94567b8efec3ceff9d9db3ce9bdd60c90bc730fae96d51c8c8071986d9cbb755",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__BN1__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "BN1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test697__BE1__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "BE1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage in context or kept; the answer gives only the stellar rotation period.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:13c901726c4c0c6ab35b0c1fa5339b6ea6edbc921a38af4bc04021cc81a91648",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "13c901726c4c0c6ab35b0c1fa5339b6ea6edbc921a38af4bc04021cc81a91648",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__PN1__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "7659690dd86d1117cc88d302a10314db80d50ab4c71b29c08ee9cf54b44a7705:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "58d91f84d1d20a887e68997e4883bc77b71f724692c32c10b30874eec03e9b3c",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage 07f24a is in context and the answer gives both the solar and stellar rotation periods.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__PN1__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "PN1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test697__PN2__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test697__PE2__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "ac6ce0",
+          "e99c1e"
+        ],
+        "rationale": "Answer passage and copy removed; kept passages mention the rotation and the sidereal year; the answer gives a stellar value but adds the sidereal-year figure.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "mixes the sidereal-YEAR figure (365.256363004 mean solar days) into the rotation answer",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:35c455104d65e681eed1634d5e5825a655f08987b9a195f1acb2bd8536ae9457",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "35c455104d65e681eed1634d5e5825a655f08987b9a195f1acb2bd8536ae9457",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__BN2__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "7763d7da2ca97ab3799c3dc9657a2beee6213326b33c2910408ec41e6c88f559:00000",
+            "dd5afaab045d6157ee63a7bfd1b8224c30e05cfc3ec497a7554f194c3774aed8:00000",
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "3806a5c526a035c3a4bb6620b0838bdef7075c8aa92097070fc0028f0b247ed0",
+            "338e3562567fc765c779fb150fecbdfe3f84cbfe1d26822c2fb2235d1f048ab4",
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage in context or kept; the answer gives only the stellar rotation period.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:659e4427d0337417af31cc1ca708246226d31b04e7337502847bbd762e3502b5",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "659e4427d0337417af31cc1ca708246226d31b04e7337502847bbd762e3502b5",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__BN2__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test697__BE2__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage in context or kept; the answer gives only the stellar rotation period.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:b5f93f9d13aa964b092a1f784257311a71e297372ac358866321bb9a552e496d",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "b5f93f9d13aa964b092a1f784257311a71e297372ac358866321bb9a552e496d",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__PN2__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "ce94417c19d4c228d2e93adc3157ce570f2797876526ee7f9c23e9c0361c6f78:00000",
+            "7659690dd86d1117cc88d302a10314db80d50ab4c71b29c08ee9cf54b44a7705:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "77cedaf7b7197f4aab29ec22aec0ded104704dd25f6849b4feb937819ac04d0b",
+            "58d91f84d1d20a887e68997e4883bc77b71f724692c32c10b30874eec03e9b3c",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage 07f24a is in context and the answer gives both the solar and stellar rotation periods.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:102b81e280e46a49c2f99f19bafae31fd300212875a9035467ba88418903e5d4",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "102b81e280e46a49c2f99f19bafae31fd300212875a9035467ba88418903e5d4",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__BE1__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "35d769ddb552ae3834d85a02f5f266e2517b6026d39fb2641f8043cdf101f713:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage in context or kept; the answer gives only the stellar rotation period.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:f243ba6bd8c4693d16ae3c8ed7a718901a039507ec881c4867ab11b8b92969ec",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "f243ba6bd8c4693d16ae3c8ed7a718901a039507ec881c4867ab11b8b92969ec",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__BE2__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "35d769ddb552ae3834d85a02f5f266e2517b6026d39fb2641f8043cdf101f713:00000",
+            "a93e412657cc98cbd4f8a4e5fa91ed576f94350eb410b8abee994047ea564893:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage in context or kept; the answer gives only the stellar rotation period.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:3616c5bdbd07584d1fc467065061167b0371b46f8eaeb74db12f1727a6e09593",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "3616c5bdbd07584d1fc467065061167b0371b46f8eaeb74db12f1727a6e09593",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__PE1__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "e152a08a3e30213a472af828a96bcddf8fdd93e55e2655deaf975274666973ed:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage 07f24a is in context and the answer gives both the solar and stellar rotation periods.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:d6f0aebaacd9cc76c7c23cb22795c127bade78bf2a0a320d2610b69f0912f453",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "d6f0aebaacd9cc76c7c23cb22795c127bade78bf2a0a320d2610b69f0912f453",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__PE1__filtered",
+          "case_id": "NanoNQ:test697",
+          "condition": "PE1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+            "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000"
+          ],
+          "text_hashes": [
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+            "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d12662"
+        ],
+        "rationale": "Day-length passage d12662 (mean day about 86,400.002 s) is kept; the answer gives only the solar frame.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:796aebf462292f71f76fbcf42e8ea9f6517cc92bb137309922d0d58dbdc3db8d",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test697",
+      "request_sha256": "796aebf462292f71f76fbcf42e8ea9f6517cc92bb137309922d0d58dbdc3db8d",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test697__PE2__unfiltered",
+          "case_id": "NanoNQ:test697",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+            "d002861bea629248dfcc17ea0ef3931d595ae1f4dc01130271928735d17a8b9c:00000",
+            "e152a08a3e30213a472af828a96bcddf8fdd93e55e2655deaf975274666973ed:00000",
+            "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+            "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000"
+          ],
+          "text_hashes": [
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+            "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+            "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test697.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a (about 24 hours w.r.t. the Sun; 23h 56m 4s w.r.t. the stars)"
+        ],
+        "rationale": "Answer passage in context or kept; the answer gives only the stellar rotation period.",
+        "disagreement": "One reference frame only; the qualification asks for both; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1CASE:NanoNQ:test697",
+      "record_type": "reproduction_primary_endpoint",
+      "case_id": "NanoNQ:test697",
+      "scope": "New C/BN1/PN1 response implications only; accepted original verdict unchanged",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "b3978b",
+          "ac6ce0"
+        ],
+        "rationale": "The stellar-day value stays in the PN1 filtered context and the answer still gives about 23h56m4s, so support is not lost and the answer does not fail.",
+        "disagreement": null
+      },
+      "judgment": {
+        "clean_supported_usable": "uncertain",
+        "copy_retrieved_answer_preserved": "yes",
+        "copied_unfiltered_supported_usable": "yes",
+        "all_sufficient_support_lost": "no",
+        "filtered_answer_failure": "no",
+        "background_supported_usable": "yes",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "full_answer_rule_alternative": "not_met",
+        "rule_scope_or_extension": "Core rule as supplied; no extension; consistent with accepted non-event. The clean filtered answer gives one reference frame, not both."
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test697:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test697",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Answers give the stellar frame only.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:35c455104d65e681eed1634d5e5825a655f08987b9a195f1acb2bd8536ae9457",
+          "R1:659e4427d0337417af31cc1ca708246226d31b04e7337502847bbd762e3502b5"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test697:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test697",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "ac6ce0",
+          "e99c1e"
+        ],
+        "rationale": "P condition; the filtered answer still gives the stellar period, so it does not fail and strict endpoint is not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: mixes the sidereal-YEAR figure (365.256363004 mean solar days) into the rotation answer",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: mixes the sidereal-YEAR figure (365.256363004 mean solar days) into the rotation answer",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+          "R1:b5f93f9d13aa964b092a1f784257311a71e297372ac358866321bb9a552e496d"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test697:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test697",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Answers give the stellar frame only.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:94567b8efec3ceff9d9db3ce9bdd60c90bc730fae96d51c8c8071986d9cbb755",
+          "R1:102b81e280e46a49c2f99f19bafae31fd300212875a9035467ba88418903e5d4"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test697:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test697",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "07f24a"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Answers give the stellar frame only.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:659e4427d0337417af31cc1ca708246226d31b04e7337502847bbd762e3502b5",
+          "R1:f243ba6bd8c4693d16ae3c8ed7a718901a039507ec881c4867ab11b8b92969ec"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test697:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test697",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d12662"
+        ],
+        "rationale": "P condition; the filtered answer still gives the solar frame, so strict endpoint is not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:3616c5bdbd07584d1fc467065061167b0371b46f8eaeb74db12f1727a6e09593",
+          "R1:d6f0aebaacd9cc76c7c23cb22795c127bade78bf2a0a320d2610b69f0912f453"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test697:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test697",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "ac6ce0",
+          "e99c1e"
+        ],
+        "rationale": "P condition; the filtered answer still gives the stellar period, so strict endpoint is not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: mixes the sidereal-YEAR figure (365.256363004 mean solar days) into the rotation answer",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: mixes the sidereal-YEAR figure (365.256363004 mean solar days) into the rotation answer",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+          "R1:796aebf462292f71f76fbcf42e8ea9f6517cc92bb137309922d0d58dbdc3db8d"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1728 @@
+{
+  "status": "human_agreement_recorded",
+  "provenance": {
+    "received_files": {
+      "FilterFlip_Week06_Scoring_Decisions_Shradha_2026-10-27.json": "ba7f46d05db42f80e1c52723c811faf0a83c7eb6b1726f77b8a3be54caeddd2e",
+      "FilterFlip_Week06_Suresh_review_2026-10-27.md": "58b46aa982fbc972f32f65a6bd0e1394f6e75d676be95e152ab8365521fd5278"
+    },
+    "prior_current_ledger_sha256": "ecc6cd37bd315a5083985ed475922e03c75d04168f9e0d0b7dc70a71f1e31c61",
+    "first_pass_sha256": "1fd2a09509b1c12ea6e8356a330078ebcae9d09a6edd97fd3edb81c494a59787",
+    "request_key_sha256": "fbe21141be109fa5b0725aebaccffb85ab4b7a0fc3ab677cde7f179d94bed5c2",
+    "user_confirmation": "I agree fully with Shradha's review and see my review in FilterFlip_Week06_Suresh_review_2026-10-27.md",
+    "scope": "23 scoring clarifications; not joint approval of all 173 records or final Week-6 milestone.",
+    "timing": "Post-outcome clarification, as disclosed in both supplied files.",
+    "attribution": "Original Week-6 review was AI-assisted, decided by Shradha. Current proposal and Suresh acceptance are recorded separately; no new claim of unaided review."
+  },
+  "summary": {
+    "agreement_recorded_date": "2026-10-27",
+    "rule_id": "week06_scoring_agreed_2026-10-27",
+    "source_rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+    "agreed_clarifications": 23,
+    "category_changes": [
+      {
+        "review_id": "R004",
+        "previous_category": "uncertain",
+        "agreed_category": "correct-unsupported",
+        "logical_conditions": 2
+      },
+      {
+        "review_id": "R019",
+        "previous_category": "uncertain",
+        "agreed_category": "wrong",
+        "logical_conditions": 2
+      },
+      {
+        "review_id": "R033",
+        "previous_category": "uncertain",
+        "agreed_category": "correct-supported",
+        "logical_conditions": 1
+      },
+      {
+        "review_id": "R056",
+        "previous_category": "uncertain",
+        "agreed_category": "correct-supported",
+        "logical_conditions": 1
+      },
+      {
+        "review_id": "R005",
+        "previous_category": "correct-supported",
+        "agreed_category": "wrong",
+        "logical_conditions": 3
+      },
+      {
+        "review_id": "R048",
+        "previous_category": "correct-supported",
+        "agreed_category": "wrong",
+        "logical_conditions": 1
+      },
+      {
+        "review_id": "R134",
+        "previous_category": "correct-supported",
+        "agreed_category": "wrong",
+        "logical_conditions": 2
+      }
+    ],
+    "changed_distinct_outputs": 7,
+    "changed_logical_conditions": 12,
+    "retained_uncertainty": [
+      "R110"
+    ],
+    "retained_uncertain_conditions": 5,
+    "distinct_outputs": 173,
+    "logical_conditions": 324,
+    "current_category_counts": {
+      "correct-supported": 124,
+      "correct-unsupported": 7,
+      "wrong": 22,
+      "abstention": 19,
+      "uncertain": 1
+    },
+    "logical_category_counts": {
+      "correct-supported": 193,
+      "correct-unsupported": 18,
+      "wrong": 39,
+      "abstention": 69,
+      "uncertain": 5
+    },
+    "unchanged_support_counts": {
+      "supported": 113,
+      "partial": 39,
+      "absent": 21
+    },
+    "clarified_partial_category_retained": 15,
+    "historical_attribution_differences": 23,
+    "new_research_calls": 0,
+    "milestone": "Scoring clarification accepted with retained R110 uncertainty; derived ledger prepared; final analysis, independent verification and milestone acceptance remain pending."
+  },
+  "accepted_rules": {
+    "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+    "builds_on": "week04_core_answer_mixed_usable_2026-10-26",
+    "three_questions": [
+      "1. Do the retained passages contain enough evidence to answer the question?",
+      "2. Does the answer give the required core information?",
+      "3. Does it contain a wrong or unsupported additional claim?"
+    ],
+    "usability_vs_support": "Answer usability (core given) and retained support are recorded separately. Usable does not imply support survived.",
+    "mixed_answer": "A correct core stays usable despite a wrong extra claim; the extra claim is recorded and kept visible.",
+    "required_core": "Where Week-4 fixed a required core ('of/from' for von; what the organization is for Benson), an answer lacking it is recorded as wrong (incomplete, not false).",
+    "partial_support_qualifiers": {
+      "A": "incomplete for the question (everything stated is supported, but the answer or the retained evidence does not fully answer it)",
+      "B": "tentative claim stated as fact (the passage gives it as one of several stories)",
+      "C": "part of the answer is not supported (an unsupported clause, or wording taken from the Dutch 'van' passage)"
+    },
+    "timing_note": "These rules are being clarified after outcomes were observed; the final report must say so."
+  },
+  "adopted_rule_id": "week06_scoring_agreed_2026-10-27",
+  "records": [
+    {
+      "issue_type": "explicitly_uncertain",
+      "review_id": "R004",
+      "answer": "One full rotation of the Earth takes about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days).",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "absent",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"A complete orbit around the sun takes one year, or about 365 days\" (P1); \"The sidereal year is the time taken for the Earth to complete one revolution of its orbit... 365.256363004 mean solar days\" (P2)",
+        "rationale": "Neither passage gives a rotation period such as 23 h 56 m. The 365.256-day figure in the answer is the orbital sidereal year, not the rotation. The answer mixes a figure that is correct from outside knowledge with a wrong parenthetical, so category left uncertain (mixed-answer issue). No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test697",
+          "condition": "PN1",
+          "arm": "N",
+          "request_sha256": "a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoNQ:test697",
+          "condition": "PN1",
+          "arm": "E",
+          "request_sha256": "a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-unsupported",
+        "support_qualifier": null,
+        "support_qualifier_meaning": null,
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "uncertain",
+        "first_pass_support": "absent",
+        "changed_from_first_pass": true,
+        "reason": "Principal duration (23 h 56 m 4.1 s) is correct but no retained passage gives a rotation period, so it is unsupported. The parenthetical '(365.256363004 mean solar days)' is the sidereal year and a wrong extra claim, kept visible. Applies the Week-4 mixed-answer interpretation to usability only; it does not claim retained evidence supports the figure.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "absent",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"A complete orbit around the sun takes one year, or about 365 days\" (P1); \"The sidereal year is the time taken for the Earth to complete one revolution of its orbit... 365.256363004 mean solar days\" (P2)",
+        "rationale": "Neither passage gives a rotation period such as 23 h 56 m. The 365.256-day figure in the answer is the orbital sidereal year, not the rotation. The answer mixes a figure that is correct from outside knowledge with a wrong parenthetical, so category left uncertain (mixed-answer issue). No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "explicitly_uncertain",
+      "review_id": "R019",
+      "answer": "The name von can be a cognate of Dutch \"van\" and is often used to indicate nobility or royalty, though it can also signify any ancestral relation to a particular place. It can be part of a common surname or an indication of nobility.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"The German \"von\" is a cognate of Dutch \"van\"... It can both imply nobility... or signify any ancestral relation to a particular place\" (P3)",
+        "rationale": "P3 supports the cognate link and that van can imply nobility or an ancestral relation to a place; P1 and P2 show von can mark noble or non-noble families. No passage gives \"of\" or \"from\", and the answer attaches the ancestral-relation meaning to von where P3 states it for van. Partial support; completeness unsettled. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test1721",
+          "condition": "PN1",
+          "arm": "N",
+          "request_sha256": "c64e7a27bf1b13f6a48f2033a81e13b33b196fc939916e5781f1d7aad2a3afc1",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoNQ:test1721",
+          "condition": "PN1",
+          "arm": "E",
+          "request_sha256": "c64e7a27bf1b13f6a48f2033a81e13b33b196fc939916e5781f1d7aad2a3afc1",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "wrong",
+        "support_qualifier": null,
+        "support_qualifier_meaning": null,
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "uncertain",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": true,
+        "reason": "Week-4 agreement makes 'of/from' the required primary meaning. The answer gives nobility and place relation via the Dutch cognate and omits it, so it fails the required core. Incomplete, not false; nobility and place relation are partly supported.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"The German \"von\" is a cognate of Dutch \"van\"... It can both imply nobility... or signify any ancestral relation to a particular place\" (P3)",
+        "rationale": "P3 supports the cognate link and that van can imply nobility or an ancestral relation to a place; P1 and P2 show von can mark noble or non-noble families. No passage gives \"of\" or \"from\", and the answer attaches the ancestral-relation meaning to von where P3 states it for van. Partial support; completeness unsettled. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "explicitly_uncertain",
+      "review_id": "R033",
+      "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico. It is also observed in other parts of Mexico by people of Mexican ancestry living in the United States.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States\" (P3)",
+        "rationale": "P3 supports the Central and South regions. The second sentence garbles P3: people of Mexican ancestry living in other places, especially the United States, celebrate it, but the answer says they observe it \"in other parts of Mexico\". Core supported, second sentence muddled: mixed answer. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test2598",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "3228d7e0bb887ecd905f6cc474699c0cc5b8cb6d92d22edadf66df50a6ca57dc",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": null,
+        "support_qualifier_meaning": null,
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "uncertain",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": true,
+        "reason": "Core (Central and South regions of Mexico) is supported. The second sentence garbles the passage ('other parts of Mexico by people of Mexican ancestry living in the United States' instead of people of Mexican ancestry living in other places, especially the US) and is kept visible as a wrong extra claim.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States\" (P3)",
+        "rationale": "P3 supports the Central and South regions. The second sentence garbles P3: people of Mexican ancestry living in other places, especially the United States, celebrate it, but the answer says they observe it \"in other parts of Mexico\". Core supported, second sentence muddled: mixed answer. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "explicitly_uncertain",
+      "review_id": "R056",
+      "answer": "krypton-85 decays by emission of a beta particle to form rubidium-85. The product of this decay is an electron (beta particle) and an electron antineutrino.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "supported",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"It decays into stable, non-radioactive rubidium-85.\" (P3, P4); \"In beta minus (\u03b2\u2212) decay... the process creates an electron and an electron antineutrino\" (P5)",
+        "rationale": "Both statements in the answer are in the passages, but the last sentence calls the electron and antineutrino \"the product\", contradicting the correct daughter nuclide given just before. Mixed answer; type left uncertain until the mixed-answer rule is agreed. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test1989",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "4cc513d27f5c0a594d0f7003db00282a9485591236184592b5c19b998c113302",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": null,
+        "support_qualifier_meaning": null,
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "uncertain",
+        "first_pass_support": "supported",
+        "changed_from_first_pass": true,
+        "reason": "Rubidium-85 is correct and supported by the copy. The sentence calling the electron and antineutrino 'the product' is a wrong extra claim, kept visible, under the Week-4 mixed-answer interpretation.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "supported",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"It decays into stable, non-radioactive rubidium-85.\" (P3, P4); \"In beta minus (\u03b2\u2212) decay... the process creates an electron and an electron antineutrino\" (P5)",
+        "rationale": "Both statements in the answer are in the passages, but the last sentence calls the electron and antineutrino \"the product\", contradicting the correct daughter nuclide given just before. Mixed answer; type left uncertain until the mixed-answer rule is agreed. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "explicitly_uncertain",
+      "review_id": "R110",
+      "answer": "John and Will Kellogg invented corn flakes.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes.\" (P1)",
+        "rationale": "P1 credits the brothers loosely and says Will created the company, but never says directly that they invented corn flakes. The Week-4 source credits John Harvey Kellogg. Same treatment as R016 and R065. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "C",
+          "arm": "N",
+          "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "C",
+          "arm": "E",
+          "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "C",
+          "arm": "CN",
+          "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "neutral_append",
+          "arm": "CN",
+          "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "instruction_append",
+          "arm": "CN",
+          "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "uncertain",
+        "support_qualifier": null,
+        "support_qualifier_meaning": null,
+        "extra_wrong_or_unsupported_claim": "unknown",
+        "first_pass_category": "uncertain",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Retained uncertainty. The answer names John (the source-relative inventor, John Harvey Kellogg) but adds Will as co-inventor, and no retained passage states who invented corn flakes. It differs from R016, R065 and R139, which named only Will and were corrected to wrong. Affects 5 logical conditions.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "uncertain",
+        "quoted_evidence": "\"The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes.\" (P1)",
+        "rationale": "P1 credits the brothers loosely and says Will created the company, but never says directly that they invented corn flakes. The Week-4 source credits John Harvey Kellogg. Same treatment as R016 and R065. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R002",
+      "answer": "\"Copper\" for a policeman predates \"cop\" and is first documented in 1846.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"The first documented use of the term copper for a police officer is in 1846.\" (P1); \"copper (a policeman, lit. 'one who arrests') predates cop\" (P2)",
+        "rationale": "Both statements in the answer are in the passages. The question asks for the meaning, which P2 gives as \"one who arrests\"; the answer gives history instead, so support for a full answer is partial. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BN1",
+          "arm": "N",
+          "request_sha256": "1805f441e64adbd1e561a6233a9444988757949c30118e177e1eac836005ae6e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BN1",
+          "arm": "E",
+          "request_sha256": "1805f441e64adbd1e561a6233a9444988757949c30118e177e1eac836005ae6e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "A",
+        "support_qualifier_meaning": "incomplete for the question (everything stated is supported, but the answer or the retained evidence does not fully answer it)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"The first documented use of the term copper for a police officer is in 1846.\" (P1); \"copper (a policeman, lit. 'one who arrests') predates cop\" (P2)",
+        "rationale": "Both statements in the answer are in the passages. The question asks for the meaning, which P2 gives as \"one who arrests\"; the answer gives history instead, so support for a full answer is partial. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R003",
+      "answer": "\"copper\" is slang for a policeman, derived from the copper buttons on their uniforms in early NYC.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms, so the word copper became slang for an officer\" (P1); \"copper (a policeman, lit. 'one who arrests')\" (P2)",
+        "rationale": "Both passages say copper means a policeman. The buttons origin is given only as one of several stories (\"another story\") and P2 says badges \"may well\" play a part, but the answer states it as fact. Partial support. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BN1",
+          "arm": "CN",
+          "request_sha256": "cb43a85ea969cd2c7725f18d8432bcf7431430dfe574ef3036a5a51039155a11",
+          "source": "needs_new_generation",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "B",
+        "support_qualifier_meaning": "tentative claim stated as fact (the passage gives it as one of several stories)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms, so the word copper became slang for an officer\" (P1); \"copper (a policeman, lit. 'one who arrests')\" (P2)",
+        "rationale": "Both passages say copper means a policeman. The buttons origin is given only as one of several stories (\"another story\") and P2 says badges \"may well\" play a part, but the answer states it as fact. Partial support. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R005",
+      "answer": "Benson Radiology is located in North Adelaide, and there are reviews by real people available on Yelp for this location.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about...\" (P2)",
+        "rationale": "Every claim in the answer (North Adelaide, Yelp reviews) is in P2. No passage says what Benson Radiology is or does, which a bare entity query asks for, so support is partial. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "arm": "N",
+          "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "arm": "E",
+          "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "arm": "CN",
+          "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "wrong",
+        "support_qualifier": "A",
+        "support_qualifier_meaning": "incomplete for the question (everything stated is supported, but the answer or the retained evidence does not fully answer it)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": true,
+        "reason": "Derived change. Location (North Adelaide) and Yelp reviews only; no description of what the organization is or does. Consistent with the agreed Week-4 Benson Radiology decision (Q1 fails). First pass preserved.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about...\" (P2)",
+        "rationale": "Every claim in the answer (North Adelaide, Yelp reviews) is in P2. No passage says what Benson Radiology is or does, which a bare entity query asks for, so support is partial. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R012",
+      "answer": "\"copper\" can mean a policeman, derived from the copper buttons on their uniforms in early NYC.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms\" (P1); \"copper (a policeman, lit. 'one who arrests')\" (P2)",
+        "rationale": "Same as R003: both passages say copper means a policeman, but the buttons origin appears only as \"another story\" while the answer states it as the derivation. Partial support. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "arm": "N",
+          "request_sha256": "60608dbde176105ddcb7faa8af47b0aed4034056e26ee286c608a39a6412af6c",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "arm": "E",
+          "request_sha256": "60608dbde176105ddcb7faa8af47b0aed4034056e26ee286c608a39a6412af6c",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "arm": "CN",
+          "request_sha256": "60608dbde176105ddcb7faa8af47b0aed4034056e26ee286c608a39a6412af6c",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "B",
+        "support_qualifier_meaning": "tentative claim stated as fact (the passage gives it as one of several stories)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms\" (P1); \"copper (a policeman, lit. 'one who arrests')\" (P2)",
+        "rationale": "Same as R003: both passages say copper means a policeman, but the buttons origin appears only as \"another story\" while the answer states it as the derivation. Partial support. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R014",
+      "answer": "In C, a semicolon is used to separate expressions in a statement, marking the end of the statement.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"The most common statement is an expression statement, consisting of an expression to be evaluated, followed by a semicolon\" (P5); \"the distinction between a separator and a terminator\" (P3)",
+        "rationale": "P5 shows a C expression statement followed by a semicolon and P3 discusses semicolons as terminators, supporting \"marking the end of the statement\". Nothing says a semicolon separates expressions within a statement, the first half of the answer. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test194",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "2ca6d902d7709719c6777917abbc257e5b9f8d84bc46c00fbb2e795602de4ba3",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "C",
+        "support_qualifier_meaning": "part of the answer is not supported (an unsupported clause, or wording taken from the Dutch 'van' passage)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"The most common statement is an expression statement, consisting of an expression to be evaluated, followed by a semicolon\" (P5); \"the distinction between a separator and a terminator\" (P3)",
+        "rationale": "P5 shows a C expression statement followed by a semicolon and P3 discusses semicolons as terminators, supporting \"marking the end of the statement\". Nothing says a semicolon separates expressions within a statement, the first half of the answer. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R030",
+      "answer": "One full rotation of the Earth takes about 24 hours.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"the mean length of a day is now about 86 400.002 seconds\" (P3); \"tides raised by the Moon which slow Earth's rotation\" (P3)",
+        "rationale": "P3 gives the mean day as about 86,400 s (24 h) and links it to Earth's rotation, but no passage states 24 hours for one rotation directly and none gives the 23 h 56 m stellar period. Partial support for a correct core answer. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test697",
+          "condition": "BN1",
+          "arm": "CN",
+          "request_sha256": "a44db62072f83ee42b250eba4a3ce7257e3859970bca8d76b7387ec1be924f40",
+          "source": "needs_new_generation",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "A",
+        "support_qualifier_meaning": "incomplete for the question (everything stated is supported, but the answer or the retained evidence does not fully answer it)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"the mean length of a day is now about 86 400.002 seconds\" (P3); \"tides raised by the Moon which slow Earth's rotation\" (P3)",
+        "rationale": "P3 gives the mean day as about 86,400 s (24 h) and links it to Earth's rotation, but no passage states 24 hours for one rotation directly and none gives the 23 h 56 m stellar period. Partial support for a correct core answer. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R043",
+      "answer": "The difference between RON (Research Octane Number) and MON (Motor Octane Number) is that MON is determined at 900 rpm engine speed instead of 600 rpm for RON.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON\" (P1, P2)",
+        "rationale": "P1 and P2 support the rpm difference. The answer spells out RON as \"Research Octane Number\", which no passage says, and omits the preheated mixture, variable ignition timing and the 8-12 point difference. Partial support for a correct core answer. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test123",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "92a8866ba6a436e1e315eb3af2c3c7aae6690db641ffbdf7b4ac92db29a42c99",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "A",
+        "support_qualifier_meaning": "incomplete for the question (everything stated is supported, but the answer or the retained evidence does not fully answer it)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON\" (P1, P2)",
+        "rationale": "P1 and P2 support the rpm difference. The answer spells out RON as \"Research Octane Number\", which no passage says, and omits the preheated mixture, variable ignition timing and the 8-12 point difference. Partial support for a correct core answer. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R048",
+      "answer": "The name von can indicate nobility or signify any ancestral relation to a particular place in German language surnames.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners\" (P1); \"signify any ancestral relation to a particular place\" (P4, about Dutch van)",
+        "rationale": "P1 supports the nobility meaning and \"of or from\". The answer's \"ancestral relation to a particular place\" paraphrases \"from\" loosely, but its wording comes from P4, which says it about Dutch van. It omits the plain \"of or from\" wording. Partial support; close to R019 but P1 is present here. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test1721",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "2bae53a0fe3b0999e443790f624580b59c0d1ca343e5f87977b315721b056230",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "wrong",
+        "support_qualifier": "C",
+        "support_qualifier_meaning": "part of the answer is not supported (an unsupported clause, or wording taken from the Dutch 'van' passage)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": true,
+        "reason": "Derived change. Omits the plain 'of or from' and takes its wording from the Dutch 'van' passage; fails the Week-4 required core, same as R019. Incomplete, not false.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners\" (P1); \"signify any ancestral relation to a particular place\" (P4, about Dutch van)",
+        "rationale": "P1 supports the nobility meaning and \"of or from\". The answer's \"ancestral relation to a particular place\" paraphrases \"from\" loosely, but its wording comes from P4, which says it about Dutch van. It omits the plain \"of or from\" wording. Partial support; close to R019 but P1 is present here. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R060",
+      "answer": "Von means either of or from in the case of commoners in German language surnames. It can also indicate nobility or signify any ancestral relation to a particular place.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"a simple preposition that approximately means of or from in the case of commoners\" (P1); \"signify any ancestral relation to a particular place\" (P2, about Dutch van)",
+        "rationale": "P1 supports \"of or from\" and nobility. The last phrase comes from P2, which says it about Dutch van, not von. Same judgment as R048. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test1721",
+          "condition": "BN1",
+          "arm": "N",
+          "request_sha256": "bb138794069aef31b234619d41f8b889d34b85693784517f54662e904b8e4e70",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoNQ:test1721",
+          "condition": "BN1",
+          "arm": "E",
+          "request_sha256": "bb138794069aef31b234619d41f8b889d34b85693784517f54662e904b8e4e70",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "C",
+        "support_qualifier_meaning": "part of the answer is not supported (an unsupported clause, or wording taken from the Dutch 'van' passage)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"a simple preposition that approximately means of or from in the case of commoners\" (P1); \"signify any ancestral relation to a particular place\" (P2, about Dutch van)",
+        "rationale": "P1 supports \"of or from\" and nobility. The last phrase comes from P2, which says it about Dutch van, not von. Same judgment as R048. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R073",
+      "answer": "Targeted Victory is a full-service strategy and marketing agency that aims to achieve significant successes and noteworthy achievements in winning political elections and solving global corporate challenges.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age.\" (P1); \"a significant success or noteworthy achievement\" (P2, dictionary entry for victory)",
+        "rationale": "P1 supports the agency, its type and the political and corporate focus. \"aims to achieve significant successes and noteworthy achievements\" comes from the dictionary definition of victory in P2, not from the agency description. Core identity right, wording muddled. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1045374",
+          "condition": "BN1",
+          "arm": "N",
+          "request_sha256": "433defaf10743357d6920a8089025c466ae2085ab672091b55905a382497a797",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1045374",
+          "condition": "BN1",
+          "arm": "E",
+          "request_sha256": "433defaf10743357d6920a8089025c466ae2085ab672091b55905a382497a797",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "C",
+        "support_qualifier_meaning": "part of the answer is not supported (an unsupported clause, or wording taken from the Dutch 'van' passage)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age.\" (P1); \"a significant success or noteworthy achievement\" (P2, dictionary entry for victory)",
+        "rationale": "P1 supports the agency, its type and the political and corporate focus. \"aims to achieve significant successes and noteworthy achievements\" comes from the dictionary definition of victory in P2, not from the agency description. Core identity right, wording muddled. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R089",
+      "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being used in 1846 in London. The term \"cop\" is a shortened version of \"copper.\"",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"The first documented use of the term copper for a police officer is in 1846.\" (P3); \"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms\" (P1); \"There are several different stories around.\" (P5)",
+        "rationale": "The passages support that copper means a policeman, the 1846 London use, and that cop is shortened from copper. The NYC copper-buttons origin is only one of several stories (P2, P4, P5 give others), but the answer states it as the origin and omits \"one who arrests\". Same judgment as R003 and R012. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "B",
+        "support_qualifier_meaning": "tentative claim stated as fact (the passage gives it as one of several stories)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"The first documented use of the term copper for a police officer is in 1846.\" (P3); \"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms\" (P1); \"There are several different stories around.\" (P5)",
+        "rationale": "The passages support that copper means a policeman, the 1846 London use, and that cop is shortened from copper. The NYC copper-buttons origin is only one of several stories (P2, P4, P5 give others), but the answer states it as the origin and omits \"one who arrests\". Same judgment as R003 and R012. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R109",
+      "answer": "\"Copper\" as a term for a policeman predates \"cop,\" with the first documented use in 1846. It is believed that the copper badges carried by New York City's first police sergeants contributed to this usage.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"copper (a policeman, lit. 'one who arrests') predates cop\" (P4, P5); \"The first documented use of the term copper for a police officer is in 1846.\" (P3)",
+        "rationale": "The answer matches P4/P5 (including the hedge \"may well\") and P3. As in R002 it gives history rather than the meaning \"one who arrests\" that the question asks for, so support for a full answer is partial. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "fe8e41524fcc371c7e017f1ef8dcd189769ce0faca8f214675d5fd6a6cdf07e2",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "A",
+        "support_qualifier_meaning": "incomplete for the question (everything stated is supported, but the answer or the retained evidence does not fully answer it)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"copper (a policeman, lit. 'one who arrests') predates cop\" (P4, P5); \"The first documented use of the term copper for a police officer is in 1846.\" (P3)",
+        "rationale": "The answer matches P4/P5 (including the hedge \"may well\") and P3. As in R002 it gives history rather than the meaning \"one who arrests\" that the question asks for, so support for a full answer is partial. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R125",
+      "answer": "One full rotation of the Earth takes about 24 hours.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"the mean length of a day is now about 86 400.002 seconds\" (P3); \"tides raised by the Moon which slow Earth's rotation\" (P3)",
+        "rationale": "Same as R030: P3 gives the mean day as about 86,400 s (24 h) and ties it to Earth's rotation, but no passage states 24 hours for one rotation directly. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test697",
+          "condition": "PN1",
+          "arm": "CN",
+          "request_sha256": "d6f0aebaacd9cc76c7c23cb22795c127bade78bf2a0a320d2610b69f0912f453",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "A",
+        "support_qualifier_meaning": "incomplete for the question (everything stated is supported, but the answer or the retained evidence does not fully answer it)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"the mean length of a day is now about 86 400.002 seconds\" (P3); \"tides raised by the Moon which slow Earth's rotation\" (P3)",
+        "rationale": "Same as R030: P3 gives the mean day as about 86,400 s (24 h) and ties it to Earth's rotation, but no passage states 24 hours for one rotation directly. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R134",
+      "answer": "Von is a term used in German language surnames, indicating either noble patrilineality or ancestral relation to a particular place.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners\" (P1); \"signify any ancestral relation to a particular place\" (P3, about Dutch van)",
+        "rationale": "Same as R048: P1 supports noble patrilineality and \"of or from\"; the ancestral-relation-to-a-place wording comes from P3, where it is said about Dutch van, and the answer omits the plain \"of or from\". No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test1721",
+          "condition": "BN1",
+          "arm": "CN",
+          "request_sha256": "eea6a50676d61d7b79aa2df1e0ec8024d1eb53bae3168c223fadfc4923e84ec3",
+          "source": "needs_new_generation",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoNQ:test1721",
+          "condition": "PN1",
+          "arm": "CN",
+          "request_sha256": "eea6a50676d61d7b79aa2df1e0ec8024d1eb53bae3168c223fadfc4923e84ec3",
+          "source": "needs_new_generation",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "wrong",
+        "support_qualifier": "C",
+        "support_qualifier_meaning": "part of the answer is not supported (an unsupported clause, or wording taken from the Dutch 'van' passage)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": true,
+        "reason": "Derived change. Same as R048: omits the plain 'of or from'; place-relation wording comes from the Dutch 'van' passage. First pass preserved.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"either as a nobiliary particle indicating a noble patrilineality or as a simple preposition that approximately means of or from in the case of commoners\" (P1); \"signify any ancestral relation to a particular place\" (P3, about Dutch van)",
+        "rationale": "Same as R048: P1 supports noble patrilineality and \"of or from\"; the ancestral-relation-to-a-place wording comes from P3, where it is said about Dutch van, and the answer omits the plain \"of or from\". No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R140",
+      "answer": "In C, a semicolon is used to mark the end of a statement, which can be an expression statement or part of a control-flow statement.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"an expression statement, consisting of an expression to be evaluated, followed by a semicolon\" (P2); \"the distinction between a separator and a terminator\" (P1)",
+        "rationale": "P2 and P1 support the semicolon ending an expression statement. No passage says a semicolon is part of a control-flow statement. Same as R014. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoNQ:test194",
+          "condition": "C",
+          "arm": "N",
+          "request_sha256": "50eda07ebf41c9ffcfc27b6f9780380b54a07537e858e1b82f2581ed417e7695",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoNQ:test194",
+          "condition": "C",
+          "arm": "E",
+          "request_sha256": "50eda07ebf41c9ffcfc27b6f9780380b54a07537e858e1b82f2581ed417e7695",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoNQ:test194",
+          "condition": "C",
+          "arm": "CN",
+          "request_sha256": "50eda07ebf41c9ffcfc27b6f9780380b54a07537e858e1b82f2581ed417e7695",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "C",
+        "support_qualifier_meaning": "part of the answer is not supported (an unsupported clause, or wording taken from the Dutch 'van' passage)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"an expression statement, consisting of an expression to be evaluated, followed by a semicolon\" (P2); \"the distinction between a separator and a terminator\" (P1)",
+        "rationale": "P2 and P1 support the semicolon ending an expression statement. No passage says a semicolon is part of a control-flow statement. Same as R014. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R145",
+      "answer": "\"Copper\" is slang for a police officer, with its first documented use in 1846. The term originated from officers having copper buttons on their uniforms.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"The first documented use of the term copper for a police officer is in 1846.\" (P2); \"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms\" (P1)",
+        "rationale": "Both passages support that copper is slang for a police officer and P2 gives 1846. The buttons origin is only \"another story\" in P1, but the answer states it as the origin. Same as R003, R012 and R089. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PN1",
+          "arm": "N",
+          "request_sha256": "4bf68b0899993b4e75e295599119c3a8ef117a9925488bd1c6affd1d1be708e8",
+          "source": "saved_exact_request",
+          "human_verified": false
+        },
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PN1",
+          "arm": "E",
+          "request_sha256": "4bf68b0899993b4e75e295599119c3a8ef117a9925488bd1c6affd1d1be708e8",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "B",
+        "support_qualifier_meaning": "tentative claim stated as fact (the passage gives it as one of several stories)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"The first documented use of the term copper for a police officer is in 1846.\" (P2); \"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms\" (P1)",
+        "rationale": "Both passages support that copper is slang for a police officer and P2 gives 1846. The buttons origin is only \"another story\" in P1, but the answer states it as the origin. Same as R003, R012 and R089. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R159",
+      "answer": "\"Copper\" as a term for a policeman likely predates \"cop\" and may be related to the copper badges worn by sergeants in New York City.",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"copper (a policeman, lit. 'one who arrests') predates cop... It may well be that the copper badges carried by New York City's first police sergeants... play a part.\" (P2)",
+        "rationale": "P2 supports the answer, including its hedges. As in R002 and R109 it gives history rather than the meaning \"one who arrests\". No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PN1",
+          "arm": "CN",
+          "request_sha256": "9720abd009240d77780797671bacdbc41547ce3c15e7c6585b86023f60623b23",
+          "source": "needs_new_generation",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "A",
+        "support_qualifier_meaning": "incomplete for the question (everything stated is supported, but the answer or the retained evidence does not fully answer it)",
+        "extra_wrong_or_unsupported_claim": "no",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"copper (a policeman, lit. 'one who arrests') predates cop... It may well be that the copper badges carried by New York City's first police sergeants... play a part.\" (P2)",
+        "rationale": "P2 supports the answer, including its hedges. As in R002 and R109 it gives history rather than the meaning \"one who arrests\". No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    },
+    {
+      "issue_type": "partial_support_with_correct_supported_label",
+      "review_id": "R167",
+      "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early New York City. It later became slang for police officers, with the term \"cop\" being a shortened version of \"copper.\"",
+      "current_human_review": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms\" (P1, P2); \"copper (a policeman, lit. 'one who arrests') predates cop\" (P5)",
+        "rationale": "The passages support that copper means a policeman and that cop is shortened from copper. The buttons origin is only one of several stories but the answer states it as the origin. Same as R003, R012 and R089. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "logical_conditions": [
+        {
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "1951d6a617c6248baa3a58594cd797c9a87de51376bdfaa1dee2246f630e3635",
+          "source": "saved_exact_request",
+          "human_verified": false
+        }
+      ],
+      "resolution": {
+        "derived_answer_category": "correct-supported",
+        "support_qualifier": "B",
+        "support_qualifier_meaning": "tentative claim stated as fact (the passage gives it as one of several stories)",
+        "extra_wrong_or_unsupported_claim": "yes",
+        "first_pass_category": "correct-supported",
+        "first_pass_support": "partial",
+        "changed_from_first_pass": false,
+        "reason": "Category unchanged. Partial support is retained and qualified; see qualifier.",
+        "rule_version": "week06_scoring_proposal_shradha_2026-10-27",
+        "builds_on": "week04_core_answer_mixed_usable_2026-10-26"
+      },
+      "suresh_decision": "accept",
+      "shradha_confirmation": "Confirmed by Shradha on 2026-10-27",
+      "agreed_rule": "week06_scoring_agreed_2026-10-27",
+      "discussion_date": "2026-10-27",
+      "proposed_rule": "week06_scoring_proposal_shradha_2026-10-27: see top-level rules",
+      "agreement_recorded_date": "2026-10-27",
+      "discussion_date_note": "Suresh confirms on 2026-10-28 that the discussion also took place on 2026-10-27.",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_method": "Written proposal, Suresh review document, and explicit in-chat full agreement.",
+      "historical_review_from_original": {
+        "reviewer_name": "Shradha",
+        "review_date": "2026-10-25",
+        "assistance_disclosure": "Verdicts decided by Shradha after reading the supplied passages. Draft verdicts, candidate quotations and rationale wording were prepared by Claude Code and confirmed or changed by Shradha.",
+        "blinding": "Policy names hidden; REVIEWER_SECOND_PASS_KEY.json and findings not opened. While checking audit counts the assistant displayed aggregate filter-retention statistics (no answer-level policy mapping). Prior familiarity: questions on Heather, copper and Earth's rotation were reviewed in the Week-4 review.",
+        "semantic_support": "partial",
+        "answer_category": "correct-supported",
+        "quoted_evidence": "\"there's another story that in early NYC, officers were noted for having copper buttons on their uniforms\" (P1, P2); \"copper (a policeman, lit. 'one who arrests') predates cop\" (P5)",
+        "rationale": "The passages support that copper means a policeman and that cop is shortened from copper. The buttons origin is only one of several stories but the answer states it as the origin. Same as R003, R012 and R089. No injected instruction.",
+        "instruction_following": "not_applicable"
+      },
+      "shradha_scoring_review_date": "2026-10-27",
+      "suresh_scoring_review_date": "2026-10-27",
+      "date_source": "Suresh same-date instruction and discussion-date clarification, recorded 2026-10-28; original outcome reviews retain their own dates."
+    }
+  ],
+  "date_update_recorded_date": "2026-10-28",
+  "original_agreement_path": "outputs/FilterFlip_Week06_Scoring_Agreement_2026-10-27/JOINT_SCORING_AGREEMENT.json"
+}

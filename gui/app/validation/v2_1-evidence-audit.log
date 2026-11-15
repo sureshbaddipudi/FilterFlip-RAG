@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "runs": [
+    {
+      "run_id": "7bb2c075ba9b4a98a6cee3040764bb2f",
+      "mode": "challenge",
+      "raw_job_status": "running",
+      "effective_disposition": "interrupted (see separate record)",
+      "attempts_begun": 1,
+      "saved_responses": 0,
+      "elapsed_seconds": null
+    },
+    {
+      "run_id": "8bdd72c0dbc549949d313345d4dbc536",
+      "mode": "challenge",
+      "raw_job_status": "running",
+      "effective_disposition": "interrupted (see separate record)",
+      "attempts_begun": 2,
+      "saved_responses": 1,
+      "elapsed_seconds": null
+    },
+    {
+      "run_id": "adda87f4a34f4011941dd08b81ac9c33",
+      "mode": "mitigation",
+      "raw_job_status": "completed",
+      "effective_disposition": "completed",
+      "attempts_begun": 4,
+      "saved_responses": 4,
+      "elapsed_seconds": 212.883
+    },
+    {
+      "run_id": "b130eb82126b4e1a9935bccdf32702d8",
+      "mode": "original",
+      "raw_job_status": "completed",
+      "effective_disposition": "completed",
+      "attempts_begun": 4,
+      "saved_responses": 4,
+      "elapsed_seconds": 305.025
+    }
+  ],
+  "total_attempts_begun": 11,
+  "saved_responses": 9,
+  "policy_contexts": 322,
+  "policy_mappings": 1288,
+  "scope": "Raw response/request consistency and offline policy adapter parity using saved native decisions. Not new inference, semantic adjudication or proof of process termination."
+}

@@ -1,0 +1,39 @@
+{
+  "source_reference_manifest_sha256": "c85b0ac90348423a186bbb0c70816f119ce1b1d15811d58cdd83edcd2cb136ad",
+  "component_environment": {
+    "versions": {
+      "torch": "2.8.0+cpu",
+      "transformers": "4.51.3",
+      "numpy": "2.4.6",
+      "scikit-learn": "1.9.1",
+      "nltk": "3.9.2",
+      "rouge-score": "0.1.2"
+    },
+    "device": "cpu",
+    "dtype": "torch.float32",
+    "threads": 4,
+    "seed": 12,
+    "attention": "eager",
+    "tokenizer_max_length": 512,
+    "model_revision": "2d82fab19ac3a73a20dd20333d27eb8a52d6e97f"
+  },
+  "adapter": {
+    "source_sha256": "9c3e79600525756c1938f64f14cb1cfae3961c0a108d04ff6eec1a487634832d",
+    "original_function_sha256": {
+      "get_sentence_embedding": "074df5a719020ad2c13a1d38510a73f4e4885403cb5539c3f382ba3cfa24f80e",
+      "calculate_similarity": "d6c86140c3755fbe67a2710c05f474c65afef6f72f4aa6ba25bcf6516eb53087",
+      "calculate_pairwise_rouge": "e850015ca0f39aadadf8bac06d7db7870126798e1ab7d37ffee550c7f8be085b",
+      "calculate_pairwise_bleu": "a3282e2cd37b0d33a5a7e1867faa13dab96c6412002b85d088205a01219c97d9",
+      "calculate_average_score": "09b5958dbeb879c7699dbca6d73fcc3c42add27db5bce85259d4b90c4b7501b0",
+      "group_n_gram_filtering": "f8f21e38de1e15a4cf2c67638fa23913795359bf9a521085f85cbcc317a5214d",
+      "k_mean_filtering": "1be472723e12b34f1311e37d996d97b5d31cc3627698cbecb962b4b3c6b85500"
+    },
+    "change": "Only get_sentence_embedding input placement: .cuda() -> .to(\"cpu\"). No filter-function edits.",
+    "loader": "Compile seven original function ASTs, excluding unrelated application imports.",
+    "numerical_gpu_equivalence_tested": false,
+    "labels_not_used": true
+  },
+  "original_context_sha256": "c6ce7760e6d2fb8d65d863f2d23097b875a7262aa74400afdc29da909d2d6331",
+  "original_embeddings_sha256": "08b269ace94776febb44384c98e117078bae7967ceca83d880795c8d73b482e4",
+  "scope": "Fixed original five-passage contexts and saved Contriever CPU embeddings; fresh original clustering/ngram filter; fresh Qwen. Native output order retained. No review labels or saved answers enter the filter/generator."
+}

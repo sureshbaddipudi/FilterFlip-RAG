@@ -1,0 +1,105 @@
+test_all_531_saved_contexts_and_2124_logical_answer_panel_positions (test_all_conditions.StudyTests.test_all_531_saved_contexts_and_2124_logical_answer_panel_positions) ... ok
+test_all_nine_real_manager_worker_arguments (test_all_conditions.StudyTests.test_all_nine_real_manager_worker_arguments) ... ok
+test_live_plan_all_nine_and_legacy_bounds (test_all_conditions.StudyTests.test_live_plan_all_nine_and_legacy_bounds) ... ok
+test_new_configuration_is_external_and_never_overwrites (test_all_conditions.StudyTests.test_new_configuration_is_external_and_never_overwrites) ... ok
+test_real_http_serves_all_cases_without_starting_worker (test_all_conditions.StudyTests.test_real_http_serves_all_cases_without_starting_worker) ... ERROR
+test_study_paths_cannot_be_browser_paths (test_all_conditions.StudyTests.test_study_paths_cannot_be_browser_paths) ... ok
+test_truncated_and_cross_record_uncertainty_preserved (test_all_conditions.StudyTests.test_truncated_and_cross_record_uncertainty_preserved) ... ok
+test_cancel_and_second_job_refusal (test_lifecycle.LifecycleTests.test_cancel_and_second_job_refusal) ... ok
+test_failed_worker_does_not_become_completed (test_lifecycle.LifecycleTests.test_failed_worker_does_not_become_completed) ... ok
+test_resource_limit_preserves_partial_output (test_lifecycle.LifecycleTests.test_resource_limit_preserves_partial_output) ... ok
+test_timeout_becomes_terminal (test_lifecycle.LifecycleTests.test_timeout_becomes_terminal) ... ok
+test_frozen_request (test_live.ControlTests.test_frozen_request) ... ok
+test_invalid_run_paths (test_live.ControlTests.test_invalid_run_paths) ... ok
+test_no_arbitrary_browser_arguments (test_live.ControlTests.test_no_arbitrary_browser_arguments) ... ok
+test_owned_process_cancellation (test_live.ControlTests.test_owned_process_cancellation) ... ok
+test_truncation_not_success (test_live.ControlTests.test_truncation_not_success) ... ok
+setUpClass (test_live.HTTPTests) ... ERROR
+test_atomic_write_symlink_and_permissions (test_security.StrictInputTests.test_atomic_write_symlink_and_permissions) ... ok
+test_duplicate_and_nonfinite_json (test_security.StrictInputTests.test_duplicate_and_nonfinite_json) ... ok
+test_native_out_of_range_duplicate_indices (test_security.StrictInputTests.test_native_out_of_range_duplicate_indices) ... ok
+test_no_redirect (test_security.StrictInputTests.test_no_redirect) ... ok
+test_primary_backend_error_not_hidden (test_security.StrictInputTests.test_primary_backend_error_not_hidden) ... ok
+test_read_symlink_and_oversized (test_security.StrictInputTests.test_read_symlink_and_oversized) ... ok
+test_release_tampering_is_rejected (test_security.StrictInputTests.test_release_tampering_is_rejected) ... ok
+test_request_settings_frozen (test_security.StrictInputTests.test_request_settings_frozen) ... ok
+test_singleton_bypass_is_explicit (test_security.StrictInputTests.test_singleton_bypass_is_explicit) ... ok
+test_supported_selection (test_security.StrictInputTests.test_supported_selection) ... ok
+test_terminal_snapshot_retains_original_worker (test_security.StrictInputTests.test_terminal_snapshot_retains_original_worker) ... ok
+test_unauthorized_modes_and_fields (test_security.StrictInputTests.test_unauthorized_modes_and_fields) ... ok
+test_owned_descendant_listener_is_closed (test_security.ProcessTests.test_owned_descendant_listener_is_closed) ... Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+ERROR
+test_private_run_folder_required (test_security.ProcessTests.test_private_run_folder_required) ... ok
+setUpClass (test_security.ExtraHTTPTests) ... ERROR
+
+======================================================================
+ERROR: test_real_http_serves_all_cases_without_starting_worker (test_all_conditions.StudyTests.test_real_http_serves_all_cases_without_starting_worker)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/tests/test_all_conditions.py", line 57, in test_real_http_serves_all_cases_without_starting_worker
+    s=server.Server(src,0);thread=threading.Thread(target=s.serve_forever,daemon=True);thread.start()
+      ^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/server.py", line 116, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: setUpClass (test_live.HTTPTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/tests/test_live.py", line 12, in setUpClass
+    with patch.object(server,'Manager',return_value=cls.m):cls.s=server.Server('unused',0)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/server.py", line 116, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_owned_descendant_listener_is_closed (test_security.ProcessTests.test_owned_descendant_listener_is_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/tests/test_security.py", line 93, in test_owned_descendant_listener_is_closed
+    port=json.loads(info.read_text())['port'];s=socket.create_connection(('127.0.0.1',port),timeout=1);s.close()
+                    ^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/work/gui_v2_6_1_identity_2026-11-05/tmp/tmppu9z54ef/listener.json'
+
+======================================================================
+ERROR: setUpClass (test_security.ExtraHTTPTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/tests/test_live.py", line 12, in setUpClass
+    with patch.object(server,'Manager',return_value=cls.m):cls.s=server.Server('unused',0)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_6_1_Identity_Fixes_2026-11-05/app/server.py", line 116, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+----------------------------------------------------------------------
+Ran 30 tests in 10.875s
+
+FAILED (errors=4)

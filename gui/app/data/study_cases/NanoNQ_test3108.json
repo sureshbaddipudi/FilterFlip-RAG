@@ -1,0 +1,2853 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test3108",
+    "dataset": "NanoNQ",
+    "question": "who talks for belle in beauty and the beast",
+    "source_family": "NanoNQ:test3108",
+    "review_status": "assistant_only",
+    "target_document_id": "doc106332",
+    "expected_answer": "Paige O'Hara",
+    "answer_aliases": [
+      "Paige O’Hara"
+    ],
+    "support_quote": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure.",
+    "source_qualification": "The original voice of Belle in Disney's 1991 animated film, not another adaptation.",
+    "qrel_document_ids": [
+      "doc106332"
+    ],
+    "family_reference_texts": [
+      "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test3108",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc106332",
+    "expected_answer": "Paige O'Hara",
+    "answer_aliases": [
+      "Paige O’Hara"
+    ],
+    "support_quote": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure.",
+    "source_qualification": "The original voice of Belle in Disney's 1991 animated film, not another adaptation.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test3108",
+    "dataset": "NanoNQ",
+    "question": "who talks for belle in beauty and the beast",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test3108",
+      "dataset": "NanoNQ",
+      "question": "who talks for belle in beauty and the beast",
+      "expected_answer": "Paige O'Hara",
+      "source_qualification": "The original voice of Belle in Disney's 1991 animated film, not another adaptation.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Sufficient support retained",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "sufficient_PN1_evidence_retained",
+      "historical_rationale": "The retained original and copy explicitly say Paige O'Hara voiced Belle. The model nevertheless says Paige Howard. This is an answer error with evidence retained, not complete evidence loss.",
+      "current_assistant_rationale": "The retained original and copy explicitly say Paige O'Hara voiced Belle. The model nevertheless says Paige Howard. This is an answer error with evidence retained, not complete evidence loss.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/26",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/26",
+      "review_priority": 3,
+      "sample_reason": "Evidence retained despite wrong generated answer",
+      "evidence_file": "evidence/NanoNQ_test3108.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 235,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 157,
+              "call_id": "NanoNQ:test3108__C__unfiltered",
+              "request_sha256": "f0cfe72a7729ad254906127873b6e3f3ecb2bd4d50467d705eac84001cb66864"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 158,
+              "call_id": "NanoNQ:test3108__C__filtered",
+              "request_sha256": "875d62ce32819805fc71fc0b7fe8d52d170d3ce663ddee4ba2e3c1255a090dcf"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 236,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 159,
+              "call_id": "NanoNQ:test3108__BN1__unfiltered",
+              "request_sha256": "7a1f89cb5c8464bea159921f5aff2ba4dcfa57110681d407c403c5ec9c627a1b"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 160,
+              "call_id": "NanoNQ:test3108__BN1__filtered",
+              "request_sha256": "f6b738f65b1df204e5dc8ed9a0f9d322f8045c8d95c37c3e3b39c58a41228a0a"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 238,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 161,
+              "call_id": "NanoNQ:test3108__PN1__unfiltered",
+              "request_sha256": "7932e7b01df746a97165a1888650aedf2ff2e925d71cdc0b97f665c62a42d84c"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 162,
+              "call_id": "NanoNQ:test3108__PN1__filtered",
+              "request_sha256": "f529d8f106d420c839e20c6d80cdb33d6b5d3a3d88a403f8673590c7f624fc66"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test3108",
+      "Question": "who talks for belle in beauty and the beast",
+      "Evidence packet": "evidence/NanoNQ_test3108.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "no",
+      "PN1 filtered answer category": "wrong",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: C P1 doc106332 kept (\"Originally voiced by ... Paige O'Hara\"); filtered answer Paige O'Hara. Q2: PN1 P2 copy of doc106332. Q3: Paige O'Hara. Q4: NO - P1 and its copy P2 both kept. Q5: \"Paige Howard\" - wrong despite retained evidence (generation error). Q6: BN1 includes Paige O'Hara with an extra Penelope Cruz clause.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (not an event: evidence retained; wrong answer is not filter-induced).",
+      "workbook_row": 18,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "question": "who talks for belle in beauty and the beast",
+        "expected_answer": "Paige O'Hara",
+        "source_qualification": "The original voice of Belle in Disney's 1991 animated film, not another adaptation.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Not a strict event",
+        "reason_group": "Sufficient support retained",
+        "historical_decision": "not_strict_event",
+        "historical_reason_code": "sufficient_PN1_evidence_retained",
+        "historical_rationale": "The retained original and copy explicitly say Paige O'Hara voiced Belle. The model nevertheless says Paige Howard. This is an answer error with evidence retained, not complete evidence loss.",
+        "current_assistant_rationale": "The retained original and copy explicitly say Paige O'Hara voiced Belle. The model nevertheless says Paige Howard. This is an answer error with evidence retained, not complete evidence loss.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/26",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/26",
+        "review_priority": 3,
+        "sample_reason": "Evidence retained despite wrong generated answer",
+        "evidence_file": "evidence/NanoNQ_test3108.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 235,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 157,
+                "call_id": "NanoNQ:test3108__C__unfiltered",
+                "request_sha256": "f0cfe72a7729ad254906127873b6e3f3ecb2bd4d50467d705eac84001cb66864"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 158,
+                "call_id": "NanoNQ:test3108__C__filtered",
+                "request_sha256": "875d62ce32819805fc71fc0b7fe8d52d170d3ce663ddee4ba2e3c1255a090dcf"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 236,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 159,
+                "call_id": "NanoNQ:test3108__BN1__unfiltered",
+                "request_sha256": "7a1f89cb5c8464bea159921f5aff2ba4dcfa57110681d407c403c5ec9c627a1b"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 160,
+                "call_id": "NanoNQ:test3108__BN1__filtered",
+                "request_sha256": "f6b738f65b1df204e5dc8ed9a0f9d322f8045c8d95c37c3e3b39c58a41228a0a"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 238,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 161,
+                "call_id": "NanoNQ:test3108__PN1__unfiltered",
+                "request_sha256": "7932e7b01df746a97165a1888650aedf2ff2e925d71cdc0b97f665c62a42d84c"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 162,
+                "call_id": "NanoNQ:test3108__PN1__filtered",
+                "request_sha256": "f529d8f106d420c839e20c6d80cdb33d6b5d3a3d88a403f8673590c7f624fc66"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test3108",
+    "question": "who talks for belle in beauty and the beast",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test3108"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": true
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7395546436309814,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7393052577972412,
+          "kept": false
+        },
+        {
+          "chunk_id": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc703714",
+          "instance_key": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle debuted in Beauty and the Beast (1991) as a beautiful bibliophile[94][95] who, although praised by her fellow villagers for her unrivaled beauty, is at the same time ridiculed for her intelligence and non-conformity. Having grown weary of her uneventful provincial life, in which she is relentlessly romantically pursued by an arrogant hunter named Gaston, Belle longs for adventure. After her father's horse returns without its rider, she willingly ventures into the woods in search of her father. She persuades the Beast that she will trade her own freedom in return for her father's, since her father is ill in the dungeon, promising to remain with the Beast in his castle among his staff of enchanted objects forever. Belle's curiosity leads her to the forbidden west wing where she discovers an enchanted rose without realizing that it is tied to the Beast's fate; and the Beast's rage at her trespassing causes her to flee the castle on horseback. Belle is pursued by wolves in the woods but they are driven off by the Beast, afterwards Belle helps the injured Beast back to the castle and nurses him back to",
+          "text_sha256": "a6acca59d41f78a1c1b7847532648fc569391d8ad119330872cebff36c0e67bb",
+          "char_start": 0,
+          "char_end": 1120,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7192802429199219,
+          "kept": true
+        },
+        {
+          "chunk_id": "640751a861be441e5ed0dbdb42ddd541e20e8faea029f23803af53e9b74da5d4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc703706",
+          "instance_key": "640751a861be441e5ed0dbdb42ddd541e20e8faea029f23803af53e9b74da5d4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Since the November 1991 release of Beauty and the Beast, O'Hara has returned to The Walt Disney Company on several occasions to voice Belle in a variety of media and merchandise, including its direct-to-video sequels Beauty and the Beast: The Enchanted Christmas (1997), Belle's Magical World (1998) and Belle's Tales of Friendship (1999), as well as various video game releases such as the Kingdom Hearts series and several audio and video recordings associated with the Disney Princess franchise.[32] Additionally, O'Hara was hired by Disney to perform the song \"Belle\" at the 64th Academy Awards in 1992.[48] O'Hara has referred to the studio as her \"main employer for 20 years\".[49] In 2011,[50] O'Hara was officially replaced by actress Julie Nathanson, who first voiced Belle in the video game Kinect Disneyland Adventures (2011).[51][52][53] O'Hara revealed to the Las Vegas Review-Journal that news of the replacement greatly upset her to the point of which she was willing to re-record much of Belle's dialogue in an attempt to prove to the company",
+          "text_sha256": "c26a2558718b49a5600d7973e7652d548eac4892c523646933a8dd273ef41446",
+          "char_start": 0,
+          "char_end": 1057,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7021816968917847,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9993468397826746,
+          0.9993468397826746,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9993468397826746,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.17609304189682007,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9996733665466309
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8235803246498108
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8234438896179199
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7864623069763184
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7724780440330505
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7550048828125
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.753472089767456
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6848001480102539
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6841437816619873
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.654281497001648
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__C__unfiltered",
+          "request_sha256": "f0cfe72a7729ad254906127873b6e3f3ecb2bd4d50467d705eac84001cb66864",
+          "reference": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series. Julie Nathanson voices Belle in the video game Kinect Disneyland Adventures.",
+            "first_call_id": "NanoNQ:test3108__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Penélope Cruz and Jeff Bridges voiced Belle in Beauty and the Beast. Paige O'Hara originally voiced Belle in the 1991 film.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__C__filtered",
+          "request_sha256": "875d62ce32819805fc71fc0b7fe8d52d170d3ce663ddee4ba2e3c1255a090dcf",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": true
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7395546436309814,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7393052577972412,
+          "kept": false
+        },
+        {
+          "chunk_id": "0b78816c6f33be6038368b9496afb48875546438cf34a97859bc44e9c33360d1:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/BN/1",
+          "instance_key": "0b78816c6f33be6038368b9496afb48875546438cf34a97859bc44e9c33360d1",
+          "chunk_index": 1,
+          "copied_from": "doc106372",
+          "copy_number": 1,
+          "text": "had to let it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "5ddd522a4ec37c382adaf03da90adb303ea3316b92a502388a0480569b164336",
+          "char_start": 805,
+          "char_end": 1849,
+          "tokens_with_specials": 240,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7203278541564941,
+          "kept": true
+        },
+        {
+          "chunk_id": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc703714",
+          "instance_key": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle debuted in Beauty and the Beast (1991) as a beautiful bibliophile[94][95] who, although praised by her fellow villagers for her unrivaled beauty, is at the same time ridiculed for her intelligence and non-conformity. Having grown weary of her uneventful provincial life, in which she is relentlessly romantically pursued by an arrogant hunter named Gaston, Belle longs for adventure. After her father's horse returns without its rider, she willingly ventures into the woods in search of her father. She persuades the Beast that she will trade her own freedom in return for her father's, since her father is ill in the dungeon, promising to remain with the Beast in his castle among his staff of enchanted objects forever. Belle's curiosity leads her to the forbidden west wing where she discovers an enchanted rose without realizing that it is tied to the Beast's fate; and the Beast's rage at her trespassing causes her to flee the castle on horseback. Belle is pursued by wolves in the woods but they are driven off by the Beast, afterwards Belle helps the injured Beast back to the castle and nurses him back to",
+          "text_sha256": "a6acca59d41f78a1c1b7847532648fc569391d8ad119330872cebff36c0e67bb",
+          "char_start": 0,
+          "char_end": 1120,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7192802429199219,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9993468397826746,
+          0.9993468397826746,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9993468397826746,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.029778242111206055,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9996733665466309
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9698951244354248
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9696040153503418
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7864623069763184
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7550048828125
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.753472089767456
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.746323823928833
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.706754207611084
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6848001480102539
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6841437816619873
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__BN1__unfiltered",
+          "request_sha256": "7a1f89cb5c8464bea159921f5aff2ba4dcfa57110681d407c403c5ec9c627a1b",
+          "reference": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series. Jeff Bridges poses as the Beast.",
+            "first_call_id": "NanoNQ:test3108__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series, but it was American actress and singer Paige O'Hara who voiced Belle in the original film.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__BN1__filtered",
+          "request_sha256": "f6b738f65b1df204e5dc8ed9a0f9d322f8045c8d95c37c3e3b39c58a41228a0a",
+          "reference": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series, but American actress Paige O'Hara voiced Belle in the original film.",
+            "first_call_id": "NanoNQ:test3108__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": true
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7395546436309814,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7393052577972412,
+          "kept": true
+        },
+        {
+          "chunk_id": "0b78816c6f33be6038368b9496afb48875546438cf34a97859bc44e9c33360d1:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/BN/1",
+          "instance_key": "0b78816c6f33be6038368b9496afb48875546438cf34a97859bc44e9c33360d1",
+          "chunk_index": 1,
+          "copied_from": "doc106372",
+          "copy_number": 1,
+          "text": "had to let it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "5ddd522a4ec37c382adaf03da90adb303ea3316b92a502388a0480569b164336",
+          "char_start": 805,
+          "char_end": 1849,
+          "tokens_with_specials": 240,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7203278541564941,
+          "kept": false
+        },
+        {
+          "chunk_id": "24d59ec4b81cc0855802aa423b8ef110716b9b3a3f374c49961d31ab1f9630c7:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/BN/2",
+          "instance_key": "24d59ec4b81cc0855802aa423b8ef110716b9b3a3f374c49961d31ab1f9630c7",
+          "chunk_index": 1,
+          "copied_from": "doc106372",
+          "copy_number": 2,
+          "text": "had to let it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "5ddd522a4ec37c382adaf03da90adb303ea3316b92a502388a0480569b164336",
+          "char_start": 808,
+          "char_end": 1852,
+          "tokens_with_specials": 240,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7203278541564941,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.00032657384872436523,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9996734261512756
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9698950052261353
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9698950052261353
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9696038961410522
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.9696038961410522
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7550048232078552
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.753472089767456
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.746323823928833
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.746323823928833
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__BN2__unfiltered",
+          "request_sha256": "cda51342bcb844d0ffdcfcdbd5b4c3be7604d7fd934e1b35b543eac9974e328b",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__BN2__filtered",
+          "request_sha256": "6276cd7f070968830d3744fd4df41ee41ae4da8e6d068819c8601755bdd3181e",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": true
+        },
+        {
+          "chunk_id": "c5f041f16d3b9d9f855d25a95a7b803eb634ec3d8c35277328168e5197b7674a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/PN/1",
+          "instance_key": "c5f041f16d3b9d9f855d25a95a7b803eb634ec3d8c35277328168e5197b7674a",
+          "chunk_index": 0,
+          "copied_from": "doc106332",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBelle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "94c017728d8ce33d649370b98f1b8ccd5fac979ab8fe7df5eb7a4f6a3959a569",
+          "char_start": 0,
+          "char_end": 533,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7548648715019226,
+          "kept": true
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7395546436309814,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7393052577972412,
+          "kept": false
+        },
+        {
+          "chunk_id": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc703714",
+          "instance_key": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle debuted in Beauty and the Beast (1991) as a beautiful bibliophile[94][95] who, although praised by her fellow villagers for her unrivaled beauty, is at the same time ridiculed for her intelligence and non-conformity. Having grown weary of her uneventful provincial life, in which she is relentlessly romantically pursued by an arrogant hunter named Gaston, Belle longs for adventure. After her father's horse returns without its rider, she willingly ventures into the woods in search of her father. She persuades the Beast that she will trade her own freedom in return for her father's, since her father is ill in the dungeon, promising to remain with the Beast in his castle among his staff of enchanted objects forever. Belle's curiosity leads her to the forbidden west wing where she discovers an enchanted rose without realizing that it is tied to the Beast's fate; and the Beast's rage at her trespassing causes her to flee the castle on horseback. Belle is pursued by wolves in the woods but they are driven off by the Beast, afterwards Belle helps the injured Beast back to the castle and nurses him back to",
+          "text_sha256": "a6acca59d41f78a1c1b7847532648fc569391d8ad119330872cebff36c0e67bb",
+          "char_start": 0,
+          "char_end": 1120,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7192802429199219,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        4
+      ],
+      "removed_indices": [
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.9993468397826746,
+          0.9993468397826746,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.9993468397826746,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00691831111907959,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9996733665466309
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9927550554275513
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7864623069763184
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7710986733436584
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7550048828125
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.753472089767456
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7486092448234558
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.747171938419342
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6848001480102539
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6841437816619873
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__PN1__unfiltered",
+          "request_sha256": "7932e7b01df746a97165a1888650aedf2ff2e925d71cdc0b97f665c62a42d84c",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__PN1__filtered",
+          "request_sha256": "f529d8f106d420c839e20c6d80cdb33d6b5d3a3d88a403f8673590c7f624fc66",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige Howard",
+            "first_call_id": "NanoNQ:test3108__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 2,
+        "retained_copy_chunks": 2,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": true
+        },
+        {
+          "chunk_id": "cceef8f623ba14dc63000853fb47525d7d8a46d0700fb393924a1d82cca8b18e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/PN/2",
+          "instance_key": "cceef8f623ba14dc63000853fb47525d7d8a46d0700fb393924a1d82cca8b18e",
+          "chunk_index": 0,
+          "copied_from": "doc106332",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nBelle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "75c2e7b4767dfcda392b8a2b7eea96eab241a76a546d7276929736adbe93ff92",
+          "char_start": 0,
+          "char_end": 536,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.759369969367981,
+          "kept": true
+        },
+        {
+          "chunk_id": "c5f041f16d3b9d9f855d25a95a7b803eb634ec3d8c35277328168e5197b7674a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/PN/1",
+          "instance_key": "c5f041f16d3b9d9f855d25a95a7b803eb634ec3d8c35277328168e5197b7674a",
+          "chunk_index": 0,
+          "copied_from": "doc106332",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBelle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "94c017728d8ce33d649370b98f1b8ccd5fac979ab8fe7df5eb7a4f6a3959a569",
+          "char_start": 0,
+          "char_end": 533,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7548648715019226,
+          "kept": true
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7395546436309814,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7393052577972412,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2
+      ],
+      "removed_indices": [
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.9993469589530299,
+          0.9993469589530299
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.9993469589530299,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.001547396183013916,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9996734261512756
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9981260299682617
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9927550554275513
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9896836280822754
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7550047636032104
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7534720301628113
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.748609185218811
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.747171938419342
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7464648485183716
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7450146079063416
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__PN2__unfiltered",
+          "request_sha256": "3a7c75780b4b4444b840ccd2144b7ab39505d7625358d5db850559bee7e82582",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__PN2__filtered",
+          "request_sha256": "071373c6c49c9c6f11997578e7585d6637284a57cb456893ac435cf40e1d6b08",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": true
+        },
+        {
+          "chunk_id": "17e39e69de3c32f93be08dfa51e045cb2ccea7456f4efaa505ba54d71b8c6324:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/BE/1",
+          "instance_key": "17e39e69de3c32f93be08dfa51e045cb2ccea7456f4efaa505ba54d71b8c6324",
+          "chunk_index": 1,
+          "copied_from": "doc106372",
+          "copy_number": 1,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7395546436309814,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7395546436309814,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7393052577972412,
+          "kept": true
+        },
+        {
+          "chunk_id": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc703714",
+          "instance_key": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle debuted in Beauty and the Beast (1991) as a beautiful bibliophile[94][95] who, although praised by her fellow villagers for her unrivaled beauty, is at the same time ridiculed for her intelligence and non-conformity. Having grown weary of her uneventful provincial life, in which she is relentlessly romantically pursued by an arrogant hunter named Gaston, Belle longs for adventure. After her father's horse returns without its rider, she willingly ventures into the woods in search of her father. She persuades the Beast that she will trade her own freedom in return for her father's, since her father is ill in the dungeon, promising to remain with the Beast in his castle among his staff of enchanted objects forever. Belle's curiosity leads her to the forbidden west wing where she discovers an enchanted rose without realizing that it is tied to the Beast's fate; and the Beast's rage at her trespassing causes her to flee the castle on horseback. Belle is pursued by wolves in the woods but they are driven off by the Beast, afterwards Belle helps the injured Beast back to the castle and nurses him back to",
+          "text_sha256": "a6acca59d41f78a1c1b7847532648fc569391d8ad119330872cebff36c0e67bb",
+          "char_start": 0,
+          "char_end": 1120,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7192802429199219,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0003268718719482422,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9996733665466309
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9996733665466309
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7864623069763184
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7550048828125
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7550048828125
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.753472089767456
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6848001480102539
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6848001480102539
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6841437816619873
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__BE1__unfiltered",
+          "request_sha256": "a92fbe900746b17fff7ca847501dca8bd51e7e1b2ea46459172ee75f230f2723",
+          "reference": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series.",
+            "first_call_id": "NanoNQ:test3108__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__BE1__filtered",
+          "request_sha256": "bf524270c5063d1e50048386db47237ce7aa431ae2440a4b0181162c711faa1c",
+          "reference": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series, but it was American actress and singer Paige O'Hara who voiced Belle in Beauty and the Beast (1991).",
+            "first_call_id": "NanoNQ:test3108__BE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": true
+        },
+        {
+          "chunk_id": "17e39e69de3c32f93be08dfa51e045cb2ccea7456f4efaa505ba54d71b8c6324:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/BE/1",
+          "instance_key": "17e39e69de3c32f93be08dfa51e045cb2ccea7456f4efaa505ba54d71b8c6324",
+          "chunk_index": 1,
+          "copied_from": "doc106372",
+          "copy_number": 1,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7395546436309814,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7395546436309814,
+          "kept": true
+        },
+        {
+          "chunk_id": "5547c084b6d7b611ed0355a3062b5b122de69fb8bcd80afe4d03abd7be61ae1d:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/BE/2",
+          "instance_key": "5547c084b6d7b611ed0355a3062b5b122de69fb8bcd80afe4d03abd7be61ae1d",
+          "chunk_index": 1,
+          "copied_from": "doc106372",
+          "copy_number": 2,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7395546436309814,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7393052577972412,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9996734261512756
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.9996734261512756
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9996734261512756
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7550047636032104
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7550047636032104
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7550047636032104
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7534720301628113
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__BE2__unfiltered",
+          "request_sha256": "5de6dffc4474189085286974494b374b39ae0f3743e5e6594677bae35111d501",
+          "reference": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series. Paige O'Hara originally voiced Belle in the film.",
+            "first_call_id": "NanoNQ:test3108__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__BE2__filtered",
+          "request_sha256": "48e262f8edecd9b4e87749368eba59a977c440cf2ecbf4479c6df5ae9964578a",
+          "reference": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series, but Jeff Bridges voices the Beast. Paige O'Hara originally voiced Belle in the film.",
+            "first_call_id": "NanoNQ:test3108__BE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series, and Jeff Bridges poses as the Beast. Paige O'Hara originally voiced Belle in the film.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": false
+        },
+        {
+          "chunk_id": "bebe264aed69a0b01fa22eb0b7b2da2e2c1ea13211585cfd215aeed4796a0b4f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/PE/1",
+          "instance_key": "bebe264aed69a0b01fa22eb0b7b2da2e2c1ea13211585cfd215aeed4796a0b4f",
+          "chunk_index": 0,
+          "copied_from": "doc106332",
+          "copy_number": 1,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7604382038116455,
+          "kept": false
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7395546436309814,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7393052577972412,
+          "kept": true
+        },
+        {
+          "chunk_id": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc703714",
+          "instance_key": "f11568bdf53914b4cc6eee58bf777efdeeb9b913c8e8736fb8c6ad3f3a830bf5",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle debuted in Beauty and the Beast (1991) as a beautiful bibliophile[94][95] who, although praised by her fellow villagers for her unrivaled beauty, is at the same time ridiculed for her intelligence and non-conformity. Having grown weary of her uneventful provincial life, in which she is relentlessly romantically pursued by an arrogant hunter named Gaston, Belle longs for adventure. After her father's horse returns without its rider, she willingly ventures into the woods in search of her father. She persuades the Beast that she will trade her own freedom in return for her father's, since her father is ill in the dungeon, promising to remain with the Beast in his castle among his staff of enchanted objects forever. Belle's curiosity leads her to the forbidden west wing where she discovers an enchanted rose without realizing that it is tied to the Beast's fate; and the Beast's rage at her trespassing causes her to flee the castle on horseback. Belle is pursued by wolves in the woods but they are driven off by the Beast, afterwards Belle helps the injured Beast back to the castle and nurses him back to",
+          "text_sha256": "a6acca59d41f78a1c1b7847532648fc569391d8ad119330872cebff36c0e67bb",
+          "char_start": 0,
+          "char_end": 1120,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7192802429199219,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0003267526626586914,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9996733665466309
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7864623069763184
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7864623069763184
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7550048828125
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7550048828125
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.753472089767456
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.753472089767456
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6848001480102539
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6841437816619873
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__PE1__unfiltered",
+          "request_sha256": "2b5d748629bfc1c3fd1a1042eb932decf5d27b15ef0042e58652693e5d47d3b7",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__PE1__filtered",
+          "request_sha256": "b427e30b52b054d835b0c8ed49b7680bcb61f0129e11a10af1c35add4cff2039",
+          "reference": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series.",
+            "first_call_id": "NanoNQ:test3108__PE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Penélope Cruz poses as Belle in the Disney Dream Portrait Series.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test3108",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc106332",
+          "instance_key": "128ffffc7146d43010413ae2b05c62e43aae568827f22a5f81b6037bdf69aba2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7604382038116455,
+          "kept": false
+        },
+        {
+          "chunk_id": "bcbf0abb446f3255c77b1f35cb5d7297f620abc9dda8bf5c7b693c4eaee3b83f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/PE/2",
+          "instance_key": "bcbf0abb446f3255c77b1f35cb5d7297f620abc9dda8bf5c7b693c4eaee3b83f",
+          "chunk_index": 0,
+          "copied_from": "doc106332",
+          "copy_number": 2,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7604382038116455,
+          "kept": false
+        },
+        {
+          "chunk_id": "bebe264aed69a0b01fa22eb0b7b2da2e2c1ea13211585cfd215aeed4796a0b4f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3108/PE/1",
+          "instance_key": "bebe264aed69a0b01fa22eb0b7b2da2e2c1ea13211585cfd215aeed4796a0b4f",
+          "chunk_index": 0,
+          "copied_from": "doc106332",
+          "copy_number": 1,
+          "text": "Belle is a fictional character who appears in Walt Disney Pictures' animated feature film Beauty and the Beast (1991). Originally voiced by American actress and singer Paige O'Hara, Belle is the non-conforming daughter of an inventor who yearns to abandon her predictable village life in return for adventure. When her father Maurice is imprisoned by a cold-hearted beast, Belle offers him her own freedom in exchange for her father's, and eventually learns to love the Beast despite his unsightly outward appearance.",
+          "text_sha256": "22841e4120eb88dc1f92be19de6979ec57981542fe5ec9e82a8095ec3e2d82a5",
+          "char_start": 0,
+          "char_end": 517,
+          "tokens_with_specials": 104,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7604382038116455,
+          "kept": true
+        },
+        {
+          "chunk_id": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc106372",
+          "instance_key": "2ca3ee19c94ccbb174f0fe7104faa4f082b7c49c5c4268282827a3d01ebf69dc",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][219] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[220] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[221] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[222] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[223] while actor Jeff Bridges posed as the Beast.[224] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[225] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[226]",
+          "text_sha256": "ed9adb3622a63aee1e3af89ebe0c8d86f4f53e5d21b3b3b2d5310b5d1492dcfd",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7395546436309814,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc703736",
+          "instance_key": "f4fda3b2db8d80ef544a0b58ffe17306303ac4ec618ddf518008d3f236868791",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "it go\".[27][215] Beauty and the Beast, Belle performs the film's opening number, \"Belle\", which was nominated for the Academy Award for Best Original Song at the 64th Academy Awards in 1992.[216] In 1998, O'Hara was nominated for an Annie Award for Outstanding Individual Achievement for Voice Acting by a Female Performer in an Animated Feature Production for reprising her role as Belle in the second of Beauty and the Beast's three direct-to-video sequels, Belle's Magical World.[217] To commemorate her work on Beauty and the Beast and various contributions to Disney, O'Hara was honored with a Disney Legends award on August 19, 2011.[218] Disney hired Spanish actress Penélope Cruz to pose as Belle in photographer Annie Leibovitz's Disney Dream Portrait Series,[219] while actor Jeff Bridges posed as the Beast.[220] The Daily Mail described the image as Cruz \"wearing Belle's gorgeous yellow gown and being lifted high into the air by her prince,\"[221] accompanied by the phrase \"Where a moment of beauty lasts forever.\"[222]",
+          "text_sha256": "33d4e7f2010c48e260a24bc3f688d05551b5843390d826008d5b2c3f667ce708",
+          "char_start": 800,
+          "char_end": 1833,
+          "tokens_with_specials": 237,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7393052577972412,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9996734261512756
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7550047636032104
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7550047636032104
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7550047636032104
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7534720301628113
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7534720301628113
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7534720301628113
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3108__PE2__unfiltered",
+          "request_sha256": "f4aa705e5251b78ed912a30ac089bdb2edc2a4336501b3d9becfd41fa22654c3",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3108__PE2__filtered",
+          "request_sha256": "97b843b5a9e40ad78ac34dd672ee70bf3a788521e0bd00003b5a0d2ab4170f3e",
+          "reference": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "first_call_id": "NanoNQ:test3108__PE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Paige O'Hara talks for Belle in Beauty and the Beast.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

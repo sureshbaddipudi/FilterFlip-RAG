@@ -1,0 +1,826 @@
+{
+  "case_id": "NanoNQ:test1037",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test1037.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+  "records": [
+    {
+      "record_id": "R1:54a28f19bdf238842f5a248ad500450eae98d18c02a8de9e1a8b6e6609ec18f0",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "54a28f19bdf238842f5a248ad500450eae98d18c02a8de9e1a8b6e6609ec18f0",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__BN2__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "832f9e97941874ebce5e598591b29da67f44022529cb5df3dec9f0da35866b96:00000",
+            "5630259cb0c2c4e62b6ea3eb925d7fff07c99d9ed5be30f98021ab5322ec5eae:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "d75b5577b048549a4656dcc739b191c064633aa21bc81266fab045a63bccada9",
+            "38c343e1b659f8444b7e5213166e8a43e985a943dd7be08b7257c4262e84dff9",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 (three-fold significance per Gormley)"
+        ],
+        "rationale": "Answer passage 8421b3 is in context (or kept); answer gives only one of the three purposes of the three-fold significance.",
+        "disagreement": "Gives one of three purposes; core usability depends on strictness of the three-part list; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:3ce1d9ef8db122b2cbd7597ad03478d787f5aa6979322b4fb84949bec04c8466",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "3ce1d9ef8db122b2cbd7597ad03478d787f5aa6979322b4fb84949bec04c8466",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__BN2__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1037__BE2__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "c2daebccd38023c0b904d4691ecb423529833618e1aff895a3f9a77e4a8eb7dc:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 (three-fold significance per Gormley)"
+        ],
+        "rationale": "Answer passage 8421b3 is in context (or kept); answer gives only one of the three purposes of the three-fold significance.",
+        "disagreement": "Gives one of three purposes; core usability depends on strictness of the three-part list; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:a219bcd3ee2a0d5b6ae9170513ab1a9cd6e297e47b624a154f7dbfae79d6d833",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "a219bcd3ee2a0d5b6ae9170513ab1a9cd6e297e47b624a154f7dbfae79d6d833",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__PN2__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ffbcee28aca22e5187f733769a4158f2760d16af7f0f9b53923b1b7cf6b06c76:00000",
+            "f2967a739f6f7175cae8a15b62f6b2d3c99f6143f5aa537609fa9fe2664095e7:00000",
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+          ],
+          "text_hashes": [
+            "3d5b4731b19a515b33fda0a3718b683fb855422d3b6daf84af552f516f82eabb",
+            "5d1c1cdf21afa69f554f08b19d1967841ecde3b1c3880eaa9a34ae1db0fb7816",
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 (three-fold significance per Gormley)"
+        ],
+        "rationale": "Answer passage 8421b3 is in context (or kept); answer gives only one of the three purposes of the three-fold significance.",
+        "disagreement": "Gives one of three purposes; core usability depends on strictness of the three-part list; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:d46790f1e882ee15dbf0a4d6f81574abf8a99ba11816ab9e2b20a6ff6b5b07d1",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "d46790f1e882ee15dbf0a4d6f81574abf8a99ba11816ab9e2b20a6ff6b5b07d1",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__PN2__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000"
+          ],
+          "text_hashes": [
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1037__PE2__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000"
+          ],
+          "text_hashes": [
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "2cd729",
+          "8421b3 removed"
+        ],
+        "rationale": "Answer passage and copies removed; only the fragment 'To the north:' kept, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:e66236ef7bb8ba6fc573be7ecad97ff467814ba6b9d3ab2f0b33d2fb3bd90ca3",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "e66236ef7bb8ba6fc573be7ecad97ff467814ba6b9d3ab2f0b33d2fb3bd90ca3",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__BE1__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "9ede8b44bf0200c171fc84734f490b5e52bab0a1ea6bc00a5065d1442cd616ea:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 (three-fold significance per Gormley)"
+        ],
+        "rationale": "Answer passage 8421b3 is in context (or kept); answer gives only one of the three purposes of the three-fold significance.",
+        "disagreement": "Gives one of three purposes; core usability depends on strictness of the three-part list; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:e3ec8faa49d3c0b9cfbe30f7c9c314eadba5508f7844898fed927941aaf70ba3",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "e3ec8faa49d3c0b9cfbe30f7c9c314eadba5508f7844898fed927941aaf70ba3",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__BE1__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BE1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 (three-fold significance per Gormley)"
+        ],
+        "rationale": "Answer passage 8421b3 is in context (or kept); answer gives only one of the three purposes of the three-fold significance.",
+        "disagreement": "Gives one of three purposes; core usability depends on strictness of the three-part list; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:cae3a271302b9bce96f57406d7f459af2cee99d72adeb1fb1f01b048e9fde45a",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "cae3a271302b9bce96f57406d7f459af2cee99d72adeb1fb1f01b048e9fde45a",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__BE2__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "9ede8b44bf0200c171fc84734f490b5e52bab0a1ea6bc00a5065d1442cd616ea:00000",
+            "c2daebccd38023c0b904d4691ecb423529833618e1aff895a3f9a77e4a8eb7dc:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 (three-fold significance per Gormley)"
+        ],
+        "rationale": "Answer passage 8421b3 is in context (or kept); answer gives only one of the three purposes of the three-fold significance.",
+        "disagreement": "Gives one of three purposes; core usability depends on strictness of the three-part list; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:5a90d7f3db0c530308a8ddd8cc2eaa50e9c9b0190756038558ac063de8ac39b1",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "5a90d7f3db0c530308a8ddd8cc2eaa50e9c9b0190756038558ac063de8ac39b1",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__PE1__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "f87aa02865fa64da9c257d4c29e4c042a37f11bea1a56e7a41994c7a14ee1333:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 (three-fold significance per Gormley)"
+        ],
+        "rationale": "Answer passage 8421b3 is in context (or kept); answer gives only one of the three purposes of the three-fold significance.",
+        "disagreement": "Gives one of three purposes; core usability depends on strictness of the three-part list; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:8c244d567b05a3e1dd5e67314a6c2d4fe4d1d9c4b071bb6d8761da6ea2a8424a",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1037",
+      "request_sha256": "8c244d567b05a3e1dd5e67314a6c2d4fe4d1d9c4b071bb6d8761da6ea2a8424a",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1037__PE2__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "d7fbaee9422b54ea82979f3291707f52740b9a52f10c5a0a7a22d4be7f6d031f:00000",
+            "f87aa02865fa64da9c257d4c29e4c042a37f11bea1a56e7a41994c7a14ee1333:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1037.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 (three-fold significance per Gormley)"
+        ],
+        "rationale": "Answer passage 8421b3 is in context (or kept); answer gives only one of the three purposes of the three-fold significance.",
+        "disagreement": "Gives one of three purposes; core usability depends on strictness of the three-part list; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1037:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1037",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:54a28f19bdf238842f5a248ad500450eae98d18c02a8de9e1a8b6e6609ec18f0",
+          "R1:3ce1d9ef8db122b2cbd7597ad03478d787f5aa6979322b4fb84949bec04c8466"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1037:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1037",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 removed"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (clean filtered abstains), so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:a219bcd3ee2a0d5b6ae9170513ab1a9cd6e297e47b624a154f7dbfae79d6d833",
+          "R1:d46790f1e882ee15dbf0a4d6f81574abf8a99ba11816ab9e2b20a6ff6b5b07d1"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1037:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1037",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:e66236ef7bb8ba6fc573be7ecad97ff467814ba6b9d3ab2f0b33d2fb3bd90ca3",
+          "R1:e3ec8faa49d3c0b9cfbe30f7c9c314eadba5508f7844898fed927941aaf70ba3"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1037:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1037",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:3ce1d9ef8db122b2cbd7597ad03478d787f5aa6979322b4fb84949bec04c8466",
+          "R1:cae3a271302b9bce96f57406d7f459af2cee99d72adeb1fb1f01b048e9fde45a"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1037:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1037",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d27811",
+          "8421b3 removed"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails, so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered (original prefix): says the angel guards the gates of paradise after Adam and Eve were expelled, taken from the Caedmon illustration passage d27811, unrelated to the Angel of the North",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered (original prefix): says the angel guards the gates of paradise after Adam and Eve were expelled, taken from the Caedmon illustration passage d27811, unrelated to the Angel of the North",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:5a90d7f3db0c530308a8ddd8cc2eaa50e9c9b0190756038558ac063de8ac39b1"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1037:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1037",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "8421b3 removed"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (clean filtered abstains), so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:d46790f1e882ee15dbf0a4d6f81574abf8a99ba11816ab9e2b20a6ff6b5b07d1",
+          "R1:8c244d567b05a3e1dd5e67314a6c2d4fe4d1d9c4b071bb6d8761da6ea2a8424a"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+tool: pip-audit 2.10.1
+bandit: bandit 1.9.4
+scan date: 2026-11-10
+environment: filterflip-repro (python 3.11), 41 packages
+command: pip-audit -r pip-freeze_filterflip-repro.txt --no-deps --disable-pip -f json

@@ -1,0 +1,2859 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1092161",
+    "dataset": "NanoMSMARCO",
+    "question": "northampton county tax department pa phone number",
+    "source_family": "NanoMSMARCO:1092161",
+    "review_status": "user_recorded_review",
+    "target_document_id": "7853304",
+    "expected_answer": "610-559-3141 for the Northampton County Tax Assessor's Office.",
+    "answer_aliases": [
+      "6105593141",
+      "(610) 559-3141"
+    ],
+    "support_quote": "You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141.",
+    "source_qualification": "The specific Pennsylvania assessor office and telephone number in the archived passage; not a verified current number for every county tax function.",
+    "qrel_document_ids": [
+      "7853304"
+    ],
+    "family_reference_texts": [
+      "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:1092161",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "7853304",
+    "expected_answer": "610-559-3141 for the Northampton County Tax Assessor's Office.",
+    "answer_aliases": [
+      "6105593141",
+      "(610) 559-3141"
+    ],
+    "support_quote": "You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141.",
+    "source_qualification": "The specific Pennsylvania assessor office and telephone number in the archived passage; not a verified current number for every county tax function.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:1092161",
+    "dataset": "NanoMSMARCO",
+    "question": "northampton county tax department pa phone number",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:1092161",
+      "dataset": "NanoMSMARCO",
+      "question": "northampton county tax department pa phone number",
+      "expected_answer": "610-559-3141 for the Northampton County Tax Assessor's Office.",
+      "source_qualification": "The specific Pennsylvania assessor office and telephone number in the archived passage; not a verified current number for every county tax function.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Assistant-confirmed event",
+      "reason_group": "Strict recorded event (assistant)",
+      "historical_decision": "provisional_event",
+      "historical_reason_code": "provisional_event",
+      "historical_rationale": "C and BN1 filtered and PN1 unfiltered give the archived assessor number 610-559-3141. Filtering removes both copies of that relation, leaving unrelated Pennsylvania contacts, and the model abstains. C has a removal-boundary tie; order robustness remains untested.",
+      "current_assistant_rationale": "All five checks pass for this recorded configuration under the frozen source interpretation.\nclean: The retained source explicitly maps the Northampton County Tax Assessor office to 610-559-3141. The answer matches this archived relation.\nunfiltered: Both original and retrieved copy state the same office-number relation; the unfiltered answer gives that number.\nloss: The surviving contacts are a private Montgomery County law firm and statewide tax/rebate services. They do not supply the requested Northampton assessor number.\nfailure: The model says Not enough information.\ncontrol: The Northampton assessor passage survives the background-copy filter and the answer is 610-559-3141.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/4",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/44",
+      "review_priority": 1,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoMSMARCO_1092161.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 397,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 265,
+              "call_id": "NanoMSMARCO:1092161__C__unfiltered",
+              "request_sha256": "625399493d2d44a2898049bff1c205eaef16161465ce834db12395d8fadf2359"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 266,
+              "call_id": "NanoMSMARCO:1092161__C__filtered",
+              "request_sha256": "ea7a19360beb6e608cebab41f32b7c35e979ae056e20cd8fa31fbc4769ceb5d0"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 398,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 267,
+              "call_id": "NanoMSMARCO:1092161__BN1__unfiltered",
+              "request_sha256": "b36100748ae7603d57b0f1db31673b42b32bfd9a1722ecfb16fd315e188d143f"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 268,
+              "call_id": "NanoMSMARCO:1092161__BN1__filtered",
+              "request_sha256": "2daaa9e4b926d9b696a1763a1992bbadbb66ba2d82d81fd3836aea8518465585"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 400,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 269,
+              "call_id": "NanoMSMARCO:1092161__PN1__unfiltered",
+              "request_sha256": "c5551446e0313d14219d6087bc1ef3ea4a456a93460e0be51dc120799b3f86d1"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 270,
+              "call_id": "NanoMSMARCO:1092161__PN1__filtered",
+              "request_sha256": "8b63e037a989b35ead2dffaaafccf31fd46c3817b3702d56b9f8c60a7e1fa8ec"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "Later fixed-context check: 120 orders per C/BN1/PN1; source support retained in C/BN1 and lost in PN1 throughout. No generator rerun per order; assistant semantic interpretation.",
+      "later_order_source": "output/filterflip_study_v1_order_check/ORDER_REVIEW.json"
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoMSMARCO:1092161",
+      "Question": "northampton county tax department pa phone number",
+      "Evidence packet": "evidence/NanoMSMARCO_1092161.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "abstention",
+      "Strict event judgment": "yes",
+      "Background-qualified event?": "yes",
+      "Evidence and reasoning": "Q1: C P1 7853304 kept: \"call the Northampton County Tax Assessor's Office ... 610-559-3141\"; answer 610-559-3141. Q2: PN1 P2 copy of 7853304, full text. Q3: unfiltered 610-559-3141. Q4: PN1 survivors P3 767018 (probate law firm phones), P4 8653062 (1-888-PA TAXES), P5 6207587 (PA Revenue emails): no Northampton assessor number. Q5: \"Not enough information.\" Q6: BN1 P1 kept, 610-559-3141.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior assessment (event). Number is source-relative, not a verified current number.",
+      "workbook_row": 2,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "question": "northampton county tax department pa phone number",
+        "expected_answer": "610-559-3141 for the Northampton County Tax Assessor's Office.",
+        "source_qualification": "The specific Pennsylvania assessor office and telephone number in the archived passage; not a verified current number for every county tax function.",
+        "source_review_status": "user_recorded_review",
+        "assistant_status": "Assistant-confirmed event",
+        "reason_group": "Strict recorded event (assistant)",
+        "historical_decision": "provisional_event",
+        "historical_reason_code": "provisional_event",
+        "historical_rationale": "C and BN1 filtered and PN1 unfiltered give the archived assessor number 610-559-3141. Filtering removes both copies of that relation, leaving unrelated Pennsylvania contacts, and the model abstains. C has a removal-boundary tie; order robustness remains untested.",
+        "current_assistant_rationale": "All five checks pass for this recorded configuration under the frozen source interpretation.\nclean: The retained source explicitly maps the Northampton County Tax Assessor office to 610-559-3141. The answer matches this archived relation.\nunfiltered: Both original and retrieved copy state the same office-number relation; the unfiltered answer gives that number.\nloss: The surviving contacts are a private Montgomery County law firm and statewide tax/rebate services. They do not supply the requested Northampton assessor number.\nfailure: The model says Not enough information.\ncontrol: The Northampton assessor passage survives the background-copy filter and the answer is 610-559-3141.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/4",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/44",
+        "review_priority": 1,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoMSMARCO_1092161.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 397,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 265,
+                "call_id": "NanoMSMARCO:1092161__C__unfiltered",
+                "request_sha256": "625399493d2d44a2898049bff1c205eaef16161465ce834db12395d8fadf2359"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 266,
+                "call_id": "NanoMSMARCO:1092161__C__filtered",
+                "request_sha256": "ea7a19360beb6e608cebab41f32b7c35e979ae056e20cd8fa31fbc4769ceb5d0"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 398,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 267,
+                "call_id": "NanoMSMARCO:1092161__BN1__unfiltered",
+                "request_sha256": "b36100748ae7603d57b0f1db31673b42b32bfd9a1722ecfb16fd315e188d143f"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 268,
+                "call_id": "NanoMSMARCO:1092161__BN1__filtered",
+                "request_sha256": "2daaa9e4b926d9b696a1763a1992bbadbb66ba2d82d81fd3836aea8518465585"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 400,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 269,
+                "call_id": "NanoMSMARCO:1092161__PN1__unfiltered",
+                "request_sha256": "c5551446e0313d14219d6087bc1ef3ea4a456a93460e0be51dc120799b3f86d1"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 270,
+                "call_id": "NanoMSMARCO:1092161__PN1__filtered",
+                "request_sha256": "8b63e037a989b35ead2dffaaafccf31fd46c3817b3702d56b9f8c60a7e1fa8ec"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "Later fixed-context check: 120 orders per C/BN1/PN1; source support retained in C/BN1 and lost in PN1 throughout. No generator rerun per order; assistant semantic interpretation.",
+        "later_order_source": "output/filterflip_study_v1_order_check/ORDER_REVIEW.json"
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:1092161",
+    "question": "northampton county tax department pa phone number",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1092161"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": true
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5652997493743896,
+          "kept": false
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        },
+        {
+          "chunk_id": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6207587",
+          "instance_key": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For tax specific registration assistance E-MAIL ra-pa100reg@state.pa.us. For technical and/or web page navigation assistance E-MAIL ra-pa100reg@state.pa.us. The PA Department of Revenue maintains a toll free service to assist taxpayers with general information, tax forms and schedules. For assistance call 1-888-PATAXES.",
+          "text_sha256": "3444065d6730c0d073c7843c8dbf57a1991bc2e38ebd018589f005eae08e3379",
+          "char_start": 0,
+          "char_end": 321,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5486186742782593,
+          "kept": true
+        },
+        {
+          "chunk_id": "493a6f6f33478eed9dfb333e6f3a67295a2af662187114a19328ae658b2cffc1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4039012",
+          "instance_key": "493a6f6f33478eed9dfb333e6f3a67295a2af662187114a19328ae658b2cffc1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Virginia Department of Taxation Customer Service Phone Number Phone Number of Virginia Department of Taxation is +1-(804) 367-8031, (804) 367-2486, (804) 440-5100. Virginia Department of Taxation is a department of state government, responsible for handling tax laws in Virginia state. The department collects taxes from individuals as well as businesses throughout the state.",
+          "text_sha256": "3f1484ae7c46e2a3983b84ebf1c409843b391f3d0101e660e9a00bd190207c63",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5407015085220337,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.32306612138269486,
+          0.32306612138269486,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.010296225547790527,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5580928325653076
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5510525107383728
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4890313744544983
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.44733330607414246
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4114179015159607
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.39708268642425537
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3774316906929016
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__C__unfiltered",
+          "request_sha256": "625399493d2d44a2898049bff1c205eaef16161465ce834db12395d8fadf2359",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__C__filtered",
+          "request_sha256": "ea7a19360beb6e608cebab41f32b7c35e979ae056e20cd8fa31fbc4769ceb5d0",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": true
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5652997493743896,
+          "kept": false
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        },
+        {
+          "chunk_id": "c633686ab3d5f3ea2df5894761985d1e1daf1bd634b7f4e174f092345961b32b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/BN/1",
+          "instance_key": "c633686ab3d5f3ea2df5894761985d1e1daf1bd634b7f4e174f092345961b32b",
+          "chunk_index": 0,
+          "copied_from": "767018",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIf have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "bdf76d2f25014edd403e3bbbe36f3e51b193739dc77ed9b8cee463cc68447e93",
+          "char_start": 0,
+          "char_end": 335,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5505079030990601,
+          "kept": false
+        },
+        {
+          "chunk_id": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6207587",
+          "instance_key": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For tax specific registration assistance E-MAIL ra-pa100reg@state.pa.us. For technical and/or web page navigation assistance E-MAIL ra-pa100reg@state.pa.us. The PA Department of Revenue maintains a toll free service to assist taxpayers with general information, tax forms and schedules. For assistance call 1-888-PATAXES.",
+          "text_sha256": "3444065d6730c0d073c7843c8dbf57a1991bc2e38ebd018589f005eae08e3379",
+          "char_start": 0,
+          "char_end": 321,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5486186742782593,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        4
+      ],
+      "removed_indices": [
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.988864600514944,
+          0.0,
+          0.988864600514944,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        "removal_gap": 0.988864600514944,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.42602765560150146,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9944167137145996
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5588361024856567
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5580928325653076
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5510525107383728
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5365482568740845
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.45875614881515503
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.44733330607414246
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__BN1__unfiltered",
+          "request_sha256": "b36100748ae7603d57b0f1db31673b42b32bfd9a1722ecfb16fd315e188d143f",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__BN1__filtered",
+          "request_sha256": "2daaa9e4b926d9b696a1763a1992bbadbb66ba2d82d81fd3836aea8518465585",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": true
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5652997493743896,
+          "kept": false
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        },
+        {
+          "chunk_id": "c633686ab3d5f3ea2df5894761985d1e1daf1bd634b7f4e174f092345961b32b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/BN/1",
+          "instance_key": "c633686ab3d5f3ea2df5894761985d1e1daf1bd634b7f4e174f092345961b32b",
+          "chunk_index": 0,
+          "copied_from": "767018",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIf have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "bdf76d2f25014edd403e3bbbe36f3e51b193739dc77ed9b8cee463cc68447e93",
+          "char_start": 0,
+          "char_end": 335,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5505079030990601,
+          "kept": false
+        },
+        {
+          "chunk_id": "67423f7b7caa5619c99530ebbe94701215a28ce9d12f32943fe4f4ef31465c60:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/BN/2",
+          "instance_key": "67423f7b7caa5619c99530ebbe94701215a28ce9d12f32943fe4f4ef31465c60",
+          "chunk_index": 0,
+          "copied_from": "767018",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nIf have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "351ab506b449370efeb7623e0741d3e9622af4f3b6f34c9a8062dbde52f04084",
+          "char_start": 0,
+          "char_end": 338,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5501805543899536,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2
+      ],
+      "removed_indices": [
+        1,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.9756953265883936,
+          0.0,
+          1.987696690679968,
+          1.9856628162384737
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          1,
+          0,
+          2
+        ],
+        "removal_gap": 1.9756953265883936,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4250044822692871,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9994158744812012
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9944167137145996
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9933935403823853
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5588361024856567
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5567697882652283
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.45958516001701355
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.45875614881515503
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__BN2__unfiltered",
+          "request_sha256": "e0d5ba6e00426da83a6042b70095eadd7fd819021f2dbdc656423196ffcee821",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__BN2__filtered",
+          "request_sha256": "ad1db1072cd9718604169c5b14fdac280c2917b18ae922a3dfc25185e0b4dc2a",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": false
+        },
+        {
+          "chunk_id": "418ff02573502ea9af4ddb29e3635ca12d3b67171f854f6668ed2f03b33d9606:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/PN/1",
+          "instance_key": "418ff02573502ea9af4ddb29e3635ca12d3b67171f854f6668ed2f03b33d9606",
+          "chunk_index": 0,
+          "copied_from": "7853304",
+          "copy_number": 1,
+          "text": "Source excerpt.\nWhen contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "2ba4af1994ba180be0e2309d74cf6fb59b65440787863e70ae0c93bacc1ac3dc",
+          "char_start": 0,
+          "char_end": 418,
+          "tokens_with_specials": 90,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7247371673583984,
+          "kept": false
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5652997493743896,
+          "kept": true
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        },
+        {
+          "chunk_id": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6207587",
+          "instance_key": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For tax specific registration assistance E-MAIL ra-pa100reg@state.pa.us. For technical and/or web page navigation assistance E-MAIL ra-pa100reg@state.pa.us. The PA Department of Revenue maintains a toll free service to assist taxpayers with general information, tax forms and schedules. For assistance call 1-888-PATAXES.",
+          "text_sha256": "3444065d6730c0d073c7843c8dbf57a1991bc2e38ebd018589f005eae08e3379",
+          "char_start": 0,
+          "char_end": 321,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5486186742782593,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9897197225382683,
+          0.9897197225382683,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9897197225382683,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4264575242996216,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9948465824127197
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5580928325653076
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5510525107383728
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4984227418899536
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4966561198234558
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4709818959236145
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4632149636745453
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4473332166671753
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__PN1__unfiltered",
+          "request_sha256": "c5551446e0313d14219d6087bc1ef3ea4a456a93460e0be51dc120799b3f86d1",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__PN1__filtered",
+          "request_sha256": "8b63e037a989b35ead2dffaaafccf31fd46c3817b3702d56b9f8c60a7e1fa8ec",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1092161__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": false
+        },
+        {
+          "chunk_id": "a4ed746d6362d149da1dda3264db8f075056ee08eed72d2dba6e8b377e623b47:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/PN/2",
+          "instance_key": "a4ed746d6362d149da1dda3264db8f075056ee08eed72d2dba6e8b377e623b47",
+          "chunk_index": 0,
+          "copied_from": "7853304",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nWhen contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "5a3ee3072873473586bbee903b24379f0bf150a3e5d53f07462475bb0dc18aed",
+          "char_start": 0,
+          "char_end": 421,
+          "tokens_with_specials": 90,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7280493974685669,
+          "kept": false
+        },
+        {
+          "chunk_id": "418ff02573502ea9af4ddb29e3635ca12d3b67171f854f6668ed2f03b33d9606:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/PN/1",
+          "instance_key": "418ff02573502ea9af4ddb29e3635ca12d3b67171f854f6668ed2f03b33d9606",
+          "chunk_index": 0,
+          "copied_from": "7853304",
+          "copy_number": 1,
+          "text": "Source excerpt.\nWhen contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "2ba4af1994ba180be0e2309d74cf6fb59b65440787863e70ae0c93bacc1ac3dc",
+          "char_start": 0,
+          "char_end": 418,
+          "tokens_with_specials": 90,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7247371673583984,
+          "kept": false
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5652997493743896,
+          "kept": true
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.9783538875072395,
+          1.987795107648708,
+          1.988880665218005,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.9783538875072395,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4259117841720581,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9995803833007812
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9948465824127197
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9943008422851562
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5009840130805969
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4984227418899536
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4966561198234558
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.47482264041900635
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4709818959236145
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.46317148208618164
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__PN2__unfiltered",
+          "request_sha256": "a9f42616e4ce5c55a68bc08928504cb24478f6d080dbb0f30a16f52e69858384",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__PN2__filtered",
+          "request_sha256": "1943f125a1dc70f7d7b1ed1dc5b5c53483ef0c21b5bb3cabe3dce7f2a2f4fba2",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1092161__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": true
+        },
+        {
+          "chunk_id": "666b1925af02759632a23015b60029a064b7d9c986647586c5167eb13ab9c91a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/BE/1",
+          "instance_key": "666b1925af02759632a23015b60029a064b7d9c986647586c5167eb13ab9c91a",
+          "chunk_index": 0,
+          "copied_from": "767018",
+          "copy_number": 1,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5652997493743896,
+          "kept": false
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5652997493743896,
+          "kept": false
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        },
+        {
+          "chunk_id": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6207587",
+          "instance_key": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For tax specific registration assistance E-MAIL ra-pa100reg@state.pa.us. For technical and/or web page navigation assistance E-MAIL ra-pa100reg@state.pa.us. The PA Department of Revenue maintains a toll free service to assist taxpayers with general information, tax forms and schedules. For assistance call 1-888-PATAXES.",
+          "text_sha256": "3444065d6730c0d073c7843c8dbf57a1991bc2e38ebd018589f005eae08e3379",
+          "char_start": 0,
+          "char_end": 321,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5486186742782593,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.43161094188690186,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5580928325653076
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5510525107383728
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5510525107383728
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.44733330607414246
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__BE1__unfiltered",
+          "request_sha256": "903c9bc29c58185a410c261fb0e1d5cd351a02d13aa0c4346e494de627d2d3ca",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__BE1__filtered",
+          "request_sha256": "2daaa9e4b926d9b696a1763a1992bbadbb66ba2d82d81fd3836aea8518465585",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": true
+        },
+        {
+          "chunk_id": "666b1925af02759632a23015b60029a064b7d9c986647586c5167eb13ab9c91a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/BE/1",
+          "instance_key": "666b1925af02759632a23015b60029a064b7d9c986647586c5167eb13ab9c91a",
+          "chunk_index": 0,
+          "copied_from": "767018",
+          "copy_number": 1,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5652997493743896,
+          "kept": false
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5652997493743896,
+          "kept": false
+        },
+        {
+          "chunk_id": "a57f5a9b69393d6c279baa9f2948ccc51c15b5ca41dc59a469b7dd480fa6930a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/BE/2",
+          "instance_key": "a57f5a9b69393d6c279baa9f2948ccc51c15b5ca41dc59a469b7dd480fa6930a",
+          "chunk_index": 0,
+          "copied_from": "767018",
+          "copy_number": 2,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5652997493743896,
+          "kept": false
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          2.0,
+          2.0,
+          2.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.43161094188690186,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.46317148208618164
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__BE2__unfiltered",
+          "request_sha256": "f41a2a857707b5a7bd69745f7c14192ee1fc05f8756f433cc093fd85db9191b0",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__BE2__filtered",
+          "request_sha256": "ad1db1072cd9718604169c5b14fdac280c2917b18ae922a3dfc25185e0b4dc2a",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": false
+        },
+        {
+          "chunk_id": "e4e995eb1b0ab0c8987cb0f0609bcc8db1b69a2ff06e9c03c8d658e9221e697a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/PE/1",
+          "instance_key": "e4e995eb1b0ab0c8987cb0f0609bcc8db1b69a2ff06e9c03c8d658e9221e697a",
+          "chunk_index": 0,
+          "copied_from": "7853304",
+          "copy_number": 1,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7282070517539978,
+          "kept": false
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5652997493743896,
+          "kept": true
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        },
+        {
+          "chunk_id": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6207587",
+          "instance_key": "9dc76c283562ed03c9c596d7c2a30d62b37e5b2e259fab817850ff0d9a1c3870",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For tax specific registration assistance E-MAIL ra-pa100reg@state.pa.us. For technical and/or web page navigation assistance E-MAIL ra-pa100reg@state.pa.us. The PA Department of Revenue maintains a toll free service to assist taxpayers with general information, tax forms and schedules. For assistance call 1-888-PATAXES.",
+          "text_sha256": "3444065d6730c0d073c7843c8dbf57a1991bc2e38ebd018589f005eae08e3379",
+          "char_start": 0,
+          "char_end": 321,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5486186742782593,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.43161094188690186,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5580928325653076
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5510525107383728
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.44733330607414246
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.44733330607414246
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__PE1__unfiltered",
+          "request_sha256": "9b0e2a92a188d5c77b0cc848ce4fbe027924914dfce4176465e6e4f6493a93ed",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__PE1__filtered",
+          "request_sha256": "8b63e037a989b35ead2dffaaafccf31fd46c3817b3702d56b9f8c60a7e1fa8ec",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1092161__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1092161",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7853304",
+          "instance_key": "45bad6a9e7b347e5b5d787f833f075b2a36372dde5b2e6f6e3979649f3139be3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7282070517539978,
+          "kept": false
+        },
+        {
+          "chunk_id": "d423ae85d7b59d8200fb75708e3242ed3b68f2ce5727c830f6937cd192b93653:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/PE/2",
+          "instance_key": "d423ae85d7b59d8200fb75708e3242ed3b68f2ce5727c830f6937cd192b93653",
+          "chunk_index": 0,
+          "copied_from": "7853304",
+          "copy_number": 2,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7282070517539978,
+          "kept": false
+        },
+        {
+          "chunk_id": "e4e995eb1b0ab0c8987cb0f0609bcc8db1b69a2ff06e9c03c8d658e9221e697a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1092161/PE/1",
+          "instance_key": "e4e995eb1b0ab0c8987cb0f0609bcc8db1b69a2ff06e9c03c8d658e9221e697a",
+          "chunk_index": 0,
+          "copied_from": "7853304",
+          "copy_number": 1,
+          "text": "When contacting Northampton County about your property taxes, make sure that you are contacting the correct office. You can call the Northampton County Tax Assessor's Office for assistance at 610-559-3141. Remember to have your property's Tax ID Number or Parcel Number available when you call! Please call the assessor's office in Easton before you send documents or if you need to schedule a meeting.",
+          "text_sha256": "e83ea2a0df4cc6897743e0a136327cf78adb6ee23840c05a44ee1f4a7b42bb6a",
+          "char_start": 0,
+          "char_end": 402,
+          "tokens_with_specials": 87,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7282070517539978,
+          "kept": false
+        },
+        {
+          "chunk_id": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "767018",
+          "instance_key": "67d829c40a86855bff9c5f7628684d85bb69bd194cb45122c6d1cec943c1769c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "If have been named executor of an estate and need assistance with probate administration issues, Rubin, Glickman, Steinberg and Gifford is here to help. Contact us today online or by telephone at 215-822-7575 or 800-358-9367 to speak with an experienced Montgomery County, Pennsylvania, probate administration attorney.",
+          "text_sha256": "f76a7bca6fee985f3d87aa839501d362ac0752416d235bd8e7e39a6ba11a98cd",
+          "char_start": 0,
+          "char_end": 319,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5652997493743896,
+          "kept": true
+        },
+        {
+          "chunk_id": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8653062",
+          "instance_key": "ce454210fe0a39c9b272c5d7f09d28b963a507445e406cc95e40c9c024e0c801",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Refund payments are sent out each year on July 1. You may check on the status of your Property Tax/Rent Rebate Claim form online through the Revenue e-Services Center or by calling the automated number, 1-888-PA TAXES (728-2937). Be prepared to provide your Social Security number, the claim year and your date of birth.",
+          "text_sha256": "388ca26586e1af7c37e7db2a1ba5dbe30ad7881f8d7ae675b6cc2cfdce11935d",
+          "char_start": 0,
+          "char_end": 320,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5577267408370972,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.43161094188690186,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5683890581130981
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4966561496257782
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.46317148208618164
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.46317148208618164
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1092161__PE2__unfiltered",
+          "request_sha256": "6da36d2e029dcab715bad9741dab7cca6c7b851180591954ee64b3d72d0ff5e2",
+          "reference": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "first_call_id": "NanoMSMARCO:1092161__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "610-559-3141",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1092161__PE2__filtered",
+          "request_sha256": "1943f125a1dc70f7d7b1ed1dc5b5c53483ef0c21b5bb3cabe3dce7f2a2f4fba2",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1092161__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

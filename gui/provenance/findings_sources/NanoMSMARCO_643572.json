@@ -1,0 +1,830 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:643572",
+    "question": "what does modulus mean",
+    "expected_answer": "In number theory, the modulus is the number you divide by, rather than the remainder.",
+    "source_qualification": "Number-theory meaning only. The passage distinguishes modulus from the programming mod operation; do not confuse the divisor with the remainder.",
+    "source_review_status_historical": "assistant_only",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoMSMARCO:643572",
+      "assessment": "no_exposure_identical_output",
+      "rationale": "The PN1 addition was not retrieved, and C/PN1 outputs are identical. Ambiguity about modulus versus modulo need not be resolved to reject a new-loss claim.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba:00000",
+          "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000",
+          "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040:00000"
+        ],
+        "BN1": [
+          "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000"
+        ],
+        "PN1": [
+          "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba:00000",
+          "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000",
+          "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 4,
+    "novel_request_hashes": 2
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoMSMARCO:643572",
+    "question": "what does modulus mean",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:643572"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4258663",
+          "instance_key": "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Modulus is the diminutive from the Latin word modus meaning measure or manner.",
+          "text_sha256": "5c08497a2ca4334658824646c255c338a854cca2c15db3b7abbbd15ae94cec95",
+          "char_start": 0,
+          "char_end": 78,
+          "tokens_with_specials": 20,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8690412044525146
+        },
+        {
+          "chunk_id": "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7728427",
+          "instance_key": "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Noun. 1. modulus-an integer that can be divided without remainder into the difference between two other integers; 2 is a modulus of 5 and 9. integer, whole number-any of the natural numbers (positive or negative) or zero; an integer is a number that is not a fraction., pl-li (-ˌlaɪ). 1. (General Physics) physics a coefficient expressing a specified property of a specified substance. See bulk modulus, modulus of rigidity, Young's modulus. 2. (Mathematics) maths the absolute value of a complex number.",
+          "text_sha256": "737560986d52b097c4822e7c13f2969565585296c4c3bafbbabf535683ae12c8",
+          "char_start": 0,
+          "char_end": 504,
+          "tokens_with_specials": 123,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8533416986465454
+        },
+        {
+          "chunk_id": "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3252244",
+          "instance_key": "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "modulus-an integer that can be divided without remainder into the difference between two other integers; 2 is a modulus of 5 and 9. digit, figure-one of the elements that collectively form a system of numeration; 0 and 1 are digits. large integer-an integer equal to or greater than ten.",
+          "text_sha256": "87b5f8889c6f785fa9ecf28cd69e812369c21a275181eb664753de3f508f803a",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 67,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8062597513198853
+        },
+        {
+          "chunk_id": "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4258668",
+          "instance_key": "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Video: Modulus in Math: Definition & Examples. A modulus in mathematics has to do with modular arithmetic, also called clock arithmetic. In this lesson, we'll explore the concept of a modulus. Through definition and example, we'll become familiar with what a modulus is and how to work with it. SAT Mathematics Level 2: Help and Review / Math Courses.",
+          "text_sha256": "fa827b7fb9c039e5a4db684b193dd6efe2db3a0bc6abd3580103c5e9f3ce86e5",
+          "char_start": 0,
+          "char_end": 351,
+          "tokens_with_specials": 80,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7103782892227173
+        },
+        {
+          "chunk_id": "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1623860",
+          "instance_key": "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Modulo operation. In computing, the modulo operation finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n.",
+          "text_sha256": "5abc9e4e9528901bb2aca1d187171c3d3fdeb1271d7738329ddbfbce7d5aef01",
+          "char_start": 0,
+          "char_end": 296,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6449651718139648
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Modulus is the diminutive from the Latin word modus meaning measure or manner.",
+        "Video: Modulus in Math: Definition & Examples. A modulus in mathematics has to do with modular arithmetic, also called clock arithmetic. In this lesson, we'll explore the concept of a modulus. Through definition and example, we'll become familiar with what a modulus is and how to work with it. SAT Mathematics Level 2: Help and Review / Math Courses.",
+        "Modulo operation. In computing, the modulo operation finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n."
+      ],
+      "T_removed_indices": [
+        1,
+        2
+      ],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:643572__C__U",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67",
+          "status": "ok",
+          "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers.",
+          "ordinal": 52,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:643572__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "question": "what does modulus mean",
+          "expected_answer": "In number theory, the modulus is the number you divide by, rather than the remainder.",
+          "source_qualification": "Number-theory meaning only. The passage distinguishes modulus from the programming mod operation; do not confuse the divisor with the remainder.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba:00000",
+            "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77:00000",
+            "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5:00000",
+            "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000",
+            "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040:00000"
+          ],
+          "text_hashes": [
+            "5c08497a2ca4334658824646c255c338a854cca2c15db3b7abbbd15ae94cec95",
+            "737560986d52b097c4822e7c13f2969565585296c4c3bafbbabf535683ae12c8",
+            "87b5f8889c6f785fa9ecf28cd69e812369c21a275181eb664753de3f508f803a",
+            "fa827b7fb9c039e5a4db684b193dd6efe2db3a0bc6abd3580103c5e9f3ce86e5",
+            "5abc9e4e9528901bb2aca1d187171c3d3fdeb1271d7738329ddbfbce7d5aef01"
+          ],
+          "request_sha256": "8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67",
+          "estimated_prompt_tokens": 407,
+          "identical_request_to": "NanoMSMARCO:643572__C__unfiltered",
+          "first_call_id": "NanoMSMARCO:643572__C__unfiltered",
+          "status": "ok",
+          "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers.",
+          "prompt_eval_count": 407,
+          "eval_count": 21,
+          "done_reason": "stop",
+          "wall_seconds": 21.942024381998635,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:643572__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "request_sha256": "8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67",
+          "status": "ok",
+          "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:643572__C__T",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "b097c8a31079c4a3d8923aa3cb03923b10e1cd7d894df12cca5dce9593f2c0b8",
+          "status": "ok",
+          "answer": "Modulus refers to the remainder after division of one number by another. It's also related to modular arithmetic, also known as clock arithmetic.",
+          "ordinal": 53,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:643572__PE2__filtered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "PE2",
+          "mode": "filtered",
+          "question": "what does modulus mean",
+          "expected_answer": "In number theory, the modulus is the number you divide by, rather than the remainder.",
+          "source_qualification": "Number-theory meaning only. The passage distinguishes modulus from the programming mod operation; do not confuse the divisor with the remainder.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040:00000"
+          ],
+          "text_hashes": [
+            "5abc9e4e9528901bb2aca1d187171c3d3fdeb1271d7738329ddbfbce7d5aef01"
+          ],
+          "request_sha256": "aa337a205fdf762b836728afc5b10d20d0b73cee8a07cdd899264b7d3702eee3",
+          "estimated_prompt_tokens": 133,
+          "identical_request_to": "NanoMSMARCO:643572__C__filtered",
+          "first_call_id": "NanoMSMARCO:643572__C__filtered",
+          "status": "ok",
+          "answer": "Modulus means the remainder after division of one number by another.",
+          "prompt_eval_count": 133,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 8.835209734999808,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4258663",
+          "instance_key": "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Modulus is the diminutive from the Latin word modus meaning measure or manner.",
+          "text_sha256": "5c08497a2ca4334658824646c255c338a854cca2c15db3b7abbbd15ae94cec95",
+          "char_start": 0,
+          "char_end": 78,
+          "tokens_with_specials": 20,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8690412044525146
+        },
+        {
+          "chunk_id": "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7728427",
+          "instance_key": "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Noun. 1. modulus-an integer that can be divided without remainder into the difference between two other integers; 2 is a modulus of 5 and 9. integer, whole number-any of the natural numbers (positive or negative) or zero; an integer is a number that is not a fraction., pl-li (-ˌlaɪ). 1. (General Physics) physics a coefficient expressing a specified property of a specified substance. See bulk modulus, modulus of rigidity, Young's modulus. 2. (Mathematics) maths the absolute value of a complex number.",
+          "text_sha256": "737560986d52b097c4822e7c13f2969565585296c4c3bafbbabf535683ae12c8",
+          "char_start": 0,
+          "char_end": 504,
+          "tokens_with_specials": 123,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8533416986465454
+        },
+        {
+          "chunk_id": "b1869c45732e673fed2569b2ce022a0e03a12446739c46cd66511c7a36a6cb50:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:643572/BN/1",
+          "instance_key": "b1869c45732e673fed2569b2ce022a0e03a12446739c46cd66511c7a36a6cb50",
+          "chunk_index": 0,
+          "copied_from": "4258663",
+          "copy_number": 1,
+          "text": "Source excerpt.\nModulus is the diminutive from the Latin word modus meaning measure or manner.",
+          "text_sha256": "973ebb3cffd8a457cb7eba4629be7d1b1d65edd748039521d1c9c92f794275c1",
+          "char_start": 0,
+          "char_end": 94,
+          "tokens_with_specials": 23,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8304774761199951
+        },
+        {
+          "chunk_id": "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3252244",
+          "instance_key": "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "modulus-an integer that can be divided without remainder into the difference between two other integers; 2 is a modulus of 5 and 9. digit, figure-one of the elements that collectively form a system of numeration; 0 and 1 are digits. large integer-an integer equal to or greater than ten.",
+          "text_sha256": "87b5f8889c6f785fa9ecf28cd69e812369c21a275181eb664753de3f508f803a",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 67,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.8062597513198853
+        },
+        {
+          "chunk_id": "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4258668",
+          "instance_key": "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Video: Modulus in Math: Definition & Examples. A modulus in mathematics has to do with modular arithmetic, also called clock arithmetic. In this lesson, we'll explore the concept of a modulus. Through definition and example, we'll become familiar with what a modulus is and how to work with it. SAT Mathematics Level 2: Help and Review / Math Courses.",
+          "text_sha256": "fa827b7fb9c039e5a4db684b193dd6efe2db3a0bc6abd3580103c5e9f3ce86e5",
+          "char_start": 0,
+          "char_end": 351,
+          "tokens_with_specials": 80,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7103782892227173
+        }
+      ],
+      "T_native_indices": [
+        4
+      ],
+      "T_output_texts": [
+        "Video: Modulus in Math: Definition & Examples. A modulus in mathematics has to do with modular arithmetic, also called clock arithmetic. In this lesson, we'll explore the concept of a modulus. Through definition and example, we'll become familiar with what a modulus is and how to work with it. SAT Mathematics Level 2: Help and Review / Math Courses."
+      ],
+      "T_removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        1,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:643572__BN1__U",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "4a2d691893b287ad558d267272e211f2bfff57e1d7d56f3a46c9c558dc045f00",
+          "status": "ok",
+          "answer": "Modulus means an integer that can be divided without remainder into the difference between two other integers.",
+          "ordinal": 55,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:643572__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "what does modulus mean",
+          "expected_answer": "In number theory, the modulus is the number you divide by, rather than the remainder.",
+          "source_qualification": "Number-theory meaning only. The passage distinguishes modulus from the programming mod operation; do not confuse the divisor with the remainder.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba:00000",
+            "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77:00000",
+            "b1869c45732e673fed2569b2ce022a0e03a12446739c46cd66511c7a36a6cb50:00000",
+            "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5:00000",
+            "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000"
+          ],
+          "text_hashes": [
+            "5c08497a2ca4334658824646c255c338a854cca2c15db3b7abbbd15ae94cec95",
+            "737560986d52b097c4822e7c13f2969565585296c4c3bafbbabf535683ae12c8",
+            "973ebb3cffd8a457cb7eba4629be7d1b1d65edd748039521d1c9c92f794275c1",
+            "87b5f8889c6f785fa9ecf28cd69e812369c21a275181eb664753de3f508f803a",
+            "fa827b7fb9c039e5a4db684b193dd6efe2db3a0bc6abd3580103c5e9f3ce86e5"
+          ],
+          "request_sha256": "4a2d691893b287ad558d267272e211f2bfff57e1d7d56f3a46c9c558dc045f00",
+          "estimated_prompt_tokens": 362,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:643572__BN1__unfiltered",
+          "status": "ok",
+          "answer": "Modulus means an integer that can be divided without remainder into the difference between two other integers.",
+          "prompt_eval_count": 362,
+          "eval_count": 20,
+          "done_reason": "stop",
+          "wall_seconds": 15.84510898499866,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:643572__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "4a2d691893b287ad558d267272e211f2bfff57e1d7d56f3a46c9c558dc045f00",
+          "status": "ok",
+          "answer": "Modulus means an integer that can be divided without remainder into the difference between two other integers.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:643572__BN1__T",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "d45b7a5c0b6ea7bc0aafd2698dac7ca17da87579015556de9d5d24739b970bd9",
+          "status": "ok",
+          "answer": "Modulus in mathematics refers to modular arithmetic, also known as clock arithmetic.",
+          "ordinal": 54,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:643572__BE1__filtered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "what does modulus mean",
+          "expected_answer": "In number theory, the modulus is the number you divide by, rather than the remainder.",
+          "source_qualification": "Number-theory meaning only. The passage distinguishes modulus from the programming mod operation; do not confuse the divisor with the remainder.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77:00000",
+            "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5:00000",
+            "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000"
+          ],
+          "text_hashes": [
+            "737560986d52b097c4822e7c13f2969565585296c4c3bafbbabf535683ae12c8",
+            "87b5f8889c6f785fa9ecf28cd69e812369c21a275181eb664753de3f508f803a",
+            "fa827b7fb9c039e5a4db684b193dd6efe2db3a0bc6abd3580103c5e9f3ce86e5"
+          ],
+          "request_sha256": "f245afcf99aaa5052550d56078d1b61dd200a6025610350b34412b15975c3542",
+          "estimated_prompt_tokens": 325,
+          "identical_request_to": "NanoMSMARCO:643572__BN1__filtered",
+          "first_call_id": "NanoMSMARCO:643572__BN1__filtered",
+          "status": "ok",
+          "answer": "Modulus in mathematics refers to an integer that can be divided without remainder into the difference between two other integers. It can also relate to a coefficient in physics or the absolute value of a complex number in mathematics.",
+          "prompt_eval_count": 325,
+          "eval_count": 43,
+          "done_reason": "stop",
+          "wall_seconds": 26.1327246150031,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4258663",
+          "instance_key": "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Modulus is the diminutive from the Latin word modus meaning measure or manner.",
+          "text_sha256": "5c08497a2ca4334658824646c255c338a854cca2c15db3b7abbbd15ae94cec95",
+          "char_start": 0,
+          "char_end": 78,
+          "tokens_with_specials": 20,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8690412044525146
+        },
+        {
+          "chunk_id": "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7728427",
+          "instance_key": "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Noun. 1. modulus-an integer that can be divided without remainder into the difference between two other integers; 2 is a modulus of 5 and 9. integer, whole number-any of the natural numbers (positive or negative) or zero; an integer is a number that is not a fraction., pl-li (-ˌlaɪ). 1. (General Physics) physics a coefficient expressing a specified property of a specified substance. See bulk modulus, modulus of rigidity, Young's modulus. 2. (Mathematics) maths the absolute value of a complex number.",
+          "text_sha256": "737560986d52b097c4822e7c13f2969565585296c4c3bafbbabf535683ae12c8",
+          "char_start": 0,
+          "char_end": 504,
+          "tokens_with_specials": 123,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8533416986465454
+        },
+        {
+          "chunk_id": "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3252244",
+          "instance_key": "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "modulus-an integer that can be divided without remainder into the difference between two other integers; 2 is a modulus of 5 and 9. digit, figure-one of the elements that collectively form a system of numeration; 0 and 1 are digits. large integer-an integer equal to or greater than ten.",
+          "text_sha256": "87b5f8889c6f785fa9ecf28cd69e812369c21a275181eb664753de3f508f803a",
+          "char_start": 0,
+          "char_end": 287,
+          "tokens_with_specials": 67,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8062597513198853
+        },
+        {
+          "chunk_id": "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4258668",
+          "instance_key": "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Video: Modulus in Math: Definition & Examples. A modulus in mathematics has to do with modular arithmetic, also called clock arithmetic. In this lesson, we'll explore the concept of a modulus. Through definition and example, we'll become familiar with what a modulus is and how to work with it. SAT Mathematics Level 2: Help and Review / Math Courses.",
+          "text_sha256": "fa827b7fb9c039e5a4db684b193dd6efe2db3a0bc6abd3580103c5e9f3ce86e5",
+          "char_start": 0,
+          "char_end": 351,
+          "tokens_with_specials": 80,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7103782892227173
+        },
+        {
+          "chunk_id": "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1623860",
+          "instance_key": "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Modulo operation. In computing, the modulo operation finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n.",
+          "text_sha256": "5abc9e4e9528901bb2aca1d187171c3d3fdeb1271d7738329ddbfbce7d5aef01",
+          "char_start": 0,
+          "char_end": 296,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6449651718139648
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Modulus is the diminutive from the Latin word modus meaning measure or manner.",
+        "Video: Modulus in Math: Definition & Examples. A modulus in mathematics has to do with modular arithmetic, also called clock arithmetic. In this lesson, we'll explore the concept of a modulus. Through definition and example, we'll become familiar with what a modulus is and how to work with it. SAT Mathematics Level 2: Help and Review / Math Courses.",
+        "Modulo operation. In computing, the modulo operation finds the remainder after division of one number by another (sometimes called modulus). Given two positive numbers, a (the dividend) and n (the divisor), a modulo n (abbreviated as a mod n) is the remainder of the Euclidean division of a by n."
+      ],
+      "T_removed_indices": [
+        1,
+        2
+      ],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:643572__PN1__U",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67",
+          "status": "ok",
+          "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers.",
+          "ordinal": 52,
+          "same_run_reuse_of": "NanoMSMARCO:643572__C__U",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:643572__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "question": "what does modulus mean",
+          "expected_answer": "In number theory, the modulus is the number you divide by, rather than the remainder.",
+          "source_qualification": "Number-theory meaning only. The passage distinguishes modulus from the programming mod operation; do not confuse the divisor with the remainder.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "4209730dd9f70ca33d46f7abd9305144d496cba281405615ee5ed60f6b6e38ba:00000",
+            "7c825ef464e4c2a7b082037657c7fa8db522836baf01f3fbe53c8fb94dc5ae77:00000",
+            "a0506f87d9e50123e0c57d72a91aefa81b31ff6b1d368d618d4cf7e19c4046c5:00000",
+            "ba202d18b10dee553599c6220cec322afad1b67647d392236fe4158bd3be40a4:00000",
+            "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040:00000"
+          ],
+          "text_hashes": [
+            "5c08497a2ca4334658824646c255c338a854cca2c15db3b7abbbd15ae94cec95",
+            "737560986d52b097c4822e7c13f2969565585296c4c3bafbbabf535683ae12c8",
+            "87b5f8889c6f785fa9ecf28cd69e812369c21a275181eb664753de3f508f803a",
+            "fa827b7fb9c039e5a4db684b193dd6efe2db3a0bc6abd3580103c5e9f3ce86e5",
+            "5abc9e4e9528901bb2aca1d187171c3d3fdeb1271d7738329ddbfbce7d5aef01"
+          ],
+          "request_sha256": "8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67",
+          "estimated_prompt_tokens": 407,
+          "identical_request_to": "NanoMSMARCO:643572__C__unfiltered",
+          "first_call_id": "NanoMSMARCO:643572__C__unfiltered",
+          "status": "ok",
+          "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers.",
+          "prompt_eval_count": 407,
+          "eval_count": 21,
+          "done_reason": "stop",
+          "wall_seconds": 21.942024381998635,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:643572__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "request_sha256": "8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67",
+          "status": "ok",
+          "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:643572__PN1__T",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "b097c8a31079c4a3d8923aa3cb03923b10e1cd7d894df12cca5dce9593f2c0b8",
+          "status": "ok",
+          "answer": "Modulus refers to the remainder after division of one number by another. It's also related to modular arithmetic, also known as clock arithmetic.",
+          "ordinal": 53,
+          "same_run_reuse_of": "NanoMSMARCO:643572__C__T",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:643572__PE2__filtered",
+          "case_id": "NanoMSMARCO:643572",
+          "condition": "PE2",
+          "mode": "filtered",
+          "question": "what does modulus mean",
+          "expected_answer": "In number theory, the modulus is the number you divide by, rather than the remainder.",
+          "source_qualification": "Number-theory meaning only. The passage distinguishes modulus from the programming mod operation; do not confuse the divisor with the remainder.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "813bafd098295893db55611fed661310522c41bfbb44a8ae5a4ff975e9288040:00000"
+          ],
+          "text_hashes": [
+            "5abc9e4e9528901bb2aca1d187171c3d3fdeb1271d7738329ddbfbce7d5aef01"
+          ],
+          "request_sha256": "aa337a205fdf762b836728afc5b10d20d0b73cee8a07cdd899264b7d3702eee3",
+          "estimated_prompt_tokens": 133,
+          "identical_request_to": "NanoMSMARCO:643572__C__filtered",
+          "first_call_id": "NanoMSMARCO:643572__C__filtered",
+          "status": "ok",
+          "answer": "Modulus means the remainder after division of one number by another.",
+          "prompt_eval_count": 133,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 8.835209734999808,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

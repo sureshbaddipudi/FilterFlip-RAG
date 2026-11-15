@@ -1,0 +1,2853 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test929",
+    "dataset": "NanoNQ",
+    "question": "where did they film woody the woodpecker movie",
+    "source_family": "NanoNQ:test929",
+    "review_status": "assistant_only",
+    "target_document_id": "doc33193",
+    "expected_answer": "Canada",
+    "answer_aliases": [],
+    "support_quote": "On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+    "source_qualification": "The live-action/CG hybrid film whose filming began in June 2016, not the earlier cancelled animated projects.",
+    "qrel_document_ids": [
+      "doc33193"
+    ],
+    "family_reference_texts": [
+      "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test929",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc33193",
+    "expected_answer": "Canada",
+    "answer_aliases": [],
+    "support_quote": "On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+    "source_qualification": "The live-action/CG hybrid film whose filming began in June 2016, not the earlier cancelled animated projects.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test929",
+    "dataset": "NanoNQ",
+    "question": "where did they film woody the woodpecker movie",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test929",
+      "dataset": "NanoNQ",
+      "question": "where did they film woody the woodpecker movie",
+      "expected_answer": "Canada",
+      "source_qualification": "The live-action/CG hybrid film whose filming began in June 2016, not the earlier cancelled animated projects.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Assistant-confirmed event",
+      "reason_group": "Strict recorded event (assistant)",
+      "historical_decision": "provisional_event",
+      "historical_reason_code": "provisional_event",
+      "historical_rationale": "C and BN1 filtered and PN1 unfiltered correctly answer Canada. PN1 filtering removes the filming-location source and copy; the remaining box-office and voice-actor passages do not answer the question. C has a removal-boundary tie; order robustness remains untested.",
+      "current_assistant_rationale": "All five checks pass for this recorded configuration under the frozen source interpretation.\nclean: The retained passage explicitly says the 2016 live-action/CG film was being filmed in Canada. The answer is Canada.\nunfiltered: Both the original and the retrieved copy state Canada; the unfiltered answer also gives Canada.\nloss: The survivors discuss Brazilian box-office receipts, Toy Story Woody performance, and historical woodpecker voice actors. None identifies the filming location of the specified film.\nfailure: The model says Not enough information.\ncontrol: The filming passage survives the background-copy filter; the answer is Canada.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/2",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/34",
+      "review_priority": 1,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test929.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 307,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 205,
+              "call_id": "NanoNQ:test929__C__unfiltered",
+              "request_sha256": "ccee4ce74eae3a2c5acaa8b4e2bc3b80972630d906b785672d190af77d102ee0"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 206,
+              "call_id": "NanoNQ:test929__C__filtered",
+              "request_sha256": "9550b0d8ad4b041c26c5f0930c1245a1e7235fc33350119f228bc54714852e76"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 308,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 207,
+              "call_id": "NanoNQ:test929__BN1__unfiltered",
+              "request_sha256": "0aec38b82e55d42b91399ef49cc60cde428ddc946fe203fdcd053ab433d9807f"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 208,
+              "call_id": "NanoNQ:test929__BN1__filtered",
+              "request_sha256": "ad9bcabdb32f028b144fc5155dfcafa15a66f3b22c6eb52b320929c502a2456b"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 310,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 209,
+              "call_id": "NanoNQ:test929__PN1__unfiltered",
+              "request_sha256": "062aecacd39b7afbf180ea721c06f9fc5991e574d999db34e63bf1c17af1ed81"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 210,
+              "call_id": "NanoNQ:test929__PN1__filtered",
+              "request_sha256": "c855ccdcfd7a0fedea1f29bc4d33befbc76d4afae93df768e3884c3130ca474d"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "Later fixed-context check: 120 orders per C/BN1/PN1; source support retained in C/BN1 and lost in PN1 throughout. No generator rerun per order; assistant semantic interpretation.",
+      "later_order_source": "output/filterflip_study_v1_order_check/ORDER_REVIEW.json"
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test929",
+      "Question": "where did they film woody the woodpecker movie",
+      "Evidence packet": "evidence/NanoNQ_test929.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "abstention",
+      "Strict event judgment": "yes",
+      "Background-qualified event?": "yes",
+      "Evidence and reasoning": "Q1: C P2 doc33193 kept: \"filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016\"; answer Canada. Q2: PN1 P2 copy of doc33193. Q3: Canada. Q4: survivors P1 doc33196 (box office), P4 doc1612525 (Toy Story Woody), P5 doc1458400 (voice history): no filming location. Q5: \"Not enough information.\" Q6: BN1 P3 doc33193 kept, \"Canada\".",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (event).",
+      "workbook_row": 5,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "question": "where did they film woody the woodpecker movie",
+        "expected_answer": "Canada",
+        "source_qualification": "The live-action/CG hybrid film whose filming began in June 2016, not the earlier cancelled animated projects.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Assistant-confirmed event",
+        "reason_group": "Strict recorded event (assistant)",
+        "historical_decision": "provisional_event",
+        "historical_reason_code": "provisional_event",
+        "historical_rationale": "C and BN1 filtered and PN1 unfiltered correctly answer Canada. PN1 filtering removes the filming-location source and copy; the remaining box-office and voice-actor passages do not answer the question. C has a removal-boundary tie; order robustness remains untested.",
+        "current_assistant_rationale": "All five checks pass for this recorded configuration under the frozen source interpretation.\nclean: The retained passage explicitly says the 2016 live-action/CG film was being filmed in Canada. The answer is Canada.\nunfiltered: Both the original and the retrieved copy state Canada; the unfiltered answer also gives Canada.\nloss: The survivors discuss Brazilian box-office receipts, Toy Story Woody performance, and historical woodpecker voice actors. None identifies the filming location of the specified film.\nfailure: The model says Not enough information.\ncontrol: The filming passage survives the background-copy filter; the answer is Canada.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/2",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/34",
+        "review_priority": 1,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoNQ_test929.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 307,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 205,
+                "call_id": "NanoNQ:test929__C__unfiltered",
+                "request_sha256": "ccee4ce74eae3a2c5acaa8b4e2bc3b80972630d906b785672d190af77d102ee0"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 206,
+                "call_id": "NanoNQ:test929__C__filtered",
+                "request_sha256": "9550b0d8ad4b041c26c5f0930c1245a1e7235fc33350119f228bc54714852e76"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 308,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 207,
+                "call_id": "NanoNQ:test929__BN1__unfiltered",
+                "request_sha256": "0aec38b82e55d42b91399ef49cc60cde428ddc946fe203fdcd053ab433d9807f"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 208,
+                "call_id": "NanoNQ:test929__BN1__filtered",
+                "request_sha256": "ad9bcabdb32f028b144fc5155dfcafa15a66f3b22c6eb52b320929c502a2456b"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 310,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 209,
+                "call_id": "NanoNQ:test929__PN1__unfiltered",
+                "request_sha256": "062aecacd39b7afbf180ea721c06f9fc5991e574d999db34e63bf1c17af1ed81"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 210,
+                "call_id": "NanoNQ:test929__PN1__filtered",
+                "request_sha256": "c855ccdcfd7a0fedea1f29bc4d33befbc76d4afae93df768e3884c3130ca474d"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "Later fixed-context check: 120 orders per C/BN1/PN1; source support retained in C/BN1 and lost in PN1 throughout. No generator rerun per order; assistant semantic interpretation.",
+        "later_order_source": "output/filterflip_study_v1_order_check/ORDER_REVIEW.json"
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test929",
+    "question": "where did they film woody the woodpecker movie",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test929"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": true
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6015024781227112,
+          "kept": true
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5627069473266602,
+          "kept": false
+        },
+        {
+          "chunk_id": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc1458400",
+          "instance_key": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "away later became Woody's voice after Rogers was killed in a plane crash during World War II, and would voice the woodpecker for the rest of the decade. Despite this, Blanc continued to voice Woody on a Mutual Network radio show[7] and in recordings for Capitol Records from 1948 until 1955,[8] while his laugh would continue to be used in the shorts until 1951.",
+          "text_sha256": "28cb3f1fe3859c2bd059003e9ea3abc0c99a36e22836e16b6b8db9a1e551bee7",
+          "char_start": 989,
+          "char_end": 1351,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5604394674301147,
+          "kept": true
+        },
+        {
+          "chunk_id": "573b7aa6ce33a5496a82111de6156994227adaa78f8a619d1d9733a8481db11b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1972282",
+          "instance_key": "573b7aa6ce33a5496a82111de6156994227adaa78f8a619d1d9733a8481db11b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Overall, woodpeckers are arboreal birds of wooded habitats. They reach their greatest diversity in tropical rainforests, but occur in almost all suitable habitats including woodlands, savannahs, scrublands, and bamboo forests. Even grasslands and deserts have been colonised by various species. These habitats are more easily occupied where a small number of trees exist, or, in the case of desert species like the Gila woodpecker, tall cacti are available for nesting.[13] Some are specialists and are associated with coniferous or deciduous woodland or even, like the acorn woodpecker, with individual tree genera (oaks in this case). Other species are generalists and are able to adapt to forest clearance by exploiting secondary growth, plantations, orchards and parks. In general, forest-dwelling species need rotting or dead wood on which to forage.[14]",
+          "text_sha256": "e70e451647ec59dc40bd03249036d267c028270fb513a4dcf4354ab8cefabac9",
+          "char_start": 0,
+          "char_end": 859,
+          "tokens_with_specials": 180,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5406995415687561,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "removed_indices": [
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.22854798117828068,
+          0.22854798117828068,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0488666296005249,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.47806692123413086
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.40571802854537964
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3876139223575592
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.37159624695777893
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.3470352590084076
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.3462243676185608
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.30289119482040405
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2655327022075653
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.26395007967948914
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__C__unfiltered",
+          "request_sha256": "ccee4ce74eae3a2c5acaa8b4e2bc3b80972630d906b785672d190af77d102ee0",
+          "reference": {
+            "status": "ok",
+            "answer": "They filmed Woody Woodpecker in Canada.",
+            "first_call_id": "NanoNQ:test929__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Canada",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__C__filtered",
+          "request_sha256": "9550b0d8ad4b041c26c5f0930c1245a1e7235fc33350119f228bc54714852e76",
+          "reference": {
+            "status": "ok",
+            "answer": "They filmed Woody the Woodpecker movie in Canada.",
+            "first_call_id": "NanoNQ:test929__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Canada",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": false
+        },
+        {
+          "chunk_id": "16c08de755cbde7c39a7173a4b08db584e9acc86afa80c983a7b64d6653bc742:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/BN/1",
+          "instance_key": "16c08de755cbde7c39a7173a4b08db584e9acc86afa80c983a7b64d6653bc742",
+          "chunk_index": 0,
+          "copied_from": "doc33196",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAs of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "4bee1c2adc383c880f6b476ff0a02539bf058772ee71b745916bd574d60eaea6",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6545947790145874,
+          "kept": false
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6015024781227112,
+          "kept": true
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5627069473266602,
+          "kept": true
+        },
+        {
+          "chunk_id": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc1458400",
+          "instance_key": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "away later became Woody's voice after Rogers was killed in a plane crash during World War II, and would voice the woodpecker for the rest of the decade. Despite this, Blanc continued to voice Woody on a Mutual Network radio show[7] and in recordings for Capitol Records from 1948 until 1955,[8] while his laugh would continue to be used in the shorts until 1951.",
+          "text_sha256": "28cb3f1fe3859c2bd059003e9ea3abc0c99a36e22836e16b6b8db9a1e551bee7",
+          "char_start": 989,
+          "char_end": 1351,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5604394674301147,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9927479856679646,
+          0.9927479856679646,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9927479856679646,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.518300473690033,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9963673949241638
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47806692123413086
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4277866780757904
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.40571802854537964
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.40535926818847656
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.3677246868610382
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.34703528881073
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.34622442722320557
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__BN1__unfiltered",
+          "request_sha256": "0aec38b82e55d42b91399ef49cc60cde428ddc946fe203fdcd053ab433d9807f",
+          "reference": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "first_call_id": "NanoNQ:test929__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Canada",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__BN1__filtered",
+          "request_sha256": "ad9bcabdb32f028b144fc5155dfcafa15a66f3b22c6eb52b320929c502a2456b",
+          "reference": {
+            "status": "ok",
+            "answer": "Canada",
+            "first_call_id": "NanoNQ:test929__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Canada",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": true
+        },
+        {
+          "chunk_id": "16c08de755cbde7c39a7173a4b08db584e9acc86afa80c983a7b64d6653bc742:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/BN/1",
+          "instance_key": "16c08de755cbde7c39a7173a4b08db584e9acc86afa80c983a7b64d6653bc742",
+          "chunk_index": 0,
+          "copied_from": "doc33196",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAs of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "4bee1c2adc383c880f6b476ff0a02539bf058772ee71b745916bd574d60eaea6",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6545947790145874,
+          "kept": false
+        },
+        {
+          "chunk_id": "8c35223727d1f7c504aa00b1e0bb9eb6a001f376fb1a74cdc0aedd470df7b25e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/BN/2",
+          "instance_key": "8c35223727d1f7c504aa00b1e0bb9eb6a001f376fb1a74cdc0aedd470df7b25e",
+          "chunk_index": 0,
+          "copied_from": "doc33196",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nAs of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "e6c2659e87fee07285704ed8ade70cf8981b2f8a691e6e5e08440eed11e0a35e",
+          "char_start": 0,
+          "char_end": 278,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6540682315826416,
+          "kept": false
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6015024781227112,
+          "kept": true
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5627069473266602,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9991873962121787,
+          0.9991873962121787,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9991873962121787,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0032262206077575684,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9995936155319214
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9963673949241638
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9957484602928162
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.42814207077026367
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4277866780757904
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.3677246868610382
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.36739566922187805
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.34703528881073
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__BN2__unfiltered",
+          "request_sha256": "fbd73cad2cddbc2a9e9f09bd40412fcccea33f80b9c8a4ff3a41a164d95612f3",
+          "reference": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada.",
+            "first_call_id": "NanoNQ:test929__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__BN2__filtered",
+          "request_sha256": "bcf37712ed727631e3ded521d09ab3aeedd58a0e556b867d44ca00096afb1482",
+          "reference": {
+            "status": "ok",
+            "answer": "Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+            "first_call_id": "NanoNQ:test929__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": true
+        },
+        {
+          "chunk_id": "619bccc0c385430c9c1eb4bb9650b485d8fed52f242aefd4eb4929e7719f53c4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/PN/1",
+          "instance_key": "619bccc0c385430c9c1eb4bb9650b485d8fed52f242aefd4eb4929e7719f53c4",
+          "chunk_index": 0,
+          "copied_from": "doc33193",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "19a3873e730dbbda184cc542ecd19cccdceb36ba3f003e250f89dd1e48df2a1a",
+          "char_start": 0,
+          "char_end": 633,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6228387355804443,
+          "kept": false
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6015024781227112,
+          "kept": false
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5627069473266602,
+          "kept": true
+        },
+        {
+          "chunk_id": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc1458400",
+          "instance_key": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "away later became Woody's voice after Rogers was killed in a plane crash during World War II, and would voice the woodpecker for the rest of the decade. Despite this, Blanc continued to voice Woody on a Mutual Network radio show[7] and in recordings for Capitol Records from 1948 until 1955,[8] while his laugh would continue to be used in the shorts until 1951.",
+          "text_sha256": "28cb3f1fe3859c2bd059003e9ea3abc0c99a36e22836e16b6b8db9a1e551bee7",
+          "char_start": 989,
+          "char_end": 1351,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5604394674301147,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9910870012780073,
+          0.9910870012780073,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9910870012780073,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5174666047096252,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9955335259437561
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47806692123413086
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.40571802854537964
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.39558714628219604
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.3685823678970337
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.3592793941497803
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.34703528881073
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.34622442722320557
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__PN1__unfiltered",
+          "request_sha256": "062aecacd39b7afbf180ea721c06f9fc5991e574d999db34e63bf1c17af1ed81",
+          "reference": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "first_call_id": "NanoNQ:test929__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__PN1__filtered",
+          "request_sha256": "c855ccdcfd7a0fedea1f29bc4d33befbc76d4afae93df768e3884c3130ca474d",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test929__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": true
+        },
+        {
+          "chunk_id": "619bccc0c385430c9c1eb4bb9650b485d8fed52f242aefd4eb4929e7719f53c4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/PN/1",
+          "instance_key": "619bccc0c385430c9c1eb4bb9650b485d8fed52f242aefd4eb4929e7719f53c4",
+          "chunk_index": 0,
+          "copied_from": "doc33193",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "19a3873e730dbbda184cc542ecd19cccdceb36ba3f003e250f89dd1e48df2a1a",
+          "char_start": 0,
+          "char_end": 633,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6228387355804443,
+          "kept": false
+        },
+        {
+          "chunk_id": "9a98677159dc333888696df71dc65eabe9644c8a757fd244117f2bd0d6172775:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/PN/2",
+          "instance_key": "9a98677159dc333888696df71dc65eabe9644c8a757fd244117f2bd0d6172775",
+          "chunk_index": 0,
+          "copied_from": "doc33193",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nIn the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "b211b77bf4b17e79f9bce8c7dfed2448948070df1b370aa956783f67df75ad65",
+          "char_start": 0,
+          "char_end": 636,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6171907186508179,
+          "kept": false
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6015024781227112,
+          "kept": true
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5627069473266602,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9995271526577234,
+          0.9995271526577234,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9995271526577234,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.004230022430419922,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.999763548374176
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9955335259437561
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9952566027641296
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.39558714628219604
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.3886029124259949
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.3685823678970337
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.36554670333862305
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.34703528881073
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__PN2__unfiltered",
+          "request_sha256": "1c3cd93495440a74150d984aff33d9cf340693c4ac6f3caefffc686ba8e4e6a0",
+          "reference": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "first_call_id": "NanoNQ:test929__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__PN2__filtered",
+          "request_sha256": "bcf37712ed727631e3ded521d09ab3aeedd58a0e556b867d44ca00096afb1482",
+          "reference": {
+            "status": "ok",
+            "answer": "Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+            "first_call_id": "NanoNQ:test929__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": false
+        },
+        {
+          "chunk_id": "8fef60edea643dfc23d1fc84f17724265a1dfb2d94cf237708160ef753890ec9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/BE/1",
+          "instance_key": "8fef60edea643dfc23d1fc84f17724265a1dfb2d94cf237708160ef753890ec9",
+          "chunk_index": 0,
+          "copied_from": "doc33196",
+          "copy_number": 1,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6553241014480591,
+          "kept": false
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6015024781227112,
+          "kept": true
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5627069473266602,
+          "kept": true
+        },
+        {
+          "chunk_id": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc1458400",
+          "instance_key": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "away later became Woody's voice after Rogers was killed in a plane crash during World War II, and would voice the woodpecker for the rest of the decade. Despite this, Blanc continued to voice Woody on a Mutual Network radio show[7] and in recordings for Capitol Records from 1948 until 1955,[8] while his laugh would continue to be used in the shorts until 1951.",
+          "text_sha256": "28cb3f1fe3859c2bd059003e9ea3abc0c99a36e22836e16b6b8db9a1e551bee7",
+          "char_start": 989,
+          "char_end": 1351,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5604394674301147,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5219330787658691,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47806692123413086
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.40571802854537964
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.40571802854537964
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.34703528881073
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.34622442722320557
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__BE1__unfiltered",
+          "request_sha256": "dfc4862e19abd0e9f49f4b18229a0384ad5ff01287888fe219fa97bc9cf898ad",
+          "reference": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "first_call_id": "NanoNQ:test929__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Canada",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__BE1__filtered",
+          "request_sha256": "ad9bcabdb32f028b144fc5155dfcafa15a66f3b22c6eb52b320929c502a2456b",
+          "reference": {
+            "status": "ok",
+            "answer": "Canada",
+            "first_call_id": "NanoNQ:test929__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Canada",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": false
+        },
+        {
+          "chunk_id": "8fef60edea643dfc23d1fc84f17724265a1dfb2d94cf237708160ef753890ec9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/BE/1",
+          "instance_key": "8fef60edea643dfc23d1fc84f17724265a1dfb2d94cf237708160ef753890ec9",
+          "chunk_index": 0,
+          "copied_from": "doc33196",
+          "copy_number": 1,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6553241014480591,
+          "kept": false
+        },
+        {
+          "chunk_id": "f572804ab71b6902659b44f42a2b8cb4699c416460b15aada382e91f50576b85:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/BE/2",
+          "instance_key": "f572804ab71b6902659b44f42a2b8cb4699c416460b15aada382e91f50576b85",
+          "chunk_index": 0,
+          "copied_from": "doc33196",
+          "copy_number": 2,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6553241014480591,
+          "kept": false
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6015024781227112,
+          "kept": true
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5627069473266602,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.570799708366394,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.34703528881073
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__BE2__unfiltered",
+          "request_sha256": "43f2302f4f6fe543e247c821f3cff8bc71499c7bfc673625a0466a82adeece15",
+          "reference": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada.",
+            "first_call_id": "NanoNQ:test929__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__BE2__filtered",
+          "request_sha256": "13a62c0d8e191b1e67ee25c627ee4de37674237bc62c96855bd1bf58578d20a0",
+          "reference": {
+            "status": "ok",
+            "answer": "They filmed Woody the Woodpecker movie in Canada.",
+            "first_call_id": "NanoNQ:test929__BE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Canada",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": true
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6015024781227112,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa97426bd3ff83963c771dfd123bd4ed5e94482e58b828d74ff7a3acbdb1abf9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/PE/1",
+          "instance_key": "aa97426bd3ff83963c771dfd123bd4ed5e94482e58b828d74ff7a3acbdb1abf9",
+          "chunk_index": 0,
+          "copied_from": "doc33193",
+          "copy_number": 1,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6015024781227112,
+          "kept": false
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5627069473266602,
+          "kept": true
+        },
+        {
+          "chunk_id": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc1458400",
+          "instance_key": "b816f2f65568606523dbe92b262481feba535dac67c1889984f9ec7a5c568a37",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "away later became Woody's voice after Rogers was killed in a plane crash during World War II, and would voice the woodpecker for the rest of the decade. Despite this, Blanc continued to voice Woody on a Mutual Network radio show[7] and in recordings for Capitol Records from 1948 until 1955,[8] while his laugh would continue to be used in the shorts until 1951.",
+          "text_sha256": "28cb3f1fe3859c2bd059003e9ea3abc0c99a36e22836e16b6b8db9a1e551bee7",
+          "char_start": 989,
+          "char_end": 1351,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5604394674301147,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5219331979751587,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47806692123413086
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.40571802854537964
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.34703528881073
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.34703528881073
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.34622442722320557
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.34622442722320557
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__PE1__unfiltered",
+          "request_sha256": "f294fea33754f85222157fadb5b71667b530eff02b4dab32fc885698d625b6c8",
+          "reference": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "first_call_id": "NanoNQ:test929__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__PE1__filtered",
+          "request_sha256": "c855ccdcfd7a0fedea1f29bc4d33befbc76d4afae93df768e3884c3130ca474d",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test929__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test929",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33196",
+          "instance_key": "4779951bee49e4120b4c03b086584de3f70410404f40c95304bd5fe466b5af7c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As of February 22, 2018, Woody Woodpecker has grossed $13.4 million. It debuted at $1.5 million, finishing second at the Brazilian box office behind Blade Runner 2049. The movie increased by +45.4% in its second weekend, moving to first place to $2.1 million.",
+          "text_sha256": "dfc3933b48280f32535fe2712261c8998e15adad936762b6d4e6fb8b7e2330a6",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 68,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6553241014480591,
+          "kept": true
+        },
+        {
+          "chunk_id": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc33193",
+          "instance_key": "56712148b89bb6b8fd6c6e5d8df263c4d7a674ac9281c9a5a74e944de3c422a6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6015024781227112,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa97426bd3ff83963c771dfd123bd4ed5e94482e58b828d74ff7a3acbdb1abf9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/PE/1",
+          "instance_key": "aa97426bd3ff83963c771dfd123bd4ed5e94482e58b828d74ff7a3acbdb1abf9",
+          "chunk_index": 0,
+          "copied_from": "doc33193",
+          "copy_number": 1,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6015024781227112,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3f8a8b1aad2366e08d09b892464a523e8ad3bc36a9274eb867aec520c647665:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test929/PE/2",
+          "instance_key": "e3f8a8b1aad2366e08d09b892464a523e8ad3bc36a9274eb867aec520c647665",
+          "chunk_index": 0,
+          "copied_from": "doc33193",
+          "copy_number": 2,
+          "text": "In the early 2010s, Universal Pictures and Illumination Entertainment planned a Woody Woodpecker feature film. John Altschuler and Dave Krinsky (King of the Hill) were in talks to develop a story,[6] but in July 2013, Illumination canceled the project.[7] In October 2013, Bill Kopp announced that Universal Pictures had hired him to direct an animated feature film with three interwoven stories.[8] On July 13, 2016, Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+          "text_sha256": "dc9b311a6f1a60f211a5bef26683f2517e24fee757d5e911343bdfab4f94ec1a",
+          "char_start": 0,
+          "char_end": 617,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6015024781227112,
+          "kept": true
+        },
+        {
+          "chunk_id": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612525",
+          "instance_key": "b3bda10ffe49cf95691177ff3f6f50274c4f48b7ae08e3704a9b1ba06d908047",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Tom Hanks's vocal performance as Sheriff Woody was received positively by film critics. Susan Wloszczyna of USA Today approved of the selection of Hanks for the lead role of Woody.[6] Kenneth Turan of the Los Angeles Times stated that Tom Hanks \"brings an invaluable heft and believability to Woody.\"[7] In June 2010, Entertainment Weekly named Woody one of the 100 Greatest Characters of the Last 20 Years.[8]",
+          "text_sha256": "c8be3117a96a283dce2f5ba8011c0c2e714bbc47346267fcdfc6a3bbe5808971",
+          "char_start": 0,
+          "char_end": 410,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5627069473266602,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.42920029163360596
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.37159621715545654
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.34703528881073
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.34703528881073
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.34703528881073
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test929__PE2__unfiltered",
+          "request_sha256": "e8771097871bf49718577e5738f9c8e4ae1e11a5cf5042a10338e13db12aabd3",
+          "reference": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "first_call_id": "NanoNQ:test929__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Universal 1440 Entertainment filmed the Woody Woodpecker movie in Canada.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test929__PE2__filtered",
+          "request_sha256": "bcf37712ed727631e3ded521d09ab3aeedd58a0e556b867d44ca00096afb1482",
+          "reference": {
+            "status": "ok",
+            "answer": "Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada. Filming began in June 2016, and ended later in July of that year.",
+            "first_call_id": "NanoNQ:test929__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Cartoon Brew reported that Universal 1440 Entertainment was filming a live-action/CG hybrid film based on Woody Woodpecker in Canada.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

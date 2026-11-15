@@ -1,0 +1,109 @@
+{
+  "recorded_at": "2026-11-03T23:23:25.525388+05:30",
+  "method": "Actual in-app browser via CUA; primary production app on 8770, separate labelled synthetic lifecycle fixture on 8771",
+  "production_live_controls": {
+    "mode": "variants",
+    "available_conditions": [
+      "C",
+      "BN1",
+      "BN2",
+      "PN1",
+      "PN2",
+      "BE1",
+      "BE2",
+      "PE1",
+      "PE2"
+    ],
+    "run_button_enabled_for_each": true,
+    "production_run_folders_created": 0
+  },
+  "saved_views": [
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "C",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "BN1",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "BN2",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "PN1",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "PN2",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "BE1",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "BE2",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "PE1",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1009",
+      "condition": "PE2",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoMSMARCO:1045374",
+      "condition": "PE2",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1635",
+      "condition": "BN2",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test306",
+      "condition": "PN2",
+      "result": "PASS"
+    },
+    {
+      "case_id": "NanoNQ:test1618",
+      "condition": "PN2",
+      "result": "PASS"
+    }
+  ],
+  "preserved_truncation_and_discrepancy_notes": true,
+  "primary_review_sections": 5,
+  "browser_console_errors_or_warnings": [],
+  "synthetic_start_stop": {
+    "result": "PASS",
+    "run_id": "6b5c30a7f61c4dc78ba99fdf4b0e7861",
+    "observed_states": [
+      "running",
+      "cancelled"
+    ],
+    "controls_reenabled_after_cancel": true,
+    "partial_export_button_enabled": true,
+    "model_calls": 0
+  },
+  "actual_browser_download": "NOT_RUN: no controlled workspace download destination; the real export handlers and resulting JSON Blobs were tested in tools/check_controls.cjs, separately from browser transport",
+  "screenshots": [
+    "validation/live_controls.jpg",
+    "validation/saved_PN2.jpg"
+  ],
+  "services_and_tabs": "closed after verification",
+  "new_model_calls": 0,
+  "new_encoder_loads": 0
+}

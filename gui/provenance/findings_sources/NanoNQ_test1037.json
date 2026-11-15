@@ -1,0 +1,894 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1037",
+    "question": "why is the angel of the north there",
+    "expected_answer": "To commemorate two centuries of coal mining beneath the site, mark the transition from an industrial to an information age, and provide a focus for evolving hopes and fears.",
+    "source_qualification": "These are the three symbolic purposes attributed to Gormley in the supplied reference.",
+    "source_review_status_historical": "user_recorded_review",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoNQ:test1037",
+      "assessment": "clear_component_support_loss",
+      "rationale": "C and BN1 retain Gormley’s three purposes under the frozen source-relative interpretation. PN1 leaves only an unrelated Caedmon illustration about paradise. No remaining passage supports those purposes. Earlier generator clean failures must not be relabelled as successes.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+          "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+          "939a0f2437f46bcaa0ae94b7c79af8b08901969d6bf54c12815bb687f83a0094:00000"
+        ],
+        "BN1": [
+          "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+          "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+        ],
+        "PN1": [
+          "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 6,
+    "novel_request_hashes": 2
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoNQ:test1037",
+    "question": "why is the angel of the north there",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1037"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36393",
+          "instance_key": "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Gormley, the significance of an angel was three-fold: first, to signify that beneath the site of its construction, coal miners worked for two centuries; second, to grasp the transition from an industrial to an information age, and third, to serve as a focus for our evolving hopes and fears .[2]",
+          "text_sha256": "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5687658786773682
+        },
+        {
+          "chunk_id": "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2225375",
+          "instance_key": "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To the north:",
+          "text_sha256": "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 6,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.567715585231781
+        },
+        {
+          "chunk_id": "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2009369",
+          "instance_key": "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In this illustration from page 46 of the Caedmon manuscript, an angel is shown guarding the gates of paradise, after Adam and Eve have been expelled.",
+          "text_sha256": "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+          "char_start": 0,
+          "char_end": 149,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.537298858165741
+        },
+        {
+          "chunk_id": "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc573905",
+          "instance_key": "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the North:",
+          "text_sha256": "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 6,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5302789807319641
+        },
+        {
+          "chunk_id": "939a0f2437f46bcaa0ae94b7c79af8b08901969d6bf54c12815bb687f83a0094:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2483632",
+          "instance_key": "939a0f2437f46bcaa0ae94b7c79af8b08901969d6bf54c12815bb687f83a0094",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Angel of God",
+          "text_sha256": "026319a6b9f7538ab6ba9c4b9a4067f31a3a84dd49dc9dd4e5b88f03828c20b0",
+          "char_start": 0,
+          "char_end": 12,
+          "tokens_with_specials": 5,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5164222121238708
+        }
+      ],
+      "T_native_indices": [
+        0,
+        2,
+        4
+      ],
+      "T_output_texts": [
+        "According to Gormley, the significance of an angel was three-fold: first, to signify that beneath the site of its construction, coal miners worked for two centuries; second, to grasp the transition from an industrial to an information age, and third, to serve as a focus for our evolving hopes and fears .[2]",
+        "In this illustration from page 46 of the Caedmon manuscript, an angel is shown guarding the gates of paradise, after Adam and Eve have been expelled.",
+        "Angel of God"
+      ],
+      "T_removed_indices": [
+        1,
+        3
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        2,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1037__C__U",
+          "case_id": "NanoNQ:test1037",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "03428ac8af52b731567d4cd2ed68d508f20684cc07f6a0aff42b73d0d7bf36f4",
+          "status": "ok",
+          "answer": "The angel of the north is there to signify the transition from an industrial to an information age.",
+          "ordinal": 1,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1037__C__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "why is the angel of the north there",
+          "expected_answer": "To commemorate two centuries of coal mining beneath the site, mark the transition from an industrial to an information age, and provide a focus for evolving hopes and fears.",
+          "source_qualification": "These are the three symbolic purposes attributed to Gormley in the supplied reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000",
+            "939a0f2437f46bcaa0ae94b7c79af8b08901969d6bf54c12815bb687f83a0094:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88",
+            "026319a6b9f7538ab6ba9c4b9a4067f31a3a84dd49dc9dd4e5b88f03828c20b0"
+          ],
+          "request_sha256": "03428ac8af52b731567d4cd2ed68d508f20684cc07f6a0aff42b73d0d7bf36f4",
+          "estimated_prompt_tokens": 183,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1037__C__unfiltered",
+          "status": "ok",
+          "answer": "The angel of the north is there to signify the transition from an industrial to an information age.",
+          "prompt_eval_count": 183,
+          "eval_count": 20,
+          "done_reason": "stop",
+          "wall_seconds": 15.691418878996046,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1037__C__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "03428ac8af52b731567d4cd2ed68d508f20684cc07f6a0aff42b73d0d7bf36f4",
+          "status": "ok",
+          "answer": "The angel of the north is there to signify the transition from an industrial to an information age.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1037__C__T",
+          "case_id": "NanoNQ:test1037",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "09d941606702d08f03d2da05e3d955f50b310f0c1a2a5b6c5c976f7daec4a8d7",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 2,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1037__C__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "why is the angel of the north there",
+          "expected_answer": "To commemorate two centuries of coal mining beneath the site, mark the transition from an industrial to an information age, and provide a focus for evolving hopes and fears.",
+          "source_qualification": "These are the three symbolic purposes attributed to Gormley in the supplied reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "939a0f2437f46bcaa0ae94b7c79af8b08901969d6bf54c12815bb687f83a0094:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "026319a6b9f7538ab6ba9c4b9a4067f31a3a84dd49dc9dd4e5b88f03828c20b0"
+          ],
+          "request_sha256": "09d941606702d08f03d2da05e3d955f50b310f0c1a2a5b6c5c976f7daec4a8d7",
+          "estimated_prompt_tokens": 175,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1037__C__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 175,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 1.810726807001629,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1037__C__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "C",
+          "mode": "filtered",
+          "request_sha256": "09d941606702d08f03d2da05e3d955f50b310f0c1a2a5b6c5c976f7daec4a8d7",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test1037__C__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "why is the angel of the north there",
+          "expected_answer": "To commemorate two centuries of coal mining beneath the site, mark the transition from an industrial to an information age, and provide a focus for evolving hopes and fears.",
+          "source_qualification": "These are the three symbolic purposes attributed to Gormley in the supplied reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "939a0f2437f46bcaa0ae94b7c79af8b08901969d6bf54c12815bb687f83a0094:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "026319a6b9f7538ab6ba9c4b9a4067f31a3a84dd49dc9dd4e5b88f03828c20b0"
+          ],
+          "request_sha256": "09d941606702d08f03d2da05e3d955f50b310f0c1a2a5b6c5c976f7daec4a8d7",
+          "estimated_prompt_tokens": 175,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1037__C__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 175,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 1.810726807001629,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36393",
+          "instance_key": "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Gormley, the significance of an angel was three-fold: first, to signify that beneath the site of its construction, coal miners worked for two centuries; second, to grasp the transition from an industrial to an information age, and third, to serve as a focus for our evolving hopes and fears .[2]",
+          "text_sha256": "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5687658786773682
+        },
+        {
+          "chunk_id": "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2225375",
+          "instance_key": "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To the north:",
+          "text_sha256": "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 6,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.567715585231781
+        },
+        {
+          "chunk_id": "5630259cb0c2c4e62b6ea3eb925d7fff07c99d9ed5be30f98021ab5322ec5eae:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1037/BN/1",
+          "instance_key": "5630259cb0c2c4e62b6ea3eb925d7fff07c99d9ed5be30f98021ab5322ec5eae",
+          "chunk_index": 0,
+          "copied_from": "doc2225375",
+          "copy_number": 1,
+          "text": "Source excerpt.\nTo the north:",
+          "text_sha256": "38c343e1b659f8444b7e5213166e8a43e985a943dd7be08b7257c4262e84dff9",
+          "char_start": 0,
+          "char_end": 29,
+          "tokens_with_specials": 9,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5500815510749817
+        },
+        {
+          "chunk_id": "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2009369",
+          "instance_key": "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In this illustration from page 46 of the Caedmon manuscript, an angel is shown guarding the gates of paradise, after Adam and Eve have been expelled.",
+          "text_sha256": "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+          "char_start": 0,
+          "char_end": 149,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.537298858165741
+        },
+        {
+          "chunk_id": "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc573905",
+          "instance_key": "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the North:",
+          "text_sha256": "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 6,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5302789807319641
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3
+      ],
+      "T_output_texts": [
+        "According to Gormley, the significance of an angel was three-fold: first, to signify that beneath the site of its construction, coal miners worked for two centuries; second, to grasp the transition from an industrial to an information age, and third, to serve as a focus for our evolving hopes and fears .[2]",
+        "In this illustration from page 46 of the Caedmon manuscript, an angel is shown guarding the gates of paradise, after Adam and Eve have been expelled."
+      ],
+      "T_removed_indices": [
+        1,
+        2,
+        4
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        2,
+        3
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1037__BN1__U",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "0d6cf95e437de787d59ac5de8e319a9dc908be1044b7872d60b7011f4cc82309",
+          "status": "ok",
+          "answer": "The angel of the north is there to signify the transition from an industrial to an information age.",
+          "ordinal": 4,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1037__BN1__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "why is the angel of the north there",
+          "expected_answer": "To commemorate two centuries of coal mining beneath the site, mark the transition from an industrial to an information age, and provide a focus for evolving hopes and fears.",
+          "source_qualification": "These are the three symbolic purposes attributed to Gormley in the supplied reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "5630259cb0c2c4e62b6ea3eb925d7fff07c99d9ed5be30f98021ab5322ec5eae:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "38c343e1b659f8444b7e5213166e8a43e985a943dd7be08b7257c4262e84dff9",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88"
+          ],
+          "request_sha256": "0d6cf95e437de787d59ac5de8e319a9dc908be1044b7872d60b7011f4cc82309",
+          "estimated_prompt_tokens": 186,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1037__BN1__unfiltered",
+          "status": "ok",
+          "answer": "The angel in the north is there to signify the transition from an industrial to an information age.",
+          "prompt_eval_count": 186,
+          "eval_count": 20,
+          "done_reason": "stop",
+          "wall_seconds": 9.993823496006371,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1037__BN1__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "0d6cf95e437de787d59ac5de8e319a9dc908be1044b7872d60b7011f4cc82309",
+          "status": "ok",
+          "answer": "The angel of the north is there to signify the transition from an industrial to an information age.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1037__BN1__T",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "4f4f68e583557da0fd3d3c6d066dcc56681194ebc0728efe50f270b94f4795b0",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 3,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test1037__BN1__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "BN1",
+          "mode": "filtered",
+          "question": "why is the angel of the north there",
+          "expected_answer": "To commemorate two centuries of coal mining beneath the site, mark the transition from an industrial to an information age, and provide a focus for evolving hopes and fears.",
+          "source_qualification": "These are the three symbolic purposes attributed to Gormley in the supplied reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "5630259cb0c2c4e62b6ea3eb925d7fff07c99d9ed5be30f98021ab5322ec5eae:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000"
+          ],
+          "text_hashes": [
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "38c343e1b659f8444b7e5213166e8a43e985a943dd7be08b7257c4262e84dff9",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99"
+          ],
+          "request_sha256": "ceeb215296513ae40982f9349648954f3f75417cb803a171534f984dbe1af1c5",
+          "estimated_prompt_tokens": 178,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1037__BN1__filtered",
+          "status": "ok",
+          "answer": "The angel in the north is there to signify that beneath the site of its construction, coal miners worked for two centuries.",
+          "prompt_eval_count": 178,
+          "eval_count": 25,
+          "done_reason": "stop",
+          "wall_seconds": 5.896960762998788,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "ffbcee28aca22e5187f733769a4158f2760d16af7f0f9b53923b1b7cf6b06c76:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1037/PN/1",
+          "instance_key": "ffbcee28aca22e5187f733769a4158f2760d16af7f0f9b53923b1b7cf6b06c76",
+          "chunk_index": 0,
+          "copied_from": "doc36393",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAccording to Gormley, the significance of an angel was three-fold: first, to signify that beneath the site of its construction, coal miners worked for two centuries; second, to grasp the transition from an industrial to an information age, and third, to serve as a focus for our evolving hopes and fears .[2]",
+          "text_sha256": "3d5b4731b19a515b33fda0a3718b683fb855422d3b6daf84af552f516f82eabb",
+          "char_start": 0,
+          "char_end": 324,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5739062428474426
+        },
+        {
+          "chunk_id": "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36393",
+          "instance_key": "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Gormley, the significance of an angel was three-fold: first, to signify that beneath the site of its construction, coal miners worked for two centuries; second, to grasp the transition from an industrial to an information age, and third, to serve as a focus for our evolving hopes and fears .[2]",
+          "text_sha256": "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5687658786773682
+        },
+        {
+          "chunk_id": "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2225375",
+          "instance_key": "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To the north:",
+          "text_sha256": "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 6,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.567715585231781
+        },
+        {
+          "chunk_id": "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2009369",
+          "instance_key": "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In this illustration from page 46 of the Caedmon manuscript, an angel is shown guarding the gates of paradise, after Adam and Eve have been expelled.",
+          "text_sha256": "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+          "char_start": 0,
+          "char_end": 149,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.537298858165741
+        },
+        {
+          "chunk_id": "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc573905",
+          "instance_key": "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the North:",
+          "text_sha256": "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 6,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5302789807319641
+        }
+      ],
+      "T_native_indices": [
+        3
+      ],
+      "T_output_texts": [
+        "In this illustration from page 46 of the Caedmon manuscript, an angel is shown guarding the gates of paradise, after Adam and Eve have been expelled."
+      ],
+      "T_removed_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "ffbcee28aca22e5187f733769a4158f2760d16af7f0f9b53923b1b7cf6b06c76:00000",
+          "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1037__PN1__U",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "6da631e5e44a4f9c972f68cf21ee387350f29c4ae722b4fc4b15117902c700f0",
+          "status": "ok",
+          "answer": "The angel of the north is there to signify that beneath the site of its construction, coal miners worked for two centuries.",
+          "ordinal": 5,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1037__PN1__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "why is the angel of the north there",
+          "expected_answer": "To commemorate two centuries of coal mining beneath the site, mark the transition from an industrial to an information age, and provide a focus for evolving hopes and fears.",
+          "source_qualification": "These are the three symbolic purposes attributed to Gormley in the supplied reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ffbcee28aca22e5187f733769a4158f2760d16af7f0f9b53923b1b7cf6b06c76:00000",
+            "8421b3b439e79e2e20bee0c2f9d0bbd25a2e1dc7955169152b989148040187ba:00000",
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000"
+          ],
+          "text_hashes": [
+            "3d5b4731b19a515b33fda0a3718b683fb855422d3b6daf84af552f516f82eabb",
+            "02a3a41f28b40dfdeb7d2fa830b327d7edd913363afa14c3dbbd2e46ec242c83",
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88"
+          ],
+          "request_sha256": "6da631e5e44a4f9c972f68cf21ee387350f29c4ae722b4fc4b15117902c700f0",
+          "estimated_prompt_tokens": 248,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1037__PN1__unfiltered",
+          "status": "ok",
+          "answer": "The angel of the north is there to signify that beneath the site of its construction, coal miners worked for two centuries.",
+          "prompt_eval_count": 248,
+          "eval_count": 25,
+          "done_reason": "stop",
+          "wall_seconds": 16.92126747900329,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1037__PN1__unfiltered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "6da631e5e44a4f9c972f68cf21ee387350f29c4ae722b4fc4b15117902c700f0",
+          "status": "ok",
+          "answer": "The angel of the north is there to signify that beneath the site of its construction, coal miners worked for two centuries.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1037__PN1__T",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "eac784e14db226232516748a2c0bcf8f153ce4f28e127fac5874c5d8ac1b934c",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 6,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test1037__PE1__filtered",
+          "case_id": "NanoNQ:test1037",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "why is the angel of the north there",
+          "expected_answer": "To commemorate two centuries of coal mining beneath the site, mark the transition from an industrial to an information age, and provide a focus for evolving hopes and fears.",
+          "source_qualification": "These are the three symbolic purposes attributed to Gormley in the supplied reference.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2cd729dbca2e4f0b59831794af7839d8c8fb018c42246b7fc33558ab907574f4:00000",
+            "d278114407448ad8bcb9074d431d01d0843bfef035dbaf6b5ef1be2ab91f2e51:00000",
+            "2cc9eec657b5eeacef93ca24e67437af91ea334e9a27c89fe855f53cb773fb4a:00000"
+          ],
+          "text_hashes": [
+            "a187c3bc719a4821f4562de2154a714957926e06c9fd90b4171646802abf471a",
+            "692dd20f4c84cb999be5dbbef3f3ce928a5312ce383723b6c719d3a86fdb1a99",
+            "217606e847a9ba4cbfb394b972e75b5e96dffe64502c66bfbaaad4c2925d1c88"
+          ],
+          "request_sha256": "1d98f14904226a78132fef00fdb0338e59d6184711e0c2c8cbd9c6f69c838dfe",
+          "estimated_prompt_tokens": 113,
+          "identical_request_to": "NanoNQ:test1037__PN1__filtered",
+          "first_call_id": "NanoNQ:test1037__PN1__filtered",
+          "status": "ok",
+          "answer": "The angel is there to guard the gates of paradise, after Adam and Eve have been expelled.",
+          "prompt_eval_count": 113,
+          "eval_count": 20,
+          "done_reason": "stop",
+          "wall_seconds": 4.9009762089990545,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

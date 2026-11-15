@@ -1,0 +1,2931 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1045374",
+    "dataset": "NanoMSMARCO",
+    "question": "what is targeted victory",
+    "source_family": "NanoMSMARCO:1045374",
+    "review_status": "assistant_only",
+    "target_document_id": "7193888",
+    "expected_answer": "A full-service strategy and marketing agency founded by digital marketers, focused on political elections and corporate challenges.",
+    "answer_aliases": [],
+    "support_quote": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+    "source_qualification": "Description supplied by the agency; evaluative marketing claims such as optimized outcomes are not required factual answer elements.",
+    "qrel_document_ids": [
+      "7193888"
+    ],
+    "family_reference_texts": [
+      "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:1045374",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "7193888",
+    "expected_answer": "A full-service strategy and marketing agency founded by digital marketers, focused on political elections and corporate challenges.",
+    "answer_aliases": [],
+    "support_quote": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+    "source_qualification": "Description supplied by the agency; evaluative marketing claims such as optimized outcomes are not required factual answer elements.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:1045374",
+    "dataset": "NanoMSMARCO",
+    "question": "what is targeted victory",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:1045374",
+      "dataset": "NanoMSMARCO",
+      "question": "what is targeted victory",
+      "expected_answer": "A full-service strategy and marketing agency founded by digital marketers, focused on political elections and corporate challenges.",
+      "source_qualification": "Description supplied by the agency; evaluative marketing claims such as optimized outcomes are not required factual answer elements.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Needs adjudication",
+      "reason_group": "Unresolved rubric/support judgment",
+      "historical_decision": "provisional_event",
+      "historical_reason_code": "provisional_event",
+      "historical_rationale": "C and BN1 filtered and PN1 unfiltered correctly identify the strategy/marketing agency and its political/corporate work. PN1 filtering removes both agency descriptions, and the model substitutes a counterinsurgency definition of victory. The core agency definition is usable and grounded; the founder descriptor is omitted from several brief answers and should be checked by human reviewers.",
+      "current_assistant_rationale": "Retain as evidence-removal and wrong-answer observation, but do not count in the conservative verified-event subset until answer-completeness adjudication. No rubric change was made.\nclean: The retained source supports the agency identity, field and focus. The answer is a usable core definition, but omits the founder descriptor included in the frozen expected answer. Full-rubric acceptance remains unresolved.\nunfiltered: The original and copied agency description are retrieved. The answer preserves the agency identity and political/corporate work, but omits the founder descriptor. It is not certified as satisfying every frozen answer element.\nloss: The surviving passages define victory, counterinsurgency victory, and goals/objectives. None identifies the named marketing agency.\nfailure: The model substitutes a counterinsurgency definition for the named agency, which is wrong for the frozen question interpretation.\ncontrol: The agency description survives the background-copy filter and the response preserves its identity and work, but again omits the founder descriptor. Control answer completeness remains qualified.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/3",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/37",
+      "review_priority": 2,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoMSMARCO_1045374.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 334,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 223,
+              "call_id": "NanoMSMARCO:1045374__C__unfiltered",
+              "request_sha256": "8ca0850a69b559be79b5808fe924c93676791ebf9df5a959eac3aafcac56e910"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 224,
+              "call_id": "NanoMSMARCO:1045374__C__filtered",
+              "request_sha256": "2e88ccf3669c31888492a1846b536acb31e9a8443a2482b99848f597c71e8854"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 335,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 225,
+              "call_id": "NanoMSMARCO:1045374__BN1__unfiltered",
+              "request_sha256": "a472188cee1d451c8256c98782d9ec2b9a562b5f2e539ea57cf1e22cfebdebc0"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 226,
+              "call_id": "NanoMSMARCO:1045374__BN1__filtered",
+              "request_sha256": "433defaf10743357d6920a8089025c466ae2085ab672091b55905a382497a797"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 337,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 227,
+              "call_id": "NanoMSMARCO:1045374__PN1__unfiltered",
+              "request_sha256": "9562a3d9b8074c3f09fbcd49049cc73e0fcfb2be17baee85b587601f15b7ca87"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 228,
+              "call_id": "NanoMSMARCO:1045374__PN1__filtered",
+              "request_sha256": "9f3f521072f39b8c772b96596c2d23efb236792a93c9aa083b2b8bc5c9faad45"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoMSMARCO:1045374",
+      "Question": "what is targeted victory",
+      "Evidence packet": "evidence/NanoMSMARCO_1045374.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "wrong",
+      "Strict event judgment": "yes",
+      "Background-qualified event?": "yes",
+      "Evidence and reasoning": "Q1: C P1 7193888 kept; answer \"full-service strategy and marketing agency ... political elections and ... corporate challenges\" (omits \"founded by digital marketers\"). Q2: PN1 P1 copy of 7193888 incl. \"Built by digital marketers\". Q3: same core answer. Q4: survivors P3 4520541 (counterinsurgency victory), P4 6948296 (dictionary victory), P5 8499854 (goals/objectives): agency never identified. Q5: counterinsurgency definition - wrong. Q6: BN1 core identity kept (odd wording).",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Reviewer decision 2026-10-14: core definition accepted as correct and usable although the founder descriptor is omitted (interpretation of answer completeness; frozen rubric text unchanged). Under a full-element reading Q1/Q3 would fail. DISAGREES with assistant status \"Needs adjudication\".",
+      "workbook_row": 6,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "jointly_agreed_under_named_core_mixed_rule",
+      "assistant_prior": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "question": "what is targeted victory",
+        "expected_answer": "A full-service strategy and marketing agency founded by digital marketers, focused on political elections and corporate challenges.",
+        "source_qualification": "Description supplied by the agency; evaluative marketing claims such as optimized outcomes are not required factual answer elements.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Needs adjudication",
+        "reason_group": "Unresolved rubric/support judgment",
+        "historical_decision": "provisional_event",
+        "historical_reason_code": "provisional_event",
+        "historical_rationale": "C and BN1 filtered and PN1 unfiltered correctly identify the strategy/marketing agency and its political/corporate work. PN1 filtering removes both agency descriptions, and the model substitutes a counterinsurgency definition of victory. The core agency definition is usable and grounded; the founder descriptor is omitted from several brief answers and should be checked by human reviewers.",
+        "current_assistant_rationale": "Retain as evidence-removal and wrong-answer observation, but do not count in the conservative verified-event subset until answer-completeness adjudication. No rubric change was made.\nclean: The retained source supports the agency identity, field and focus. The answer is a usable core definition, but omits the founder descriptor included in the frozen expected answer. Full-rubric acceptance remains unresolved.\nunfiltered: The original and copied agency description are retrieved. The answer preserves the agency identity and political/corporate work, but omits the founder descriptor. It is not certified as satisfying every frozen answer element.\nloss: The surviving passages define victory, counterinsurgency victory, and goals/objectives. None identifies the named marketing agency.\nfailure: The model substitutes a counterinsurgency definition for the named agency, which is wrong for the frozen question interpretation.\ncontrol: The agency description survives the background-copy filter and the response preserves its identity and work, but again omits the founder descriptor. Control answer completeness remains qualified.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/3",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/37",
+        "review_priority": 2,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoMSMARCO_1045374.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 334,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 223,
+                "call_id": "NanoMSMARCO:1045374__C__unfiltered",
+                "request_sha256": "8ca0850a69b559be79b5808fe924c93676791ebf9df5a959eac3aafcac56e910"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 224,
+                "call_id": "NanoMSMARCO:1045374__C__filtered",
+                "request_sha256": "2e88ccf3669c31888492a1846b536acb31e9a8443a2482b99848f597c71e8854"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 335,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 225,
+                "call_id": "NanoMSMARCO:1045374__BN1__unfiltered",
+                "request_sha256": "a472188cee1d451c8256c98782d9ec2b9a562b5f2e539ea57cf1e22cfebdebc0"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 226,
+                "call_id": "NanoMSMARCO:1045374__BN1__filtered",
+                "request_sha256": "433defaf10743357d6920a8089025c466ae2085ab672091b55905a382497a797"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 337,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 227,
+                "call_id": "NanoMSMARCO:1045374__PN1__unfiltered",
+                "request_sha256": "9562a3d9b8074c3f09fbcd49049cc73e0fcfb2be17baee85b587601f15b7ca87"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 228,
+                "call_id": "NanoMSMARCO:1045374__PN1__filtered",
+                "request_sha256": "9f3f521072f39b8c772b96596c2d23efb236792a93c9aa083b2b8bc5c9faad45"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only",
+      "joint_adjudication": {
+        "joint_decision": "event",
+        "participants": [
+          "Shradha",
+          "Suresh"
+        ],
+        "agreement_recorded_date": "2026-10-26",
+        "suresh_response": "accept",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+      }
+    },
+    "prior_joint_adjudication": {
+      "case_id": "NanoMSMARCO:1045374",
+      "case_name": "Targeted Victory",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Targeted Victory",
+        "Suresh's Label": "Event",
+        "Decided by": "Core rule"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "Frozen answer: \"founded by digital marketers\"; clean answer omits it.",
+        "PN1 filtered: \"Targeted victory is the destruction in a given area of the insurgent's forces and his political organization...\""
+      ],
+      "agreed_rationale": "Event under the core-answer rule. Clean and PN1-unfiltered answers name the agency, its type and both focus areas; omitting 'founded by digital marketers' (who built it, not what it is) is accepted under the core rule. Both agency passages (copy and 7193888) are removed by the PN1 filter and the filtered answer is about counterinsurgency. NOT an event under an all-elements rule (Q1 and Q3 would fail).",
+      "original_proposal_entry": {
+        "case_id": "NanoMSMARCO:1045374",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "yes",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "Frozen answer: \"founded by digital marketers\"; clean answer omits it.",
+          "PN1 filtered: \"Targeted victory is the destruction in a given area of the insurgent's forces and his political organization...\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Event under the core-answer rule. Clean and PN1-unfiltered answers name the agency, its type and both focus areas; omitting 'founded by digital marketers' (who built it, not what it is) is accepted under the core rule. Both agency passages (copy and 7193888) are removed by the PN1 filter and the filtered answer is about counterinsurgency. NOT an event under an all-elements rule (Q1 and Q3 would fail).",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "event",
+        "suresh_response": null
+      }
+    }
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:1045374",
+    "question": "what is targeted victory",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1045374"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.827225387096405,
+          "kept": true
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.579215943813324,
+          "kept": false
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5164574384689331,
+          "kept": false
+        },
+        {
+          "chunk_id": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8499854",
+          "instance_key": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Both terms imply the target that one's efforts is desired to accomplish. Goals are generically for an achievement or accomplishment for which certain efforts are put. Objectives are specific targets within the general goal. Objectives are time-related to achieve a certain task. A goal is defined as. 1  The purpose toward which an endeavor is directed.  The result or achievement toward which effort is directed or aimed.",
+          "text_sha256": "316507cda627b33e092cc020558ead51610f93769c8f3080d0bca68992d82f9c",
+          "char_start": 0,
+          "char_end": 422,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5144531726837158,
+          "kept": true
+        },
+        {
+          "chunk_id": "0fa0285b733d84dec16eba02a3da08a4525f307793c1aa245ef0e9a8241bcc4b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5635135",
+          "instance_key": "0fa0285b733d84dec16eba02a3da08a4525f307793c1aa245ef0e9a8241bcc4b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "However, the more central a role that ideology plays in motivating their cause, the more it attains strategic significance in the conflict, with a wise opponent able to target it directly to undercut the group’s drive and solidarity.",
+          "text_sha256": "d62aeb6dfd55a1825f4a025ca2707e9b975e589c80f695c1de6f598e188670bd",
+          "char_start": 0,
+          "char_end": 233,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.49587422609329224,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.0,
+          0.31169138982693667,
+          0.31169138982693667,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.31169138982693667,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.11838704347610474,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5582932829856873
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.43139591813087463
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.41502273082733154
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4045180082321167
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4037588834762573
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3741825222969055
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.3387117385864258
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.32700467109680176
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.21498620510101318
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__C__unfiltered",
+          "request_sha256": "8ca0850a69b559be79b5808fe924c93676791ebf9df5a959eac3aafcac56e910",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__C__filtered",
+          "request_sha256": "2e88ccf3669c31888492a1846b536acb31e9a8443a2482b99848f597c71e8854",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.827225387096405,
+          "kept": true
+        },
+        {
+          "chunk_id": "2199774ea5c97ddf08c712ba086ca6ed93039162c70e82d73fe79c46180b6644:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/BN/1",
+          "instance_key": "2199774ea5c97ddf08c712ba086ca6ed93039162c70e82d73fe79c46180b6644",
+          "chunk_index": 0,
+          "copied_from": "4520541",
+          "copy_number": 1,
+          "text": "Source excerpt.\nA victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "491266521e63d1e6c1a3655f54b865dbde46cdbf75a9161e3d2f00cd47565b07",
+          "char_start": 0,
+          "char_end": 323,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5810539722442627,
+          "kept": false
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.579215943813324,
+          "kept": false
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5164574384689331,
+          "kept": true
+        },
+        {
+          "chunk_id": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8499854",
+          "instance_key": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Both terms imply the target that one's efforts is desired to accomplish. Goals are generically for an achievement or accomplishment for which certain efforts are put. Objectives are specific targets within the general goal. Objectives are time-related to achieve a certain task. A goal is defined as. 1  The purpose toward which an endeavor is directed.  The result or achievement toward which effort is directed or aimed.",
+          "text_sha256": "316507cda627b33e092cc020558ead51610f93769c8f3080d0bca68992d82f9c",
+          "char_start": 0,
+          "char_end": 422,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5144531726837158,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.9794963358856421,
+          0.9794963358856421,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9794963358856421,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4206569194793701,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9896950721740723
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5690381526947021
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5582932829856873
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4351808428764343
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.43139591813087463
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4045180082321167
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4037588834762573
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2229474037885666
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.21498620510101318
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__BN1__unfiltered",
+          "request_sha256": "a472188cee1d451c8256c98782d9ec2b9a562b5f2e539ea57cf1e22cfebdebc0",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency focusing on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__BN1__filtered",
+          "request_sha256": "433defaf10743357d6920a8089025c466ae2085ab672091b55905a382497a797",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that aims to achieve significant successes and noteworthy achievements in winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that aims to achieve significant successes or noteworthy achievements in winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.827225387096405,
+          "kept": true
+        },
+        {
+          "chunk_id": "c679e771f5ac2f7844d39b8a47e1fa250294a61315a9e8a51e05d61b0160d252:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/BN/2",
+          "instance_key": "c679e771f5ac2f7844d39b8a47e1fa250294a61315a9e8a51e05d61b0160d252",
+          "chunk_index": 0,
+          "copied_from": "4520541",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nA victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "8898e61f71172d47af92657d6ebcde2ee2ba22b1a8a1376c993cdf301c138d96",
+          "char_start": 0,
+          "char_end": 326,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5883971452713013,
+          "kept": false
+        },
+        {
+          "chunk_id": "2199774ea5c97ddf08c712ba086ca6ed93039162c70e82d73fe79c46180b6644:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/BN/1",
+          "instance_key": "2199774ea5c97ddf08c712ba086ca6ed93039162c70e82d73fe79c46180b6644",
+          "chunk_index": 0,
+          "copied_from": "4520541",
+          "copy_number": 1,
+          "text": "Source excerpt.\nA victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "491266521e63d1e6c1a3655f54b865dbde46cdbf75a9161e3d2f00cd47565b07",
+          "char_start": 0,
+          "char_end": 323,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5810539722442627,
+          "kept": false
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.579215943813324,
+          "kept": false
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5164574384689331,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.9755675722174146,
+          1.9766628358755867,
+          1.957896936189755,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.957896936189755,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4047010540962219,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9985823631286621
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9896949529647827
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9891414642333984
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5844404101371765
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5690381526947021
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5582932829856873
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4436681270599365
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4351809024810791
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.431395947933197
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__BN2__unfiltered",
+          "request_sha256": "924cdd08f915aafaabfd15507885aab5ffe634b0fdd2d7dc92a773d95d99d9f1",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__BN2__filtered",
+          "request_sha256": "d028c7a7af72ae194c8aac40491506287db1efda111b79e931bd9f77452c4445",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "b7bd06d4736ff37e9d9d469e23de5cedd0546e4d12515bc54492665a7e86bc5a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/PN/1",
+          "instance_key": "b7bd06d4736ff37e9d9d469e23de5cedd0546e4d12515bc54492665a7e86bc5a",
+          "chunk_index": 0,
+          "copied_from": "7193888",
+          "copy_number": 1,
+          "text": "Source excerpt.\nTargeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "7277bbe1c5adbdadbc4081c358d5509c38c90a84a68f6076fe8aea0320bf6dcc",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8557548522949219,
+          "kept": false
+        },
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.827225387096405,
+          "kept": false
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.579215943813324,
+          "kept": true
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5164574384689331,
+          "kept": true
+        },
+        {
+          "chunk_id": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8499854",
+          "instance_key": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Both terms imply the target that one's efforts is desired to accomplish. Goals are generically for an achievement or accomplishment for which certain efforts are put. Objectives are specific targets within the general goal. Objectives are time-related to achieve a certain task. A goal is defined as. 1  The purpose toward which an endeavor is directed.  The result or achievement toward which effort is directed or aimed.",
+          "text_sha256": "316507cda627b33e092cc020558ead51610f93769c8f3080d0bca68992d82f9c",
+          "char_start": 0,
+          "char_end": 422,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5144531726837158,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9539005247889385,
+          0.9539005247889385,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9539005247889385,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.41838502883911133,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9766783118247986
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5582932829856873
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.47866809368133545
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47547709941864014
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4614347219467163
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.43139591813087463
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4045180082321167
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4037588834762573
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.21498620510101318
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__PN1__unfiltered",
+          "request_sha256": "9562a3d9b8074c3f09fbcd49049cc73e0fcfb2be17baee85b587601f15b7ca87",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that provides optimized outcomes in the digital age, focusing on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__PN1__filtered",
+          "request_sha256": "9f3f521072f39b8c772b96596c2d23efb236792a93c9aa083b2b8bc5c9faad45",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted victory is the destruction in a given area of the insurgent's forces and his political organization, along with the permanent isolation of the insurgent from the population.",
+            "first_call_id": "NanoMSMARCO:1045374__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted victory is the destruction in a given area of the insurgent's forces and his political organization, along with the permanent isolation of the insurgent from the population.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "c14ad6ffaca902cc26040c441fdcaddfad8a056aff3686e18cf447f9539c5a32:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/PN/2",
+          "instance_key": "c14ad6ffaca902cc26040c441fdcaddfad8a056aff3686e18cf447f9539c5a32",
+          "chunk_index": 0,
+          "copied_from": "7193888",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nTargeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "b1672c6b8c64b29958cec63585726229327d9e391b32f1aff0474cee5d053fef",
+          "char_start": 0,
+          "char_end": 262,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8667495846748352,
+          "kept": false
+        },
+        {
+          "chunk_id": "b7bd06d4736ff37e9d9d469e23de5cedd0546e4d12515bc54492665a7e86bc5a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/PN/1",
+          "instance_key": "b7bd06d4736ff37e9d9d469e23de5cedd0546e4d12515bc54492665a7e86bc5a",
+          "chunk_index": 0,
+          "copied_from": "7193888",
+          "copy_number": 1,
+          "text": "Source excerpt.\nTargeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "7277bbe1c5adbdadbc4081c358d5509c38c90a84a68f6076fe8aea0320bf6dcc",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8557548522949219,
+          "kept": false
+        },
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.827225387096405,
+          "kept": true
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.579215943813324,
+          "kept": true
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5164574384689331,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.9950064925789981,
+          0.9950064925789981,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9950064925789981,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.020821809768676758,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9975001215934753
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9766783118247986
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9726685285568237
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5582932233810425
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4901489317417145
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.488921195268631
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.47866809368133545
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.47547709941864014
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.43139588832855225
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__PN2__unfiltered",
+          "request_sha256": "34193fa0517e2fdd5da2e0b1cdb6400ca547710030035b003a5f6ed85c1cb2e9",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that provides optimized outcomes in the digital age, focusing on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__PN2__filtered",
+          "request_sha256": "ca2bfe4c39c275a0bc8bd5867f3bbe072fdd474d92827cf54cf9f1579655bab7",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that provides optimized outcomes in the digital age, focusing on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.827225387096405,
+          "kept": true
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.579215943813324,
+          "kept": false
+        },
+        {
+          "chunk_id": "37181f1a0544c90a3c6a6bb1e414b5fa70ff4c7c320da219fafba40c0572a8cf:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/BE/1",
+          "instance_key": "37181f1a0544c90a3c6a6bb1e414b5fa70ff4c7c320da219fafba40c0572a8cf",
+          "chunk_index": 0,
+          "copied_from": "4520541",
+          "copy_number": 1,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.579215943813324,
+          "kept": false
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5164574384689331,
+          "kept": true
+        },
+        {
+          "chunk_id": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8499854",
+          "instance_key": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Both terms imply the target that one's efforts is desired to accomplish. Goals are generically for an achievement or accomplishment for which certain efforts are put. Objectives are specific targets within the general goal. Objectives are time-related to achieve a certain task. A goal is defined as. 1  The purpose toward which an endeavor is directed.  The result or achievement toward which effort is directed or aimed.",
+          "text_sha256": "316507cda627b33e092cc020558ead51610f93769c8f3080d0bca68992d82f9c",
+          "char_start": 0,
+          "char_end": 422,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5144531726837158,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.44170671701431274,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5582932829856873
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5582932829856873
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.43139591813087463
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.43139591813087463
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4045180082321167
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4037588834762573
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.21498620510101318
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.21498620510101318
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__BE1__unfiltered",
+          "request_sha256": "b79e6514e86a14f93849bb071270534fc9b8597ef86be0bde58124402eb50ad9",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency focusing on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__BE1__filtered",
+          "request_sha256": "433defaf10743357d6920a8089025c466ae2085ab672091b55905a382497a797",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that aims to achieve significant successes and noteworthy achievements in winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that aims to achieve significant successes or noteworthy achievements in winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.827225387096405,
+          "kept": true
+        },
+        {
+          "chunk_id": "023b890c0d2cfac7d3c4ba63963e51c53851416cafc4ae9e3bd9d8b90257f9cf:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/BE/2",
+          "instance_key": "023b890c0d2cfac7d3c4ba63963e51c53851416cafc4ae9e3bd9d8b90257f9cf",
+          "chunk_index": 0,
+          "copied_from": "4520541",
+          "copy_number": 2,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.579215943813324,
+          "kept": false
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.579215943813324,
+          "kept": false
+        },
+        {
+          "chunk_id": "37181f1a0544c90a3c6a6bb1e414b5fa70ff4c7c320da219fafba40c0572a8cf:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/BE/1",
+          "instance_key": "37181f1a0544c90a3c6a6bb1e414b5fa70ff4c7c320da219fafba40c0572a8cf",
+          "chunk_index": 0,
+          "copied_from": "4520541",
+          "copy_number": 1,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.579215943813324,
+          "kept": false
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5164574384689331,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.999999761581428,
+          1.999999761581428,
+          1.999999761581428,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.999999761581428,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.44170671701431274,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5582932233810425
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5582932233810425
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5582932233810425
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.43139588832855225
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.43139588832855225
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.43139588832855225
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__BE2__unfiltered",
+          "request_sha256": "2a97328f65525ad2806dc457151259e2807ca1eb68e8b1c55722b742c6397713",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that provides optimized outcomes in the digital age, focusing on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that provides optimized outcomes in the digital age, focusing on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__BE2__filtered",
+          "request_sha256": "d028c7a7af72ae194c8aac40491506287db1efda111b79e931bd9f77452c4445",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "c93beb6d0ec34c0388614578f3739e64d3a0e79a82bb4e5db2ed24ee7857b2ab:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/PE/1",
+          "instance_key": "c93beb6d0ec34c0388614578f3739e64d3a0e79a82bb4e5db2ed24ee7857b2ab",
+          "chunk_index": 0,
+          "copied_from": "7193888",
+          "copy_number": 1,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.827225387096405,
+          "kept": false
+        },
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.827225387096405,
+          "kept": false
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.579215943813324,
+          "kept": true
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5164574384689331,
+          "kept": true
+        },
+        {
+          "chunk_id": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8499854",
+          "instance_key": "3ec2d0acb06eba722ce2def186b351c2f1f75b5fcffb8a64f62e32c2ca28d482",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Both terms imply the target that one's efforts is desired to accomplish. Goals are generically for an achievement or accomplishment for which certain efforts are put. Objectives are specific targets within the general goal. Objectives are time-related to achieve a certain task. A goal is defined as. 1  The purpose toward which an endeavor is directed.  The result or achievement toward which effort is directed or aimed.",
+          "text_sha256": "316507cda627b33e092cc020558ead51610f93769c8f3080d0bca68992d82f9c",
+          "char_start": 0,
+          "char_end": 422,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5144531726837158,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4417068362236023,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5582932829856873
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.43139591813087463
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.43139591813087463
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4045180082321167
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4045180082321167
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4037588834762573
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.21498620510101318
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__PE1__unfiltered",
+          "request_sha256": "494fa4a00a6a99b6c57335b4efa1b38323989dc4d8b9b8b2786f8bdb65af82e2",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__PE1__filtered",
+          "request_sha256": "9f3f521072f39b8c772b96596c2d23efb236792a93c9aa083b2b8bc5c9faad45",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted victory is the destruction in a given area of the insurgent's forces and his political organization, along with the permanent isolation of the insurgent from the population.",
+            "first_call_id": "NanoMSMARCO:1045374__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted victory is the destruction in a given area of the insurgent's forces and his political organization, along with the permanent isolation of the insurgent from the population.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1045374",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "c93beb6d0ec34c0388614578f3739e64d3a0e79a82bb4e5db2ed24ee7857b2ab:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/PE/1",
+          "instance_key": "c93beb6d0ec34c0388614578f3739e64d3a0e79a82bb4e5db2ed24ee7857b2ab",
+          "chunk_index": 0,
+          "copied_from": "7193888",
+          "copy_number": 1,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.827225387096405,
+          "kept": false
+        },
+        {
+          "chunk_id": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7193888",
+          "instance_key": "dca176b83d994a2f7085475602dd47b97808d069c6e1af1d01f1f0ab9f3708e1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.827225387096405,
+          "kept": false
+        },
+        {
+          "chunk_id": "ea75a03623de0d2e01fedbb0dc154c282efcde81adeb54ed9d61b9291e359a43:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1045374/PE/2",
+          "instance_key": "ea75a03623de0d2e01fedbb0dc154c282efcde81adeb54ed9d61b9291e359a43",
+          "chunk_index": 0,
+          "copied_from": "7193888",
+          "copy_number": 2,
+          "text": "Targeted Victory. Built by digital marketers, Targeted Victory is a full service strategy and marketing agency providing optimized outcomes in the digital age. We focus on winning political elections and on solving global corporate challenges.",
+          "text_sha256": "344b14a23a11789e5c73f2d0409b0045613b05f4aebe2e4b3b436e6b0d8b9afc",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.827225387096405,
+          "kept": false
+        },
+        {
+          "chunk_id": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4520541",
+          "instance_key": "1ca72417539fe48dc69eb445d669972f7b300707667761aa025cada2d27ae451",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A victory [in a counterinsurgency] is not the destruction in a given area of the insurgent's forces and his political organization. ... A victory is that plus the permanent isolation of the insurgent from the population, isolation not enforced upon the population, but maintained by and with the population.",
+          "text_sha256": "c6ff60cd188ba53d1366b3f1b8684f0b5430282265be2f3b96ccec6e7eb3e952",
+          "char_start": 0,
+          "char_end": 307,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.579215943813324,
+          "kept": true
+        },
+        {
+          "chunk_id": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "6948296",
+          "instance_key": "1616dd07ee4e3a6d49334306eb6deeb3d390074342f9ea0fe3864e1ef755c056",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "the act, fact, or condition of being victorious or triumphant; victory; conquest. 2. a significant success or noteworthy achievement; instance or occasion of victory. 3. exultation resulting from victory; joy over success.",
+          "text_sha256": "5e24c451e6f6e9ea613842c9b57689e48b31840ac7cad58517284cc47255ed06",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5164574384689331,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0000004768371866,
+          2.0000004768371866,
+          2.0000004768371866,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0000004768371866,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.44170689582824707,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5582932233810425
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4399062395095825
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.43139588832855225
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.43139588832855225
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.43139588832855225
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1045374__PE2__unfiltered",
+          "request_sha256": "1cc1e1785b75fff074fc7ce76ce2aeeb176b3cf64aff106dfb8bdfaf86767703",
+          "reference": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "first_call_id": "NanoMSMARCO:1045374__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Targeted Victory is a full-service strategy and marketing agency that focuses on winning political elections and solving global corporate challenges.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1045374__PE2__filtered",
+          "request_sha256": "f52527f4f285798ea98049d647d40bd8f73ed52a8268a25a53f0f7674d0e0345",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1045374__PE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The targeted victory is the permanent isolation of the insurgent from the population, achieved through and with the population, without enforcing isolation upon them.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

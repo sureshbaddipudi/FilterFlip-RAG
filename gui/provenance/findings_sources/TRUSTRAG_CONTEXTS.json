@@ -1,0 +1,2661 @@
+[
+  {
+    "R_kept": 3,
+    "T_kept": 5,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "John Harvey Kellogg invented corn flakes.",
+        "logical_id": "NanoMSMARCO:1028652__C__T",
+        "record_id": "T3:39a5acd7db5c86d66b1437a5939f6a7f806798da3af3e818cbb08adb92fbd99a",
+        "request_sha256": "39a5acd7db5c86d66b1437a5939f6a7f806798da3af3e818cbb08adb92fbd99a"
+      },
+      "U": {
+        "answer": "John Harvey Kellogg invented corn flakes.",
+        "logical_id": "NanoMSMARCO:1028652__C__U",
+        "record_id": "T3:6301f63713969bdbbc5e8cd587e9230b1fc75d15d4053846bc8d424bb7bc6c48",
+        "request_sha256": "6301f63713969bdbbc5e8cd587e9230b1fc75d15d4053846bc8d424bb7bc6c48"
+      }
+    },
+    "case_id": "NanoMSMARCO:1028652",
+    "condition": "C",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "John and Will Kellogg invented corn flakes.",
+      "origin": "historical_reference",
+      "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "John and Will Kellogg invented corn flakes.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps all five passages; both answers correct.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1028652.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1028652:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 4,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "John Harvey Kellogg invented Corn Flakes.",
+        "logical_id": "NanoMSMARCO:1028652__BN1__T",
+        "record_id": "T3:2b8d6b157dd1fc6709e1389d5f490ffc4e063b790321d4a6b82d09baba5063fe",
+        "request_sha256": "2b8d6b157dd1fc6709e1389d5f490ffc4e063b790321d4a6b82d09baba5063fe"
+      },
+      "U": {
+        "answer": "John Harvey Kellogg invented corn flakes.",
+        "logical_id": "NanoMSMARCO:1028652__BN1__U",
+        "record_id": "T3:25fe89d3a1c479468a155594e2f92a3297d564f59698640df62324c85b6da80d",
+        "request_sha256": "25fe89d3a1c479468a155594e2f92a3297d564f59698640df62324c85b6da80d"
+      }
+    },
+    "case_id": "NanoMSMARCO:1028652",
+    "condition": "BN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "John Harvey Kellogg invented corn flakes.",
+      "origin": "historical_reference",
+      "request_sha256": "43167bf940a5700e604a4c5dfaaaa132d973f94950e652d52f853f61010fb010",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "John Harvey Kellogg invented corn flakes.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "43167bf940a5700e604a4c5dfaaaa132d973f94950e652d52f853f61010fb010",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage; both answers correct.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1028652.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1028652:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 4,
+    "T_kept": 1,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoMSMARCO:1028652__PN1__T",
+        "record_id": "T3:5d083a58ac7f8e188a01375d92548eb8ea8b46fc083b2efb242ccacc1162752d",
+        "request_sha256": "5d083a58ac7f8e188a01375d92548eb8ea8b46fc083b2efb242ccacc1162752d"
+      },
+      "U": {
+        "answer": "John Harvey Kellogg invented Corn Flakes.",
+        "logical_id": "NanoMSMARCO:1028652__PN1__U",
+        "record_id": "T3:e73fe8eb755ab39df7d621f1e943974afc6b07ab92131d6dd1fde9e684e838ea",
+        "request_sha256": "e73fe8eb755ab39df7d621f1e943974afc6b07ab92131d6dd1fde9e684e838ea"
+      }
+    },
+    "case_id": "NanoMSMARCO:1028652",
+    "condition": "PN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "partial",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "John Harvey Kellogg invented corn flakes.",
+      "origin": "historical_reference",
+      "request_sha256": "61642e0269c43404ae0227b59841889c715f52f08e5eaa3553a31adf148b2c48",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "John Harvey Kellogg invented corn flakes.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "61642e0269c43404ae0227b59841889c715f52f08e5eaa3553a31adf148b2c48",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "partial",
+        "state": "complete_pair",
+        "transition": "sufficient -> partial"
+      }
+    },
+    "rationale": "TrustRAG removes the answer passage and its neutral-prefix copy and keeps only f18fa0; the T answer abstains.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1028652.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1028652:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 1,
+    "T_kept": 0,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoMSMARCO:1067640__C__T",
+        "record_id": "T3:73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14",
+        "request_sha256": "73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14"
+      },
+      "U": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoMSMARCO:1067640__C__U",
+        "record_id": "T3:9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+        "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b"
+      }
+    },
+    "case_id": "NanoMSMARCO:1067640",
+    "condition": "C",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "no",
+      "U_full_complete": "no",
+      "U_sufficient_support": "absent",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+      "origin": "historical_reference",
+      "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "The signal transduction pathway involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmission or inhibition of a neural signal.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "absent",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "absent -> absent"
+      }
+    },
+    "rationale": "The frozen example is in no retrieved passage and TrustRAG keeps nothing; both answers abstain.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1067640.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1067640:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 2,
+    "T_kept": 0,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoMSMARCO:1067640__BN1__T",
+        "record_id": "T3:73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14",
+        "request_sha256": "73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14"
+      },
+      "U": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoMSMARCO:1067640__BN1__U",
+        "record_id": "T3:cf298ea3c25a995a32d21144407ffdfdea64fc59b08c1e7ab9f350915c661df8",
+        "request_sha256": "cf298ea3c25a995a32d21144407ffdfdea64fc59b08c1e7ab9f350915c661df8"
+      }
+    },
+    "case_id": "NanoMSMARCO:1067640",
+    "condition": "BN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "no",
+      "U_full_complete": "no",
+      "U_sufficient_support": "absent",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "2a9da382baec8f8434cf3ae311f2cd7bcf1d28fe0972b3d13e9ff4721dac7cdf",
+      "same_answer_as_T": true,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "2a9da382baec8f8434cf3ae311f2cd7bcf1d28fe0972b3d13e9ff4721dac7cdf",
+      "same_answer_as_T": true,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "absent",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "absent -> absent"
+      }
+    },
+    "rationale": "The frozen example is in no retrieved passage and TrustRAG keeps nothing; both answers abstain.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1067640.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1067640:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 1,
+    "T_kept": 0,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoMSMARCO:1067640__PN1__T",
+        "record_id": "T3:73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14",
+        "request_sha256": "73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14"
+      },
+      "U": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoMSMARCO:1067640__PN1__U",
+        "record_id": "T3:9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+        "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b"
+      }
+    },
+    "case_id": "NanoMSMARCO:1067640",
+    "condition": "PN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "no",
+      "U_full_complete": "no",
+      "U_sufficient_support": "absent",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+      "origin": "historical_reference",
+      "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "The signal transduction pathway involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmission or inhibition of a neural signal.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "absent",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "absent -> absent"
+      }
+    },
+    "rationale": "The frozen example is in no retrieved passage and TrustRAG keeps nothing; both answers abstain.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1067640.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1067640:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 2,
+    "T_kept": 5,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Cloth, a cut square of cloth from a tea-towel, or a clean sock can be used in place of a coffee filter.",
+        "logical_id": "NanoMSMARCO:1086384__C__T",
+        "record_id": "T3:32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+        "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988"
+      },
+      "U": {
+        "answer": "Cloth, a cut square of cloth from a tea-towel, or a clean sock can be used in place of a coffee filter.",
+        "logical_id": "NanoMSMARCO:1086384__C__U",
+        "record_id": "T3:32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+        "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988"
+      }
+    },
+    "case_id": "NanoMSMARCO:1086384",
+    "condition": "C",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "no",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "A second filter can be used in place of a coffee filter.",
+      "origin": "historical_reference",
+      "request_sha256": "9eb5e3cb2513e73943268a85939f6de209272674cb4b1e194e5c3db40011287d",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "A second filter can be used in place of a coffee filter.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "9eb5e3cb2513e73943268a85939f6de209272674cb4b1e194e5c3db40011287d",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps all five passages; one shared correct answer.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1086384.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1086384:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 1,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Cloth, a clean handkerchief or cut square of cloth from a tea-towel, or a clean sock can be used in place of a coffee filter.",
+        "logical_id": "NanoMSMARCO:1086384__BN1__T",
+        "record_id": "T3:790a86e81a227adf5c006fbd562aac32fcd689b4eaeaf9a1eb9d7a4c49cfedf4",
+        "request_sha256": "790a86e81a227adf5c006fbd562aac32fcd689b4eaeaf9a1eb9d7a4c49cfedf4"
+      },
+      "U": {
+        "answer": "Cloth, such as a handkerchief or cut from a tea towel, or a sock can be used in place of a coffee filter.",
+        "logical_id": "NanoMSMARCO:1086384__BN1__U",
+        "record_id": "T3:cc0298fbe5a8b3df4998e4cf1fc98fc2f521d6683bd32a3dcd4ecaed11a35e50",
+        "request_sha256": "cc0298fbe5a8b3df4998e4cf1fc98fc2f521d6683bd32a3dcd4ecaed11a35e50"
+      }
+    },
+    "case_id": "NanoMSMARCO:1086384",
+    "condition": "BN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "no",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "A second filter can be used in place of a coffee filter.",
+      "origin": "historical_reference",
+      "request_sha256": "f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "A second filter.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage; both answers correct.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1086384.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1086384:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 1,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Gold filters from Wal-mart can be used as a substitute for coffee filters.",
+        "logical_id": "NanoMSMARCO:1086384__PN1__T",
+        "record_id": "T3:1d764ad83b83706bb4a65944dc5c6034e8a1d64517f46883f70b8cab95bd8a8a",
+        "request_sha256": "1d764ad83b83706bb4a65944dc5c6034e8a1d64517f46883f70b8cab95bd8a8a"
+      },
+      "U": {
+        "answer": "Cloth, such as a handkerchief or tea-towel, or a sock can be used in place of a coffee filter.",
+        "logical_id": "NanoMSMARCO:1086384__PN1__U",
+        "record_id": "T3:434919b6c14dd1161f6d8edfa67e98a4dbd7b96b17e212fcafa6f00295665534",
+        "request_sha256": "434919b6c14dd1161f6d8edfa67e98a4dbd7b96b17e212fcafa6f00295665534"
+      }
+    },
+    "case_id": "NanoMSMARCO:1086384",
+    "condition": "PN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": "Supported alternative; flagged for Suresh",
+    "judgment": {
+      "T_core_usable": "uncertain",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "T answer: a supported alternative (gold filters, passage 23388c) but not the frozen paper-towel/cloth answer",
+      "U_core_usable": "yes",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "A second filter can be used in place of a coffee filter.",
+      "origin": "historical_reference",
+      "request_sha256": "f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "A second filter.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "uncertain",
+        "state": "uncertain_pair"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "sufficient -> absent"
+      }
+    },
+    "rationale": "TrustRAG removes the answer passage and its copy; the T answer is the Gold alternative.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1086384.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1086384:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 4,
+    "T_kept": 5,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+        "logical_id": "NanoMSMARCO:1091973__C__T",
+        "record_id": "T3:cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+        "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd"
+      },
+      "U": {
+        "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+        "logical_id": "NanoMSMARCO:1091973__C__U",
+        "record_id": "T3:cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+        "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd"
+      }
+    },
+    "case_id": "NanoMSMARCO:1091973",
+    "condition": "C",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Benson Radiology is located in North Adelaide, and there are reviews by real people available on Yelp for this location.",
+      "origin": "historical_reference",
+      "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Benson Radiology is located in North Adelaide, and you can find reviews there on Yelp.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps all five passages; one shared correct answer.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1091973.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1091973:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+        "logical_id": "NanoMSMARCO:1091973__BN1__T",
+        "record_id": "T3:499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+        "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85"
+      },
+      "U": {
+        "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+        "logical_id": "NanoMSMARCO:1091973__BN1__U",
+        "record_id": "T3:bab44e73282c7b8d9f0d3dde43504535a69fc0032b82346cbe10859930d5594f",
+        "request_sha256": "bab44e73282c7b8d9f0d3dde43504535a69fc0032b82346cbe10859930d5594f"
+      }
+    },
+    "case_id": "NanoMSMARCO:1091973",
+    "condition": "BN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+      "origin": "historical_reference",
+      "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+      "same_answer_as_T": false,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage; both answers correct.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1091973.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1091973:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoMSMARCO:1091973__PN1__T",
+        "record_id": "T3:bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+        "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5"
+      },
+      "U": {
+        "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They invest in the latest technology and operate 22 clinics across Adelaide and the south-east of South Australia.",
+        "logical_id": "NanoMSMARCO:1091973__PN1__U",
+        "record_id": "T3:ccd234f64cafeb28c0cc0b8d330cd9acd48f6f3ce81bdb026ff97fd501cb47f2",
+        "request_sha256": "ccd234f64cafeb28c0cc0b8d330cd9acd48f6f3ce81bdb026ff97fd501cb47f2"
+      }
+    },
+    "case_id": "NanoMSMARCO:1091973",
+    "condition": "PN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "partial",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "partial",
+        "state": "complete_pair",
+        "transition": "sufficient -> partial"
+      }
+    },
+    "rationale": "TrustRAG removes the answer passage and its copy and keeps only the Yelp location passage; the T answer abstains.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1091973.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1091973:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 2,
+    "T_kept": 5,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being shortened to \"cop.\"",
+        "logical_id": "NanoMSMARCO:1093082__C__T",
+        "record_id": "T3:89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+        "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf"
+      },
+      "U": {
+        "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being shortened to \"cop.\"",
+        "logical_id": "NanoMSMARCO:1093082__C__U",
+        "record_id": "T3:89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+        "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf"
+      }
+    },
+    "case_id": "NanoMSMARCO:1093082",
+    "condition": "C",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "no",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "states a tentative origin story (copper buttons/badges) as fact; the source presents it as \"another story\"/\"may well\" and the qualification says it is not required",
+      "U_core_usable": "yes",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "states a tentative origin story (copper buttons/badges) as fact; the source presents it as \"another story\"/\"may well\" and the qualification says it is not required"
+    },
+    "native_reference": {
+      "answer": "\"copper\" can mean a policeman, derived from the copper buttons on their uniforms in early NYC.",
+      "origin": "historical_reference",
+      "request_sha256": "60608dbde176105ddcb7faa8af47b0aed4034056e26ee286c608a39a6412af6c",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "\"copper\" as a term for a policeman predates \"cop.\"",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "60608dbde176105ddcb7faa8af47b0aed4034056e26ee286c608a39a6412af6c",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps all five passages; one shared answer.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1093082.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1093082:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 2,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "\"Copper\" was used as slang for police officers in 19th century England, derived from their job of catching criminals. The term \"copper\" was shortened to \"cop\" at some point.",
+        "logical_id": "NanoMSMARCO:1093082__BN1__T",
+        "record_id": "T3:b78d21fe80294bbcb946f2b50bceb0528ace5053307eeb3a5ab034f988f5ad1a",
+        "request_sha256": "b78d21fe80294bbcb946f2b50bceb0528ace5053307eeb3a5ab034f988f5ad1a"
+      },
+      "U": {
+        "answer": "\"Copper\" as a term for a policeman predates \"cop,\" with the first documented use in 1846.",
+        "logical_id": "NanoMSMARCO:1093082__BN1__U",
+        "record_id": "T3:1951d6a617c6248baa3a58594cd797c9a87de51376bdfaa1dee2246f630e3635",
+        "request_sha256": "1951d6a617c6248baa3a58594cd797c9a87de51376bdfaa1dee2246f630e3635"
+      }
+    },
+    "case_id": "NanoMSMARCO:1093082",
+    "condition": "BN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "uncertain",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "\"Copper\" for a policeman predates \"cop\" and is first documented in 1846.",
+      "origin": "historical_reference",
+      "request_sha256": "1805f441e64adbd1e561a6233a9444988757949c30118e177e1eac836005ae6e",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "\"Copper\" for a policeman predates \"cop\" and likely originated in London around 1846.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "1805f441e64adbd1e561a6233a9444988757949c30118e177e1eac836005ae6e",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "uncertain",
+        "state": "uncertain_pair"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage and Catch.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1093082.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1093082:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 2,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "\"Copper\" was used as slang for police officers, likely due to their copper buttons on uniforms, and this term eventually shortened to \"cop.\"",
+        "logical_id": "NanoMSMARCO:1093082__PN1__T",
+        "record_id": "T3:676da6f13b6cad7e99e7332651a67ca6a23f6984efa7f9441aa93ed83b710258",
+        "request_sha256": "676da6f13b6cad7e99e7332651a67ca6a23f6984efa7f9441aa93ed83b710258"
+      },
+      "U": {
+        "answer": "\"Copper\" as a term for a policeman predates \"cop,\" with the first documented use in 1846.",
+        "logical_id": "NanoMSMARCO:1093082__PN1__U",
+        "record_id": "T3:fe8e41524fcc371c7e017f1ef8dcd189769ce0faca8f214675d5fd6a6cdf07e2",
+        "request_sha256": "fe8e41524fcc371c7e017f1ef8dcd189769ce0faca8f214675d5fd6a6cdf07e2"
+      }
+    },
+    "case_id": "NanoMSMARCO:1093082",
+    "condition": "PN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "no",
+      "T_sufficient_support": "partial",
+      "T_wrong_extras": "states a tentative origin story (copper buttons/badges) as fact; the source presents it as \"another story\"/\"may well\" and the qualification says it is not required",
+      "U_core_usable": "yes",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "\"Copper\" is slang for a police officer, with its first documented use in 1846. The term originated from officers having copper buttons on their uniforms.",
+      "origin": "historical_reference",
+      "request_sha256": "4bf68b0899993b4e75e295599119c3a8ef117a9925488bd1c6affd1d1be708e8",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "\"Copper\" is used as slang for a policeman, with its origins traced back to the 1800s, initially referring to officers with copper buttons on their uniforms.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "4bf68b0899993b4e75e295599119c3a8ef117a9925488bd1c6affd1d1be708e8",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "partial",
+        "state": "complete_pair",
+        "transition": "sufficient -> partial"
+      }
+    },
+    "rationale": "TrustRAG removes the answer passage and its copy; the policing meaning survives in Buttons and Catch.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_1093082.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:1093082:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 1,
+    "T_kept": 3,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Modulus refers to the remainder after division of one number by another. It's also related to modular arithmetic, also known as clock arithmetic.",
+        "logical_id": "NanoMSMARCO:643572__C__T",
+        "record_id": "T3:b097c8a31079c4a3d8923aa3cb03923b10e1cd7d894df12cca5dce9593f2c0b8",
+        "request_sha256": "b097c8a31079c4a3d8923aa3cb03923b10e1cd7d894df12cca5dce9593f2c0b8"
+      },
+      "U": {
+        "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers.",
+        "logical_id": "NanoMSMARCO:643572__C__U",
+        "record_id": "T3:8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67",
+        "request_sha256": "8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67"
+      }
+    },
+    "case_id": "NanoMSMARCO:643572",
+    "condition": "C",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "confuses modulus with the remainder (from the modulo-operation passage 813baf), the exact confusion the qualification warns about",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Modulus means the remainder after division of one number by another.",
+      "origin": "historical_reference",
+      "request_sha256": "aa337a205fdf762b836728afc5b10d20d0b73cee8a07cdd899264b7d3702eee3",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Modulus means the remainder after division of one number by another.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "aa337a205fdf762b836728afc5b10d20d0b73cee8a07cdd899264b7d3702eee3",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "sufficient -> absent"
+      }
+    },
+    "rationale": "TrustRAG removes both definition passages in the clean context; T answer is the remainder.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_643572.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:643572:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 1,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Modulus in mathematics refers to modular arithmetic, also known as clock arithmetic.",
+        "logical_id": "NanoMSMARCO:643572__BN1__T",
+        "record_id": "T3:d45b7a5c0b6ea7bc0aafd2698dac7ca17da87579015556de9d5d24739b970bd9",
+        "request_sha256": "d45b7a5c0b6ea7bc0aafd2698dac7ca17da87579015556de9d5d24739b970bd9"
+      },
+      "U": {
+        "answer": "Modulus means an integer that can be divided without remainder into the difference between two other integers.",
+        "logical_id": "NanoMSMARCO:643572__BN1__U",
+        "record_id": "T3:4a2d691893b287ad558d267272e211f2bfff57e1d7d56f3a46c9c558dc045f00",
+        "request_sha256": "4a2d691893b287ad558d267272e211f2bfff57e1d7d56f3a46c9c558dc045f00"
+      }
+    },
+    "case_id": "NanoMSMARCO:643572",
+    "condition": "BN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "partial",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Modulus in mathematics refers to an integer that can be divided without remainder into the difference between two other integers. It can also relate to a coefficient in physics or the absolute value of a complex number in mathematics.",
+      "origin": "historical_reference",
+      "request_sha256": "f245afcf99aaa5052550d56078d1b61dd200a6025610350b34412b15975c3542",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers. It also relates to modular arithmetic or clock arithmetic in mathematics.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "f245afcf99aaa5052550d56078d1b61dd200a6025610350b34412b15975c3542",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "partial",
+        "state": "complete_pair",
+        "transition": "sufficient -> partial"
+      }
+    },
+    "rationale": "TrustRAG keeps only the Video passage; T answer gives modular arithmetic, not the divisor.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_643572.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:643572:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 1,
+    "T_kept": 3,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Modulus refers to the remainder after division of one number by another. It's also related to modular arithmetic, also known as clock arithmetic.",
+        "logical_id": "NanoMSMARCO:643572__PN1__T",
+        "record_id": "T3:b097c8a31079c4a3d8923aa3cb03923b10e1cd7d894df12cca5dce9593f2c0b8",
+        "request_sha256": "b097c8a31079c4a3d8923aa3cb03923b10e1cd7d894df12cca5dce9593f2c0b8"
+      },
+      "U": {
+        "answer": "Modulus refers to an integer that can be divided without remainder into the difference between two other integers.",
+        "logical_id": "NanoMSMARCO:643572__PN1__U",
+        "record_id": "T3:8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67",
+        "request_sha256": "8fff3941650e52b7ac4e79936ee7140b1c84b0cf6f60a06da68bcf9cc5f0ef67"
+      }
+    },
+    "case_id": "NanoMSMARCO:643572",
+    "condition": "PN1",
+    "dataset": "NanoMSMARCO",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "confuses modulus with the remainder (from the modulo-operation passage 813baf), the exact confusion the qualification warns about",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Modulus means the remainder after division of one number by another.",
+      "origin": "historical_reference",
+      "request_sha256": "aa337a205fdf762b836728afc5b10d20d0b73cee8a07cdd899264b7d3702eee3",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Modulus means the remainder after division of one number by another.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "aa337a205fdf762b836728afc5b10d20d0b73cee8a07cdd899264b7d3702eee3",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "sufficient -> absent"
+      }
+    },
+    "rationale": "Same kept set as the clean context; T answer is the remainder.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoMSMARCO_643572.json",
+      "record_id": "T3CONTEXT:NanoMSMARCO:643572:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 5,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+        "logical_id": "NanoNQ:test1009__C__T",
+        "record_id": "T3:cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+        "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc"
+      },
+      "U": {
+        "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+        "logical_id": "NanoNQ:test1009__C__U",
+        "record_id": "T3:cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+        "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc"
+      }
+    },
+    "case_id": "NanoNQ:test1009",
+    "condition": "C",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+      "origin": "historical_reference",
+      "request_sha256": "7248b8693cc9e05fa9324f900d0d0ae1b56108c96f9034cab789b7626cfe36ec",
+      "same_answer_as_T": true,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "7248b8693cc9e05fa9324f900d0d0ae1b56108c96f9034cab789b7626cfe36ec",
+      "same_answer_as_T": true,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps all five passages; one shared correct answer.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test1009.json",
+      "record_id": "T3CONTEXT:NanoNQ:test1009:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+        "logical_id": "NanoNQ:test1009__BN1__T",
+        "record_id": "T3:2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+        "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304"
+      },
+      "U": {
+        "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+        "logical_id": "NanoNQ:test1009__BN1__U",
+        "record_id": "T3:4b0b712742de6d22c776eb6ec52ae7d6d46b55842f5eeaef6d51556f5ba3ccc0",
+        "request_sha256": "4b0b712742de6d22c776eb6ec52ae7d6d46b55842f5eeaef6d51556f5ba3ccc0"
+      }
+    },
+    "case_id": "NanoNQ:test1009",
+    "condition": "BN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+      "origin": "historical_reference",
+      "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage; both answers correct.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test1009.json",
+      "record_id": "T3CONTEXT:NanoNQ:test1009:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test1009__PN1__T",
+        "record_id": "T3:3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+        "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c"
+      },
+      "U": {
+        "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+        "logical_id": "NanoNQ:test1009__PN1__U",
+        "record_id": "T3:1b02ca4c2e6cfc6382a311d35516a6bdb8345f1d0a040f041f2f63dcbad1d40b",
+        "request_sha256": "1b02ca4c2e6cfc6382a311d35516a6bdb8345f1d0a040f041f2f63dcbad1d40b"
+      }
+    },
+    "case_id": "NanoNQ:test1009",
+    "condition": "PN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "partial",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "partial",
+        "state": "complete_pair",
+        "transition": "sufficient -> partial"
+      }
+    },
+    "rationale": "TrustRAG removes the answer passage and its copy; the kept CW series cast list names Anderson without the Heather role; T answer abstains.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test1009.json",
+      "record_id": "T3CONTEXT:NanoNQ:test1009:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test1037__C__T",
+        "record_id": "T3:09d941606702d08f03d2da05e3d955f50b310f0c1a2a5b6c5c976f7daec4a8d7",
+        "request_sha256": "09d941606702d08f03d2da05e3d955f50b310f0c1a2a5b6c5c976f7daec4a8d7"
+      },
+      "U": {
+        "answer": "The angel of the north is there to signify the transition from an industrial to an information age.",
+        "logical_id": "NanoNQ:test1037__C__U",
+        "record_id": "T3:03428ac8af52b731567d4cd2ed68d508f20684cc07f6a0aff42b73d0d7bf36f4",
+        "request_sha256": "03428ac8af52b731567d4cd2ed68d508f20684cc07f6a0aff42b73d0d7bf36f4"
+      }
+    },
+    "case_id": "NanoNQ:test1037",
+    "condition": "C",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "uncertain",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "09d941606702d08f03d2da05e3d955f50b310f0c1a2a5b6c5c976f7daec4a8d7",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "09d941606702d08f03d2da05e3d955f50b310f0c1a2a5b6c5c976f7daec4a8d7",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "uncertain",
+        "right": "no",
+        "state": "uncertain_pair"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage but the T answer abstains.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test1037.json",
+      "record_id": "T3CONTEXT:NanoNQ:test1037:C"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 2,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test1037__BN1__T",
+        "record_id": "T3:4f4f68e583557da0fd3d3c6d066dcc56681194ebc0728efe50f270b94f4795b0",
+        "request_sha256": "4f4f68e583557da0fd3d3c6d066dcc56681194ebc0728efe50f270b94f4795b0"
+      },
+      "U": {
+        "answer": "The angel of the north is there to signify the transition from an industrial to an information age.",
+        "logical_id": "NanoNQ:test1037__BN1__U",
+        "record_id": "T3:0d6cf95e437de787d59ac5de8e319a9dc908be1044b7872d60b7011f4cc82309",
+        "request_sha256": "0d6cf95e437de787d59ac5de8e319a9dc908be1044b7872d60b7011f4cc82309"
+      }
+    },
+    "case_id": "NanoNQ:test1037",
+    "condition": "BN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "uncertain",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "The angel in the north is there to signify that beneath the site of its construction, coal miners worked for two centuries.",
+      "origin": "historical_reference",
+      "request_sha256": "ceeb215296513ae40982f9349648954f3f75417cb803a171534f984dbe1af1c5",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "The angel in the north is there to signify that beneath the site of its construction, coal miners worked for two centuries.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "ceeb215296513ae40982f9349648954f3f75417cb803a171534f984dbe1af1c5",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "uncertain",
+        "right": "no",
+        "state": "uncertain_pair"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage but the T answer abstains.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test1037.json",
+      "record_id": "T3CONTEXT:NanoNQ:test1037:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 1,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test1037__PN1__T",
+        "record_id": "T3:eac784e14db226232516748a2c0bcf8f153ce4f28e127fac5874c5d8ac1b934c",
+        "request_sha256": "eac784e14db226232516748a2c0bcf8f153ce4f28e127fac5874c5d8ac1b934c"
+      },
+      "U": {
+        "answer": "The angel of the north is there to signify that beneath the site of its construction, coal miners worked for two centuries.",
+        "logical_id": "NanoNQ:test1037__PN1__U",
+        "record_id": "T3:6da631e5e44a4f9c972f68cf21ee387350f29c4ae722b4fc4b15117902c700f0",
+        "request_sha256": "6da631e5e44a4f9c972f68cf21ee387350f29c4ae722b4fc4b15117902c700f0"
+      }
+    },
+    "case_id": "NanoNQ:test1037",
+    "condition": "PN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "uncertain",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "The angel is there to guard the gates of paradise, after Adam and Eve have been expelled.",
+      "origin": "historical_reference",
+      "request_sha256": "1d98f14904226a78132fef00fdb0338e59d6184711e0c2c8cbd9c6f69c838dfe",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "The angel is there to guard the gates of paradise after Adam and Eve have been expelled.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "1d98f14904226a78132fef00fdb0338e59d6184711e0c2c8cbd9c6f69c838dfe",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "uncertain",
+        "right": "no",
+        "state": "uncertain_pair"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "sufficient -> absent"
+      }
+    },
+    "rationale": "TrustRAG removes the answer passage and its copy; T answer abstains.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test1037.json",
+      "record_id": "T3CONTEXT:NanoNQ:test1037:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 5,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+        "logical_id": "NanoNQ:test2079__C__T",
+        "record_id": "T3:c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+        "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8"
+      },
+      "U": {
+        "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+        "logical_id": "NanoNQ:test2079__C__U",
+        "record_id": "T3:c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+        "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8"
+      }
+    },
+    "case_id": "NanoNQ:test2079",
+    "condition": "C",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+      "origin": "historical_reference",
+      "request_sha256": "bcd87ea50118b5a73de0a19e3a5d9afa2b30ab389361c57a9468aeba4cb19388",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Michael Jackson sings with Michael Jackson in the chorus of \"Somebody's Watching Me.\"",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "bcd87ea50118b5a73de0a19e3a5d9afa2b30ab389361c57a9468aeba4cb19388",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps all five passages; one shared correct answer.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2079.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2079:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+        "logical_id": "NanoNQ:test2079__BN1__T",
+        "record_id": "T3:3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+        "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc"
+      },
+      "U": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test2079__BN1__U",
+        "record_id": "T3:ac6fa3debd6c8bd69130e3de110790c084e55a809bc4ea20775efa0d525d02d9",
+        "request_sha256": "ac6fa3debd6c8bd69130e3de110790c084e55a809bc4ea20775efa0d525d02d9"
+      }
+    },
+    "case_id": "NanoNQ:test2079",
+    "condition": "BN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "T answer: names Michael Jackson as the answer and omits Rockwell although the answer passage is kept",
+      "U_core_usable": "no",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+      "same_answer_as_T": false,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage but the U answer abstains and the T answer names Michael Jackson.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2079.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2079:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test2079__PN1__T",
+        "record_id": "T3:92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+        "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb"
+      },
+      "U": {
+        "answer": "Michael Jackson sings with Rockwell in the chorus of \"Somebody's Watching Me.\"",
+        "logical_id": "NanoNQ:test2079__PN1__U",
+        "record_id": "T3:91124eff798a547eb185ddb651accb0a89506be7fc401d413f5a644ef0276e1a",
+        "request_sha256": "91124eff798a547eb185ddb651accb0a89506be7fc401d413f5a644ef0276e1a"
+      }
+    },
+    "case_id": "NanoNQ:test2079",
+    "condition": "PN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "sufficient -> absent"
+      }
+    },
+    "rationale": "TrustRAG removes the answer passage and its copy; T answer abstains.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2079.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2079:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "The origin of \"Here we go round the mulberry bush\" is related to Britain's difficulties in producing silk due to the sensitivity of mulberry trees to frost.",
+        "logical_id": "NanoNQ:test2247__C__T",
+        "record_id": "T3:9bcce8ae93f3c7d86161aa1987decfff87db37668edceede532a23bd18b61681",
+        "request_sha256": "9bcce8ae93f3c7d86161aa1987decfff87db37668edceede532a23bd18b61681"
+      },
+      "U": {
+        "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the struggles of Britain's silk industry, particularly due to the sensitivity of mulberry trees to frost. Another theory suggests the rhyme is related to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree.",
+        "logical_id": "NanoNQ:test2247__C__U",
+        "record_id": "T3:71bbd8fc2eeb1f11b09a2408bfec77095fdb3142c15f281b72b71cfe0faeb3a3",
+        "request_sha256": "71bbd8fc2eeb1f11b09a2408bfec77095fdb3142c15f281b72b71cfe0faeb3a3"
+      }
+    },
+    "case_id": "NanoNQ:test2247",
+    "condition": "C",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "silk possible interpretation stated as the origin",
+      "U_core_usable": "no",
+      "U_full_complete": "no",
+      "U_sufficient_support": "absent",
+      "U_wrong_extras": "supported folk theories"
+    },
+    "native_reference": {
+      "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree. This theory is proposed by the former prison governor, RS Duncan, in his book \"Here we go round the mulberry bush: The House of Correction 1595 / HM Prison Wakefield 1995\" (published in 1994). However, there is no corroborative evidence to support this theory.",
+      "origin": "historical_reference",
+      "request_sha256": "47675fa16934e6d5b4443a8f304a6ad5c156902f2b00aee56fcbee6017da656e",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "The origin of \"Here We Go Round the Mulberry Bush\" is linked to the struggles of Britain's silk industry, particularly due to the sensitivity of mulberry trees to frost. Another theory suggests the origin is from the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "47675fa16934e6d5b4443a8f304a6ad5c156902f2b00aee56fcbee6017da656e",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "absent",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "absent -> absent"
+      }
+    },
+    "rationale": "The Halliwell passage is not in the clean context; both answers give folk theories.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2247.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2247:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 1,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree. This theory is proposed by the former prison governor, RS Duncan, in his book \"Here we go round the mulberry bush: The House of Correction 1595 / HM Prison Wakefield 1995\" (published in 1994). However, there is no corroborative evidence to support this theory.",
+        "logical_id": "NanoNQ:test2247__BN1__T",
+        "record_id": "T3:14c8a8041e1303005ff8c6a3ae9bb7c52b91e65115a13c5ea3a5a4980750b2e4",
+        "request_sha256": "14c8a8041e1303005ff8c6a3ae9bb7c52b91e65115a13c5ea3a5a4980750b2e4"
+      },
+      "U": {
+        "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree. This theory is proposed by the former prison governor, RS Duncan, in his book \"Here we go round the mulberry bush: The House of Correction 1595 / HM Prison Wakefield 1995\" (published 1994). However, there is no corroborative evidence to support this theory.",
+        "logical_id": "NanoNQ:test2247__BN1__U",
+        "record_id": "T3:91553f43f69c2afb19e84f579ab8cc2bd27903ffb77ec2d51dd01906785b96ee",
+        "request_sha256": "91553f43f69c2afb19e84f579ab8cc2bd27903ffb77ec2d51dd01906785b96ee"
+      }
+    },
+    "case_id": "NanoNQ:test2247",
+    "condition": "BN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "Wakefield folk link",
+      "U_core_usable": "no",
+      "U_full_complete": "no",
+      "U_sufficient_support": "absent",
+      "U_wrong_extras": "Wakefield folk link"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "58b7bc6abde87908395961fcb8623baa27409c9de1c1cf2633538a0e5a3dc749",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "58b7bc6abde87908395961fcb8623baa27409c9de1c1cf2633538a0e5a3dc749",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "absent",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "absent -> absent"
+      }
+    },
+    "rationale": "The Halliwell passage is not in the BN1 context; both answers give the Wakefield link.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2247.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2247:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 1,
+    "T_kept": 5,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is first recorded by James Orchard Halliwell as an English children's game in the mid-19th century. The rhyme was originally noted to be similar to \"Here we go round the bramble bush.\" The mulberry bush version may have evolved due to difficulty with alliteration.",
+        "logical_id": "NanoNQ:test2247__PN1__T",
+        "record_id": "T3:3028f8eda404cff159219cb5ef8299a4ef685a09de3c363548d2ce04402df0ed",
+        "request_sha256": "3028f8eda404cff159219cb5ef8299a4ef685a09de3c363548d2ce04402df0ed"
+      },
+      "U": {
+        "answer": "The origin of \"Here We Go Round the Mulberry Bush\" is not definitively proven, but it could be related to Britain's difficulties in silk production, or it may have originated from a game with bramble bush lyrics. There is also a theory linking it to the exercise yard at Wakefield prison.",
+        "logical_id": "NanoNQ:test2247__PN1__U",
+        "record_id": "T3:2dde9444063b984c74513f082f64a16068cf17a6af1e13611989615cba54c9fe",
+        "request_sha256": "2dde9444063b984c74513f082f64a16068cf17a6af1e13611989615cba54c9fe"
+      }
+    },
+    "case_id": "NanoNQ:test2247",
+    "condition": "PN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "no",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "58b7bc6abde87908395961fcb8623baa27409c9de1c1cf2633538a0e5a3dc749",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "58b7bc6abde87908395961fcb8623baa27409c9de1c1cf2633538a0e5a3dc749",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "no",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "no -> yes"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "no -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the Halliwell copy; the T answer is correct while the U answer is incomplete.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2247.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2247:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 5,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Three episodes.",
+        "logical_id": "NanoNQ:test2721__C__T",
+        "record_id": "T3:327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28",
+        "request_sha256": "327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28"
+      },
+      "U": {
+        "answer": "Three episodes.",
+        "logical_id": "NanoNQ:test2721__C__U",
+        "record_id": "T3:327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28",
+        "request_sha256": "327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28"
+      }
+    },
+    "case_id": "NanoNQ:test2721",
+    "condition": "C",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "fe91e77f7293026df506b328df510a7833d4376383cf2939fa0e3e8f452150a6",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "fe91e77f7293026df506b328df510a7833d4376383cf2939fa0e3e8f452150a6",
+      "same_answer_as_T": false,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps all five passages; one shared correct answer.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2721.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2721:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test2721__BN1__T",
+        "record_id": "T3:8b19382efc882aac2fb4bd8f0ea5b209b043c9fe5785c581d5411b16e17b39d9",
+        "request_sha256": "8b19382efc882aac2fb4bd8f0ea5b209b043c9fe5785c581d5411b16e17b39d9"
+      },
+      "U": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test2721__BN1__U",
+        "record_id": "T3:cef33850241cc485ec526ba9a07c7d465a319a60453c5ddedd556c2335dbee42",
+        "request_sha256": "cef33850241cc485ec526ba9a07c7d465a319a60453c5ddedd556c2335dbee42"
+      }
+    },
+    "case_id": "NanoNQ:test2721",
+    "condition": "BN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "no",
+      "U_full_complete": "no",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "8b19382efc882aac2fb4bd8f0ea5b209b043c9fe5785c581d5411b16e17b39d9",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "8b19382efc882aac2fb4bd8f0ea5b209b043c9fe5785c581d5411b16e17b39d9",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "full_complete": {
+        "left": "no",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "no -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "TrustRAG keeps the answer passage but both answers abstain.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2721.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2721:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Not enough information.",
+        "logical_id": "NanoNQ:test2721__PN1__T",
+        "record_id": "T3:18b95b8aefac726fc98d1c6f1908282ac5428ddb3b4eedbcf29dd23916e5601f",
+        "request_sha256": "18b95b8aefac726fc98d1c6f1908282ac5428ddb3b4eedbcf29dd23916e5601f"
+      },
+      "U": {
+        "answer": "Ordeal by Innocence is a three-part BBC drama.",
+        "logical_id": "NanoNQ:test2721__PN1__U",
+        "record_id": "T3:bf90652ec4b79254f7b7e8517f4f383e9b99dfd6fd09836edd19500d2c264c76",
+        "request_sha256": "bf90652ec4b79254f7b7e8517f4f383e9b99dfd6fd09836edd19500d2c264c76"
+      }
+    },
+    "case_id": "NanoNQ:test2721",
+    "condition": "PN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "no",
+      "T_full_complete": "no",
+      "T_sufficient_support": "absent",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Not enough information.",
+      "origin": "historical_reference",
+      "request_sha256": "18b95b8aefac726fc98d1c6f1908282ac5428ddb3b4eedbcf29dd23916e5601f",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Not enough information.",
+      "origin": "Shradha_original_completed_prefix",
+      "request_sha256": "18b95b8aefac726fc98d1c6f1908282ac5428ddb3b4eedbcf29dd23916e5601f",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "no",
+        "state": "complete_pair",
+        "transition": "yes -> no"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "absent",
+        "state": "complete_pair",
+        "transition": "sufficient -> absent"
+      }
+    },
+    "rationale": "TrustRAG removes the answer passage and its copy; T answer abstains.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test2721.json",
+      "record_id": "T3CONTEXT:NanoNQ:test2721:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  },
+  {
+    "R_kept": 4,
+    "T_kept": 5,
+    "actual_retrieved_copies": 0,
+    "answers": {
+      "T": {
+        "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+        "logical_id": "NanoNQ:test826__C__T",
+        "record_id": "T3:f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+        "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3"
+      },
+      "U": {
+        "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+        "logical_id": "NanoNQ:test826__C__U",
+        "record_id": "T3:f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3",
+        "request_sha256": "f5fe8c248793a91ea7e54aad0f271ae941abba94ade35b9aff1ef81a526079d3"
+      }
+    },
+    "case_id": "NanoNQ:test826",
+    "condition": "C",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+      "origin": "historical_reference",
+      "request_sha256": "c32836eb12b2b8973498f82a3c3134d879e3702d851de17bf29fb9a571b758dc",
+      "same_answer_as_T": true,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "c32836eb12b2b8973498f82a3c3134d879e3702d851de17bf29fb9a571b758dc",
+      "same_answer_as_T": true,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "A passage stating the location is present or kept; both answers correct.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test826.json",
+      "record_id": "T3CONTEXT:NanoNQ:test826:C"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 2,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+        "logical_id": "NanoNQ:test826__BN1__T",
+        "record_id": "T3:f2f646eece852acec1e842f113bd6f9897bcdc8e71a885f95f377d8043037a7d",
+        "request_sha256": "f2f646eece852acec1e842f113bd6f9897bcdc8e71a885f95f377d8043037a7d"
+      },
+      "U": {
+        "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+        "logical_id": "NanoNQ:test826__BN1__U",
+        "record_id": "T3:a51be56d94c89e9f5f3695cf5f3861a55a954239f8d09268caaf44111e7fec3a",
+        "request_sha256": "a51be56d94c89e9f5f3695cf5f3861a55a954239f8d09268caaf44111e7fec3a"
+      }
+    },
+    "case_id": "NanoNQ:test826",
+    "condition": "BN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+      "origin": "historical_reference",
+      "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449",
+      "same_answer_as_T": true,
+      "same_request_as_T": false
+    },
+    "native_reproduction": {
+      "answer": "Article 1, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "1801df39e94c3389f71f45e8f874d5f50654b308ae1bd477829c157a3f309449",
+      "same_answer_as_T": true,
+      "same_request_as_T": false
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "A passage stating the location is present or kept; both answers correct.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test826.json",
+      "record_id": "T3CONTEXT:NanoNQ:test826:BN1"
+    },
+    "same_native_R_and_T_ordered_survivors": false
+  },
+  {
+    "R_kept": 3,
+    "T_kept": 3,
+    "actual_retrieved_copies": 1,
+    "answers": {
+      "T": {
+        "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+        "logical_id": "NanoNQ:test826__PN1__T",
+        "record_id": "T3:2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+        "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32"
+      },
+      "U": {
+        "answer": "Article 1, Section 2, Clause 3 of the United States Constitution.",
+        "logical_id": "NanoNQ:test826__PN1__U",
+        "record_id": "T3:f1eb4779cc1b85f80c3311d8a20947198b014b1498db5440b186ad15fe250ec3",
+        "request_sha256": "f1eb4779cc1b85f80c3311d8a20947198b014b1498db5440b186ad15fe250ec3"
+      }
+    },
+    "case_id": "NanoNQ:test826",
+    "condition": "PN1",
+    "dataset": "NanoNQ",
+    "flag_note": null,
+    "judgment": {
+      "T_core_usable": "yes",
+      "T_full_complete": "yes",
+      "T_sufficient_support": "sufficient",
+      "T_wrong_extras": "none observed",
+      "U_core_usable": "yes",
+      "U_full_complete": "yes",
+      "U_sufficient_support": "sufficient",
+      "U_wrong_extras": "none observed"
+    },
+    "native_reference": {
+      "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+      "origin": "historical_reference",
+      "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "native_reproduction": {
+      "answer": "Article I, Section 2, Clause 3 of the United States Constitution originally stated the Three-Fifths Compromise.",
+      "origin": "Suresh_local_continuation_2026-10-27",
+      "request_sha256": "2e7ec3ef58fce14f51970cac6349bf64b494cc6462a447182cf994bc24708e32",
+      "same_answer_as_T": true,
+      "same_request_as_T": true
+    },
+    "pairs": {
+      "core_usable": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "full_complete": {
+        "left": "yes",
+        "right": "yes",
+        "state": "complete_pair",
+        "transition": "yes -> yes"
+      },
+      "sufficient_support": {
+        "left": "sufficient",
+        "right": "sufficient",
+        "state": "complete_pair",
+        "transition": "sufficient -> sufficient"
+      }
+    },
+    "rationale": "A passage stating the location is present or kept; both answers correct.",
+    "retrieved_passages": 5,
+    "review_ref": {
+      "file": "inputs/returned/review_forms/trustrag/NanoNQ_test826.json",
+      "record_id": "T3CONTEXT:NanoNQ:test826:PN1"
+    },
+    "same_native_R_and_T_ordered_survivors": true
+  }
+]

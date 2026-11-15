@@ -1,0 +1,89 @@
+{
+  "result": "PASS",
+  "original_GUI_files": 316,
+  "unchanged_original_files": 302,
+  "changed_original_files": {
+    "RELEASE_STATUS.json": {
+      "old": "1078533542d76692ad65c0e3fdc2dc5c93d60403f9534e47fa02a9b54edc5de2",
+      "new": "2fd9163684240c6a3edf56ec2459ac3c3ffb65044a0ecabe70ec37c2d220b2ce"
+    },
+    "RETURN_GUIDE.md": {
+      "old": "d5104c264232dddbf56afa59a3c76b715b4ba1b858b3344811f2febf383be751",
+      "new": "0e06e213d582dec04f10123b813b5a3eed7eaec9611c2226f2c8c0ef6c2abf47"
+    },
+    "START_HERE.md": {
+      "old": "333bc220cd6db3a16e2f3f76c6b142bb140e522883148919d1c9eb2a3b4ecf13",
+      "new": "792dbf28943473e0f87182d59d2e05b105bfc3406925cf4c167a3e8201fd92ed"
+    },
+    "TEST_PLAN.md": {
+      "old": "81da48be04c86b5ba9f00cc76e231521e895e15fcbed0b32330f2e2d56c94ea3",
+      "new": "6b23acadaa50577a29d316b7c1e78fc1335488662fafb1d48d76c6d93076f3b7"
+    },
+    "VALIDATION_REPORT.md": {
+      "old": "c716181d89606d09f262a1bac92db3163c5a269bc5419c18cda7ba5f7f92ca30",
+      "new": "5d38671ce89b2a69f7b7927eb2ec068b2d7721fe89c7a476ac6167e946b41948"
+    },
+    "app/CHANGELOG.md": {
+      "old": "ef858297083a9ad11c62662a112fcf386dbf71fe5b427baa971ae702ab332999",
+      "new": "8c70df63f6be813acdee9a3d7272933e3bec0c36e3609afbda8855a1e04c3598"
+    },
+    "app/README.md": {
+      "old": "216d250219d63d304e534e071508540899f68a64944d291e34b9bb14070a0dbd",
+      "new": "7b2c1f67ff8a64fd30f6c877f7ae79892770fe8c289399ddc0a728ee81265051"
+    },
+    "app/RELEASE_MANIFEST.json": {
+      "old": "5a2c29f07c205a53467f0c60d425923416f92a939dc4d11f22496f0050189827",
+      "new": "0ba6c49624732961beb5c5e371c7aea0bee17207d5e38299765fa30a7a8c2011"
+    },
+    "app/static/app.js": {
+      "old": "2a5864fdb7e78bb3c5bdf60f54183c24fdea62b3c40f93346047719b8d0abd0a",
+      "new": "f25dbd544526e0f20dc236fcc186b085b36d51276ae1b02b468383d95a37da1f"
+    },
+    "app/static/index.html": {
+      "old": "e252fb0f7762332018e50a35c5ee6f9e0aeb486f46c6a740e551e9d401673676",
+      "new": "21e146436619a249f74837564a2fe612bb374a636f8f733ad4a95a5cf4cdca11"
+    },
+    "app/tests/browser_fixture.py": {
+      "old": "f7c9028a64ced3943065d5c35cc9b1749da5d507fdcbc0aad6030f98c81c3073",
+      "new": "751b8fb98026c53fd604017e0cc0d5795060554827848d2b10636ab2bc9d2340"
+    },
+    "tools/check_controls.cjs": {
+      "old": "4a6eaacc6c7b7e33859b7a88cfdfc7838abbff2f111e381f647900d732ec71b5",
+      "new": "ca02ad5a2750748969d000decbee37d590827557da934fc70a1da74410a09d80"
+    },
+    "tools/verify_packet.py": {
+      "old": "3b432da1f121edc4b3f1cba166306bb1d93766642bb317b84d139142c82e21a4",
+      "new": "97623034b81efc8c6eab157ed8f6aa23096dcab888b6ebbd86ae4d2bf92fbba0"
+    }
+  },
+  "relocated_byte_identical": {
+    "TEST_RETURN_TEMPLATE.json": "baseline/v2_6_docs/TEST_RETURN_TEMPLATE.json"
+  },
+  "unchanged_scientific_and_execution_paths": [
+    "app/data/",
+    "app/backend.py",
+    "app/common.py",
+    "app/policies.py",
+    "app/safety.py",
+    "app/server.py",
+    "app/static/style.css",
+    "app/static/study.js"
+  ],
+  "accepted_sources": [
+    {
+      "name": "FilterFlip_Task13_Live_GUI_Handover_v2_0_2026-11-04",
+      "manifest_sha256": "0e4688d950f13942e3d1c832ace1af4b5c83ba89b70f4e70a43f3c259a659725",
+      "files": 2733,
+      "integrity": "PASS"
+    },
+    {
+      "name": "FilterFlip_Task13_Joint_Acceptance_2026-11-05",
+      "manifest_sha256": "ac337eb63fdaf891d8dffeb8126ec4b5b231921f655761bc8b1470096cb10381",
+      "files": 245,
+      "integrity": "PASS"
+    }
+  ],
+  "review_zip_sha256": "e75b909dccaec5a0beb497b850caf0fd338ae590f9a924ab9e869c1b39b2e1e0",
+  "new_human_judgments": 0,
+  "new_model_calls": 0
+}

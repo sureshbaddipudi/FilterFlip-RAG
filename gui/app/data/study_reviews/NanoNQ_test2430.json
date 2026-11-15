@@ -1,0 +1,740 @@
+{
+  "case_id": "NanoNQ:test2430",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test2430.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test2430.md",
+  "records": [
+    {
+      "record_id": "R1:26ad4203f17575979223736b727c4015963bdf9912b7c4de13bdf1bdc48a9739",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2430",
+      "request_sha256": "26ad4203f17575979223736b727c4015963bdf9912b7c4de13bdf1bdc48a9739",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2430__BN2__unfiltered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f65d66bffe515dc51195a807e797d2f1d5fbd13aedabd25899fca3d0381513b:00000",
+            "e6f0ebf271248aa9baa43b0483ce360f61729a73f63f59b1e07d820643b76003:00000",
+            "679e5c6d7c5391970e3c1048da7631aaed0fd12bde5d6d82082dbd8e8b468ff3:00000",
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000",
+            "318dc39ed8059d7b4bb119dde820ea09112693834ad476f5541f6bbe980ca035:00000"
+          ],
+          "text_hashes": [
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "55c647b0a060692b127f6e31982dc28271320efd339714ea00aa161f08297d92",
+            "ea6d340ce1ff5a8047641dfd98ce4be48060ce28009bea14e63eb7386fcf9897",
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2430.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "0f65d6 (fovea contains only cones)",
+          "318dc3 (densely packed in fovea centralis)"
+        ],
+        "rationale": "Cone location passages are in context; answer gives retina/fovea/macula location.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:023cc42ce760502d5a40164bf8d71c7b466be3debac3bb8e905ed55680add187",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2430",
+      "request_sha256": "023cc42ce760502d5a40164bf8d71c7b466be3debac3bb8e905ed55680add187",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2430__BN2__filtered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000"
+          ],
+          "text_hashes": [
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2430__PN2__filtered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000"
+          ],
+          "text_hashes": [
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2430__BE2__filtered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000"
+          ],
+          "text_hashes": [
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2430__PE2__filtered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000"
+          ],
+          "text_hashes": [
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2430.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06bd32 (caption only)",
+          "0f65d6 removed",
+          "318dc3 removed"
+        ],
+        "rationale": "Both cone-location passages and their copies were removed; only the 'Structures of the eye' caption is kept, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:59c76673952f80c52d670728e9e9bce702cd86cc3ce8e145971b8e5eda7acf36",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2430",
+      "request_sha256": "59c76673952f80c52d670728e9e9bce702cd86cc3ce8e145971b8e5eda7acf36",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2430__PN2__unfiltered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f65d66bffe515dc51195a807e797d2f1d5fbd13aedabd25899fca3d0381513b:00000",
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000",
+            "d800c3a73a33f4fb7d28891b83c08170910e4cf2ef4f68575472a3917b8f42cf:00000",
+            "39d51024c3cb70c9251d8508f64bace0b199b3a6456fbf5ab623bba0b559317a:00000",
+            "318dc39ed8059d7b4bb119dde820ea09112693834ad476f5541f6bbe980ca035:00000"
+          ],
+          "text_hashes": [
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee",
+            "421f4ac353dc592c1e1641610e40deb50ee9302366a1daf0d3e93b421e622aa2",
+            "e139223de23091764cee0cf080e6ee6c9228e43991f4f306e0c9504935b16860",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2430.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "0f65d6 (fovea contains only cones)",
+          "318dc3 (densely packed in fovea centralis)"
+        ],
+        "rationale": "Cone location passages are in context; answer gives retina/fovea/macula location.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:b161b28f8147cf04b47921ea72e8d393fc6ac07d45e6be5e7dd8f1191b5abdd8",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2430",
+      "request_sha256": "b161b28f8147cf04b47921ea72e8d393fc6ac07d45e6be5e7dd8f1191b5abdd8",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2430__BE1__unfiltered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f65d66bffe515dc51195a807e797d2f1d5fbd13aedabd25899fca3d0381513b:00000",
+            "178da2d9bf6809aa10fdc3fccc08f0a44be2a98310600f63182590f2a97ae205:00000",
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000",
+            "318dc39ed8059d7b4bb119dde820ea09112693834ad476f5541f6bbe980ca035:00000",
+            "ca2aa1930407692ab96feef9ee1da484ca2b6e40944a7b44d0a114044c477aa7:00000"
+          ],
+          "text_hashes": [
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5",
+            "cec47f6de37ebd9a59f0a802cf4de473d4157620a5ef37c0ee54c483c47b9e6e"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2430.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "0f65d6 (fovea contains only cones)",
+          "318dc3 (densely packed in fovea centralis)"
+        ],
+        "rationale": "Cone location passages are in context; answer gives retina/fovea/macula location.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:4c109be9c17c35757f7238b35437f010d5e3ced9cf5366952db2cc8b0a896a44",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2430",
+      "request_sha256": "4c109be9c17c35757f7238b35437f010d5e3ced9cf5366952db2cc8b0a896a44",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2430__BE2__unfiltered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f65d66bffe515dc51195a807e797d2f1d5fbd13aedabd25899fca3d0381513b:00000",
+            "178da2d9bf6809aa10fdc3fccc08f0a44be2a98310600f63182590f2a97ae205:00000",
+            "5f49eb56ae5865f54b22125620a7b5bde4269fce1d005afcb71bf649a402f124:00000",
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000",
+            "318dc39ed8059d7b4bb119dde820ea09112693834ad476f5541f6bbe980ca035:00000"
+          ],
+          "text_hashes": [
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2430.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "0f65d6 (fovea contains only cones)",
+          "318dc3 (densely packed in fovea centralis)"
+        ],
+        "rationale": "Cone location passages are in context; answer gives retina/fovea/macula location.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:2b48c824f968008734cd23e11f777dd0b3293f0f4acfa0abcb2c5333ba56d463",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2430",
+      "request_sha256": "2b48c824f968008734cd23e11f777dd0b3293f0f4acfa0abcb2c5333ba56d463",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2430__PE1__unfiltered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f65d66bffe515dc51195a807e797d2f1d5fbd13aedabd25899fca3d0381513b:00000",
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000",
+            "318dc39ed8059d7b4bb119dde820ea09112693834ad476f5541f6bbe980ca035:00000",
+            "cb99c06e19017513f348f3dfb457277c6a8944eb0fae0471e94d54a7fe447890:00000",
+            "ca2aa1930407692ab96feef9ee1da484ca2b6e40944a7b44d0a114044c477aa7:00000"
+          ],
+          "text_hashes": [
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5",
+            "cec47f6de37ebd9a59f0a802cf4de473d4157620a5ef37c0ee54c483c47b9e6e"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2430.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "0f65d6 (fovea contains only cones)",
+          "318dc3 (densely packed in fovea centralis)"
+        ],
+        "rationale": "Cone location passages are in context; answer gives retina/fovea/macula location.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:e882bcda9c94b78e67069db40cb2ab802fecbc7ce38fdd34647315c4868db9e5",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2430",
+      "request_sha256": "e882bcda9c94b78e67069db40cb2ab802fecbc7ce38fdd34647315c4868db9e5",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2430__PE2__unfiltered",
+          "case_id": "NanoNQ:test2430",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f65d66bffe515dc51195a807e797d2f1d5fbd13aedabd25899fca3d0381513b:00000",
+            "06bd3280ff30b2c3410a609fa9acc6f1fe272cb6f6685d7a1c3c7728048e8e5f:00000",
+            "17afd2314f60cf7be9c8142e19edc97dd5bf04461731b28de9650a458ca807f7:00000",
+            "318dc39ed8059d7b4bb119dde820ea09112693834ad476f5541f6bbe980ca035:00000",
+            "cb99c06e19017513f348f3dfb457277c6a8944eb0fae0471e94d54a7fe447890:00000"
+          ],
+          "text_hashes": [
+            "754272354c5d78a4942ddaf0ad58e336aae146a25601c8cc45691d7d92137080",
+            "2e584a67a632d51a9c16c29c90c7a9a3a257fb5d0358f94c0c00ddbcf5cb37ee",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5",
+            "670018f3ce55a195f819fd42854666219c7dc9c08caa44986c54cf786ab39bd5"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2430.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "0f65d6 (fovea contains only cones)",
+          "318dc3 (densely packed in fovea centralis)"
+        ],
+        "rationale": "Cone location passages are in context; answer gives retina/fovea/macula location.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2430:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2430",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06bd32"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Filtered context keeps only a caption; abstention matches the context.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:26ad4203f17575979223736b727c4015963bdf9912b7c4de13bdf1bdc48a9739",
+          "R1:023cc42ce760502d5a40164bf8d71c7b466be3debac3bb8e905ed55680add187"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2430:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2430",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06bd32",
+          "0f65d6 removed",
+          "318dc3 removed"
+        ],
+        "rationale": "P condition: answer passages and copies removed, only a caption kept, filtered answer abstains; matching background control also loses the answer so background-qualified is not met. Reference panel strict endpoint met; reproduction panel uncertain because the clean filtered answer confuses macula and fovea.",
+        "disagreement": "Two-copy condition yields a strict event in the reference panel where the accepted one-copy primary result is a non-event; reproduction panel uncertain; flagged for joint discussion with Suresh"
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "clean filtered reproduction (original prefix) says the macula is the 0.3 mm rod-free area, confusing macula with fovea",
+        "strict_endpoint": "uncertain",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:023cc42ce760502d5a40164bf8d71c7b466be3debac3bb8e905ed55680add187",
+          "R1:59c76673952f80c52d670728e9e9bce702cd86cc3ce8e145971b8e5eda7acf36"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2430:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2430",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "318dc3"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:b161b28f8147cf04b47921ea72e8d393fc6ac07d45e6be5e7dd8f1191b5abdd8"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2430:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2430",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06bd32"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Filtered context keeps only a caption; abstention matches the context.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:023cc42ce760502d5a40164bf8d71c7b466be3debac3bb8e905ed55680add187",
+          "R1:4c109be9c17c35757f7238b35437f010d5e3ced9cf5366952db2cc8b0a896a44"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2430:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2430",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "0f65d6"
+        ],
+        "rationale": "P condition; cone-location passage kept in filtered context, answer does not fail, strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:2b48c824f968008734cd23e11f777dd0b3293f0f4acfa0abcb2c5333ba56d463"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2430:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2430",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06bd32",
+          "0f65d6 removed",
+          "318dc3 removed"
+        ],
+        "rationale": "P condition: answer passages and copies removed, only a caption kept, filtered answer abstains; matching background control also loses the answer so background-qualified is not met. Reference panel strict endpoint met; reproduction panel uncertain because the clean filtered answer confuses macula and fovea.",
+        "disagreement": "Two-copy condition yields a strict event in the reference panel where the accepted one-copy primary result is a non-event; reproduction panel uncertain; flagged for joint discussion with Suresh"
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "clean filtered reproduction (original prefix) says the macula is the 0.3 mm rod-free area, confusing macula with fovea",
+        "strict_endpoint": "uncertain",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:023cc42ce760502d5a40164bf8d71c7b466be3debac3bb8e905ed55680add187",
+          "R1:e882bcda9c94b78e67069db40cb2ab802fecbc7ce38fdd34647315c4868db9e5"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "state": {
+    "case_id": "NanoNQ:test1009",
+    "compute_profile": "cpu",
+    "condition": "PN2",
+    "exit_code": -9,
+    "finished_at": 1794313532.1623273,
+    "kind": "live_computation",
+    "mode": "variants",
+    "run_id": "92bef0c7f6ae44fcbe022d8e98fabe51",
+    "semantic_review": "pending",
+    "started_at": 1794313530.2597113,
+    "status": "cancelled"
+  },
+  "result": {
+    "kind": "SYNTHETIC_CONTROL_TEST_ONLY",
+    "status": "running",
+    "conditions": {
+      "PN2": {
+        "retrieved": [
+          {
+            "text": "SYNTHETIC passage; not a research response."
+          }
+        ],
+        "policies": {
+          "U": {
+            "kept": [
+              0
+            ],
+            "representatives": [
+              0
+            ]
+          },
+          "N": {
+            "kept": [],
+            "representatives": [
+              0
+            ]
+          }
+        },
+        "answers": {
+          "U": {
+            "text": "SYNTHETIC answer, not Qwen output.",
+            "status": "synthetic",
+            "seconds": 0
+          },
+          "N": {
+            "text": "SYNTHETIC partial export check.",
+            "status": "synthetic",
+            "seconds": 0
+          }
+        }
+      }
+    },
+    "generation_attempts": 0
+  },
+  "effective_status": "cancelled",
+  "snapshot_notice": "Job status is authoritative. An interrupted worker snapshot is retained as last observed, not completed."
+}
