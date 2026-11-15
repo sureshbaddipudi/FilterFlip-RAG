@@ -1,0 +1,556 @@
+{
+  "schema": "filterflip-week04-joint-adjudication-v1",
+  "status": "human_agreement_recorded",
+  "agreement_recorded_date": "2026-10-26",
+  "user_confirmation": "Shradha reviewed week-4 cases and sent her review to me.Please see her review as json file. My review is attached as Suresh_response.csv. I fully agree with her review",
+  "evidence_scope": "Eight specified saved-reference cases only; no inference or fresh-run adjudication.",
+  "source_files": {
+    "FilterFlip_Week04_Joint_Adjudication_PROPOSAL_Shradha_2026-10-26.json": "437b799a95b7c6219e70bd1d7b42847bf9335683963151a4b4ce27b4df96da1e",
+    "Suresh_response.csv": "8dff655d4b36e26484f4966fc80e5695670530fc7c39032a28d27dbe66b4cd31"
+  },
+  "prior_manual_review_ledger_sha256": "bc26a110122c3f8cbc3b351c4a3e8c12e10144de71d22f17b16fc5119a2ee9ac",
+  "attribution": {
+    "decisions": "Shradha and Suresh human agreement evidenced by supplied proposal, CSV and direct user statement.",
+    "assistant_role": "Validated mapping and recorded supplied human decisions; did not choose labels.",
+    "earlier_week04_review": "14-October manual human judgments by Shradha, AI only for report preparation, per 24-October clarification.",
+    "current_proposal_assistance": "Not specified in this submission; no additional assistance history inferred.",
+    "blinding": "Existing saved-reference review; not claimed blinded."
+  },
+  "rule_set": {
+    "id": "week04_core_answer_mixed_usable_2026-10-26",
+    "rules": {
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden."
+    },
+    "timing": "Interpretation agreed after observing outcomes; disclose as post-outcome adjudication.",
+    "scope": "These eight Week-4 cases. Do not silently replace the historical frozen-rubric assessment or assign Week-6 outcome categories.",
+    "primary_sensitivity_designation": "No automatic redesignation of the conservative historical primary analysis; report this explicitly named adjudicated interpretation alongside it."
+  },
+  "decisions": [
+    {
+      "case_id": "NanoMSMARCO:1045374",
+      "case_name": "Targeted Victory",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Targeted Victory",
+        "Suresh's Label": "Event",
+        "Decided by": "Core rule"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "Frozen answer: \"founded by digital marketers\"; clean answer omits it.",
+        "PN1 filtered: \"Targeted victory is the destruction in a given area of the insurgent's forces and his political organization...\""
+      ],
+      "agreed_rationale": "Event under the core-answer rule. Clean and PN1-unfiltered answers name the agency, its type and both focus areas; omitting 'founded by digital marketers' (who built it, not what it is) is accepted under the core rule. Both agency passages (copy and 7193888) are removed by the PN1 filter and the filtered answer is about counterinsurgency. NOT an event under an all-elements rule (Q1 and Q3 would fail).",
+      "original_proposal_entry": {
+        "case_id": "NanoMSMARCO:1045374",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "yes",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "Frozen answer: \"founded by digital marketers\"; clean answer omits it.",
+          "PN1 filtered: \"Targeted victory is the destruction in a given area of the insurgent's forces and his political organization...\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Event under the core-answer rule. Clean and PN1-unfiltered answers name the agency, its type and both focus areas; omitting 'founded by digital marketers' (who built it, not what it is) is accepted under the core rule. Both agency passages (copy and 7193888) are removed by the PN1 filter and the filtered answer is about counterinsurgency. NOT an event under an all-elements rule (Q1 and Q3 would fail).",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "event",
+        "suresh_response": null
+      }
+    },
+    {
+      "case_id": "NanoMSMARCO:1091973",
+      "case_name": "Benson Radiology",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "non-event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Benson Radiology",
+        "Suresh's Label": "Non-event",
+        "Decided by": "Q1 fails (clean pre-requisite)"
+      },
+      "Q1_Q6": {
+        "Q1": "no",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "C filtered: \"Benson Radiology is located in North Adelaide, and there are reviews by real people available on Yelp for this location.\"",
+        "Record 7870707 (only description) REMOVED in the clean condition.",
+        "PN1 filtered: \"Not enough information.\""
+      ],
+      "agreed_rationale": "Non-event: the clean prerequisite fails (Q1 no). The filter already removed the only description (7870707) in the clean condition and the clean filtered answer gives only a location, no radiology services. Under the core rule the core is what the organization is and does, so a location alone is not usable. Recorded as a clean-prerequisite exclusion, based on the answer content and not on the desired outcome. Disagreement possible: 'Adelaide' appears in the frozen answer.",
+      "original_proposal_entry": {
+        "case_id": "NanoMSMARCO:1091973",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "no",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "no",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "C filtered: \"Benson Radiology is located in North Adelaide, and there are reviews by real people available on Yelp for this location.\"",
+          "Record 7870707 (only description) REMOVED in the clean condition.",
+          "PN1 filtered: \"Not enough information.\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Non-event: the clean prerequisite fails (Q1 no). The filter already removed the only description (7870707) in the clean condition and the clean filtered answer gives only a location, no radiology services. Under the core rule the core is what the organization is and does, so a location alone is not usable. Recorded as a clean-prerequisite exclusion, based on the answer content and not on the desired outcome. Disagreement possible: 'Adelaide' appears in the frozen answer.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "non-event",
+        "suresh_response": null
+      }
+    },
+    {
+      "case_id": "NanoMSMARCO:1093082",
+      "case_name": "Copper",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "non-event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Copper",
+        "Suresh's Label": "Non-event",
+        "Decided by": "Q4 and Q5 fail"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "no",
+        "Q5": "no",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "Survivors 4605271: \"...the word copper became slang for an officer...\" and 4409027: \"The first documented use of the term copper for a police officer is in 1846.\"",
+        "PN1 filtered: \"Copper is slang for a police officer, with its first documented use in 1846...\""
+      ],
+      "agreed_rationale": "Non-event. Q4 no: after PN1 filtering 4605271 and 4409027 still state that copper means a police officer. Q5 no: the filtered answer still gives that meaning. 'One who arrests' appears in no answer; this does not change the label under the core or the all-elements rule.",
+      "original_proposal_entry": {
+        "case_id": "NanoMSMARCO:1093082",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "no",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "no",
+          "Q5": "no",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "Survivors 4605271: \"...the word copper became slang for an officer...\" and 4409027: \"The first documented use of the term copper for a police officer is in 1846.\"",
+          "PN1 filtered: \"Copper is slang for a police officer, with its first documented use in 1846...\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Non-event. Q4 no: after PN1 filtering 4605271 and 4409027 still state that copper means a police officer. Q5 no: the filtered answer still gives that meaning. 'One who arrests' appears in no answer; this does not change the label under the core or the all-elements rule.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "non-event",
+        "suresh_response": null
+      }
+    },
+    {
+      "case_id": "NanoNQ:test123",
+      "case_name": "RON/MON",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "RON/MON",
+        "Suresh's Label": "Event",
+        "Decided by": "Core rule"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "doc4611 and its copy removed in PN1; no octane passage survives.",
+        "PN1 filtered: \"Not enough information.\""
+      ],
+      "agreed_rationale": "Event under the core-answer rule with the 900 vs 600 rpm difference as the core. No recorded answer gives the 8-12 point difference. The PN1 unfiltered expansion 'Research Octane Number' is not in the retained passage (unsupported, noted as extra). NOT an event if more than the rpm difference is required (Q3 would fail). This is the saved reference only: Suresh's rerun abstains in the clean condition, so it fails the clean prerequisite and the event is not carried over to the rerun.",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test123",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "yes",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "doc4611 and its copy removed in PN1; no octane passage survives.",
+          "PN1 filtered: \"Not enough information.\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Event under the core-answer rule with the 900 vs 600 rpm difference as the core. No recorded answer gives the 8-12 point difference. The PN1 unfiltered expansion 'Research Octane Number' is not in the retained passage (unsupported, noted as extra). NOT an event if more than the rpm difference is required (Q3 would fail). This is the saved reference only: Suresh's rerun abstains in the clean condition, so it fails the clean prerequisite and the event is not carried over to the rerun.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "event",
+        "suresh_response": null
+      }
+    },
+    {
+      "case_id": "NanoNQ:test1721",
+      "case_name": "von",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "von",
+        "Suresh's Label": "Event",
+        "Decided by": "'of/from' is the primary meaning"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "doc61036 (support quote) and its copy removed in PN1; survivors doc61045, doc61043, doc1376346 (Dutch 'van' cognate).",
+        "PN1 filtered: \"The name von can be a cognate of Dutch 'van' and is often used to indicate nobility or royalty, though it can also signify any ancestral relation to a particular place...\""
+      ],
+      "agreed_rationale": "Event, with 'of/from' treated as the primary meaning the question asks for. Q4 yes: the surviving cognate passages concern Dutch 'van' and never state 'of/from' for German 'von', so indirect support is not treated as sufficient. Q5 yes (unusable): the filtered answer misses the primary meaning even though it gives nobility and place relation. Weak point to discuss: under a strict core reading the filtered answer could be called usable (non-event); Q4 and Q5 are recorded separately for that reason.",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test1721",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "yes",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "doc61036 (support quote) and its copy removed in PN1; survivors doc61045, doc61043, doc1376346 (Dutch 'van' cognate).",
+          "PN1 filtered: \"The name von can be a cognate of Dutch 'van' and is often used to indicate nobility or royalty, though it can also signify any ancestral relation to a particular place...\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Event, with 'of/from' treated as the primary meaning the question asks for. Q4 yes: the surviving cognate passages concern Dutch 'van' and never state 'of/from' for German 'von', so indirect support is not treated as sufficient. Q5 yes (unusable): the filtered answer misses the primary meaning even though it gives nobility and place relation. Weak point to discuss: under a strict core reading the filtered answer could be called usable (non-event); Q4 and Q5 are recorded separately for that reason.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "event",
+        "suresh_response": null
+      }
+    },
+    {
+      "case_id": "NanoNQ:test194",
+      "case_name": "Semicolon in C",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "non-event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Semicolon in C",
+        "Suresh's Label": "Non-event",
+        "Decided by": "Q5 fails"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "uncertain",
+        "Q5": "no",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "PN1 filtered: \"...mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).\"",
+        "Survivors doc7112 (separator vs terminator, null statement) and doc7120 (CSV separator); the C-specific doc692559 is not among PN1 survivors."
+      ],
+      "agreed_rationale": "Non-event. Q5 no: the PN1 filtered answer still says the semicolon marks the end of a statement. Q4 recorded as uncertain (whether the general terminator passage doc7112 is sufficient support); it does not change the label. The NOP clause is true of C and comes from doc7112, so it is not a wrong claim.",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test194",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "no",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "uncertain",
+          "Q5": "no",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "PN1 filtered: \"...mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).\"",
+          "Survivors doc7112 (separator vs terminator, null statement) and doc7120 (CSV separator); the C-specific doc692559 is not among PN1 survivors."
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Non-event. Q5 no: the PN1 filtered answer still says the semicolon marks the end of a statement. Q4 recorded as uncertain (whether the general terminator passage doc7112 is sufficient support); it does not change the label. The NOP clause is true of C and comes from doc7112, so it is not a wrong claim.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "non-event",
+        "suresh_response": null
+      }
+    },
+    {
+      "case_id": "NanoNQ:test1989",
+      "case_name": "Krypton-85",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Krypton-85",
+        "Suresh's Label": "Event",
+        "Decided by": "Mixed-answer rule"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "doc69765: \"It decays into stable, non-radioactive rubidium-85.\" (removed with its copy in PN1)",
+        "PN1 unfiltered: \"...to form rubidium-85. The product of this decay is an electron (beta particle) and an electron antineutrino.\"",
+        "PN1 filtered: \"...resulting in the product of stable xenon-85.\""
+      ],
+      "agreed_rationale": "Event under the mixed-answer rule. Q3 depends on it: the PN1 unfiltered answer names rubidium-85 (correct core) but then wrongly calls the particles 'the product'. Usable under 'core correct = usable', with the wrong sentence recorded. NOT an event if any wrong claim makes an answer unusable. After filtering no passage naming rubidium-85 survives and the answer is wrong (xenon-85).",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test1989",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "yes",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "doc69765: \"It decays into stable, non-radioactive rubidium-85.\" (removed with its copy in PN1)",
+          "PN1 unfiltered: \"...to form rubidium-85. The product of this decay is an electron (beta particle) and an electron antineutrino.\"",
+          "PN1 filtered: \"...resulting in the product of stable xenon-85.\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Event under the mixed-answer rule. Q3 depends on it: the PN1 unfiltered answer names rubidium-85 (correct core) but then wrongly calls the particles 'the product'. Usable under 'core correct = usable', with the wrong sentence recorded. NOT an event if any wrong claim makes an answer unusable. After filtering no passage naming rubidium-85 survives and the answer is wrong (xenon-85).",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "event",
+        "suresh_response": null
+      }
+    },
+    {
+      "case_id": "NanoNQ:test697",
+      "case_name": "Earth's rotation",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "non-event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Earth's rotation",
+        "Suresh's Label": "Non-event",
+        "Decided by": "Mixed-answer rule"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "no",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "PN1 filtered: \"about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days)\"",
+        "doc24903 and its copy removed; survivors doc90322, doc563699 (sidereal year 365.256 days), doc1818632; no stellar-day passage among PN1 survivors."
+      ],
+      "agreed_rationale": "Non-event under the mixed-answer rule, same as Krypton-85. The principal period (23h 56m) is right; the parenthetical is the sidereal year from doc563699, wrong but from retained evidence. Note for discussion: no PN1 survivor gives the stellar-day value, so the 4.1 s figure is unsupported by retained evidence (supports Q4 yes). Disagreement possible: false equivalence of rotation with 365 days and missing 24 h solar value could make it unusable (event).",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test697",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "no",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "no",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "PN1 filtered: \"about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days)\"",
+          "doc24903 and its copy removed; survivors doc90322, doc563699 (sidereal year 365.256 days), doc1818632; no stellar-day passage among PN1 survivors."
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Non-event under the mixed-answer rule, same as Krypton-85. The principal period (23h 56m) is right; the parenthetical is the sidereal year from doc563699, wrong but from retained evidence. Note for discussion: no PN1 survivor gives the stellar-day value, so the 4.1 s figure is unsupported by retained evidence (supports Q4 yes). Disagreement possible: false equivalence of rotation with 365 days and missing 24 h solar value could make it unusable (event).",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "non-event",
+        "suresh_response": null
+      }
+    }
+  ],
+  "summary": {
+    "jointly_agreed_cases": 8,
+    "event": 4,
+    "non_event": 4,
+    "unresolved_event_labels": 0,
+    "unresolved_subcriteria": [
+      {
+        "case_id": "NanoNQ:test194",
+        "criterion": "Q4",
+        "value": "uncertain",
+        "effect": "Event label resolved non-event because Q5 is no."
+      }
+    ],
+    "all_18_individually_reviewed_saved_cases": {
+      "event": 8,
+      "non_event": 10,
+      "jointly_adjudicated_subset": 8
+    },
+    "human_unreviewed_cases": 41,
+    "historical_assistant_assessment": {
+      "event": 4,
+      "not_strict_endpoint": 47,
+      "unresolved": 8,
+      "status": "Preserved historical assessment, not current joint status."
+    }
+  },
+  "recording_notes": [
+    "The proposal summary names cases 1,2,3,4 as event examples, but those positions do not match the decision list. Stable case IDs, per-case labels and Suresh CSV are authoritative; original prose preserved.",
+    "Earth rotation has Q4=yes (support lost) and Q5=no (answer still usable under the accepted case decision). Do not infer its surviving answer is supported. General rule wording mentions a supported core; preserve this case-specific distinction rather than silently forcing consistency.",
+    "The semicolon support question remains uncertain, while its event label is jointly resolved.",
+    "RON/MON applies only to saved reference. The separately recorded rerun clean abstention fails the clean prerequisite; this label is not transferred.",
+    "Rubric-dependent additional events are not four new experiments, nor a population success rate."
+  ]
+}

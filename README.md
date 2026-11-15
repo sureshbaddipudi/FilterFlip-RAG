@@ -26,3 +26,16 @@ The [extended comparison guide](reproduction/EXTENDED_COMPARISONS.md) links the 
 ## Security and handover
 
 See the [security and handover guide](reproduction/SECURITY_AND_HANDOVER.md) for STRIDE and OWASP coverage, dependency findings, compatibility results and an offline integrity check.
+
+## Team contributions and review decisions
+
+Suresh Kumar Baddipudi led the study design, research pipeline and experiments. Shradha Suryawanshi contributed the semester GUI release, application testing, case review and reproduction checks. We reviewed the outstanding cases together and recorded the scope of each decision.
+
+| Study stage | Evidence |
+|---|---|
+| Primary study | [Week 4 decisions on the eight open cases](decisions/week04/SUMMARY.md) |
+| Mitigation evaluation | [Week 6 scoring agreement](decisions/week06/SUMMARY.md) and [analysis acceptance](decisions/week06/ACCEPTANCE_RECORD.json) |
+| Extended comparisons | [Agreed decisions](decisions/extension-review/JOINT_ADJUDICATION.json) and [fields retained as uncertain](decisions/extension-review/RETAINED_UNCERTAIN_FIELDS.json) |
+| Semester handover | [Walkthrough and reproduction acceptance](decisions/final-handover/JOINT_ACCEPTANCE.md) and [verification records](verification/) |
+
+Open the [GUI start guide](gui/START_HERE.md) to run the application. The [semester freeze decision](releases/FilterFlip_GUI_v2_9_Semester_Freeze_2026-11-14.md) covers v2.9. The [v2.9.3 checksum](releases/FilterFlip_GUI_v2_9_3.zip.sha256) identifies the distributed patch-release ZIP. Some links inside the original decisions refer to files in the corresponding archived handover packages.
