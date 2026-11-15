@@ -1,0 +1,529 @@
+{
+  "case_id": "NanoNQ:test2974",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test2974.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test2974.md",
+  "records": [
+    {
+      "record_id": "R1:5dc773fbfc1a09c5475946106ee6205ab4c27a71f304fbae33074e76df4aa42f",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2974",
+      "request_sha256": "5dc773fbfc1a09c5475946106ee6205ab4c27a71f304fbae33074e76df4aa42f",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2974__BN2__unfiltered",
+          "case_id": "NanoNQ:test2974",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "4dd3505d2a25081c87fd3373e8132026484056980ae63660aa666f11d3186916:00000",
+            "02f5b138a7ec84ec763799093b2c6132e50639af06df79c74b48f61d6c94461a:00000",
+            "191132d43b0fd31db5f845e8f51b74325457dffe77d62e8f61df7bac43cc0e2d:00000",
+            "46bbf9d1d76e055ae7718a24eeedb991e6fc5103ea752d7ed0267f68e09e3fb2:00000",
+            "ba52941e614f11fc73fc9f0bff3a5cb27e4e1ef94f53733408106b0fff97187c:00000"
+          ],
+          "text_hashes": [
+            "125ddb303144bd3135af452beba3becb45e3f3e872b0bae7394498d975fe0f9e",
+            "205f4999d06773d4665e811f812dba554cbfe376f47b8404e574d725b045c7ee",
+            "f6aea2b9d77ab1a01399b32b50d815a053e7186e488e8b44930d7016e77304d8",
+            "eedc8aa45e0df50bb560c539ede4ff22bb550b070dba3f0b5b702c5127212511",
+            "9fd8144a515482442fdcafadb4b8e9046c5bcc37e1f39056b56a302f3f009b10"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2974.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1"
+        ],
+        "rationale": "The theatrical date and festival screening are in no retrieved passage; the DVD passage supports only the 22 November 2016 home-video date.",
+        "disagreement": "Supported home-video date vs frozen theatrical/festival dates; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "gives 22 November 2016 with the DVD/Blu-ray/digital qualifier dropped, so it reads like the theatrical date",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:c85851af739128a87c9d168cb82b4d7660a98fb2ad932f5e9e81e67fa4aecf35",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2974",
+      "request_sha256": "c85851af739128a87c9d168cb82b4d7660a98fb2ad932f5e9e81e67fa4aecf35",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2974__BN2__filtered",
+          "case_id": "NanoNQ:test2974",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ba52941e614f11fc73fc9f0bff3a5cb27e4e1ef94f53733408106b0fff97187c:00000"
+          ],
+          "text_hashes": [
+            "9fd8144a515482442fdcafadb4b8e9046c5bcc37e1f39056b56a302f3f009b10"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2974__BE2__filtered",
+          "case_id": "NanoNQ:test2974",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ba52941e614f11fc73fc9f0bff3a5cb27e4e1ef94f53733408106b0fff97187c:00000"
+          ],
+          "text_hashes": [
+            "9fd8144a515482442fdcafadb4b8e9046c5bcc37e1f39056b56a302f3f009b10"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2974.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "ba5294"
+        ],
+        "rationale": "Only the Oscars passage kept, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:2218e8695dcaa09adead95226d1516473a1e9254b3f72c175e5528840b829735",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2974",
+      "request_sha256": "2218e8695dcaa09adead95226d1516473a1e9254b3f72c175e5528840b829735",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2974__BE1__unfiltered",
+          "case_id": "NanoNQ:test2974",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "02f5b138a7ec84ec763799093b2c6132e50639af06df79c74b48f61d6c94461a:00000",
+            "e082b8f7a366e97988b33156d8bdb74df383c7a0f22668005ad1632a83c2cf90:00000",
+            "46bbf9d1d76e055ae7718a24eeedb991e6fc5103ea752d7ed0267f68e09e3fb2:00000",
+            "ba52941e614f11fc73fc9f0bff3a5cb27e4e1ef94f53733408106b0fff97187c:00000",
+            "c379f7e9cadd50fb2e1bdf69ac800d6548f195c6723d914d4d3eb097f9fa8695:00000"
+          ],
+          "text_hashes": [
+            "205f4999d06773d4665e811f812dba554cbfe376f47b8404e574d725b045c7ee",
+            "205f4999d06773d4665e811f812dba554cbfe376f47b8404e574d725b045c7ee",
+            "eedc8aa45e0df50bb560c539ede4ff22bb550b070dba3f0b5b702c5127212511",
+            "9fd8144a515482442fdcafadb4b8e9046c5bcc37e1f39056b56a302f3f009b10",
+            "b30b384ce94a4c7573f9c1bec80ea003b819b355ae77fbc90e4d88ac9a8214c2"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2974.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1"
+        ],
+        "rationale": "The theatrical date and festival screening are in no retrieved passage; the DVD passage supports only the 22 November 2016 home-video date.",
+        "disagreement": "Supported home-video date vs frozen theatrical/festival dates; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "gives the DVD/Blu-ray/digital (home-video) date, not the 19 August 2016 US theatrical release or the 13 August festival screening",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:43f5169c77ee16ee0daca7358cd619a1b76ccb4cd66868dc03d7e27094b2f4e1",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2974",
+      "request_sha256": "43f5169c77ee16ee0daca7358cd619a1b76ccb4cd66868dc03d7e27094b2f4e1",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2974__BE2__unfiltered",
+          "case_id": "NanoNQ:test2974",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "02f5b138a7ec84ec763799093b2c6132e50639af06df79c74b48f61d6c94461a:00000",
+            "e082b8f7a366e97988b33156d8bdb74df383c7a0f22668005ad1632a83c2cf90:00000",
+            "e78dbcb0b780e4117ea83cd158e9a9be4a7a2c0b1e17d91e613d2a06d02c3790:00000",
+            "46bbf9d1d76e055ae7718a24eeedb991e6fc5103ea752d7ed0267f68e09e3fb2:00000",
+            "ba52941e614f11fc73fc9f0bff3a5cb27e4e1ef94f53733408106b0fff97187c:00000"
+          ],
+          "text_hashes": [
+            "205f4999d06773d4665e811f812dba554cbfe376f47b8404e574d725b045c7ee",
+            "205f4999d06773d4665e811f812dba554cbfe376f47b8404e574d725b045c7ee",
+            "205f4999d06773d4665e811f812dba554cbfe376f47b8404e574d725b045c7ee",
+            "eedc8aa45e0df50bb560c539ede4ff22bb550b070dba3f0b5b702c5127212511",
+            "9fd8144a515482442fdcafadb4b8e9046c5bcc37e1f39056b56a302f3f009b10"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2974.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1"
+        ],
+        "rationale": "The theatrical date and festival screening are in no retrieved passage; the DVD passage supports only the 22 November 2016 home-video date.",
+        "disagreement": "Supported home-video date vs frozen theatrical/festival dates; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "gives the DVD/Blu-ray/digital (home-video) date, not the 19 August 2016 US theatrical release or the 13 August festival screening",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2974:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2974",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: home-video date",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: home-video date",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:5dc773fbfc1a09c5475946106ee6205ab4c27a71f304fbae33074e76df4aa42f",
+          "R1:c85851af739128a87c9d168cb82b4d7660a98fb2ad932f5e9e81e67fa4aecf35"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2974:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2974",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1",
+          "c379f7"
+        ],
+        "rationale": "P condition; the clean filtered answer already fails and no copy is retrieved, so strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered (prefix): home-video date; filtered (prefix): June 2013, a different film's Japanese release",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered (prefix): home-video date; filtered (prefix): June 2013, a different film's Japanese release",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2974:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2974",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: home-video date",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: home-video date",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:2218e8695dcaa09adead95226d1516473a1e9254b3f72c175e5528840b829735"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2974:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2974",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: home-video date",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: home-video date",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:c85851af739128a87c9d168cb82b4d7660a98fb2ad932f5e9e81e67fa4aecf35",
+          "R1:43f5169c77ee16ee0daca7358cd619a1b76ccb4cd66868dc03d7e27094b2f4e1"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2974:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2974",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1",
+          "c379f7"
+        ],
+        "rationale": "P condition; the clean filtered answer already fails and no copy is retrieved, so strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered (prefix): home-video date; filtered (prefix): June 2013, a different film's Japanese release",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered (prefix): home-video date; filtered (prefix): June 2013, a different film's Japanese release",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2974:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2974",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "02f5b1",
+          "c379f7"
+        ],
+        "rationale": "P condition; the clean filtered answer already fails and no copy is retrieved, so strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered (prefix): home-video date; filtered (prefix): June 2013, a different film's Japanese release",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered (prefix): home-video date; filtered (prefix): June 2013, a different film's Japanese release",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,2857 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1048359",
+    "dataset": "NanoMSMARCO",
+    "question": "what is php in mental health care",
+    "source_family": "NanoMSMARCO:1048359",
+    "review_status": "assistant_only",
+    "target_document_id": "7187663",
+    "expected_answer": "Partial Hospitalization Program: a level of care offering a safe, structured treatment environment without completely disrupting daily routines.",
+    "answer_aliases": [
+      "Partial Hospitalization Program"
+    ],
+    "support_quote": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+    "source_qualification": "The meaning of PHP in the supplied mental-health context; not the programming language.",
+    "qrel_document_ids": [
+      "7187663"
+    ],
+    "family_reference_texts": [
+      "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:1048359",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "7187663",
+    "expected_answer": "Partial Hospitalization Program: a level of care offering a safe, structured treatment environment without completely disrupting daily routines.",
+    "answer_aliases": [
+      "Partial Hospitalization Program"
+    ],
+    "support_quote": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+    "source_qualification": "The meaning of PHP in the supplied mental-health context; not the programming language.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:1048359",
+    "dataset": "NanoMSMARCO",
+    "question": "what is php in mental health care",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:1048359",
+      "dataset": "NanoMSMARCO",
+      "question": "what is php in mental health care",
+      "expected_answer": "Partial Hospitalization Program: a level of care offering a safe, structured treatment environment without completely disrupting daily routines.",
+      "source_qualification": "The meaning of PHP in the supplied mental-health context; not the programming language.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Unfiltered copied-answer prerequisite fails",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "unfiltered_intervention_failure",
+      "historical_rationale": "PN1 unfiltered already abstains despite sufficient evidence. Therefore the subsequent filtered abstention cannot satisfy the paired correct-unfiltered requirement.",
+      "current_assistant_rationale": "PN1 unfiltered already abstains despite sufficient evidence. Therefore the subsequent filtered abstention cannot satisfy the paired correct-unfiltered requirement.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/38",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/38",
+      "review_priority": 3,
+      "sample_reason": "PN1 unfiltered answer already fails",
+      "evidence_file": "evidence/NanoMSMARCO_1048359.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 343,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 229,
+              "call_id": "NanoMSMARCO:1048359__C__unfiltered",
+              "request_sha256": "ffd09f151e67d69dc7c58a3ae08a3390acad0beeab70e722f554da333254d59c"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 230,
+              "call_id": "NanoMSMARCO:1048359__C__filtered",
+              "request_sha256": "ba503acee4a1fb186c07313aeca449a8ad96bbede9b3ff30dcfa0a81c592a7e7"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 344,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 231,
+              "call_id": "NanoMSMARCO:1048359__BN1__unfiltered",
+              "request_sha256": "61a6f3ab8cb7cb4fce2a8e9d47ffe2381874e0473323ce77d3dde29ae510bab4"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 232,
+              "call_id": "NanoMSMARCO:1048359__BN1__filtered",
+              "request_sha256": "2aa28119d0e9f8618a40330b7ca7c60d25a6ae90dc5ba6aaeb9f8b1825b39099"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 346,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 233,
+              "call_id": "NanoMSMARCO:1048359__PN1__unfiltered",
+              "request_sha256": "0e01f0c020b276c42f986583c5c01f08dad5e6255109ae09a77c686f46dbdc0d"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 234,
+              "call_id": "NanoMSMARCO:1048359__PN1__filtered",
+              "request_sha256": "2fd5d753b0e67de333c6abcf84602b677f372be2cbc96af7e386019906c174d9"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoMSMARCO:1048359",
+      "Question": "what is php in mental health care",
+      "Evidence packet": "evidence/NanoMSMARCO_1048359.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "no",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "abstention",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: C P1 7187663 kept; correct. Q2: PN1 P2 copy of 7187663. Q3: NO - PN1 unfiltered \"Not enough information.\" although the PHP-health passage and copy were in context. Q4: survivors P3 5942525 (PHP scripting), P4 2066852, P5 1536744: no partial hospitalization definition. Q5: abstention. Q6: BN1 correct.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (not an event: PN1 unfiltered prerequisite fails).",
+      "workbook_row": 15,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "question": "what is php in mental health care",
+        "expected_answer": "Partial Hospitalization Program: a level of care offering a safe, structured treatment environment without completely disrupting daily routines.",
+        "source_qualification": "The meaning of PHP in the supplied mental-health context; not the programming language.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Not a strict event",
+        "reason_group": "Unfiltered copied-answer prerequisite fails",
+        "historical_decision": "not_strict_event",
+        "historical_reason_code": "unfiltered_intervention_failure",
+        "historical_rationale": "PN1 unfiltered already abstains despite sufficient evidence. Therefore the subsequent filtered abstention cannot satisfy the paired correct-unfiltered requirement.",
+        "current_assistant_rationale": "PN1 unfiltered already abstains despite sufficient evidence. Therefore the subsequent filtered abstention cannot satisfy the paired correct-unfiltered requirement.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/38",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/38",
+        "review_priority": 3,
+        "sample_reason": "PN1 unfiltered answer already fails",
+        "evidence_file": "evidence/NanoMSMARCO_1048359.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 343,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 229,
+                "call_id": "NanoMSMARCO:1048359__C__unfiltered",
+                "request_sha256": "ffd09f151e67d69dc7c58a3ae08a3390acad0beeab70e722f554da333254d59c"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 230,
+                "call_id": "NanoMSMARCO:1048359__C__filtered",
+                "request_sha256": "ba503acee4a1fb186c07313aeca449a8ad96bbede9b3ff30dcfa0a81c592a7e7"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 344,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 231,
+                "call_id": "NanoMSMARCO:1048359__BN1__unfiltered",
+                "request_sha256": "61a6f3ab8cb7cb4fce2a8e9d47ffe2381874e0473323ce77d3dde29ae510bab4"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 232,
+                "call_id": "NanoMSMARCO:1048359__BN1__filtered",
+                "request_sha256": "2aa28119d0e9f8618a40330b7ca7c60d25a6ae90dc5ba6aaeb9f8b1825b39099"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 346,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 233,
+                "call_id": "NanoMSMARCO:1048359__PN1__unfiltered",
+                "request_sha256": "0e01f0c020b276c42f986583c5c01f08dad5e6255109ae09a77c686f46dbdc0d"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 234,
+                "call_id": "NanoMSMARCO:1048359__PN1__filtered",
+                "request_sha256": "2fd5d753b0e67de333c6abcf84602b677f372be2cbc96af7e386019906c174d9"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:1048359",
+    "question": "what is php in mental health care",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1048359"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": true
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5641239881515503,
+          "kept": true
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5608115196228027,
+          "kept": false
+        },
+        {
+          "chunk_id": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1536744",
+          "instance_key": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A psychiatric evaluation is a mental health assessment that consists of a computerized online Cognitive Testing , NeuroPsych questionnaire , Life Habits Checklist , and Medical Symptom Questionnaire.The computerized neurocognitive test is the same test used by psychiatrist , psychologist , and other mental health practitioners to determine your ...",
+          "text_sha256": "98f54153daa0727ea97830fe6932c1bcf357ce964683a0577b8ffd17c7202ab8",
+          "char_start": 0,
+          "char_end": 350,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5446779131889343,
+          "kept": true
+        },
+        {
+          "chunk_id": "87741b5a1c7cf24c1911f053d57f007e6546dddd8d9d6b1a032178682cb7e400:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4582407",
+          "instance_key": "87741b5a1c7cf24c1911f053d57f007e6546dddd8d9d6b1a032178682cb7e400",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mental health care: Mental health is one of the most neglected areas of India’s health system. India has less than 21 percent of the psychiatrists its population needs and less than 2 percent of clinical psychologists and social workers required (CBHI, 2013).",
+          "text_sha256": "da5099f445b4c53a11f5fd9140811a35afc581c6058701943c83eea9ea58dae1",
+          "char_start": 0,
+          "char_end": 259,
+          "tokens_with_specials": 54,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5394891500473022,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        3
+      ],
+      "removed_indices": [
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.26639802207705543,
+          0.0,
+          0.26639802207705543
+        ],
+        "removal_ranking": [
+          2,
+          4,
+          0,
+          1,
+          3
+        ],
+        "removal_gap": 0.26639802207705543,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0008088350296020508,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5161375999450684
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5153287649154663
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.47263550758361816
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4491528868675232
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.42348331212997437
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.40502047538757324
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.3807271122932434
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.25396984815597534
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2528850734233856
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.16063177585601807
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__C__unfiltered",
+          "request_sha256": "ffd09f151e67d69dc7c58a3ae08a3390acad0beeab70e722f554da333254d59c",
+          "reference": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A Partial Hospitalization Program (PHP) in mental health care is a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__C__filtered",
+          "request_sha256": "ba503acee4a1fb186c07313aeca449a8ad96bbede9b3ff30dcfa0a81c592a7e7",
+          "reference": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": true
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5641239881515503,
+          "kept": false
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5608115196228027,
+          "kept": true
+        },
+        {
+          "chunk_id": "1bed52979d172bd299b80816f6d0184a9f2bb7493b0b2e8c7e97860ac65bf80a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/BN/1",
+          "instance_key": "1bed52979d172bd299b80816f6d0184a9f2bb7493b0b2e8c7e97860ac65bf80a",
+          "chunk_index": 0,
+          "copied_from": "5942525",
+          "copy_number": 1,
+          "text": "Source excerpt.\nPHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "178b7aa4daba147de1ee73822a6fde4e4a415d754a17693320a83732d3fa2ae9",
+          "char_start": 0,
+          "char_end": 265,
+          "tokens_with_specials": 58,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5503577589988708,
+          "kept": false
+        },
+        {
+          "chunk_id": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1536744",
+          "instance_key": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A psychiatric evaluation is a mental health assessment that consists of a computerized online Cognitive Testing , NeuroPsych questionnaire , Life Habits Checklist , and Medical Symptom Questionnaire.The computerized neurocognitive test is the same test used by psychiatrist , psychologist , and other mental health practitioners to determine your ...",
+          "text_sha256": "98f54153daa0727ea97830fe6932c1bcf357ce964683a0577b8ffd17c7202ab8",
+          "char_start": 0,
+          "char_end": 350,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5446779131889343,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        4
+      ],
+      "removed_indices": [
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.9769296944330144,
+          0.0,
+          0.9769296944330144,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        "removal_gap": 0.9769296944330144,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4730687737464905,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9883975386619568
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5153287649154663
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.47263550758361816
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4491528868675232
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.44436749815940857
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.42348331212997437
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.25396984815597534
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.23927727341651917
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.16063177585601807
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.15347552299499512
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__BN1__unfiltered",
+          "request_sha256": "61a6f3ab8cb7cb4fce2a8e9d47ffe2381874e0473323ce77d3dde29ae510bab4",
+          "reference": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a partial hospitalization program, which is a level of care providing a safe, structured treatment environment for individuals with mental health issues without disrupting their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a partial hospitalization program, which is a level of care providing a safe, structured treatment environment for individuals with mental health issues without disrupting their daily routines.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__BN1__filtered",
+          "request_sha256": "2aa28119d0e9f8618a40330b7ca7c60d25a6ae90dc5ba6aaeb9f8b1825b39099",
+          "reference": {
+            "status": "ok",
+            "answer": "A Partial Hospitalization Program (PHP) is a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A Partial Hospitalization Program (PHP) is a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": true
+        },
+        {
+          "chunk_id": "2fb0fad7a6c1e33903c9fc9786ebb104c69978df6a1f02be43f8bd66fcf77196:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/BN/2",
+          "instance_key": "2fb0fad7a6c1e33903c9fc9786ebb104c69978df6a1f02be43f8bd66fcf77196",
+          "chunk_index": 0,
+          "copied_from": "5942525",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nPHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "a6ef04f193901febc2f1f6721f3685f81721cca92fdb7102c9a5bafb4b7ccef8",
+          "char_start": 0,
+          "char_end": 268,
+          "tokens_with_specials": 58,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.564405083656311,
+          "kept": false
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5641239881515503,
+          "kept": false
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5608115196228027,
+          "kept": true
+        },
+        {
+          "chunk_id": "1bed52979d172bd299b80816f6d0184a9f2bb7493b0b2e8c7e97860ac65bf80a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/BN/1",
+          "instance_key": "1bed52979d172bd299b80816f6d0184a9f2bb7493b0b2e8c7e97860ac65bf80a",
+          "chunk_index": 0,
+          "copied_from": "5942525",
+          "copy_number": 1,
+          "text": "Source excerpt.\nPHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "178b7aa4daba147de1ee73822a6fde4e4a415d754a17693320a83732d3fa2ae9",
+          "char_start": 0,
+          "char_end": 265,
+          "tokens_with_specials": 58,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5503577589988708,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        3
+      ],
+      "removed_indices": [
+        1,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.9721231757229418,
+          1.9575321771305028,
+          0.0,
+          1.9684501518061381
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          2,
+          0,
+          3
+        ],
+        "removal_gap": 1.9575321771305028,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5157620012760162,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9957512617111206
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9902538061141968
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.988397479057312
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4726354777812958
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.45858779549598694
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4491529166698456
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4443674683570862
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.16834673285484314
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.16063177585601807
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.1534755527973175
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__BN2__unfiltered",
+          "request_sha256": "2fd2cdee1dc5b4cb1d94816daff9b791626623a816fdf10f8e478b36bb5e85c6",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1048359__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__BN2__filtered",
+          "request_sha256": "35d5ba44aad0f066c9bcbf1bc7057e337d8b0113bd5fbd7d698cce87071d176b",
+          "reference": {
+            "status": "ok",
+            "answer": "A Partial Hospitalization Program (PHP) is a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "PHP in mental health care is a level of care that offers clients a safe, structured treatment environment without completely disrupting their daily routines.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": false
+        },
+        {
+          "chunk_id": "3d287ce2070482f42dfc1eda241ae8c62537eff60c9d18ca86826b7196021b6c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/PN/1",
+          "instance_key": "3d287ce2070482f42dfc1eda241ae8c62537eff60c9d18ca86826b7196021b6c",
+          "chunk_index": 0,
+          "copied_from": "7187663",
+          "copy_number": 1,
+          "text": "Source excerpt.\nPartial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "13abf56db645471a1f121720d3ab9363f207b2aad388b9f8938a2a340ca87c03",
+          "char_start": 0,
+          "char_end": 296,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6064480543136597,
+          "kept": false
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5641239881515503,
+          "kept": true
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5608115196228027,
+          "kept": true
+        },
+        {
+          "chunk_id": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1536744",
+          "instance_key": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A psychiatric evaluation is a mental health assessment that consists of a computerized online Cognitive Testing , NeuroPsych questionnaire , Life Habits Checklist , and Medical Symptom Questionnaire.The computerized neurocognitive test is the same test used by psychiatrist , psychologist , and other mental health practitioners to determine your ...",
+          "text_sha256": "98f54153daa0727ea97830fe6932c1bcf357ce964683a0577b8ffd17c7202ab8",
+          "char_start": 0,
+          "char_end": 350,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5446779131889343,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9750171344427407,
+          0.9750171344427407,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9750171344427407,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.47210079431533813,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9874295592308044
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5153287649154663
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47263550758361816
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4491528868675232
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4359011650085449
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.43250107765197754
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.42348331212997437
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.403120756149292
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.25396984815597534
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.16063177585601807
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__PN1__unfiltered",
+          "request_sha256": "0e01f0c020b276c42f986583c5c01f08dad5e6255109ae09a77c686f46dbdc0d",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1048359__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a partial hospitalization program, which is a level of care providing a safe, structured environment for clients without disrupting their daily routines.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__PN1__filtered",
+          "request_sha256": "2fd5d753b0e67de333c6abcf84602b677f372be2cbc96af7e386019906c174d9",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1048359__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": false
+        },
+        {
+          "chunk_id": "3d287ce2070482f42dfc1eda241ae8c62537eff60c9d18ca86826b7196021b6c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/PN/1",
+          "instance_key": "3d287ce2070482f42dfc1eda241ae8c62537eff60c9d18ca86826b7196021b6c",
+          "chunk_index": 0,
+          "copied_from": "7187663",
+          "copy_number": 1,
+          "text": "Source excerpt.\nPartial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "13abf56db645471a1f121720d3ab9363f207b2aad388b9f8938a2a340ca87c03",
+          "char_start": 0,
+          "char_end": 296,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6064480543136597,
+          "kept": false
+        },
+        {
+          "chunk_id": "9c179a1d1bd6303fa2842023c545482282be6dfa016840a40c0c24f912543d5e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/PN/2",
+          "instance_key": "9c179a1d1bd6303fa2842023c545482282be6dfa016840a40c0c24f912543d5e",
+          "chunk_index": 0,
+          "copied_from": "7187663",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nPartial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "89b16c11133e39e28427258fd5a6d860596c8a63bbdff6aab48823d671b0a975",
+          "char_start": 0,
+          "char_end": 299,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5959140062332153,
+          "kept": false
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5641239881515503,
+          "kept": false
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5608115196228027,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.374737152423937,
+          2.1626062571518334,
+          1.9721770334122688,
+          0.3917481705784498,
+          0.223384407542647
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.1683637630358028,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0033999979496002197,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9987890720367432
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9874294400215149
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9872170090675354
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4726355969905853
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.44915300607681274
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.43590107560157776
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.43250107765197754
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4278522729873657
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4220053553581238
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.16063174605369568
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__PN2__unfiltered",
+          "request_sha256": "84bc24d0be3267d4171b2eb0821dec9f3cf09c40a389e4f180d7bc0d7f29ed5b",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1048359__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__PN2__filtered",
+          "request_sha256": "1fae37ca217fb2a4de8781949839333e3400cf8d28a23b1fb074eab26c693bf8",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1048359__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": true
+        },
+        {
+          "chunk_id": "47d475a7accfb933d4bd9073eec1610bb479d0918839fcb2c43a031a2f3daa66:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/BE/1",
+          "instance_key": "47d475a7accfb933d4bd9073eec1610bb479d0918839fcb2c43a031a2f3daa66",
+          "chunk_index": 0,
+          "copied_from": "5942525",
+          "copy_number": 1,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5641239881515503,
+          "kept": false
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5641239881515503,
+          "kept": false
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5608115196228027,
+          "kept": true
+        },
+        {
+          "chunk_id": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1536744",
+          "instance_key": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A psychiatric evaluation is a mental health assessment that consists of a computerized online Cognitive Testing , NeuroPsych questionnaire , Life Habits Checklist , and Medical Symptom Questionnaire.The computerized neurocognitive test is the same test used by psychiatrist , psychologist , and other mental health practitioners to determine your ...",
+          "text_sha256": "98f54153daa0727ea97830fe6932c1bcf357ce964683a0577b8ffd17c7202ab8",
+          "char_start": 0,
+          "char_end": 350,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5446779131889343,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.48467135429382324,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5153287649154663
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47263550758361816
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4491528868675232
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4491528868675232
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.42348331212997437
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.25396984815597534
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.25396984815597534
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.16063177585601807
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.16063177585601807
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__BE1__unfiltered",
+          "request_sha256": "4bac2d75b19aa37da36000cc1319a8bd39457f496c2fa56d20b1fe38c8923fde",
+          "reference": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a partial hospitalization program, which is a level of care providing a safe, structured treatment environment for individuals with mental health issues without disrupting their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__BE1__filtered",
+          "request_sha256": "2aa28119d0e9f8618a40330b7ca7c60d25a6ae90dc5ba6aaeb9f8b1825b39099",
+          "reference": {
+            "status": "ok",
+            "answer": "A Partial Hospitalization Program (PHP) is a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A Partial Hospitalization Program (PHP) is a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": true
+        },
+        {
+          "chunk_id": "47d475a7accfb933d4bd9073eec1610bb479d0918839fcb2c43a031a2f3daa66:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/BE/1",
+          "instance_key": "47d475a7accfb933d4bd9073eec1610bb479d0918839fcb2c43a031a2f3daa66",
+          "chunk_index": 0,
+          "copied_from": "5942525",
+          "copy_number": 1,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5641239881515503,
+          "kept": false
+        },
+        {
+          "chunk_id": "9b33123da8b93f44e987ce21f31142e497857897bf34343fada53114181deec7:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/BE/2",
+          "instance_key": "9b33123da8b93f44e987ce21f31142e497857897bf34343fada53114181deec7",
+          "chunk_index": 0,
+          "copied_from": "5942525",
+          "copy_number": 2,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5641239881515503,
+          "kept": false
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5641239881515503,
+          "kept": false
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5608115196228027,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          2.00000095367443,
+          2.00000095367443,
+          2.00000095367443,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.00000095367443,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5273646414279938,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4726355969905853
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.44915300607681274
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.44915300607681274
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.44915300607681274
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.16063174605369568
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.16063174605369568
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.16063174605369568
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__BE2__unfiltered",
+          "request_sha256": "73b9bc0db92321a61f33df6499b73401916929d981d6da15dd5d96ab87e01178",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1048359__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__BE2__filtered",
+          "request_sha256": "35d5ba44aad0f066c9bcbf1bc7057e337d8b0113bd5fbd7d698cce87071d176b",
+          "reference": {
+            "status": "ok",
+            "answer": "A Partial Hospitalization Program (PHP) is a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "PHP in mental health care is a level of care that offers clients a safe, structured treatment environment without completely disrupting their daily routines.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": false
+        },
+        {
+          "chunk_id": "c98d5e1d730bd7fac0727fe168b53f1b89fa22df8d5d6f4bf6f4dfdc1c8302e0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/PE/1",
+          "instance_key": "c98d5e1d730bd7fac0727fe168b53f1b89fa22df8d5d6f4bf6f4dfdc1c8302e0",
+          "chunk_index": 0,
+          "copied_from": "7187663",
+          "copy_number": 1,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6607450246810913,
+          "kept": false
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5641239881515503,
+          "kept": true
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5608115196228027,
+          "kept": true
+        },
+        {
+          "chunk_id": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1536744",
+          "instance_key": "a3751e72159f78d5ab377cb7d42e54edb1df0b70b46c5436e5aa112e39f81783",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A psychiatric evaluation is a mental health assessment that consists of a computerized online Cognitive Testing , NeuroPsych questionnaire , Life Habits Checklist , and Medical Symptom Questionnaire.The computerized neurocognitive test is the same test used by psychiatrist , psychologist , and other mental health practitioners to determine your ...",
+          "text_sha256": "98f54153daa0727ea97830fe6932c1bcf357ce964683a0577b8ffd17c7202ab8",
+          "char_start": 0,
+          "char_end": 350,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5446779131889343,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4846712350845337,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5153287649154663
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47263550758361816
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.47263550758361816
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4491528868675232
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4491528868675232
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.42348331212997437
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.42348331212997437
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.25396984815597534
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.16063177585601807
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__PE1__unfiltered",
+          "request_sha256": "054ae14f8264d4cf53ab082c4268d38d6fd756ca35ef52119e101da875b5af00",
+          "reference": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a level of care that provides clients with a safe, structured treatment environment without disrupting their daily routines.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__PE1__filtered",
+          "request_sha256": "2fd5d753b0e67de333c6abcf84602b677f372be2cbc96af7e386019906c174d9",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1048359__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1048359",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7187663",
+          "instance_key": "63cf7bb628240a189215a5fc43dee10fb708e90488e4bf0a54f1bbcdfbc5c8f0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6607450246810913,
+          "kept": false
+        },
+        {
+          "chunk_id": "7141dc4fe4eb8b82773c8d2f589cdb5757e33df0dc845d3172ba57cf4f2b2732:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/PE/2",
+          "instance_key": "7141dc4fe4eb8b82773c8d2f589cdb5757e33df0dc845d3172ba57cf4f2b2732",
+          "chunk_index": 0,
+          "copied_from": "7187663",
+          "copy_number": 2,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6607450246810913,
+          "kept": false
+        },
+        {
+          "chunk_id": "c98d5e1d730bd7fac0727fe168b53f1b89fa22df8d5d6f4bf6f4dfdc1c8302e0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1048359/PE/1",
+          "instance_key": "c98d5e1d730bd7fac0727fe168b53f1b89fa22df8d5d6f4bf6f4dfdc1c8302e0",
+          "chunk_index": 0,
+          "copied_from": "7187663",
+          "copy_number": 1,
+          "text": "Partial Hospitalization Programs for Mental Health What is a Partial Hospitalization Program? A partial hospitalization program (PHP) is a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+          "text_sha256": "d7758907ddccf9118feedc77b917fa8cb89397103229a6b1a84f0b135f668f2b",
+          "char_start": 0,
+          "char_end": 280,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6607450246810913,
+          "kept": false
+        },
+        {
+          "chunk_id": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "5942525",
+          "instance_key": "bd3d522de38a460106d4ec606dc9c472ae56e31ce69dd3b0fe073efff88cdfb3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.",
+          "text_sha256": "1eae47723aee6a80d65d7c4b10ce4d2891ea2752a2cb1657ff35029c2e09a5a5",
+          "char_start": 0,
+          "char_end": 249,
+          "tokens_with_specials": 55,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5641239881515503,
+          "kept": true
+        },
+        {
+          "chunk_id": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2066852",
+          "instance_key": "cbae2f7b7500ed06d69c65e2d6c0eb8f97cedaae6ae2c443596d99a24145722f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Psychiatric nursing or mental health nursing is the specialty of nursing that cares for people of all ages with mental illness or mental distress, such as schizophrenia, bipolar disorder, psychosis, depression or dementia.",
+          "text_sha256": "56044cff385fab008f3c810fb7503107ef5f938feeef7c30874106444124cff1",
+          "char_start": 0,
+          "char_end": 222,
+          "tokens_with_specials": 41,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5608115196228027,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.223384407542647,
+          2.223384407542647,
+          2.223384407542647,
+          0.0,
+          0.670153222627941
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          4,
+          3
+        ],
+        "removal_gap": 0.670153222627941,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.023482590913772583,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4726355969905853
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4726355969905853
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4726355969905853
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.44915300607681274
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.44915300607681274
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.44915300607681274
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.16063174605369568
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1048359__PE2__unfiltered",
+          "request_sha256": "7002f3a6de938331b59062a1f8e32fd7e651b744021d0336ef813aa22c81b7a0",
+          "reference": {
+            "status": "ok",
+            "answer": "PHP in mental health care refers to a level of care that provides clients with access to a safe, structured treatment environment without total disruption of their daily routines.",
+            "first_call_id": "NanoMSMARCO:1048359__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "PHP is not related to mental health care in the provided document.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1048359__PE2__filtered",
+          "request_sha256": "4a62adcc0750ef91c0e99d6a674c253cc82ba5a7b3134e13cde8000936d85ce9",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1048359__PE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

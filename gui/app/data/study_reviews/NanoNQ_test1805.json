@@ -1,0 +1,534 @@
+{
+  "case_id": "NanoNQ:test1805",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test1805.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test1805.md",
+  "records": [
+    {
+      "record_id": "R1:327925e23c5674ace64cd6d31d3feae47f971b45731d06212c47f4a82b90f607",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1805",
+      "request_sha256": "327925e23c5674ace64cd6d31d3feae47f971b45731d06212c47f4a82b90f607",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1805__BN2__unfiltered",
+          "case_id": "NanoNQ:test1805",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "552817df6a438c8fc46a49798153a35b6468f348e0171f12fc0d6c604ccac2c2:00000",
+            "ffc03eb3890419fd436e471f92a1c0a4964f6f87c1b24b14135e9bf2df694a22:00000",
+            "218121bbb830c8adb3d9e550604f8d6158760ed4dddb31602b05dd36c476afa3:00000",
+            "847cea03f65b20d4dfe6260e6da496294b286ce92dde5360c4089c343159704c:00000",
+            "b1b8aec8be2da145e6bad32ef1b8ba619b6c96d4cf2583a7a95f1ce6f079f7cd:00000"
+          ],
+          "text_hashes": [
+            "3f32d3adfef4d4b2848596f0b7282159177ade7930af9cf649900739af40350f",
+            "855a3575595323dbc5ebd5667eb498196b68498cbd1d231f191233113f47be45",
+            "b136bd51f0f8651971198bd0b9f1eb47c6bfa8c9bf7b3c927a9b7c226d1600c9",
+            "c5508916b97276203d9cf3d29e46e8f2cb83e12749b20cd5201655f0575ca3bc",
+            "a942780ad0341cbd74ad86b52a551519921e1bf1fd7c3b368e64afc6acf28c76"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1805.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "The passage naming Haji Sahib of Turangzai is in no retrieved context; the retrieved Founded passage names Qayyum and Roos-Keppel as founders, not the foundation-stone layer, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:b030c9759f9ba75563fce2e5b672a314dda1c19a2cfe6313805d180392542b9a",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1805",
+      "request_sha256": "b030c9759f9ba75563fce2e5b672a314dda1c19a2cfe6313805d180392542b9a",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1805__BN2__filtered",
+          "case_id": "NanoNQ:test1805",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "552817df6a438c8fc46a49798153a35b6468f348e0171f12fc0d6c604ccac2c2:00000",
+            "847cea03f65b20d4dfe6260e6da496294b286ce92dde5360c4089c343159704c:00000",
+            "b1b8aec8be2da145e6bad32ef1b8ba619b6c96d4cf2583a7a95f1ce6f079f7cd:00000"
+          ],
+          "text_hashes": [
+            "3f32d3adfef4d4b2848596f0b7282159177ade7930af9cf649900739af40350f",
+            "c5508916b97276203d9cf3d29e46e8f2cb83e12749b20cd5201655f0575ca3bc",
+            "a942780ad0341cbd74ad86b52a551519921e1bf1fd7c3b368e64afc6acf28c76"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1805__BE2__filtered",
+          "case_id": "NanoNQ:test1805",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "adb71dd51b1ecb69945422a2ceace27baa93907de62b4621c6f54676dc9765f2:00000",
+            "847cea03f65b20d4dfe6260e6da496294b286ce92dde5360c4089c343159704c:00000",
+            "b1b8aec8be2da145e6bad32ef1b8ba619b6c96d4cf2583a7a95f1ce6f079f7cd:00000"
+          ],
+          "text_hashes": [
+            "3f32d3adfef4d4b2848596f0b7282159177ade7930af9cf649900739af40350f",
+            "c5508916b97276203d9cf3d29e46e8f2cb83e12749b20cd5201655f0575ca3bc",
+            "a942780ad0341cbd74ad86b52a551519921e1bf1fd7c3b368e64afc6acf28c76"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1805.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "The passage naming Haji Sahib of Turangzai is in no retrieved context; the retrieved Founded passage names Qayyum and Roos-Keppel as founders, not the foundation-stone layer, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:4d5a4cb85f4fbc83e8074ec15799fcb581dd55c9db1a27f98cf0637c5e43b356",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1805",
+      "request_sha256": "4d5a4cb85f4fbc83e8074ec15799fcb581dd55c9db1a27f98cf0637c5e43b356",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1805__BE1__unfiltered",
+          "case_id": "NanoNQ:test1805",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "552817df6a438c8fc46a49798153a35b6468f348e0171f12fc0d6c604ccac2c2:00000",
+            "adb71dd51b1ecb69945422a2ceace27baa93907de62b4621c6f54676dc9765f2:00000",
+            "847cea03f65b20d4dfe6260e6da496294b286ce92dde5360c4089c343159704c:00000",
+            "b1b8aec8be2da145e6bad32ef1b8ba619b6c96d4cf2583a7a95f1ce6f079f7cd:00000",
+            "376c16398e132bfbda41397b6d4264ffc31e4bfb0187039cee7f416296163a6a:00001"
+          ],
+          "text_hashes": [
+            "3f32d3adfef4d4b2848596f0b7282159177ade7930af9cf649900739af40350f",
+            "3f32d3adfef4d4b2848596f0b7282159177ade7930af9cf649900739af40350f",
+            "c5508916b97276203d9cf3d29e46e8f2cb83e12749b20cd5201655f0575ca3bc",
+            "a942780ad0341cbd74ad86b52a551519921e1bf1fd7c3b368e64afc6acf28c76",
+            "c9d2167104648421a4007b93b148d93d29852807d5323a7e1c86af4ee768a6b8"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1805.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "The passage naming Haji Sahib of Turangzai is in no retrieved context; the retrieved Founded passage names Qayyum and Roos-Keppel as founders, not the foundation-stone layer, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:74d2c99edd64ec460542a25b9718cb8e559a190d662e5ec6bf9ebcdd16ce5100",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1805",
+      "request_sha256": "74d2c99edd64ec460542a25b9718cb8e559a190d662e5ec6bf9ebcdd16ce5100",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1805__BE2__unfiltered",
+          "case_id": "NanoNQ:test1805",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "47bf5357bc2b029127b4e66ba58f52f5b6484381969c6d41af6ebedb5f939f77:00000",
+            "552817df6a438c8fc46a49798153a35b6468f348e0171f12fc0d6c604ccac2c2:00000",
+            "adb71dd51b1ecb69945422a2ceace27baa93907de62b4621c6f54676dc9765f2:00000",
+            "847cea03f65b20d4dfe6260e6da496294b286ce92dde5360c4089c343159704c:00000",
+            "b1b8aec8be2da145e6bad32ef1b8ba619b6c96d4cf2583a7a95f1ce6f079f7cd:00000"
+          ],
+          "text_hashes": [
+            "3f32d3adfef4d4b2848596f0b7282159177ade7930af9cf649900739af40350f",
+            "3f32d3adfef4d4b2848596f0b7282159177ade7930af9cf649900739af40350f",
+            "3f32d3adfef4d4b2848596f0b7282159177ade7930af9cf649900739af40350f",
+            "c5508916b97276203d9cf3d29e46e8f2cb83e12749b20cd5201655f0575ca3bc",
+            "a942780ad0341cbd74ad86b52a551519921e1bf1fd7c3b368e64afc6acf28c76"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1805.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "The passage naming Haji Sahib of Turangzai is in no retrieved context; the retrieved Founded passage names Qayyum and Roos-Keppel as founders, not the foundation-stone layer, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1805:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1805",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:327925e23c5674ace64cd6d31d3feae47f971b45731d06212c47f4a82b90f607",
+          "R1:b030c9759f9ba75563fce2e5b672a314dda1c19a2cfe6313805d180392542b9a"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1805:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1805",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "P condition; no passage ever supported the frozen answer, so there was no support to lose; strict endpoint not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1805:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1805",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:4d5a4cb85f4fbc83e8074ec15799fcb581dd55c9db1a27f98cf0637c5e43b356"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1805:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1805",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:b030c9759f9ba75563fce2e5b672a314dda1c19a2cfe6313805d180392542b9a",
+          "R1:74d2c99edd64ec460542a25b9718cb8e559a190d662e5ec6bf9ebcdd16ce5100"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1805:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1805",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "P condition; no passage ever supported the frozen answer, so there was no support to lose; strict endpoint not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1805:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1805",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "552817"
+        ],
+        "rationale": "P condition; no passage ever supported the frozen answer, so there was no support to lose; strict endpoint not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    }
+  ]
+}

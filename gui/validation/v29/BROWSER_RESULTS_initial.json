@@ -1,0 +1,17 @@
+{
+  "status": "FAIL",
+  "error": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#results').getByText('T · TrustRAG stage 1', { exact: true }) to be visible\u001b[22m\n\u001b[2m    56 × locator resolved to hidden <h4>T · TrustRAG stage 1</h4>\u001b[22m\n",
+  "checks": [
+    "current challenge selection loads and explains fresh generation",
+    "findings and limitations render",
+    "all 12 TrustRAG cases: 72 linked answers, 180 passage positions and current rationales render exactly",
+    "findings remains within mobile viewport with scrollable tables",
+    "findings opens the corresponding recorded Heather case",
+    "all-nine table opens PN2 and its paired answers",
+    "hostile question, saved answer and passage render as literal text",
+    "real browser start, cancellation and JSON download retain synthetic partial output",
+    "all 13 project tasks, four security documents, report draft and mobile layout",
+    "TrustRAG uses 12 fixed cases and three conditions; recorded inspection selects TrustRAG rather than native verdict"
+  ],
+  "pageErrors": []
+}

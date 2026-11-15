@@ -1,0 +1,841 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test2247",
+    "question": "here we go round the mulberry bush origin",
+    "expected_answer": "It was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century; an earlier bramble-bush version is suggested, not established.",
+    "source_qualification": "This answers the documented history, not a proven date of composition or a definite original author.",
+    "source_review_status_historical": "assistant_only",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoNQ:test2247",
+      "assessment": "no_clean_support_and_copy_retained",
+      "rationale": "The frozen Halliwell history is absent from clean retrieval. PN1 retains the newly retrieved source copy with that history. This is not a new loss.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000",
+          "b0386f8473ebfe3ade1d3631d99c31da745cba111bfdcb702b8a9b544ee0326c:00000",
+          "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000"
+        ],
+        "BN1": [
+          "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+          "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000",
+          "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000"
+        ],
+        "PN1": [
+          "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082:00000",
+          "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000",
+          "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+          "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000",
+          "d4c8ae45c212da35b91097010fc77104d290adc464f3799254c1ac918be030a1:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 6,
+    "novel_request_hashes": 3
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoNQ:test2247",
+    "question": "here we go round the mulberry bush origin",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test2247"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1430993",
+          "instance_key": "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The nursery rhyme \"Here We Go Round the Mulberry Bush\" uses the tree in the refrain, as do some contemporary American versions of the nursery rhyme \"Pop Goes the Weasel\".",
+          "text_sha256": "f1785108a85068982ac1f54660c43087b8b530b11e1779a14e48e0c1b0c77b20",
+          "char_start": 0,
+          "char_end": 170,
+          "tokens_with_specials": 40,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6502652168273926
+        },
+        {
+          "chunk_id": "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc77976",
+          "instance_key": "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another possible interpretation of the rhyme is that it references Britain's struggles to produce silk, mulberry trees being a key habitat for the cultivation of silkworms. As Bill Bryson explains, Britain in the eighteenth and nineteenth centuries tried to emulate the success of the Chinese in silk production but the industry was held back by periodic harsh winters and mulberry trees proved too sensitive to frost to thrive. [6] The traditional lyrics 'Here we go round the mulberry bush / On a cold and frosty morning' may therefore be a joke about the problems faced by the industry.",
+          "text_sha256": "774f600547b18021528f62583ee589ef9a5ca5621281d088d3cb4af6688b0aa0",
+          "char_start": 0,
+          "char_end": 589,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6044966578483582
+        },
+        {
+          "chunk_id": "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1504263",
+          "instance_key": "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The exercise yard at Wakefield has a mulberry tree, around which female inmates used to exercise. This has been linked to the nursery rhyme \"Here We Go Round the Mulberry Bush\" by the erstwhile prison governor, RS Duncan in his book 'Here we go round the mulberry bush': The House of Correction 1595 / HM Prison Wakefield 1995 (published by author 1994). This origin of the song is also propounded on the prison's website. There is no corroborative evidence to support this theory.[4]",
+          "text_sha256": "d792d343625aefe826eef3a25909fe04e0ee1d9180929d8bc34868c44d0895b8",
+          "char_start": 0,
+          "char_end": 484,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5944395065307617
+        },
+        {
+          "chunk_id": "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1430994",
+          "instance_key": "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Vincent van Gogh featured the mulberry tree in some of his paintings, notably Mulberry Tree (MÃ»rier, 1889, now in Pasadena's Norton Simon Museum). He painted it after a stay at an asylum, and he considered it a technical success.[23]",
+          "text_sha256": "ef22adb411dedcf447aa3e67a247896b2181c19cc05c2e9f18125abbde22bba1",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 61,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5098299980163574
+        },
+        {
+          "chunk_id": "b0386f8473ebfe3ade1d3631d99c31da745cba111bfdcb702b8a9b544ee0326c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1431001",
+          "instance_key": "b0386f8473ebfe3ade1d3631d99c31da745cba111bfdcb702b8a9b544ee0326c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mulberry Tree by Vincent van Gogh, 1889",
+          "text_sha256": "68e0834d8af936fbd8b44589af8e12249c32f3b825f9b34191ad74a344667a41",
+          "char_start": 0,
+          "char_end": 39,
+          "tokens_with_specials": 12,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5076014399528503
+        }
+      ],
+      "T_native_indices": [
+        3,
+        4,
+        1
+      ],
+      "T_output_texts": [
+        "Vincent van Gogh featured the mulberry tree in some of his paintings, notably Mulberry Tree (MÃ»rier, 1889, now in Pasadena's Norton Simon Museum). He painted it after a stay at an asylum, and he considered it a technical success.[23]",
+        "Mulberry Tree by Vincent van Gogh, 1889",
+        "Another possible interpretation of the rhyme is that it references Britain's struggles to produce silk, mulberry trees being a key habitat for the cultivation of silkworms. As Bill Bryson explains, Britain in the eighteenth and nineteenth centuries tried to emulate the success of the Chinese in silk production but the industry was held back by periodic harsh winters and mulberry trees proved too sensitive to frost to thrive. [6] The traditional lyrics 'Here we go round the mulberry bush / On a cold and frosty morning' may therefore be a joke about the problems faced by the industry."
+      ],
+      "T_removed_indices": [
+        0,
+        2
+      ],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        1,
+        2
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2247__C__U",
+          "case_id": "NanoNQ:test2247",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "71bbd8fc2eeb1f11b09a2408bfec77095fdb3142c15f281b72b71cfe0faeb3a3",
+          "status": "ok",
+          "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the struggles of Britain's silk industry, particularly due to the sensitivity of mulberry trees to frost. Another theory suggests the rhyme is related to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree.",
+          "ordinal": 18,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2247__PE2__unfiltered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "question": "here we go round the mulberry bush origin",
+          "expected_answer": "It was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century; an earlier bramble-bush version is suggested, not established.",
+          "source_qualification": "This answers the documented history, not a proven date of composition or a definite original author.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082:00000",
+            "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+            "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000",
+            "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000",
+            "b0386f8473ebfe3ade1d3631d99c31da745cba111bfdcb702b8a9b544ee0326c:00000"
+          ],
+          "text_hashes": [
+            "f1785108a85068982ac1f54660c43087b8b530b11e1779a14e48e0c1b0c77b20",
+            "774f600547b18021528f62583ee589ef9a5ca5621281d088d3cb4af6688b0aa0",
+            "d792d343625aefe826eef3a25909fe04e0ee1d9180929d8bc34868c44d0895b8",
+            "ef22adb411dedcf447aa3e67a247896b2181c19cc05c2e9f18125abbde22bba1",
+            "68e0834d8af936fbd8b44589af8e12249c32f3b825f9b34191ad74a344667a41"
+          ],
+          "request_sha256": "71bbd8fc2eeb1f11b09a2408bfec77095fdb3142c15f281b72b71cfe0faeb3a3",
+          "estimated_prompt_tokens": 420,
+          "identical_request_to": "NanoNQ:test2247__C__unfiltered",
+          "first_call_id": "NanoNQ:test2247__C__unfiltered",
+          "status": "ok",
+          "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the struggles of Britain's silk industry, particularly due to the sensitivity of mulberry trees to frost. Another theory suggests the rhyme may have originated from the exercise yard at Wakefield prison, where inmates used to exercise around a mulberry tree.",
+          "prompt_eval_count": 420,
+          "eval_count": 68,
+          "done_reason": "stop",
+          "wall_seconds": 31.684738442992966,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2247__PE2__unfiltered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "request_sha256": "71bbd8fc2eeb1f11b09a2408bfec77095fdb3142c15f281b72b71cfe0faeb3a3",
+          "status": "ok",
+          "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the struggles of Britain's silk industry, particularly due to the sensitivity of mulberry trees to frost. Another theory suggests the rhyme is related to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2247__C__T",
+          "case_id": "NanoNQ:test2247",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "9bcce8ae93f3c7d86161aa1987decfff87db37668edceede532a23bd18b61681",
+          "status": "ok",
+          "answer": "The origin of \"Here we go round the mulberry bush\" is related to Britain's difficulties in producing silk due to the sensitivity of mulberry trees to frost.",
+          "ordinal": 17,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2247__PE2__filtered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "PE2",
+          "mode": "filtered",
+          "question": "here we go round the mulberry bush origin",
+          "expected_answer": "It was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century; an earlier bramble-bush version is suggested, not established.",
+          "source_qualification": "This answers the documented history, not a proven date of composition or a definite original author.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082:00000",
+            "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+            "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000"
+          ],
+          "text_hashes": [
+            "f1785108a85068982ac1f54660c43087b8b530b11e1779a14e48e0c1b0c77b20",
+            "774f600547b18021528f62583ee589ef9a5ca5621281d088d3cb4af6688b0aa0",
+            "d792d343625aefe826eef3a25909fe04e0ee1d9180929d8bc34868c44d0895b8"
+          ],
+          "request_sha256": "47675fa16934e6d5b4443a8f304a6ad5c156902f2b00aee56fcbee6017da656e",
+          "estimated_prompt_tokens": 344,
+          "identical_request_to": "NanoNQ:test2247__C__filtered",
+          "first_call_id": "NanoNQ:test2247__C__filtered",
+          "status": "ok",
+          "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree. This theory is proposed by the former prison governor, RS Duncan, in his book \"Here we go round the mulberry bush: The House of Correction 1595 / HM Prison Wakefield 1995\" (published in 1994). However, there is no corroborative evidence to support this theory.",
+          "prompt_eval_count": 344,
+          "eval_count": 108,
+          "done_reason": "stop",
+          "wall_seconds": 22.89568303499982,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "d6d68e404da82e2fe15b6ea84245b28199ad017b77ff6d578d4905426f023579:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2247/BN/1",
+          "instance_key": "d6d68e404da82e2fe15b6ea84245b28199ad017b77ff6d578d4905426f023579",
+          "chunk_index": 0,
+          "copied_from": "doc1430993",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe nursery rhyme \"Here We Go Round the Mulberry Bush\" uses the tree in the refrain, as do some contemporary American versions of the nursery rhyme \"Pop Goes the Weasel\".",
+          "text_sha256": "3533d60c3edcff45ea854d21ea98d48e2c1adb83470a16dce9d01c229fbc7d3a",
+          "char_start": 0,
+          "char_end": 186,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6972320675849915
+        },
+        {
+          "chunk_id": "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1430993",
+          "instance_key": "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The nursery rhyme \"Here We Go Round the Mulberry Bush\" uses the tree in the refrain, as do some contemporary American versions of the nursery rhyme \"Pop Goes the Weasel\".",
+          "text_sha256": "f1785108a85068982ac1f54660c43087b8b530b11e1779a14e48e0c1b0c77b20",
+          "char_start": 0,
+          "char_end": 170,
+          "tokens_with_specials": 40,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6502652168273926
+        },
+        {
+          "chunk_id": "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc77976",
+          "instance_key": "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another possible interpretation of the rhyme is that it references Britain's struggles to produce silk, mulberry trees being a key habitat for the cultivation of silkworms. As Bill Bryson explains, Britain in the eighteenth and nineteenth centuries tried to emulate the success of the Chinese in silk production but the industry was held back by periodic harsh winters and mulberry trees proved too sensitive to frost to thrive. [6] The traditional lyrics 'Here we go round the mulberry bush / On a cold and frosty morning' may therefore be a joke about the problems faced by the industry.",
+          "text_sha256": "774f600547b18021528f62583ee589ef9a5ca5621281d088d3cb4af6688b0aa0",
+          "char_start": 0,
+          "char_end": 589,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6044966578483582
+        },
+        {
+          "chunk_id": "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1504263",
+          "instance_key": "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The exercise yard at Wakefield has a mulberry tree, around which female inmates used to exercise. This has been linked to the nursery rhyme \"Here We Go Round the Mulberry Bush\" by the erstwhile prison governor, RS Duncan in his book 'Here we go round the mulberry bush': The House of Correction 1595 / HM Prison Wakefield 1995 (published by author 1994). This origin of the song is also propounded on the prison's website. There is no corroborative evidence to support this theory.[4]",
+          "text_sha256": "d792d343625aefe826eef3a25909fe04e0ee1d9180929d8bc34868c44d0895b8",
+          "char_start": 0,
+          "char_end": 484,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5944395065307617
+        },
+        {
+          "chunk_id": "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1430994",
+          "instance_key": "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Vincent van Gogh featured the mulberry tree in some of his paintings, notably Mulberry Tree (MÃ»rier, 1889, now in Pasadena's Norton Simon Museum). He painted it after a stay at an asylum, and he considered it a technical success.[23]",
+          "text_sha256": "ef22adb411dedcf447aa3e67a247896b2181c19cc05c2e9f18125abbde22bba1",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 61,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5098299980163574
+        }
+      ],
+      "T_native_indices": [
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Another possible interpretation of the rhyme is that it references Britain's struggles to produce silk, mulberry trees being a key habitat for the cultivation of silkworms. As Bill Bryson explains, Britain in the eighteenth and nineteenth centuries tried to emulate the success of the Chinese in silk production but the industry was held back by periodic harsh winters and mulberry trees proved too sensitive to frost to thrive. [6] The traditional lyrics 'Here we go round the mulberry bush / On a cold and frosty morning' may therefore be a joke about the problems faced by the industry.",
+        "The exercise yard at Wakefield has a mulberry tree, around which female inmates used to exercise. This has been linked to the nursery rhyme \"Here We Go Round the Mulberry Bush\" by the erstwhile prison governor, RS Duncan in his book 'Here we go round the mulberry bush': The House of Correction 1595 / HM Prison Wakefield 1995 (published by author 1994). This origin of the song is also propounded on the prison's website. There is no corroborative evidence to support this theory.[4]",
+        "Vincent van Gogh featured the mulberry tree in some of his paintings, notably Mulberry Tree (MÃ»rier, 1889, now in Pasadena's Norton Simon Museum). He painted it after a stay at an asylum, and he considered it a technical success.[23]"
+      ],
+      "T_removed_indices": [
+        0,
+        1
+      ],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2247__BN1__U",
+          "case_id": "NanoNQ:test2247",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "91553f43f69c2afb19e84f579ab8cc2bd27903ffb77ec2d51dd01906785b96ee",
+          "status": "ok",
+          "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree. This theory is proposed by the former prison governor, RS Duncan, in his book \"Here we go round the mulberry bush: The House of Correction 1595 / HM Prison Wakefield 1995\" (published 1994). However, there is no corroborative evidence to support this theory.",
+          "ordinal": 19,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2247__BN1__unfiltered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "here we go round the mulberry bush origin",
+          "expected_answer": "It was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century; an earlier bramble-bush version is suggested, not established.",
+          "source_qualification": "This answers the documented history, not a proven date of composition or a definite original author.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d6d68e404da82e2fe15b6ea84245b28199ad017b77ff6d578d4905426f023579:00000",
+            "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082:00000",
+            "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+            "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000",
+            "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000"
+          ],
+          "text_hashes": [
+            "3533d60c3edcff45ea854d21ea98d48e2c1adb83470a16dce9d01c229fbc7d3a",
+            "f1785108a85068982ac1f54660c43087b8b530b11e1779a14e48e0c1b0c77b20",
+            "774f600547b18021528f62583ee589ef9a5ca5621281d088d3cb4af6688b0aa0",
+            "d792d343625aefe826eef3a25909fe04e0ee1d9180929d8bc34868c44d0895b8",
+            "ef22adb411dedcf447aa3e67a247896b2181c19cc05c2e9f18125abbde22bba1"
+          ],
+          "request_sha256": "91553f43f69c2afb19e84f579ab8cc2bd27903ffb77ec2d51dd01906785b96ee",
+          "estimated_prompt_tokens": 445,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2247__BN1__unfiltered",
+          "status": "ok",
+          "answer": "The origin of \"Here We Go Round the Mulberry Bush\" is linked to the struggles of Britain's silk industry, which faced difficulties due to harsh winters and the sensitivity of mulberry trees to frost. Another theory suggests the rhyme may have originated from the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree.",
+          "prompt_eval_count": 445,
+          "eval_count": 71,
+          "done_reason": "stop",
+          "wall_seconds": 38.26241893299448,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2247__BN1__unfiltered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "91553f43f69c2afb19e84f579ab8cc2bd27903ffb77ec2d51dd01906785b96ee",
+          "status": "ok",
+          "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree. This theory is proposed by the former prison governor, RS Duncan, in his book \"Here we go round the mulberry bush: The House of Correction 1595 / HM Prison Wakefield 1995\" (published 1994). However, there is no corroborative evidence to support this theory.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2247__BN1__T",
+          "case_id": "NanoNQ:test2247",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "14c8a8041e1303005ff8c6a3ae9bb7c52b91e65115a13c5ea3a5a4980750b2e4",
+          "status": "ok",
+          "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is linked to the exercise yard at Wakefield prison, where female inmates used to exercise around a mulberry tree. This theory is proposed by the former prison governor, RS Duncan, in his book \"Here we go round the mulberry bush: The House of Correction 1595 / HM Prison Wakefield 1995\" (published in 1994). However, there is no corroborative evidence to support this theory.",
+          "ordinal": 20,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2247__BE1__filtered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "here we go round the mulberry bush origin",
+          "expected_answer": "It was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century; an earlier bramble-bush version is suggested, not established.",
+          "source_qualification": "This answers the documented history, not a proven date of composition or a definite original author.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000"
+          ],
+          "text_hashes": [
+            "ef22adb411dedcf447aa3e67a247896b2181c19cc05c2e9f18125abbde22bba1"
+          ],
+          "request_sha256": "58b7bc6abde87908395961fcb8623baa27409c9de1c1cf2633538a0e5a3dc749",
+          "estimated_prompt_tokens": 134,
+          "identical_request_to": "NanoNQ:test2247__BN1__filtered",
+          "first_call_id": "NanoNQ:test2247__BN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 134,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 7.0177182749976055,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1430993",
+          "instance_key": "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The nursery rhyme \"Here We Go Round the Mulberry Bush\" uses the tree in the refrain, as do some contemporary American versions of the nursery rhyme \"Pop Goes the Weasel\".",
+          "text_sha256": "f1785108a85068982ac1f54660c43087b8b530b11e1779a14e48e0c1b0c77b20",
+          "char_start": 0,
+          "char_end": 170,
+          "tokens_with_specials": 40,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6502652168273926
+        },
+        {
+          "chunk_id": "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc77976",
+          "instance_key": "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another possible interpretation of the rhyme is that it references Britain's struggles to produce silk, mulberry trees being a key habitat for the cultivation of silkworms. As Bill Bryson explains, Britain in the eighteenth and nineteenth centuries tried to emulate the success of the Chinese in silk production but the industry was held back by periodic harsh winters and mulberry trees proved too sensitive to frost to thrive. [6] The traditional lyrics 'Here we go round the mulberry bush / On a cold and frosty morning' may therefore be a joke about the problems faced by the industry.",
+          "text_sha256": "774f600547b18021528f62583ee589ef9a5ca5621281d088d3cb4af6688b0aa0",
+          "char_start": 0,
+          "char_end": 589,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6044966578483582
+        },
+        {
+          "chunk_id": "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1504263",
+          "instance_key": "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The exercise yard at Wakefield has a mulberry tree, around which female inmates used to exercise. This has been linked to the nursery rhyme \"Here We Go Round the Mulberry Bush\" by the erstwhile prison governor, RS Duncan in his book 'Here we go round the mulberry bush': The House of Correction 1595 / HM Prison Wakefield 1995 (published by author 1994). This origin of the song is also propounded on the prison's website. There is no corroborative evidence to support this theory.[4]",
+          "text_sha256": "d792d343625aefe826eef3a25909fe04e0ee1d9180929d8bc34868c44d0895b8",
+          "char_start": 0,
+          "char_end": 484,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5944395065307617
+        },
+        {
+          "chunk_id": "d4c8ae45c212da35b91097010fc77104d290adc464f3799254c1ac918be030a1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2247/PN/1",
+          "instance_key": "d4c8ae45c212da35b91097010fc77104d290adc464f3799254c1ac918be030a1",
+          "chunk_index": 0,
+          "copied_from": "doc77971",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe rhyme was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century.[1] He noted that there was a similar game with the lyrics 'Here we go round the bramble bush'. The bramble bush may be an earlier version, possibly changed because of the difficulty of the alliteration, since mulberries do not grow on bushes.[2]",
+          "text_sha256": "afc8a1556057ea0435caf729e5554892fd50b328949e0886dc789921bc38ddd1",
+          "char_start": 0,
+          "char_end": 372,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5148480534553528
+        },
+        {
+          "chunk_id": "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1430994",
+          "instance_key": "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Vincent van Gogh featured the mulberry tree in some of his paintings, notably Mulberry Tree (MÃ»rier, 1889, now in Pasadena's Norton Simon Museum). He painted it after a stay at an asylum, and he considered it a technical success.[23]",
+          "text_sha256": "ef22adb411dedcf447aa3e67a247896b2181c19cc05c2e9f18125abbde22bba1",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 61,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5098299980163574
+        }
+      ],
+      "T_native_indices": [
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      "T_output_texts": [
+        "The nursery rhyme \"Here We Go Round the Mulberry Bush\" uses the tree in the refrain, as do some contemporary American versions of the nursery rhyme \"Pop Goes the Weasel\".",
+        "Vincent van Gogh featured the mulberry tree in some of his paintings, notably Mulberry Tree (MÃ»rier, 1889, now in Pasadena's Norton Simon Museum). He painted it after a stay at an asylum, and he considered it a technical success.[23]",
+        "Another possible interpretation of the rhyme is that it references Britain's struggles to produce silk, mulberry trees being a key habitat for the cultivation of silkworms. As Bill Bryson explains, Britain in the eighteenth and nineteenth centuries tried to emulate the success of the Chinese in silk production but the industry was held back by periodic harsh winters and mulberry trees proved too sensitive to frost to thrive. [6] The traditional lyrics 'Here we go round the mulberry bush / On a cold and frosty morning' may therefore be a joke about the problems faced by the industry.",
+        "The exercise yard at Wakefield has a mulberry tree, around which female inmates used to exercise. This has been linked to the nursery rhyme \"Here We Go Round the Mulberry Bush\" by the erstwhile prison governor, RS Duncan in his book 'Here we go round the mulberry bush': The House of Correction 1595 / HM Prison Wakefield 1995 (published by author 1994). This origin of the song is also propounded on the prison's website. There is no corroborative evidence to support this theory.[4]",
+        "Source excerpt.\nThe rhyme was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century.[1] He noted that there was a similar game with the lyrics 'Here we go round the bramble bush'. The bramble bush may be an earlier version, possibly changed because of the difficulty of the alliteration, since mulberries do not grow on bushes.[2]"
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "d4c8ae45c212da35b91097010fc77104d290adc464f3799254c1ac918be030a1:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "d4c8ae45c212da35b91097010fc77104d290adc464f3799254c1ac918be030a1:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "prior_ragdefender_survivor_indices": [
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2247__PN1__U",
+          "case_id": "NanoNQ:test2247",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "2dde9444063b984c74513f082f64a16068cf17a6af1e13611989615cba54c9fe",
+          "status": "ok",
+          "answer": "The origin of \"Here We Go Round the Mulberry Bush\" is not definitively proven, but it could be related to Britain's difficulties in silk production, or it may have originated from a game with bramble bush lyrics. There is also a theory linking it to the exercise yard at Wakefield prison.",
+          "ordinal": 22,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": false,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2247__PN2__unfiltered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "question": "here we go round the mulberry bush origin",
+          "expected_answer": "It was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century; an earlier bramble-bush version is suggested, not established.",
+          "source_qualification": "This answers the documented history, not a proven date of composition or a definite original author.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "29a1fbb3e6b1833e52c26e37f9807fe8955ead87f621c011d5b5f7a3e9730082:00000",
+            "ed532887aa5406b4a713ba7d9d6c60a35b350bc17f830b1ccd066261429a7c23:00000",
+            "58d23b9b6bd12ea3ed510c2ca3ee285281ccab94a5bc8b924f8db6153c48d196:00000",
+            "d4c8ae45c212da35b91097010fc77104d290adc464f3799254c1ac918be030a1:00000",
+            "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000"
+          ],
+          "text_hashes": [
+            "f1785108a85068982ac1f54660c43087b8b530b11e1779a14e48e0c1b0c77b20",
+            "774f600547b18021528f62583ee589ef9a5ca5621281d088d3cb4af6688b0aa0",
+            "d792d343625aefe826eef3a25909fe04e0ee1d9180929d8bc34868c44d0895b8",
+            "afc8a1556057ea0435caf729e5554892fd50b328949e0886dc789921bc38ddd1",
+            "ef22adb411dedcf447aa3e67a247896b2181c19cc05c2e9f18125abbde22bba1"
+          ],
+          "request_sha256": "2dde9444063b984c74513f082f64a16068cf17a6af1e13611989615cba54c9fe",
+          "estimated_prompt_tokens": 489,
+          "identical_request_to": "NanoNQ:test2247__PN1__unfiltered",
+          "first_call_id": "NanoNQ:test2247__PN1__unfiltered",
+          "status": "ok",
+          "answer": "The origin of \"Here We Go Round the Mulberry Bush\" is not definitively known, but it could be related to Britain's difficulties in silk production, possibly due to the frost sensitivity of mulberry trees. Another theory suggests the rhyme might have originated from the exercise yard at Wakefield prison, where inmates used to exercise around a mulberry tree. However, there is no corroborative evidence for this latter theory.",
+          "prompt_eval_count": 489,
+          "eval_count": 85,
+          "done_reason": "stop",
+          "wall_seconds": 29.218961851998756,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2247__PN2__unfiltered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "request_sha256": "2dde9444063b984c74513f082f64a16068cf17a6af1e13611989615cba54c9fe",
+          "status": "ok",
+          "answer": "The origin of \"Here We Go Round the Mulberry Bush\" is not definitively proven, but it could be related to Britain's difficulties in silk production, possibly referencing the challenges faced in cultivating mulberry trees due to frost sensitivity. Another theory suggests the rhyme might have originated from female inmates at Wakefield prison using a mulberry tree for exercise.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2247__PN1__T",
+          "case_id": "NanoNQ:test2247",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "3028f8eda404cff159219cb5ef8299a4ef685a09de3c363548d2ce04402df0ed",
+          "status": "ok",
+          "answer": "The origin of the nursery rhyme \"Here We Go Round the Mulberry Bush\" is first recorded by James Orchard Halliwell as an English children's game in the mid-19th century. The rhyme was originally noted to be similar to \"Here we go round the bramble bush.\" The mulberry bush version may have evolved due to difficulty with alliteration.",
+          "ordinal": 21,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2247__BE1__filtered",
+          "case_id": "NanoNQ:test2247",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "here we go round the mulberry bush origin",
+          "expected_answer": "It was first recorded by James Orchard Halliwell as an English children's game in the mid-19th century; an earlier bramble-bush version is suggested, not established.",
+          "source_qualification": "This answers the documented history, not a proven date of composition or a definite original author.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "32e17c634fd0368c995fc28a5bb3b839d36598768480b58ec5d429642b380b14:00000"
+          ],
+          "text_hashes": [
+            "ef22adb411dedcf447aa3e67a247896b2181c19cc05c2e9f18125abbde22bba1"
+          ],
+          "request_sha256": "58b7bc6abde87908395961fcb8623baa27409c9de1c1cf2633538a0e5a3dc749",
+          "estimated_prompt_tokens": 134,
+          "identical_request_to": "NanoNQ:test2247__BN1__filtered",
+          "first_call_id": "NanoNQ:test2247__BN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 134,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 7.0177182749976055,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

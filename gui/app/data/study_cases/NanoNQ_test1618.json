@@ -1,0 +1,2751 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1618",
+    "dataset": "NanoNQ",
+    "question": "was nightmare before christmas originally a disney movie",
+    "source_family": "NanoNQ:test1618",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc57226",
+    "expected_answer": "Yes. Disney developed the project and released the film through its Touchstone Pictures banner.",
+    "answer_aliases": [],
+    "support_quote": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+    "source_qualification": "Distinguish Disney involvement from the release label: the passage explicitly names Touchstone Pictures.",
+    "qrel_document_ids": [
+      "doc57226"
+    ],
+    "family_reference_texts": [
+      "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test1618",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc57226",
+    "expected_answer": "Yes. Disney developed the project and released the film through its Touchstone Pictures banner.",
+    "answer_aliases": [],
+    "support_quote": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+    "source_qualification": "Distinguish Disney involvement from the release label: the passage explicitly names Touchstone Pictures.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test1618",
+    "dataset": "NanoNQ",
+    "question": "was nightmare before christmas originally a disney movie",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test1618",
+      "dataset": "NanoNQ",
+      "question": "was nightmare before christmas originally a disney movie",
+      "expected_answer": "Yes. Disney developed the project and released the film through its Touchstone Pictures banner.",
+      "source_qualification": "Distinguish Disney involvement from the release label: the passage explicitly names Touchstone Pictures.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Clean-answer prerequisite fails",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "baseline_failure",
+      "historical_rationale": "Every primary/control response abstains, including C filtered and PN1 unfiltered. Evidence removal is not a newly induced successful-answer failure.",
+      "current_assistant_rationale": "Every primary/control response abstains, including C filtered and PN1 unfiltered. Evidence removal is not a newly induced successful-answer failure.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/4",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/4",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test1618.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 37,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 25,
+              "call_id": "NanoNQ:test1618__C__unfiltered",
+              "request_sha256": "254fc726145304bdaa0236e998d7cadc0dce6a6b9f1d337305f5b78146db40b7"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 26,
+              "call_id": "NanoNQ:test1618__C__filtered",
+              "request_sha256": "178f87b48348ef5d4b531a3a3dd5346408ae0f5c89b45a765896b3afa4d90ebe"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 38,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 27,
+              "call_id": "NanoNQ:test1618__BN1__unfiltered",
+              "request_sha256": "018f6c7b9bed49ac42e3367f13bb55905b201f04253af6e7904bf78fb82a0e1f"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 28,
+              "call_id": "NanoNQ:test1618__BN1__filtered",
+              "request_sha256": "006c5ed725cab9236c60c0e5ee5f84b41575b086e29b7a6b40be9254ebc99d70"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 40,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 29,
+              "call_id": "NanoNQ:test1618__PN1__unfiltered",
+              "request_sha256": "9e05b15de0496ec5e206300a252b2514155b35773b6eb02416b9f452c237aa03"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 30,
+              "call_id": "NanoNQ:test1618__PN1__filtered",
+              "request_sha256": "0c88f21fca199d0f7ea0eccd26c8dbc8ef0c67805f61da04691b90fb2033d107"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test1618",
+    "question": "was nightmare before christmas originally a disney movie",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1618"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": true
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7959185838699341,
+          "kept": true
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7494385242462158,
+          "kept": false
+        },
+        {
+          "chunk_id": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751998",
+          "instance_key": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Oddly enough, Jim Edwards actually contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business.  The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company decides that his success is boring and he wants the company to have a different business plan.  Some have wondered which real-life company failure the movie is based on: Sergio Zyman's New Coke or Merck's launch and subsequent withdrawal of Vioxx.\"[26]",
+          "text_sha256": "be098a4ab5af33418dfa311c075c9334195cc5893b44e6b22263a19c3b85c727",
+          "char_start": 0,
+          "char_end": 515,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7097374200820923,
+          "kept": false
+        },
+        {
+          "chunk_id": "a43e6f52c04bf540f3e301533e6ab8ab81c297fab84bb14fb96d3f93b2493dd5:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc57232",
+          "instance_key": "a43e6f52c04bf540f3e301533e6ab8ab81c297fab84bb14fb96d3f93b2493dd5",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "models;[12][13] Burton later showed his and Heinrichs' works-in-progress to Henry Selick, also a Disney animator at the time.[14] After the success of Vincent in 1982, Disney started to consider developing The Nightmare Before Christmas as either a short film or 30-minute holiday television special.[12] However, the project's development eventually stalled, as its tone seemed \"too weird\" to the company.[15] As Disney was unable to \"offer his nocturnal loners enough scope\", Burton was fired from the studio in 1984,[10] and went on to direct the commercially successful films Beetlejuice and Batman.[15]",
+          "text_sha256": "65438f3a10ee15662325388a60c27070edced914ac931bf5e850a20c2a6cbdf8",
+          "char_start": 990,
+          "char_end": 1597,
+          "tokens_with_specials": 142,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6982799768447876,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        4
+      ],
+      "removed_indices": [
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.9092614313413492,
+          0.9092614313413492,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.9092614313413492,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.16297173500061035,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9535520076751709
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7551659345626831
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7101730108261108
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6837311387062073
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6721178293228149
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6385527849197388
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6266711950302124
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__C__unfiltered",
+          "request_sha256": "254fc726145304bdaa0236e998d7cadc0dce6a6b9f1d337305f5b78146db40b7",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__C__filtered",
+          "request_sha256": "178f87b48348ef5d4b531a3a3dd5346408ae0f5c89b45a765896b3afa4d90ebe",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": true
+        },
+        {
+          "chunk_id": "993a70c6456325ecd0353e2f537b4649d62abcc8c4be738556dc8703f0fc08f0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/BN/1",
+          "instance_key": "993a70c6456325ecd0353e2f537b4649d62abcc8c4be738556dc8703f0fc08f0",
+          "chunk_index": 0,
+          "copied_from": "doc57242",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "44ec528967aa315191ad830f56c80cc4aea67dcd3efd927ed9e135d5ea684cec",
+          "char_start": 0,
+          "char_end": 559,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.800517201423645,
+          "kept": false
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7959185838699341,
+          "kept": false
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7494385242462158,
+          "kept": true
+        },
+        {
+          "chunk_id": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751998",
+          "instance_key": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Oddly enough, Jim Edwards actually contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business.  The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company decides that his success is boring and he wants the company to have a different business plan.  Some have wondered which real-life company failure the movie is based on: Sergio Zyman's New Coke or Merck's launch and subsequent withdrawal of Vioxx.\"[26]",
+          "text_sha256": "be098a4ab5af33418dfa311c075c9334195cc5893b44e6b22263a19c3b85c727",
+          "char_start": 0,
+          "char_end": 515,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7097374200820923,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9873959155104473,
+          0.9873959155104473,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9873959155104473,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.04012596607208252,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9936779737472534
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9535520076751709
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7871339321136475
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7101730108261108
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6504914164543152
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6266711950302124
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6189848184585571
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__BN1__unfiltered",
+          "request_sha256": "018f6c7b9bed49ac42e3367f13bb55905b201f04253af6e7904bf78fb82a0e1f",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__BN1__filtered",
+          "request_sha256": "006c5ed725cab9236c60c0e5ee5f84b41575b086e29b7a6b40be9254ebc99d70",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, it was originally considered as a Disney movie.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": true
+        },
+        {
+          "chunk_id": "ca411d3e66fd0a18a225a3941fcb68e3abfc0f815878983629b42c70c7ac707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/BN/2",
+          "instance_key": "ca411d3e66fd0a18a225a3941fcb68e3abfc0f815878983629b42c70c7ac707c",
+          "chunk_index": 0,
+          "copied_from": "doc57242",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "d01fb2723916d689996a5fea3a4368e9d362b9b538547d1d449a82214bb94e88",
+          "char_start": 0,
+          "char_end": 562,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8045843243598938,
+          "kept": false
+        },
+        {
+          "chunk_id": "993a70c6456325ecd0353e2f537b4649d62abcc8c4be738556dc8703f0fc08f0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/BN/1",
+          "instance_key": "993a70c6456325ecd0353e2f537b4649d62abcc8c4be738556dc8703f0fc08f0",
+          "chunk_index": 0,
+          "copied_from": "doc57242",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "44ec528967aa315191ad830f56c80cc4aea67dcd3efd927ed9e135d5ea684cec",
+          "char_start": 0,
+          "char_end": 559,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.800517201423645,
+          "kept": false
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7959185838699341,
+          "kept": false
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7494385242462158,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.988450144101467,
+          1.9863220090759803,
+          1.9769199660463812,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9769199660463812,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.20143377780914307,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.999462902545929
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9947482347488403
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9936779737472534
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7922441959381104
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7871339321136475
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.655747652053833
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6504914164543152
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__BN2__unfiltered",
+          "request_sha256": "4e7b616ebf15799503bbfe8e4ceab46c11898f79895aef77352e04f8b3474382",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__BN2__filtered",
+          "request_sha256": "52fe031e3ba6eab34c04da190146afb842477ebd31ead198a4f6b950701f6880",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": false
+        },
+        {
+          "chunk_id": "e9aa72d358ebc2571bff8571abf18d41bebf12c2b9b94bb23e6fb6cabcca3606:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/PN/1",
+          "instance_key": "e9aa72d358ebc2571bff8571abf18d41bebf12c2b9b94bb23e6fb6cabcca3606",
+          "chunk_index": 0,
+          "copied_from": "doc57226",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "966783fea0e2b60f1aa208af6018fd69c47f090016031d5b0d5d199eae9c9893",
+          "char_start": 0,
+          "char_end": 666,
+          "tokens_with_specials": 131,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8057729005813599,
+          "kept": false
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7959185838699341,
+          "kept": true
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7494385242462158,
+          "kept": true
+        },
+        {
+          "chunk_id": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751998",
+          "instance_key": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Oddly enough, Jim Edwards actually contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business.  The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company decides that his success is boring and he wants the company to have a different business plan.  Some have wondered which real-life company failure the movie is based on: Sergio Zyman's New Coke or Merck's launch and subsequent withdrawal of Vioxx.\"[26]",
+          "text_sha256": "be098a4ab5af33418dfa311c075c9334195cc5893b44e6b22263a19c3b85c727",
+          "char_start": 0,
+          "char_end": 515,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7097374200820923,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9907372914723425,
+          0.9907372914723425,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9907372914723425,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.04180586338043213,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.995357871055603
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9535520076751709
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7757833003997803
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7404922246932983
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7101730108261108
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7076234221458435
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6266711950302124
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__PN1__unfiltered",
+          "request_sha256": "9e05b15de0496ec5e206300a252b2514155b35773b6eb02416b9f452c237aa03",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, The Nightmare Before Christmas was originally a Disney movie.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__PN1__filtered",
+          "request_sha256": "0c88f21fca199d0f7ea0eccd26c8dbc8ef0c67805f61da04691b90fb2033d107",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": true
+        },
+        {
+          "chunk_id": "3733615b196226fba7eec58a2879ff8090b0ec9e0920bd90103bc49d7edf8072:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/PN/2",
+          "instance_key": "3733615b196226fba7eec58a2879ff8090b0ec9e0920bd90103bc49d7edf8072",
+          "chunk_index": 0,
+          "copied_from": "doc57226",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "aa33a8656e2fa8b742503f64050926a3c1857fb510986803f43740e774f3862f",
+          "char_start": 0,
+          "char_end": 669,
+          "tokens_with_specials": 131,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8068724870681763,
+          "kept": false
+        },
+        {
+          "chunk_id": "e9aa72d358ebc2571bff8571abf18d41bebf12c2b9b94bb23e6fb6cabcca3606:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/PN/1",
+          "instance_key": "e9aa72d358ebc2571bff8571abf18d41bebf12c2b9b94bb23e6fb6cabcca3606",
+          "chunk_index": 0,
+          "copied_from": "doc57226",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "966783fea0e2b60f1aa208af6018fd69c47f090016031d5b0d5d199eae9c9893",
+          "char_start": 0,
+          "char_end": 666,
+          "tokens_with_specials": 131,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8057729005813599,
+          "kept": true
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7959185838699341,
+          "kept": true
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7494385242462158,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9988935671736385,
+          0.9988935671736385,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0032708048820495605,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9994466304779053
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9961758255958557
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.995357871055603
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.777117133140564
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7757833003997803
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7433128356933594
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7404922246932983
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6584671139717102
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__PN2__unfiltered",
+          "request_sha256": "19b09c0df9e39e2aed2c9eb314bfc3789babfd1754584006d6eb7b1809d3b121",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__PN2__filtered",
+          "request_sha256": "79384264b1743b89f2815c92d96219af002cce63f50dce7ee2549ce0e8f01a16",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "No, The Nightmare Before Christmas was not originally a Disney movie. It was developed as a project by Walt Disney Studios but later released under Disney's Touchstone Pictures banner due to concerns about its dark and scary nature.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": true
+        },
+        {
+          "chunk_id": "58544e86de077acecd777da2978526bc1fc873a0aabdcd697155cccf075164e4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/BE/1",
+          "instance_key": "58544e86de077acecd777da2978526bc1fc873a0aabdcd697155cccf075164e4",
+          "chunk_index": 0,
+          "copied_from": "doc57242",
+          "copy_number": 1,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7959185838699341,
+          "kept": false
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7959185838699341,
+          "kept": false
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7494385242462158,
+          "kept": true
+        },
+        {
+          "chunk_id": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751998",
+          "instance_key": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Oddly enough, Jim Edwards actually contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business.  The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company decides that his success is boring and he wants the company to have a different business plan.  Some have wondered which real-life company failure the movie is based on: Sergio Zyman's New Coke or Merck's launch and subsequent withdrawal of Vioxx.\"[26]",
+          "text_sha256": "be098a4ab5af33418dfa311c075c9334195cc5893b44e6b22263a19c3b85c727",
+          "char_start": 0,
+          "char_end": 515,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7097374200820923,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0464479923248291,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9535520076751709
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7101730108261108
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6266711950302124
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6266711950302124
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__BE1__unfiltered",
+          "request_sha256": "3eaf4146f0a625929c4d55424d5f370c48b4f2edbf440a1c63f9466c1be42bcf",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__BE1__filtered",
+          "request_sha256": "006c5ed725cab9236c60c0e5ee5f84b41575b086e29b7a6b40be9254ebc99d70",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, it was originally considered as a Disney movie.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": true
+        },
+        {
+          "chunk_id": "58544e86de077acecd777da2978526bc1fc873a0aabdcd697155cccf075164e4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/BE/1",
+          "instance_key": "58544e86de077acecd777da2978526bc1fc873a0aabdcd697155cccf075164e4",
+          "chunk_index": 0,
+          "copied_from": "doc57242",
+          "copy_number": 1,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7959185838699341,
+          "kept": false
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7959185838699341,
+          "kept": false
+        },
+        {
+          "chunk_id": "6f13d9b38728ed282acaad2f706d0aed4a6b3f5ca9b0e740c34339f85e835925:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/BE/2",
+          "instance_key": "6f13d9b38728ed282acaad2f706d0aed4a6b3f5ca9b0e740c34339f85e835925",
+          "chunk_index": 0,
+          "copied_from": "doc57242",
+          "copy_number": 2,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7959185838699341,
+          "kept": false
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7494385242462158,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          2.0,
+          2.0,
+          2.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.20941972732543945,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6584671139717102
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__BE2__unfiltered",
+          "request_sha256": "625c8e9f9ba6fcf19f000e15b41bdbd051d7d374b1ab05fc6274682210488e85",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__BE2__filtered",
+          "request_sha256": "52fe031e3ba6eab34c04da190146afb842477ebd31ead198a4f6b950701f6880",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": false
+        },
+        {
+          "chunk_id": "bee57b806d8b26009b9399c87bdf61b1fb0ff602ea370ab8540f4143768c9c40:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/PE/1",
+          "instance_key": "bee57b806d8b26009b9399c87bdf61b1fb0ff602ea370ab8540f4143768c9c40",
+          "chunk_index": 0,
+          "copied_from": "doc57226",
+          "copy_number": 1,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8113355040550232,
+          "kept": false
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7959185838699341,
+          "kept": true
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7494385242462158,
+          "kept": true
+        },
+        {
+          "chunk_id": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751998",
+          "instance_key": "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Oddly enough, Jim Edwards actually contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business.  The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company decides that his success is boring and he wants the company to have a different business plan.  Some have wondered which real-life company failure the movie is based on: Sergio Zyman's New Coke or Merck's launch and subsequent withdrawal of Vioxx.\"[26]",
+          "text_sha256": "be098a4ab5af33418dfa311c075c9334195cc5893b44e6b22263a19c3b85c727",
+          "char_start": 0,
+          "char_end": 515,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7097374200820923,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0464479923248291,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9535520076751709
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7101730108261108
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7101730108261108
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6584671139717102
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6266711950302124
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__PE1__unfiltered",
+          "request_sha256": "ca3660ba88ba58ed8bf1c18c083a608a6cc439273f3e229fe46ffa183a51a663",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__PE1__filtered",
+          "request_sha256": "0c88f21fca199d0f7ea0eccd26c8dbc8ef0c67805f61da04691b90fb2033d107",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1618",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 2,
+        "retained_copy_chunks": 2,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57226",
+          "instance_key": "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8113355040550232,
+          "kept": false
+        },
+        {
+          "chunk_id": "b6ccbe2ee293bf52689eadebcdef7e7cc776fe022e69d16b97a3797fbda52dee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/PE/2",
+          "instance_key": "b6ccbe2ee293bf52689eadebcdef7e7cc776fe022e69d16b97a3797fbda52dee",
+          "chunk_index": 0,
+          "copied_from": "doc57226",
+          "copy_number": 2,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8113355040550232,
+          "kept": true
+        },
+        {
+          "chunk_id": "bee57b806d8b26009b9399c87bdf61b1fb0ff602ea370ab8540f4143768c9c40:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1618/PE/1",
+          "instance_key": "bee57b806d8b26009b9399c87bdf61b1fb0ff602ea370ab8540f4143768c9c40",
+          "chunk_index": 0,
+          "copied_from": "doc57226",
+          "copy_number": 1,
+          "text": "The Nightmare Before Christmas originated in a poem written by Tim Burton in 1982, while he was working as an animator at Walt Disney Feature Animation. With the success of Vincent in the same year, Walt Disney Studios began to consider developing The Nightmare Before Christmas as either a short film or 30-minute television special. Over the years, Burton's thoughts regularly returned to the project, and in 1990, he made a development deal with Disney. Production started in July 1991 in San Francisco; Disney released the film through its Touchstone Pictures banner because the studio believed the film would be \"too dark and scary for kids\".[4]",
+          "text_sha256": "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+          "char_start": 0,
+          "char_end": 650,
+          "tokens_with_specials": 128,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8113355040550232,
+          "kept": true
+        },
+        {
+          "chunk_id": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57242",
+          "instance_key": "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Nightmare Before Christmas was reissued by Disney under the Walt Disney Pictures banner and re-released on October 20, 2006, with conversion to Disney Digital 3-D.[4] Industrial Light & Magic assisted in the process.[20] The film subsequently received annually releases in October 2007 and 2008.[28] The El Capitan Theatre in Hollywood, California has been showing the film in 4-D screenings annually in October, ending on Halloween, since 2010.[29] The reissues have led to a reemergence of 3-D films and advances in RealD Cinema.[30][31]",
+          "text_sha256": "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+          "char_start": 0,
+          "char_end": 543,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7959185838699341,
+          "kept": true
+        },
+        {
+          "chunk_id": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57247",
+          "instance_key": "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Jim Edwards contends that \"Tim Burton's animated movie The Nightmare Before Christmas is really a movie about the marketing business. The movie's lead character, Jack Skellington, the chief marketing officer (CMO) for a successful company, decides that his success is boring and he wants the company to have a different business plan.\"[43]",
+          "text_sha256": "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 74,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7494385242462158,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7905802726745605
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7450318336486816
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6584671139717102
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1618__PE2__unfiltered",
+          "request_sha256": "ef08ce5a18901ea863626e0ec587b6c21f7d105cbcfaf4d7a0b0a4cbe847819c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1618__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1618__PE2__filtered",
+          "request_sha256": "e43beced93437cd3742482b3f430b1c60c4f9fe5181edb0d9006688f03489083",
+          "reference": {
+            "status": "ok",
+            "answer": "No, The Nightmare Before Christmas was not originally a Disney movie. It was developed as a project by Walt Disney Studios but later released under Disney's Touchstone Pictures banner due to concerns about its dark and scary nature.",
+            "first_call_id": "NanoNQ:test1618__PE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "No, The Nightmare Before Christmas was not originally a Disney movie. It was developed as a short film or 30-minute television special initially, but Disney later reissued it under their Walt Disney Pictures banner.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

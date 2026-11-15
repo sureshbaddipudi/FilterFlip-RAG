@@ -1,0 +1,2933 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test697",
+    "dataset": "NanoNQ",
+    "question": "how long is one full rotation of the earth",
+    "source_family": "NanoNQ:test697",
+    "review_status": "assistant_only",
+    "target_document_id": "doc24903",
+    "expected_answer": "About 24 hours relative to the Sun, or 23 hours 56 minutes 4 seconds relative to the stars.",
+    "answer_aliases": [],
+    "support_quote": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below).",
+    "source_qualification": "Both solar and stellar reference frames are stated because the question does not distinguish them.",
+    "qrel_document_ids": [
+      "doc24903"
+    ],
+    "family_reference_texts": [
+      "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test697",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc24903",
+    "expected_answer": "About 24 hours relative to the Sun, or 23 hours 56 minutes 4 seconds relative to the stars.",
+    "answer_aliases": [],
+    "support_quote": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below).",
+    "source_qualification": "Both solar and stellar reference frames are stated because the question does not distinguish them.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test697",
+    "dataset": "NanoNQ",
+    "question": "how long is one full rotation of the earth",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "non-event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test697",
+      "dataset": "NanoNQ",
+      "question": "how long is one full rotation of the earth",
+      "expected_answer": "About 24 hours relative to the Sun, or 23 hours 56 minutes 4 seconds relative to the stars.",
+      "source_qualification": "Both solar and stellar reference frames are stated because the question does not distinguish them.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Needs adjudication",
+      "reason_group": "Unresolved rubric/support judgment",
+      "historical_decision": "needs_adjudication",
+      "historical_reason_code": "new_rubric_or_grounding_issue",
+      "historical_rationale": "Clean filtering removes the main two-reference-frame source but keeps an alternative stellar-day paragraph. The clean answer gives only that numerical value without the requested solar/stellar distinction. PN1 unfiltered gives both values; after filtering, only generic rotation/orbit and sidereal-year passages remain. The final answer mixes a day-length value with a year-length parenthesis. Evidence loss is plausible, but full-rubric clean correctness is unresolved. Do not count it automatically.",
+      "current_assistant_rationale": "Clean filtering removes the main two-reference-frame source but keeps an alternative stellar-day paragraph. The clean answer gives only that numerical value without the requested solar/stellar distinction. PN1 unfiltered gives both values; after filtering, only generic rotation/orbit and sidereal-year passages remain. The final answer mixes a day-length value with a year-length parenthesis. Evidence loss is plausible, but full-rubric clean correctness is unresolved. Do not count it automatically.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/30",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/30",
+      "review_priority": 2,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test697.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 271,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 181,
+              "call_id": "NanoNQ:test697__C__unfiltered",
+              "request_sha256": "1795e7a97612fa864bf6f095fc312fac7247161adc644984d88735347a87ae5b"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 182,
+              "call_id": "NanoNQ:test697__C__filtered",
+              "request_sha256": "011b948ccc9e0eb966634d8ff9d16ef8ba0254a71c3b6a14ac623a9e9e78575d"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 272,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 183,
+              "call_id": "NanoNQ:test697__BN1__unfiltered",
+              "request_sha256": "b8a4d42e950181c09c84f5f528f62561e37a9a9e944dde918ce5cd9172efc465"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 184,
+              "call_id": "NanoNQ:test697__BN1__filtered",
+              "request_sha256": "94567b8efec3ceff9d9db3ce9bdd60c90bc730fae96d51c8c8071986d9cbb755"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 274,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 185,
+              "call_id": "NanoNQ:test697__PN1__unfiltered",
+              "request_sha256": "13c901726c4c0c6ab35b0c1fa5339b6ea6edbc921a38af4bc04021cc81a91648"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 186,
+              "call_id": "NanoNQ:test697__PN1__filtered",
+              "request_sha256": "a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test697",
+      "Question": "how long is one full rotation of the earth",
+      "Evidence packet": "evidence/NanoNQ_test697.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "correct-unsupported",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: C filtered \"86164.098903691 seconds of mean solar time\" supported by C P5 doc1824654 (stellar day 23h 56m 4.0989s); stellar frame only. Q2: PN1 P2 copy of doc24903. Q3: both frames given. Q4: survivors P3 doc90322, P4 doc563699 contain no rotation period. Q5: filtered \"about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days)\" - main figure correct but unsupported (likely recall); bracketed figure wrong (sidereal year).",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Reviewer decision 2026-10-14: filtered answer judged still usable (main figure correct), so Q5 fails: not an event. Wrong bracketed figure noted. Proposes resolving \"Needs adjudication\" as not an event.",
+      "workbook_row": 13,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "jointly_agreed_under_named_core_mixed_rule",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "question": "how long is one full rotation of the earth",
+        "expected_answer": "About 24 hours relative to the Sun, or 23 hours 56 minutes 4 seconds relative to the stars.",
+        "source_qualification": "Both solar and stellar reference frames are stated because the question does not distinguish them.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Needs adjudication",
+        "reason_group": "Unresolved rubric/support judgment",
+        "historical_decision": "needs_adjudication",
+        "historical_reason_code": "new_rubric_or_grounding_issue",
+        "historical_rationale": "Clean filtering removes the main two-reference-frame source but keeps an alternative stellar-day paragraph. The clean answer gives only that numerical value without the requested solar/stellar distinction. PN1 unfiltered gives both values; after filtering, only generic rotation/orbit and sidereal-year passages remain. The final answer mixes a day-length value with a year-length parenthesis. Evidence loss is plausible, but full-rubric clean correctness is unresolved. Do not count it automatically.",
+        "current_assistant_rationale": "Clean filtering removes the main two-reference-frame source but keeps an alternative stellar-day paragraph. The clean answer gives only that numerical value without the requested solar/stellar distinction. PN1 unfiltered gives both values; after filtering, only generic rotation/orbit and sidereal-year passages remain. The final answer mixes a day-length value with a year-length parenthesis. Evidence loss is plausible, but full-rubric clean correctness is unresolved. Do not count it automatically.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/30",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/30",
+        "review_priority": 2,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoNQ_test697.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 271,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 181,
+                "call_id": "NanoNQ:test697__C__unfiltered",
+                "request_sha256": "1795e7a97612fa864bf6f095fc312fac7247161adc644984d88735347a87ae5b"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 182,
+                "call_id": "NanoNQ:test697__C__filtered",
+                "request_sha256": "011b948ccc9e0eb966634d8ff9d16ef8ba0254a71c3b6a14ac623a9e9e78575d"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 272,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 183,
+                "call_id": "NanoNQ:test697__BN1__unfiltered",
+                "request_sha256": "b8a4d42e950181c09c84f5f528f62561e37a9a9e944dde918ce5cd9172efc465"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 184,
+                "call_id": "NanoNQ:test697__BN1__filtered",
+                "request_sha256": "94567b8efec3ceff9d9db3ce9bdd60c90bc730fae96d51c8c8071986d9cbb755"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 274,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 185,
+                "call_id": "NanoNQ:test697__PN1__unfiltered",
+                "request_sha256": "13c901726c4c0c6ab35b0c1fa5339b6ea6edbc921a38af4bc04021cc81a91648"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 186,
+                "call_id": "NanoNQ:test697__PN1__filtered",
+                "request_sha256": "a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only",
+      "joint_adjudication": {
+        "joint_decision": "non-event",
+        "participants": [
+          "Shradha",
+          "Suresh"
+        ],
+        "agreement_recorded_date": "2026-10-26",
+        "suresh_response": "accept",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "no",
+          "Q6": "yes"
+        },
+        "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+      }
+    },
+    "prior_joint_adjudication": {
+      "case_id": "NanoNQ:test697",
+      "case_name": "Earth's rotation",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "non-event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Earth's rotation",
+        "Suresh's Label": "Non-event",
+        "Decided by": "Mixed-answer rule"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "no",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "PN1 filtered: \"about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days)\"",
+        "doc24903 and its copy removed; survivors doc90322, doc563699 (sidereal year 365.256 days), doc1818632; no stellar-day passage among PN1 survivors."
+      ],
+      "agreed_rationale": "Non-event under the mixed-answer rule, same as Krypton-85. The principal period (23h 56m) is right; the parenthetical is the sidereal year from doc563699, wrong but from retained evidence. Note for discussion: no PN1 survivor gives the stellar-day value, so the 4.1 s figure is unsupported by retained evidence (supports Q4 yes). Disagreement possible: false equivalence of rotation with 365 days and missing 24 h solar value could make it unusable (event).",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test697",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "no",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "no",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "PN1 filtered: \"about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days)\"",
+          "doc24903 and its copy removed; survivors doc90322, doc563699 (sidereal year 365.256 days), doc1818632; no stellar-day passage among PN1 survivors."
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Non-event under the mixed-answer rule, same as Krypton-85. The principal period (23h 56m) is right; the parenthetical is the sidereal year from doc563699, wrong but from retained evidence. Note for discussion: no PN1 survivor gives the stellar-day value, so the 4.1 s figure is unsupported by retained evidence (supports Q4 yes). Disagreement possible: false equivalence of rotation with 365 days and missing 24 h solar value could make it unusable (event).",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "non-event",
+        "suresh_response": null
+      }
+    }
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test697",
+    "question": "how long is one full rotation of the earth",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "non-event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoNQ:test697"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.661338746547699,
+          "kept": false
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6469205021858215,
+          "kept": true
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        },
+        {
+          "chunk_id": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1818632",
+          "instance_key": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth's day has increased in length over time. This phenomenon is due to tides raised by the Moon which slow Earth's rotation. Because of the way the second is defined, the mean length of a day is now about 86 400.002 seconds, and is increasing by about 1.7 milliseconds per century (an average over the last 2 700 years). (See tidal acceleration for details.) The length of a day circa 620 million years ago has been estimated from rhythmites (alternating layers in sandstone) as having been about 21.9 hours. The length of day for the Earth before the moon was created is still unknown.[citation needed]",
+          "text_sha256": "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f",
+          "char_start": 0,
+          "char_end": 609,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6240425109863281,
+          "kept": false
+        },
+        {
+          "chunk_id": "b3978b4d80c99289c76373de5af29d6c443d7ef6d57947571ec3b4337d6db450:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1824654",
+          "instance_key": "b3978b4d80c99289c76373de5af29d6c443d7ef6d57947571ec3b4337d6db450",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth's rotation period relative to the fixed stars, called its stellar day by the International Earth Rotation and Reference Systems Service (IERS), is 86164.098 903 691 seconds of mean solar time (UT1) (23h 56m 4.098 903 691s).[2][3] Earth's rotation period relative to the precessing or moving mean vernal equinox, its sidereal day, is 86164.090 530 832 88 seconds of mean solar time (UT1) (23h 56m 4.090 530 832 88s).[2] Thus the sidereal day is shorter than the stellar day by about 8.4 ms.[4] The length of the mean solar day in SI seconds is available from the IERS for the periods 1623–2005[5] and 1962–2005.[6] Recently (1999–2005) the average annual length of the mean solar day in excess of 86400 SI seconds has varied between 0.3 ms and 1 ms, which must be added to both the stellar and sidereal days given in mean solar time",
+          "text_sha256": "958034c161b3d36a02da998bf8bb9cc945fe0d2673ed60474b87bc2c93eba36e",
+          "char_start": 0,
+          "char_end": 837,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6089234352111816,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.5894887002537565,
+          0.0,
+          0.0,
+          0.5894887002537565,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          3,
+          1,
+          2,
+          4
+        ],
+        "removal_gap": 0.5894887002537565,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.031109511852264404,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.767781674861908
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7366721630096436
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7326399683952332
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6816293001174927
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5772201418876648
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5688357949256897
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5565274953842163
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5543533563613892
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__C__unfiltered",
+          "request_sha256": "1795e7a97612fa864bf6f095fc312fac7247161adc644984d88735347a87ae5b",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__C__filtered",
+          "request_sha256": "011b948ccc9e0eb966634d8ff9d16ef8ba0254a71c3b6a14ac623a9e9e78575d",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is approximately 86164.098903691 seconds of mean solar time (UT1).",
+            "first_call_id": "NanoNQ:test697__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is approximately 23 hours, 56 minutes, and 4.09 seconds (23h 56m 4.09s).",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "dd5afaab045d6157ee63a7bfd1b8224c30e05cfc3ec497a7554f194c3774aed8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/BN/1",
+          "instance_key": "dd5afaab045d6157ee63a7bfd1b8224c30e05cfc3ec497a7554f194c3774aed8",
+          "chunk_index": 0,
+          "copied_from": "doc90322",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "338e3562567fc765c779fb150fecbdfe3f84cbfe1d26822c2fb2235d1f048ab4",
+          "char_start": 0,
+          "char_end": 406,
+          "tokens_with_specials": 99,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6698189377784729,
+          "kept": false
+        },
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.661338746547699,
+          "kept": true
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6469205021858215,
+          "kept": false
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        },
+        {
+          "chunk_id": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1818632",
+          "instance_key": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth's day has increased in length over time. This phenomenon is due to tides raised by the Moon which slow Earth's rotation. Because of the way the second is defined, the mean length of a day is now about 86 400.002 seconds, and is increasing by about 1.7 milliseconds per century (an average over the last 2 700 years). (See tidal acceleration for details.) The length of a day circa 620 million years ago has been estimated from rhythmites (alternating layers in sandstone) as having been about 21.9 hours. The length of day for the Earth before the moon was created is still unknown.[citation needed]",
+          "text_sha256": "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f",
+          "char_start": 0,
+          "char_end": 609,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6240425109863281,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9834011385182748,
+          0.0,
+          0.9834011385182748,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 0.9834011385182748,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.22388410568237305,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9916658401489258
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7677817344665527
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7062578797340393
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.57722008228302
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5623595118522644
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5607545375823975
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5565274357795715
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5543534159660339
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__BN1__unfiltered",
+          "request_sha256": "b8a4d42e950181c09c84f5f528f62561e37a9a9e944dde918ce5cd9172efc465",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__BN1__filtered",
+          "request_sha256": "94567b8efec3ceff9d9db3ce9bdd60c90bc730fae96d51c8c8071986d9cbb755",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth with respect to the stars is approximately 23 hours, 56 minutes, and 4 seconds.",
+            "first_call_id": "NanoNQ:test697__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "7763d7da2ca97ab3799c3dc9657a2beee6213326b33c2910408ec41e6c88f559:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/BN/2",
+          "instance_key": "7763d7da2ca97ab3799c3dc9657a2beee6213326b33c2910408ec41e6c88f559",
+          "chunk_index": 0,
+          "copied_from": "doc90322",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "3806a5c526a035c3a4bb6620b0838bdef7075c8aa92097070fc0028f0b247ed0",
+          "char_start": 0,
+          "char_end": 409,
+          "tokens_with_specials": 99,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6715240478515625,
+          "kept": false
+        },
+        {
+          "chunk_id": "dd5afaab045d6157ee63a7bfd1b8224c30e05cfc3ec497a7554f194c3774aed8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/BN/1",
+          "instance_key": "dd5afaab045d6157ee63a7bfd1b8224c30e05cfc3ec497a7554f194c3774aed8",
+          "chunk_index": 0,
+          "copied_from": "doc90322",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "338e3562567fc765c779fb150fecbdfe3f84cbfe1d26822c2fb2235d1f048ab4",
+          "char_start": 0,
+          "char_end": 406,
+          "tokens_with_specials": 99,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6698189377784729,
+          "kept": false
+        },
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.661338746547699,
+          "kept": true
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6469205021858215,
+          "kept": false
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.9843417855733954,
+          1.9818688137189362,
+          0.0,
+          1.9692752488910088,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "removal_gap": 1.9692752488910088,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2854079604148865,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9992335438728333
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.9929119348526001
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9916658401489258
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7062578797340393
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7061940431594849
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5659009218215942
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5623595118522644
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5565274357795715
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__BN2__unfiltered",
+          "request_sha256": "35c455104d65e681eed1634d5e5825a655f08987b9a195f1acb2bd8536ae9457",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__BN2__filtered",
+          "request_sha256": "659e4427d0337417af31cc1ca708246226d31b04e7337502847bbd762e3502b5",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth with respect to the stars is approximately 23 hours, 56 minutes, and 4 seconds.",
+            "first_call_id": "NanoNQ:test697__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.661338746547699,
+          "kept": false
+        },
+        {
+          "chunk_id": "7659690dd86d1117cc88d302a10314db80d50ab4c71b29c08ee9cf54b44a7705:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/PN/1",
+          "instance_key": "7659690dd86d1117cc88d302a10314db80d50ab4c71b29c08ee9cf54b44a7705",
+          "chunk_index": 0,
+          "copied_from": "doc24903",
+          "copy_number": 1,
+          "text": "Source excerpt.\nEarth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "58d91f84d1d20a887e68997e4883bc77b71f724692c32c10b30874eec03e9b3c",
+          "char_start": 0,
+          "char_end": 612,
+          "tokens_with_specials": 144,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6495413780212402,
+          "kept": false
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6469205021858215,
+          "kept": true
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        },
+        {
+          "chunk_id": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1818632",
+          "instance_key": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth's day has increased in length over time. This phenomenon is due to tides raised by the Moon which slow Earth's rotation. Because of the way the second is defined, the mean length of a day is now about 86 400.002 seconds, and is increasing by about 1.7 milliseconds per century (an average over the last 2 700 years). (See tidal acceleration for details.) The length of a day circa 620 million years ago has been estimated from rhythmites (alternating layers in sandstone) as having been about 21.9 hours. The length of day for the Earth before the moon was created is still unknown.[citation needed]",
+          "text_sha256": "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f",
+          "char_start": 0,
+          "char_end": 609,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6240425109863281,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.556012770339322,
+          1.57539488918772,
+          0.0,
+          0.0,
+          1.1983593363025022
+        ],
+        "removal_ranking": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "removal_gap": 1.1983593363025022,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.07016777992248535,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9831196069717407
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7803016901016235
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7677816152572632
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6976138353347778
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6787769794464111
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5942509770393372
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5843241214752197
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5772201418876648
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5565274357795715
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5543534159660339
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__PN1__unfiltered",
+          "request_sha256": "13c901726c4c0c6ab35b0c1fa5339b6ea6edbc921a38af4bc04021cc81a91648",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__PN1__filtered",
+          "request_sha256": "a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth takes about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days).",
+            "first_call_id": "NanoNQ:test697__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth takes about 23 hours, 56 minutes, and 4.09 seconds (365.256363004 mean solar days).",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.661338746547699,
+          "kept": false
+        },
+        {
+          "chunk_id": "ce94417c19d4c228d2e93adc3157ce570f2797876526ee7f9c23e9c0361c6f78:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/PN/2",
+          "instance_key": "ce94417c19d4c228d2e93adc3157ce570f2797876526ee7f9c23e9c0361c6f78",
+          "chunk_index": 0,
+          "copied_from": "doc24903",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nEarth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "77cedaf7b7197f4aab29ec22aec0ded104704dd25f6849b4feb937819ac04d0b",
+          "char_start": 0,
+          "char_end": 615,
+          "tokens_with_specials": 144,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6526473164558411,
+          "kept": false
+        },
+        {
+          "chunk_id": "7659690dd86d1117cc88d302a10314db80d50ab4c71b29c08ee9cf54b44a7705:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/PN/1",
+          "instance_key": "7659690dd86d1117cc88d302a10314db80d50ab4c71b29c08ee9cf54b44a7705",
+          "chunk_index": 0,
+          "copied_from": "doc24903",
+          "copy_number": 1,
+          "text": "Source excerpt.\nEarth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "58d91f84d1d20a887e68997e4883bc77b71f724692c32c10b30874eec03e9b3c",
+          "char_start": 0,
+          "char_end": 612,
+          "tokens_with_specials": 144,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6495413780212402,
+          "kept": false
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6469205021858215,
+          "kept": true
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.939774904918096,
+          1.9716583839768198,
+          1.9649318022832638,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.939774904918096,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2855057716369629,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9992035031318665
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9865347146987915
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9831196069717407
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6976138353347778
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6850352883338928
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6787769794464111
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5942509770393372
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5893282294273376
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5843241214752197
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5565274357795715
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__PN2__unfiltered",
+          "request_sha256": "b5f93f9d13aa964b092a1f784257311a71e297372ac358866321bb9a552e496d",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__PN2__filtered",
+          "request_sha256": "a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth takes about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days).",
+            "first_call_id": "NanoNQ:test697__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth takes about 23 hours, 56 minutes, and 4.09 seconds (365.256363004 mean solar days).",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.661338746547699,
+          "kept": true
+        },
+        {
+          "chunk_id": "35d769ddb552ae3834d85a02f5f266e2517b6026d39fb2641f8043cdf101f713:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/BE/1",
+          "instance_key": "35d769ddb552ae3834d85a02f5f266e2517b6026d39fb2641f8043cdf101f713",
+          "chunk_index": 0,
+          "copied_from": "doc90322",
+          "copy_number": 1,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6469205021858215,
+          "kept": false
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6469205021858215,
+          "kept": false
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        },
+        {
+          "chunk_id": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1818632",
+          "instance_key": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth's day has increased in length over time. This phenomenon is due to tides raised by the Moon which slow Earth's rotation. Because of the way the second is defined, the mean length of a day is now about 86 400.002 seconds, and is increasing by about 1.7 milliseconds per century (an average over the last 2 700 years). (See tidal acceleration for details.) The length of a day circa 620 million years ago has been estimated from rhythmites (alternating layers in sandstone) as having been about 21.9 hours. The length of day for the Earth before the moon was created is still unknown.[citation needed]",
+          "text_sha256": "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f",
+          "char_start": 0,
+          "char_end": 609,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6240425109863281,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.23221838474273682,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7677817344665527
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.57722008228302
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5565274357795715
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5565274357795715
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5543534159660339
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5543534159660339
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__BE1__unfiltered",
+          "request_sha256": "102b81e280e46a49c2f99f19bafae31fd300212875a9035467ba88418903e5d4",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__BE1__filtered",
+          "request_sha256": "94567b8efec3ceff9d9db3ce9bdd60c90bc730fae96d51c8c8071986d9cbb755",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth with respect to the stars is approximately 23 hours, 56 minutes, and 4 seconds.",
+            "first_call_id": "NanoNQ:test697__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.661338746547699,
+          "kept": true
+        },
+        {
+          "chunk_id": "35d769ddb552ae3834d85a02f5f266e2517b6026d39fb2641f8043cdf101f713:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/BE/1",
+          "instance_key": "35d769ddb552ae3834d85a02f5f266e2517b6026d39fb2641f8043cdf101f713",
+          "chunk_index": 0,
+          "copied_from": "doc90322",
+          "copy_number": 1,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6469205021858215,
+          "kept": false
+        },
+        {
+          "chunk_id": "a93e412657cc98cbd4f8a4e5fa91ed576f94350eb410b8abee994047ea564893:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/BE/2",
+          "instance_key": "a93e412657cc98cbd4f8a4e5fa91ed576f94350eb410b8abee994047ea564893",
+          "chunk_index": 0,
+          "copied_from": "doc90322",
+          "copy_number": 2,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6469205021858215,
+          "kept": false
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6469205021858215,
+          "kept": false
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          2.0000004768371866,
+          2.0000004768371866,
+          2.0000004768371866,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.0000004768371866,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3023863434791565,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5565274357795715
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5565274357795715
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5565274357795715
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__BE2__unfiltered",
+          "request_sha256": "f243ba6bd8c4693d16ae3c8ed7a718901a039507ec881c4867ab11b8b92969ec",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__BE2__filtered",
+          "request_sha256": "659e4427d0337417af31cc1ca708246226d31b04e7337502847bbd762e3502b5",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth with respect to the stars is approximately 23 hours, 56 minutes, and 4 seconds.",
+            "first_call_id": "NanoNQ:test697__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.661338746547699,
+          "kept": false
+        },
+        {
+          "chunk_id": "e152a08a3e30213a472af828a96bcddf8fdd93e55e2655deaf975274666973ed:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/PE/1",
+          "instance_key": "e152a08a3e30213a472af828a96bcddf8fdd93e55e2655deaf975274666973ed",
+          "chunk_index": 0,
+          "copied_from": "doc24903",
+          "copy_number": 1,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.661338746547699,
+          "kept": false
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6469205021858215,
+          "kept": true
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        },
+        {
+          "chunk_id": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1818632",
+          "instance_key": "d126623c80351c9e4d58cd062a7ef0abcedcdb1c2cac97bc801b72ab441dedd1",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth's day has increased in length over time. This phenomenon is due to tides raised by the Moon which slow Earth's rotation. Because of the way the second is defined, the mean length of a day is now about 86 400.002 seconds, and is increasing by about 1.7 milliseconds per century (an average over the last 2 700 years). (See tidal acceleration for details.) The length of a day circa 620 million years ago has been estimated from rhythmites (alternating layers in sandstone) as having been about 21.9 hours. The length of day for the Earth before the moon was created is still unknown.[citation needed]",
+          "text_sha256": "6a091a6cc33f0ee5e485bb51c3fb3bdcbd8d073f20fb09504c2f6cd5ed66f87f",
+          "char_start": 0,
+          "char_end": 609,
+          "tokens_with_specials": 140,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6240425109863281,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.23221826553344727,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7677817344665527
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7677817344665527
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.57722008228302
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5565274357795715
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5543534159660339
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__PE1__unfiltered",
+          "request_sha256": "3616c5bdbd07584d1fc467065061167b0371b46f8eaeb74db12f1727a6e09593",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 24 hours with respect to the Sun, but approximately 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__PE1__filtered",
+          "request_sha256": "d6f0aebaacd9cc76c7c23cb22795c127bade78bf2a0a320d2610b69f0912f453",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth takes about 24 hours.",
+            "first_call_id": "NanoNQ:test697__PE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth takes about 24 hours.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test697",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc24903",
+          "instance_key": "07f24a8133756738106f6af2f3d4d25dc405b0556a6bd7ecc747f4e11fb4689e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.661338746547699,
+          "kept": false
+        },
+        {
+          "chunk_id": "d002861bea629248dfcc17ea0ef3931d595ae1f4dc01130271928735d17a8b9c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/PE/2",
+          "instance_key": "d002861bea629248dfcc17ea0ef3931d595ae1f4dc01130271928735d17a8b9c",
+          "chunk_index": 0,
+          "copied_from": "doc24903",
+          "copy_number": 2,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.661338746547699,
+          "kept": false
+        },
+        {
+          "chunk_id": "e152a08a3e30213a472af828a96bcddf8fdd93e55e2655deaf975274666973ed:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test697/PE/1",
+          "instance_key": "e152a08a3e30213a472af828a96bcddf8fdd93e55e2655deaf975274666973ed",
+          "chunk_index": 0,
+          "copied_from": "doc24903",
+          "copy_number": 1,
+          "text": "Earth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes, and 4 seconds with respect to the stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that a modern day is longer by about 1.7 milliseconds than a century ago,[1] slowly increasing the rate at which UTC is adjusted by leap seconds. Analysis of historical astronomical records shows a slowing trend of 2.3 milliseconds per century since the 8th century BCE.[2]",
+          "text_sha256": "5801546ae1e33c6edffa92b65559c7273794dad8d6c54577c9b16427c3bf7a23",
+          "char_start": 0,
+          "char_end": 596,
+          "tokens_with_specials": 141,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.661338746547699,
+          "kept": false
+        },
+        {
+          "chunk_id": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc90322",
+          "instance_key": "ac6ce04974f92edab150816901fa2772175996a7aa3f3eb7bf629753a2d07d60",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Earth is rotating or spinning around its axis. This is evidenced by day and night, at the equator the earth has an eastward velocity of 0.4651 kilometres per second (1,040 mph).[8] The Earth is also orbiting around the Sun in an orbital revolution. A complete orbit around the sun takes one year, or about 365 days; it averages a speed of about 30 kilometres per second (67,000 mph).[9]",
+          "text_sha256": "94be514490cca1fa57f03d68cd45fa48d867cf3a56564354d99a2e9fe822d9ce",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6469205021858215,
+          "kept": true
+        },
+        {
+          "chunk_id": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc563699",
+          "instance_key": "e99c1e899f7b0c46d23d4fa2036d0e3d4cb17996346b4c37a836be828836dd46",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The sidereal year is the time taken for the Earth to complete one revolution of its orbit, as measured against a fixed frame of reference (such as the fixed stars, Latin sidera, singular sidus). Its average duration is 7002365256363004000â™ 365.256363004 mean solar days (365 d 6 h 9 min 9.76 s) (at the epoch J2000.0 = January 1, 2000, 12:00:00 TT).[5]",
+          "text_sha256": "b6b0eee5e5ae96ab80ae3801acdd1a5e7ce82a34b306425953ca6772fee46161",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 109,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.626898467540741,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.30238622426986694,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6976137757301331
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5942510366439819
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5565274357795715
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test697__PE2__unfiltered",
+          "request_sha256": "796aebf462292f71f76fbcf42e8ea9f6517cc92bb137309922d0d58dbdc3db8d",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "first_call_id": "NanoNQ:test697__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth is about 23 hours, 56 minutes, and 4 seconds with respect to the stars.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test697__PE2__filtered",
+          "request_sha256": "a9de9ca41ced3c55df4db8578c51f9b9da6655a277b381898e8debbafe4f3018",
+          "reference": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth takes about 23 hours, 56 minutes, and 4.1 seconds (365.256363004 mean solar days).",
+            "first_call_id": "NanoNQ:test697__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "One full rotation of the Earth takes about 23 hours, 56 minutes, and 4.09 seconds (365.256363004 mean solar days).",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

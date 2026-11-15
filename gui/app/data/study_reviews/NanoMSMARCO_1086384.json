@@ -1,0 +1,1120 @@
+{
+  "case_id": "NanoMSMARCO:1086384",
+  "packet": "evidence/task02/expected/cases/NanoMSMARCO_1086384.json",
+  "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+  "records": [
+    {
+      "record_id": "R1:32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "32e5120bcee325cb27904e9cc58bb3067c0fb7db46cf56870da6c9f5ea398988",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__C__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+            "349e53b78966a60ad2d677780f1bfe97e49d90c34541fbde07737c4fbfde7c3a:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964",
+            "c7cd6e6d713a141331fe5fcc387f8f47a69d6c474309cdedd7203a1940e2fc92"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:9eb5e3cb2513e73943268a85939f6de209272674cb4b1e194e5c3db40011287d",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "9eb5e3cb2513e73943268a85939f6de209272674cb4b1e194e5c3db40011287d",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__C__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "C",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000",
+            "349e53b78966a60ad2d677780f1bfe97e49d90c34541fbde07737c4fbfde7c3a:00000"
+          ],
+          "text_hashes": [
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964",
+            "c7cd6e6d713a141331fe5fcc387f8f47a69d6c474309cdedd7203a1940e2fc92"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "ef3ea9",
+          "06d006 removed"
+        ],
+        "rationale": "Answer passage removed; kept passages are the second-filter tip and a brewing passage; response misreads the tip.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "misreads passage ef3ea9: a second filter is placed over the grounds to keep the area clean, not as a replacement",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:cc0298fbe5a8b3df4998e4cf1fc98fc2f521d6683bd32a3dcd4ecaed11a35e50",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "cc0298fbe5a8b3df4998e4cf1fc98fc2f521d6683bd32a3dcd4ecaed11a35e50",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "cffcc738b690b2c7f45598b2c4ab4273e9992ece4b56a0d88ffe45abf2443778:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "4a08288d507e436519b81289bb592f62e1716131ec1066f6878b62a17c67ae43",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__BN1__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BN1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ]
+        },
+        {
+          "call_id": "NanoMSMARCO:1086384__PN1__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PN1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ]
+        },
+        {
+          "call_id": "NanoMSMARCO:1086384__BE1__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BE1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ]
+        },
+        {
+          "call_id": "NanoMSMARCO:1086384__PE1__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PE1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "ef3ea9",
+          "06d006 removed"
+        ],
+        "rationale": "Answer passage and copies removed; kept passage is the second-filter tip only; response misreads it.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "misreads passage ef3ea9: a second filter is placed over the grounds to keep the area clean, not as a replacement",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:434919b6c14dd1161f6d8edfa67e98a4dbd7b96b17e212fcafa6f00295665534",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "434919b6c14dd1161f6d8edfa67e98a4dbd7b96b17e212fcafa6f00295665534",
+      "execution_origin": "Suresh_local_continuation_2026-10-27",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "faadb4a29402e0d8e3e4345c9ed5febd94ca361c2b4285fd68bf49b10899f456:00000",
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "3eebc441976d43966e23bd3af82f019f87a612201d5edd98d012d6a8eefcde3d",
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:cd232333c62dc66e4cb70732466bd3fef7c5b4d81eace8082875059e695e669d",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "cd232333c62dc66e4cb70732466bd3fef7c5b4d81eace8082875059e695e669d",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__BN2__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "6cb40909487ea5c3ab9901f395ec3bc7c00472c124320a8846e4c81fff818c55:00000",
+            "cffcc738b690b2c7f45598b2c4ab4273e9992ece4b56a0d88ffe45abf2443778:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "cc2c34d5753c86816ecb2a0384abc54a1068f3db2723b5ecd059213f4ca70c0c",
+            "4a08288d507e436519b81289bb592f62e1716131ec1066f6878b62a17c67ae43",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:d00085d8e458fbca38b9bf66397b6bba84e306df0523dbe8449260b7f1c6ac52",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "d00085d8e458fbca38b9bf66397b6bba84e306df0523dbe8449260b7f1c6ac52",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__BN2__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13"
+          ]
+        },
+        {
+          "call_id": "NanoMSMARCO:1086384__BE2__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006",
+          "23388c"
+        ],
+        "rationale": "Answer passage kept; the added gold filter is supported by passage 23388c.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:754f5c3ddda1b33014cde812df74ffa0e861fcfefc56a2c5126c45db578e6c92",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "754f5c3ddda1b33014cde812df74ffa0e861fcfefc56a2c5126c45db578e6c92",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__PN2__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "faadb4a29402e0d8e3e4345c9ed5febd94ca361c2b4285fd68bf49b10899f456:00000",
+            "bc44dbaa4028abb3c54ff75ad03580c10dfdb38ec5f88d1c8fa0b0a768fb1fb9:00000",
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000"
+          ],
+          "text_hashes": [
+            "3eebc441976d43966e23bd3af82f019f87a612201d5edd98d012d6a8eefcde3d",
+            "9d31bc329624eaee3c94b34ae7dc27fa4e479ba2a4dabe5c0dd6e3e668a68050",
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:6fb679c4763ae30d40a1016da655abe03111555c5e133341e64a3a6149307ea0",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "6fb679c4763ae30d40a1016da655abe03111555c5e133341e64a3a6149307ea0",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__PN2__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000"
+          ],
+          "text_hashes": [
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13"
+          ]
+        },
+        {
+          "call_id": "NanoMSMARCO:1086384__PE2__filtered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000"
+          ],
+          "text_hashes": [
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "23388c",
+          "06d006 removed"
+        ],
+        "rationale": "Answer passage removed; gold-filter substitute is supported by passage 23388c but is not the frozen paper-towel/cloth answer.",
+        "disagreement": "Supported alternative substitute vs frozen answer; core usability uncertain; flagged for joint discussion with Suresh"
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed (gold filters supported by 23388c, but not the frozen answer)",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:00ae9a1b2b86d951ab82a7af721e917a4036072d3cf08cecc455133820798bd3",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "00ae9a1b2b86d951ab82a7af721e917a4036072d3cf08cecc455133820798bd3",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__BE1__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "c2cdbc1f9ffb39218a399c4310440decce526df688b0e03b25380773ef7c9960:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:9e2f0ed740185f8248a07c0b5dfecd05a341d5af4a1f5f2b5f80a90abfaa7fc3",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "9e2f0ed740185f8248a07c0b5dfecd05a341d5af4a1f5f2b5f80a90abfaa7fc3",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__BE2__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "c2cdbc1f9ffb39218a399c4310440decce526df688b0e03b25380773ef7c9960:00000",
+            "cda6a6f2abf837d209eb21458ed2c89c005579d65028c411c086b0ab7fabba5a:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:becec3fb8a2ee7292e52a6a36b3cb48167b36a0f918bb43ae2ec5fa5fd72d184",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "becec3fb8a2ee7292e52a6a36b3cb48167b36a0f918bb43ae2ec5fa5fd72d184",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__PE1__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "d95bec0ea12a5caefda22aad7b715d45cca95e82d1962a91fa334d763a815c29:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000",
+            "ef3ea9f2e91f442b5a40a188cd6bd238ef18e62346ccc1544c68335ec13a502a:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13",
+            "dcef1cab8930cde1c382969d65abfd4d4206d49323a3f9f222a0443124b9e964"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:654cc365f3ab85a0a90c1118647cc41909276d235e541a33611c31d813ee6cde",
+      "record_type": "reproduction_response",
+      "case_id": "NanoMSMARCO:1086384",
+      "request_sha256": "654cc365f3ab85a0a90c1118647cc41909276d235e541a33611c31d813ee6cde",
+      "execution_origin": "Suresh_explicit_recovery_v3",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoMSMARCO:1086384__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:1086384",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "06d006f07dab3845ace56de20297324190d7c6edbcceb862a2a906dc7ebaf6b9:00000",
+            "c54c02464ec9d9a1d0e904aefa9d8aa683df37985a983117211b009cf46951de:00000",
+            "d95bec0ea12a5caefda22aad7b715d45cca95e82d1962a91fa334d763a815c29:00000",
+            "d944a5922b4198ee75fae58a49c2b1247fb396dc10db6aaeab6ced222bbccebc:00000",
+            "23388cae49253f8463e76db574b678f9885ec8fb5d83b477a8e0220fa2d4ae86:00000"
+          ],
+          "text_hashes": [
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "65d298d9bceb9fd454048611b6560b29874d619e1af4b7fddbcdafc60dd199ed",
+            "f31e50fe6c9da03802f8bd0f61e9dddec816f174f6be3167d463a909500beecd",
+            "ab058c8127144eaa88c800866b393e897e8a237437d4ca201eb7afbdf8a8fe13"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoMSMARCO_1086384.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006 (answer)"
+        ],
+        "rationale": "Answer passage 06d006 is in the context and supports the cloth/tea-towel answer; paper towels not mentioned (full answer incomplete).",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1CASE:NanoMSMARCO:1086384",
+      "record_type": "reproduction_primary_endpoint",
+      "case_id": "NanoMSMARCO:1086384",
+      "scope": "New C/BN1/PN1 response implications only; accepted original verdict unchanged",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006",
+          "ef3ea9",
+          "faadb4 (copy)"
+        ],
+        "rationale": "Clean filtered answer ('second filter') misreads the second-filter tip with the answer passage removed, so the clean prerequisite fails; PN1 filtered loses the answer passage and its copy.",
+        "disagreement": null
+      },
+      "judgment": {
+        "clean_supported_usable": "no",
+        "copy_retrieved_answer_preserved": "yes",
+        "copied_unfiltered_supported_usable": "yes",
+        "all_sufficient_support_lost": "yes",
+        "filtered_answer_failure": "yes",
+        "background_supported_usable": "no",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "full_answer_rule_alternative": "not_applicable",
+        "rule_scope_or_extension": "Core rule as supplied; no extension. Consistent with accepted 'not a strict event'; new clean failure prevents transferring the original panel result."
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoMSMARCO:1086384:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoMSMARCO:1086384",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:cd232333c62dc66e4cb70732466bd3fef7c5b4d81eace8082875059e695e669d",
+          "R1:d00085d8e458fbca38b9bf66397b6bba84e306df0523dbe8449260b7f1c6ac52"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoMSMARCO:1086384:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoMSMARCO:1086384",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "23388c",
+          "06d006"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails, so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed (gold filter supported but not the frozen answer)",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed (gold filter supported but not the frozen answer)",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:754f5c3ddda1b33014cde812df74ffa0e861fcfefc56a2c5126c45db578e6c92",
+          "R1:6fb679c4763ae30d40a1016da655abe03111555c5e133341e64a3a6149307ea0"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoMSMARCO:1086384:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoMSMARCO:1086384",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "misreads passage ef3ea9: a second filter is placed over the grounds to keep the area clean, not as a replacement",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "misreads passage ef3ea9: a second filter is placed over the grounds to keep the area clean, not as a replacement",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+          "R1:00ae9a1b2b86d951ab82a7af721e917a4036072d3cf08cecc455133820798bd3"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoMSMARCO:1086384:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoMSMARCO:1086384",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "06d006"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:d00085d8e458fbca38b9bf66397b6bba84e306df0523dbe8449260b7f1c6ac52",
+          "R1:9e2f0ed740185f8248a07c0b5dfecd05a341d5af4a1f5f2b5f80a90abfaa7fc3"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoMSMARCO:1086384:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoMSMARCO:1086384",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "ef3ea9",
+          "06d006"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails, so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "misreads passage ef3ea9: a second filter is placed over the grounds to keep the area clean, not as a replacement",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "misreads passage ef3ea9: a second filter is placed over the grounds to keep the area clean, not as a replacement",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:f9e19e086cdd0748241660d28a3d563d6ca4394b4bf0b1175f0bb5c13cfee9cd",
+          "R1:becec3fb8a2ee7292e52a6a36b3cb48167b36a0f918bb43ae2ec5fa5fd72d184"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoMSMARCO:1086384:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoMSMARCO:1086384",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "23388c",
+          "06d006"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails, so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed (gold filter supported but not the frozen answer)",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed (gold filter supported but not the frozen answer)",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:6fb679c4763ae30d40a1016da655abe03111555c5e133341e64a3a6149307ea0",
+          "R1:654cc365f3ab85a0a90c1118647cc41909276d235e541a33611c31d813ee6cde"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+{
+  "case_id": "NanoNQ:test2539",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test2539.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+  "records": [
+    {
+      "record_id": "R1:0fb252d4ce68c62c2450a7780ccad6d3ca7c8da9e990a43105c892fe1cd156cb",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "0fb252d4ce68c62c2450a7780ccad6d3ca7c8da9e990a43105c892fe1cd156cb",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__BN2__unfiltered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "55fb7bc9459e92c9475c73780555508b05ef30e9fed601cf00dee447272c4d36:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000",
+            "5eb0c8a771dae527076ed1d0507bf18d90c6f850db38b83f2a79d1be6498fff3:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "5109a6c466f6f3e3dbfe9d3e68c7d3a2ebc68af2d83c6a1c827d03e01a8c54bb",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a",
+            "f3726263db557f82e6213fd23783d31708875c24988921d803c0891e3e28a87f"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79 (Pennsylvania House passage, 203 members)"
+        ],
+        "rationale": "Answer passage d51c79 is in context and gives 203 members.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:b7157b34f30bf14baab1df19ff75fe19272529c6b4267fea996d4faaf9f7b5c4",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "b7157b34f30bf14baab1df19ff75fe19272529c6b4267fea996d4faaf9f7b5c4",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__BN2__filtered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2539__BE2__filtered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "a8b0eb90e099e9b8121716b81a192ed75c8e5bea6bdf29b55ff8f9dc4ca4a020:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79 (Pennsylvania House passage, 203 members)"
+        ],
+        "rationale": "Answer passage d51c79 kept; gives 203.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:b8c3c84b05d70e473c37f6dcabeec875aa5e0d1f111f541993d228b9c29a6cb4",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "b8c3c84b05d70e473c37f6dcabeec875aa5e0d1f111f541993d228b9c29a6cb4",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__PN2__unfiltered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "ab2bff338b507ce50b0d90f2c0f6b1057bd454e14a823911cf68a05f1d43bb42:00000",
+            "198ec4bdf8dbdb3625a227028959df33847ffaaffb501b0c0e42d040c26fba04:00000",
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "207e30f7221e455721733210bf31027520c52ed76ed7a2123a2b42a9d27f7324",
+            "4802d723e5dc1c344f676c149241f6866b52aa6f03c65502d9a8626a0bbea51d",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79 (Pennsylvania House passage, 203 members)"
+        ],
+        "rationale": "Answer passage d51c79 is in context and gives 203 members.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:0a0aa15a22fb72b58d723c58d3d60e35b0743bafaffd5612fa7bb5b4d952d816",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "0a0aa15a22fb72b58d723c58d3d60e35b0743bafaffd5612fa7bb5b4d952d816",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__PN2__filtered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000"
+          ],
+          "text_hashes": [
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2539__PE2__filtered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000"
+          ],
+          "text_hashes": [
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "4e31bd",
+          "9b5003",
+          "d51c79 removed"
+        ],
+        "rationale": "Answer passage and its copies removed; kept passages are the US House delegation list and a US Senate election passage, so the count 222 is not supported for the Pennsylvania House.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "misreads the alphabetical list of U.S. House members from Pennsylvania (passage 4e31bd) as the Pennsylvania House membership; adds a date not in the question",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:e7b11c1384d88aaa3f40b825145490ce5fd221137728c855dee87868691af3ff",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "e7b11c1384d88aaa3f40b825145490ce5fd221137728c855dee87868691af3ff",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__BE1__unfiltered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "a8b0eb90e099e9b8121716b81a192ed75c8e5bea6bdf29b55ff8f9dc4ca4a020:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000",
+            "813c86fe5c4188ee00a8155cc70c6bfa944a641952ece8e3fd24dc5ae3b6a1b0:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a",
+            "58fb005fafecec6043f8b8906ff8c7364547ae606b5237c2952606009e49fb9a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79 (Pennsylvania House passage, 203 members)"
+        ],
+        "rationale": "Answer passage d51c79 is in context and gives 203 members.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:4f634765f92d55d4231822b6983b54bb8764eed780bb4699372c6392e2fada4f",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "4f634765f92d55d4231822b6983b54bb8764eed780bb4699372c6392e2fada4f",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__BE2__unfiltered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "48fe4e8ce46772e9e244e3a6ed3c424874c9d3127b54e2f2c0b26e2867d3773a:00000",
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "a8b0eb90e099e9b8121716b81a192ed75c8e5bea6bdf29b55ff8f9dc4ca4a020:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79 (Pennsylvania House passage, 203 members)"
+        ],
+        "rationale": "Answer passage d51c79 is in context and gives 203 members.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:616931dd77e1d1e4de96d8025c92add68b8ae503ec8f3cd4d34ba528d4c92ef5",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "616931dd77e1d1e4de96d8025c92add68b8ae503ec8f3cd4d34ba528d4c92ef5",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__PE1__unfiltered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c58e886328381e5d2a83365fc1276d0e917940e8e2496fe4e46945340913dfb9:00000",
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000",
+            "813c86fe5c4188ee00a8155cc70c6bfa944a641952ece8e3fd24dc5ae3b6a1b0:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a",
+            "58fb005fafecec6043f8b8906ff8c7364547ae606b5237c2952606009e49fb9a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79 (Pennsylvania House passage, 203 members)"
+        ],
+        "rationale": "Answer passage d51c79 is in context and gives 203 members.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:9f8c0abb7935d99ed8e7cad856e128d424e5f8d588dd1cc3f05c42f6ecfc44e2",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "9f8c0abb7935d99ed8e7cad856e128d424e5f8d588dd1cc3f05c42f6ecfc44e2",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__PE1__filtered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "PE1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000",
+            "813c86fe5c4188ee00a8155cc70c6bfa944a641952ece8e3fd24dc5ae3b6a1b0:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a",
+            "58fb005fafecec6043f8b8906ff8c7364547ae606b5237c2952606009e49fb9a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79 (Pennsylvania House passage, 203 members)"
+        ],
+        "rationale": "Answer passage d51c79 is in context and gives 203 members.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:37897162c1732adbb81fbee463f287172643d88fc12c959b53eea81301619afe",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2539",
+      "request_sha256": "37897162c1732adbb81fbee463f287172643d88fc12c959b53eea81301619afe",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2539__PE2__unfiltered",
+          "case_id": "NanoNQ:test2539",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c58e886328381e5d2a83365fc1276d0e917940e8e2496fe4e46945340913dfb9:00000",
+            "cb09213678efc4879eeb9e888ba0537fecff8cb483c14152f1848bffd808e3e9:00000",
+            "d51c798fefe119700a917395d7c440e8b310ad9ce36861d4852f5247148266b9:00000",
+            "4e31bdbf1971e260e6316ba4b801b9f9dcf64c7b0990e3bdbead966b2915cc53:00000",
+            "9b5003b9a0d25323553a86035fec865c7903f3fceece0325aafda64458c88bb3:00000"
+          ],
+          "text_hashes": [
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "19d73821c2d5114fa0cf9c39bf608ffbe619241c746f531d91e9cb308f7ed0b9",
+            "80f3b021841d61e0f0568326af17756903d78a377c154cc72cac599cbae758c0",
+            "431457af1d57a2e34a48ccb24fa20ed94a4aa2f07f1a48729cf2601da4e58d4a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2539.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79 (Pennsylvania House passage, 203 members)"
+        ],
+        "rationale": "Answer passage d51c79 is in context and gives 203 members.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2539:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2539",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:0fb252d4ce68c62c2450a7780ccad6d3ca7c8da9e990a43105c892fe1cd156cb",
+          "R1:b7157b34f30bf14baab1df19ff75fe19272529c6b4267fea996d4faaf9f7b5c4"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2539:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2539",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "4e31bd",
+          "d51c79 removed"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (clean filtered answer \"41\" is wrong), so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: misreads the alphabetical list of U.S. House members from Pennsylvania (passage 4e31bd) as the Pennsylvania House membership; adds a date not in the question",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: misreads the alphabetical list of U.S. House members from Pennsylvania (passage 4e31bd) as the Pennsylvania House membership; adds a date not in the question",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:b8c3c84b05d70e473c37f6dcabeec875aa5e0d1f111f541993d228b9c29a6cb4",
+          "R1:0a0aa15a22fb72b58d723c58d3d60e35b0743bafaffd5612fa7bb5b4d952d816"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2539:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2539",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:e7b11c1384d88aaa3f40b825145490ce5fd221137728c855dee87868691af3ff"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2539:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2539",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:b7157b34f30bf14baab1df19ff75fe19272529c6b4267fea996d4faaf9f7b5c4",
+          "R1:4f634765f92d55d4231822b6983b54bb8764eed780bb4699372c6392e2fada4f"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2539:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2539",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "d51c79"
+        ],
+        "rationale": "P condition; answer passage kept in filtered context and answer unchanged, strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:616931dd77e1d1e4de96d8025c92add68b8ae503ec8f3cd4d34ba528d4c92ef5",
+          "R1:9f8c0abb7935d99ed8e7cad856e128d424e5f8d588dd1cc3f05c42f6ecfc44e2"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2539:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2539",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "4e31bd",
+          "d51c79 removed"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (clean filtered answer \"41\" is wrong), so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: misreads the alphabetical list of U.S. House members from Pennsylvania (passage 4e31bd) as the Pennsylvania House membership; adds a date not in the question",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: misreads the alphabetical list of U.S. House members from Pennsylvania (passage 4e31bd) as the Pennsylvania House membership; adds a date not in the question",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:0a0aa15a22fb72b58d723c58d3d60e35b0743bafaffd5612fa7bb5b4d952d816",
+          "R1:37897162c1732adbb81fbee463f287172643d88fc12c959b53eea81301619afe"
+        ]
+      }
+    }
+  ]
+}

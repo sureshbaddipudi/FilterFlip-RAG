@@ -1,0 +1,54 @@
+tools/check_controls.cjs
+{"result":"PASS","all_nine_live_selection_and_export_handlers":true,"start_stop_cancelled_export":true,"saved_inspection_export":true,"selection_clears_stale_output":true,"synthetic_only":true,"browser_download_dialog":"not exercised","model_calls":0}
+
+Exit 0
+tools/check_presentation.cjs
+{
+  "result": "PASS",
+  "overview_views": 118,
+  "focus_views": 1062,
+  "all_frozen_text_and_counts": true,
+  "uncertainty_and_truncation_retained": true,
+  "literal_text": true,
+  "navigation_export_and_source_switch": true,
+  "presentation_toggle": true,
+  "stale_saved_request_discarded": true,
+  "compact_live_partial_and_four_policies": true,
+  "frozen_data_unchanged": true,
+  "model_calls": 0,
+  "HTTP_calls": 0
+}
+
+Exit 0
+tools/check_gui_identity.cjs
+{
+  "result": "PASS",
+  "checks": 11,
+  "passed": [
+    "reload reconnect restores non-default question, mitigation mode and BN1 before displaying run",
+    "reload retains original paired-condition identity",
+    "delayed recorded reply discarded after case change",
+    "delayed recorded reply discarded after condition change",
+    "delayed recorded reply discarded after mode change",
+    "starting a live run discards an outstanding recorded reply",
+    "second inspection supersedes first even for same question",
+    "current recorded reply still renders and selection change hides it",
+    "stale recorded errors do not overwrite status of newer selection",
+    "current recorded error remains visible",
+    "a late poll for an old completed run cannot replace a new run"
+  ],
+  "synthetic_only": true,
+  "model_calls": 0,
+  "HTTP_calls": 0,
+  "browser_download_dialog": "not exercised"
+}
+
+Exit 0
+tools/check_saved_conditions.cjs
+{"result":"PASS","case_condition_views":531,"answer_panel_positions":2124,"full_passages":true,"literal_text":true,"missing_reviews_not_imputed":true,"model_calls":0}
+
+Exit 0
+app/validation/check_recorded_view.cjs
+PASS: all 59 cases; every saved answer and passage; joint-review precedence; missing checklist handling; UCC applicability; literal-text rendering. No models or research calls.
+
+Exit 0

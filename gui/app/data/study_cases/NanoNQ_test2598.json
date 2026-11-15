@@ -1,0 +1,2853 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test2598",
+    "dataset": "NanoNQ",
+    "question": "where is dia de los muertos celebrated in mexico",
+    "source_family": "NanoNQ:test2598",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc88931",
+    "expected_answer": "Throughout Mexico, particularly the Central and South regions.",
+    "answer_aliases": [],
+    "support_quote": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States.",
+    "source_qualification": "This is a geographical distribution, not a request for one town or an exhaustive list of locations.",
+    "qrel_document_ids": [
+      "doc88931"
+    ],
+    "family_reference_texts": [
+      "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test2598",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc88931",
+    "expected_answer": "Throughout Mexico, particularly the Central and South regions.",
+    "answer_aliases": [],
+    "support_quote": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States.",
+    "source_qualification": "This is a geographical distribution, not a request for one town or an exhaustive list of locations.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test2598",
+    "dataset": "NanoNQ",
+    "question": "where is dia de los muertos celebrated in mexico",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test2598",
+      "dataset": "NanoNQ",
+      "question": "where is dia de los muertos celebrated in mexico",
+      "expected_answer": "Throughout Mexico, particularly the Central and South regions.",
+      "source_qualification": "This is a geographical distribution, not a request for one town or an exhaustive list of locations.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Clean-answer prerequisite fails",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "clean_answer_fails_frozen_rubric",
+      "historical_rationale": "Clean filtered answer abstains.",
+      "current_assistant_rationale": "Clean filtered answer abstains.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/19",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/19",
+      "review_priority": 3,
+      "sample_reason": "Clean filtered answer already abstains",
+      "evidence_file": "evidence/NanoNQ_test2598.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 172,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 115,
+              "call_id": "NanoNQ:test2598__C__unfiltered",
+              "request_sha256": "15106b5e6650662188148adf77245271bdc90fba7232a0b63a87b7cbf208d95e"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 116,
+              "call_id": "NanoNQ:test2598__C__filtered",
+              "request_sha256": "ab75e2ab8b8a954047a6ee84529656c84aa4eebcd1268a746ee715ef95667e2a"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 173,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 117,
+              "call_id": "NanoNQ:test2598__BN1__unfiltered",
+              "request_sha256": "3228d7e0bb887ecd905f6cc474699c0cc5b8cb6d92d22edadf66df50a6ca57dc"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 118,
+              "call_id": "NanoNQ:test2598__BN1__filtered",
+              "request_sha256": "1bab80030eeb2963a23bc7e0ee7f51defb1a48d41c4629f0fa2c8df2f6ad2c4c"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 175,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 119,
+              "call_id": "NanoNQ:test2598__PN1__unfiltered",
+              "request_sha256": "e25cb0032b59134c836a549aba0774f083b28959246d129873baf3c9ba7039c4"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 120,
+              "call_id": "NanoNQ:test2598__PN1__filtered",
+              "request_sha256": "d5299e81ae7133a42b628e8f7dedce7617b053f6cb9ca531f5deb8fa241ed653"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test2598",
+      "Question": "where is dia de los muertos celebrated in mexico",
+      "Evidence packet": "evidence/NanoNQ_test2598.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "no",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "wrong",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: NO - C removed P2 doc88931 (support passage); survivors (Cinco de Mayo, US resolution, Fiestas) lack it; clean filtered answer \"Not enough information.\" Q2: PN1 P2 copy of doc88931. Q3: Central and South regions. Q4: PN1 survivors lack the answer. Q5: \"celebrated in northern Mexico...\" - wrong. Q6: BN1 correct.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (not an event: clean baseline already fails).",
+      "workbook_row": 17,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "question": "where is dia de los muertos celebrated in mexico",
+        "expected_answer": "Throughout Mexico, particularly the Central and South regions.",
+        "source_qualification": "This is a geographical distribution, not a request for one town or an exhaustive list of locations.",
+        "source_review_status": "user_recorded_review",
+        "assistant_status": "Not a strict event",
+        "reason_group": "Clean-answer prerequisite fails",
+        "historical_decision": "not_strict_event",
+        "historical_reason_code": "clean_answer_fails_frozen_rubric",
+        "historical_rationale": "Clean filtered answer abstains.",
+        "current_assistant_rationale": "Clean filtered answer abstains.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/19",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/19",
+        "review_priority": 3,
+        "sample_reason": "Clean filtered answer already abstains",
+        "evidence_file": "evidence/NanoNQ_test2598.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 172,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 115,
+                "call_id": "NanoNQ:test2598__C__unfiltered",
+                "request_sha256": "15106b5e6650662188148adf77245271bdc90fba7232a0b63a87b7cbf208d95e"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 116,
+                "call_id": "NanoNQ:test2598__C__filtered",
+                "request_sha256": "ab75e2ab8b8a954047a6ee84529656c84aa4eebcd1268a746ee715ef95667e2a"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 173,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 117,
+                "call_id": "NanoNQ:test2598__BN1__unfiltered",
+                "request_sha256": "3228d7e0bb887ecd905f6cc474699c0cc5b8cb6d92d22edadf66df50a6ca57dc"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 118,
+                "call_id": "NanoNQ:test2598__BN1__filtered",
+                "request_sha256": "1bab80030eeb2963a23bc7e0ee7f51defb1a48d41c4629f0fa2c8df2f6ad2c4c"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 175,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 119,
+                "call_id": "NanoNQ:test2598__PN1__unfiltered",
+                "request_sha256": "e25cb0032b59134c836a549aba0774f083b28959246d129873baf3c9ba7039c4"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 120,
+                "call_id": "NanoNQ:test2598__PN1__filtered",
+                "request_sha256": "d5299e81ae7133a42b628e8f7dedce7617b053f6cb9ca531f5deb8fa241ed653"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test2598",
+    "question": "where is dia de los muertos celebrated in mexico",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test2598"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        },
+        {
+          "chunk_id": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127040",
+          "instance_key": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On June 7, 2005, the United States Congress issued a concurrent resolution calling on the President of the United States to issue a proclamation calling upon the people of the United States to observe Cinco de Mayo with appropriate ceremonies and activities.[37] To celebrate, many display Cinco de Mayo banners while school districts hold special events to educate students about its historical significance. Special events and celebrations highlight Mexican culture, especially in its music and regional dancing. Examples include baile folklórico and mariachi demonstrations held annually at the Plaza del Pueblo de Los Ángeles, near Olvera Street. Commercial interests in the United States have capitalized on the celebration, advertising Mexican products and services, with an emphasis on alcoholic beverages,[38][39] foods, and music.[40][41]",
+          "text_sha256": "b77b29288d42ac6896a0d9736f7d3a80e3581a9bad3efc377b921a8233c9d1b1",
+          "char_start": 0,
+          "char_end": 847,
+          "tokens_with_specials": 161,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6364991664886475,
+          "kept": true
+        },
+        {
+          "chunk_id": "e752b0a930059bd7eb166bdd52a2656d61df8f5ee46cd9d61a74326329bb1f5d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2015719",
+          "instance_key": "e752b0a930059bd7eb166bdd52a2656d61df8f5ee46cd9d61a74326329bb1f5d",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Mexicans celebrate their Independence from Spain on September 16, and other holidays with festivals known as \"Fiestas\". Many Mexican cities, towns and villages hold a yearly festival to commemorate their local patron saints. During these festivities, the people pray and burn candles to honor their saints in churches decorated with flowers and colorful utensils. They also hold large parades, fireworks, dance competitions, beauty pageant contest, party and buy refreshments in the market places and public squares. In the smaller towns and villages, soccer, and boxing are also celebrated during the festivities.",
+          "text_sha256": "bb580262fb66351261f5434307971e67e80f12b7a0f3ea9856d8922c5af8cd5f",
+          "char_start": 0,
+          "char_end": 614,
+          "tokens_with_specials": 115,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6200775504112244,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.7044460625738544,
+          0.7044460625738544,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.7044460625738544,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.07458364963531494,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7647292017936707
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6415613889694214
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.639824628829956
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6094067096710205
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5726100206375122
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5326863527297974
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.48845750093460083
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__C__unfiltered",
+          "request_sha256": "15106b5e6650662188148adf77245271bdc90fba7232a0b63a87b7cbf208d95e",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "first_call_id": "NanoNQ:test2598__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__C__filtered",
+          "request_sha256": "ab75e2ab8b8a954047a6ee84529656c84aa4eebcd1268a746ee715ef95667e2a",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2598__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "3fd72a0ffa49fa5f6b3eae556a7869180f3c06990b5b89c763c2d5cc6d3a258c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/BN/1",
+          "instance_key": "3fd72a0ffa49fa5f6b3eae556a7869180f3c06990b5b89c763c2d5cc6d3a258c",
+          "chunk_index": 0,
+          "copied_from": "doc88934",
+          "copy_number": 1,
+          "text": "Source excerpt.\nOriginally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "ddbb15cbe616780ac3c02f2d32a13f3f8c82c0dc7cea785bf2df57c59be8212d",
+          "char_start": 0,
+          "char_end": 855,
+          "tokens_with_specials": 169,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6881324052810669,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6699403524398804,
+          "kept": true
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        },
+        {
+          "chunk_id": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127040",
+          "instance_key": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On June 7, 2005, the United States Congress issued a concurrent resolution calling on the President of the United States to issue a proclamation calling upon the people of the United States to observe Cinco de Mayo with appropriate ceremonies and activities.[37] To celebrate, many display Cinco de Mayo banners while school districts hold special events to educate students about its historical significance. Special events and celebrations highlight Mexican culture, especially in its music and regional dancing. Examples include baile folklórico and mariachi demonstrations held annually at the Plaza del Pueblo de Los Ángeles, near Olvera Street. Commercial interests in the United States have capitalized on the celebration, advertising Mexican products and services, with an emphasis on alcoholic beverages,[38][39] foods, and music.[40][41]",
+          "text_sha256": "b77b29288d42ac6896a0d9736f7d3a80e3581a9bad3efc377b921a8233c9d1b1",
+          "char_start": 0,
+          "char_end": 847,
+          "tokens_with_specials": 161,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6364991664886475,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.975385721710964,
+          0.975385721710964,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.975385721710964,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.14830327033996582,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9876161813735962
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8393129110336304
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8327370882034302
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7647292017936707
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6068909168243408
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5326862335205078
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5007567405700684
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.48845747113227844
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__BN1__unfiltered",
+          "request_sha256": "3228d7e0bb887ecd905f6cc474699c0cc5b8cb6d92d22edadf66df50a6ca57dc",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico. It is also observed in other parts of Mexico by people of Mexican ancestry living in the United States.",
+            "first_call_id": "NanoNQ:test2598__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__BN1__filtered",
+          "request_sha256": "1bab80030eeb2963a23bc7e0ee7f51defb1a48d41c4629f0fa2c8df2f6ad2c4c",
+          "reference": {
+            "status": "ok",
+            "answer": "The Day of the Dead (Día de los Muertos) is celebrated throughout Mexico, particularly in the Central and South regions.",
+            "first_call_id": "NanoNQ:test2598__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Day of the Dead (Día de Muertos) is celebrated throughout Mexico, particularly in the Central and South regions.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "04d127494e98fe2c78caa6269587c4b8d6bfdeaf401b9e5151f600282e00637c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/BN/2",
+          "instance_key": "04d127494e98fe2c78caa6269587c4b8d6bfdeaf401b9e5151f600282e00637c",
+          "chunk_index": 0,
+          "copied_from": "doc88934",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nOriginally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "1331abde28c7a9d21e693c4dd63860d595082edf10f0fa89771294658e15606a",
+          "char_start": 0,
+          "char_end": 858,
+          "tokens_with_specials": 169,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6891046166419983,
+          "kept": false
+        },
+        {
+          "chunk_id": "3fd72a0ffa49fa5f6b3eae556a7869180f3c06990b5b89c763c2d5cc6d3a258c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/BN/1",
+          "instance_key": "3fd72a0ffa49fa5f6b3eae556a7869180f3c06990b5b89c763c2d5cc6d3a258c",
+          "chunk_index": 0,
+          "copied_from": "doc88934",
+          "copy_number": 1,
+          "text": "Source excerpt.\nOriginally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "ddbb15cbe616780ac3c02f2d32a13f3f8c82c0dc7cea785bf2df57c59be8212d",
+          "char_start": 0,
+          "char_end": 855,
+          "tokens_with_specials": 169,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6881324052810669,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          2.6604560876651853,
+          2.6829681498157143,
+          2.667021689059684,
+          2.1020562579073214,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 2.1020562579073214,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.21111297607421875,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9990920424461365
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9902647137641907
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9876161813735962
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8393129110336304
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.839141845703125
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8327370882034302
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6068909168243408
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6063147187232971
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5996783971786499
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__BN2__unfiltered",
+          "request_sha256": "cf23c3fb8d30cc1f53e8083e40f007b9c8d5f8f37b165520b2a50a74864cdce5",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in Central and South regions of Mexico.",
+            "first_call_id": "NanoNQ:test2598__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in Central and South regions of Mexico.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__BN2__filtered",
+          "request_sha256": "ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2598__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": true
+        },
+        {
+          "chunk_id": "92dc043fe06ce75b33b05aeef50dd0a2f80448221b3dd561cf2058dbfcbdc52a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/PN/1",
+          "instance_key": "92dc043fe06ce75b33b05aeef50dd0a2f80448221b3dd561cf2058dbfcbdc52a",
+          "chunk_index": 0,
+          "copied_from": "doc88931",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "9dcac8de0e423ca4cbe8b7a5cfcd43b48f013b64d1533eeba188a78fef9c4fa5",
+          "char_start": 0,
+          "char_end": 606,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6764221787452698,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        },
+        {
+          "chunk_id": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127040",
+          "instance_key": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On June 7, 2005, the United States Congress issued a concurrent resolution calling on the President of the United States to issue a proclamation calling upon the people of the United States to observe Cinco de Mayo with appropriate ceremonies and activities.[37] To celebrate, many display Cinco de Mayo banners while school districts hold special events to educate students about its historical significance. Special events and celebrations highlight Mexican culture, especially in its music and regional dancing. Examples include baile folklórico and mariachi demonstrations held annually at the Plaza del Pueblo de Los Ángeles, near Olvera Street. Commercial interests in the United States have capitalized on the celebration, advertising Mexican products and services, with an emphasis on alcoholic beverages,[38][39] foods, and music.[40][41]",
+          "text_sha256": "b77b29288d42ac6896a0d9736f7d3a80e3581a9bad3efc377b921a8233c9d1b1",
+          "char_start": 0,
+          "char_end": 847,
+          "tokens_with_specials": 161,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6364991664886475,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9858820407985469,
+          0.9858820407985469,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9858820407985469,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.15338826179504395,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9929159283638
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8395276665687561
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7647292017936707
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6003061532974243
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5326863527297974
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.48845750093460083
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.484531044960022
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__PN1__unfiltered",
+          "request_sha256": "e25cb0032b59134c836a549aba0774f083b28959246d129873baf3c9ba7039c4",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico. It is also observed by people of Mexican ancestry living in other places, especially the United States.",
+            "first_call_id": "NanoNQ:test2598__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico. It is also observed by people of Mexican ancestry living in other places, especially the United States.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__PN1__filtered",
+          "request_sha256": "d5299e81ae7133a42b628e8f7dedce7617b053f6cb9ca531f5deb8fa241ed653",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in northern Mexico, though it was introduced as a national holiday there.",
+            "first_call_id": "NanoNQ:test2598__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in northern Mexico, where it was introduced as a national holiday by the Mexican government.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "92dc043fe06ce75b33b05aeef50dd0a2f80448221b3dd561cf2058dbfcbdc52a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/PN/1",
+          "instance_key": "92dc043fe06ce75b33b05aeef50dd0a2f80448221b3dd561cf2058dbfcbdc52a",
+          "chunk_index": 0,
+          "copied_from": "doc88931",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "9dcac8de0e423ca4cbe8b7a5cfcd43b48f013b64d1533eeba188a78fef9c4fa5",
+          "char_start": 0,
+          "char_end": 606,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6764221787452698,
+          "kept": false
+        },
+        {
+          "chunk_id": "d0b36cf03a644644dc29e794df81ae4a9e1704f2e88707ddae1f6d0f6208a581:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/PN/2",
+          "instance_key": "d0b36cf03a644644dc29e794df81ae4a9e1704f2e88707ddae1f6d0f6208a581",
+          "chunk_index": 0,
+          "copied_from": "doc88931",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a5badc15331edf838c5b1d84865bcd5d3a698a91ee351b0b3a7829bdf295acfa",
+          "char_start": 0,
+          "char_end": 609,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6760034561157227,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.1105787082968206,
+          2.6891790514668052,
+          2.6867205178654032,
+          2.677232370715341,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.1105787082968206,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.21582794189453125,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9992448687553406
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9934305548667908
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9929159283638
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8395276665687561
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8374520540237427
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6003061532974243
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5983049273490906
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__PN2__unfiltered",
+          "request_sha256": "23405e44ae8686f91725d073b3398d12ec4f1493fce7bb15a802c3b42a5705e5",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico, as well as by people of Mexican ancestry living in other places, especially the United States.",
+            "first_call_id": "NanoNQ:test2598__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__PN2__filtered",
+          "request_sha256": "ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2598__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "64cf158ab09e5d585d799199ede5190425357e43ee29197e180a5225767561d5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/BE/1",
+          "instance_key": "64cf158ab09e5d585d799199ede5190425357e43ee29197e180a5225767561d5",
+          "chunk_index": 0,
+          "copied_from": "doc88934",
+          "copy_number": 1,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6699403524398804,
+          "kept": true
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        },
+        {
+          "chunk_id": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127040",
+          "instance_key": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On June 7, 2005, the United States Congress issued a concurrent resolution calling on the President of the United States to issue a proclamation calling upon the people of the United States to observe Cinco de Mayo with appropriate ceremonies and activities.[37] To celebrate, many display Cinco de Mayo banners while school districts hold special events to educate students about its historical significance. Special events and celebrations highlight Mexican culture, especially in its music and regional dancing. Examples include baile folklórico and mariachi demonstrations held annually at the Plaza del Pueblo de Los Ángeles, near Olvera Street. Commercial interests in the United States have capitalized on the celebration, advertising Mexican products and services, with an emphasis on alcoholic beverages,[38][39] foods, and music.[40][41]",
+          "text_sha256": "b77b29288d42ac6896a0d9736f7d3a80e3581a9bad3efc377b921a8233c9d1b1",
+          "char_start": 0,
+          "char_end": 847,
+          "tokens_with_specials": 161,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6364991664886475,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.16068726778030396,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7647292017936707
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5326863527297974
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5326863527297974
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.48845750093460083
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__BE1__unfiltered",
+          "request_sha256": "1bf1070ff54a3cefe949a559610f4ec6ace76d1aab7ce94c05b7ec087046d178",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "first_call_id": "NanoNQ:test2598__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated throughout Mexico, particularly in the Central and South regions.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__BE1__filtered",
+          "request_sha256": "1bab80030eeb2963a23bc7e0ee7f51defb1a48d41c4629f0fa2c8df2f6ad2c4c",
+          "reference": {
+            "status": "ok",
+            "answer": "The Day of the Dead (Día de los Muertos) is celebrated throughout Mexico, particularly in the Central and South regions.",
+            "first_call_id": "NanoNQ:test2598__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Day of the Dead (Día de Muertos) is celebrated throughout Mexico, particularly in the Central and South regions.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "58e1e6feed8e215a2d355d2ef0c80df34dc90e3444a4cff3f656736b2dbb2774:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/BE/2",
+          "instance_key": "58e1e6feed8e215a2d355d2ef0c80df34dc90e3444a4cff3f656736b2dbb2774",
+          "chunk_index": 0,
+          "copied_from": "doc88934",
+          "copy_number": 2,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "64cf158ab09e5d585d799199ede5190425357e43ee29197e180a5225767561d5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/BE/1",
+          "instance_key": "64cf158ab09e5d585d799199ede5190425357e43ee29197e180a5225767561d5",
+          "chunk_index": 0,
+          "copied_from": "doc88934",
+          "copy_number": 1,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.704446539411041,
+          2.704446539411041,
+          2.704446539411041,
+          2.1133381877215633,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.1133381877215633,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.21768873929977417,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5996783971786499
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__BE2__unfiltered",
+          "request_sha256": "28fa7209020654abcbb41ce97f91888b8717ad9142665df53c78fbd0efa9baf9",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "first_call_id": "NanoNQ:test2598__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in Central and South regions of Mexico.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__BE2__filtered",
+          "request_sha256": "ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2598__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": true
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "e691143604bd5834619a4cb89f81770a886c0b5c9ac95a016fa4af7194eb364f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/PE/1",
+          "instance_key": "e691143604bd5834619a4cb89f81770a886c0b5c9ac95a016fa4af7194eb364f",
+          "chunk_index": 0,
+          "copied_from": "doc88931",
+          "copy_number": 1,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        },
+        {
+          "chunk_id": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127040",
+          "instance_key": "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On June 7, 2005, the United States Congress issued a concurrent resolution calling on the President of the United States to issue a proclamation calling upon the people of the United States to observe Cinco de Mayo with appropriate ceremonies and activities.[37] To celebrate, many display Cinco de Mayo banners while school districts hold special events to educate students about its historical significance. Special events and celebrations highlight Mexican culture, especially in its music and regional dancing. Examples include baile folklórico and mariachi demonstrations held annually at the Plaza del Pueblo de Los Ángeles, near Olvera Street. Commercial interests in the United States have capitalized on the celebration, advertising Mexican products and services, with an emphasis on alcoholic beverages,[38][39] foods, and music.[40][41]",
+          "text_sha256": "b77b29288d42ac6896a0d9736f7d3a80e3581a9bad3efc377b921a8233c9d1b1",
+          "char_start": 0,
+          "char_end": 847,
+          "tokens_with_specials": 161,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6364991664886475,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.1606871485710144,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7647292017936707
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5326863527297974
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.48845750093460083
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.48845750093460083
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__PE1__unfiltered",
+          "request_sha256": "45e7146369531743042ef207191b63a7784c5b32541739f9661fcf5ab9f60a24",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "first_call_id": "NanoNQ:test2598__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__PE1__filtered",
+          "request_sha256": "d5299e81ae7133a42b628e8f7dedce7617b053f6cb9ca531f5deb8fa241ed653",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in northern Mexico, though it was introduced as a national holiday there.",
+            "first_call_id": "NanoNQ:test2598__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in northern Mexico, where it was introduced as a national holiday by the Mexican government.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2598",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88934",
+          "instance_key": "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally, the Day of the Dead as such was not celebrated in northern Mexico, where it was unknown until the 20th century because its indigenous people had different traditions. The people and the church rejected it as a day related to syncretizing pagan elements with Catholic Christianity. They held the traditional 'All Saints' Day' in the same way as other Christians in the world. There was limited Mesoamerican influence in this region, and relatively few indigenous inhabitants from the regions of Southern Mexico, where the holiday was celebrated. In the early 21st century in northern Mexico, DÃ­a de Muertos is observed because the Mexican government made it a national holiday based on educational policies from the 1960s; it has introduced this holiday as a unifying national tradition based on indigenous traditions.[7][8][9]",
+          "text_sha256": "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+          "char_start": 0,
+          "char_end": 839,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7028964161872864,
+          "kept": false
+        },
+        {
+          "chunk_id": "615a51c219d47dac002d38a0912e0662fc42c1bf5099a7acd123badd5cf82b33:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/PE/2",
+          "instance_key": "615a51c219d47dac002d38a0912e0662fc42c1bf5099a7acd123badd5cf82b33",
+          "chunk_index": 0,
+          "copied_from": "doc88931",
+          "copy_number": 2,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc88931",
+          "instance_key": "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "e691143604bd5834619a4cb89f81770a886c0b5c9ac95a016fa4af7194eb364f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2598/PE/1",
+          "instance_key": "e691143604bd5834619a4cb89f81770a886c0b5c9ac95a016fa4af7194eb364f",
+          "chunk_index": 0,
+          "copied_from": "doc88931",
+          "copy_number": 1,
+          "text": "The Day of the Dead (Spanish: DÃ­a de Muertos) is a Mexican holiday celebrated throughout Mexico, in particular the Central and South regions, and by people of Mexican ancestry living in other places, especially the United States. It is acknowledged internationally in many other cultures. The multi-day holiday focuses on gatherings of family and friends to pray for and remember friends and family members who have died, and help support their spiritual journey. In 2008, the tradition was inscribed in the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.[1]",
+          "text_sha256": "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6699403524398804,
+          "kept": false
+        },
+        {
+          "chunk_id": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc127031",
+          "instance_key": "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico.[3][4][5][6] In the U.S. the date has become associated with the celebration of Mexican-American culture. In Mexico, the commemoration of the battle continues to be mostly ceremonial, such as through military parades.",
+          "text_sha256": "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+          "char_start": 0,
+          "char_end": 303,
+          "tokens_with_specials": 73,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6605473756790161,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.1133381877215633,
+          2.7044460625738544,
+          2.7044460625738544,
+          2.7044460625738544,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.1133381877215633,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.21768873929977417,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8393128514289856
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6216241121292114
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5996783971786499
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5996783971786499
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2598__PE2__unfiltered",
+          "request_sha256": "37ca70cca956f167b3e1566fb1c3e13ed8cc75c4a012b7ce495967becfcb8812",
+          "reference": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico, as well as by people of Mexican ancestry living in other places, especially the United States.",
+            "first_call_id": "NanoNQ:test2598__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Dia de los Muertos is celebrated in the Central and South regions of Mexico.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2598__PE2__filtered",
+          "request_sha256": "ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2598__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

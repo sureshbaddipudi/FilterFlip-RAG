@@ -1,0 +1,2751 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test2079",
+    "dataset": "NanoNQ",
+    "question": "who sings somebody's watching me with michael jackson",
+    "source_family": "NanoNQ:test2079",
+    "review_status": "assistant_only",
+    "target_document_id": "doc72413",
+    "expected_answer": "Rockwell",
+    "answer_aliases": [],
+    "support_quote": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+    "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+    "qrel_document_ids": [
+      "doc72413"
+    ],
+    "family_reference_texts": [
+      "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test2079",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc72413",
+    "expected_answer": "Rockwell",
+    "answer_aliases": [],
+    "support_quote": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+    "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test2079",
+    "dataset": "NanoNQ",
+    "question": "who sings somebody's watching me with michael jackson",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test2079",
+      "dataset": "NanoNQ",
+      "question": "who sings somebody's watching me with michael jackson",
+      "expected_answer": "Rockwell",
+      "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Clean-answer prerequisite fails",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "baseline_failure",
+      "historical_rationale": "C filtered names Michael Jackson instead of answering Rockwell; BN1 filtered abstains. PN1 filtered also abstains, but the required clean-correct baseline fails.",
+      "current_assistant_rationale": "C filtered names Michael Jackson instead of answering Rockwell; BN1 filtered abstains. PN1 filtered also abstains, but the required clean-correct baseline fails.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/12",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/12",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test2079.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 109,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 73,
+              "call_id": "NanoNQ:test2079__C__unfiltered",
+              "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 74,
+              "call_id": "NanoNQ:test2079__C__filtered",
+              "request_sha256": "bcd87ea50118b5a73de0a19e3a5d9afa2b30ab389361c57a9468aeba4cb19388"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 110,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 75,
+              "call_id": "NanoNQ:test2079__BN1__unfiltered",
+              "request_sha256": "ac6fa3debd6c8bd69130e3de110790c084e55a809bc4ea20775efa0d525d02d9"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 76,
+              "call_id": "NanoNQ:test2079__BN1__filtered",
+              "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 112,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 77,
+              "call_id": "NanoNQ:test2079__PN1__unfiltered",
+              "request_sha256": "91124eff798a547eb185ddb651accb0a89506be7fc401d413f5a644ef0276e1a"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 78,
+              "call_id": "NanoNQ:test2079__PN1__filtered",
+              "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test2079",
+    "question": "who sings somebody's watching me with michael jackson",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test2079"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": true
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5329327583312988,
+          "kept": false
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5212666988372803,
+          "kept": false
+        },
+        {
+          "chunk_id": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc86071",
+          "instance_key": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+          "text_sha256": "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5064040422439575,
+          "kept": true
+        },
+        {
+          "chunk_id": "813d5b1650851c22bb84b9a16a9e75f1bf417637aaa2681b27836bab756c454f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc474256",
+          "instance_key": "813d5b1650851c22bb84b9a16a9e75f1bf417637aaa2681b27836bab756c454f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song was performed live on all of Jackson's tours.",
+          "text_sha256": "66cdc6f3993953a71001d4b91c385ddd9fd408ebcc3511a42da34e72a59866d4",
+          "char_start": 0,
+          "char_end": 54,
+          "tokens_with_specials": 15,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.48713135719299316,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.0,
+          0.3035771560095988,
+          0.3035771560095988,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.3035771560095988,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.029989302158355713,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5209890604019165
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4721682071685791
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4422089159488678
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.39920473098754883
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.3988054394721985
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.3816835880279541
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3380352854728699
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__C__unfiltered",
+          "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+          "reference": {
+            "status": "ok",
+            "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+            "first_call_id": "NanoNQ:test2079__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__C__filtered",
+          "request_sha256": "bcd87ea50118b5a73de0a19e3a5d9afa2b30ab389361c57a9468aeba4cb19388",
+          "reference": {
+            "status": "ok",
+            "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+            "first_call_id": "NanoNQ:test2079__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Michael Jackson in the chorus of \"Somebody's Watching Me.\"",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": true
+        },
+        {
+          "chunk_id": "709b5c7333f497a210a48f3635700e9035f3c7c5326901d2f041190e9eec902b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/BN/1",
+          "instance_key": "709b5c7333f497a210a48f3635700e9035f3c7c5326901d2f041190e9eec902b",
+          "chunk_index": 0,
+          "copied_from": "doc2353712",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAccording to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are",
+          "text_sha256": "d6843e73917220d4ba4e17d998e760b803ae52e6141db8aa51514748cecb97e1",
+          "char_start": 0,
+          "char_end": 1033,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5356284379959106,
+          "kept": false
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5329327583312988,
+          "kept": false
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5212666988372803,
+          "kept": true
+        },
+        {
+          "chunk_id": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc86071",
+          "instance_key": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+          "text_sha256": "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5064040422439575,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.9841024012840514,
+          0.9841024012840514,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9841024012840514,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4316787123680115,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9920193552970886
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5603406429290771
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4422089159488678
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.41843247413635254
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3999589681625366
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.39920473098754883
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.3988054394721985
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.39252036809921265
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__BN1__unfiltered",
+          "request_sha256": "ac6fa3debd6c8bd69130e3de110790c084e55a809bc4ea20775efa0d525d02d9",
+          "reference": {
+            "status": "ok",
+            "answer": "Michael Jackson sings \"Somebody's Watching Me\" with additional backing vocals from Jermaine Jackson.",
+            "first_call_id": "NanoNQ:test2079__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__BN1__filtered",
+          "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2079__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": true
+        },
+        {
+          "chunk_id": "709b5c7333f497a210a48f3635700e9035f3c7c5326901d2f041190e9eec902b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/BN/1",
+          "instance_key": "709b5c7333f497a210a48f3635700e9035f3c7c5326901d2f041190e9eec902b",
+          "chunk_index": 0,
+          "copied_from": "doc2353712",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAccording to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are",
+          "text_sha256": "d6843e73917220d4ba4e17d998e760b803ae52e6141db8aa51514748cecb97e1",
+          "char_start": 0,
+          "char_end": 1033,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5356284379959106,
+          "kept": false
+        },
+        {
+          "chunk_id": "255ce7e785f873b4f0b385abc20cfe34eee5fa39a7899d4f61704f5147fb15e1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/BN/2",
+          "instance_key": "255ce7e785f873b4f0b385abc20cfe34eee5fa39a7899d4f61704f5147fb15e1",
+          "chunk_index": 0,
+          "copied_from": "doc2353712",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nAccording to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are",
+          "text_sha256": "edbe64b666c6312924214852444f99696f825129f36a6c9bec89c007ca8a5927",
+          "char_start": 0,
+          "char_end": 1036,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5329990386962891,
+          "kept": false
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5329327583312988,
+          "kept": false
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5212666988372803,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.9818396599067434,
+          1.9858006660087995,
+          1.9721658086701588,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9721658086701588,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4316787123680115,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9988679885864258
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.994013786315918
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9920193552970886
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5603406429290771
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5532107949256897
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3999589681625366
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.3977239727973938
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.39252036809921265
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__BN2__unfiltered",
+          "request_sha256": "bd8485b86a0e0e34078e528c38e41fe6381958f8210faa6ec191a77c77e4f474",
+          "reference": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Rockwell on \"Somebody's Watching Me.\"",
+            "first_call_id": "NanoNQ:test2079__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Rockwell on \"Somebody's Watching Me.\"",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__BN2__filtered",
+          "request_sha256": "5faac84c8cc1240515d2daa6e36172085d0062e82619eaae8f78228c783519f1",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2079__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Rockwell in the chorus of \"Somebody's Watching Me.\"",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": false
+        },
+        {
+          "chunk_id": "7cfd053607c070ec3c351ac80fb492306ab19b846ddca6891ec93f9357cd51c2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/PN/1",
+          "instance_key": "7cfd053607c070ec3c351ac80fb492306ab19b846ddca6891ec93f9357cd51c2",
+          "chunk_index": 0,
+          "copied_from": "doc72413",
+          "copy_number": 1,
+          "text": "Source excerpt.\n\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "90e9af3c8f1775d3b77846c506c8d17146814387d501a9421b1587998aef7190",
+          "char_start": 0,
+          "char_end": 372,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.821399450302124,
+          "kept": false
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5329327583312988,
+          "kept": true
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5212666988372803,
+          "kept": true
+        },
+        {
+          "chunk_id": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc86071",
+          "instance_key": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+          "text_sha256": "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5064040422439575,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9839097685558187,
+          0.9839097685558187,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9839097685558187,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4409438967704773,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9919222593307495
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4615488052368164
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4422089159488678
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.39920473098754883
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.3988054394721985
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.39334723353385925
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.3779173791408539
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__PN1__unfiltered",
+          "request_sha256": "91124eff798a547eb185ddb651accb0a89506be7fc401d413f5a644ef0276e1a",
+          "reference": {
+            "status": "ok",
+            "answer": "Michael Jackson sings \"Somebody's Watching Me\" with Rockwell, and Michael Jackson also provides vocals in the chorus.",
+            "first_call_id": "NanoNQ:test2079__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Rockwell in the chorus of \"Somebody's Watching Me.\"",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__PN1__filtered",
+          "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2079__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": false
+        },
+        {
+          "chunk_id": "7cfd053607c070ec3c351ac80fb492306ab19b846ddca6891ec93f9357cd51c2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/PN/1",
+          "instance_key": "7cfd053607c070ec3c351ac80fb492306ab19b846ddca6891ec93f9357cd51c2",
+          "chunk_index": 0,
+          "copied_from": "doc72413",
+          "copy_number": 1,
+          "text": "Source excerpt.\n\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "90e9af3c8f1775d3b77846c506c8d17146814387d501a9421b1587998aef7190",
+          "char_start": 0,
+          "char_end": 372,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.821399450302124,
+          "kept": false
+        },
+        {
+          "chunk_id": "7528ef3f871984c0872b3ff87c746c70ad7b7c5f02732cfa2ff1222b9b427dcc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/PN/2",
+          "instance_key": "7528ef3f871984c0872b3ff87c746c70ad7b7c5f02732cfa2ff1222b9b427dcc",
+          "chunk_index": 0,
+          "copied_from": "doc72413",
+          "copy_number": 2,
+          "text": "Reference excerpt.\n\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "31b200de8d11e6b0f520742ee48cbc1661acd6469febcd0f1bb11cee4ae08e09",
+          "char_start": 0,
+          "char_end": 375,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.820934534072876,
+          "kept": false
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5329327583312988,
+          "kept": true
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5212666988372803,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.9678300610647348,
+          1.9826556034718834,
+          1.9826661274249808,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.9678300610647348,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4409438967704773,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9993727207183838
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9919275641441345
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9919222593307495
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.39334723353385925
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.3862858712673187
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.3779173791408539
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.37244701385498047
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__PN2__unfiltered",
+          "request_sha256": "82a408f9f6f4278ec13ffd1807313f75730a0c686096863887df4bcd3e449931",
+          "reference": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Rockwell in the chorus of \"Somebody's Watching Me.\"",
+            "first_call_id": "NanoNQ:test2079__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson in the chorus.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__PN2__filtered",
+          "request_sha256": "dc0f44130c6439c23e99d1779fded334286fd4f59ed69179029a70de3d0d5546",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2079__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": true
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5329327583312988,
+          "kept": false
+        },
+        {
+          "chunk_id": "b868131ee03c32b739c191aabfa65f294d62c5fce958c241a2295a6bb8293c6d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/BE/1",
+          "instance_key": "b868131ee03c32b739c191aabfa65f294d62c5fce958c241a2295a6bb8293c6d",
+          "chunk_index": 0,
+          "copied_from": "doc2353712",
+          "copy_number": 1,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5329327583312988,
+          "kept": false
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5212666988372803,
+          "kept": true
+        },
+        {
+          "chunk_id": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc86071",
+          "instance_key": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+          "text_sha256": "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5064040422439575,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4490218758583069,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4422089159488678
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.39920473098754883
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.3988054394721985
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.3988054394721985
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.39252036809921265
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__BE1__unfiltered",
+          "request_sha256": "1966e1dd070a7e7c0032d9deccdecb557247ac505f8a3daafb8cda506c940acf",
+          "reference": {
+            "status": "ok",
+            "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+            "first_call_id": "NanoNQ:test2079__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings \"Somebody's Watching Me\" with additional backing vocals from Jermaine Jackson.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__BE1__filtered",
+          "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2079__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": true
+        },
+        {
+          "chunk_id": "513a15ec114c91a1500f3bd3d1d18352ecd9e7f30440487487a2df5cb29f84c1:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/BE/2",
+          "instance_key": "513a15ec114c91a1500f3bd3d1d18352ecd9e7f30440487487a2df5cb29f84c1",
+          "chunk_index": 0,
+          "copied_from": "doc2353712",
+          "copy_number": 2,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5329327583312988,
+          "kept": false
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5329327583312988,
+          "kept": false
+        },
+        {
+          "chunk_id": "b868131ee03c32b739c191aabfa65f294d62c5fce958c241a2295a6bb8293c6d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/BE/1",
+          "instance_key": "b868131ee03c32b739c191aabfa65f294d62c5fce958c241a2295a6bb8293c6d",
+          "chunk_index": 0,
+          "copied_from": "doc2353712",
+          "copy_number": 1,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5329327583312988,
+          "kept": false
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5212666988372803,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          2.00000095367443,
+          2.00000095367443,
+          2.00000095367443,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.00000095367443,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4490218758583069,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.39252036809921265
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__BE2__unfiltered",
+          "request_sha256": "f045356fac48e2209e91755c00b6bb8af4ca19e291a38573c0ee67c51f86a9de",
+          "reference": {
+            "status": "ok",
+            "answer": "Jermaine Jackson sings with Michael Jackson on the chorus.",
+            "first_call_id": "NanoNQ:test2079__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__BE2__filtered",
+          "request_sha256": "5faac84c8cc1240515d2daa6e36172085d0062e82619eaae8f78228c783519f1",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2079__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Rockwell in the chorus of \"Somebody's Watching Me.\"",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "831f7d65b05552e2bd9c5e40599cadca99dc5e788323f612826a199ebc7bef3a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/PE/1",
+          "instance_key": "831f7d65b05552e2bd9c5e40599cadca99dc5e788323f612826a199ebc7bef3a",
+          "chunk_index": 0,
+          "copied_from": "doc72413",
+          "copy_number": 1,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": false
+        },
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8341701030731201,
+          "kept": false
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5329327583312988,
+          "kept": true
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5212666988372803,
+          "kept": true
+        },
+        {
+          "chunk_id": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc86071",
+          "instance_key": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+          "text_sha256": "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5064040422439575,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4490216374397278,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4422089159488678
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4422089159488678
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.39920473098754883
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.3988054394721985
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.39252036809921265
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__PE1__unfiltered",
+          "request_sha256": "b5587b2eca381ccc2241f0b7fe4b8f643729f216c4a26f3395509f0c908dd5d8",
+          "reference": {
+            "status": "ok",
+            "answer": "Jermaine Jackson sings with Michael Jackson on the chorus of \"Somebody's Watching Me.\"",
+            "first_call_id": "NanoNQ:test2079__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Rockwell in \"Somebody's Watching Me.\"",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__PE1__filtered",
+          "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2079__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test2079",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "831f7d65b05552e2bd9c5e40599cadca99dc5e788323f612826a199ebc7bef3a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/PE/1",
+          "instance_key": "831f7d65b05552e2bd9c5e40599cadca99dc5e788323f612826a199ebc7bef3a",
+          "chunk_index": 0,
+          "copied_from": "doc72413",
+          "copy_number": 1,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201,
+          "kept": false
+        },
+        {
+          "chunk_id": "ac543482e67ea6983b08abc1a1e2376c33b1d6e9d07c37a0b83f0cda43016dac:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/PE/2",
+          "instance_key": "ac543482e67ea6983b08abc1a1e2376c33b1d6e9d07c37a0b83f0cda43016dac",
+          "chunk_index": 0,
+          "copied_from": "doc72413",
+          "copy_number": 2,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8341701030731201,
+          "kept": false
+        },
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8341701030731201,
+          "kept": false
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5329327583312988,
+          "kept": true
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5212666988372803,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.4490216374397278,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5509783625602722
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4022817015647888
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.39252036809921265
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.39252036809921265
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test2079__PE2__unfiltered",
+          "request_sha256": "9d45f73b5fe2a536a36dd20ba0fd0af659186f5d0093e1c94f393c39df592019",
+          "reference": {
+            "status": "ok",
+            "answer": "Michael Jackson sings with Rockwell in \"Somebody's Watching Me.\"",
+            "first_call_id": "NanoNQ:test2079__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson in the chorus.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test2079__PE2__filtered",
+          "request_sha256": "dc0f44130c6439c23e99d1779fded334286fd4f59ed69179029a70de3d0d5546",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test2079__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

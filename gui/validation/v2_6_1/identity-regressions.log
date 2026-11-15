@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "checks": 11,
+  "passed": [
+    "reload reconnect restores non-default question, mitigation mode and BN1 before displaying run",
+    "reload retains original paired-condition identity",
+    "delayed recorded reply discarded after case change",
+    "delayed recorded reply discarded after condition change",
+    "delayed recorded reply discarded after mode change",
+    "starting a live run discards an outstanding recorded reply",
+    "second inspection supersedes first even for same question",
+    "current recorded reply still renders and selection change hides it",
+    "stale recorded errors do not overwrite status of newer selection",
+    "current recorded error remains visible",
+    "a late poll for an old completed run cannot replace a new run"
+  ],
+  "synthetic_only": true,
+  "model_calls": 0,
+  "HTTP_calls": 0,
+  "browser_download_dialog": "not exercised"
+}

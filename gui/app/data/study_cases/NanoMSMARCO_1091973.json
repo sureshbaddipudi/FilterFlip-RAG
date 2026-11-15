@@ -1,0 +1,2933 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1091973",
+    "dataset": "NanoMSMARCO",
+    "question": "benson radiology",
+    "source_family": "NanoMSMARCO:1091973",
+    "review_status": "assistant_only",
+    "target_document_id": "7870707",
+    "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+    "answer_aliases": [],
+    "support_quote": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+    "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+    "qrel_document_ids": [
+      "7870707"
+    ],
+    "family_reference_texts": [
+      "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:1091973",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "7870707",
+    "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+    "answer_aliases": [],
+    "support_quote": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+    "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used. HUMAN CHECK: Confirm that this entity-only query should be included as a definition task rather than a navigational search."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:1091973",
+    "dataset": "NanoMSMARCO",
+    "question": "benson radiology",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "non-event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:1091973",
+      "dataset": "NanoMSMARCO",
+      "question": "benson radiology",
+      "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+      "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Needs adjudication",
+      "reason_group": "Unresolved rubric/support judgment",
+      "historical_decision": "needs_adjudication",
+      "historical_reason_code": "new_rubric_or_grounding_issue",
+      "historical_rationale": "The topic-only query has a frozen provider/services-and-region definition. The clean answer only says Benson Radiology is in North Adelaide and mentions Yelp reviews. PN1 unfiltered provides the full description, and PN1 filtered abstains. Whether the clean location-only answer is usable for the broad query is rubric-sensitive; it fails the full definition and is left for review rather than promoted to an event.",
+      "current_assistant_rationale": "The topic-only query has a frozen provider/services-and-region definition. The clean answer only says Benson Radiology is in North Adelaide and mentions Yelp reviews. PN1 unfiltered provides the full description, and PN1 filtered abstains. Whether the clean location-only answer is usable for the broad query is rubric-sensitive; it fails the full definition and is left for review rather than promoted to an event.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/43",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/43",
+      "review_priority": 2,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoMSMARCO_1091973.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 388,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 259,
+              "call_id": "NanoMSMARCO:1091973__C__unfiltered",
+              "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 260,
+              "call_id": "NanoMSMARCO:1091973__C__filtered",
+              "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 389,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 261,
+              "call_id": "NanoMSMARCO:1091973__BN1__unfiltered",
+              "request_sha256": "bab44e73282c7b8d9f0d3dde43504535a69fc0032b82346cbe10859930d5594f"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 262,
+              "call_id": "NanoMSMARCO:1091973__BN1__filtered",
+              "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 391,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 263,
+              "call_id": "NanoMSMARCO:1091973__PN1__unfiltered",
+              "request_sha256": "ccd234f64cafeb28c0cc0b8d330cd9acd48f6f3ce81bdb026ff97fd501cb47f2"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 264,
+              "call_id": "NanoMSMARCO:1091973__PN1__filtered",
+              "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoMSMARCO:1091973",
+      "Question": "benson radiology",
+      "Evidence packet": "evidence/NanoMSMARCO_1091973.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "no",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "abstention",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: C removed P1 7870707 (organization description); filtered answer only \"located in North Adelaide ... reviews ... on Yelp\" - does not say it is a radiology provider. Q2: PN1 P2 copy of 7870707. Q3: full description (22 clinics, Adelaide and SE South Australia). Q4: survivors P3 7870700 (Dr Amy Benson, TX), P4 7870705 (Yelp North Adelaide), P5 2104181 (Benson AZ). Q5: abstention. Q6: BN1 answer matches frozen description.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Reviewer decision 2026-10-14: location-only clean answer judged NOT a usable description, so prerequisite Q1 fails. Proposes resolving \"Needs adjudication\" as not an event.",
+      "workbook_row": 7,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "jointly_agreed_under_named_core_mixed_rule",
+      "assistant_prior": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "question": "benson radiology",
+        "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+        "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Needs adjudication",
+        "reason_group": "Unresolved rubric/support judgment",
+        "historical_decision": "needs_adjudication",
+        "historical_reason_code": "new_rubric_or_grounding_issue",
+        "historical_rationale": "The topic-only query has a frozen provider/services-and-region definition. The clean answer only says Benson Radiology is in North Adelaide and mentions Yelp reviews. PN1 unfiltered provides the full description, and PN1 filtered abstains. Whether the clean location-only answer is usable for the broad query is rubric-sensitive; it fails the full definition and is left for review rather than promoted to an event.",
+        "current_assistant_rationale": "The topic-only query has a frozen provider/services-and-region definition. The clean answer only says Benson Radiology is in North Adelaide and mentions Yelp reviews. PN1 unfiltered provides the full description, and PN1 filtered abstains. Whether the clean location-only answer is usable for the broad query is rubric-sensitive; it fails the full definition and is left for review rather than promoted to an event.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/43",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/43",
+        "review_priority": 2,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoMSMARCO_1091973.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 388,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 259,
+                "call_id": "NanoMSMARCO:1091973__C__unfiltered",
+                "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 260,
+                "call_id": "NanoMSMARCO:1091973__C__filtered",
+                "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 389,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 261,
+                "call_id": "NanoMSMARCO:1091973__BN1__unfiltered",
+                "request_sha256": "bab44e73282c7b8d9f0d3dde43504535a69fc0032b82346cbe10859930d5594f"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 262,
+                "call_id": "NanoMSMARCO:1091973__BN1__filtered",
+                "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 391,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 263,
+                "call_id": "NanoMSMARCO:1091973__PN1__unfiltered",
+                "request_sha256": "ccd234f64cafeb28c0cc0b8d330cd9acd48f6f3ce81bdb026ff97fd501cb47f2"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 264,
+                "call_id": "NanoMSMARCO:1091973__PN1__filtered",
+                "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only",
+      "joint_adjudication": {
+        "joint_decision": "non-event",
+        "participants": [
+          "Shradha",
+          "Suresh"
+        ],
+        "agreement_recorded_date": "2026-10-26",
+        "suresh_response": "accept",
+        "Q1_Q6": {
+          "Q1": "no",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+      }
+    },
+    "prior_joint_adjudication": {
+      "case_id": "NanoMSMARCO:1091973",
+      "case_name": "Benson Radiology",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "non-event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Benson Radiology",
+        "Suresh's Label": "Non-event",
+        "Decided by": "Q1 fails (clean pre-requisite)"
+      },
+      "Q1_Q6": {
+        "Q1": "no",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "C filtered: \"Benson Radiology is located in North Adelaide, and there are reviews by real people available on Yelp for this location.\"",
+        "Record 7870707 (only description) REMOVED in the clean condition.",
+        "PN1 filtered: \"Not enough information.\""
+      ],
+      "agreed_rationale": "Non-event: the clean prerequisite fails (Q1 no). The filter already removed the only description (7870707) in the clean condition and the clean filtered answer gives only a location, no radiology services. Under the core rule the core is what the organization is and does, so a location alone is not usable. Recorded as a clean-prerequisite exclusion, based on the answer content and not on the desired outcome. Disagreement possible: 'Adelaide' appears in the frozen answer.",
+      "original_proposal_entry": {
+        "case_id": "NanoMSMARCO:1091973",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "no",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "no",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "C filtered: \"Benson Radiology is located in North Adelaide, and there are reviews by real people available on Yelp for this location.\"",
+          "Record 7870707 (only description) REMOVED in the clean condition.",
+          "PN1 filtered: \"Not enough information.\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Non-event: the clean prerequisite fails (Q1 no). The filter already removed the only description (7870707) in the clean condition and the clean filtered answer gives only a location, no radiology services. Under the core rule the core is what the organization is and does, so a location alone is not usable. Recorded as a clean-prerequisite exclusion, based on the answer content and not on the desired outcome. Disagreement possible: 'Adelaide' appears in the frozen answer.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "non-event",
+        "suresh_response": null
+      }
+    }
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:1091973",
+    "question": "benson radiology",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "non-event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1091973"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": false
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6229149103164673,
+          "kept": true
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2104181",
+          "instance_key": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+          "text_sha256": "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5561245679855347,
+          "kept": true
+        },
+        {
+          "chunk_id": "14e283bbcbee9a5087474a877a7e597be25b3320ad7cdd99f2de49b9a1185035:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870704",
+          "instance_key": "14e283bbcbee9a5087474a877a7e597be25b3320ad7cdd99f2de49b9a1185035",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Client Outcomes. 1  Regular communication with all stakeholders provided on-going reassurance and limited any surprises throughout the project. 2  The project was completed ahead of schedule, enabling Benson Radiology to deliver services earlier than anticipated.",
+          "text_sha256": "aa655b16c68a9823acc5f9b6c40ba4ec267ec0218de8ba8a3cc58336273d19c3",
+          "char_start": 0,
+          "char_end": 263,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5473327040672302,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.38696413222922743,
+          0.0,
+          0.38696413222922743,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.011279761791229248,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6220644116401672
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.610784649848938
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5848088264465332
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5151300430297852
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4480430483818054
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.38561946153640747
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.36231958866119385
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.345040887594223
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.29493921995162964
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__C__unfiltered",
+          "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, delivering high quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__C__filtered",
+          "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is located in North Adelaide, and there are reviews by real people available on Yelp for this location.",
+            "first_call_id": "NanoMSMARCO:1091973__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is located in North Adelaide, and you can find reviews there on Yelp.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": true
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6229149103164673,
+          "kept": false
+        },
+        {
+          "chunk_id": "f00631051dc7e154f86a792ae282a0b3d0320e6d0833a6087a0e6a6c2edcff42:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/BN/1",
+          "instance_key": "f00631051dc7e154f86a792ae282a0b3d0320e6d0833a6087a0e6a6c2edcff42",
+          "chunk_index": 0,
+          "copied_from": "7870700",
+          "copy_number": 1,
+          "text": "Source excerpt.\nDr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "6222283916c52c8dd5f65f0f84fb33dde9226b7f9adfd2034f4c21eedbae4c2b",
+          "char_start": 0,
+          "char_end": 140,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6227664947509766,
+          "kept": false
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2104181",
+          "instance_key": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+          "text_sha256": "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5561245679855347,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9624702412505179,
+          0.9624702412505179,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9624702412505179,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.35899126529693604,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9810556769371033
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6220644116401672
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6114010214805603
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.610784649848938
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5238542556762695
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5151300430297852
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.46653929352760315
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4480430483818054
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.38561946153640747
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__BN1__unfiltered",
+          "request_sha256": "bab44e73282c7b8d9f0d3dde43504535a69fc0032b82346cbe10859930d5594f",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, delivering high quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a diagnostic and interventional radiology provider based in North Adelaide, South Australia, with clinics operating across Adelaide and the south-east of South Australia. They have been in operation since 1958 and invest in the latest technology and imaging techniques.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__BN1__filtered",
+          "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": true
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6229149103164673,
+          "kept": true
+        },
+        {
+          "chunk_id": "71f8b236b18d63af5884b7d1fc7db7eeeb91d4ec6d62e46a8ea04e9fc2cc24d2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/BN/2",
+          "instance_key": "71f8b236b18d63af5884b7d1fc7db7eeeb91d4ec6d62e46a8ea04e9fc2cc24d2",
+          "chunk_index": 0,
+          "copied_from": "7870700",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nDr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "5fdb09f92dded0f8ec112392d42eda1da2ca09205e0da93254895203f2763b87",
+          "char_start": 0,
+          "char_end": 143,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6228567957878113,
+          "kept": false
+        },
+        {
+          "chunk_id": "f00631051dc7e154f86a792ae282a0b3d0320e6d0833a6087a0e6a6c2edcff42:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/BN/1",
+          "instance_key": "f00631051dc7e154f86a792ae282a0b3d0320e6d0833a6087a0e6a6c2edcff42",
+          "chunk_index": 0,
+          "copied_from": "7870700",
+          "copy_number": 1,
+          "text": "Source excerpt.\nDr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "6222283916c52c8dd5f65f0f84fb33dde9226b7f9adfd2034f4c21eedbae4c2b",
+          "char_start": 0,
+          "char_end": 140,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6227664947509766,
+          "kept": false
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        4
+      ],
+      "removed_indices": [
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.9929129727325403,
+          0.9929129727325403,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.9929129727325403,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.012092947959899902,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9964501857757568
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9843572378158569
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9810558557510376
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.622064471244812
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6178960800170898
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6114009618759155
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.46653926372528076
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.46640366315841675
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4480430483818054
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__BN2__unfiltered",
+          "request_sha256": "96e5f3bf57040e16d13bff66e0ece8e668d0dfdd5dd05627c1d332a91977d884",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia. They are located in North Adelaide and can be found on Yelp.",
+            "first_call_id": "NanoMSMARCO:1091973__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia. They are located in North Adelaide and can be found on Yelp.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__BN2__filtered",
+          "request_sha256": "8e198be7a3bb0186d9a998a768461a704540189c4013db48661fdeee0748e230",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": false
+        },
+        {
+          "chunk_id": "ea38ed3cc77aac4b1a33f01c3852014a8f11f1bd65575d165a7206ad523d606a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/PN/1",
+          "instance_key": "ea38ed3cc77aac4b1a33f01c3852014a8f11f1bd65575d165a7206ad523d606a",
+          "chunk_index": 0,
+          "copied_from": "7870707",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBenson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "cfd4b90d96e859f547e22dc32769523729ad3fc8b01d905c0b76d22ce89a730b",
+          "char_start": 0,
+          "char_end": 350,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8755190372467041,
+          "kept": false
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6229149103164673,
+          "kept": true
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2104181",
+          "instance_key": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+          "text_sha256": "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5561245679855347,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9688298622861566,
+          0.9688298622861566,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9688298622861566,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3622271418571472,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9842915534973145
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6220644116401672
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.610784649848938
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6083207130432129
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6031360030174255
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5750836133956909
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5151300430297852
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4480430483818054
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.38561946153640747
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__PN1__unfiltered",
+          "request_sha256": "ccd234f64cafeb28c0cc0b8d330cd9acd48f6f3ce81bdb026ff97fd501cb47f2",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high quality imaging and care since 1958. They invest in the latest technology and operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They invest in the latest technology and operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__PN1__filtered",
+          "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1091973__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": false
+        },
+        {
+          "chunk_id": "a2b80ffc4abfa0009e9335a83aaa4c0aba57ab34f24c435f034e856652348ae5:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/PN/2",
+          "instance_key": "a2b80ffc4abfa0009e9335a83aaa4c0aba57ab34f24c435f034e856652348ae5",
+          "chunk_index": 0,
+          "copied_from": "7870707",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nBenson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "fcb90dc0c00dbf8119c9b8689b919769415e920d804fb80ab2f8bf5f57d406ea",
+          "char_start": 0,
+          "char_end": 353,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8795324563980103,
+          "kept": false
+        },
+        {
+          "chunk_id": "ea38ed3cc77aac4b1a33f01c3852014a8f11f1bd65575d165a7206ad523d606a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/PN/1",
+          "instance_key": "ea38ed3cc77aac4b1a33f01c3852014a8f11f1bd65575d165a7206ad523d606a",
+          "chunk_index": 0,
+          "copied_from": "7870707",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBenson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "cfd4b90d96e859f547e22dc32769523729ad3fc8b01d905c0b76d22ce89a730b",
+          "char_start": 0,
+          "char_end": 350,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8755190372467041,
+          "kept": false
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6229149103164673,
+          "kept": true
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.9443409745043603,
+          1.9735835897544192,
+          1.9669018704756134,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.9443409745043603,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.36222702264785767,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.999035656452179
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9876797795295715
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9842914342880249
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6220644116401672
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6083207130432129
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6073031425476074
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6031360030174255
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6014311909675598
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4480430483818054
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__PN2__unfiltered",
+          "request_sha256": "a75360ca42c7a8ba51d410400bc90f0d5d24194895849284562aa37ec8428e6f",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, delivering high quality imaging and care since 1958. They invest in the latest technology and imaging techniques across 22 clinics in Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high quality imaging and care since 1958. They invest in the latest technology and operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__PN2__filtered",
+          "request_sha256": "bfbed6ff093db3d3b02e8a767c9ab62260aa1261b5732a8c3469ed2aa2a097d9",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1091973__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": true
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6229149103164673,
+          "kept": false
+        },
+        {
+          "chunk_id": "b4c2625429b62939f87efe29de0e84d1a9cacc1802de1c7ad7a9be75b047086e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/BE/1",
+          "instance_key": "b4c2625429b62939f87efe29de0e84d1a9cacc1802de1c7ad7a9be75b047086e",
+          "chunk_index": 0,
+          "copied_from": "7870700",
+          "copy_number": 1,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6229149103164673,
+          "kept": false
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2104181",
+          "instance_key": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+          "text_sha256": "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5561245679855347,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.37793558835983276,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6220644116401672
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.610784649848938
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5151300430297852
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5151300430297852
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4480430483818054
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4480430483818054
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.38561946153640747
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__BE1__unfiltered",
+          "request_sha256": "011f032af823615108ec1fc1bcfc384da05f14852b66ddb374a7916658e0b838",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, delivering high quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__BE1__filtered",
+          "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": true
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6229149103164673,
+          "kept": false
+        },
+        {
+          "chunk_id": "b4c2625429b62939f87efe29de0e84d1a9cacc1802de1c7ad7a9be75b047086e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/BE/1",
+          "instance_key": "b4c2625429b62939f87efe29de0e84d1a9cacc1802de1c7ad7a9be75b047086e",
+          "chunk_index": 0,
+          "copied_from": "7870700",
+          "copy_number": 1,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6229149103164673,
+          "kept": false
+        },
+        {
+          "chunk_id": "c39fef99c29bc5d1888f1272d5a4df4039f0656d2cb50ec8d3ac7f07d838a888:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/BE/2",
+          "instance_key": "c39fef99c29bc5d1888f1272d5a4df4039f0656d2cb50ec8d3ac7f07d838a888",
+          "chunk_index": 0,
+          "copied_from": "7870700",
+          "copy_number": 2,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6229149103164673,
+          "kept": false
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.9999995231628702,
+          1.9999995231628702,
+          1.9999995231628702,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9999995231628702,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.37793540954589844,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.622064471244812
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4480430483818054
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4480430483818054
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4480430483818054
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__BE2__unfiltered",
+          "request_sha256": "98490f811342b724e50d06bff405253f9a491b9c58beda64ba5fcd4d7a035c00",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia. For more information, you can find reviews on Yelp.",
+            "first_call_id": "NanoMSMARCO:1091973__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a diagnostic and interventional radiology provider with clinics across Adelaide and the south-east of South Australia, established since 1958. They invest in the latest technology and imaging techniques.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__BE2__filtered",
+          "request_sha256": "f1e88ed543efeac81c4dcc148e9c26f120076401bbe01d5a1fef70af402109b9",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia. Yelp reviews are available for their North Adelaide location.",
+            "first_call_id": "NanoMSMARCO:1091973__BE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia. Yelp reviews are available for their clinic in North Adelaide.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": false
+        },
+        {
+          "chunk_id": "7320f7c7652d33a30f76cb5e8fc998dd4690b2fc1b723c84cf99325b04837af1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/PE/1",
+          "instance_key": "7320f7c7652d33a30f76cb5e8fc998dd4690b2fc1b723c84cf99325b04837af1",
+          "chunk_index": 0,
+          "copied_from": "7870707",
+          "copy_number": 1,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8947201371192932,
+          "kept": false
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6229149103164673,
+          "kept": true
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2104181",
+          "instance_key": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+          "text_sha256": "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5561245679855347,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3779357075691223,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6220644116401672
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6220644116401672
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.610784649848938
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.610784649848938
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5151300430297852
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4480430483818054
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.38561946153640747
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__PE1__unfiltered",
+          "request_sha256": "83ea7f4d5b726dae423e0fe889f793d705bcbeb5e1fc3b275ec2a8ff5c25e095",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high quality imaging and care since 1958. They invest in the latest technology and operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "first_call_id": "NanoMSMARCO:1091973__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__PE1__filtered",
+          "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1091973__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1091973",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932,
+          "kept": false
+        },
+        {
+          "chunk_id": "7320f7c7652d33a30f76cb5e8fc998dd4690b2fc1b723c84cf99325b04837af1:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/PE/1",
+          "instance_key": "7320f7c7652d33a30f76cb5e8fc998dd4690b2fc1b723c84cf99325b04837af1",
+          "chunk_index": 0,
+          "copied_from": "7870707",
+          "copy_number": 1,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8947201371192932,
+          "kept": false
+        },
+        {
+          "chunk_id": "e3600836df233d58bcbab43b2bb3bf2cea7938417cee5bb1d70c93cf44578d8d:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/PE/2",
+          "instance_key": "e3600836df233d58bcbab43b2bb3bf2cea7938417cee5bb1d70c93cf44578d8d",
+          "chunk_index": 0,
+          "copied_from": "7870707",
+          "copy_number": 2,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8947201371192932,
+          "kept": false
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6229149103164673,
+          "kept": true
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5660378932952881,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0000004768371866,
+          2.0000004768371866,
+          2.0000004768371866,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0000004768371866,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.37793564796447754,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.622064471244812
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.622064471244812
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.622064471244812
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.61063551902771
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4480430483818054
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1091973__PE2__unfiltered",
+          "request_sha256": "8ad19ffd17bc92f910decd6d254799f7781e56a00c37bafeb8343e493914bef0",
+          "reference": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high quality imaging and care since 1958. They invest in the latest technology and imaging techniques across 22 clinics in Adelaide and the south-east of South Australia. They also have a presence in San Antonio, TX, where Dr. Amy Benson practices. For more information, including reviews, you can visit Yelp in North Adelaide.",
+            "first_call_id": "NanoMSMARCO:1091973__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high quality imaging and care since 1958. They invest in the latest technology and imaging techniques across 22 clinics in Adelaide and the south-east of South Australia. They also have a Radiologist, Dr. Amy Benson, in San Antonio, TX.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1091973__PE2__filtered",
+          "request_sha256": "bfbed6ff093db3d3b02e8a767c9ab62260aa1261b5732a8c3469ed2aa2a097d9",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1091973__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

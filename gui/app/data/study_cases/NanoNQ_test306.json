@@ -1,0 +1,2771 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test306",
+    "dataset": "NanoNQ",
+    "question": "what were the results of the development of florida's railroads",
+    "source_family": "NanoNQ:test306",
+    "review_status": "assistant_only",
+    "target_document_id": "doc11639",
+    "expected_answer": "Towns grew and farmland was cultivated along the railroad line.",
+    "answer_aliases": [],
+    "support_quote": "Flagler built a railroad along the east coast of Florida and eventually to Key West; towns grew and farmland was cultivated along the rail line.",
+    "source_qualification": "The specific result described for Flagler's east-coast/Key West railroad, not every economic or environmental consequence of all Florida railroads.",
+    "qrel_document_ids": [
+      "doc11639"
+    ],
+    "family_reference_texts": [
+      "A pattern of political and financial motivation, and a lack of understanding of the geography and ecology of the Everglades have plagued the history of drainage projects. The Everglades are a part of a massive watershed that originates near Orlando and drains into Lake Okeechobee, a vast and shallow lake. As the lake exceeds its capacity in the wet season, the water forms a flat and very wide river, about 100 miles (160 km) long and 60 miles (97 km) wide. As the land from Lake Okeechobee slopes gradually to Florida Bay, water flows at a rate of half a mile (0.8 km) a day. Before human activity in the Everglades, the system comprised the lower third of the Florida peninsula. The first attempt to drain the region was made by real estate developer Hamilton Disston in 1881. Disston's sponsored canals were unsuccessful, but the land he purchased for them stimulated economic and population growth that attracted railway developer Henry Flagler. Flagler built a railroad along the east coast of Florida and eventually to Key West; towns grew and farmland was cultivated along the rail line."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test306",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc11639",
+    "expected_answer": "Towns grew and farmland was cultivated along the railroad line.",
+    "answer_aliases": [],
+    "support_quote": "Flagler built a railroad along the east coast of Florida and eventually to Key West; towns grew and farmland was cultivated along the rail line.",
+    "source_qualification": "The specific result described for Flagler's east-coast/Key West railroad, not every economic or environmental consequence of all Florida railroads.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test306",
+    "dataset": "NanoNQ",
+    "question": "what were the results of the development of florida's railroads",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test306",
+      "dataset": "NanoNQ",
+      "question": "what were the results of the development of florida's railroads",
+      "expected_answer": "Towns grew and farmland was cultivated along the railroad line.",
+      "source_qualification": "The specific result described for Flagler's east-coast/Key West railroad, not every economic or environmental consequence of all Florida railroads.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Identical filtered requests",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+      "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/24",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/24",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test306.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 217,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 145,
+              "call_id": "NanoNQ:test306__C__unfiltered",
+              "request_sha256": "5d6757ea91b2cced411a974b6091732133490c13a21660d1f2045a1fd606b513"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 146,
+              "call_id": "NanoNQ:test306__C__filtered",
+              "request_sha256": "0630d8421285163f49d2edf17d5748f4ef683a8fca39654c9349327cbd831633"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 218,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 147,
+              "call_id": "NanoNQ:test306__BN1__unfiltered",
+              "request_sha256": "54c6ee06ec2e9df25f5b613a7cb021b8726c6655dcba2cf77f595ca0eabcd992"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 148,
+              "call_id": "NanoNQ:test306__BN1__filtered",
+              "request_sha256": "5b4cdcb3ea574c1c68f750af166bbe31a8d77ddc97055c623638aaf26125d852"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 220,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 149,
+              "call_id": "NanoNQ:test306__PN1__unfiltered",
+              "request_sha256": "5d6757ea91b2cced411a974b6091732133490c13a21660d1f2045a1fd606b513"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 150,
+              "call_id": "NanoNQ:test306__PN1__filtered",
+              "request_sha256": "0630d8421285163f49d2edf17d5748f4ef683a8fca39654c9349327cbd831633"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test306",
+    "question": "what were the results of the development of florida's railroads",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test306"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6827169060707092,
+          "kept": true
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6590778827667236,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        },
+        {
+          "chunk_id": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2429823",
+          "instance_key": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There is also a plan to start a passenger service connecting Jacksonville to Miami using the FECR mainline, with stops at popular tourist attractions. The State of Florida has provided $116 of the $268 million needed to fund that project.[24] The remaining funding for the passenger line is expected to come from a federal grant, and the remaining funding to fix the local freight line from the Port to Hialeah is supposed to come from the Florida East Coast Railroad (FEC) at $10.9 million, the Florida Department of Transportation (FDOT) at $10.9 million, with the PortMiami itself[16] providing $4.8 million.[19] In April 2011, Atlas Railroad Construction was chosen to rebuild the line, which was to be completed by 2012 and was estimated to remove 5% of the road traffic from the port.[25] On July 15, 2011, a ground-breaking ceremony marking the beginning of the rail link project, which is expected to create over 800 jobs and generate $33.38 million in wages, was performed by US Senator Bill Nelson, Secretary of Transportation Ray LaHood, Miami-Dade Mayor Carlos Giménez, and",
+          "text_sha256": "84ce7193eb90ca5875785ad4dc9f030b2a3bd2a063abe977a704843e29e0e925",
+          "char_start": 0,
+          "char_end": 1085,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6075516939163208,
+          "kept": true
+        },
+        {
+          "chunk_id": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2527260",
+          "instance_key": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s brought significant real estate development and speculation to the city during the great Florida land boom (and bust). Hordes of train passengers passed through Jacksonville on their way south to the new tourist destinations of South Florida, as most of the passenger trains arriving from the population centers of the North were routed through Jacksonville.",
+          "text_sha256": "0d651c45322521d0a1aac83a012487ffeb95777a6a2b1590cf2ae106b6b96f05",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6036505699157715,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3
+      ],
+      "removed_indices": [
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.5595759106814171,
+          0.0,
+          0.0,
+          0.5595759106814171
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 0.5595759106814171,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.11734014749526978,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7480480670928955
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6307079195976257
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5535255074501038
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47501957416534424
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47376614809036255
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4703989028930664
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.40901416540145874
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4084872007369995
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__C__unfiltered",
+          "request_sha256": "5d6757ea91b2cced411a974b6091732133490c13a21660d1f2045a1fd606b513",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads saw significant progress and setbacks. In the 1920s, new railroads opened up large areas for development, leading to the Florida land boom. However, development of a high-speed rail system was mandated but later cancelled due to funding issues.",
+            "first_call_id": "NanoNQ:test306__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads in the 1920s led to significant real estate development and speculation, transforming cities like Miami into emerging metropolises. The railroads opened up large areas for development, fueling the Florida land boom.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__C__filtered",
+          "request_sha256": "0630d8421285163f49d2edf17d5748f4ef683a8fca39654c9349327cbd831633",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of the Florida, Atlantic and Gulf Central Railroad by George William Swepson in 1868, the creation of the Jacksonville, Pensacola and Mobile Railroad in 1869, and the creation of the Florida Central Railroad in 1868. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor Rick Scott in 2011.",
+            "first_call_id": "NanoNQ:test306__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "truncated",
+            "answer": "The development of Florida's railroads was interrupted by the Civil War, which damaged the state's rail infrastructure. After the war, the railroad was rebuilt by George William Swepson and renamed the Florida Central Railroad in 1868. In 1869, the Pensacola and Georgia Railroad was merged with a Jacksonville to Lake City line to form the Jacksonville, Pensacola and Mobile Railroad. In 1874, a fire destroyed most of the wooden buildings in Lake City. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": null,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "7f82118059b62aa960843f8f984580ab2badc6bdf8c055e339d7106b602bb4f6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test306/BN/1",
+          "instance_key": "7f82118059b62aa960843f8f984580ab2badc6bdf8c055e339d7106b602bb4f6",
+          "chunk_index": 0,
+          "copied_from": "doc2449643",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "c5a84b793d1fd6f3d356ecea13d3e6854f68bff3b453b7c87b8c8aae909e1728",
+          "char_start": 0,
+          "char_end": 470,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6953875422477722,
+          "kept": false
+        },
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6827169060707092,
+          "kept": false
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6590778827667236,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        },
+        {
+          "chunk_id": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2429823",
+          "instance_key": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There is also a plan to start a passenger service connecting Jacksonville to Miami using the FECR mainline, with stops at popular tourist attractions. The State of Florida has provided $116 of the $268 million needed to fund that project.[24] The remaining funding for the passenger line is expected to come from a federal grant, and the remaining funding to fix the local freight line from the Port to Hialeah is supposed to come from the Florida East Coast Railroad (FEC) at $10.9 million, the Florida Department of Transportation (FDOT) at $10.9 million, with the PortMiami itself[16] providing $4.8 million.[19] In April 2011, Atlas Railroad Construction was chosen to rebuild the line, which was to be completed by 2012 and was estimated to remove 5% of the road traffic from the port.[25] On July 15, 2011, a ground-breaking ceremony marking the beginning of the rail link project, which is expected to create over 800 jobs and generate $33.38 million in wages, was performed by US Senator Bill Nelson, Secretary of Transportation Ray LaHood, Miami-Dade Mayor Carlos Giménez, and",
+          "text_sha256": "84ce7193eb90ca5875785ad4dc9f030b2a3bd2a063abe977a704843e29e0e925",
+          "char_start": 0,
+          "char_end": 1085,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6075516939163208,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9871042992463117,
+          0.9871042992463117,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9871042992463117,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3628233075141907,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9935312271118164
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6307079195976257
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.49743348360061646
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4813368022441864
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.47501957416534424
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47159531712532043
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4703989028930664
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.40901416540145874
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__BN1__unfiltered",
+          "request_sha256": "54c6ee06ec2e9df25f5b613a7cb021b8726c6655dcba2cf77f595ca0eabcd992",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads led to the opening up of large areas for development, spurring the Florida land boom of the 1920s. High-speed rail was mandated by a constitutional referendum in 2000 but was cancelled by Florida's governor in 2011.",
+            "first_call_id": "NanoNQ:test306__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads led to the opening up of large areas for development, spurring the Florida land boom of the 1920s.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__BN1__filtered",
+          "request_sha256": "5b4cdcb3ea574c1c68f750af166bbe31a8d77ddc97055c623638aaf26125d852",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads resulted in the approval of a high-speed rail system mandated by a constitutional referendum in 2000, which was later taken off the books by another referendum in 2004. In 2009, Florida approved SunRail, which was instrumental in the state winning significant high-speed rail funding. However, in 2011, Florida's newly elected governor Rick Scott cancelled the project.",
+            "first_call_id": "NanoNQ:test306__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Florida's rail development plans were initially supported, including a constitutional mandate for a high-speed rail system in 2000, followed by approval of SunRail in 2009. However, the project was cancelled in 2011 by Florida's newly elected governor Rick Scott. The development plans also included a passenger service connecting Jacksonville to Miami, which was expected to create jobs and generate wages.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "7f82118059b62aa960843f8f984580ab2badc6bdf8c055e339d7106b602bb4f6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test306/BN/1",
+          "instance_key": "7f82118059b62aa960843f8f984580ab2badc6bdf8c055e339d7106b602bb4f6",
+          "chunk_index": 0,
+          "copied_from": "doc2449643",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "c5a84b793d1fd6f3d356ecea13d3e6854f68bff3b453b7c87b8c8aae909e1728",
+          "char_start": 0,
+          "char_end": 470,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6953875422477722,
+          "kept": false
+        },
+        {
+          "chunk_id": "1bb399d8cae439a1391ce5b5cd33a8fe4ef80e0487e4d4fab6a285e736b3a557:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test306/BN/2",
+          "instance_key": "1bb399d8cae439a1391ce5b5cd33a8fe4ef80e0487e4d4fab6a285e736b3a557",
+          "chunk_index": 0,
+          "copied_from": "doc2449643",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "15eb1dc6d6fc3e1a0ba3c97b3f3ac932251db63f431cb8c1b8429d95c4783609",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6949681639671326,
+          "kept": false
+        },
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6827169060707092,
+          "kept": true
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6590778827667236,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9989741096833313,
+          0.9989741096833313,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9989741096833313,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0059555768966674805,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9994869232177734
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.993531346321106
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9933768510818481
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4974334239959717
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4940448999404907
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4719434380531311
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.47159528732299805
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.470398873090744
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4583333134651184
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__BN2__unfiltered",
+          "request_sha256": "b705b4111851097ab4b088635b9816e89ca5476dbb9dd5f2af8ed09fe3a8bfcb",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads led to the opening up of large areas for development, spurring the Florida land boom of the 1920s.",
+            "first_call_id": "NanoNQ:test306__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of the Florida, Atlantic and Gulf Central Railroad by George William Swepson, who renamed it the Florida Central Railroad in 1868. In 1869, the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In the 1920s, new railroads opened up large areas of Florida, leading to the Florida land boom.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__BN2__filtered",
+          "request_sha256": "4b0021b0574c106059280f0b64a5021c742397c2e45c6cce697d391f03271561",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of damaged railroads, the creation of new rail lines, and the eventual development of a high-speed rail system, though this last project was later cancelled.",
+            "first_call_id": "NanoNQ:test306__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of damaged lines, the creation of new railroads like the Jacksonville, Pensacola and Mobile Railroad, and the opening up of areas for development during the Florida land boom of the 1920s.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6827169060707092,
+          "kept": true
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6590778827667236,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        },
+        {
+          "chunk_id": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2429823",
+          "instance_key": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There is also a plan to start a passenger service connecting Jacksonville to Miami using the FECR mainline, with stops at popular tourist attractions. The State of Florida has provided $116 of the $268 million needed to fund that project.[24] The remaining funding for the passenger line is expected to come from a federal grant, and the remaining funding to fix the local freight line from the Port to Hialeah is supposed to come from the Florida East Coast Railroad (FEC) at $10.9 million, the Florida Department of Transportation (FDOT) at $10.9 million, with the PortMiami itself[16] providing $4.8 million.[19] In April 2011, Atlas Railroad Construction was chosen to rebuild the line, which was to be completed by 2012 and was estimated to remove 5% of the road traffic from the port.[25] On July 15, 2011, a ground-breaking ceremony marking the beginning of the rail link project, which is expected to create over 800 jobs and generate $33.38 million in wages, was performed by US Senator Bill Nelson, Secretary of Transportation Ray LaHood, Miami-Dade Mayor Carlos Giménez, and",
+          "text_sha256": "84ce7193eb90ca5875785ad4dc9f030b2a3bd2a063abe977a704843e29e0e925",
+          "char_start": 0,
+          "char_end": 1085,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6075516939163208,
+          "kept": true
+        },
+        {
+          "chunk_id": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2527260",
+          "instance_key": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s brought significant real estate development and speculation to the city during the great Florida land boom (and bust). Hordes of train passengers passed through Jacksonville on their way south to the new tourist destinations of South Florida, as most of the passenger trains arriving from the population centers of the North were routed through Jacksonville.",
+          "text_sha256": "0d651c45322521d0a1aac83a012487ffeb95777a6a2b1590cf2ae106b6b96f05",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6036505699157715,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3
+      ],
+      "removed_indices": [
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.5595759106814171,
+          0.0,
+          0.0,
+          0.5595759106814171
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 0.5595759106814171,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.11734014749526978,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7480480670928955
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6307079195976257
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5535255074501038
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47501957416534424
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47376614809036255
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4703989028930664
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.40901416540145874
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4084872007369995
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__PN1__unfiltered",
+          "request_sha256": "5d6757ea91b2cced411a974b6091732133490c13a21660d1f2045a1fd606b513",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads saw significant progress and setbacks. In the 1920s, new railroads opened up large areas for development, leading to the Florida land boom. However, development of a high-speed rail system was mandated but later cancelled due to funding issues.",
+            "first_call_id": "NanoNQ:test306__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads in the 1920s led to significant real estate development and speculation, transforming cities like Miami into emerging metropolises. The railroads opened up large areas for development, fueling the Florida land boom.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__PN1__filtered",
+          "request_sha256": "0630d8421285163f49d2edf17d5748f4ef683a8fca39654c9349327cbd831633",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of the Florida, Atlantic and Gulf Central Railroad by George William Swepson in 1868, the creation of the Jacksonville, Pensacola and Mobile Railroad in 1869, and the creation of the Florida Central Railroad in 1868. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor Rick Scott in 2011.",
+            "first_call_id": "NanoNQ:test306__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "truncated",
+            "answer": "The development of Florida's railroads was interrupted by the Civil War, which damaged the state's rail infrastructure. After the war, the railroad was rebuilt by George William Swepson and renamed the Florida Central Railroad in 1868. In 1869, the Pensacola and Georgia Railroad was merged with a Jacksonville to Lake City line to form the Jacksonville, Pensacola and Mobile Railroad. In 1874, a fire destroyed most of the wooden buildings in Lake City. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": null,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6827169060707092,
+          "kept": true
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6590778827667236,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        },
+        {
+          "chunk_id": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2429823",
+          "instance_key": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There is also a plan to start a passenger service connecting Jacksonville to Miami using the FECR mainline, with stops at popular tourist attractions. The State of Florida has provided $116 of the $268 million needed to fund that project.[24] The remaining funding for the passenger line is expected to come from a federal grant, and the remaining funding to fix the local freight line from the Port to Hialeah is supposed to come from the Florida East Coast Railroad (FEC) at $10.9 million, the Florida Department of Transportation (FDOT) at $10.9 million, with the PortMiami itself[16] providing $4.8 million.[19] In April 2011, Atlas Railroad Construction was chosen to rebuild the line, which was to be completed by 2012 and was estimated to remove 5% of the road traffic from the port.[25] On July 15, 2011, a ground-breaking ceremony marking the beginning of the rail link project, which is expected to create over 800 jobs and generate $33.38 million in wages, was performed by US Senator Bill Nelson, Secretary of Transportation Ray LaHood, Miami-Dade Mayor Carlos Giménez, and",
+          "text_sha256": "84ce7193eb90ca5875785ad4dc9f030b2a3bd2a063abe977a704843e29e0e925",
+          "char_start": 0,
+          "char_end": 1085,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6075516939163208,
+          "kept": true
+        },
+        {
+          "chunk_id": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2527260",
+          "instance_key": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s brought significant real estate development and speculation to the city during the great Florida land boom (and bust). Hordes of train passengers passed through Jacksonville on their way south to the new tourist destinations of South Florida, as most of the passenger trains arriving from the population centers of the North were routed through Jacksonville.",
+          "text_sha256": "0d651c45322521d0a1aac83a012487ffeb95777a6a2b1590cf2ae106b6b96f05",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6036505699157715,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3
+      ],
+      "removed_indices": [
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.5595759106814171,
+          0.0,
+          0.0,
+          0.5595759106814171
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 0.5595759106814171,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.11734014749526978,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7480480670928955
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6307079195976257
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5535255074501038
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47501957416534424
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47376614809036255
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4703989028930664
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.40901416540145874
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4084872007369995
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__PN2__unfiltered",
+          "request_sha256": "5d6757ea91b2cced411a974b6091732133490c13a21660d1f2045a1fd606b513",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads saw significant progress and setbacks. In the 1920s, new railroads opened up large areas for development, leading to the Florida land boom. However, development of a high-speed rail system was mandated but later cancelled due to funding issues.",
+            "first_call_id": "NanoNQ:test306__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads in the 1920s led to significant real estate development and speculation, transforming cities like Miami into emerging metropolises. The railroads opened up large areas for development, fueling the Florida land boom.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__PN2__filtered",
+          "request_sha256": "0630d8421285163f49d2edf17d5748f4ef683a8fca39654c9349327cbd831633",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of the Florida, Atlantic and Gulf Central Railroad by George William Swepson in 1868, the creation of the Jacksonville, Pensacola and Mobile Railroad in 1869, and the creation of the Florida Central Railroad in 1868. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor Rick Scott in 2011.",
+            "first_call_id": "NanoNQ:test306__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "truncated",
+            "answer": "The development of Florida's railroads was interrupted by the Civil War, which damaged the state's rail infrastructure. After the war, the railroad was rebuilt by George William Swepson and renamed the Florida Central Railroad in 1868. In 1869, the Pensacola and Georgia Railroad was merged with a Jacksonville to Lake City line to form the Jacksonville, Pensacola and Mobile Railroad. In 1874, a fire destroyed most of the wooden buildings in Lake City. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": null,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6827169060707092,
+          "kept": false
+        },
+        {
+          "chunk_id": "6a9773ab0d40242480fc7186c723b0d89cfcdd4806a2407e444cf1204960d330:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test306/BE/1",
+          "instance_key": "6a9773ab0d40242480fc7186c723b0d89cfcdd4806a2407e444cf1204960d330",
+          "chunk_index": 0,
+          "copied_from": "doc2449643",
+          "copy_number": 1,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6827169060707092,
+          "kept": false
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6590778827667236,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        },
+        {
+          "chunk_id": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2429823",
+          "instance_key": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There is also a plan to start a passenger service connecting Jacksonville to Miami using the FECR mainline, with stops at popular tourist attractions. The State of Florida has provided $116 of the $268 million needed to fund that project.[24] The remaining funding for the passenger line is expected to come from a federal grant, and the remaining funding to fix the local freight line from the Port to Hialeah is supposed to come from the Florida East Coast Railroad (FEC) at $10.9 million, the Florida Department of Transportation (FDOT) at $10.9 million, with the PortMiami itself[16] providing $4.8 million.[19] In April 2011, Atlas Railroad Construction was chosen to rebuild the line, which was to be completed by 2012 and was estimated to remove 5% of the road traffic from the port.[25] On July 15, 2011, a ground-breaking ceremony marking the beginning of the rail link project, which is expected to create over 800 jobs and generate $33.38 million in wages, was performed by US Senator Bill Nelson, Secretary of Transportation Ray LaHood, Miami-Dade Mayor Carlos Giménez, and",
+          "text_sha256": "84ce7193eb90ca5875785ad4dc9f030b2a3bd2a063abe977a704843e29e0e925",
+          "char_start": 0,
+          "char_end": 1085,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6075516939163208,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.36929208040237427,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6307079195976257
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.47501957416534424
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.47501957416534424
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4703989028930664
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.40901416540145874
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__BE1__unfiltered",
+          "request_sha256": "c171fb1bec259d12034cc788a15dfb6ead511490936b372cb9d3899ce70382c8",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of damaged railroads, the creation of new rail lines, and the eventual development of a high-speed rail system. The 1920s saw a Florida land boom driven by new railroads, which opened up large areas for development. Despite initial mandates and funding, the high-speed rail project was later cancelled.",
+            "first_call_id": "NanoNQ:test306__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads led to the opening up of large areas for development, spurring the Florida land boom of the 1920s. High-speed rail was mandated by a constitutional referendum in 2000 but was later cancelled by Florida's governor. A passenger service connecting Jacksonville to Miami using the FECR mainline was planned, with funding from various sources including the state of Florida, federal grants, and the Florida East Coast Railroad.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__BE1__filtered",
+          "request_sha256": "5b4cdcb3ea574c1c68f750af166bbe31a8d77ddc97055c623638aaf26125d852",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads resulted in the approval of a high-speed rail system mandated by a constitutional referendum in 2000, which was later taken off the books by another referendum in 2004. In 2009, Florida approved SunRail, which was instrumental in the state winning significant high-speed rail funding. However, in 2011, Florida's newly elected governor Rick Scott cancelled the project.",
+            "first_call_id": "NanoNQ:test306__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Florida's rail development plans were initially supported, including a constitutional mandate for a high-speed rail system in 2000, followed by approval of SunRail in 2009. However, the project was cancelled in 2011 by Florida's newly elected governor Rick Scott. The development plans also included a passenger service connecting Jacksonville to Miami, which was expected to create jobs and generate wages.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "584cf55dc2c663733f31c1059b002017aa89e9d9c15d7dba1e75465022843d0c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test306/BE/2",
+          "instance_key": "584cf55dc2c663733f31c1059b002017aa89e9d9c15d7dba1e75465022843d0c",
+          "chunk_index": 0,
+          "copied_from": "doc2449643",
+          "copy_number": 2,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6827169060707092,
+          "kept": false
+        },
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6827169060707092,
+          "kept": false
+        },
+        {
+          "chunk_id": "6a9773ab0d40242480fc7186c723b0d89cfcdd4806a2407e444cf1204960d330:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test306/BE/1",
+          "instance_key": "6a9773ab0d40242480fc7186c723b0d89cfcdd4806a2407e444cf1204960d330",
+          "chunk_index": 0,
+          "copied_from": "doc2449643",
+          "copy_number": 1,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6827169060707092,
+          "kept": true
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6590778827667236,
+          "kept": true
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.470398873090744
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4583333134651184
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__BE2__unfiltered",
+          "request_sha256": "a052fbf2430347952fc65759e6cf6311970a1a967e07735753e4371abae6669c",
+          "reference": {
+            "status": "ok",
+            "answer": "Florida's railroads were developed and improved, with the Florida, Atlantic and Gulf Central Railroad being rebuilt and renamed the Florida Central Railroad. In 1869, the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. The 1920s saw the opening of new railroads that spurred the Florida land boom, transforming Miami into an emerging metropolis.",
+            "first_call_id": "NanoNQ:test306__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included rebuilding the Florida, Atlantic and Gulf Central Railroad, which was renamed the Florida Central Railroad, and the creation of the Jacksonville, Pensacola and Mobile Railroad. The 1920s saw the opening of new railroads that spurred the Florida land boom, leading to rapid land appreciation and development in areas like Miami.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__BE2__filtered",
+          "request_sha256": "4b0021b0574c106059280f0b64a5021c742397c2e45c6cce697d391f03271561",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of damaged railroads, the creation of new rail lines, and the eventual development of a high-speed rail system, though this last project was later cancelled.",
+            "first_call_id": "NanoNQ:test306__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of damaged lines, the creation of new railroads like the Jacksonville, Pensacola and Mobile Railroad, and the opening up of areas for development during the Florida land boom of the 1920s.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6827169060707092,
+          "kept": true
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6590778827667236,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        },
+        {
+          "chunk_id": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2429823",
+          "instance_key": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There is also a plan to start a passenger service connecting Jacksonville to Miami using the FECR mainline, with stops at popular tourist attractions. The State of Florida has provided $116 of the $268 million needed to fund that project.[24] The remaining funding for the passenger line is expected to come from a federal grant, and the remaining funding to fix the local freight line from the Port to Hialeah is supposed to come from the Florida East Coast Railroad (FEC) at $10.9 million, the Florida Department of Transportation (FDOT) at $10.9 million, with the PortMiami itself[16] providing $4.8 million.[19] In April 2011, Atlas Railroad Construction was chosen to rebuild the line, which was to be completed by 2012 and was estimated to remove 5% of the road traffic from the port.[25] On July 15, 2011, a ground-breaking ceremony marking the beginning of the rail link project, which is expected to create over 800 jobs and generate $33.38 million in wages, was performed by US Senator Bill Nelson, Secretary of Transportation Ray LaHood, Miami-Dade Mayor Carlos Giménez, and",
+          "text_sha256": "84ce7193eb90ca5875785ad4dc9f030b2a3bd2a063abe977a704843e29e0e925",
+          "char_start": 0,
+          "char_end": 1085,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6075516939163208,
+          "kept": true
+        },
+        {
+          "chunk_id": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2527260",
+          "instance_key": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s brought significant real estate development and speculation to the city during the great Florida land boom (and bust). Hordes of train passengers passed through Jacksonville on their way south to the new tourist destinations of South Florida, as most of the passenger trains arriving from the population centers of the North were routed through Jacksonville.",
+          "text_sha256": "0d651c45322521d0a1aac83a012487ffeb95777a6a2b1590cf2ae106b6b96f05",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6036505699157715,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3
+      ],
+      "removed_indices": [
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.5595759106814171,
+          0.0,
+          0.0,
+          0.5595759106814171
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 0.5595759106814171,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.11734014749526978,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7480480670928955
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6307079195976257
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5535255074501038
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47501957416534424
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47376614809036255
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4703989028930664
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.40901416540145874
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4084872007369995
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__PE1__unfiltered",
+          "request_sha256": "5d6757ea91b2cced411a974b6091732133490c13a21660d1f2045a1fd606b513",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads saw significant progress and setbacks. In the 1920s, new railroads opened up large areas for development, leading to the Florida land boom. However, development of a high-speed rail system was mandated but later cancelled due to funding issues.",
+            "first_call_id": "NanoNQ:test306__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads in the 1920s led to significant real estate development and speculation, transforming cities like Miami into emerging metropolises. The railroads opened up large areas for development, fueling the Florida land boom.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__PE1__filtered",
+          "request_sha256": "0630d8421285163f49d2edf17d5748f4ef683a8fca39654c9349327cbd831633",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of the Florida, Atlantic and Gulf Central Railroad by George William Swepson in 1868, the creation of the Jacksonville, Pensacola and Mobile Railroad in 1869, and the creation of the Florida Central Railroad in 1868. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor Rick Scott in 2011.",
+            "first_call_id": "NanoNQ:test306__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "truncated",
+            "answer": "The development of Florida's railroads was interrupted by the Civil War, which damaged the state's rail infrastructure. After the war, the railroad was rebuilt by George William Swepson and renamed the Florida Central Railroad in 1868. In 1869, the Pensacola and Georgia Railroad was merged with a Jacksonville to Lake City line to form the Jacksonville, Pensacola and Mobile Railroad. In 1874, a fire destroyed most of the wooden buildings in Lake City. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": null,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test306",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2449643",
+          "instance_key": "5ab2433f16de3dfc55d79e1be247646df544dbf47b43e15a48e15707640a508e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Civil War badly damaged Florida's railroads including the Florida, Atlantic and Gulf Central Railroad. The railroad was rebuilt by carpetbagger George William Swepson and was renamed the Florida Central Railroad in 1868. In 1869 the Pensacola and Georgia Railroad was merged with a railroad from Jacksonville to Lake City to form the Jacksonville, Pensacola and Mobile Railroad. In 1874 a fire destroyed most of the wooden buildings in Lake City.[16]",
+          "text_sha256": "dc225a28e46712c32214dda159a0b42cb1d5b1ab804b5d2ec4af9ce75285da83",
+          "char_start": 0,
+          "char_end": 454,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6827169060707092,
+          "kept": true
+        },
+        {
+          "chunk_id": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc660236",
+          "instance_key": "43c5cb8555faa8105c1266702aa055e26367ba5d51f3c733087478406fb21595",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s were a prosperous time for much of the nation, including Florida. The state's new railroads opened up large areas to development, spurring the Florida land boom of the 1920s. Investors of all kinds, many from outside Florida, raced to buy and sell rapidly appreciating land in newly platted communities such as Miami and Palm Beach. Led by entrepreneurs Carl Fisher and George Merrick, Miami was transformed by land speculation and ambitious building projects into an emerging metropolis. A growing awareness in the areas surrounding Florida, along with the Northeast about the attractive south Florida winter climate, along with local promotion of speculative investing, spurred the boom.[68]",
+          "text_sha256": "2b64fb2d014f60a5cf80b2e5b22bcaf5cc896eafdcf1b454c806777e2308be6a",
+          "char_start": 0,
+          "char_end": 703,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6590778827667236,
+          "kept": false
+        },
+        {
+          "chunk_id": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2499695",
+          "instance_key": "f4e47d401f300a66b3e395f4d1cdbd72af7e03c2babd269a0bd5e8d427806604",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Development of a high-speed rail system in Florida was mandated by a constitutional referendum in 2000, but taken off the books by another referendum in 2004.[67] Florida resurrected its high-speed rail authority to capitalize on the nationwide effort to build a high-speed rail network. Florida legislature approved SunRail in a special session in late 2009, which along with work already completed on the originally proposed line between Tampa and Orlando, was instrumental in the state winning a significant amount of the total amount allotted to high-speed rail. Only California received more high-speed rail funding than Florida. In February 2011, Florida's newly elected governor Rick Scott cancelled the project.[68] Secretary of Transportation Ray LaHood then announced he would be redirecting the funds intended for Florida to other states.",
+          "text_sha256": "f50a4e406da462df27bb805a909bfd05f44e589fa61ceb78e1432d71e3458a4b",
+          "char_start": 0,
+          "char_end": 849,
+          "tokens_with_specials": 162,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.647707462310791,
+          "kept": true
+        },
+        {
+          "chunk_id": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2429823",
+          "instance_key": "3b2f6954eb1fda2e884073a46d6e497a09226134849ada510d11da08e375bc9c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There is also a plan to start a passenger service connecting Jacksonville to Miami using the FECR mainline, with stops at popular tourist attractions. The State of Florida has provided $116 of the $268 million needed to fund that project.[24] The remaining funding for the passenger line is expected to come from a federal grant, and the remaining funding to fix the local freight line from the Port to Hialeah is supposed to come from the Florida East Coast Railroad (FEC) at $10.9 million, the Florida Department of Transportation (FDOT) at $10.9 million, with the PortMiami itself[16] providing $4.8 million.[19] In April 2011, Atlas Railroad Construction was chosen to rebuild the line, which was to be completed by 2012 and was estimated to remove 5% of the road traffic from the port.[25] On July 15, 2011, a ground-breaking ceremony marking the beginning of the rail link project, which is expected to create over 800 jobs and generate $33.38 million in wages, was performed by US Senator Bill Nelson, Secretary of Transportation Ray LaHood, Miami-Dade Mayor Carlos Giménez, and",
+          "text_sha256": "84ce7193eb90ca5875785ad4dc9f030b2a3bd2a063abe977a704843e29e0e925",
+          "char_start": 0,
+          "char_end": 1085,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6075516939163208,
+          "kept": true
+        },
+        {
+          "chunk_id": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2527260",
+          "instance_key": "0a909468e5bd50a2f8485868737dfca0352167c981b3332f0aa12a8fc83f7b3e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The 1920s brought significant real estate development and speculation to the city during the great Florida land boom (and bust). Hordes of train passengers passed through Jacksonville on their way south to the new tourist destinations of South Florida, as most of the passenger trains arriving from the population centers of the North were routed through Jacksonville.",
+          "text_sha256": "0d651c45322521d0a1aac83a012487ffeb95777a6a2b1590cf2ae106b6b96f05",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6036505699157715,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3
+      ],
+      "removed_indices": [
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.5595759106814171,
+          0.0,
+          0.0,
+          0.5595759106814171
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 0.5595759106814171,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.11734014749526978,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7480480670928955
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6307079195976257
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5535255074501038
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4877086281776428
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.47501957416534424
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.47376614809036255
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4703989028930664
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4583333134651184
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.40901416540145874
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4084872007369995
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test306__PE2__unfiltered",
+          "request_sha256": "5d6757ea91b2cced411a974b6091732133490c13a21660d1f2045a1fd606b513",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads saw significant progress and setbacks. In the 1920s, new railroads opened up large areas for development, leading to the Florida land boom. However, development of a high-speed rail system was mandated but later cancelled due to funding issues.",
+            "first_call_id": "NanoNQ:test306__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads in the 1920s led to significant real estate development and speculation, transforming cities like Miami into emerging metropolises. The railroads opened up large areas for development, fueling the Florida land boom.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test306__PE2__filtered",
+          "request_sha256": "0630d8421285163f49d2edf17d5748f4ef683a8fca39654c9349327cbd831633",
+          "reference": {
+            "status": "ok",
+            "answer": "The development of Florida's railroads included the rebuilding of the Florida, Atlantic and Gulf Central Railroad by George William Swepson in 1868, the creation of the Jacksonville, Pensacola and Mobile Railroad in 1869, and the creation of the Florida Central Railroad in 1868. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor Rick Scott in 2011.",
+            "first_call_id": "NanoNQ:test306__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "truncated",
+            "answer": "The development of Florida's railroads was interrupted by the Civil War, which damaged the state's rail infrastructure. After the war, the railroad was rebuilt by George William Swepson and renamed the Florida Central Railroad in 1868. In 1869, the Pensacola and Georgia Railroad was merged with a Jacksonville to Lake City line to form the Jacksonville, Pensacola and Mobile Railroad. In 1874, a fire destroyed most of the wooden buildings in Lake City. In 2000, Florida mandated the development of a high-speed rail system, but funding was later cancelled by Governor",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": null,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

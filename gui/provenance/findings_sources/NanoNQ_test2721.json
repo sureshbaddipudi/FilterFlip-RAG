@@ -1,0 +1,993 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test2721",
+    "question": "how many episodes are there in ordeal by innocence",
+    "expected_answer": "3 episodes",
+    "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+    "source_review_status_historical": "assistant_only",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoNQ:test2721",
+      "assessment": "clear_component_support_loss",
+      "rationale": "C and BN1 retain the three-part 2018 BBC drama description. PN1 leaves a novel description and unrelated Conviction/Bastard Executioner passages, without the requested episode count.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+          "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+          "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+          "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000",
+          "d797b4dd69c79269ac43f21f627b5c977d9fad6e60d25b07d0d0874c4e8d89e9:00000"
+        ],
+        "BN1": [
+          "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+          "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+          "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+        ],
+        "PN1": [
+          "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+          "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+          "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 5,
+    "novel_request_hashes": 0
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoNQ:test2721",
+    "question": "how many episodes are there in ordeal by innocence",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test2721"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc93287",
+          "instance_key": "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ordeal by Innocence is a three part BBC drama that was first broadcast during April 2018. It is based on the Agatha Christie novel of the same name and is the third English language filmed version to be broadcast. The drama stars Bill Nighy, Anna Chancellor, Alice Eve and Eleanor Tomlinson amongst others.",
+          "text_sha256": "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+          "char_start": 0,
+          "char_end": 306,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7804722785949707
+        },
+        {
+          "chunk_id": "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1548640",
+          "instance_key": "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ordeal by Innocence is a work of detective fiction by Agatha Christie, first published in the UK by the Collins Crime Club on 3 November 1958[1] and in the US by Dodd, Mead and Company the following year.[2][3] The UK edition retailed at twelve shillings and sixpence (12/6)[1] and the US edition at $2.95.[3] It is regarded by critics as one of the best of her later works, and was also one of Christie's two favourites of her own novels, the other being Crooked House.",
+          "text_sha256": "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+          "char_start": 0,
+          "char_end": 470,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6354299187660217
+        },
+        {
+          "chunk_id": "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc567112",
+          "instance_key": "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Conviction is an American legal drama television series on ABC.[1] It premiered on Monday, October 3, 2016.[2] The series, starring Hayley Atwell, was picked up from pilot on May 12, 2016.[3] A full trailer was released on May 17, 2016.[4] On November 8, 2016, ABC announced there would be no back-order for more than the thirteen contracted episodes;[5] however, the remaining episodes of the season aired until its conclusion on January 29, 2017.[6] ABC canceled the series on May 11, 2017.[7]",
+          "text_sha256": "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+          "char_start": 0,
+          "char_end": 495,
+          "tokens_with_specials": 126,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.396395742893219
+        },
+        {
+          "chunk_id": "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc93503",
+          "instance_key": "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On May 22, 2015,The Bastard Executioner was picked up for a 10-episode series for fall launch.[33]",
+          "text_sha256": "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd",
+          "char_start": 0,
+          "char_end": 98,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.3872285485267639
+        },
+        {
+          "chunk_id": "d797b4dd69c79269ac43f21f627b5c977d9fad6e60d25b07d0d0874c4e8d89e9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc50167",
+          "instance_key": "d797b4dd69c79269ac43f21f627b5c977d9fad6e60d25b07d0d0874c4e8d89e9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On May 14, 2015, it was announced that Amazon had issued a pilot order for the series, then titled Trial, based off a script by David E. Kelley and Jonathan Shapiro.[23] On December 1, 2015, Amazon announced that they were bypassing the pilot process with the project and were instead issuing a straight-to-series order consisting of a ten episode first season to premiere in 2016.[2] The first season would ultimately come to consist of eight episodes total. On August 7, 2016, it was announced that the first season would premiere on October 13, 2016.[3]",
+          "text_sha256": "5eaf39059a9ec4ca383fb2f4af0b9a7401b300754efba67128115d8eb8cbb932",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 124,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.3524338901042938
+        }
+      ],
+      "T_native_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Ordeal by Innocence is a three part BBC drama that was first broadcast during April 2018. It is based on the Agatha Christie novel of the same name and is the third English language filmed version to be broadcast. The drama stars Bill Nighy, Anna Chancellor, Alice Eve and Eleanor Tomlinson amongst others.",
+        "Ordeal by Innocence is a work of detective fiction by Agatha Christie, first published in the UK by the Collins Crime Club on 3 November 1958[1] and in the US by Dodd, Mead and Company the following year.[2][3] The UK edition retailed at twelve shillings and sixpence (12/6)[1] and the US edition at $2.95.[3] It is regarded by critics as one of the best of her later works, and was also one of Christie's two favourites of her own novels, the other being Crooked House.",
+        "Conviction is an American legal drama television series on ABC.[1] It premiered on Monday, October 3, 2016.[2] The series, starring Hayley Atwell, was picked up from pilot on May 12, 2016.[3] A full trailer was released on May 17, 2016.[4] On November 8, 2016, ABC announced there would be no back-order for more than the thirteen contracted episodes;[5] however, the remaining episodes of the season aired until its conclusion on January 29, 2017.[6] ABC canceled the series on May 11, 2017.[7]",
+        "On May 22, 2015,The Bastard Executioner was picked up for a 10-episode series for fall launch.[33]",
+        "On May 14, 2015, it was announced that Amazon had issued a pilot order for the series, then titled Trial, based off a script by David E. Kelley and Jonathan Shapiro.[23] On December 1, 2015, Amazon announced that they were bypassing the pilot process with the project and were instead issuing a straight-to-series order consisting of a ten episode first season to premiere in 2016.[2] The first season would ultimately come to consist of eight episodes total. On August 7, 2016, it was announced that the first season would premiere on October 13, 2016.[3]"
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2721__C__U",
+          "case_id": "NanoNQ:test2721",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28",
+          "status": "ok",
+          "answer": "Three episodes.",
+          "ordinal": 23,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2721__C__unfiltered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+            "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000",
+            "d797b4dd69c79269ac43f21f627b5c977d9fad6e60d25b07d0d0874c4e8d89e9:00000"
+          ],
+          "text_hashes": [
+            "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+            "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd",
+            "5eaf39059a9ec4ca383fb2f4af0b9a7401b300754efba67128115d8eb8cbb932"
+          ],
+          "request_sha256": "327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28",
+          "estimated_prompt_tokens": 601,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2721__C__unfiltered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 601,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 26.045911216002423,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2721__C__unfiltered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28",
+          "status": "ok",
+          "answer": "Three episodes.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2721__C__T",
+          "case_id": "NanoNQ:test2721",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28",
+          "status": "ok",
+          "answer": "Three episodes.",
+          "ordinal": 23,
+          "same_run_reuse_of": "NanoNQ:test2721__C__U",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2721__C__unfiltered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+            "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000",
+            "d797b4dd69c79269ac43f21f627b5c977d9fad6e60d25b07d0d0874c4e8d89e9:00000"
+          ],
+          "text_hashes": [
+            "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+            "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd",
+            "5eaf39059a9ec4ca383fb2f4af0b9a7401b300754efba67128115d8eb8cbb932"
+          ],
+          "request_sha256": "327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28",
+          "estimated_prompt_tokens": 601,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2721__C__unfiltered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 601,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 26.045911216002423,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2721__C__unfiltered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "327924bbd3ad281e161b3f38a7cbf0417e38c8753b2cd299af479cdb2be23c28",
+          "status": "ok",
+          "answer": "Three episodes.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2721__C__filtered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000",
+            "d797b4dd69c79269ac43f21f627b5c977d9fad6e60d25b07d0d0874c4e8d89e9:00000"
+          ],
+          "text_hashes": [
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd",
+            "5eaf39059a9ec4ca383fb2f4af0b9a7401b300754efba67128115d8eb8cbb932"
+          ],
+          "request_sha256": "fe91e77f7293026df506b328df510a7833d4376383cf2939fa0e3e8f452150a6",
+          "estimated_prompt_tokens": 404,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2721__C__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 404,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 18.6660157840015,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc93287",
+          "instance_key": "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ordeal by Innocence is a three part BBC drama that was first broadcast during April 2018. It is based on the Agatha Christie novel of the same name and is the third English language filmed version to be broadcast. The drama stars Bill Nighy, Anna Chancellor, Alice Eve and Eleanor Tomlinson amongst others.",
+          "text_sha256": "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+          "char_start": 0,
+          "char_end": 306,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7804722785949707
+        },
+        {
+          "chunk_id": "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1548640",
+          "instance_key": "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ordeal by Innocence is a work of detective fiction by Agatha Christie, first published in the UK by the Collins Crime Club on 3 November 1958[1] and in the US by Dodd, Mead and Company the following year.[2][3] The UK edition retailed at twelve shillings and sixpence (12/6)[1] and the US edition at $2.95.[3] It is regarded by critics as one of the best of her later works, and was also one of Christie's two favourites of her own novels, the other being Crooked House.",
+          "text_sha256": "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+          "char_start": 0,
+          "char_end": 470,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6354299187660217
+        },
+        {
+          "chunk_id": "b49a78287d436625b4f724bf3a60af5780340f435b5b891b1e344375f9542846:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2721/BN/1",
+          "instance_key": "b49a78287d436625b4f724bf3a60af5780340f435b5b891b1e344375f9542846",
+          "chunk_index": 0,
+          "copied_from": "doc1548640",
+          "copy_number": 1,
+          "text": "Source excerpt.\nOrdeal by Innocence is a work of detective fiction by Agatha Christie, first published in the UK by the Collins Crime Club on 3 November 1958[1] and in the US by Dodd, Mead and Company the following year.[2][3] The UK edition retailed at twelve shillings and sixpence (12/6)[1] and the US edition at $2.95.[3] It is regarded by critics as one of the best of her later works, and was also one of Christie's two favourites of her own novels, the other being Crooked House.",
+          "text_sha256": "11a4e5d75146a7cf350e4ce9bfea7b55be7da0931ae34bbf35e6908bb06a2c9b",
+          "char_start": 0,
+          "char_end": 486,
+          "tokens_with_specials": 124,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.624649703502655
+        },
+        {
+          "chunk_id": "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc567112",
+          "instance_key": "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Conviction is an American legal drama television series on ABC.[1] It premiered on Monday, October 3, 2016.[2] The series, starring Hayley Atwell, was picked up from pilot on May 12, 2016.[3] A full trailer was released on May 17, 2016.[4] On November 8, 2016, ABC announced there would be no back-order for more than the thirteen contracted episodes;[5] however, the remaining episodes of the season aired until its conclusion on January 29, 2017.[6] ABC canceled the series on May 11, 2017.[7]",
+          "text_sha256": "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+          "char_start": 0,
+          "char_end": 495,
+          "tokens_with_specials": 126,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.396395742893219
+        },
+        {
+          "chunk_id": "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc93503",
+          "instance_key": "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On May 22, 2015,The Bastard Executioner was picked up for a 10-episode series for fall launch.[33]",
+          "text_sha256": "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd",
+          "char_start": 0,
+          "char_end": 98,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.3872285485267639
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Ordeal by Innocence is a three part BBC drama that was first broadcast during April 2018. It is based on the Agatha Christie novel of the same name and is the third English language filmed version to be broadcast. The drama stars Bill Nighy, Anna Chancellor, Alice Eve and Eleanor Tomlinson amongst others.",
+        "Conviction is an American legal drama television series on ABC.[1] It premiered on Monday, October 3, 2016.[2] The series, starring Hayley Atwell, was picked up from pilot on May 12, 2016.[3] A full trailer was released on May 17, 2016.[4] On November 8, 2016, ABC announced there would be no back-order for more than the thirteen contracted episodes;[5] however, the remaining episodes of the season aired until its conclusion on January 29, 2017.[6] ABC canceled the series on May 11, 2017.[7]",
+        "On May 22, 2015,The Bastard Executioner was picked up for a 10-episode series for fall launch.[33]"
+      ],
+      "T_removed_indices": [
+        1,
+        2
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2721__BN1__U",
+          "case_id": "NanoNQ:test2721",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "cef33850241cc485ec526ba9a07c7d465a319a60453c5ddedd556c2335dbee42",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 25,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2721__BN1__unfiltered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+            "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+            "b49a78287d436625b4f724bf3a60af5780340f435b5b891b1e344375f9542846:00000",
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+          ],
+          "text_hashes": [
+            "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+            "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+            "11a4e5d75146a7cf350e4ce9bfea7b55be7da0931ae34bbf35e6908bb06a2c9b",
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd"
+          ],
+          "request_sha256": "cef33850241cc485ec526ba9a07c7d465a319a60453c5ddedd556c2335dbee42",
+          "estimated_prompt_tokens": 588,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2721__BN1__unfiltered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 588,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 18.72584518399526,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2721__BN1__unfiltered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "cef33850241cc485ec526ba9a07c7d465a319a60453c5ddedd556c2335dbee42",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2721__BN1__T",
+          "case_id": "NanoNQ:test2721",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "8b19382efc882aac2fb4bd8f0ea5b209b043c9fe5785c581d5411b16e17b39d9",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 24,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2721__BE1__filtered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+          ],
+          "text_hashes": [
+            "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd"
+          ],
+          "request_sha256": "8b19382efc882aac2fb4bd8f0ea5b209b043c9fe5785c581d5411b16e17b39d9",
+          "estimated_prompt_tokens": 329,
+          "identical_request_to": "NanoNQ:test2721__BN1__filtered",
+          "first_call_id": "NanoNQ:test2721__BN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 329,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 12.926036194003245,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2721__BE1__filtered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "BE1",
+          "mode": "filtered",
+          "request_sha256": "8b19382efc882aac2fb4bd8f0ea5b209b043c9fe5785c581d5411b16e17b39d9",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2721__BE1__filtered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+          ],
+          "text_hashes": [
+            "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd"
+          ],
+          "request_sha256": "8b19382efc882aac2fb4bd8f0ea5b209b043c9fe5785c581d5411b16e17b39d9",
+          "estimated_prompt_tokens": 329,
+          "identical_request_to": "NanoNQ:test2721__BN1__filtered",
+          "first_call_id": "NanoNQ:test2721__BN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 329,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 12.926036194003245,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc93287",
+          "instance_key": "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ordeal by Innocence is a three part BBC drama that was first broadcast during April 2018. It is based on the Agatha Christie novel of the same name and is the third English language filmed version to be broadcast. The drama stars Bill Nighy, Anna Chancellor, Alice Eve and Eleanor Tomlinson amongst others.",
+          "text_sha256": "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+          "char_start": 0,
+          "char_end": 306,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7804722785949707
+        },
+        {
+          "chunk_id": "313aa2caa2a92713e83b80ef0d57d0434321aa58c566b5e5551abe955acdc2ab:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2721/PN/1",
+          "instance_key": "313aa2caa2a92713e83b80ef0d57d0434321aa58c566b5e5551abe955acdc2ab",
+          "chunk_index": 0,
+          "copied_from": "doc93287",
+          "copy_number": 1,
+          "text": "Source excerpt.\nOrdeal by Innocence is a three part BBC drama that was first broadcast during April 2018. It is based on the Agatha Christie novel of the same name and is the third English language filmed version to be broadcast. The drama stars Bill Nighy, Anna Chancellor, Alice Eve and Eleanor Tomlinson amongst others.",
+          "text_sha256": "ef3ce584f91ea619f002c1e9534f8014063e877e8902f9b2845480de041d0923",
+          "char_start": 0,
+          "char_end": 322,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7685836553573608
+        },
+        {
+          "chunk_id": "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1548640",
+          "instance_key": "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ordeal by Innocence is a work of detective fiction by Agatha Christie, first published in the UK by the Collins Crime Club on 3 November 1958[1] and in the US by Dodd, Mead and Company the following year.[2][3] The UK edition retailed at twelve shillings and sixpence (12/6)[1] and the US edition at $2.95.[3] It is regarded by critics as one of the best of her later works, and was also one of Christie's two favourites of her own novels, the other being Crooked House.",
+          "text_sha256": "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+          "char_start": 0,
+          "char_end": 470,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6354299187660217
+        },
+        {
+          "chunk_id": "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc567112",
+          "instance_key": "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Conviction is an American legal drama television series on ABC.[1] It premiered on Monday, October 3, 2016.[2] The series, starring Hayley Atwell, was picked up from pilot on May 12, 2016.[3] A full trailer was released on May 17, 2016.[4] On November 8, 2016, ABC announced there would be no back-order for more than the thirteen contracted episodes;[5] however, the remaining episodes of the season aired until its conclusion on January 29, 2017.[6] ABC canceled the series on May 11, 2017.[7]",
+          "text_sha256": "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+          "char_start": 0,
+          "char_end": 495,
+          "tokens_with_specials": 126,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.396395742893219
+        },
+        {
+          "chunk_id": "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc93503",
+          "instance_key": "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "On May 22, 2015,The Bastard Executioner was picked up for a 10-episode series for fall launch.[33]",
+          "text_sha256": "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd",
+          "char_start": 0,
+          "char_end": 98,
+          "tokens_with_specials": 28,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.3872285485267639
+        }
+      ],
+      "T_native_indices": [
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Ordeal by Innocence is a work of detective fiction by Agatha Christie, first published in the UK by the Collins Crime Club on 3 November 1958[1] and in the US by Dodd, Mead and Company the following year.[2][3] The UK edition retailed at twelve shillings and sixpence (12/6)[1] and the US edition at $2.95.[3] It is regarded by critics as one of the best of her later works, and was also one of Christie's two favourites of her own novels, the other being Crooked House.",
+        "Conviction is an American legal drama television series on ABC.[1] It premiered on Monday, October 3, 2016.[2] The series, starring Hayley Atwell, was picked up from pilot on May 12, 2016.[3] A full trailer was released on May 17, 2016.[4] On November 8, 2016, ABC announced there would be no back-order for more than the thirteen contracted episodes;[5] however, the remaining episodes of the season aired until its conclusion on January 29, 2017.[6] ABC canceled the series on May 11, 2017.[7]",
+        "On May 22, 2015,The Bastard Executioner was picked up for a 10-episode series for fall launch.[33]"
+      ],
+      "T_removed_indices": [
+        0,
+        1
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+          "313aa2caa2a92713e83b80ef0d57d0434321aa58c566b5e5551abe955acdc2ab:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2721__PN1__U",
+          "case_id": "NanoNQ:test2721",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "bf90652ec4b79254f7b7e8517f4f383e9b99dfd6fd09836edd19500d2c264c76",
+          "status": "ok",
+          "answer": "Ordeal by Innocence is a three-part BBC drama.",
+          "ordinal": 26,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2721__PN1__unfiltered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b035bc395067259eb2016c4d54d02de1c0de529d26c510e7d5d6c76dea8be4eb:00000",
+            "313aa2caa2a92713e83b80ef0d57d0434321aa58c566b5e5551abe955acdc2ab:00000",
+            "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+          ],
+          "text_hashes": [
+            "6b83404e451f1a2bd3af74a704105d34aa9f7c7b3b21d95e3259c1d269a061be",
+            "ef3ce584f91ea619f002c1e9534f8014063e877e8902f9b2845480de041d0923",
+            "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd"
+          ],
+          "request_sha256": "bf90652ec4b79254f7b7e8517f4f383e9b99dfd6fd09836edd19500d2c264c76",
+          "estimated_prompt_tokens": 529,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2721__PN1__unfiltered",
+          "status": "ok",
+          "answer": "Ordeal by Innocence is a three part BBC drama.",
+          "prompt_eval_count": 529,
+          "eval_count": 13,
+          "done_reason": "stop",
+          "wall_seconds": 26.410556877999625,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2721__PN1__unfiltered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "bf90652ec4b79254f7b7e8517f4f383e9b99dfd6fd09836edd19500d2c264c76",
+          "status": "ok",
+          "answer": "Ordeal by Innocence is a three-part BBC drama.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2721__PN1__T",
+          "case_id": "NanoNQ:test2721",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "18b95b8aefac726fc98d1c6f1908282ac5428ddb3b4eedbcf29dd23916e5601f",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 27,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2721__PE1__filtered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+          ],
+          "text_hashes": [
+            "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd"
+          ],
+          "request_sha256": "18b95b8aefac726fc98d1c6f1908282ac5428ddb3b4eedbcf29dd23916e5601f",
+          "estimated_prompt_tokens": 388,
+          "identical_request_to": "NanoNQ:test2721__PN1__filtered",
+          "first_call_id": "NanoNQ:test2721__PN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 388,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 18.582447702996433,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2721__PE1__filtered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "PE1",
+          "mode": "filtered",
+          "request_sha256": "18b95b8aefac726fc98d1c6f1908282ac5428ddb3b4eedbcf29dd23916e5601f",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2721__PE1__filtered",
+          "case_id": "NanoNQ:test2721",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "how many episodes are there in ordeal by innocence",
+          "expected_answer": "3 episodes",
+          "source_qualification": "The three-part BBC adaptation first broadcast in April 2018.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "fe7595ea909059fd0a439cf22da2e9d7ce2f567a0a220a22b34d5ce5e4c3f5cf:00000",
+            "49416408b12ac5853f109f609ee8d6e447bc4fd9e1629a2a5288f25e92918716:00000",
+            "7517b15bc90fb6e23bb539cc56d1c6ea6b305448b9ad5193a7b96d2f47a5146c:00000"
+          ],
+          "text_hashes": [
+            "5149fd5d6fdcac801d3ee6839e3901667b18f4400ea2869066094824378de00a",
+            "c197b5116605be265697fbe38c9f2bc7bc2374911503431d018e339997cfdab8",
+            "34075aaddd698469bd35f136a41a35ab0346ec566461a54db53343a41fbf72cd"
+          ],
+          "request_sha256": "18b95b8aefac726fc98d1c6f1908282ac5428ddb3b4eedbcf29dd23916e5601f",
+          "estimated_prompt_tokens": 388,
+          "identical_request_to": "NanoNQ:test2721__PN1__filtered",
+          "first_call_id": "NanoNQ:test2721__PN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 388,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 18.582447702996433,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

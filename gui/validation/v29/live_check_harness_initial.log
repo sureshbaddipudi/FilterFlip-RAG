@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/work/gui_v29/live_check.py", line 13, in <module>
+    key=api('POST','/api/runs',{'case_id':cid,'mode':'trust','condition':co})['run_id'];print('Started',cid,co,key,flush=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/work/gui_v29/live_check.py", line 9, in api
+    if code!=200:raise RuntimeError((code,raw))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: (202, b'{"run_id": "e8b55e8e13234dd0b345e1192928ae18"}')

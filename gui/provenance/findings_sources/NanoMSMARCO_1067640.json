@@ -1,0 +1,804 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1067640",
+    "question": "what is a signal transduction pathway example",
+    "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+    "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+    "source_review_status_historical": "user_recorded_review",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoMSMARCO:1067640",
+      "assessment": "no_exposure_preexisting_empty_output",
+      "rationale": "C, BN1 and PN1 outputs are all empty; the primary addition was not retrieved and C/PN1 supplied contexts are identical. This is not newly induced by PN1.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [],
+        "BN1": [],
+        "PN1": []
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 3,
+    "novel_request_hashes": 1
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoMSMARCO:1067640",
+    "question": "what is a signal transduction pathway example",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1067640"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7462971210479736
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7421955466270447
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7221992611885071
+        },
+        {
+          "chunk_id": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "826058",
+          "instance_key": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The signal transduction pathway is the mechanism by which the energy of a photon signals a mechanism in the cell that leads to its electrical polarization. 1  This polarization ultimately leads to either the transmittance or inhibition of a neural signal that will be fed to the brain via the optic nerve.",
+          "text_sha256": "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7150094509124756
+        }
+      ],
+      "T_native_indices": [],
+      "T_output_texts": [],
+      "T_removed_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1067640__C__U",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 50,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1067640__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "question": "what is a signal transduction pathway example",
+          "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+          "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+            "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+            "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+            "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+            "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000"
+          ],
+          "text_hashes": [
+            "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+            "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+            "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+            "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+            "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74"
+          ],
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "estimated_prompt_tokens": 302,
+          "identical_request_to": "NanoMSMARCO:1067640__C__unfiltered",
+          "first_call_id": "NanoMSMARCO:1067640__C__unfiltered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 302,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 13.047074376998353,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1067640__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1067640__C__T",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 49,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1067640__PE2__filtered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "PE2",
+          "mode": "filtered",
+          "question": "what is a signal transduction pathway example",
+          "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+          "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000"
+          ],
+          "text_hashes": [
+            "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74"
+          ],
+          "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+          "estimated_prompt_tokens": 131,
+          "identical_request_to": "NanoMSMARCO:1067640__C__filtered",
+          "first_call_id": "NanoMSMARCO:1067640__C__filtered",
+          "status": "ok",
+          "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+          "prompt_eval_count": 131,
+          "eval_count": 35,
+          "done_reason": "stop",
+          "wall_seconds": 13.111126693002007,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376
+        },
+        {
+          "chunk_id": "9eae0aa3cd0526bdb82209ed6e603517f2f78133bdf5fe6e8761f99775f1e203:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067640/BN/1",
+          "instance_key": "9eae0aa3cd0526bdb82209ed6e603517f2f78133bdf5fe6e8761f99775f1e203",
+          "chunk_index": 0,
+          "copied_from": "4991354",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAn overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "1e1ede1f1392ec68340349246c8bf1bef4c112c27338118aaf05e037c089c49f",
+          "char_start": 0,
+          "char_end": 295,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7533807754516602
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7462971210479736
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7421955466270447
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7221992611885071
+        }
+      ],
+      "T_native_indices": [],
+      "T_output_texts": [],
+      "T_removed_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        1,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1067640__BN1__U",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "cf298ea3c25a995a32d21144407ffdfdea64fc59b08c1e7ab9f350915c661df8",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 51,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1067640__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "what is a signal transduction pathway example",
+          "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+          "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+            "9eae0aa3cd0526bdb82209ed6e603517f2f78133bdf5fe6e8761f99775f1e203:00000",
+            "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+            "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+            "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000"
+          ],
+          "text_hashes": [
+            "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+            "1e1ede1f1392ec68340349246c8bf1bef4c112c27338118aaf05e037c089c49f",
+            "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+            "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+            "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa"
+          ],
+          "request_sha256": "cf298ea3c25a995a32d21144407ffdfdea64fc59b08c1e7ab9f350915c661df8",
+          "estimated_prompt_tokens": 293,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1067640__BN1__unfiltered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 293,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 12.86100393000379,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1067640__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "cf298ea3c25a995a32d21144407ffdfdea64fc59b08c1e7ab9f350915c661df8",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1067640__BN1__T",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 49,
+          "same_run_reuse_of": "NanoMSMARCO:1067640__C__T",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1067640__BN1__filtered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "BN1",
+          "mode": "filtered",
+          "question": "what is a signal transduction pathway example",
+          "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+          "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "9eae0aa3cd0526bdb82209ed6e603517f2f78133bdf5fe6e8761f99775f1e203:00000",
+            "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000"
+          ],
+          "text_hashes": [
+            "1e1ede1f1392ec68340349246c8bf1bef4c112c27338118aaf05e037c089c49f",
+            "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa"
+          ],
+          "request_sha256": "2a9da382baec8f8434cf3ae311f2cd7bcf1d28fe0972b3d13e9ff4721dac7cdf",
+          "estimated_prompt_tokens": 151,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1067640__BN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 151,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 7.0495051449979655,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7462971210479736
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7421955466270447
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7221992611885071
+        },
+        {
+          "chunk_id": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "826058",
+          "instance_key": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The signal transduction pathway is the mechanism by which the energy of a photon signals a mechanism in the cell that leads to its electrical polarization. 1  This polarization ultimately leads to either the transmittance or inhibition of a neural signal that will be fed to the brain via the optic nerve.",
+          "text_sha256": "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7150094509124756
+        }
+      ],
+      "T_native_indices": [],
+      "T_output_texts": [],
+      "T_removed_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "component_before": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1067640__PN1__U",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 50,
+          "same_run_reuse_of": "NanoMSMARCO:1067640__C__U",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1067640__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "question": "what is a signal transduction pathway example",
+          "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+          "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+            "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+            "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+            "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+            "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000"
+          ],
+          "text_hashes": [
+            "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+            "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+            "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+            "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+            "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74"
+          ],
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "estimated_prompt_tokens": 302,
+          "identical_request_to": "NanoMSMARCO:1067640__C__unfiltered",
+          "first_call_id": "NanoMSMARCO:1067640__C__unfiltered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 302,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 13.047074376998353,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1067640__PE2__unfiltered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1067640__PN1__T",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "73ee0f4123f687cfe30336d705a8afc22292461cf2ce5e425f0d6343da982d14",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 49,
+          "same_run_reuse_of": "NanoMSMARCO:1067640__C__T",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1067640__PE2__filtered",
+          "case_id": "NanoMSMARCO:1067640",
+          "condition": "PE2",
+          "mode": "filtered",
+          "question": "what is a signal transduction pathway example",
+          "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+          "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000"
+          ],
+          "text_hashes": [
+            "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74"
+          ],
+          "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+          "estimated_prompt_tokens": 131,
+          "identical_request_to": "NanoMSMARCO:1067640__C__filtered",
+          "first_call_id": "NanoMSMARCO:1067640__C__filtered",
+          "status": "ok",
+          "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+          "prompt_eval_count": 131,
+          "eval_count": 35,
+          "done_reason": "stop",
+          "wall_seconds": 13.111126693002007,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

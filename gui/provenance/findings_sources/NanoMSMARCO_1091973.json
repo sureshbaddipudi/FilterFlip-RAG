@@ -1,0 +1,995 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1091973",
+    "question": "benson radiology",
+    "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+    "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+    "source_review_status_historical": "assistant_only",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoMSMARCO:1091973",
+      "assessment": "partial_support_rubric_qualified",
+      "rationale": "PN1 retains a North Adelaide listing for Benson Radiology but loses the detailed provider description. The broad named-entity query and fuller frozen expected description require qualification; not an unambiguous total-loss event.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "14e283bbcbee9a5087474a877a7e597be25b3320ad7cdd99f2de49b9a1185035:00000"
+        ],
+        "BN1": [
+          "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000"
+        ],
+        "PN1": [
+          "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 5,
+    "novel_request_hashes": 0
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoMSMARCO:1091973",
+    "question": "benson radiology",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "non-event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1091973"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6229149103164673
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5660378932952881
+        },
+        {
+          "chunk_id": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2104181",
+          "instance_key": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+          "text_sha256": "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5561245679855347
+        },
+        {
+          "chunk_id": "14e283bbcbee9a5087474a877a7e597be25b3320ad7cdd99f2de49b9a1185035:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870704",
+          "instance_key": "14e283bbcbee9a5087474a877a7e597be25b3320ad7cdd99f2de49b9a1185035",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Client Outcomes. 1  Regular communication with all stakeholders provided on-going reassurance and limited any surprises throughout the project. 2  The project was completed ahead of schedule, enabling Benson Radiology to deliver services earlier than anticipated.",
+          "text_sha256": "aa655b16c68a9823acc5f9b6c40ba4ec267ec0218de8ba8a3cc58336273d19c3",
+          "char_start": 0,
+          "char_end": 263,
+          "tokens_with_specials": 46,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5473327040672302
+        }
+      ],
+      "T_native_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+        "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+        "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+        "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+        "Client Outcomes. 1  Regular communication with all stakeholders provided on-going reassurance and limited any surprises throughout the project. 2  The project was completed ahead of schedule, enabling Benson Radiology to deliver services earlier than anticipated."
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1091973__C__U",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "ordinal": 33,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1091973__C__unfiltered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+            "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+            "14e283bbcbee9a5087474a877a7e597be25b3320ad7cdd99f2de49b9a1185035:00000"
+          ],
+          "text_hashes": [
+            "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+            "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+            "aa655b16c68a9823acc5f9b6c40ba4ec267ec0218de8ba8a3cc58336273d19c3"
+          ],
+          "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+          "estimated_prompt_tokens": 327,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1091973__C__unfiltered",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, delivering high quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "prompt_eval_count": 327,
+          "eval_count": 45,
+          "done_reason": "stop",
+          "wall_seconds": 26.60461573000066,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1091973__C__unfiltered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1091973__C__T",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "ordinal": 33,
+          "same_run_reuse_of": "NanoMSMARCO:1091973__C__U",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1091973__C__unfiltered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+            "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+            "14e283bbcbee9a5087474a877a7e597be25b3320ad7cdd99f2de49b9a1185035:00000"
+          ],
+          "text_hashes": [
+            "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+            "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+            "aa655b16c68a9823acc5f9b6c40ba4ec267ec0218de8ba8a3cc58336273d19c3"
+          ],
+          "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+          "estimated_prompt_tokens": 327,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1091973__C__unfiltered",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, delivering high quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "prompt_eval_count": 327,
+          "eval_count": 45,
+          "done_reason": "stop",
+          "wall_seconds": 26.60461573000066,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1091973__C__unfiltered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "cafc8aceecadd46277439976f00456b7f0cf8f29a531eaf5138e2952ab0fbabd",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1091973__C__filtered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+            "14e283bbcbee9a5087474a877a7e597be25b3320ad7cdd99f2de49b9a1185035:00000"
+          ],
+          "text_hashes": [
+            "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+            "aa655b16c68a9823acc5f9b6c40ba4ec267ec0218de8ba8a3cc58336273d19c3"
+          ],
+          "request_sha256": "4b8a035134addb0ab96e3f8d3f48d8c6b75ac15b246c399079393e8f24c4f25e",
+          "estimated_prompt_tokens": 261,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1091973__C__filtered",
+          "status": "ok",
+          "answer": "Benson Radiology is located in North Adelaide, and there are reviews by real people available on Yelp for this location.",
+          "prompt_eval_count": 261,
+          "eval_count": 25,
+          "done_reason": "stop",
+          "wall_seconds": 17.057810560996586,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6229149103164673
+        },
+        {
+          "chunk_id": "f00631051dc7e154f86a792ae282a0b3d0320e6d0833a6087a0e6a6c2edcff42:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/BN/1",
+          "instance_key": "f00631051dc7e154f86a792ae282a0b3d0320e6d0833a6087a0e6a6c2edcff42",
+          "chunk_index": 0,
+          "copied_from": "7870700",
+          "copy_number": 1,
+          "text": "Source excerpt.\nDr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "6222283916c52c8dd5f65f0f84fb33dde9226b7f9adfd2034f4c21eedbae4c2b",
+          "char_start": 0,
+          "char_end": 140,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6227664947509766
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5660378932952881
+        },
+        {
+          "chunk_id": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2104181",
+          "instance_key": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+          "text_sha256": "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5561245679855347
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+        "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+        "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934."
+      ],
+      "T_removed_indices": [
+        1,
+        2
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1091973__BN1__U",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "bab44e73282c7b8d9f0d3dde43504535a69fc0032b82346cbe10859930d5594f",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+          "ordinal": 35,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": false,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1091973__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+            "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+            "f00631051dc7e154f86a792ae282a0b3d0320e6d0833a6087a0e6a6c2edcff42:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000"
+          ],
+          "text_hashes": [
+            "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+            "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+            "6222283916c52c8dd5f65f0f84fb33dde9226b7f9adfd2034f4c21eedbae4c2b",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256"
+          ],
+          "request_sha256": "bab44e73282c7b8d9f0d3dde43504535a69fc0032b82346cbe10859930d5594f",
+          "estimated_prompt_tokens": 313,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1091973__BN1__unfiltered",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, delivering high quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+          "prompt_eval_count": 313,
+          "eval_count": 37,
+          "done_reason": "stop",
+          "wall_seconds": 19.30776339300064,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1091973__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "bab44e73282c7b8d9f0d3dde43504535a69fc0032b82346cbe10859930d5594f",
+          "status": "ok",
+          "answer": "Benson Radiology is a diagnostic and interventional radiology provider based in North Adelaide, South Australia, with clinics operating across Adelaide and the south-east of South Australia. They have been in operation since 1958 and invest in the latest technology and imaging techniques.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1091973__BN1__T",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "ordinal": 34,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1091973__BE1__filtered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000"
+          ],
+          "text_hashes": [
+            "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256"
+          ],
+          "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+          "estimated_prompt_tokens": 250,
+          "identical_request_to": "NanoMSMARCO:1091973__BN1__filtered",
+          "first_call_id": "NanoMSMARCO:1091973__BN1__filtered",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+          "prompt_eval_count": 250,
+          "eval_count": 37,
+          "done_reason": "stop",
+          "wall_seconds": 19.20252794699627,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1091973__BE1__filtered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "BE1",
+          "mode": "filtered",
+          "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high-quality imaging and care since 1958. They operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1091973__BE1__filtered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000"
+          ],
+          "text_hashes": [
+            "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256"
+          ],
+          "request_sha256": "499ed81f35e649b94b530e1bfe44aa65a62d663bc22359b15d942a49cf9edc85",
+          "estimated_prompt_tokens": 250,
+          "identical_request_to": "NanoMSMARCO:1091973__BN1__filtered",
+          "first_call_id": "NanoMSMARCO:1091973__BN1__filtered",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, offering high quality imaging and care across 22 clinics in Adelaide and the south-east of South Australia.",
+          "prompt_eval_count": 250,
+          "eval_count": 37,
+          "done_reason": "stop",
+          "wall_seconds": 19.20252794699627,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870707",
+          "instance_key": "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+          "char_start": 0,
+          "char_end": 334,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8947201371192932
+        },
+        {
+          "chunk_id": "ea38ed3cc77aac4b1a33f01c3852014a8f11f1bd65575d165a7206ad523d606a:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1091973/PN/1",
+          "instance_key": "ea38ed3cc77aac4b1a33f01c3852014a8f11f1bd65575d165a7206ad523d606a",
+          "chunk_index": 0,
+          "copied_from": "7870707",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBenson Radiology. Benson Radiology is a leader in diagnostic and interventional radiology, delivering doctors and their patients with high quality imaging and care since 1958. We invest in the latest technology and imaging techniques across our network of 22 clinics operating across Adelaide and in the south-east of South Australia.",
+          "text_sha256": "cfd4b90d96e859f547e22dc32769523729ad3fc8b01d905c0b76d22ce89a730b",
+          "char_start": 0,
+          "char_end": 350,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8755190372467041
+        },
+        {
+          "chunk_id": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870700",
+          "instance_key": "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+          "text_sha256": "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 33,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6229149103164673
+        },
+        {
+          "chunk_id": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7870705",
+          "instance_key": "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+          "text_sha256": "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+          "char_start": 0,
+          "char_end": 180,
+          "tokens_with_specials": 43,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5660378932952881
+        },
+        {
+          "chunk_id": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2104181",
+          "instance_key": "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934.",
+          "text_sha256": "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256",
+          "char_start": 0,
+          "char_end": 285,
+          "tokens_with_specials": 69,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5561245679855347
+        }
+      ],
+      "T_native_indices": [
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Dr. Amy Benson is a Radiologist in San Antonio, TX. Find Dr. Benson's phone number, address, hospital affiliations and more.",
+        "Benson Radiology in North Adelaide, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what’s great and not so great in North Adelaide and beyond.",
+        "Benson, AZ. Sponsored Topics. Benson is a city in Cochise County, Arizona, in the United States, 45 miles east-southeast of Tucson. It was founded as a rail terminal for the area, and still serves as such. According to 2006 Census Bureau estimates, the population of the city is 4,934."
+      ],
+      "T_removed_indices": [
+        0,
+        1
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+          "ea38ed3cc77aac4b1a33f01c3852014a8f11f1bd65575d165a7206ad523d606a:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1091973__PN1__U",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "ccd234f64cafeb28c0cc0b8d330cd9acd48f6f3ce81bdb026ff97fd501cb47f2",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They invest in the latest technology and operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "ordinal": 36,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1091973__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "640c664f661498125a6465f4058ed387dc38000f2f8a725752919316b71b6357:00000",
+            "ea38ed3cc77aac4b1a33f01c3852014a8f11f1bd65575d165a7206ad523d606a:00000",
+            "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000"
+          ],
+          "text_hashes": [
+            "533be968694412bcb8ca16352130c6705e40889685531dc8891b50c1e6a0172f",
+            "cfd4b90d96e859f547e22dc32769523729ad3fc8b01d905c0b76d22ce89a730b",
+            "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256"
+          ],
+          "request_sha256": "ccd234f64cafeb28c0cc0b8d330cd9acd48f6f3ce81bdb026ff97fd501cb47f2",
+          "estimated_prompt_tokens": 349,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1091973__PN1__unfiltered",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high quality imaging and care since 1958. They invest in the latest technology and operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "prompt_eval_count": 349,
+          "eval_count": 51,
+          "done_reason": "stop",
+          "wall_seconds": 22.434458031995746,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1091973__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "ccd234f64cafeb28c0cc0b8d330cd9acd48f6f3ce81bdb026ff97fd501cb47f2",
+          "status": "ok",
+          "answer": "Benson Radiology is a leader in diagnostic and interventional radiology, providing high-quality imaging and care since 1958. They invest in the latest technology and operate 22 clinics across Adelaide and the south-east of South Australia.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1091973__PN1__T",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 37,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1091973__PE1__filtered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000"
+          ],
+          "text_hashes": [
+            "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256"
+          ],
+          "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+          "estimated_prompt_tokens": 214,
+          "identical_request_to": "NanoMSMARCO:1091973__PN1__filtered",
+          "first_call_id": "NanoMSMARCO:1091973__PN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 214,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 1.7838209140027175,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1091973__PE1__filtered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "PE1",
+          "mode": "filtered",
+          "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1091973__PE1__filtered",
+          "case_id": "NanoMSMARCO:1091973",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "benson radiology",
+          "expected_answer": "A provider of diagnostic and interventional radiology services operating in Adelaide and south-eastern South Australia.",
+          "source_qualification": "Treat the named-entity query as a request for a brief description of the organization. Clinic counts and present-day operations are not independently verified.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "78f31f4ec5b24dbbbf7e60b149e2812d3c239cb1297b43800510415d7a50516b:00000",
+            "944963cbf087b2376218bfd1f02ebd80ef0246d957ed5ac1d904ac24f1249b85:00000",
+            "f4aefcc9e64d467241e792cf9ce87879a1f0398ff4e92a17f1aece158b0874a2:00000"
+          ],
+          "text_hashes": [
+            "13eda4a80bfc69c7218b02ae29ddc2340357a1170b431a0845a964cedc961abc",
+            "9b578841e77f623481760f8621da1b1c680f741ef2e57c62563f8a3b8c8d592d",
+            "cfa96d5f64b7d6ca04e9a7e8767b086e916f77a682dc9bc5dc13f240b2deb256"
+          ],
+          "request_sha256": "bd713428c59cd3b2504c4e2e91caac51ffb4e16aec1430f0b1f9f7811316deb5",
+          "estimated_prompt_tokens": 214,
+          "identical_request_to": "NanoMSMARCO:1091973__PN1__filtered",
+          "first_call_id": "NanoMSMARCO:1091973__PN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 214,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 1.7838209140027175,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

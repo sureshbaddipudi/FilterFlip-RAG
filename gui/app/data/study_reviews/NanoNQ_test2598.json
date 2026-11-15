@@ -1,0 +1,732 @@
+{
+  "case_id": "NanoNQ:test2598",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test2598.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test2598.md",
+  "records": [
+    {
+      "record_id": "R1:cf23c3fb8d30cc1f53e8083e40f007b9c8d5f8f37b165520b2a50a74864cdce5",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2598",
+      "request_sha256": "cf23c3fb8d30cc1f53e8083e40f007b9c8d5f8f37b165520b2a50a74864cdce5",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2598__BN2__unfiltered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+            "04d127494e98fe2c78caa6269587c4b8d6bfdeaf401b9e5151f600282e00637c:00000",
+            "3fd72a0ffa49fa5f6b3eae556a7869180f3c06990b5b89c763c2d5cc6d3a258c:00000",
+            "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000"
+          ],
+          "text_hashes": [
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "1331abde28c7a9d21e693c4dd63860d595082edf10f0fa89771294658e15606a",
+            "ddbb15cbe616780ac3c02f2d32a13f3f8c82c0dc7cea785bf2df57c59be8212d",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2598.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dfb7a8 (celebrated throughout Mexico, particularly Central and South)"
+        ],
+        "rationale": "Answer passage dfb7a8 is in context; answer gives Central and South regions but not \"throughout Mexico\".",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2598",
+      "request_sha256": "ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2598__BN2__filtered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000"
+          ],
+          "text_hashes": [
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2598__PN2__filtered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000"
+          ],
+          "text_hashes": [
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2598__BE2__filtered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000"
+          ],
+          "text_hashes": [
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2598__PE2__filtered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000"
+          ],
+          "text_hashes": [
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2598.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "57b761 (Cinco de Mayo)",
+          "dfb7a8 removed"
+        ],
+        "rationale": "Answer passage and its copies removed; only an unrelated Cinco de Mayo passage kept, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:23405e44ae8686f91725d073b3398d12ec4f1493fce7bb15a802c3b42a5705e5",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2598",
+      "request_sha256": "23405e44ae8686f91725d073b3398d12ec4f1493fce7bb15a802c3b42a5705e5",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2598__PN2__unfiltered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+            "92dc043fe06ce75b33b05aeef50dd0a2f80448221b3dd561cf2058dbfcbdc52a:00000",
+            "d0b36cf03a644644dc29e794df81ae4a9e1704f2e88707ddae1f6d0f6208a581:00000",
+            "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000"
+          ],
+          "text_hashes": [
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "9dcac8de0e423ca4cbe8b7a5cfcd43b48f013b64d1533eeba188a78fef9c4fa5",
+            "a5badc15331edf838c5b1d84865bcd5d3a698a91ee351b0b3a7829bdf295acfa",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2598.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dfb7a8 (celebrated throughout Mexico, particularly Central and South)"
+        ],
+        "rationale": "Answer passage dfb7a8 is in context; answer gives Central and South regions but not \"throughout Mexico\".",
+        "disagreement": "\"Central and South\" is narrower than \"throughout Mexico, particularly Central and South\"; core yes, full no; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:1bf1070ff54a3cefe949a559610f4ec6ace76d1aab7ce94c05b7ec087046d178",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2598",
+      "request_sha256": "1bf1070ff54a3cefe949a559610f4ec6ace76d1aab7ce94c05b7ec087046d178",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2598__BE1__unfiltered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "64cf158ab09e5d585d799199ede5190425357e43ee29197e180a5225767561d5:00000",
+            "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+            "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+            "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6:00000"
+          ],
+          "text_hashes": [
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+            "b77b29288d42ac6896a0d9736f7d3a80e3581a9bad3efc377b921a8233c9d1b1"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2598.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dfb7a8 (celebrated throughout Mexico, particularly Central and South)"
+        ],
+        "rationale": "Answer passage present; answer gives throughout Mexico, particularly Central and South.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:28fa7209020654abcbb41ce97f91888b8717ad9142665df53c78fbd0efa9baf9",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2598",
+      "request_sha256": "28fa7209020654abcbb41ce97f91888b8717ad9142665df53c78fbd0efa9baf9",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2598__BE2__unfiltered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "58e1e6feed8e215a2d355d2ef0c80df34dc90e3444a4cff3f656736b2dbb2774:00000",
+            "64cf158ab09e5d585d799199ede5190425357e43ee29197e180a5225767561d5:00000",
+            "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+            "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000"
+          ],
+          "text_hashes": [
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2598.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dfb7a8 (celebrated throughout Mexico, particularly Central and South)"
+        ],
+        "rationale": "Answer passage dfb7a8 is in context; answer gives Central and South regions but not \"throughout Mexico\".",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:45e7146369531743042ef207191b63a7784c5b32541739f9661fcf5ab9f60a24",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2598",
+      "request_sha256": "45e7146369531743042ef207191b63a7784c5b32541739f9661fcf5ab9f60a24",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2598__PE1__unfiltered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+            "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+            "e691143604bd5834619a4cb89f81770a886c0b5c9ac95a016fa4af7194eb364f:00000",
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000",
+            "74e7475d4ab45f5476372b174a3ad6dd1a6654349f60b991dd05d76c8974d6c6:00000"
+          ],
+          "text_hashes": [
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960",
+            "b77b29288d42ac6896a0d9736f7d3a80e3581a9bad3efc377b921a8233c9d1b1"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2598.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dfb7a8 (celebrated throughout Mexico, particularly Central and South)"
+        ],
+        "rationale": "Answer passage dfb7a8 is in context; answer gives Central and South regions but not \"throughout Mexico\".",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:37ca70cca956f167b3e1566fb1c3e13ed8cc75c4a012b7ce495967becfcb8812",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2598",
+      "request_sha256": "37ca70cca956f167b3e1566fb1c3e13ed8cc75c4a012b7ce495967becfcb8812",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2598__PE2__unfiltered",
+          "case_id": "NanoNQ:test2598",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "70e89b613a0163a13cc2b8053b57b688f080fffdaa373eb330d878e2fcc29fb0:00000",
+            "615a51c219d47dac002d38a0912e0662fc42c1bf5099a7acd123badd5cf82b33:00000",
+            "dfb7a853960980581c6fe1b461ed851e65989cb7c89c2cfe6d58a2c0aa7620d2:00000",
+            "e691143604bd5834619a4cb89f81770a886c0b5c9ac95a016fa4af7194eb364f:00000",
+            "57b761542835bab9290f9bef2e0ca28c863462f18897fc863d8984066da7d0b0:00000"
+          ],
+          "text_hashes": [
+            "4abe278792b1f5908dbd6b6b293912ebf56bae97657162dc3847a13176cb1185",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "a24e8305e2f0924b172bd3e1ced0530ccd1e17f0f6f987c85cba3d7c8799d79b",
+            "e3aad3b7f4517ba45f27ae88a135da6f910df8f6a85ec3e1fc227cb622ea9960"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2598.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dfb7a8 (celebrated throughout Mexico, particularly Central and South)"
+        ],
+        "rationale": "Answer passage dfb7a8 is in context; answer gives Central and South regions but not \"throughout Mexico\".",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2598:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2598",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "57b761"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Filtered context keeps only an unrelated passage; abstention matches the context.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:cf23c3fb8d30cc1f53e8083e40f007b9c8d5f8f37b165520b2a50a74864cdce5",
+          "R1:ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2598:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2598",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "57b761",
+          "dfb7a8 removed"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (clean filtered answer abstains), so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+          "R1:23405e44ae8686f91725d073b3398d12ec4f1493fce7bb15a802c3b42a5705e5"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2598:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2598",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "dfb7a8"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:1bf1070ff54a3cefe949a559610f4ec6ace76d1aab7ce94c05b7ec087046d178"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2598:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2598",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "57b761"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Filtered context keeps only an unrelated passage; abstention matches the context.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+          "R1:28fa7209020654abcbb41ce97f91888b8717ad9142665df53c78fbd0efa9baf9"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2598:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2598",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "70e89b",
+          "dfb7a8 removed"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (clean filtered answer abstains), so strict endpoint not met. Filtered answer (original prefix) is a supported but partial northern-Mexico answer.",
+        "disagreement": "Supported but partial alternative answer; flagged for Suresh"
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: northern-Mexico answer supported by passage 70e89b (observed in northern Mexico via national holiday policy) but is only part of the distribution and omits Central and South regions",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: northern-Mexico answer supported by passage 70e89b (observed in northern Mexico via national holiday policy) but is only part of the distribution and omits Central and South regions",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:45e7146369531743042ef207191b63a7784c5b32541739f9661fcf5ab9f60a24"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2598:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2598",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "57b761",
+          "dfb7a8 removed"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (clean filtered answer abstains), so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:ad0f426a97725cb91feabd656042c45d3c8303054dfc8ddb6d613932b8fdc061",
+          "R1:37ca70cca956f167b3e1566fb1c3e13ed8cc75c4a012b7ce495967becfcb8812"
+        ]
+      }
+    }
+  ]
+}

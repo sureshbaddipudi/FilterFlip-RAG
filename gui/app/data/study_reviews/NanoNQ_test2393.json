@@ -1,0 +1,565 @@
+{
+  "case_id": "NanoNQ:test2393",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test2393.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test2393.md",
+  "records": [
+    {
+      "record_id": "R1:eeead1fa264f9f6b1253ee41429726bb0d1879af9685bbc20a55812760091e19",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2393",
+      "request_sha256": "eeead1fa264f9f6b1253ee41429726bb0d1879af9685bbc20a55812760091e19",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2393__BN2__unfiltered",
+          "case_id": "NanoNQ:test2393",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "59ae3e303fbc4a791682991a34b0dad23108a65fa18f1be0f6ea48f2d7fd39e5:00001",
+            "913290f551d96ef7448dd471435c0aa1d5df122320ace0996cae4a6c1b3eb464:00001",
+            "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+            "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+            "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000"
+          ],
+          "text_hashes": [
+            "89bb0ddbb8f101ae429bb53efa9929d95059bc46790e83e5e32096cbd7065c52",
+            "89bb0ddbb8f101ae429bb53efa9929d95059bc46790e83e5e32096cbd7065c52",
+            "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+            "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+            "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2393.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "274892"
+        ],
+        "rationale": "The Maus is in no retrieved passage; passage 274892 supports the Char 2C as heaviest until late in WWII and largest ever operational.",
+        "disagreement": "Supported alternative reading excluded by the qualification; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "gives the Char 2C (heaviest to enter service until late in WWII; largest ever operational), the reading the qualification excludes; the Maus is in no retrieved passage",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:5533a2801ed554dde7e37daeb169f3c970da8c6bff6cb14cd0d092ebfbd2b7a4",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2393",
+      "request_sha256": "5533a2801ed554dde7e37daeb169f3c970da8c6bff6cb14cd0d092ebfbd2b7a4",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2393__BN2__filtered",
+          "case_id": "NanoNQ:test2393",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000"
+          ],
+          "text_hashes": [
+            "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2393.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e56953",
+          "1e406e"
+        ],
+        "rationale": "Char 2C and Tiger II passages removed; only unrelated tank passages kept, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:d78405b7aeb0491592d3306240775fe8fdfe79b277cd1fb76f67fdfb119a13a7",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2393",
+      "request_sha256": "d78405b7aeb0491592d3306240775fe8fdfe79b277cd1fb76f67fdfb119a13a7",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2393__BE1__unfiltered",
+          "case_id": "NanoNQ:test2393",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+            "965e8ae08f8af66b5167007a2d96f419a656aec227bc646473ac59b016c5f192:00001",
+            "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+            "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000",
+            "e3f3ec04c70af6de22acfeec4b72b28a4611cdc0f1b08a2ab00a73724954a73c:00000"
+          ],
+          "text_hashes": [
+            "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+            "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+            "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+            "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d",
+            "6ebcc77ca9be1edf204820c9d7a94adc2a6b751d73d1818ba58b027e406e2eea"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2393.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "274892"
+        ],
+        "rationale": "The Maus is in no retrieved passage; passage 274892 supports the Char 2C as heaviest until late in WWII and largest ever operational.",
+        "disagreement": "Supported alternative reading excluded by the qualification; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "gives the Char 2C (heaviest to enter service until late in WWII; largest ever operational), the reading the qualification excludes; the Maus is in no retrieved passage",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:e98be57294178d58fbaaee7f227228383eacfb8f51ca7424bda95ee26c9d3aec",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2393",
+      "request_sha256": "e98be57294178d58fbaaee7f227228383eacfb8f51ca7424bda95ee26c9d3aec",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2393__BE2__unfiltered",
+          "case_id": "NanoNQ:test2393",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2748922a739a76a127ce3841ef5fe7466d9c1c091af8bd40cd9957a7ba0d9f35:00001",
+            "70523d321df8b89bde298382485bc03e963043862b344282918595d5cce57e5b:00001",
+            "965e8ae08f8af66b5167007a2d96f419a656aec227bc646473ac59b016c5f192:00001",
+            "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+            "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000"
+          ],
+          "text_hashes": [
+            "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+            "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+            "aecb6e8b18275749ab9ab59bd4c69cda6675669ce3049578b0cc236755039c53",
+            "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+            "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2393.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "274892"
+        ],
+        "rationale": "The Maus is in no retrieved passage; passage 274892 supports the Char 2C as heaviest until late in WWII and largest ever operational.",
+        "disagreement": "Supported alternative reading excluded by the qualification; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "gives the Char 2C (heaviest to enter service until late in WWII; largest ever operational), the reading the qualification excludes; the Maus is in no retrieved passage",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:03cbe4f5f8ce48a0d0babb536a7c5c08ba5b17e6a4c7bb6057582588ec3fb4f3",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2393",
+      "request_sha256": "03cbe4f5f8ce48a0d0babb536a7c5c08ba5b17e6a4c7bb6057582588ec3fb4f3",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2393__BE2__filtered",
+          "case_id": "NanoNQ:test2393",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "1e406ea4ced8f0f18d5321ad5da070ef34ab16d4df383e6261bcf76db2b218dc:00000",
+            "e569533f5cdf759f16e451733d8828f1934e6745dd85515b2fdd9d4bc101bb72:00000"
+          ],
+          "text_hashes": [
+            "374473dbc4f84be2e219207d71a3091e76a6f1db984b90e478532b1c72292298",
+            "bd2e001573a53bf96771244b57b644a8998a0e72f182bbd98825070a617a2a8d"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2393.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e56953",
+          "1e406e"
+        ],
+        "rationale": "Char 2C and Tiger II passages removed; only unrelated tank passages kept, so the abstention matches the context.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2393:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2393",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "274892"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: Char 2C",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: Char 2C",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:eeead1fa264f9f6b1253ee41429726bb0d1879af9685bbc20a55812760091e19",
+          "R1:5533a2801ed554dde7e37daeb169f3c970da8c6bff6cb14cd0d092ebfbd2b7a4"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2393:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2393",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c2bd7b"
+        ],
+        "rationale": "P condition; the clean filtered answer is the Tiger II, not the Maus, and no copy is retrieved, so strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "Tiger II (the heaviest weight in the passages) rather than the Maus",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "Tiger II (the heaviest weight in the passages) rather than the Maus",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2393:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2393",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "274892"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: Char 2C",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: Char 2C",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:d78405b7aeb0491592d3306240775fe8fdfe79b277cd1fb76f67fdfb119a13a7"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2393:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2393",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "274892"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: Char 2C",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: Char 2C",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:e98be57294178d58fbaaee7f227228383eacfb8f51ca7424bda95ee26c9d3aec",
+          "R1:03cbe4f5f8ce48a0d0babb536a7c5c08ba5b17e6a4c7bb6057582588ec3fb4f3"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2393:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2393",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c2bd7b"
+        ],
+        "rationale": "P condition; the clean filtered answer is the Tiger II, not the Maus, and no copy is retrieved, so strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "Tiger II (the heaviest weight in the passages) rather than the Maus",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "Tiger II (the heaviest weight in the passages) rather than the Maus",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2393:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2393",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c2bd7b"
+        ],
+        "rationale": "P condition; the clean filtered answer is the Tiger II, not the Maus, and no copy is retrieved, so strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "Tiger II (the heaviest weight in the passages) rather than the Maus",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "absent",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "Tiger II (the heaviest weight in the passages) rather than the Maus",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    }
+  ]
+}

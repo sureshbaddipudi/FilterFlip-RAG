@@ -1,0 +1,30 @@
+--- v2.7.2/backend.py
++++ v2.8/backend.py
+@@ -5,7 +5,7 @@
+ """
+ import argparse, contextlib, hashlib, importlib.util, importlib.metadata
+ import json, os, socket, subprocess, sys, time, urllib.request, urllib.error
+-from safety import load, save, decode, check_selection, verify_release, policy_decision, run_plan
++from safety import load, save, decode, check_selection, verify_release, policy_decision, run_plan, load_config, verified_module
+ from pathlib import Path
+ 
+ MODEL='qwen2.5:3b'
+@@ -37,7 +37,7 @@
+ class NoRedirect(urllib.request.HTTPRedirectHandler):
+     def redirect_request(self,*args,**kwargs):raise ValueError('Redirect refused')
+ def main(a):
+-    verify_release();cfg=read_json(a.config);out=Path(a.out)
++    verify_release();cfg=load_config(a.config);out=Path(a.out)
+     require(out.is_dir() and not out.is_symlink() and out.resolve().parent==Path(cfg['runs']).resolve(),'Invalid run directory')
+     require(cfg.get('compute_profile')=='cpu','CPU compute profile required')
+     approved={d['case_id'] for d in read_json(Path(__file__).with_name('data')/'challenge_review.json')['decisions'] if d['decision']=='approve'}
+@@ -64,8 +64,7 @@
+             used[name]=manifest[name];return path
+         name='output/filterflip_study_v1_retrieval/'
+         script=verified(name+'run_retrieval.py')
+-        spec=importlib.util.spec_from_file_location('frozen_retrieval',script)
+-        retr=importlib.util.module_from_spec(spec);spec.loader.exec_module(retr)
++        retr=verified_module(script,manifest[name+'run_retrieval.py'])
+         cases=read_json(verified(name+'case_manifest.json'))['cases']
+         case=next(c for c in cases if c['case_id']==a.case);dataset=case['dataset'];result['question']=case['question']
+         profile=read_json(Path(__file__).with_name('native_profile.json'))

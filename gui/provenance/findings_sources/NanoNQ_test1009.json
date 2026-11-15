@@ -1,0 +1,992 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1009",
+    "question": "who plays heather in beauty and the beast",
+    "expected_answer": "Nicole Gale Anderson",
+    "source_qualification": "Refers to the CW television series",
+    "source_review_status_historical": "user_recorded_review",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoNQ:test1009",
+      "assessment": "clear_component_support_loss",
+      "rationale": "C and BN1 retain the explicit Nicole Gale Anderson–Heather Chandler relation. PN1 removes the biography and copy; a remaining cast-list name does not identify Heather’s actor.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "8d781f925766c4adbeb0292c73e33acc42806d1a3c16963ea4527be1a0bc9ea2:00000"
+        ],
+        "BN1": [
+          "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+        ],
+        "PN1": [
+          "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 5,
+    "novel_request_hashes": 0
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoNQ:test1009",
+    "question": "who plays heather in beauty and the beast",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1009"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.699398934841156
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6898062229156494
+        },
+        {
+          "chunk_id": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc973089",
+          "instance_key": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+          "text_sha256": "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+          "char_start": 0,
+          "char_end": 441,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6478601694107056
+        },
+        {
+          "chunk_id": "8d781f925766c4adbeb0292c73e33acc42806d1a3c16963ea4527be1a0bc9ea2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2846",
+          "instance_key": "8d781f925766c4adbeb0292c73e33acc42806d1a3c16963ea4527be1a0bc9ea2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In January 2015, Emma Watson announced that she would be starring as Belle, the female lead.[32] She was the first choice of Walt Disney Studios chairman Alan F. Horn, as he had previously overseen Warner Bros. which released the eight Harry Potter films that co-starred Watson as Hermione Granger.[31] Two months later, Luke Evans and Dan Stevens were revealed to be in talks to play Gaston and the Beast respectively,[33][34] and Watson confirmed their casting the following day through tweets.[11][35] The rest of the principal cast, including Josh Gad, Emma Thompson, Kevin Kline, Audra McDonald, Ian McKellen, Gugu Mbatha-Raw, Ewan McGregor and Stanley Tucci were announced between March and April to play LeFou, Mrs. Potts, Maurice, Madame de Garderobe, Cogsworth, Plumette, LumiÃ¨re and Cadenza, respectively.[14][13][17][19][18][15][16][36]",
+          "text_sha256": "a766aaeb2bf84418ef4b09eb5f9f7a549deb4f469df86abdda0475e9e00b54f8",
+          "char_start": 0,
+          "char_end": 848,
+          "tokens_with_specials": 225,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.611467719078064
+        }
+      ],
+      "T_native_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+        "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+        "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+        "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+        "In January 2015, Emma Watson announced that she would be starring as Belle, the female lead.[32] She was the first choice of Walt Disney Studios chairman Alan F. Horn, as he had previously overseen Warner Bros. which released the eight Harry Potter films that co-starred Watson as Hermione Granger.[31] Two months later, Luke Evans and Dan Stevens were revealed to be in talks to play Gaston and the Beast respectively,[33][34] and Watson confirmed their casting the following day through tweets.[11][35] The rest of the principal cast, including Josh Gad, Emma Thompson, Kevin Kline, Audra McDonald, Ian McKellen, Gugu Mbatha-Raw, Ewan McGregor and Stanley Tucci were announced between March and April to play LeFou, Mrs. Potts, Maurice, Madame de Garderobe, Cogsworth, Plumette, LumiÃ¨re and Cadenza, respectively.[14][13][17][19][18][15][16][36]"
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        1,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1009__C__U",
+          "case_id": "NanoNQ:test1009",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "ordinal": 7,
+          "same_run_reuse_of": "NanoNQ:test1009__C__T",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1009__C__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+            "8d781f925766c4adbeb0292c73e33acc42806d1a3c16963ea4527be1a0bc9ea2:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+            "a766aaeb2bf84418ef4b09eb5f9f7a549deb4f469df86abdda0475e9e00b54f8"
+          ],
+          "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+          "estimated_prompt_tokens": 915,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1009__C__unfiltered",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "prompt_eval_count": 915,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 44.90853663899907,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1009__C__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1009__C__T",
+          "case_id": "NanoNQ:test1009",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "ordinal": 7,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1009__C__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+            "8d781f925766c4adbeb0292c73e33acc42806d1a3c16963ea4527be1a0bc9ea2:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+            "a766aaeb2bf84418ef4b09eb5f9f7a549deb4f469df86abdda0475e9e00b54f8"
+          ],
+          "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+          "estimated_prompt_tokens": 915,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1009__C__unfiltered",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "prompt_eval_count": 915,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 44.90853663899907,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1009__C__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "cf258c7d540dba23771b222afbbd91a30298ad257ef6679c1113350cefe62afc",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test1009__C__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d781f925766c4adbeb0292c73e33acc42806d1a3c16963ea4527be1a0bc9ea2:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "a766aaeb2bf84418ef4b09eb5f9f7a549deb4f469df86abdda0475e9e00b54f8"
+          ],
+          "request_sha256": "7248b8693cc9e05fa9324f900d0d0ae1b56108c96f9034cab789b7626cfe36ec",
+          "estimated_prompt_tokens": 643,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1009__C__filtered",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "prompt_eval_count": 643,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 15.048368347997894,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674
+        },
+        {
+          "chunk_id": "50b0237a016622d2941bc27ef3fea5f73fbd97aad042d258c459f804d863ba89:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/BN/1",
+          "instance_key": "50b0237a016622d2941bc27ef3fea5f73fbd97aad042d258c459f804d863ba89",
+          "chunk_index": 0,
+          "copied_from": "doc436998",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBrian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On",
+          "text_sha256": "3c099a015ba4dd48e225b95d4f46a8d6379ff0e46ec1fada39196f4ff972e555",
+          "char_start": 0,
+          "char_end": 1086,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7317287921905518
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.699398934841156
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6898062229156494
+        },
+        {
+          "chunk_id": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc973089",
+          "instance_key": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+          "text_sha256": "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+          "char_start": 0,
+          "char_end": 441,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6478601694107056
+        }
+      ],
+      "T_native_indices": [
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+        "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+        "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark."
+      ],
+      "T_removed_indices": [
+        0,
+        1
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1009__BN1__U",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "4b0b712742de6d22c776eb6ec52ae7d6d46b55842f5eeaef6d51556f5ba3ccc0",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "ordinal": 8,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1009__BN1__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "50b0237a016622d2941bc27ef3fea5f73fbd97aad042d258c459f804d863ba89:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "3c099a015ba4dd48e225b95d4f46a8d6379ff0e46ec1fada39196f4ff972e555",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b"
+          ],
+          "request_sha256": "4b0b712742de6d22c776eb6ec52ae7d6d46b55842f5eeaef6d51556f5ba3ccc0",
+          "estimated_prompt_tokens": 949,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1009__BN1__unfiltered",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "prompt_eval_count": 949,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 33.46947713200643,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1009__BN1__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "4b0b712742de6d22c776eb6ec52ae7d6d46b55842f5eeaef6d51556f5ba3ccc0",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1009__BN1__T",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "ordinal": 9,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1009__BE1__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+          ],
+          "text_hashes": [
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b"
+          ],
+          "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+          "estimated_prompt_tokens": 431,
+          "identical_request_to": "NanoNQ:test1009__BN1__filtered",
+          "first_call_id": "NanoNQ:test1009__BN1__filtered",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "prompt_eval_count": 431,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 20.62994367999636,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1009__BE1__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BE1",
+          "mode": "filtered",
+          "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test1009__BE1__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+          ],
+          "text_hashes": [
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b"
+          ],
+          "request_sha256": "2173f834085883db68d8d7af399b0ed67d79474656f5aa91e133a356ee973304",
+          "estimated_prompt_tokens": 431,
+          "identical_request_to": "NanoNQ:test1009__BN1__filtered",
+          "first_call_id": "NanoNQ:test1009__BN1__filtered",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "prompt_eval_count": 431,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 20.62994367999636,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc436998",
+          "instance_key": "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+          "text_sha256": "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+          "char_start": 0,
+          "char_end": 1082,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7328882813453674
+        },
+        {
+          "chunk_id": "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1009/PN/1",
+          "instance_key": "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0",
+          "chunk_index": 0,
+          "copied_from": "doc35719",
+          "copy_number": 1,
+          "text": "Source excerpt.\nNicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "f83529e2c9ac886a22d666e7d0d9862438354e221a7f286c3b08109e8eecda25",
+          "char_start": 0,
+          "char_end": 386,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7212523818016052
+        },
+        {
+          "chunk_id": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc35719",
+          "instance_key": "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Nicole Gale Anderson[1] (born August 29, 1990) is a Filipino-American actress. She is best known for her role as Heather Chandler on The CW series Beauty & the Beast. She is also known for her roles as Macy Misa in the Disney Channel Original Series Jonas, and as Kelly Parker and Miranda Collins respectively on the ABC Family series Make It or Break It and Ravenswood.",
+          "text_sha256": "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+          "char_start": 0,
+          "char_end": 370,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.699398934841156
+        },
+        {
+          "chunk_id": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2832",
+          "instance_key": "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+          "text_sha256": "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+          "char_start": 0,
+          "char_end": 656,
+          "tokens_with_specials": 158,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6898062229156494
+        },
+        {
+          "chunk_id": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc973089",
+          "instance_key": "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark.",
+          "text_sha256": "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b",
+          "char_start": 0,
+          "char_end": 441,
+          "tokens_with_specials": 105,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6478601694107056
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Brian White's character, Joe Bishop, was not included in the second season of the series; the storyline was that Bishop lost his job because he focused too much attention on finding the killer of his brother instead of performing his duties.[9] Ted Whittall, having briefly appeared in the final episode of season one where he revealed himself to be Cat's biological father, announced that he would return for season two in the recurring role of Bob Reynolds on July 8, 2013.[3] On September 6, 2013, it was announced that Annie Ilonzeh would be joining the cast of Beauty & the Beast for the show's upcoming second season, playing the role of Beth Bowman, a journalist and an old friend of Catherine Chandler's.[6] On September 10, 2013, it was reported that Amber Skye Noyes had been cast as Tori Windsor, the innocent daughter of a powerful beast who is rescued by Cat and Vincent.[10] On November 12, 2013, Law & Order actress Elisabeth Röhm was cast as Dana Landon, a woman who joins forces with Cat on an investigation into a series of undercover operations.[5] On December 4,",
+        "Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon from a screenplay written by Stephen Chbosky and Evan Spiliotopoulos, and co-produced by Walt Disney Pictures and Mandeville Films.[1][5] The film is based on Disney's 1991 animated film of the same name, itself an adaptation of Jeanne-Marie Leprince de Beaumont's eighteenth-century fairy tale.[6] The film features an ensemble cast that includes Emma Watson and Dan Stevens as the eponymous characters with Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Audra McDonald, Gugu Mbatha-Raw, Ian McKellen, and Emma Thompson in supporting roles.[7]",
+        "Beauty & the Beast was an American television series filmed in Toronto, Canada, very loosely inspired by the 1987 CBS series of the same name, created by Sherri Cooper-Landsman and Jennifer Levin that premiered October 11, 2012, on The CW.[1] Kristin Kreuk and Jay Ryan star in the title roles alongside Austin Basis, Nina Lisandrello, Nicole Gale Anderson, Sendhil Ramamurthy, Max Brown, Brian J. White, Amber Skye Noyes, and Michael Roark."
+      ],
+      "T_removed_indices": [
+        1,
+        2
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0:00000",
+          "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1009__PN1__U",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "1b02ca4c2e6cfc6382a311d35516a6bdb8345f1d0a040f041f2f63dcbad1d40b",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "ordinal": 11,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1009__PN1__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "f8cf5650fd1f6615b0d4a11d61d84729d6bc29c2b3c93252a128201a2a3912d0:00000",
+            "dbacbf93e94ba99f9796864b69cee6af3eb62022f6801e418676a5624314f14a:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "f83529e2c9ac886a22d666e7d0d9862438354e221a7f286c3b08109e8eecda25",
+            "4ee806e4dee6a69a7888e4f1fbc75c34055d5b42854e0d6a489f597acc46200e",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b"
+          ],
+          "request_sha256": "1b02ca4c2e6cfc6382a311d35516a6bdb8345f1d0a040f041f2f63dcbad1d40b",
+          "estimated_prompt_tokens": 779,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test1009__PN1__unfiltered",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "prompt_eval_count": 779,
+          "eval_count": 14,
+          "done_reason": "stop",
+          "wall_seconds": 26.925797568001144,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1009__PN1__unfiltered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "1b02ca4c2e6cfc6382a311d35516a6bdb8345f1d0a040f041f2f63dcbad1d40b",
+          "status": "ok",
+          "answer": "Nicole Gale Anderson plays Heather Chandler in Beauty and the Beast.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test1009__PN1__T",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 10,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test1009__PE1__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b"
+          ],
+          "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+          "estimated_prompt_tokens": 604,
+          "identical_request_to": "NanoNQ:test1009__PN1__filtered",
+          "first_call_id": "NanoNQ:test1009__PN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 604,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 18.516545265003515,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test1009__PE1__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PE1",
+          "mode": "filtered",
+          "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test1009__PE1__filtered",
+          "case_id": "NanoNQ:test1009",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "who plays heather in beauty and the beast",
+          "expected_answer": "Nicole Gale Anderson",
+          "source_qualification": "Refers to the CW television series",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d9d1fffac5f6f1168cbf3e631587f46ecdbc103a43057e181da34ec43b9b1525:00000",
+            "8d510dc73bcc3cc16e6400e1c20b38bac122141495c012baefed3153030b368e:00000",
+            "1cce5a0f193e126ca319664a652eaa300343056c4f7e5aef26f356e05b1c33a9:00000"
+          ],
+          "text_hashes": [
+            "7d4973a8a3b15e346ac0654dbbea9c6a7df1fa5f7648191a786920d1dcac4cc1",
+            "c47ba5d6a41e0a1b4a8d42e7dafdecc6fd120c7e92685a152763e4a082ce8aaa",
+            "3b7b441971e0f68e6b8ef285b67dba51814c22d741a35ff536a7377ebd0cc19b"
+          ],
+          "request_sha256": "3431ab3851390f2d2a1a0b017a892909f2966ee1d63722e63d84a2bfd650d00c",
+          "estimated_prompt_tokens": 604,
+          "identical_request_to": "NanoNQ:test1009__PN1__filtered",
+          "first_call_id": "NanoNQ:test1009__PN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 604,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 18.516545265003515,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

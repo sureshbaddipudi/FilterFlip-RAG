@@ -1,0 +1,993 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test2079",
+    "question": "who sings somebody's watching me with michael jackson",
+    "expected_answer": "Rockwell",
+    "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+    "source_review_status_historical": "assistant_only",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoNQ:test2079",
+      "assessment": "clear_component_support_loss",
+      "rationale": "C and BN1 retain the explicit Rockwell song attribution. PN1 leaves unrelated Jackson performances/videos without Rockwell or this song. New component-stage generated answers have not been measured.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "813d5b1650851c22bb84b9a16a9e75f1bf417637aaa2681b27836bab756c454f:00000"
+        ],
+        "BN1": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000"
+        ],
+        "PN1": [
+          "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 5,
+    "novel_request_hashes": 0
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoNQ:test2079",
+    "question": "who sings somebody's watching me with michael jackson",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test2079"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5329327583312988
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5212666988372803
+        },
+        {
+          "chunk_id": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc86071",
+          "instance_key": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+          "text_sha256": "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5064040422439575
+        },
+        {
+          "chunk_id": "813d5b1650851c22bb84b9a16a9e75f1bf417637aaa2681b27836bab756c454f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc474256",
+          "instance_key": "813d5b1650851c22bb84b9a16a9e75f1bf417637aaa2681b27836bab756c454f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song was performed live on all of Jackson's tours.",
+          "text_sha256": "66cdc6f3993953a71001d4b91c385ddd9fd408ebcc3511a42da34e72a59866d4",
+          "char_start": 0,
+          "char_end": 54,
+          "tokens_with_specials": 15,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.48713135719299316
+        }
+      ],
+      "T_native_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+        "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+        "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+        "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+        "The song was performed live on all of Jackson's tours."
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2079__C__U",
+          "case_id": "NanoNQ:test2079",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+          "status": "ok",
+          "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+          "ordinal": 28,
+          "same_run_reuse_of": "NanoNQ:test2079__C__T",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2079__C__unfiltered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+            "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+            "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+            "813d5b1650851c22bb84b9a16a9e75f1bf417637aaa2681b27836bab756c454f:00000"
+          ],
+          "text_hashes": [
+            "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+            "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+            "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+            "66cdc6f3993953a71001d4b91c385ddd9fd408ebcc3511a42da34e72a59866d4"
+          ],
+          "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+          "estimated_prompt_tokens": 618,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2079__C__unfiltered",
+          "status": "ok",
+          "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+          "prompt_eval_count": 618,
+          "eval_count": 20,
+          "done_reason": "stop",
+          "wall_seconds": 29.22824084899912,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2079__C__unfiltered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+          "status": "ok",
+          "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2079__C__T",
+          "case_id": "NanoNQ:test2079",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+          "status": "ok",
+          "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+          "ordinal": 28,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2079__C__unfiltered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+            "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+            "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+            "813d5b1650851c22bb84b9a16a9e75f1bf417637aaa2681b27836bab756c454f:00000"
+          ],
+          "text_hashes": [
+            "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+            "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+            "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+            "66cdc6f3993953a71001d4b91c385ddd9fd408ebcc3511a42da34e72a59866d4"
+          ],
+          "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+          "estimated_prompt_tokens": 618,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2079__C__unfiltered",
+          "status": "ok",
+          "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+          "prompt_eval_count": 618,
+          "eval_count": 20,
+          "done_reason": "stop",
+          "wall_seconds": 29.22824084899912,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2079__C__unfiltered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "c19cdbc669d99b5897d7481a80f7b1dfec1d48b5ac862115e46fab580a7cc7f8",
+          "status": "ok",
+          "answer": "Rockwell sings \"Somebody's Watching Me\" with Michael Jackson on vocals in the chorus.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2079__C__filtered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+            "813d5b1650851c22bb84b9a16a9e75f1bf417637aaa2681b27836bab756c454f:00000"
+          ],
+          "text_hashes": [
+            "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+            "66cdc6f3993953a71001d4b91c385ddd9fd408ebcc3511a42da34e72a59866d4"
+          ],
+          "request_sha256": "bcd87ea50118b5a73de0a19e3a5d9afa2b30ab389361c57a9468aeba4cb19388",
+          "estimated_prompt_tokens": 256,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2079__C__filtered",
+          "status": "ok",
+          "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+          "prompt_eval_count": 256,
+          "eval_count": 17,
+          "done_reason": "stop",
+          "wall_seconds": 9.610671422997257,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201
+        },
+        {
+          "chunk_id": "709b5c7333f497a210a48f3635700e9035f3c7c5326901d2f041190e9eec902b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/BN/1",
+          "instance_key": "709b5c7333f497a210a48f3635700e9035f3c7c5326901d2f041190e9eec902b",
+          "chunk_index": 0,
+          "copied_from": "doc2353712",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAccording to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are",
+          "text_sha256": "d6843e73917220d4ba4e17d998e760b803ae52e6141db8aa51514748cecb97e1",
+          "char_start": 0,
+          "char_end": 1033,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5356284379959106
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5329327583312988
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5212666988372803
+        },
+        {
+          "chunk_id": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc86071",
+          "instance_key": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+          "text_sha256": "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5064040422439575
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+        "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+        "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists."
+      ],
+      "T_removed_indices": [
+        1,
+        2
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2079__BN1__U",
+          "case_id": "NanoNQ:test2079",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "ac6fa3debd6c8bd69130e3de110790c084e55a809bc4ea20775efa0d525d02d9",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 29,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2079__BN1__unfiltered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+            "709b5c7333f497a210a48f3635700e9035f3c7c5326901d2f041190e9eec902b:00000",
+            "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+            "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000"
+          ],
+          "text_hashes": [
+            "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+            "d6843e73917220d4ba4e17d998e760b803ae52e6141db8aa51514748cecb97e1",
+            "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+            "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36"
+          ],
+          "request_sha256": "ac6fa3debd6c8bd69130e3de110790c084e55a809bc4ea20775efa0d525d02d9",
+          "estimated_prompt_tokens": 844,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2079__BN1__unfiltered",
+          "status": "ok",
+          "answer": "Michael Jackson sings \"Somebody's Watching Me\" with additional backing vocals from Jermaine Jackson.",
+          "prompt_eval_count": 844,
+          "eval_count": 21,
+          "done_reason": "stop",
+          "wall_seconds": 40.542348435999884,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2079__BN1__unfiltered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "ac6fa3debd6c8bd69130e3de110790c084e55a809bc4ea20775efa0d525d02d9",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2079__BN1__T",
+          "case_id": "NanoNQ:test2079",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+          "status": "ok",
+          "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+          "ordinal": 30,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2079__BE1__filtered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+            "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000"
+          ],
+          "text_hashes": [
+            "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+            "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36"
+          ],
+          "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+          "estimated_prompt_tokens": 369,
+          "identical_request_to": "NanoNQ:test2079__BN1__filtered",
+          "first_call_id": "NanoNQ:test2079__BN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 369,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 13.082817445996625,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2079__BE1__filtered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "BE1",
+          "mode": "filtered",
+          "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+          "status": "ok",
+          "answer": "Michael Jackson sings \"Somebody's Watching Me\" with vocals in the chorus.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2079__BE1__filtered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+            "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000"
+          ],
+          "text_hashes": [
+            "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+            "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36"
+          ],
+          "request_sha256": "3694173d95f5b1605cf3714529e1cdd12fa9b5caa09ea454c9fc52c78770d8bc",
+          "estimated_prompt_tokens": 369,
+          "identical_request_to": "NanoNQ:test2079__BN1__filtered",
+          "first_call_id": "NanoNQ:test2079__BN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 369,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 13.082817445996625,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc72413",
+          "instance_key": "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+          "char_start": 0,
+          "char_end": 356,
+          "tokens_with_specials": 82,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8341701030731201
+        },
+        {
+          "chunk_id": "7cfd053607c070ec3c351ac80fb492306ab19b846ddca6891ec93f9357cd51c2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test2079/PN/1",
+          "instance_key": "7cfd053607c070ec3c351ac80fb492306ab19b846ddca6891ec93f9357cd51c2",
+          "chunk_index": 0,
+          "copied_from": "doc72413",
+          "copy_number": 1,
+          "text": "Source excerpt.\n\"Somebody's Watching Me\" is a song by American singer Rockwell from his debut studio album Somebody's Watching Me (1984). It was released as Rockwell's debut single and lead single from the album on January 14, 1984, by Motown. It features former Jackson 5 members Michael Jackson (vocals in the chorus) and Jermaine Jackson (additional backing vocals).[2]",
+          "text_sha256": "90e9af3c8f1775d3b77846c506c8d17146814387d501a9421b1587998aef7190",
+          "char_start": 0,
+          "char_end": 372,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.821399450302124
+        },
+        {
+          "chunk_id": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2353712",
+          "instance_key": "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+          "text_sha256": "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+          "char_start": 0,
+          "char_end": 1028,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5329327583312988
+        },
+        {
+          "chunk_id": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc108794",
+          "instance_key": "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+          "text_sha256": "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+          "char_start": 0,
+          "char_end": 379,
+          "tokens_with_specials": 101,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5212666988372803
+        },
+        {
+          "chunk_id": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc86071",
+          "instance_key": "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists.",
+          "text_sha256": "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36",
+          "char_start": 0,
+          "char_end": 390,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5064040422439575
+        }
+      ],
+      "T_native_indices": [
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "According to Michael Bearden, a film and music producer who worked on the concerts playing keyboard and acting as the concert's musical director, the setlist for the concerts was never finalized prior to Jackson's death.[49] Most of the songs due to be featured in the concerts were showcased in Michael Jackson's This Is It, while the inclusion of several other songs were confirmed in the film's DVD special features. The songs showcased in the film included Wanna Be Startin' Somethin', Jam, They Don't Care About Us, Human Nature, Smooth Criminal, The Way You Make Me Feel, a medley of Jackson 5 songs including I Want You Back, The Love You Save, and I'll Be There, Shake Your Body (Down to the Ground), I Just Can't Stop Loving You, Thriller, Beat It, Black or White, Earth Song, Billie Jean, Man in the Mirror, and Heal the World. Meanwhile, it was later confirmed that Stranger in Moscow, You Are Not Alone, You Rock My World, Don't Stop 'Til You Get Enough, Rock With You, Dirty Diana, Dangerous, Bad, We Are the World,",
+        "Michael Jackson's Thriller music video, particularly the songs dance routine in the video, have been referenced in television series and films including Donga (1985), Coming to America (1988), The Malibu Beach Vampires (1991), South Park (1997), Dead & Breakfast (2004), 13 Going on 30 (2004), Bo! in the USA (2006), Jelly Jamm (2007), and Furby (2011).[73][better source needed]",
+        "The music video showed the recording of \"We Are the World\", and drew criticism from some. Michael Jackson joked before filming, \"People will know it's me as soon as they see the socks. Try taking footage of Bruce Springsteen's socks and see if anyone knows who they belong to.\"[24] Jackson was also criticized for filming and recording his solo piece privately, away from the other artists."
+      ],
+      "T_removed_indices": [
+        0,
+        1
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+          "7cfd053607c070ec3c351ac80fb492306ab19b846ddca6891ec93f9357cd51c2:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2079__PN1__U",
+          "case_id": "NanoNQ:test2079",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "91124eff798a547eb185ddb651accb0a89506be7fc401d413f5a644ef0276e1a",
+          "status": "ok",
+          "answer": "Michael Jackson sings with Rockwell in the chorus of \"Somebody's Watching Me.\"",
+          "ordinal": 32,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2079__PN1__unfiltered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c8e11a14e23171fdf212c7e4b301412e2efce8b1ec516de05562cadfa3379706:00000",
+            "7cfd053607c070ec3c351ac80fb492306ab19b846ddca6891ec93f9357cd51c2:00000",
+            "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+            "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000"
+          ],
+          "text_hashes": [
+            "5f2c0ede8b99ecfd0d186e7b1242ab57bfbe13f62d676f0e566a36a60c9947a5",
+            "90e9af3c8f1775d3b77846c506c8d17146814387d501a9421b1587998aef7190",
+            "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+            "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36"
+          ],
+          "request_sha256": "91124eff798a547eb185ddb651accb0a89506be7fc401d413f5a644ef0276e1a",
+          "estimated_prompt_tokens": 698,
+          "identical_request_to": null,
+          "first_call_id": "NanoNQ:test2079__PN1__unfiltered",
+          "status": "ok",
+          "answer": "Michael Jackson sings \"Somebody's Watching Me\" with Rockwell, and Michael Jackson also provides vocals in the chorus.",
+          "prompt_eval_count": 698,
+          "eval_count": 25,
+          "done_reason": "stop",
+          "wall_seconds": 30.26826066099602,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2079__PN1__unfiltered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "91124eff798a547eb185ddb651accb0a89506be7fc401d413f5a644ef0276e1a",
+          "status": "ok",
+          "answer": "Michael Jackson sings with Rockwell in the chorus of \"Somebody's Watching Me.\"",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoNQ:test2079__PN1__T",
+          "case_id": "NanoNQ:test2079",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 31,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoNQ:test2079__PE1__filtered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+            "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000"
+          ],
+          "text_hashes": [
+            "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+            "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36"
+          ],
+          "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+          "estimated_prompt_tokens": 517,
+          "identical_request_to": "NanoNQ:test2079__PN1__filtered",
+          "first_call_id": "NanoNQ:test2079__PN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 517,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 24.987028288000147,
+          "response_reused": true
+        },
+        "historical_reproduction": {
+          "call_id": "NanoNQ:test2079__PE1__filtered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "PE1",
+          "mode": "filtered",
+          "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "result_origin": "Shradha_original_completed_prefix",
+          "exact_reference_text_match": true,
+          "response_reused": true,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoNQ:test2079__PE1__filtered",
+          "case_id": "NanoNQ:test2079",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "who sings somebody's watching me with michael jackson",
+          "expected_answer": "Rockwell",
+          "source_qualification": "Rockwell is the lead performer of Somebody's Watching Me in this passage; Michael Jackson sings the chorus and Jermaine Jackson provides additional backing vocals.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "a9fc2ac8e74e10b3dcdd881a1ea3eb314462426a2f6405a54e3c5af93eeccc1f:00000",
+            "634a69dc646ea5856561ba92e7d29ca6475d7addd084496be6fe8d7ec0213009:00000",
+            "6a2ee7350858a5d2e6acd406b8cd284b47dc7af70fee95abbebefb0598f6b4ea:00000"
+          ],
+          "text_hashes": [
+            "012e68ed6e8f8cf592db37c9f247e11c2676daf7b5b1e5f236c494fb0183bb70",
+            "6d968f1fb81492ddc30d6f90bd72b15962892f84bb7b7847b92b7ecd3d32cf44",
+            "8ce0e94f54cf73da6f737c65901618067c2c1520b2ebfc1f3216dadbf67f6c36"
+          ],
+          "request_sha256": "92f77679f707a1dbc93be109c6c233b287d32c9e96413cb039868a1171aa4eeb",
+          "estimated_prompt_tokens": 517,
+          "identical_request_to": "NanoNQ:test2079__PN1__filtered",
+          "first_call_id": "NanoNQ:test2079__PN1__filtered",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "prompt_eval_count": 517,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "wall_seconds": 24.987028288000147,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

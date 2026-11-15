@@ -1,0 +1,2853 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1028652",
+    "dataset": "NanoMSMARCO",
+    "question": "who invented corn flakes",
+    "source_family": "NanoMSMARCO:1028652",
+    "review_status": "user_recorded_review",
+    "target_document_id": "7833608",
+    "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+    "answer_aliases": [],
+    "support_quote": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878.",
+    "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+    "qrel_document_ids": [
+      "7833608"
+    ],
+    "family_reference_texts": [
+      "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:1028652",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "7833608",
+    "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+    "answer_aliases": [],
+    "support_quote": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878.",
+    "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:1028652",
+    "dataset": "NanoMSMARCO",
+    "question": "who invented corn flakes",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:1028652",
+      "dataset": "NanoMSMARCO",
+      "question": "who invented corn flakes",
+      "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+      "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Sufficient support retained",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "sufficient_PN1_evidence_retained",
+      "historical_rationale": "The retained inserted copy explicitly attributes Corn Flakes to John Harvey Kellogg. Assessment is source-relative; this does not validate its historical chronology.",
+      "current_assistant_rationale": "The retained inserted copy explicitly attributes Corn Flakes to John Harvey Kellogg. Assessment is source-relative; this does not validate its historical chronology.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/35",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/35",
+      "review_priority": 3,
+      "sample_reason": "Inserted copy retains sufficient support",
+      "evidence_file": "evidence/NanoMSMARCO_1028652.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 316,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 211,
+              "call_id": "NanoMSMARCO:1028652__C__unfiltered",
+              "request_sha256": "6301f63713969bdbbc5e8cd587e9230b1fc75d15d4053846bc8d424bb7bc6c48"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 212,
+              "call_id": "NanoMSMARCO:1028652__C__filtered",
+              "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 317,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 213,
+              "call_id": "NanoMSMARCO:1028652__BN1__unfiltered",
+              "request_sha256": "25fe89d3a1c479468a155594e2f92a3297d564f59698640df62324c85b6da80d"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 214,
+              "call_id": "NanoMSMARCO:1028652__BN1__filtered",
+              "request_sha256": "43167bf940a5700e604a4c5dfaaaa132d973f94950e652d52f853f61010fb010"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 319,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 215,
+              "call_id": "NanoMSMARCO:1028652__PN1__unfiltered",
+              "request_sha256": "e73fe8eb755ab39df7d621f1e943974afc6b07ab92131d6dd1fde9e684e838ea"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 216,
+              "call_id": "NanoMSMARCO:1028652__PN1__filtered",
+              "request_sha256": "61642e0269c43404ae0227b59841889c715f52f08e5eaa3553a31adf148b2c48"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoMSMARCO:1028652",
+      "Question": "who invented corn flakes",
+      "Evidence packet": "evidence/NanoMSMARCO_1028652.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "no",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "no",
+      "PN1 filtered answer category": "correct-supported",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: C removed P1 7833608 (\"John Harvey Kellogg ... invention of ... Corn Flakes\"); survivors lack the attribution; filtered answer \"John and Will Kellogg\". Q2: PN1 P2 copy of 7833608. Q3: John Harvey Kellogg. Q4: NO - the PN1 copy (P2) is kept and contains the attribution. Q5: filtered \"John Harvey Kellogg invented corn flakes.\" Q6: BN1 P1 kept, correct.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (not an event: sufficient support retained). Here the filter kept the copy and removed the original.",
+      "workbook_row": 14,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "question": "who invented corn flakes",
+        "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+        "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+        "source_review_status": "user_recorded_review",
+        "assistant_status": "Not a strict event",
+        "reason_group": "Sufficient support retained",
+        "historical_decision": "not_strict_event",
+        "historical_reason_code": "sufficient_PN1_evidence_retained",
+        "historical_rationale": "The retained inserted copy explicitly attributes Corn Flakes to John Harvey Kellogg. Assessment is source-relative; this does not validate its historical chronology.",
+        "current_assistant_rationale": "The retained inserted copy explicitly attributes Corn Flakes to John Harvey Kellogg. Assessment is source-relative; this does not validate its historical chronology.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/35",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/35",
+        "review_priority": 3,
+        "sample_reason": "Inserted copy retains sufficient support",
+        "evidence_file": "evidence/NanoMSMARCO_1028652.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 316,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 211,
+                "call_id": "NanoMSMARCO:1028652__C__unfiltered",
+                "request_sha256": "6301f63713969bdbbc5e8cd587e9230b1fc75d15d4053846bc8d424bb7bc6c48"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 212,
+                "call_id": "NanoMSMARCO:1028652__C__filtered",
+                "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 317,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 213,
+                "call_id": "NanoMSMARCO:1028652__BN1__unfiltered",
+                "request_sha256": "25fe89d3a1c479468a155594e2f92a3297d564f59698640df62324c85b6da80d"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 214,
+                "call_id": "NanoMSMARCO:1028652__BN1__filtered",
+                "request_sha256": "43167bf940a5700e604a4c5dfaaaa132d973f94950e652d52f853f61010fb010"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 319,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 215,
+                "call_id": "NanoMSMARCO:1028652__PN1__unfiltered",
+                "request_sha256": "e73fe8eb755ab39df7d621f1e943974afc6b07ab92131d6dd1fde9e684e838ea"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 216,
+                "call_id": "NanoMSMARCO:1028652__PN1__filtered",
+                "request_sha256": "61642e0269c43404ae0227b59841889c715f52f08e5eaa3553a31adf148b2c48"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:1028652",
+    "question": "who invented corn flakes",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1028652"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": false
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7274562120437622,
+          "kept": true
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6786328554153442,
+          "kept": false
+        },
+        {
+          "chunk_id": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4765789",
+          "instance_key": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+          "text_sha256": "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+          "char_start": 0,
+          "char_end": 597,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6489015817642212,
+          "kept": true
+        },
+        {
+          "chunk_id": "e858a8f171cf6b6da362d7705a2b94c4bbb7bf99ad5e48e4b068779a773dce36:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8607085",
+          "instance_key": "e858a8f171cf6b6da362d7705a2b94c4bbb7bf99ad5e48e4b068779a773dce36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg's Frosted Flakes or Frosties is a breakfast cereal, produced by the Kellogg Company and consisting of sugar-coated corn flakes. It was introduced in the United States in 1951, as Sugar Frosted Flakes. The word sugar was dropped from the name in 1983. Generic versions, such as store brands, are also available. Unlike many cereals (Cheerios and Rice Krispies, for example), Frosted Flakes shares its name with generic competitors.",
+          "text_sha256": "fb509b32cdaae8d491ec634ff52647b7680f8a4f0468cd22fd17ecc7b40fa3d8",
+          "char_start": 0,
+          "char_end": 438,
+          "tokens_with_specials": 99,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.640214204788208,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.7600431479247369,
+          0.0,
+          0.7600431479247369,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 0.7600431479247369,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0357552170753479,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8360493183135986
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7184925079345703
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7128830552101135
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6779110431671143
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6756389737129211
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6712760925292969
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6569572687149048
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6553624868392944
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__C__unfiltered",
+          "request_sha256": "6301f63713969bdbbc5e8cd587e9230b1fc75d15d4053846bc8d424bb7bc6c48",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__C__filtered",
+          "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+          "reference": {
+            "status": "ok",
+            "answer": "John and Will Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John and Will Kellogg invented corn flakes.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": true
+        },
+        {
+          "chunk_id": "346a479b929f836387c1cacb932a9f17c4f6c8f2609f8addec1996d0a4ef1980:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/BN/1",
+          "instance_key": "346a479b929f836387c1cacb932a9f17c4f6c8f2609f8addec1996d0a4ef1980",
+          "chunk_index": 0,
+          "copied_from": "7833611",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThey toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "4c37762ae8548fe1f903e67156496865815bd66f0e7c6a8914804eac6028c3bc",
+          "char_start": 0,
+          "char_end": 371,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7301778793334961,
+          "kept": false
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7274562120437622,
+          "kept": true
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6786328554153442,
+          "kept": true
+        },
+        {
+          "chunk_id": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4765789",
+          "instance_key": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+          "text_sha256": "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+          "char_start": 0,
+          "char_end": 597,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6489015817642212,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.9915120286160715,
+          0.9915120286160715,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.12394243478775024,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9957469701766968
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8360493183135986
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8270721435546875
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8017417788505554
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7184925079345703
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6712760925292969
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.660412609577179
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6553624868392944
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__BN1__unfiltered",
+          "request_sha256": "25fe89d3a1c479468a155594e2f92a3297d564f59698640df62324c85b6da80d",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__BN1__filtered",
+          "request_sha256": "43167bf940a5700e604a4c5dfaaaa132d973f94950e652d52f853f61010fb010",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": true
+        },
+        {
+          "chunk_id": "bc381b794ce2a9014fc743543261ef1250ced31b59ba4e53be5f6dbb3e2bb438:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/BN/2",
+          "instance_key": "bc381b794ce2a9014fc743543261ef1250ced31b59ba4e53be5f6dbb3e2bb438",
+          "chunk_index": 0,
+          "copied_from": "7833611",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThey toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "e653d7d6c9491ef2b9ba406e0ea82698c36500f76b5654f44afe00a0a7dd8fbf",
+          "char_start": 0,
+          "char_end": 374,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.737223744392395,
+          "kept": false
+        },
+        {
+          "chunk_id": "346a479b929f836387c1cacb932a9f17c4f6c8f2609f8addec1996d0a4ef1980:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/BN/1",
+          "instance_key": "346a479b929f836387c1cacb932a9f17c4f6c8f2609f8addec1996d0a4ef1980",
+          "chunk_index": 0,
+          "copied_from": "7833611",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThey toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "4c37762ae8548fe1f903e67156496865815bd66f0e7c6a8914804eac6028c3bc",
+          "char_start": 0,
+          "char_end": 371,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7301778793334961,
+          "kept": false
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7274562120437622,
+          "kept": false
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6786328554153442,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.989877139381207,
+          1.9898050857957976,
+          1.9830953986038828,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9830953986038828,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.12394225597381592,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9991463422775269
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9957829713821411
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9957467913627625
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.8360491991043091
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8296412229537964
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.827072024345398
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.806937575340271
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8017417788505554
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__BN2__unfiltered",
+          "request_sha256": "64a9b2506edaee7f5a42dccf29448f37978c2cf1421dbb890c6f2852e39b65cf",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__BN2__filtered",
+          "request_sha256": "d7d75fb44551991636382bd7b1189820f7df19c7f21b263081b33e9334522db8",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": false
+        },
+        {
+          "chunk_id": "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/PN/1",
+          "instance_key": "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04",
+          "chunk_index": 0,
+          "copied_from": "7833608",
+          "copy_number": 1,
+          "text": "Source excerpt.\nJohn Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "a16a43aa587f901177c4da8a0370bb0e7b2f98c6253a7e62795182b64c183499",
+          "char_start": 0,
+          "char_end": 291,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.805155873298645,
+          "kept": true
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7274562120437622,
+          "kept": true
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6786328554153442,
+          "kept": true
+        },
+        {
+          "chunk_id": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4765789",
+          "instance_key": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+          "text_sha256": "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+          "char_start": 0,
+          "char_end": 597,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6489015817642212,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.989373455563566,
+          0.989373455563566,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.12286800146102905,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9946725368499756
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8617297410964966
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8360493183135986
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7995374202728271
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7184925079345703
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7067257165908813
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6712760925292969
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6553624868392944
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__PN1__unfiltered",
+          "request_sha256": "e73fe8eb755ab39df7d621f1e943974afc6b07ab92131d6dd1fde9e684e838ea",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__PN1__filtered",
+          "request_sha256": "61642e0269c43404ae0227b59841889c715f52f08e5eaa3553a31adf148b2c48",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": true
+        },
+        {
+          "chunk_id": "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/PN/1",
+          "instance_key": "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04",
+          "chunk_index": 0,
+          "copied_from": "7833608",
+          "copy_number": 1,
+          "text": "Source excerpt.\nJohn Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "a16a43aa587f901177c4da8a0370bb0e7b2f98c6253a7e62795182b64c183499",
+          "char_start": 0,
+          "char_end": 291,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.805155873298645,
+          "kept": false
+        },
+        {
+          "chunk_id": "fef035c9964ee4e525f88df852556ab0f994f2f3b04607a8c60395a5ea8850a8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/PN/2",
+          "instance_key": "fef035c9964ee4e525f88df852556ab0f994f2f3b04607a8c60395a5ea8850a8",
+          "chunk_index": 0,
+          "copied_from": "7833608",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nJohn Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "6476fc9748c7a769bcb08371cac492aae1dbcf7ee1be477eb9daeb2e319d49fe",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8039079904556274,
+          "kept": false
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7274562120437622,
+          "kept": true
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6786328554153442,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.0,
+          0.9988745043329459,
+          0.9988745043329459,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9988745043329459,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.004764556884765625,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9994370937347412
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9946725368499756
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9935646057128906
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8617297410964966
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8578615188598633
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.8360491991043091
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7995373010635376
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7961055040359497
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__PN2__unfiltered",
+          "request_sha256": "adb64f2b80b47112e24ab2b9fc4ba61b67fc5b79d386b4cf8275d9ff5421cfc2",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__PN2__filtered",
+          "request_sha256": "3f317ec4c292cadf1c19fe586a89a6dbe59a4b983ac7e979e06fab3d499c4840",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": true
+        },
+        {
+          "chunk_id": "0d14e3f245a51bae30748c41001740e1908897df0558bafa68fd64e00e8d7d9f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/BE/1",
+          "instance_key": "0d14e3f245a51bae30748c41001740e1908897df0558bafa68fd64e00e8d7d9f",
+          "chunk_index": 0,
+          "copied_from": "7833611",
+          "copy_number": 1,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7274562120437622,
+          "kept": false
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7274562120437622,
+          "kept": true
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6786328554153442,
+          "kept": true
+        },
+        {
+          "chunk_id": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4765789",
+          "instance_key": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+          "text_sha256": "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+          "char_start": 0,
+          "char_end": 597,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6489015817642212,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.12819558382034302,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8360493183135986
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8360493183135986
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7184925079345703
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6712760925292969
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6553624868392944
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6553624868392944
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__BE1__unfiltered",
+          "request_sha256": "e30f0a35f38454f4706efe5608b6e5e0f7aa9d07eaae829073e4047ea77b1fc0",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__BE1__filtered",
+          "request_sha256": "43167bf940a5700e604a4c5dfaaaa132d973f94950e652d52f853f61010fb010",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": true
+        },
+        {
+          "chunk_id": "0d14e3f245a51bae30748c41001740e1908897df0558bafa68fd64e00e8d7d9f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/BE/1",
+          "instance_key": "0d14e3f245a51bae30748c41001740e1908897df0558bafa68fd64e00e8d7d9f",
+          "chunk_index": 0,
+          "copied_from": "7833611",
+          "copy_number": 1,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7274562120437622,
+          "kept": false
+        },
+        {
+          "chunk_id": "5349bc76a7cfb8b2992fad85f6758e518a6aec5aa5682436752bbf82ebcb4d3f:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/BE/2",
+          "instance_key": "5349bc76a7cfb8b2992fad85f6758e518a6aec5aa5682436752bbf82ebcb4d3f",
+          "chunk_index": 0,
+          "copied_from": "7833611",
+          "copy_number": 2,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7274562120437622,
+          "kept": false
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7274562120437622,
+          "kept": false
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6786328554153442,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          2.0,
+          2.0,
+          2.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.12819546461105347,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8360491991043091
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8360491991043091
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.8360491991043091
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8098238706588745
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__BE2__unfiltered",
+          "request_sha256": "53fcaaf8837b6cd2a1d5deb516810c38cd3099d6b3417df1f17ca7322de482ba",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__BE2__filtered",
+          "request_sha256": "d7d75fb44551991636382bd7b1189820f7df19c7f21b263081b33e9334522db8",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "8adda9f0f04c4b1ec55af3c53816d2f04efb44cdcdfcd375997087fb1b15fab2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/PE/1",
+          "instance_key": "8adda9f0f04c4b1ec55af3c53816d2f04efb44cdcdfcd375997087fb1b15fab2",
+          "chunk_index": 0,
+          "copied_from": "7833608",
+          "copy_number": 1,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": false
+        },
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8089234232902527,
+          "kept": true
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7274562120437622,
+          "kept": true
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6786328554153442,
+          "kept": true
+        },
+        {
+          "chunk_id": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4765789",
+          "instance_key": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+          "text_sha256": "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+          "char_start": 0,
+          "char_end": 597,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6489015817642212,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.12819546461105347,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8360493183135986
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7184925079345703
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7184925079345703
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6712760925292969
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6553624868392944
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__PE1__unfiltered",
+          "request_sha256": "90106749407c0d2d475b5f4c73193eadf36ddd2098523fb92a28e974861ca0ef",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__PE1__filtered",
+          "request_sha256": "43167bf940a5700e604a4c5dfaaaa132d973f94950e652d52f853f61010fb010",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1028652",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "8adda9f0f04c4b1ec55af3c53816d2f04efb44cdcdfcd375997087fb1b15fab2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/PE/1",
+          "instance_key": "8adda9f0f04c4b1ec55af3c53816d2f04efb44cdcdfcd375997087fb1b15fab2",
+          "chunk_index": 0,
+          "copied_from": "7833608",
+          "copy_number": 1,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527,
+          "kept": false
+        },
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.8089234232902527,
+          "kept": false
+        },
+        {
+          "chunk_id": "fbf8e41a8ae521e796f77ca4419a491961fa8e44c444840c37ca02049c1978aa:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/PE/2",
+          "instance_key": "fbf8e41a8ae521e796f77ca4419a491961fa8e44c444840c37ca02049c1978aa",
+          "chunk_index": 0,
+          "copied_from": "7833608",
+          "copy_number": 2,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.8089234232902527,
+          "kept": true
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7274562120437622,
+          "kept": true
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6786328554153442,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8718045353889465
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.8360491991043091
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8098238706588745
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8098238706588745
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1028652__PE2__unfiltered",
+          "request_sha256": "aba291df16baa504a686df01e10a8b1c8f3dd3b7e1f0294ab585e0a9b8d70e08",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented Corn Flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1028652__PE2__filtered",
+          "request_sha256": "3f317ec4c292cadf1c19fe586a89a6dbe59a4b983ac7e979e06fab3d499c4840",
+          "reference": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "first_call_id": "NanoMSMARCO:1028652__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "John Harvey Kellogg invented corn flakes.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

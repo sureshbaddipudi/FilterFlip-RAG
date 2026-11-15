@@ -1,0 +1,538 @@
+{
+  "case_id": "NanoNQ:test198",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test198.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test198.md",
+  "records": [
+    {
+      "record_id": "R1:7a4bc4c7e7953f17669cb8c8f68d5bf6d40667ff29cc1b9ce531d402837a6278",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test198",
+      "request_sha256": "7a4bc4c7e7953f17669cb8c8f68d5bf6d40667ff29cc1b9ce531d402837a6278",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test198__BN2__unfiltered",
+          "case_id": "NanoNQ:test198",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+            "724eac59a2b15f089d141c408acc86f3acdb78ec11289c64101a485ffbb7f7ee:00000",
+            "f053a7c08a44f057071bab30357dd8b653bfc137419c7d3c60da32d6936ed334:00000",
+            "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+            "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000"
+          ],
+          "text_hashes": [
+            "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+            "3e24796afe8dfaf87ec6992bef57a9f9015e2a6b2400191564d1576273faea79",
+            "acb7dd07c276599ea91f3bdc5a168c70fe74316c84c418eacb6f2c123fb043d0",
+            "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+            "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test198.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "350054",
+          "c6c205"
+        ],
+        "rationale": "Passages 350054 and c6c205 support that the group went to London but not the Kudrow exception or the Burbank filming fact.",
+        "disagreement": "Bare yes without the Kudrow exception; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:b45c6cd2be164c4fbff1c85d995b90a134dcce2d4d9c95e78ed9c494174a1174",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test198",
+      "request_sha256": "b45c6cd2be164c4fbff1c85d995b90a134dcce2d4d9c95e78ed9c494174a1174",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test198__BN2__filtered",
+          "case_id": "NanoNQ:test198",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+            "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+            "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000"
+          ],
+          "text_hashes": [
+            "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+            "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+            "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test198__BE2__filtered",
+          "case_id": "NanoNQ:test198",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8abb14a6ec3389c1d4a740873f8782a08a8b59e9a9a8cd02508a49233252a569:00000",
+            "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+            "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000"
+          ],
+          "text_hashes": [
+            "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+            "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+            "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test198.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "350054",
+          "c6c205"
+        ],
+        "rationale": "Passages 350054 and c6c205 support that the group went to London but not the Kudrow exception or the Burbank filming fact.",
+        "disagreement": "Bare yes without the Kudrow exception; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:97b1c3b5c1b691cc701a1b24e278ad4c131318d7b2966d8b9292223653ebcf1e",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test198",
+      "request_sha256": "97b1c3b5c1b691cc701a1b24e278ad4c131318d7b2966d8b9292223653ebcf1e",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test198__BE1__unfiltered",
+          "case_id": "NanoNQ:test198",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+            "8abb14a6ec3389c1d4a740873f8782a08a8b59e9a9a8cd02508a49233252a569:00000",
+            "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+            "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+            "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067:00000"
+          ],
+          "text_hashes": [
+            "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+            "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+            "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+            "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+            "2580fa2b50932344687624fbeb52a29375bba1e97f18b418a2319d2c76d1d9d2"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test198.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "350054",
+          "c6c205"
+        ],
+        "rationale": "Passages 350054 and c6c205 support that the group went to London but not the Kudrow exception or the Burbank filming fact.",
+        "disagreement": "Bare yes without the Kudrow exception; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:f4433ec0d65f7567615b49e80fb7a49868112eaefc62fce4fc9ba7bc80a16a77",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test198",
+      "request_sha256": "f4433ec0d65f7567615b49e80fb7a49868112eaefc62fce4fc9ba7bc80a16a77",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test198__BE2__unfiltered",
+          "case_id": "NanoNQ:test198",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+            "66e8771adc5b2fa7f6013535cadb1fe20d5e1eb7163cf1d17a6feedfcb39f6cb:00000",
+            "8abb14a6ec3389c1d4a740873f8782a08a8b59e9a9a8cd02508a49233252a569:00000",
+            "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+            "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000"
+          ],
+          "text_hashes": [
+            "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+            "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+            "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+            "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+            "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test198.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "350054",
+          "c6c205"
+        ],
+        "rationale": "Passages 350054 and c6c205 support that the group went to London but not the Kudrow exception or the Burbank filming fact.",
+        "disagreement": "Bare yes without the Kudrow exception; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test198:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test198",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c6c205"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:7a4bc4c7e7953f17669cb8c8f68d5bf6d40667ff29cc1b9ce531d402837a6278",
+          "R1:b45c6cd2be164c4fbff1c85d995b90a134dcce2d4d9c95e78ed9c494174a1174"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test198:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test198",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c6c205"
+        ],
+        "rationale": "P condition; no copy is retrieved and the answer is unchanged, strict endpoint not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "bare yes (prefix answers: \"Yes, the cast of Friends went to London for Ross's wedding\")",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "bare yes (prefix answers: \"Yes, the cast of Friends went to London for Ross's wedding\")",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test198:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test198",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c6c205"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:97b1c3b5c1b691cc701a1b24e278ad4c131318d7b2966d8b9292223653ebcf1e"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test198:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test198",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c6c205"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "a bare yes implies the whole cast travelled; the plot passage c6c205 has Phoebe (Lisa Kudrow) left behind and the Kudrow-filmed-in-Burbank fact is in no retrieved passage",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:b45c6cd2be164c4fbff1c85d995b90a134dcce2d4d9c95e78ed9c494174a1174",
+          "R1:f4433ec0d65f7567615b49e80fb7a49868112eaefc62fce4fc9ba7bc80a16a77"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test198:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test198",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c6c205"
+        ],
+        "rationale": "P condition; no copy is retrieved and the answer is unchanged, strict endpoint not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "bare yes (prefix answers: \"Yes, the cast of Friends went to London for Ross's wedding\")",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "bare yes (prefix answers: \"Yes, the cast of Friends went to London for Ross's wedding\")",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test198:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test198",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "c6c205"
+        ],
+        "rationale": "P condition; no copy is retrieved and the answer is unchanged, strict endpoint not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "bare yes (prefix answers: \"Yes, the cast of Friends went to London for Ross's wedding\")",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "bare yes (prefix answers: \"Yes, the cast of Friends went to London for Ross's wedding\")",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    }
+  ]
+}

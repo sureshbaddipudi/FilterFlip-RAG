@@ -1,0 +1,2757 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1039495",
+    "dataset": "NanoMSMARCO",
+    "question": "who is the boss of google?",
+    "source_family": "NanoMSMARCO:1039495",
+    "review_status": "assistant_only",
+    "target_document_id": "7856346",
+    "expected_answer": "Sundar Pichai",
+    "answer_aliases": [],
+    "support_quote": "And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+    "source_qualification": "The archived account of Google's reorganization under Alphabet, not a live lookup of current leadership.",
+    "qrel_document_ids": [
+      "7856346"
+    ],
+    "family_reference_texts": [
+      "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:1039495",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "7856346",
+    "expected_answer": "Sundar Pichai",
+    "answer_aliases": [],
+    "support_quote": "And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+    "source_qualification": "The archived account of Google's reorganization under Alphabet, not a live lookup of current leadership.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:1039495",
+    "dataset": "NanoMSMARCO",
+    "question": "who is the boss of google?",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:1039495",
+      "dataset": "NanoMSMARCO",
+      "question": "who is the boss of google?",
+      "expected_answer": "Sundar Pichai",
+      "source_qualification": "The archived account of Google's reorganization under Alphabet, not a live lookup of current leadership.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Sufficient support retained",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "sufficient_PN1_evidence_retained",
+      "historical_rationale": "The retained copy names Sundar Pichai as Google boss, and other retained references support the archived answer.",
+      "current_assistant_rationale": "The retained copy names Sundar Pichai as Google boss, and other retained references support the archived answer.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/36",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/36",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoMSMARCO_1039495.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 325,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 217,
+              "call_id": "NanoMSMARCO:1039495__C__unfiltered",
+              "request_sha256": "4f8d28864a5ad9ea0960c4cd84974b39e587f54c04e25c0def3453bbf468a16e"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 218,
+              "call_id": "NanoMSMARCO:1039495__C__filtered",
+              "request_sha256": "0a359f396fef6d2e4dc36c1c6a1434d41539b084dbd841f194e8556e35815202"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 326,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 219,
+              "call_id": "NanoMSMARCO:1039495__BN1__unfiltered",
+              "request_sha256": "4f8d28864a5ad9ea0960c4cd84974b39e587f54c04e25c0def3453bbf468a16e"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 220,
+              "call_id": "NanoMSMARCO:1039495__BN1__filtered",
+              "request_sha256": "0a359f396fef6d2e4dc36c1c6a1434d41539b084dbd841f194e8556e35815202"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 328,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 221,
+              "call_id": "NanoMSMARCO:1039495__PN1__unfiltered",
+              "request_sha256": "62e7befb32e8fb0670e600b6b652ad1364d4de1c2bf5660d0a1b568918bfb884"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 222,
+              "call_id": "NanoMSMARCO:1039495__PN1__filtered",
+              "request_sha256": "b49e1150d327572887e9bfc0a959c40d74b5a955e013e0eaec9ae5085f559bfe"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:1039495",
+    "question": "who is the boss of google?",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1039495"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136425971984863,
+          "kept": true
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        },
+        {
+          "chunk_id": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4343906",
+          "instance_key": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "833c9b5665a52ec3f7265074e760c7e0609c42cda9cf9ae7e6c1b9a7f88ae2e9",
+          "char_start": 0,
+          "char_end": 284,
+          "tokens_with_specials": 72,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.709019124507904,
+          "kept": false
+        },
+        {
+          "chunk_id": "faf2d147a15db6234344cab228b602e8a68c447a66d442c6182b61aa40bed7dc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221431",
+          "instance_key": "faf2d147a15db6234344cab228b602e8a68c447a66d442c6182b61aa40bed7dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai has had quite a meteoric rise at Google. He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "ff8e2f014352871346690d0cb50f9edb1d9e6371cc6511bfc7cffe4522c840e3",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7074187994003296,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.9145227246973633,
+          0.9145227246973633
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.07258439064025879,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9563068151473999
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8837224245071411
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8626468181610107
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8363432884216309
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.832116425037384
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6312553882598877
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6286040544509888
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__C__unfiltered",
+          "request_sha256": "4f8d28864a5ad9ea0960c4cd84974b39e587f54c04e25c0def3453bbf468a16e",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__C__filtered",
+          "request_sha256": "0a359f396fef6d2e4dc36c1c6a1434d41539b084dbd841f194e8556e35815202",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136425971984863,
+          "kept": true
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        },
+        {
+          "chunk_id": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4343906",
+          "instance_key": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "833c9b5665a52ec3f7265074e760c7e0609c42cda9cf9ae7e6c1b9a7f88ae2e9",
+          "char_start": 0,
+          "char_end": 284,
+          "tokens_with_specials": 72,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.709019124507904,
+          "kept": false
+        },
+        {
+          "chunk_id": "faf2d147a15db6234344cab228b602e8a68c447a66d442c6182b61aa40bed7dc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221431",
+          "instance_key": "faf2d147a15db6234344cab228b602e8a68c447a66d442c6182b61aa40bed7dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai has had quite a meteoric rise at Google. He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "ff8e2f014352871346690d0cb50f9edb1d9e6371cc6511bfc7cffe4522c840e3",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7074187994003296,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.9145227246973633,
+          0.9145227246973633
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.07258439064025879,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9563068151473999
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8837224245071411
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8626468181610107
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8363432884216309
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.832116425037384
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6312553882598877
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6286040544509888
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__BN1__unfiltered",
+          "request_sha256": "4f8d28864a5ad9ea0960c4cd84974b39e587f54c04e25c0def3453bbf468a16e",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__BN1__filtered",
+          "request_sha256": "0a359f396fef6d2e4dc36c1c6a1434d41539b084dbd841f194e8556e35815202",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136425971984863,
+          "kept": true
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        },
+        {
+          "chunk_id": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4343906",
+          "instance_key": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "833c9b5665a52ec3f7265074e760c7e0609c42cda9cf9ae7e6c1b9a7f88ae2e9",
+          "char_start": 0,
+          "char_end": 284,
+          "tokens_with_specials": 72,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.709019124507904,
+          "kept": false
+        },
+        {
+          "chunk_id": "faf2d147a15db6234344cab228b602e8a68c447a66d442c6182b61aa40bed7dc:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221431",
+          "instance_key": "faf2d147a15db6234344cab228b602e8a68c447a66d442c6182b61aa40bed7dc",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai has had quite a meteoric rise at Google. He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "ff8e2f014352871346690d0cb50f9edb1d9e6371cc6511bfc7cffe4522c840e3",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 86,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7074187994003296,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.9145227246973633,
+          0.9145227246973633
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.07258439064025879,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9563068151473999
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8837224245071411
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8626468181610107
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8363432884216309
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.832116425037384
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6312553882598877
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6286040544509888
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__BN2__unfiltered",
+          "request_sha256": "4f8d28864a5ad9ea0960c4cd84974b39e587f54c04e25c0def3453bbf468a16e",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__BN2__filtered",
+          "request_sha256": "0a359f396fef6d2e4dc36c1c6a1434d41539b084dbd841f194e8556e35815202",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": false
+        },
+        {
+          "chunk_id": "72ed9a2e803a49d8a0e1ad2b38f8dadbd0f5a00b0455fa9ff61353159b10b4b3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/PN/1",
+          "instance_key": "72ed9a2e803a49d8a0e1ad2b38f8dadbd0f5a00b0455fa9ff61353159b10b4b3",
+          "chunk_index": 0,
+          "copied_from": "7856346",
+          "copy_number": 1,
+          "text": "Source excerpt.\nSundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "023616c484fd84607a16dec715eb1d065730d297c5b51c3607e51011dfafb1cc",
+          "char_start": 0,
+          "char_end": 324,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7482253313064575,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7136425971984863,
+          "kept": true
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        },
+        {
+          "chunk_id": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4343906",
+          "instance_key": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "833c9b5665a52ec3f7265074e760c7e0609c42cda9cf9ae7e6c1b9a7f88ae2e9",
+          "char_start": 0,
+          "char_end": 284,
+          "tokens_with_specials": 72,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.709019124507904,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9627275505362185,
+          0.9627275505362185,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.11853998899459839,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9811868071556091
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8626468181610107
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8527076244354248
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.832116425037384
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7840062379837036
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6490213871002197
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6312553882598877
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__PN1__unfiltered",
+          "request_sha256": "62e7befb32e8fb0670e600b6b652ad1364d4de1c2bf5660d0a1b568918bfb884",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__PN1__filtered",
+          "request_sha256": "b49e1150d327572887e9bfc0a959c40d74b5a955e013e0eaec9ae5085f559bfe",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "ebad174af3fa2dd77c4bde2cfa4c80993bb80f7040301da03bceecc63d47093b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/PN/2",
+          "instance_key": "ebad174af3fa2dd77c4bde2cfa4c80993bb80f7040301da03bceecc63d47093b",
+          "chunk_index": 0,
+          "copied_from": "7856346",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nSundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "0650f92ea6340220c8470da430971754d01bb487ac837f966b94f85ca82202e0",
+          "char_start": 0,
+          "char_end": 327,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7541359066963196,
+          "kept": false
+        },
+        {
+          "chunk_id": "72ed9a2e803a49d8a0e1ad2b38f8dadbd0f5a00b0455fa9ff61353159b10b4b3:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/PN/1",
+          "instance_key": "72ed9a2e803a49d8a0e1ad2b38f8dadbd0f5a00b0455fa9ff61353159b10b4b3",
+          "chunk_index": 0,
+          "copied_from": "7856346",
+          "copy_number": 1,
+          "text": "Source excerpt.\nSundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "023616c484fd84607a16dec715eb1d065730d297c5b51c3607e51011dfafb1cc",
+          "char_start": 0,
+          "char_end": 324,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7482253313064575,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7136425971984863,
+          "kept": true
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9936775085216176,
+          0.9936775085216176,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.008015811443328857,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9968337416648865
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9888179302215576
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9811868071556091
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.785815954208374
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7840062379837036
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6490213871002197
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6486197710037231
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.636386513710022
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__PN2__unfiltered",
+          "request_sha256": "1c8048cc4d2ac21721894845f05e04f5ccfb17fdea72da8ea543663dcb19e2e2",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__PN2__filtered",
+          "request_sha256": "738719f6c744bcd6a251e0b77431388529579a64783a1185e50975e29b7bffed",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136425971984863,
+          "kept": false
+        },
+        {
+          "chunk_id": "c46f48e1be3e14cc6376dad235a21208762b55293a50ed4e70878bf7e6703515:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/BE/1",
+          "instance_key": "c46f48e1be3e14cc6376dad235a21208762b55293a50ed4e70878bf7e6703515",
+          "chunk_index": 0,
+          "copied_from": "1922718",
+          "copy_number": 1,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7136425971984863,
+          "kept": false
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        },
+        {
+          "chunk_id": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4343906",
+          "instance_key": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "833c9b5665a52ec3f7265074e760c7e0609c42cda9cf9ae7e6c1b9a7f88ae2e9",
+          "char_start": 0,
+          "char_end": 284,
+          "tokens_with_specials": 72,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.709019124507904,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.13735342025756836,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8626468181610107
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.832116425037384
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6312553882598877
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6312553882598877
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__BE1__unfiltered",
+          "request_sha256": "ba49eec0643dd75aacdf42fd31320d53c15a203d58738bcb35ff31a3c73e69cd",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__BE1__filtered",
+          "request_sha256": "436701d3167b416287fa456a72bca7cb47cdca74d26d9a440e9e88e28ffa7fa3",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__BE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7136425971984863,
+          "kept": false
+        },
+        {
+          "chunk_id": "683f6512d2fe3265aeba8c578c7bb254e5dc2f7553027c80b7d74aaff9d934ec:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/BE/2",
+          "instance_key": "683f6512d2fe3265aeba8c578c7bb254e5dc2f7553027c80b7d74aaff9d934ec",
+          "chunk_index": 0,
+          "copied_from": "1922718",
+          "copy_number": 2,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7136425971984863,
+          "kept": false
+        },
+        {
+          "chunk_id": "c46f48e1be3e14cc6376dad235a21208762b55293a50ed4e70878bf7e6703515:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/BE/1",
+          "instance_key": "c46f48e1be3e14cc6376dad235a21208762b55293a50ed4e70878bf7e6703515",
+          "chunk_index": 0,
+          "copied_from": "1922718",
+          "copy_number": 1,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7136425971984863,
+          "kept": false
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          2.00000095367443,
+          2.00000095367443,
+          2.00000095367443,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 2.00000095367443,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.21076154708862305,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.636386513710022
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__BE2__unfiltered",
+          "request_sha256": "89cd32b9ef206170dee51d8eaf3c21b1b3d1e23a22b882ccf3b5da2d9c79a87c",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai (2 Oct 2015 Onwards)",
+            "first_call_id": "NanoMSMARCO:1039495__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__BE2__filtered",
+          "request_sha256": "5ebf195f010cbc62e168c45ccc2d564f77cedce5b6f405c328fcf25aca01d4ed",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current boss of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__BE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "6c3b7c66c4b83639e55c4bc78e128305db92405f40f70db4d381af5653ea032e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/PE/1",
+          "instance_key": "6c3b7c66c4b83639e55c4bc78e128305db92405f40f70db4d381af5653ea032e",
+          "chunk_index": 0,
+          "copied_from": "7856346",
+          "copy_number": 1,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": false
+        },
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7136425971984863,
+          "kept": true
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        },
+        {
+          "chunk_id": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4343906",
+          "instance_key": "de64ccc4fc296b5007e58344eee08cd0215c40414cba04b61b46fa0ef280076b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "He's now the company's CEO. As Google's third CEO, Pichai is taking over a company in flux. In a massive corporate restructuring, Google has become a subsidiary of Alphabet, a new company run by Google co-founders Larry Page and Sergey Brin. Pichai, 43, was born in Tamil Nadu, India.",
+          "text_sha256": "833c9b5665a52ec3f7265074e760c7e0609c42cda9cf9ae7e6c1b9a7f88ae2e9",
+          "char_start": 0,
+          "char_end": 284,
+          "tokens_with_specials": 72,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.709019124507904,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.13735318183898926,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8626468181610107
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8626468181610107
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.832116425037384
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6312553882598877
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__PE1__unfiltered",
+          "request_sha256": "7703ea3eedf5082aae67a895e4ca085f6b6fb4aed3d18cfea0dbc8b597f97e8f",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__PE1__filtered",
+          "request_sha256": "9545fa6cb1ace77e4371fab42ba599ecc710a048c95c5a7093ae20043a55f87f",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__PE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the current CEO of Google.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1039495",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "6c3b7c66c4b83639e55c4bc78e128305db92405f40f70db4d381af5653ea032e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/PE/1",
+          "instance_key": "6c3b7c66c4b83639e55c4bc78e128305db92405f40f70db4d381af5653ea032e",
+          "chunk_index": 0,
+          "copied_from": "7856346",
+          "copy_number": 1,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7620173096656799,
+          "kept": false
+        },
+        {
+          "chunk_id": "792d97bdf482f6a5a4235319537c7bf7954008a13307339977c346d7e80c9f72:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1039495/PE/2",
+          "instance_key": "792d97bdf482f6a5a4235319537c7bf7954008a13307339977c346d7e80c9f72",
+          "chunk_index": 0,
+          "copied_from": "7856346",
+          "copy_number": 2,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7856346",
+          "instance_key": "e209d6e2c11dcac53e650937bdb49382e73a1439c2c1834eb2ebf82aa4cf0524",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sundar Pichai: Google's new boss from humble roots. With Google creating its own parent company, Alphabet, there's a bit of moving about in the Google boardroom. Larry Page is now chief executive of Alphabet. Sergey Brin is its president. And moving up to be in charge of Google is 43-year-old Sundar Pichai.",
+          "text_sha256": "cea34a9b49420f32b7fa46ae01d5830f8b8011ecb7406360b4b6d784fc5903e5",
+          "char_start": 0,
+          "char_end": 308,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7620173096656799,
+          "kept": true
+        },
+        {
+          "chunk_id": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "1922718",
+          "instance_key": "0ac71d7d9f5bb2a33fecce331a48aa80ef439a91fb191182eb7dde894f14bea4",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Google (ticker symbol: GOOG) is an American multinational leader in technology that aims to organize the world's information and make it universally accessible and useful. Founded by Larry Page and Sergey Brin, who were attending Stanford University at the time, Google was first incorporated as a privately held company on September 4, 1998. From the outset, Google's core product has been its internet search engine, which remains the most popular such service across the globe. The company boasts one of the largest research groups in the world tasked with solving search problems and improving the process of accessing information.",
+          "text_sha256": "c3cf57d46bbff3e56b13078ef84b99700537dd4e7b2031f4bc78317cbe9f55d1",
+          "char_start": 0,
+          "char_end": 635,
+          "tokens_with_specials": 121,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7136425971984863,
+          "kept": true
+        },
+        {
+          "chunk_id": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8221437",
+          "instance_key": "624ddbd03218e6ffc9ef976b07c8564ee7731266df69a801900ba2e1e99c2c20",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Originally Answered: Who is the CEO of Google? Sundar Pichai (2 Oct 2015 Onwards). Note - Alphabet is now the parent company of all of those smaller companies, one of which is Google.",
+          "text_sha256": "4ed56425e2c31cbe0e1eba29ba4c3c8495c273419fcd7fcf1ca5a738544fce7c",
+          "char_start": 0,
+          "char_end": 183,
+          "tokens_with_specials": 44,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7096960544586182,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.789238691329956
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6480872631072998
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.636386513710022
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.636386513710022
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1039495__PE2__unfiltered",
+          "request_sha256": "2b302165983c54ec7d3f5d88c4acde7763d4917ced04c569785bb16107112412",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai (became the boss in 2015).",
+            "first_call_id": "NanoMSMARCO:1039495__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1039495__PE2__filtered",
+          "request_sha256": "cc08184bf45fe9efdb2ba7f1aab520ba26266f466956e6582e03883aa80de4c2",
+          "reference": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "first_call_id": "NanoMSMARCO:1039495__PE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Sundar Pichai is the boss of Google.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

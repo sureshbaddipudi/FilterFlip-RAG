@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/tools/browser_lifecycle_fixture.py", line 29, in <module>
+    s=server.Server(w/'config.json',a.port);s.RequestHandlerClass=Handler
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/server.py", line 120, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted

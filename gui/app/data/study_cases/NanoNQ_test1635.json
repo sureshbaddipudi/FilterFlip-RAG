@@ -1,0 +1,2877 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1635",
+    "dataset": "NanoNQ",
+    "question": "can a ucc be filed on an individual",
+    "source_family": "NanoNQ:test1635",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc57977",
+    "expected_answer": "Yes. The passage explicitly describes a financing statement filed where an individual debtor resides.",
+    "answer_aliases": [],
+    "support_quote": "The financing statement is generally filed with the office of the state secretary of state, in the state where the debtor is located - for an individual, the state where the debtor resides, for most kinds of business organizations the state of incorporation or organization.",
+    "source_qualification": "UCC financing statements in the supplied reference; this is a source annotation, not a statement of current filing requirements.",
+    "qrel_document_ids": [
+      "doc57975",
+      "doc57977"
+    ],
+    "family_reference_texts": [
+      "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights against the lessee are based on the credit documents and the lease, respectively, and not the financing statement.",
+      "The financing statement is generally filed with the office of the state secretary of state, in the state where the debtor is located - for an individual, the state where the debtor resides, for most kinds of business organizations the state of incorporation or organization. Many states have a state agency that operates under the secretary of state, which is tasked with overseeing business organizations and activities, including receipt of financing statements. However, an exception exists if the collateral is something that is tied to a particular piece of real property, such as timber, mineral rights, or fixtures. In that case, the filing must be made in the county where the property is located, usually in the recording office or county court, because that is where third parties are most likely to search for such record."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test1635",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc57977",
+    "expected_answer": "Yes. The passage explicitly describes a financing statement filed where an individual debtor resides.",
+    "answer_aliases": [],
+    "support_quote": "The financing statement is generally filed with the office of the state secretary of state, in the state where the debtor is located - for an individual, the state where the debtor resides, for most kinds of business organizations the state of incorporation or organization.",
+    "source_qualification": "UCC financing statements in the supplied reference; this is a source annotation, not a statement of current filing requirements.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test1635",
+    "dataset": "NanoNQ",
+    "question": "can a ucc be filed on an individual",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test1635",
+      "dataset": "NanoNQ",
+      "question": "can a ucc be filed on an individual",
+      "expected_answer": "Yes. The passage explicitly describes a financing statement filed where an individual debtor resides.",
+      "source_qualification": "UCC financing statements in the supplied reference; this is a source annotation, not a statement of current filing requirements.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Identical filtered requests",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+      "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/5",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/5",
+      "review_priority": 3,
+      "sample_reason": "Identical clean and PN1 filtered request",
+      "evidence_file": "evidence/NanoNQ_test1635.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 46,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 31,
+              "call_id": "NanoNQ:test1635__C__unfiltered",
+              "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 32,
+              "call_id": "NanoNQ:test1635__C__filtered",
+              "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 47,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 33,
+              "call_id": "NanoNQ:test1635__BN1__unfiltered",
+              "request_sha256": "4e6d784a8fc57bb56683958a6daa6c9f173a6f10383ae78157b6ca8664be9df3"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 34,
+              "call_id": "NanoNQ:test1635__BN1__filtered",
+              "request_sha256": "0c38f619fcffeef6c3fa0925c27c0a1c15e3d3e7845ddd37b999a742e6371e59"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 49,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 35,
+              "call_id": "NanoNQ:test1635__PN1__unfiltered",
+              "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 36,
+              "call_id": "NanoNQ:test1635__PN1__filtered",
+              "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test1635",
+      "Question": "can a ucc be filed on an individual",
+      "Evidence packet": "evidence/NanoNQ_test1635.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "no",
+      "Answer preserved in copy?": null,
+      "Clean supported + correct?": "no",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "no",
+      "All support lost after filter?": null,
+      "PN1 filtered answer category": "correct-unsupported",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: clean filtered answer hedges and drifts to the mirror-image rule; survivors contain no \"individual\"/\"resides\"; the frozen support passage is not retrieved. Q2: NO - PN1 has five original documents and no copy record, so the addition was not retrieved; \"Answer preserved\" and \"All support lost\" not applicable (left blank). Q3: \"Not enough information.\" Q5: filtered answer same as C, unsupported. Q6: BN1 \"Yes, a UCC-1 financing statement can be filed on an individual\".",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (not an event: identical clean and PN1 requests). Blank G/K = not applicable, not unreviewed.",
+      "workbook_row": 16,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "question": "can a ucc be filed on an individual",
+        "expected_answer": "Yes. The passage explicitly describes a financing statement filed where an individual debtor resides.",
+        "source_qualification": "UCC financing statements in the supplied reference; this is a source annotation, not a statement of current filing requirements.",
+        "source_review_status": "user_recorded_review",
+        "assistant_status": "Not a strict event",
+        "reason_group": "Identical filtered requests",
+        "historical_decision": "not_strict_event",
+        "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+        "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+        "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/5",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/5",
+        "review_priority": 3,
+        "sample_reason": "Identical clean and PN1 filtered request",
+        "evidence_file": "evidence/NanoNQ_test1635.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 46,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 31,
+                "call_id": "NanoNQ:test1635__C__unfiltered",
+                "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 32,
+                "call_id": "NanoNQ:test1635__C__filtered",
+                "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 47,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 33,
+                "call_id": "NanoNQ:test1635__BN1__unfiltered",
+                "request_sha256": "4e6d784a8fc57bb56683958a6daa6c9f173a6f10383ae78157b6ca8664be9df3"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 34,
+                "call_id": "NanoNQ:test1635__BN1__filtered",
+                "request_sha256": "0c38f619fcffeef6c3fa0925c27c0a1c15e3d3e7845ddd37b999a742e6371e59"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 49,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 35,
+                "call_id": "NanoNQ:test1635__PN1__unfiltered",
+                "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 36,
+                "call_id": "NanoNQ:test1635__PN1__filtered",
+                "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test1635",
+    "question": "can a ucc be filed on an individual",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1635"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": true
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        },
+        {
+          "chunk_id": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc376241",
+          "instance_key": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Code, as the product of private organizations, is not itself the law, but only a recommendation of the laws that should be adopted in the states.  Once enacted by a state, the UCC is codified into the state's code of statutes.  A state may adopt the UCC verbatim as written by ALI and NCCUSL, or a state may adopt the UCC with specific changes.  Unless such changes are minor, they can seriously obstruct the Code's express objective of promoting uniformity of law among the various states.  Thus persons doing business in different states must check local law.",
+          "text_sha256": "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1",
+          "char_start": 0,
+          "char_end": 565,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4582321047782898,
+          "kept": false
+        },
+        {
+          "chunk_id": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1293555",
+          "instance_key": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, this rule still exists at common law. However, the Uniform Commercial Code (\"UCC\") dispenses with it in ยง 2-207. (but it can also be argued that ยง 2-207(1) enforces the mirror image rule)[5] Therefore, its applicability depends upon what law governs. Most states have adopted the UCC, which governs transactions in goods. Contracts for services or land, for example, would not be governed by the UCC. The 2nd restatement of contracts also provides that when parties have not agreed to an essential term, \"a term which is reasonable in the circumstances is supplied by the court.\" However, it may not be possible for a reasonable term to be supplied by the court.",
+          "text_sha256": "6fe8c4d4f7b63098c029675d290f2021850ed204073487fcad1ce54fa28dc186",
+          "char_start": 0,
+          "char_end": 686,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.45157700777053833,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.30823404648641883,
+          0.30823404648641883
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.034418582916259766,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5551882982254028
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5207697153091431
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4856117367744446
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47217124700546265
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.426338255405426
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.38497984409332275
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3793114423751831
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__C__unfiltered",
+          "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1635__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__C__filtered",
+          "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, but its applicability depends on the jurisdiction and the specific laws governing the transaction. In the United States, this rule still exists at common law, but the Uniform Commercial Code (UCC) dispenses with it in ยง 2-207. However, the UCC may still be applicable in states that have adopted it, especially for transactions involving goods.",
+            "first_call_id": "NanoNQ:test1635__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa8e1dd99d3da2140f35ea62301b8ad5f48ecd1994431eac25ee8768699549b2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1635/BN/1",
+          "instance_key": "aa8e1dd99d3da2140f35ea62301b8ad5f48ecd1994431eac25ee8768699549b2",
+          "chunk_index": 0,
+          "copied_from": "doc1055373",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "323c3cf3bd1f1b212ee2e03c885d08cf0ff5c58ffb3df385197856e3b27f6b37",
+          "char_start": 0,
+          "char_end": 171,
+          "tokens_with_specials": 40,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4963458478450775,
+          "kept": false
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        },
+        {
+          "chunk_id": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc376241",
+          "instance_key": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Code, as the product of private organizations, is not itself the law, but only a recommendation of the laws that should be adopted in the states.  Once enacted by a state, the UCC is codified into the state's code of statutes.  A state may adopt the UCC verbatim as written by ALI and NCCUSL, or a state may adopt the UCC with specific changes.  Unless such changes are minor, they can seriously obstruct the Code's express objective of promoting uniformity of law among the various states.  Thus persons doing business in different states must check local law.",
+          "text_sha256": "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1",
+          "char_start": 0,
+          "char_end": 565,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4582321047782898,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.9355698901889333,
+          0.9355698901889333,
+          0.23581875889309245,
+          0.18176430802214227,
+          0.4175830669152347
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "removal_gap": 0.18176430802214227,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0020875930786132812,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9672486186027527
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4856117367744446
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.426338255405426
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3793114423751831
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.3682778477668762
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.35813435912132263
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.29499560594558716
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__BN1__unfiltered",
+          "request_sha256": "4e6d784a8fc57bb56683958a6daa6c9f173a6f10383ae78157b6ca8664be9df3",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate. This form is used to notify that a creditor has or may have an interest in the personal property of a debtor.",
+            "first_call_id": "NanoNQ:test1635__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__BN1__filtered",
+          "request_sha256": "0c38f619fcffeef6c3fa0925c27c0a1c15e3d3e7845ddd37b999a742e6371e59",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "first_call_id": "NanoNQ:test1635__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": false
+        },
+        {
+          "chunk_id": "eecd1803e9e075a458127d8a60674fa0ae39cc132524aac803cc94540f666794:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1635/BN/2",
+          "instance_key": "eecd1803e9e075a458127d8a60674fa0ae39cc132524aac803cc94540f666794",
+          "chunk_index": 0,
+          "copied_from": "doc1055373",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nIn May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "fa712556a773ef8f409448776dcd28f3fb26e1ffbcdf6390caa0d75f2aba37d1",
+          "char_start": 0,
+          "char_end": 174,
+          "tokens_with_specials": 40,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5072519183158875,
+          "kept": false
+        },
+        {
+          "chunk_id": "aa8e1dd99d3da2140f35ea62301b8ad5f48ecd1994431eac25ee8768699549b2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1635/BN/1",
+          "instance_key": "aa8e1dd99d3da2140f35ea62301b8ad5f48ecd1994431eac25ee8768699549b2",
+          "chunk_index": 0,
+          "copied_from": "doc1055373",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "323c3cf3bd1f1b212ee2e03c885d08cf0ff5c58ffb3df385197856e3b27f6b37",
+          "char_start": 0,
+          "char_end": 171,
+          "tokens_with_specials": 40,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.4963458478450775,
+          "kept": false
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.8863037301933794,
+          1.9428299698802505,
+          1.9276660200647378,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.8863037301933794,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5429979562759399,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9960402250289917
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9750558137893677
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9672486186027527
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.36533278226852417
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.35813435912132263
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2984773516654968
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.29499560594558716
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__BN2__unfiltered",
+          "request_sha256": "61ce0eba59c28e8ff77aeb9aebad0f89ee00b76bf649ba6b7588f1ecf5c9204a",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1635__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__BN2__filtered",
+          "request_sha256": "0c38f619fcffeef6c3fa0925c27c0a1c15e3d3e7845ddd37b999a742e6371e59",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "first_call_id": "NanoNQ:test1635__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": true
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        },
+        {
+          "chunk_id": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc376241",
+          "instance_key": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Code, as the product of private organizations, is not itself the law, but only a recommendation of the laws that should be adopted in the states.  Once enacted by a state, the UCC is codified into the state's code of statutes.  A state may adopt the UCC verbatim as written by ALI and NCCUSL, or a state may adopt the UCC with specific changes.  Unless such changes are minor, they can seriously obstruct the Code's express objective of promoting uniformity of law among the various states.  Thus persons doing business in different states must check local law.",
+          "text_sha256": "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1",
+          "char_start": 0,
+          "char_end": 565,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4582321047782898,
+          "kept": false
+        },
+        {
+          "chunk_id": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1293555",
+          "instance_key": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, this rule still exists at common law. However, the Uniform Commercial Code (\"UCC\") dispenses with it in ยง 2-207. (but it can also be argued that ยง 2-207(1) enforces the mirror image rule)[5] Therefore, its applicability depends upon what law governs. Most states have adopted the UCC, which governs transactions in goods. Contracts for services or land, for example, would not be governed by the UCC. The 2nd restatement of contracts also provides that when parties have not agreed to an essential term, \"a term which is reasonable in the circumstances is supplied by the court.\" However, it may not be possible for a reasonable term to be supplied by the court.",
+          "text_sha256": "6fe8c4d4f7b63098c029675d290f2021850ed204073487fcad1ce54fa28dc186",
+          "char_start": 0,
+          "char_end": 686,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.45157700777053833,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.30823404648641883,
+          0.30823404648641883
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.034418582916259766,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5551882982254028
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5207697153091431
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4856117367744446
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47217124700546265
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.426338255405426
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.38497984409332275
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3793114423751831
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__PN1__unfiltered",
+          "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1635__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__PN1__filtered",
+          "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, but its applicability depends on the jurisdiction and the specific laws governing the transaction. In the United States, this rule still exists at common law, but the Uniform Commercial Code (UCC) dispenses with it in ยง 2-207. However, the UCC may still be applicable in states that have adopted it, especially for transactions involving goods.",
+            "first_call_id": "NanoNQ:test1635__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": true
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        },
+        {
+          "chunk_id": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc376241",
+          "instance_key": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Code, as the product of private organizations, is not itself the law, but only a recommendation of the laws that should be adopted in the states.  Once enacted by a state, the UCC is codified into the state's code of statutes.  A state may adopt the UCC verbatim as written by ALI and NCCUSL, or a state may adopt the UCC with specific changes.  Unless such changes are minor, they can seriously obstruct the Code's express objective of promoting uniformity of law among the various states.  Thus persons doing business in different states must check local law.",
+          "text_sha256": "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1",
+          "char_start": 0,
+          "char_end": 565,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4582321047782898,
+          "kept": false
+        },
+        {
+          "chunk_id": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1293555",
+          "instance_key": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, this rule still exists at common law. However, the Uniform Commercial Code (\"UCC\") dispenses with it in ยง 2-207. (but it can also be argued that ยง 2-207(1) enforces the mirror image rule)[5] Therefore, its applicability depends upon what law governs. Most states have adopted the UCC, which governs transactions in goods. Contracts for services or land, for example, would not be governed by the UCC. The 2nd restatement of contracts also provides that when parties have not agreed to an essential term, \"a term which is reasonable in the circumstances is supplied by the court.\" However, it may not be possible for a reasonable term to be supplied by the court.",
+          "text_sha256": "6fe8c4d4f7b63098c029675d290f2021850ed204073487fcad1ce54fa28dc186",
+          "char_start": 0,
+          "char_end": 686,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.45157700777053833,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.30823404648641883,
+          0.30823404648641883
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.034418582916259766,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5551882982254028
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5207697153091431
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4856117367744446
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47217124700546265
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.426338255405426
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.38497984409332275
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3793114423751831
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__PN2__unfiltered",
+          "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1635__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__PN2__filtered",
+          "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, but its applicability depends on the jurisdiction and the specific laws governing the transaction. In the United States, this rule still exists at common law, but the Uniform Commercial Code (UCC) dispenses with it in ยง 2-207. However, the UCC may still be applicable in states that have adopted it, especially for transactions involving goods.",
+            "first_call_id": "NanoNQ:test1635__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "1e19a37c957a40eea4d17e9ec5c83c43659ca224205b2dda637609841a226f4b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1635/BE/1",
+          "instance_key": "1e19a37c957a40eea4d17e9ec5c83c43659ca224205b2dda637609841a226f4b",
+          "chunk_index": 0,
+          "copied_from": "doc1055373",
+          "copy_number": 1,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": false
+        },
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5175211429595947,
+          "kept": false
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        },
+        {
+          "chunk_id": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc376241",
+          "instance_key": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Code, as the product of private organizations, is not itself the law, but only a recommendation of the laws that should be adopted in the states.  Once enacted by a state, the UCC is codified into the state's code of statutes.  A state may adopt the UCC verbatim as written by ALI and NCCUSL, or a state may adopt the UCC with specific changes.  Unless such changes are minor, they can seriously obstruct the Code's express objective of promoting uniformity of law among the various states.  Thus persons doing business in different states must check local law.",
+          "text_sha256": "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1",
+          "char_start": 0,
+          "char_end": 565,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4582321047782898,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5143882632255554,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4856117367744446
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.426338255405426
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3793114423751831
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.3793114423751831
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.2825102210044861
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__BE1__unfiltered",
+          "request_sha256": "4da861d2fe513dbbfb6b7564fabad8060941d22335a6dc475c62601b4dd5b958",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate, to give notice of a creditor's interest in the debtor's personal property.",
+            "first_call_id": "NanoNQ:test1635__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, typically for personal property, not for real estate.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__BE1__filtered",
+          "request_sha256": "c81eb878f2a6d48ceb32415dfbde98aad514ba2f2e36f80ca931a45fe08a61d9",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, typically for personal property, to give notice of a creditor's interest. However, the specifics and applicability depend on the state's laws and whether the UCC is adopted verbatim or with modifications.",
+            "first_call_id": "NanoNQ:test1635__BE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "1e19a37c957a40eea4d17e9ec5c83c43659ca224205b2dda637609841a226f4b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1635/BE/1",
+          "instance_key": "1e19a37c957a40eea4d17e9ec5c83c43659ca224205b2dda637609841a226f4b",
+          "chunk_index": 0,
+          "copied_from": "doc1055373",
+          "copy_number": 1,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": false
+        },
+        {
+          "chunk_id": "86eb5ecc18b438e730ccb76df0ab3675a6b86fa50ccc55fc46fe4ab1b8530f43:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1635/BE/2",
+          "instance_key": "86eb5ecc18b438e730ccb76df0ab3675a6b86fa50ccc55fc46fe4ab1b8530f43",
+          "chunk_index": 0,
+          "copied_from": "doc1055373",
+          "copy_number": 2,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5175211429595947,
+          "kept": false
+        },
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5175211429595947,
+          "kept": false
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5757493376731873,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.2825102210044861
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2825102210044861
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__BE2__unfiltered",
+          "request_sha256": "8a59ba8dc6608538e30daf6f8dc2dfdf17fe9dd85b5516cfec30b63611ae285e",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, typically for personal property, not real estate. However, the specific context and legal requirements for filing such a statement on an individual vary and should be reviewed by a legal professional.",
+            "first_call_id": "NanoNQ:test1635__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__BE2__filtered",
+          "request_sha256": "0c38f619fcffeef6c3fa0925c27c0a1c15e3d3e7845ddd37b999a742e6371e59",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "first_call_id": "NanoNQ:test1635__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": true
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        },
+        {
+          "chunk_id": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc376241",
+          "instance_key": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Code, as the product of private organizations, is not itself the law, but only a recommendation of the laws that should be adopted in the states.  Once enacted by a state, the UCC is codified into the state's code of statutes.  A state may adopt the UCC verbatim as written by ALI and NCCUSL, or a state may adopt the UCC with specific changes.  Unless such changes are minor, they can seriously obstruct the Code's express objective of promoting uniformity of law among the various states.  Thus persons doing business in different states must check local law.",
+          "text_sha256": "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1",
+          "char_start": 0,
+          "char_end": 565,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4582321047782898,
+          "kept": false
+        },
+        {
+          "chunk_id": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1293555",
+          "instance_key": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, this rule still exists at common law. However, the Uniform Commercial Code (\"UCC\") dispenses with it in ยง 2-207. (but it can also be argued that ยง 2-207(1) enforces the mirror image rule)[5] Therefore, its applicability depends upon what law governs. Most states have adopted the UCC, which governs transactions in goods. Contracts for services or land, for example, would not be governed by the UCC. The 2nd restatement of contracts also provides that when parties have not agreed to an essential term, \"a term which is reasonable in the circumstances is supplied by the court.\" However, it may not be possible for a reasonable term to be supplied by the court.",
+          "text_sha256": "6fe8c4d4f7b63098c029675d290f2021850ed204073487fcad1ce54fa28dc186",
+          "char_start": 0,
+          "char_end": 686,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.45157700777053833,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.30823404648641883,
+          0.30823404648641883
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.034418582916259766,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5551882982254028
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5207697153091431
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4856117367744446
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47217124700546265
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.426338255405426
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.38497984409332275
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3793114423751831
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__PE1__unfiltered",
+          "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1635__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__PE1__filtered",
+          "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, but its applicability depends on the jurisdiction and the specific laws governing the transaction. In the United States, this rule still exists at common law, but the Uniform Commercial Code (UCC) dispenses with it in ยง 2-207. However, the UCC may still be applicable in states that have adopted it, especially for transactions involving goods.",
+            "first_call_id": "NanoNQ:test1635__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1635",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1055373",
+          "instance_key": "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In May 2008, the IRS issued a letter which states that the UCC had taken appropriate steps and that the denomination's tax status was not in jeopardy. [60]",
+          "text_sha256": "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+          "char_start": 0,
+          "char_end": 155,
+          "tokens_with_specials": 37,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5175211429595947,
+          "kept": true
+        },
+        {
+          "chunk_id": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc601133",
+          "instance_key": "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "For purposes of the UCC, a defendant who admits the existence of the contract in his pleadings, under oath in a deposition or affidavit, or at trial, may not use the statute of frauds as a defense. However, a statute of frauds defense may still be available under a state's the general statute.",
+          "text_sha256": "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+          "char_start": 0,
+          "char_end": 294,
+          "tokens_with_specials": 71,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4933798313140869,
+          "kept": true
+        },
+        {
+          "chunk_id": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc57975",
+          "instance_key": "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A UCC-1 financing statement (an abbreviation for Uniform Commercial Code-1) is a legal form that a creditor files to give notice that it has or may have an interest in the personal property of a debtor (a person who owes a debt to the creditor as typically specified in the agreement creating the debt). This form is filed in order to \"perfect\" a creditor's security interest by giving public notice that there is a right to take possession of and sell certain assets for repayment of a specific debt with a certain priority. Such notices of sale are often found in the local newspapers. Once the form has been filed, the creditor establishes a relative priority with other creditors of the debtor.[1] This process is also called \"perfecting the security interest\" in the property, and this type of loan is a secured loan.[2] A financing statement may also be filed in the real estate records by a lessor of fixtures to establish the priority of the lessor's rights against a holder of a mortgage or other lien on the real property. The creditor's rights against the debtor and the lessor's rights",
+          "text_sha256": "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+          "char_start": 0,
+          "char_end": 1097,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.487214595079422,
+          "kept": true
+        },
+        {
+          "chunk_id": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc376241",
+          "instance_key": "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Code, as the product of private organizations, is not itself the law, but only a recommendation of the laws that should be adopted in the states.  Once enacted by a state, the UCC is codified into the state's code of statutes.  A state may adopt the UCC verbatim as written by ALI and NCCUSL, or a state may adopt the UCC with specific changes.  Unless such changes are minor, they can seriously obstruct the Code's express objective of promoting uniformity of law among the various states.  Thus persons doing business in different states must check local law.",
+          "text_sha256": "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1",
+          "char_start": 0,
+          "char_end": 565,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4582321047782898,
+          "kept": false
+        },
+        {
+          "chunk_id": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1293555",
+          "instance_key": "be47ca04d35eafea70b6930687a87a0c5421aea46ac9206c535a4d62823d39e7",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In the United States, this rule still exists at common law. However, the Uniform Commercial Code (\"UCC\") dispenses with it in ยง 2-207. (but it can also be argued that ยง 2-207(1) enforces the mirror image rule)[5] Therefore, its applicability depends upon what law governs. Most states have adopted the UCC, which governs transactions in goods. Contracts for services or land, for example, would not be governed by the UCC. The 2nd restatement of contracts also provides that when parties have not agreed to an essential term, \"a term which is reasonable in the circumstances is supplied by the court.\" However, it may not be possible for a reasonable term to be supplied by the court.",
+          "text_sha256": "6fe8c4d4f7b63098c029675d290f2021850ed204073487fcad1ce54fa28dc186",
+          "char_start": 0,
+          "char_end": 686,
+          "tokens_with_specials": 166,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.45157700777053833,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "removed_indices": [
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.30823404648641883,
+          0.30823404648641883
+        ],
+        "removal_ranking": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.034418582916259766,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5551882982254028
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5207697153091431
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4856117367744446
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47217124700546265
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.426338255405426
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.42425066232681274
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.38497984409332275
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3793114423751831
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.36156946420669556
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.2825102210044861
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1635__PE2__unfiltered",
+          "request_sha256": "4948230d1c4314226e1a6cfa7e759ce9a4f07a99d2a8020a2f33718a9783538c",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test1635__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1635__PE2__filtered",
+          "request_sha256": "07ff7a372955538712bc25e4934d2efa3bf479c4a9ce93c890edb803866328e3",
+          "reference": {
+            "status": "ok",
+            "answer": "A UCC-1 financing statement can be filed on an individual, but its applicability depends on the jurisdiction and the specific laws governing the transaction. In the United States, this rule still exists at common law, but the Uniform Commercial Code (UCC) dispenses with it in ยง 2-207. However, the UCC may still be applicable in states that have adopted it, especially for transactions involving goods.",
+            "first_call_id": "NanoNQ:test1635__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, a UCC-1 financing statement can be filed on an individual, typically for personal property rather than real estate.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

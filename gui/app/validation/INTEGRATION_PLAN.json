@@ -1,0 +1,16 @@
+{
+  "purpose": "Validate the new GUI/adapter on the presentation environment; not a new research cohort or threshold search",
+  "authorization": "Suresh: please go ahead, following the Week-6 review demo release proposal",
+  "maximum_generation_attempts": 12,
+  "planned_runs": [
+    {"case_id":"NanoNQ:test1009","mode":"original","condition":"C,PN1","maximum_answers":4},
+    {"case_id":"NanoNQ:test1009","mode":"mitigation","condition":"PN1","maximum_answers":4},
+    {"case_id":"NanoNQ:test1009","mode":"challenge","condition":"wrong_answer_append","maximum_answers":4}
+  ],
+  "per_run_wall_seconds":2400,
+  "model": "qwen2.5:3b",
+  "compute_profile":"cpu",
+  "num_predict":128,
+  "retry_policy":"No automatic retry. Any fault is preserved and investigated. No repeat to obtain a preferred answer.",
+  "new_semantic_review":"Pending. Developer observations cannot replace human judgments."
+}

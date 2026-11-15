@@ -1,0 +1,2931 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test123",
+    "dataset": "NanoNQ",
+    "question": "what is the difference between ron and mon",
+    "source_family": "NanoNQ:test123",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc4611",
+    "expected_answer": "MON uses more demanding test conditions than RON: 900 rather than 600 rpm, a preheated fuel mixture and variable ignition timing. For modern pump gasoline, MON is typically about 8–12 points lower, depending on fuel composition; there is no fixed conversion.",
+    "answer_aliases": [],
+    "support_quote": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. ",
+    "source_qualification": "The approximate 8–12-point difference applies to modern pump gasoline in this reference and depends on fuel composition.",
+    "qrel_document_ids": [
+      "doc4611"
+    ],
+    "family_reference_texts": [
+      "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test123",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc4611",
+    "expected_answer": "MON uses more demanding test conditions than RON: 900 rather than 600 rpm, a preheated fuel mixture and variable ignition timing. For modern pump gasoline, MON is typically about 8–12 points lower, depending on fuel composition; there is no fixed conversion.",
+    "answer_aliases": [],
+    "support_quote": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. ",
+    "source_qualification": "The approximate 8–12-point difference applies to modern pump gasoline in this reference and depends on fuel composition.",
+    "exclusion_reason": "",
+    "notes": "The essential distinction is the testing conditions. Do not accept a claim that MON is always exactly 8–12 points below RON."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test123",
+    "dataset": "NanoNQ",
+    "question": "what is the difference between ron and mon",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test123",
+      "dataset": "NanoNQ",
+      "question": "what is the difference between ron and mon",
+      "expected_answer": "MON uses more demanding test conditions than RON: 900 rather than 600 rpm, a preheated fuel mixture and variable ignition timing. For modern pump gasoline, MON is typically about 8–12 points lower, depending on fuel composition; there is no fixed conversion.",
+      "source_qualification": "The approximate 8–12-point difference applies to modern pump gasoline in this reference and depends on fuel composition.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Needs adjudication",
+      "reason_group": "Unresolved rubric/support judgment",
+      "historical_decision": "needs_adjudication",
+      "historical_reason_code": "rubric_sensitive_not_counted",
+      "historical_rationale": "C filtered explains the demanding test conditions but omits the approximate numerical gap and no-fixed-conversion qualification. PN1 unfiltered mentions only the rpm difference. Both are useful partial answers, but full-rubric correctness is not established; do not relax the rubric after observing abstention.",
+      "current_assistant_rationale": "C filtered explains the demanding test conditions but omits the approximate numerical gap and no-fixed-conversion qualification. PN1 unfiltered mentions only the rpm difference. Both are useful partial answers, but full-rubric correctness is not established; do not relax the rubric after observing abstention.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/3",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/3",
+      "review_priority": 2,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test123.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 28,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 19,
+              "call_id": "NanoNQ:test123__C__unfiltered",
+              "request_sha256": "2e9efda7a08d84f709d9ce759b9276a505c56b87bfc0fe193c53c7b909df6e3a"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 20,
+              "call_id": "NanoNQ:test123__C__filtered",
+              "request_sha256": "ad2b2598b849a26df667ef18a6f04c1301ef0dcb5240e8d4700121aedc1106e6"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 29,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 21,
+              "call_id": "NanoNQ:test123__BN1__unfiltered",
+              "request_sha256": "d4445bd3fb1d1ecd559ea1bf69f72160cd73093cc3a8e354955179305a9cbec9"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 22,
+              "call_id": "NanoNQ:test123__BN1__filtered",
+              "request_sha256": "e8ddf32537f4907b9cd90115bae157f41ec67b5e86dc3b60cadcde999cb157be"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 31,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 23,
+              "call_id": "NanoNQ:test123__PN1__unfiltered",
+              "request_sha256": "92a8866ba6a436e1e315eb3af2c3c7aae6690db641ffbdf7b4ac92db29a42c99"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 24,
+              "call_id": "NanoNQ:test123__PN1__filtered",
+              "request_sha256": "979702b22ec48fc65feef061753d2c8d3eb7c4ffb4d00c28610273ce707f30e8"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test123",
+      "Question": "what is the difference between ron and mon",
+      "Evidence packet": "evidence/NanoNQ_test123.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "abstention",
+      "Strict event judgment": "yes",
+      "Background-qualified event?": "yes",
+      "Evidence and reasoning": "Q1: C P1 doc4611 kept; answer gives 900 vs 600 rpm, preheated mixture, variable ignition timing (omits \"MON about 8-12 lower\"). Q2: PN1 P1 copy of doc4611. Q3: unfiltered gives the rpm difference. Q4: survivors are Harry Potter \"Ron\" passages (doc751714, doc751726) and \"monged (out)\" (doc1564136): no octane content. Q5: \"Not enough information.\" Q6: BN1 core correct.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Reviewer decision 2026-10-14: core answer accepted as correct and usable although the 8-12 point element is omitted (interpretation of completeness; rubric text unchanged). DISAGREES with \"Needs adjudication\". Rerun note: in my partial answer rerun of 2026-10-01 (study-answers_20261001_140826_1620932), the C filtered answer came back \"Not enough information.\"; under that rerun Q1 would fail, so this event is not stable across reruns. The judgment here uses the saved reference answers, as the checklist asks.",
+      "workbook_row": 9,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "jointly_agreed_under_named_core_mixed_rule",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "question": "what is the difference between ron and mon",
+        "expected_answer": "MON uses more demanding test conditions than RON: 900 rather than 600 rpm, a preheated fuel mixture and variable ignition timing. For modern pump gasoline, MON is typically about 8–12 points lower, depending on fuel composition; there is no fixed conversion.",
+        "source_qualification": "The approximate 8–12-point difference applies to modern pump gasoline in this reference and depends on fuel composition.",
+        "source_review_status": "user_recorded_review",
+        "assistant_status": "Needs adjudication",
+        "reason_group": "Unresolved rubric/support judgment",
+        "historical_decision": "needs_adjudication",
+        "historical_reason_code": "rubric_sensitive_not_counted",
+        "historical_rationale": "C filtered explains the demanding test conditions but omits the approximate numerical gap and no-fixed-conversion qualification. PN1 unfiltered mentions only the rpm difference. Both are useful partial answers, but full-rubric correctness is not established; do not relax the rubric after observing abstention.",
+        "current_assistant_rationale": "C filtered explains the demanding test conditions but omits the approximate numerical gap and no-fixed-conversion qualification. PN1 unfiltered mentions only the rpm difference. Both are useful partial answers, but full-rubric correctness is not established; do not relax the rubric after observing abstention.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/3",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/3",
+        "review_priority": 2,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoNQ_test123.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 28,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 19,
+                "call_id": "NanoNQ:test123__C__unfiltered",
+                "request_sha256": "2e9efda7a08d84f709d9ce759b9276a505c56b87bfc0fe193c53c7b909df6e3a"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 20,
+                "call_id": "NanoNQ:test123__C__filtered",
+                "request_sha256": "ad2b2598b849a26df667ef18a6f04c1301ef0dcb5240e8d4700121aedc1106e6"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 29,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 21,
+                "call_id": "NanoNQ:test123__BN1__unfiltered",
+                "request_sha256": "d4445bd3fb1d1ecd559ea1bf69f72160cd73093cc3a8e354955179305a9cbec9"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 22,
+                "call_id": "NanoNQ:test123__BN1__filtered",
+                "request_sha256": "e8ddf32537f4907b9cd90115bae157f41ec67b5e86dc3b60cadcde999cb157be"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 31,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 23,
+                "call_id": "NanoNQ:test123__PN1__unfiltered",
+                "request_sha256": "92a8866ba6a436e1e315eb3af2c3c7aae6690db641ffbdf7b4ac92db29a42c99"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 24,
+                "call_id": "NanoNQ:test123__PN1__filtered",
+                "request_sha256": "979702b22ec48fc65feef061753d2c8d3eb7c4ffb4d00c28610273ce707f30e8"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only",
+      "joint_adjudication": {
+        "joint_decision": "event",
+        "participants": [
+          "Shradha",
+          "Suresh"
+        ],
+        "agreement_recorded_date": "2026-10-26",
+        "suresh_response": "accept",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+      }
+    },
+    "prior_joint_adjudication": {
+      "case_id": "NanoNQ:test123",
+      "case_name": "RON/MON",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "RON/MON",
+        "Suresh's Label": "Event",
+        "Decided by": "Core rule"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "doc4611 and its copy removed in PN1; no octane passage survives.",
+        "PN1 filtered: \"Not enough information.\""
+      ],
+      "agreed_rationale": "Event under the core-answer rule with the 900 vs 600 rpm difference as the core. No recorded answer gives the 8-12 point difference. The PN1 unfiltered expansion 'Research Octane Number' is not in the retained passage (unsupported, noted as extra). NOT an event if more than the rpm difference is required (Q3 would fail). This is the saved reference only: Suresh's rerun abstains in the clean condition, so it fails the clean prerequisite and the event is not carried over to the rerun.",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test123",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "yes",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "doc4611 and its copy removed in PN1; no octane passage survives.",
+          "PN1 filtered: \"Not enough information.\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Event under the core-answer rule with the 900 vs 600 rpm difference as the core. No recorded answer gives the 8-12 point difference. The PN1 unfiltered expansion 'Research Octane Number' is not in the retained passage (unsupported, noted as extra). NOT an event if more than the rpm difference is required (Q3 would fail). This is the saved reference only: Suresh's rerun abstains in the clean condition, so it fails the clean prerequisite and the event is not carried over to the rerun.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "event",
+        "suresh_response": null
+      }
+    }
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test123",
+    "question": "what is the difference between ron and mon",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoNQ:test123"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5792316794395447,
+          "kept": true
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4761485457420349,
+          "kept": false
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        },
+        {
+          "chunk_id": "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751726",
+          "instance_key": "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ron was born into the Weasley family on 1 March 1980,[13][HBPÂ Ch.18] the sixth of their seven children, and the youngest son. His middle name, Bilius, is the same as that of a deceased uncle. Ron grew up in the family home, The Burrow, near the village of Ottery St Catchpole in Devon. Ron has six siblings; his five older brothers, Bill, Charlie, Percy, twins Fred and George, and a younger sister, Ginny, each with their own distinct personality trait. One recurring factor in Ron's siblings is that they often appear to be more confident, self-assured and, to varying degrees, more outwardly talented than he is.",
+          "text_sha256": "c0bd9a9a9ad1e20075491a32b598e5fd37ffcf24a580e2f1268606fb2779e36a",
+          "char_start": 0,
+          "char_end": 616,
+          "tokens_with_specials": 152,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4495650827884674,
+          "kept": true
+        },
+        {
+          "chunk_id": "951610a1a063f6b7cef581f9c82597f927f7907c01dc9cbb3523d0d4df70340a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751729",
+          "instance_key": "951610a1a063f6b7cef581f9c82597f927f7907c01dc9cbb3523d0d4df70340a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ron has made several appearances in parodies of Harry Potter. Seth Meyers appeared as Ron in Saturday Night Live in the sketch in which Lindsay Lohan portrays Hermione.[15] On his The Big Impression show, Alistair McGowan did a sketch called \"Louis Potter and the Philosopher's Scone\". It featured impressions of Anne Robinson as Ron.[16] In 2003, Comic Relief performed a spoof story called Harry Potter and the Secret Chamberpot of Azerbaijan, in which Jennifer Saunders appeared as both Ron and J. K. Rowling.[17][18] In Harry Podder: Dude Where's My Wand?, a play by Desert Star Theater in Utah, written by sisters Laura J., Amy K. and Anna M. Lewis, Ron appears as \"Ron Sneasley\".[19][20] In the Harry Bladder sketches in All That, Ron appears as ReRon and is played by Bryan Hearne. Ron also is a regular character in Potter Puppet Pals sketches by Neil Cicierega. In one of the episodes, \"The Mysterious Ticking Noise\", Ron, along with Snape, Harry, Hermione and",
+          "text_sha256": "3c257d01aba8049bf3cbc0e7c05366b60a42b89225e13b7a90d82a9b3f8450e0",
+          "char_start": 0,
+          "char_end": 969,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.43654540181159973,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3
+      ],
+      "removed_indices": [
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.3257224263175864,
+          0.0,
+          0.0,
+          0.3257224263175864
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 0.3257224263175864,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.08514580130577087,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5707209706306458
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4855751693248749
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4746880531311035
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.29340338706970215
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.25926709175109863
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.2532482147216797
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.24471455812454224
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.10248129814863205
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.013497516512870789
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": -0.04943385347723961
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__C__unfiltered",
+          "request_sha256": "2e9efda7a08d84f709d9ce759b9276a505c56b87bfc0fe193c53c7b909df6e3a",
+          "reference": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm).",
+            "first_call_id": "NanoNQ:test123__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm).",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__C__filtered",
+          "request_sha256": "ad2b2598b849a26df667ef18a6f04c1301ef0dcb5240e8d4700121aedc1106e6",
+          "reference": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm), and it uses a preheated fuel mixture and variable ignition timing to test the fuel's knock resistance.",
+            "first_call_id": "NanoNQ:test123__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5792316794395447,
+          "kept": true
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4761485457420349,
+          "kept": false
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        },
+        {
+          "chunk_id": "7792e58a7052bd1c4c1e55d74c391b0cc783158c25d6d2e738bfdd78839d2cc7:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/BN/1",
+          "instance_key": "7792e58a7052bd1c4c1e55d74c391b0cc783158c25d6d2e738bfdd78839d2cc7",
+          "chunk_index": 1,
+          "copied_from": "doc751714",
+          "copy_number": 1,
+          "text": "actually taken it, Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "145c8bbd907cac121e0f14bd479bf7d2107b2f21dab8211cc32243bb59f242db",
+          "char_start": 908,
+          "char_end": 1641,
+          "tokens_with_specials": 187,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4596627950668335,
+          "kept": false
+        },
+        {
+          "chunk_id": "7792e58a7052bd1c4c1e55d74c391b0cc783158c25d6d2e738bfdd78839d2cc7:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/BN/1",
+          "instance_key": "7792e58a7052bd1c4c1e55d74c391b0cc783158c25d6d2e738bfdd78839d2cc7",
+          "chunk_index": 0,
+          "copied_from": "doc751714",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn Harry Potter and the Half-Blood Prince Ron, who has grown taller over the summer, attracts the attention of Lavender Brown. Harry, the new Quidditch Captain, picks Ron to continue as Keeper for the Gryffindor Quidditch team, over competing candidate Cormac McLaggen who is equally-skilled but has difficulty with teamwork and following orders.[HBP Ch.11] Upon learning Hermione most likely had kissed Krum, Ron performs increasingly badly at Quidditch, and thrown off by jealousy of his former idol, becomes unkind to Hermione. His low self-esteem is not helped much by his younger sister Ginny who after Ron reacts badly to finding her kissing her boyfriend, throws in the fact that of those in the group, Ron is the only one who has never had his first kiss. To bolster Ron's confidence, Harry pretends to give him Felix Felicis, a potion which makes the drinker lucky; believing he has actually taken it, Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione",
+          "text_sha256": "398e7567d8399577c3b8f1a7c4f576c1facb72d21dca726acdf005e167c222fa",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4563051462173462,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        4
+      ],
+      "removed_indices": [
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9241039078917765,
+          0.0,
+          0.9241039078917765,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        "removal_gap": 0.9241039078917765,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.15292930603027344,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9613032341003418
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8083739280700684
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7924057245254517
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.2727883756160736
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.26025235652923584
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.25926709175109863
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.24471455812454224
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.10248129814863205
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.09777117520570755
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.03449908643960953
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__BN1__unfiltered",
+          "request_sha256": "d4445bd3fb1d1ecd559ea1bf69f72160cd73093cc3a8e354955179305a9cbec9",
+          "reference": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm).",
+            "first_call_id": "NanoNQ:test123__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline, with MON being tested at a higher engine speed.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__BN1__filtered",
+          "request_sha256": "e8ddf32537f4907b9cd90115bae157f41ec67b5e86dc3b60cadcde999cb157be",
+          "reference": {
+            "status": "ok",
+            "answer": "MON is determined at 900 rpm engine speed, while RON is determined at 600 rpm engine speed. MON testing uses a higher engine speed and variable ignition timing to further stress the fuel's knock resistance.",
+            "first_call_id": "NanoNQ:test123__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "MON is determined at 900 rpm engine speed, while RON is determined at 600 rpm engine speed. The MON of modern pump gasoline is about 8 to 12 octane lower than RON.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": true,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5792316794395447,
+          "kept": true
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4761485457420349,
+          "kept": false
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        },
+        {
+          "chunk_id": "f7e56bbd63787d61ab97bc1b574343bac0dc91d5d37138425147cf52cc4ed963:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/BN/2",
+          "instance_key": "f7e56bbd63787d61ab97bc1b574343bac0dc91d5d37138425147cf52cc4ed963",
+          "chunk_index": 0,
+          "copied_from": "doc751714",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nIn Harry Potter and the Half-Blood Prince Ron, who has grown taller over the summer, attracts the attention of Lavender Brown. Harry, the new Quidditch Captain, picks Ron to continue as Keeper for the Gryffindor Quidditch team, over competing candidate Cormac McLaggen who is equally-skilled but has difficulty with teamwork and following orders.[HBP Ch.11] Upon learning Hermione most likely had kissed Krum, Ron performs increasingly badly at Quidditch, and thrown off by jealousy of his former idol, becomes unkind to Hermione. His low self-esteem is not helped much by his younger sister Ginny who after Ron reacts badly to finding her kissing her boyfriend, throws in the fact that of those in the group, Ron is the only one who has never had his first kiss. To bolster Ron's confidence, Harry pretends to give him Felix Felicis, a potion which makes the drinker lucky; believing he has actually taken it, Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione",
+          "text_sha256": "df597124a6fcfde0acb82ae55590e7610627f8e54211fa5487ccf0f499139377",
+          "char_start": 0,
+          "char_end": 1043,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4626178741455078,
+          "kept": true
+        },
+        {
+          "chunk_id": "7792e58a7052bd1c4c1e55d74c391b0cc783158c25d6d2e738bfdd78839d2cc7:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/BN/1",
+          "instance_key": "7792e58a7052bd1c4c1e55d74c391b0cc783158c25d6d2e738bfdd78839d2cc7",
+          "chunk_index": 1,
+          "copied_from": "doc751714",
+          "copy_number": 1,
+          "text": "actually taken it, Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "145c8bbd907cac121e0f14bd479bf7d2107b2f21dab8211cc32243bb59f242db",
+          "char_start": 908,
+          "char_end": 1641,
+          "tokens_with_specials": 187,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4596627950668335,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        3
+      ],
+      "removed_indices": [
+        1,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9241039078917765,
+          0.0,
+          0.0,
+          0.9241039078917765
+        ],
+        "removal_ranking": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "removal_gap": 0.9241039078917765,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.1542896032333374,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.9613032341003418
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8070136308670044
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7914208173751831
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.27958494424819946
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.26025235652923584
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.25926709175109863
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.24471455812454224
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.10248129814863205
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.09777117520570755
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.034241609275341034
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__BN2__unfiltered",
+          "request_sha256": "fe8af95137a3a42edc132089b4d147a6c1a66941356ea43dc86b21e59977eb3d",
+          "reference": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm).",
+            "first_call_id": "NanoNQ:test123__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline, with MON being tested at a higher engine speed.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__BN2__filtered",
+          "request_sha256": "72ba2a40bca85256d05e38af256faeb6359157a907acd706fc49ee8c307dc897",
+          "reference": {
+            "status": "ok",
+            "answer": "MON is determined at 900 rpm engine speed, while RON is determined at 600 rpm engine speed. MON testing uses a higher engine speed and variable ignition timing to further stress the fuel's knock resistance.",
+            "first_call_id": "NanoNQ:test123__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "MON is determined at 900 rpm engine speed, while RON is at 600 rpm. MON testing uses a higher engine speed and variable ignition timing to stress the fuel's knock resistance.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "f386662eb775c7e334ac863aa64b5f9c545cf9ccfc03d880132ffe0acc523a1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/PN/1",
+          "instance_key": "f386662eb775c7e334ac863aa64b5f9c545cf9ccfc03d880132ffe0acc523a1d",
+          "chunk_index": 0,
+          "copied_from": "doc4611",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAnother type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "ac82c05e5e3db417f6db49009d52973ed7228bada0281f16478d1b85240dcd1d",
+          "char_start": 0,
+          "char_end": 629,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6048924326896667,
+          "kept": false
+        },
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5792316794395447,
+          "kept": false
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.4761485457420349,
+          "kept": true
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        },
+        {
+          "chunk_id": "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751726",
+          "instance_key": "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ron was born into the Weasley family on 1 March 1980,[13][HBPÂ Ch.18] the sixth of their seven children, and the youngest son. His middle name, Bilius, is the same as that of a deceased uncle. Ron grew up in the family home, The Burrow, near the village of Ottery St Catchpole in Devon. Ron has six siblings; his five older brothers, Bill, Charlie, Percy, twins Fred and George, and a younger sister, Ginny, each with their own distinct personality trait. One recurring factor in Ron's siblings is that they often appear to be more confident, self-assured and, to varying degrees, more outwardly talented than he is.",
+          "text_sha256": "c0bd9a9a9ad1e20075491a32b598e5fd37ffcf24a580e2f1268606fb2779e36a",
+          "char_start": 0,
+          "char_end": 616,
+          "tokens_with_specials": 152,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4495650827884674,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9812406327087189,
+          0.9812406327087189,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9812406327087189,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5050007998943329,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.990575909614563
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4855751097202301
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.27241748571395874
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.2588854134082794
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.25324809551239014
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.2523844242095947
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.10248132795095444
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": -0.049433812499046326
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__PN1__unfiltered",
+          "request_sha256": "92a8866ba6a436e1e315eb3af2c3c7aae6690db641ffbdf7b4ac92db29a42c99",
+          "reference": {
+            "status": "ok",
+            "answer": "The difference between RON (Research Octane Number) and MON (Motor Octane Number) is that MON is determined at 900 rpm engine speed instead of 600 rpm for RON.",
+            "first_call_id": "NanoNQ:test123__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The difference between RON (Research Octane Number) and MON (Motor Octane Number) is that MON is determined at 900 rpm engine speed instead of 600 rpm for RON.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__PN1__filtered",
+          "request_sha256": "979702b22ec48fc65feef061753d2c8d3eb7c4ffb4d00c28610273ce707f30e8",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test123__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "f386662eb775c7e334ac863aa64b5f9c545cf9ccfc03d880132ffe0acc523a1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/PN/1",
+          "instance_key": "f386662eb775c7e334ac863aa64b5f9c545cf9ccfc03d880132ffe0acc523a1d",
+          "chunk_index": 0,
+          "copied_from": "doc4611",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAnother type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "ac82c05e5e3db417f6db49009d52973ed7228bada0281f16478d1b85240dcd1d",
+          "char_start": 0,
+          "char_end": 629,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6048924326896667,
+          "kept": false
+        },
+        {
+          "chunk_id": "e7d1c928eea15ad96826d77871393af0633d195a57495b70a4f50890050d7820:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/PN/2",
+          "instance_key": "e7d1c928eea15ad96826d77871393af0633d195a57495b70a4f50890050d7820",
+          "chunk_index": 0,
+          "copied_from": "doc4611",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nAnother type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "4111a94de3ccf0cf402f25b6ae8697e5451db301b1a50fdc204143077d08b5f0",
+          "char_start": 0,
+          "char_end": 632,
+          "tokens_with_specials": 137,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6006876826286316,
+          "kept": false
+        },
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5792316794395447,
+          "kept": true
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4761485457420349,
+          "kept": true
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9994139338168431,
+          0.9994139338168431,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9994139338168431,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.009131014347076416,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9997069239616394
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.990575909614563
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9903674125671387
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.27241748571395874
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.270410418510437
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.2588854134082794
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.25452691316604614
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.10248132795095444
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__PN2__unfiltered",
+          "request_sha256": "e0ebce9ac00026acecc7baadea27dcf79111407a14ffb6dc2febafc5272bbd80",
+          "reference": {
+            "status": "ok",
+            "answer": "The Motor Octane Number (MON) is determined at 900 rpm engine speed instead of 600 rpm for RON. MON testing uses similar conditions to RON testing but with additional factors like a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. For modern pump gasoline, the MON is typically about 8 to 12 octane lower than the RON.",
+            "first_call_id": "NanoNQ:test123__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The difference between RON (Research Octane Number) and MON (Motor Octane Number) is that MON is determined at 900 rpm engine speed instead of 600 rpm for RON.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__PN2__filtered",
+          "request_sha256": "f2aea01b7da30e22b8a567734ae99725656fc0e8fa2ef284a4f633c3889c9a58",
+          "reference": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm), and it uses a preheated fuel mixture and variable ignition timing to test the fuel's knock resistance.",
+            "first_call_id": "NanoNQ:test123__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Motor Octane Number (MON) is determined at 900 rpm engine speed, while the Research Octane Number (RON) is determined at 600 rpm engine speed.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5792316794395447,
+          "kept": true
+        },
+        {
+          "chunk_id": "38e86d3d80cd2140a9288c71b0abdbba9d879c2737e7e3f66daf6a16a69c30fc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/BE/1",
+          "instance_key": "38e86d3d80cd2140a9288c71b0abdbba9d879c2737e7e3f66daf6a16a69c30fc",
+          "chunk_index": 1,
+          "copied_from": "doc751714",
+          "copy_number": 1,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4761485457420349,
+          "kept": false
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.4761485457420349,
+          "kept": false
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        },
+        {
+          "chunk_id": "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751726",
+          "instance_key": "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ron was born into the Weasley family on 1 March 1980,[13][HBPÂ Ch.18] the sixth of their seven children, and the youngest son. His middle name, Bilius, is the same as that of a deceased uncle. Ron grew up in the family home, The Burrow, near the village of Ottery St Catchpole in Devon. Ron has six siblings; his five older brothers, Bill, Charlie, Percy, twins Fred and George, and a younger sister, Ginny, each with their own distinct personality trait. One recurring factor in Ron's siblings is that they often appear to be more confident, self-assured and, to varying degrees, more outwardly talented than he is.",
+          "text_sha256": "c0bd9a9a9ad1e20075491a32b598e5fd37ffcf24a580e2f1268606fb2779e36a",
+          "char_start": 0,
+          "char_end": 616,
+          "tokens_with_specials": 152,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4495650827884674,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5144250094890594,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4855751097202301
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4855751097202301
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.25324809551239014
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.10248132795095444
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.10248132795095444
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": -0.049433812499046326
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__BE1__unfiltered",
+          "request_sha256": "71669ad7f434810635f2c8a4407f1caf9a6d9d8b17b03f9b909f85daeb68f628",
+          "reference": {
+            "status": "ok",
+            "answer": "The Motor Octane Number (MON) is determined at a higher engine speed (900 rpm) compared to the Research Octane Number (RON), which uses 600 rpm engine speed. MON testing also uses a preheated fuel mixture and variable ignition timing to further stress the fuel's knock resistance.",
+            "first_call_id": "NanoNQ:test123__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The difference between RON (Research Octane Number) and MON (Motor Octane Number) is that MON is determined at 900 rpm engine speed instead of 600 rpm for RON.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__BE1__filtered",
+          "request_sha256": "ad2b2598b849a26df667ef18a6f04c1301ef0dcb5240e8d4700121aedc1106e6",
+          "reference": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm), and it uses a preheated fuel mixture and variable ignition timing to test the fuel's knock resistance.",
+            "first_call_id": "NanoNQ:test123__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5792316794395447,
+          "kept": true
+        },
+        {
+          "chunk_id": "38e86d3d80cd2140a9288c71b0abdbba9d879c2737e7e3f66daf6a16a69c30fc:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/BE/1",
+          "instance_key": "38e86d3d80cd2140a9288c71b0abdbba9d879c2737e7e3f66daf6a16a69c30fc",
+          "chunk_index": 1,
+          "copied_from": "doc751714",
+          "copy_number": 1,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.4761485457420349,
+          "kept": false
+        },
+        {
+          "chunk_id": "e4e48f20a2f7dbd7412d1faadf07d08bd9badb62a706618aaee0743a4d0b5419:00001",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/BE/2",
+          "instance_key": "e4e48f20a2f7dbd7412d1faadf07d08bd9badb62a706618aaee0743a4d0b5419",
+          "chunk_index": 1,
+          "copied_from": "doc751714",
+          "copy_number": 2,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.4761485457420349,
+          "kept": false
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4761485457420349,
+          "kept": true
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.10248132795095444
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.10248132795095444
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.10248132795095444
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__BE2__unfiltered",
+          "request_sha256": "33206e7b7bfb700a4fcbe9b46e642329512cbf5135f15942d362d7f4f0db2ac5",
+          "reference": {
+            "status": "ok",
+            "answer": "The difference between RON (Research Octane Number) and MON (Motor Octane Number) is that MON is determined at 900 rpm engine speed instead of 600 rpm for RON.",
+            "first_call_id": "NanoNQ:test123__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Motor Octane Number (MON) is determined at a higher engine speed (900 rpm) compared to the Research Octane Number (RON) which uses 600 rpm engine speed.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__BE2__filtered",
+          "request_sha256": "f2aea01b7da30e22b8a567734ae99725656fc0e8fa2ef284a4f633c3889c9a58",
+          "reference": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm), and it uses a preheated fuel mixture and variable ignition timing to test the fuel's knock resistance.",
+            "first_call_id": "NanoNQ:test123__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Motor Octane Number (MON) is determined at 900 rpm engine speed, while the Research Octane Number (RON) is determined at 600 rpm engine speed.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5792316794395447,
+          "kept": false
+        },
+        {
+          "chunk_id": "d8f879951b08307d8383d1b8f84d9d3960db916ab15ac2a89f13770542a34c96:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/PE/1",
+          "instance_key": "d8f879951b08307d8383d1b8f84d9d3960db916ab15ac2a89f13770542a34c96",
+          "chunk_index": 0,
+          "copied_from": "doc4611",
+          "copy_number": 1,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5792316794395447,
+          "kept": false
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.4761485457420349,
+          "kept": true
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        },
+        {
+          "chunk_id": "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751726",
+          "instance_key": "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Ron was born into the Weasley family on 1 March 1980,[13][HBPÂ Ch.18] the sixth of their seven children, and the youngest son. His middle name, Bilius, is the same as that of a deceased uncle. Ron grew up in the family home, The Burrow, near the village of Ottery St Catchpole in Devon. Ron has six siblings; his five older brothers, Bill, Charlie, Percy, twins Fred and George, and a younger sister, Ginny, each with their own distinct personality trait. One recurring factor in Ron's siblings is that they often appear to be more confident, self-assured and, to varying degrees, more outwardly talented than he is.",
+          "text_sha256": "c0bd9a9a9ad1e20075491a32b598e5fd37ffcf24a580e2f1268606fb2779e36a",
+          "char_start": 0,
+          "char_end": 616,
+          "tokens_with_specials": 152,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4495650827884674,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5144248902797699,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4855751097202301
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.25324809551239014
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.25324809551239014
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.10248132795095444
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": -0.049433812499046326
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__PE1__unfiltered",
+          "request_sha256": "6a089d6855826ab76de9dc713552dcd1bb5421d447fc43556daeefecd3312560",
+          "reference": {
+            "status": "ok",
+            "answer": "The difference between RON (Research Octane Number) and MON (Motor Octane Number) is that MON is determined at 900 rpm engine speed instead of 600 rpm for RON. Both are used to determine the octane rating of gasoline, but they are tested under different conditions.",
+            "first_call_id": "NanoNQ:test123__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The difference between RON (Research Octane Number) and MON (Motor Octane Number) is that MON is determined at 900 rpm engine speed instead of 600 rpm for RON.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__PE1__filtered",
+          "request_sha256": "979702b22ec48fc65feef061753d2c8d3eb7c4ffb4d00c28610273ce707f30e8",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test123__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test123",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "5cc46f62ef1e9d39d2554b67be9a5f8fea2836800e9aaa410108b5a4e3e32c96:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/PE/2",
+          "instance_key": "5cc46f62ef1e9d39d2554b67be9a5f8fea2836800e9aaa410108b5a4e3e32c96",
+          "chunk_index": 0,
+          "copied_from": "doc4611",
+          "copy_number": 2,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.5792316794395447,
+          "kept": false
+        },
+        {
+          "chunk_id": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc4611",
+          "instance_key": "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5792316794395447,
+          "kept": false
+        },
+        {
+          "chunk_id": "d8f879951b08307d8383d1b8f84d9d3960db916ab15ac2a89f13770542a34c96:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test123/PE/1",
+          "instance_key": "d8f879951b08307d8383d1b8f84d9d3960db916ab15ac2a89f13770542a34c96",
+          "chunk_index": 0,
+          "copied_from": "doc4611",
+          "copy_number": 1,
+          "text": "Another type of octane rating, called Motor Octane Number (MON), is determined at 900 rpm engine speed instead of the 600 rpm for RON.[1] MON testing uses a similar test engine to that used in RON testing, but with a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance. Depending on the composition of the fuel, the MON of a modern pump gasoline will be about 8 to 12 octane lower than the RON, but there is no direct link between RON and MON. Pump gasoline specifications typically require both a minimum RON and a minimum MON.[citation needed]",
+          "text_sha256": "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+          "char_start": 0,
+          "char_end": 613,
+          "tokens_with_specials": 134,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5792316794395447,
+          "kept": true
+        },
+        {
+          "chunk_id": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc751714",
+          "instance_key": "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", Ron performs admirably and Gryffindor wins the match. However, this leads to a major row between Ron and Hermione: Hermione accuses Harry of helping Ron cheat, while Ron berates Hermione for having no faith in his abilities.[HBP Ch.14] At a post-game celebration, Ron kisses Lavender (though Ginny describes it as \"eating her face\"). Hermione, jealous and seeking retaliation, takes McLaggen as her date to new Potions professor Horace Slughorn's Christmas party, but he proves to be an egomaniac.[HBP Ch.15] After Christmas, Hermione continues to ignore Ron, stopping only to give him disdainful looks and occasional snide remarks. By now, Ron is visibly discontent with his relationship with Lavender.[HBP Ch.17]",
+          "text_sha256": "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+          "char_start": 909,
+          "char_end": 1625,
+          "tokens_with_specials": 184,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.4761485457420349,
+          "kept": true
+        },
+        {
+          "chunk_id": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1564136",
+          "instance_key": "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "monged (out)Â",
+          "text_sha256": "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+          "char_start": 0,
+          "char_end": 13,
+          "tokens_with_specials": 8,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.46441492438316345,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.259267121553421
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.24471458792686462
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.10248132795095444
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test123__PE2__unfiltered",
+          "request_sha256": "d3ada142b0f79e3729daa1eacfa6f7a2576674275d6b0afba218f043ab089993",
+          "reference": {
+            "status": "ok",
+            "answer": "The Motor Octane Number (MON) is determined at 900 rpm engine speed instead of 600 rpm for RON, and uses a preheated fuel mixture, higher engine speed, and variable ignition timing. The MON of a modern pump gasoline is typically about 8 to 12 octane lower than the RON. There is no direct link between RON and MON.",
+            "first_call_id": "NanoNQ:test123__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Motor Octane Number (MON) is determined at 900 rpm engine speed instead of 600 rpm for RON, and uses a preheated fuel mixture, higher engine speed, and variable ignition timing. The MON of modern pump gasoline is typically about 8 to 12 octane lower than the RON. There is no direct link between RON and MON.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test123__PE2__filtered",
+          "request_sha256": "f2aea01b7da30e22b8a567734ae99725656fc0e8fa2ef284a4f633c3889c9a58",
+          "reference": {
+            "status": "ok",
+            "answer": "RON and MON are different octane ratings for gasoline. MON is determined at a higher engine speed (900 rpm) compared to RON (600 rpm), and it uses a preheated fuel mixture and variable ignition timing to test the fuel's knock resistance.",
+            "first_call_id": "NanoNQ:test123__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The Motor Octane Number (MON) is determined at 900 rpm engine speed, while the Research Octane Number (RON) is determined at 600 rpm engine speed.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "case_id": "NanoNQ:test1829",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test1829.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test1829.md",
+  "records": [
+    {
+      "record_id": "R1:1c949959900c4e90f8cba70ada9f1f7a4e28a58a0e4c8fc1c149ba72fcb8a980",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1829",
+      "request_sha256": "1c949959900c4e90f8cba70ada9f1f7a4e28a58a0e4c8fc1c149ba72fcb8a980",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1829__BN2__unfiltered",
+          "case_id": "NanoNQ:test1829",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+            "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+            "9b7d0eb420472e4061804b902f5cc34a10a0dadb33084418216bf31eb4a2124c:00000",
+            "0bbc3f5b75c5e1bbd1815b2695f98e7c8571957b852a7954ff45c3e9ac2f820f:00000",
+            "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000"
+          ],
+          "text_hashes": [
+            "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+            "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+            "0000c0fa7c738554c02a91dd51daf85ae3a5f516d727d9eabf669a0cc878c8e9",
+            "7b7cc7425b531831f721eb5b6607b3c717b900fe3a65fb3c1b28f7352066a9d9",
+            "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1829.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "95a75e",
+          "832831"
+        ],
+        "rationale": "Answer passage absent; 95a75e/832831 support \"to the lungs\"; smaller branches not stated.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:83f8e43852c77cc0bbe1ac87bc65fd6b71fb8c47f69c46b390a04ddc82b4f9bc",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1829",
+      "request_sha256": "83f8e43852c77cc0bbe1ac87bc65fd6b71fb8c47f69c46b390a04ddc82b4f9bc",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1829__BN2__filtered",
+          "case_id": "NanoNQ:test1829",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+            "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000"
+          ],
+          "text_hashes": [
+            "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+            "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1829__BE2__filtered",
+          "case_id": "NanoNQ:test1829",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+            "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000"
+          ],
+          "text_hashes": [
+            "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+            "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1829.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "95a75e",
+          "2d92ee"
+        ],
+        "rationale": "Answer passage absent; 95a75e/2d92ee kept and support \"to the lungs\"; smaller branches not stated.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:2bca396b4db1be0f02e68a35e454aa46af2bec14767c746cca34da93da1a4694",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1829",
+      "request_sha256": "2bca396b4db1be0f02e68a35e454aa46af2bec14767c746cca34da93da1a4694",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1829__BE1__unfiltered",
+          "case_id": "NanoNQ:test1829",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+            "3fb31db138f16983b60aa5a19fc3f306f58a5f56e2fb4b3de3723b5ff43c119b:00000",
+            "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+            "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+            "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000"
+          ],
+          "text_hashes": [
+            "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+            "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+            "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+            "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+            "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1829.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "b31a9e (answer)",
+          "832831"
+        ],
+        "rationale": "Answer passage b31a9e present; answer gives the destination (lungs) without the smaller branches.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:180853de8af6e17c3a787189c42d5878ad6cff9523433ab809d9496e03ee4bba",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1829",
+      "request_sha256": "180853de8af6e17c3a787189c42d5878ad6cff9523433ab809d9496e03ee4bba",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1829__BE2__unfiltered",
+          "case_id": "NanoNQ:test1829",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+            "3fb31db138f16983b60aa5a19fc3f306f58a5f56e2fb4b3de3723b5ff43c119b:00000",
+            "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+            "9001baafc73f724c913b8436783a74144c81799d38fc2ba4c354d7f195c322bd:00000",
+            "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000"
+          ],
+          "text_hashes": [
+            "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+            "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+            "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+            "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+            "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1829.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "95a75e",
+          "832831"
+        ],
+        "rationale": "Answer passage absent; destination correct; adds return path.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:77c684d5e584ba7a9d783e3f22d60e9b394c9c6637afe21f67ca266d6dcff58d",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1829",
+      "request_sha256": "77c684d5e584ba7a9d783e3f22d60e9b394c9c6637afe21f67ca266d6dcff58d",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1829__PE1__unfiltered",
+          "case_id": "NanoNQ:test1829",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+            "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+            "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+            "533819783e9db74ce7ea74d1dbde58973ddb25b425f2a232ffb634c9d5c30477:00000",
+            "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000"
+          ],
+          "text_hashes": [
+            "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+            "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+            "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+            "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+            "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1829__PE2__unfiltered",
+          "case_id": "NanoNQ:test1829",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "95a75efe4a3983146a37bc1ac226369af1ac6fb80392a914f188458978daac3d:00000",
+            "832831a1d3f15627696fd820a895a47eee009160debc4980df415ac5a242ffc0:00000",
+            "2d92ee6f532fbedcdaa0f2a57d5b542e29e416fd2ae271a97a858279c1e9d124:00000",
+            "533819783e9db74ce7ea74d1dbde58973ddb25b425f2a232ffb634c9d5c30477:00000",
+            "b31a9e431526ddaf7d9fcdb8d021089a870b82512a29872c362adca3ccc142ee:00000"
+          ],
+          "text_hashes": [
+            "9df63641c8ebbb4aacb41536f4e74c469fa09a6cae0d1875712aa85b6e1c662d",
+            "9e2a052740ab4e0d558bb43c62f0a41340c55b7bee11860cc2c0f56be15cedd9",
+            "9b53794088497111afe5ac5cafd965f28ebe735b2bb01066e51707b220827a27",
+            "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3",
+            "91cbbb689cc0d07d8e019433a94f2cfd61cd0418de07aa29a8659de8c2217cb3"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1829.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "b31a9e (answer)",
+          "832831"
+        ],
+        "rationale": "Answer passage present (A or its exact copy); wording \"in the lungs\" instead of \"to the lungs\".",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1829:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1829",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "95a75e"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:1c949959900c4e90f8cba70ada9f1f7a4e28a58a0e4c8fc1c149ba72fcb8a980",
+          "R1:83f8e43852c77cc0bbe1ac87bc65fd6b71fb8c47f69c46b390a04ddc82b4f9bc"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1829:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1829",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "832831",
+          "2d92ee"
+        ],
+        "rationale": "P condition; every filtered answer still says \"to the lungs\", so the answer does not fail and strict endpoint is not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:2bca396b4db1be0f02e68a35e454aa46af2bec14767c746cca34da93da1a4694"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1829:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1829",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "b31a9e"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:2bca396b4db1be0f02e68a35e454aa46af2bec14767c746cca34da93da1a4694"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1829:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1829",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "95a75e"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:83f8e43852c77cc0bbe1ac87bc65fd6b71fb8c47f69c46b390a04ddc82b4f9bc",
+          "R1:180853de8af6e17c3a787189c42d5878ad6cff9523433ab809d9496e03ee4bba"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1829:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1829",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "832831",
+          "2d92ee"
+        ],
+        "rationale": "P condition; every filtered answer still says \"to the lungs\", so the answer does not fail and strict endpoint is not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:77c684d5e584ba7a9d783e3f22d60e9b394c9c6637afe21f67ca266d6dcff58d"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1829:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1829",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "832831",
+          "2d92ee"
+        ],
+        "rationale": "P condition; every filtered answer still says \"to the lungs\", so the answer does not fail and strict endpoint is not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: adds the blood's return via the pulmonary veins to the left atrium (supported by 95a75e/2d92ee but outside the question and flagged by the source qualification)",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:77c684d5e584ba7a9d783e3f22d60e9b394c9c6637afe21f67ca266d6dcff58d"
+        ]
+      }
+    }
+  ]
+}

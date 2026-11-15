@@ -1,0 +1,76 @@
+{
+  "schema": "week06-first-pass-corrections-v1",
+  "status": "Second-pass corrections only. The first-pass file FilterFlip_Week06_FirstPass_Review_Shradha_2026-10-25.json is preserved unchanged.",
+  "first_pass_sha256": "1fd2a09509b1c12ea6e8356a330078ebcae9d09a6edd97fd3edb81c494a59787",
+  "reviewer_name": "Shradha (draft prepared with Claude Code assistance, decided by Shradha)",
+  "review_date": "2026-10-25",
+  "assistance_disclosure": "Corrections decided by Shradha in the second pass, after the first pass was saved and frozen and the key was opened. Wording prepared by Claude Code and confirmed by Shradha.",
+  "corrections": [
+    {
+      "review_id": "R016",
+      "answer": "Will Kellogg invented corn flakes.",
+      "first_pass": {
+        "semantic_support": "partial",
+        "answer_category": "uncertain"
+      },
+      "corrected": {
+        "semantic_support": "partial",
+        "answer_category": "wrong"
+      },
+      "source_quotation": "Source (Week-6 CHALLENGE_REVIEW.md, case NanoMSMARCO:1028652): \"Archived answer: John Harvey Kellogg, according to the supplied passage.\" and the passage \"John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878.\"",
+      "reason": "The answer names only Will Kellogg as the inventor. The passages credit both brothers loosely, but the source answer is John Harvey Kellogg, so an answer naming only Will is wrong against the source."
+    },
+    {
+      "review_id": "R065",
+      "answer": "Will Kellogg invented corn flakes.",
+      "first_pass": {
+        "semantic_support": "partial",
+        "answer_category": "uncertain"
+      },
+      "corrected": {
+        "semantic_support": "partial",
+        "answer_category": "wrong"
+      },
+      "source_quotation": "Source (Week-6 CHALLENGE_REVIEW.md, case NanoMSMARCO:1028652): \"Archived answer: John Harvey Kellogg, according to the supplied passage.\" and the passage \"John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878.\"",
+      "reason": "Same as R016: the answer names only Will Kellogg, against the source answer John Harvey Kellogg."
+    },
+    {
+      "review_id": "R139",
+      "answer": "Will Kellogg invented corn flakes.",
+      "first_pass": {
+        "semantic_support": "partial",
+        "answer_category": "uncertain"
+      },
+      "corrected": {
+        "semantic_support": "partial",
+        "answer_category": "wrong"
+      },
+      "source_quotation": "Source (Week-6 CHALLENGE_REVIEW.md, case NanoMSMARCO:1028652): \"Archived answer: John Harvey Kellogg, according to the supplied passage.\" and the passage \"John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878.\"",
+      "reason": "Same as R016: the answer names only Will Kellogg, against the source answer John Harvey Kellogg."
+    },
+    {
+      "review_id": "R156",
+      "answer": "Dia de los Muertos is celebrated in northern Mexico, though it was introduced as a national holiday there.",
+      "first_pass": {
+        "semantic_support": "partial",
+        "answer_category": "uncertain"
+      },
+      "corrected": {
+        "semantic_support": "partial",
+        "answer_category": "wrong"
+      },
+      "source_quotation": "Source (Week-6 CHALLENGE_REVIEW.md, case NanoNQ:test2598): \"Archived answer: Throughout Mexico, particularly the Central and South regions.\" and the passage \"celebrated throughout Mexico, in particular the Central and South regions\".",
+      "reason": "The answer gives only northern Mexico. The source answer is throughout Mexico, particularly the Central and South regions, so an answer naming only the north misses the main regions and is wrong against the source, even though the passage does say it is now observed in the north."
+    }
+  ],
+  "unchanged_uncertain": {
+    "ids": [
+      "R004",
+      "R019",
+      "R033",
+      "R056",
+      "R110"
+    ],
+    "reason": "These depend on the mixed-answer and completeness rules still to be agreed with Suresh; first-pass value uncertain retained."
+  }
+}

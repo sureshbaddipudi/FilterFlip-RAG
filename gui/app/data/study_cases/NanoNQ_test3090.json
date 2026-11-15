@@ -1,0 +1,2753 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test3090",
+    "dataset": "NanoNQ",
+    "question": "what album is help by the beatles on",
+    "source_family": "NanoNQ:test3090",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc105739",
+    "expected_answer": "Help!",
+    "answer_aliases": [
+      "Help"
+    ],
+    "support_quote": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+    "source_qualification": "The Beatles' fifth studio album; the source explicitly includes the song among the tracks on its first side.",
+    "qrel_document_ids": [
+      "doc105739"
+    ],
+    "family_reference_texts": [
+      "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test3090",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc105739",
+    "expected_answer": "Help!",
+    "answer_aliases": [
+      "Help"
+    ],
+    "support_quote": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+    "source_qualification": "The Beatles' fifth studio album; the source explicitly includes the song among the tracks on its first side.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test3090",
+    "dataset": "NanoNQ",
+    "question": "what album is help by the beatles on",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test3090",
+      "dataset": "NanoNQ",
+      "question": "what album is help by the beatles on",
+      "expected_answer": "Help!",
+      "source_qualification": "The Beatles' fifth studio album; the source explicitly includes the song among the tracks on its first side.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Sufficient support retained",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "sufficient_PN1_evidence_retained",
+      "historical_rationale": "The retained album passage explicitly includes the single Help! on the Help! album.",
+      "current_assistant_rationale": "The retained album passage explicitly includes the single Help! on the Help! album.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/25",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/25",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test3090.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 226,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 151,
+              "call_id": "NanoNQ:test3090__C__unfiltered",
+              "request_sha256": "b10574ba0da4cf9fe8681f1c79cfb664c278c417a4abbeeebda92df9d09b6344"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 152,
+              "call_id": "NanoNQ:test3090__C__filtered",
+              "request_sha256": "b5a5884bb5f5bd21c5e22ca3c85a6e8396f217cb2ad29c06a9f42914e42c1b9f"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 227,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 153,
+              "call_id": "NanoNQ:test3090__BN1__unfiltered",
+              "request_sha256": "0f98cf6c3d4e8d113b8c517d24e009fe3b442f9c2f85fe42600f80870d3d1f6f"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 154,
+              "call_id": "NanoNQ:test3090__BN1__filtered",
+              "request_sha256": "4aa96b408167ef5580b2da638df933059351f08145366936fb037800a4fed476"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 229,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 155,
+              "call_id": "NanoNQ:test3090__PN1__unfiltered",
+              "request_sha256": "de3f6af4423b4f8379679e94c243e2cd6abcb4f0082c67150b329d57b8a929c9"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 156,
+              "call_id": "NanoNQ:test3090__PN1__filtered",
+              "request_sha256": "8e80a773cbff1d019f8f0e321cc863f0070fc2012010ec3119f63d1865c2c3e9"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test3090",
+    "question": "what album is help by the beatles on",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test3090"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7757511138916016,
+          "kept": true
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7132715582847595,
+          "kept": true
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6468899250030518,
+          "kept": false
+        },
+        {
+          "chunk_id": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc543176",
+          "instance_key": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soundtrack includes seven songs from The Beatles (also known as The White Album), five from Magical Mystery Tour, five from Abbey Road, four from Sgt. Pepper's Lonely Hearts Club Band, three from With The Beatles, two from A Hard Day's Night, two from Let It Be, one from Help!, one from Rubber Soul, and three other non-album singles.",
+          "text_sha256": "2a98f56d9885c783ad4dddf8fcc5c2dc9502ceda52c481e28afb49f823df4bdc",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6453076601028442,
+          "kept": true
+        },
+        {
+          "chunk_id": "96e1c6b92019bb60f23dc21c9893ccd24840b3c87e8f4271ddd188d06a742761:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc171833",
+          "instance_key": "96e1c6b92019bb60f23dc21c9893ccd24840b3c87e8f4271ddd188d06a742761",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "A subsequent recording of the track by Joe Cocker became a hit single in 1968 and an anthem for the Woodstock era.[2] In 1978, the Beatles' recording, paired with \"Sgt. Pepper's Lonely Hearts Club Band\", was reissued as a single, and peaked at number 63 in Britain and number 71 in the United States. Starr has regularly performed the song in concert as a solo artist. \"With a Little Help from My Friends\" was ranked number 311 on Rolling Stone's list of the 500 Greatest Songs of All Time.",
+          "text_sha256": "68c7fd7ea7d182224e4cf81e6f0762b380dc4982b708275b18fdb5d840884d4a",
+          "char_start": 0,
+          "char_end": 490,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.629047155380249,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        3
+      ],
+      "removed_indices": [
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.4904072868426148,
+          0.0,
+          0.4904072868426148
+        ],
+        "removal_ranking": [
+          2,
+          4,
+          0,
+          1,
+          3
+        ],
+        "removal_gap": 0.4904072868426148,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.02575397491455078,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.700290858745575
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6507055759429932
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6448379755020142
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5972002148628235
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5811780691146851
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5685125589370728
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5270087718963623
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5167348384857178
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__C__unfiltered",
+          "request_sha256": "b10574ba0da4cf9fe8681f1c79cfb664c278c417a4abbeeebda92df9d09b6344",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__C__filtered",
+          "request_sha256": "b5a5884bb5f5bd21c5e22ca3c85a6e8396f217cb2ad29c06a9f42914e42c1b9f",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7757511138916016,
+          "kept": true
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7132715582847595,
+          "kept": false
+        },
+        {
+          "chunk_id": "d022b29a602419b4ac2d6200b003ea072f477130b44d525e893fd7fa0608993f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/BN/1",
+          "instance_key": "d022b29a602419b4ac2d6200b003ea072f477130b44d525e893fd7fa0608993f",
+          "chunk_index": 0,
+          "copied_from": "doc849003",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"",
+          "text_sha256": "9d3c4ce49c7f00ba70935f24bf0a972d742893ee3a4b2853cfb0d685be491725",
+          "char_start": 0,
+          "char_end": 1109,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7087714076042175,
+          "kept": false
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6468899250030518,
+          "kept": true
+        },
+        {
+          "chunk_id": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc543176",
+          "instance_key": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soundtrack includes seven songs from The Beatles (also known as The White Album), five from Magical Mystery Tour, five from Abbey Road, four from Sgt. Pepper's Lonely Hearts Club Band, three from With The Beatles, two from A Hard Day's Night, two from Let It Be, one from Help!, one from Rubber Soul, and three other non-album singles.",
+          "text_sha256": "2a98f56d9885c783ad4dddf8fcc5c2dc9502ceda52c481e28afb49f823df4bdc",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6453076601028442,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9838586867965802,
+          0.9838586867965802,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9838586867965802,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.31406211853027344,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9918965101242065
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6778343915939331
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6587640643119812
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6507055759429932
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6448379755020142
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5977421998977661
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5972002148628235
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5270087718963623
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__BN1__unfiltered",
+          "request_sha256": "0f98cf6c3d4e8d113b8c517d24e009fe3b442f9c2f85fe42600f80870d3d1f6f",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__BN1__filtered",
+          "request_sha256": "4aa96b408167ef5580b2da638df933059351f08145366936fb037800a4fed476",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is on the fifth studio album by the Beatles, Help!.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7757511138916016,
+          "kept": true
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7132715582847595,
+          "kept": true
+        },
+        {
+          "chunk_id": "d022b29a602419b4ac2d6200b003ea072f477130b44d525e893fd7fa0608993f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/BN/1",
+          "instance_key": "d022b29a602419b4ac2d6200b003ea072f477130b44d525e893fd7fa0608993f",
+          "chunk_index": 0,
+          "copied_from": "doc849003",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"",
+          "text_sha256": "9d3c4ce49c7f00ba70935f24bf0a972d742893ee3a4b2853cfb0d685be491725",
+          "char_start": 0,
+          "char_end": 1109,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7087714076042175,
+          "kept": false
+        },
+        {
+          "chunk_id": "99eb0685fc4acf59138a6911cb724a63a73e541119028bfd40f4c782248dc1b6:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/BN/2",
+          "instance_key": "99eb0685fc4acf59138a6911cb724a63a73e541119028bfd40f4c782248dc1b6",
+          "chunk_index": 0,
+          "copied_from": "doc849003",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"",
+          "text_sha256": "282b24dab53f4dcb4fc03e6d83cf601d9ba7e982c875de0b55beae31c93ae911",
+          "char_start": 0,
+          "char_end": 1112,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7068349123001099,
+          "kept": false
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6468899250030518,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        4
+      ],
+      "removed_indices": [
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.9994271622137063,
+          0.9994271622137063,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.9994271622137063,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.007433414459228516,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9997135400772095
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.992280125617981
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9918965101242065
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6778343915939331
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6756992340087891
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6587640643119812
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6559087038040161
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6507055759429932
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__BN2__unfiltered",
+          "request_sha256": "706f1ac6af53d7ea8c8271b15449116af478c7532eea9a380845a136dca6df5a",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! by The Beatles is their fifth studio album.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__BN2__filtered",
+          "request_sha256": "ada44446a28e14b22536789534e836b61633c3885162711a61586bed2c561915",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 1,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "b34a3c41a4249caafe7a78709fc0499e0e5993196afe25445fbfcc40ff87e212:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/PN/1",
+          "instance_key": "b34a3c41a4249caafe7a78709fc0499e0e5993196afe25445fbfcc40ff87e212",
+          "chunk_index": 0,
+          "copied_from": "doc105739",
+          "copy_number": 1,
+          "text": "Source excerpt.\nHelp! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "9b0ecc9547325f6c09f9c91145330ec427ceb3bbad7fde478f1e95bb9f194052",
+          "char_start": 0,
+          "char_end": 527,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7775284051895142,
+          "kept": false
+        },
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7757511138916016,
+          "kept": true
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7132715582847595,
+          "kept": true
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6468899250030518,
+          "kept": true
+        },
+        {
+          "chunk_id": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc543176",
+          "instance_key": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soundtrack includes seven songs from The Beatles (also known as The White Album), five from Magical Mystery Tour, five from Abbey Road, four from Sgt. Pepper's Lonely Hearts Club Band, three from With The Beatles, two from A Hard Day's Night, two from Let It Be, one from Help!, one from Rubber Soul, and three other non-album singles.",
+          "text_sha256": "2a98f56d9885c783ad4dddf8fcc5c2dc9502ceda52c481e28afb49f823df4bdc",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6453076601028442,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 1,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.9858892610647132,
+          0.9858892610647132,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.30879783630371094,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9929195642471313
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6841217279434204
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6813983917236328
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6507055759429932
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6477212905883789
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6448379755020142
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5972002148628235
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5270087718963623
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__PN1__unfiltered",
+          "request_sha256": "de3f6af4423b4f8379679e94c243e2cd6abcb4f0082c67150b329d57b8a929c9",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__PN1__filtered",
+          "request_sha256": "8e80a773cbff1d019f8f0e321cc863f0070fc2012010ec3119f63d1865c2c3e9",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "b34a3c41a4249caafe7a78709fc0499e0e5993196afe25445fbfcc40ff87e212:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/PN/1",
+          "instance_key": "b34a3c41a4249caafe7a78709fc0499e0e5993196afe25445fbfcc40ff87e212",
+          "chunk_index": 0,
+          "copied_from": "doc105739",
+          "copy_number": 1,
+          "text": "Source excerpt.\nHelp! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "9b0ecc9547325f6c09f9c91145330ec427ceb3bbad7fde478f1e95bb9f194052",
+          "char_start": 0,
+          "char_end": 527,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7775284051895142,
+          "kept": false
+        },
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7757511138916016,
+          "kept": false
+        },
+        {
+          "chunk_id": "c704bebf7d577f5e3b2a8eec1083cf4019cf488bed7e4d4aa794cbb2a92921c7:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/PN/2",
+          "instance_key": "c704bebf7d577f5e3b2a8eec1083cf4019cf488bed7e4d4aa794cbb2a92921c7",
+          "chunk_index": 0,
+          "copied_from": "doc105739",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nHelp! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "57fa4897f1c189df88071a59f442c9b4e56129c61b7934ea19bda98f17a3038b",
+          "char_start": 0,
+          "char_end": 530,
+          "tokens_with_specials": 116,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7755061388015747,
+          "kept": false
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7132715582847595,
+          "kept": true
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6468899250030518,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.984624254769603,
+          1.9748517811080148,
+          1.9876975137481914,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          0,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 1.9748517811080148,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.30879783630371094,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9993672966957092
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9944659471511841
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9929195642471313
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6841217279434204
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6813983917236328
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.679223895072937
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6791950464248657
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6507055759429932
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__PN2__unfiltered",
+          "request_sha256": "d43047747de764d67fadf6abcf124b831c12d355d3d37235b226f550de3f3795",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__PN2__filtered",
+          "request_sha256": "303ec9ff8911dbe5f65093d8f1e338e6fd70ad31f7482575692575193ebab235",
+          "reference": {
+            "status": "ok",
+            "answer": "Help!",
+            "first_call_id": "NanoNQ:test3090__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! (1965)",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7757511138916016,
+          "kept": true
+        },
+        {
+          "chunk_id": "3d763d5bec610e79f94f13a1e92c59f37d27b3517fe52ef9caf633d76235f054:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/BE/1",
+          "instance_key": "3d763d5bec610e79f94f13a1e92c59f37d27b3517fe52ef9caf633d76235f054",
+          "chunk_index": 0,
+          "copied_from": "doc849003",
+          "copy_number": 1,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7132715582847595,
+          "kept": false
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7132715582847595,
+          "kept": false
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6468899250030518,
+          "kept": true
+        },
+        {
+          "chunk_id": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc543176",
+          "instance_key": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soundtrack includes seven songs from The Beatles (also known as The White Album), five from Magical Mystery Tour, five from Abbey Road, four from Sgt. Pepper's Lonely Hearts Club Band, three from With The Beatles, two from A Hard Day's Night, two from Let It Be, one from Help!, one from Rubber Soul, and three other non-album singles.",
+          "text_sha256": "2a98f56d9885c783ad4dddf8fcc5c2dc9502ceda52c481e28afb49f823df4bdc",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6453076601028442,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.32546311616897583,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6507055759429932
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6507055759429932
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6448379755020142
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5972002148628235
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5972002148628235
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5270087718963623
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__BE1__unfiltered",
+          "request_sha256": "8f4b709e3075bd7ffdf28d0534ac1a78c42e37048511c88c9e424213c912edb3",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__BE1__filtered",
+          "request_sha256": "4aa96b408167ef5580b2da638df933059351f08145366936fb037800a4fed476",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is on the fifth studio album by the Beatles, Help!.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7757511138916016,
+          "kept": true
+        },
+        {
+          "chunk_id": "3d763d5bec610e79f94f13a1e92c59f37d27b3517fe52ef9caf633d76235f054:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/BE/1",
+          "instance_key": "3d763d5bec610e79f94f13a1e92c59f37d27b3517fe52ef9caf633d76235f054",
+          "chunk_index": 0,
+          "copied_from": "doc849003",
+          "copy_number": 1,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7132715582847595,
+          "kept": false
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7132715582847595,
+          "kept": false
+        },
+        {
+          "chunk_id": "d58d86e7ce822dd2af69b28eb9e1512c31dba3b312bf0285ec5bdf266a349169:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/BE/2",
+          "instance_key": "d58d86e7ce822dd2af69b28eb9e1512c31dba3b312bf0285ec5bdf266a349169",
+          "chunk_index": 0,
+          "copied_from": "doc849003",
+          "copy_number": 2,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7132715582847595,
+          "kept": true
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6468899250030518,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6507055759429932
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6507055759429932
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6507055759429932
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__BE2__unfiltered",
+          "request_sha256": "2dbe78d6cde1e948b57cd39d70b92fae550c043f43eea23fe322df2c4c0f25c6",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__BE2__filtered",
+          "request_sha256": "ada44446a28e14b22536789534e836b61633c3885162711a61586bed2c561915",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7757511138916016,
+          "kept": false
+        },
+        {
+          "chunk_id": "e4478b80e14d91681fb89a1a7e5b095e9fb910e6df437bf33b8a685c027df094:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/PE/1",
+          "instance_key": "e4478b80e14d91681fb89a1a7e5b095e9fb910e6df437bf33b8a685c027df094",
+          "chunk_index": 0,
+          "copied_from": "doc105739",
+          "copy_number": 1,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7757511138916016,
+          "kept": false
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7132715582847595,
+          "kept": true
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6468899250030518,
+          "kept": true
+        },
+        {
+          "chunk_id": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc543176",
+          "instance_key": "64d5520a50beef98fa9ded749c3d9ef85fe2deba10ebe7a62b9e6110b9cd9494",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The soundtrack includes seven songs from The Beatles (also known as The White Album), five from Magical Mystery Tour, five from Abbey Road, four from Sgt. Pepper's Lonely Hearts Club Band, three from With The Beatles, two from A Hard Day's Night, two from Let It Be, one from Help!, one from Rubber Soul, and three other non-album singles.",
+          "text_sha256": "2a98f56d9885c783ad4dddf8fcc5c2dc9502ceda52c481e28afb49f823df4bdc",
+          "char_start": 0,
+          "char_end": 339,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6453076601028442,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.32546335458755493,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6507055759429932
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6448379755020142
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6448379755020142
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5972002148628235
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5270087718963623
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__PE1__unfiltered",
+          "request_sha256": "227e5a59e4a822f597a0b90a360af4635fc33800c6ff5165f092a113c2ca3fb5",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__PE1__filtered",
+          "request_sha256": "3493fce54bcd9c7ecb1d8a376c015f6e5e6935dcb857367bbb3df96036302936",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the album The Beatles released in 1965 that includes the song in question.",
+            "first_call_id": "NanoNQ:test3090__PE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the album by The Beatles mentioned in the document.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test3090",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc105739",
+          "instance_key": "2604b614256c53936bb5a6fc73b781ef178c2b3419afd1383224837f94825f3c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7757511138916016,
+          "kept": false
+        },
+        {
+          "chunk_id": "68fe9735749af4c3f1bb692afc19ebe2b1178c18c6843b37862f1aa270caee95:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/PE/2",
+          "instance_key": "68fe9735749af4c3f1bb692afc19ebe2b1178c18c6843b37862f1aa270caee95",
+          "chunk_index": 0,
+          "copied_from": "doc105739",
+          "copy_number": 2,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7757511138916016,
+          "kept": false
+        },
+        {
+          "chunk_id": "e4478b80e14d91681fb89a1a7e5b095e9fb910e6df437bf33b8a685c027df094:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test3090/PE/1",
+          "instance_key": "e4478b80e14d91681fb89a1a7e5b095e9fb910e6df437bf33b8a685c027df094",
+          "chunk_index": 0,
+          "copied_from": "doc105739",
+          "copy_number": 1,
+          "text": "Help! is the fifth studio album by English rock band the Beatles, the soundtrack from their film Help!, and released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".[4]",
+          "text_sha256": "685e3f06cf58e0dd362d8d866b7770373840ff9768ed7a1a5d81f62b3d7c0d21",
+          "char_start": 0,
+          "char_end": 511,
+          "tokens_with_specials": 113,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7757511138916016,
+          "kept": false
+        },
+        {
+          "chunk_id": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc849003",
+          "instance_key": "bb501eba15c924dd888ef82f25d8f82d878a2524ceac2cbaaf4b4d28b0d6ddfa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The Lennon–McCartney songwriting partnership makes up the majority of the Beatles' catalogue. The first two UK studio albums included 12 cover tunes and 15 Lennon–McCartney songs,[47][48] with one track (\"Don't Bother Me\") credited to George Harrison.[48] Their third UK album, A Hard Day's Night (1964), is the only original Beatles album made up entirely of Lennon–McCartney compositions.[49] The next album released, Beatles for Sale (1964), included six covers and eight Lennon–McCartney originals.[50] The subsequent release, Help! (1965), had two covers and two Harrison compositions along with ten Lennon–McCartney tracks and was the last Beatles album to feature a cover until Let It Be, which featured an arrangement of the traditional Liverpool folk song \"Maggie Mae\". All other songs released on studio albums by the band after Help! were original compositions, with George Harrison contributing between one and four songs on each record, Ringo Starr writing two songs (\"Don't Pass Me By\" and \"Octopus's Garden\") and being given joint credit with Lennon and McCartney for a third (\"What Goes On",
+          "text_sha256": "7f9a0742efd7ea57fef802900bac535744600c55ec0fa5a6f73066534762f209",
+          "char_start": 0,
+          "char_end": 1105,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7132715582847595,
+          "kept": true
+        },
+        {
+          "chunk_id": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc133369",
+          "instance_key": "c8245eaa1514a0c7c6161796c17a93532c568ecf02fe0ce05a755b1b8f5a6c4a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The song reached number 2 on the UK pop singles chart on August 14, 1965 (held out of the top slot by The Beatles' \"Help!\").[12] The following month, it reached number 13 on the U.S. pop singles chart, its highest placement there.[13] In Canada, the song also reached number 2, on September 20, 1965.[citation needed]",
+          "text_sha256": "54854e88b91adb15f2c886be4ba71b50fd7f573683936ee717f94ac96ea512ab",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 84,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6468899250030518,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.00000095367443,
+          2.00000095367443,
+          2.00000095367443,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.00000095367443,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.32546335458755493,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6745368838310242
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6709432601928711
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6507055759429932
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test3090__PE2__unfiltered",
+          "request_sha256": "463d122b32f4ee09b327a3f3b103d5d40fd4286be983bfbb5725029d7698634f",
+          "reference": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by The Beatles.",
+            "first_call_id": "NanoNQ:test3090__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! is the fifth studio album by the Beatles.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test3090__PE2__filtered",
+          "request_sha256": "303ec9ff8911dbe5f65093d8f1e338e6fd70ad31f7482575692575193ebab235",
+          "reference": {
+            "status": "ok",
+            "answer": "Help!",
+            "first_call_id": "NanoNQ:test3090__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Help! (1965)",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

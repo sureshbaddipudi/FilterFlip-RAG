@@ -1,0 +1,2769 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1067640",
+    "dataset": "NanoMSMARCO",
+    "question": "what is a signal transduction pathway example",
+    "source_family": "NanoMSMARCO:1067640",
+    "review_status": "user_recorded_review",
+    "target_document_id": "7161101",
+    "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+    "answer_aliases": [],
+    "support_quote": "Epinephrine is used as a sample messenger to trigger the release of glucose from cells in the liver. The G-Protein, adenylyl cyclase, cAMP, and protein kinases are all used as illustrative examples of signal transduction.",
+    "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+    "qrel_document_ids": [
+      "7161101"
+    ],
+    "family_reference_texts": [
+      "038 - Signal Transduction Pathways.mov Paul Andersen explains how signal transduction pathways are used by cells to convert chemical messages to cellular action. Epinephrine is used as a sample messenger to trigger the release of glucose from cells in the liver. The G-Protein, adenylyl cyclase, cAMP, and protein kinases are all used as illustrative examples of signal transduction."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoMSMARCO:1067640",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "7161101",
+    "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+    "answer_aliases": [],
+    "support_quote": "Epinephrine is used as a sample messenger to trigger the release of glucose from cells in the liver. The G-Protein, adenylyl cyclase, cAMP, and protein kinases are all used as illustrative examples of signal transduction.",
+    "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoMSMARCO:1067640",
+    "dataset": "NanoMSMARCO",
+    "question": "what is a signal transduction pathway example",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoMSMARCO:1067640",
+      "dataset": "NanoMSMARCO",
+      "question": "what is a signal transduction pathway example",
+      "expected_answer": "Epinephrine signalling that triggers glucose release from liver cells, involving G-protein, adenylyl cyclase, cAMP and protein kinases.",
+      "source_qualification": "An illustrative pathway named in the supplied teaching-video description; no additional intermediate steps are inferred.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Identical filtered requests",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+      "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/40",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/40",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoMSMARCO_1067640.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 361,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 241,
+              "call_id": "NanoMSMARCO:1067640__C__unfiltered",
+              "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 242,
+              "call_id": "NanoMSMARCO:1067640__C__filtered",
+              "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 362,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 243,
+              "call_id": "NanoMSMARCO:1067640__BN1__unfiltered",
+              "request_sha256": "cf298ea3c25a995a32d21144407ffdfdea64fc59b08c1e7ab9f350915c661df8"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 244,
+              "call_id": "NanoMSMARCO:1067640__BN1__filtered",
+              "request_sha256": "2a9da382baec8f8434cf3ae311f2cd7bcf1d28fe0972b3d13e9ff4721dac7cdf"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 364,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 245,
+              "call_id": "NanoMSMARCO:1067640__PN1__unfiltered",
+              "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 246,
+              "call_id": "NanoMSMARCO:1067640__PN1__filtered",
+              "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoMSMARCO:1067640",
+    "question": "what is a signal transduction pathway example",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1067640"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7462971210479736,
+          "kept": false
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7421955466270447,
+          "kept": false
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7221992611885071,
+          "kept": false
+        },
+        {
+          "chunk_id": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "826058",
+          "instance_key": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The signal transduction pathway is the mechanism by which the energy of a photon signals a mechanism in the cell that leads to its electrical polarization. 1  This polarization ultimately leads to either the transmittance or inhibition of a neural signal that will be fed to the brain via the optic nerve.",
+          "text_sha256": "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7150094509124756,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.9721873355961819,
+          2.384457548797009,
+          2.3358810424119767,
+          2.0900663979298812,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9721873355961819,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.09240937232971191,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9920777678489685
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8558415770530701
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8381084203720093
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8094293475151062
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8057524561882019
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.71334308385849
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7059153914451599
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6826476454734802
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6766031980514526
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__C__unfiltered",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__C__filtered",
+          "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+          "reference": {
+            "status": "ok",
+            "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+            "first_call_id": "NanoMSMARCO:1067640__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The signal transduction pathway involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmission or inhibition of a neural signal.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "9eae0aa3cd0526bdb82209ed6e603517f2f78133bdf5fe6e8761f99775f1e203:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067640/BN/1",
+          "instance_key": "9eae0aa3cd0526bdb82209ed6e603517f2f78133bdf5fe6e8761f99775f1e203",
+          "chunk_index": 0,
+          "copied_from": "4991354",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAn overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "1e1ede1f1392ec68340349246c8bf1bef4c112c27338118aaf05e037c089c49f",
+          "char_start": 0,
+          "char_end": 295,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7533807754516602,
+          "kept": true
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7462971210479736,
+          "kept": false
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7421955466270447,
+          "kept": false
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7221992611885071,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        1,
+        4
+      ],
+      "removed_indices": [
+        0,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          0.9628068555120741,
+          0.9628068555120741,
+          1.7166829842079956,
+          0.9842181791953095,
+          0.7324648050126861
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.01773315668106079,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9920777082443237
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9812272191047668
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8558415770530701
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.8381084203720093
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8094293475151062
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8057525157928467
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7915802001953125
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7823790907859802
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7804849147796631
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__BN1__unfiltered",
+          "request_sha256": "cf298ea3c25a995a32d21144407ffdfdea64fc59b08c1e7ab9f350915c661df8",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__BN1__filtered",
+          "request_sha256": "2a9da382baec8f8434cf3ae311f2cd7bcf1d28fe0972b3d13e9ff4721dac7cdf",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": true
+        },
+        {
+          "chunk_id": "3d7e9b768f059f49e50e486257197c13bfef32430afb6999ecdc0108ea394e11:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067640/BN/2",
+          "instance_key": "3d7e9b768f059f49e50e486257197c13bfef32430afb6999ecdc0108ea394e11",
+          "chunk_index": 0,
+          "copied_from": "4991354",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nAn overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "300848141c12a92e241cd061067a9648efcbd67bb18b1e73a74dde7e86f52da8",
+          "char_start": 0,
+          "char_end": 298,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7553849816322327,
+          "kept": false
+        },
+        {
+          "chunk_id": "9eae0aa3cd0526bdb82209ed6e603517f2f78133bdf5fe6e8761f99775f1e203:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067640/BN/1",
+          "instance_key": "9eae0aa3cd0526bdb82209ed6e603517f2f78133bdf5fe6e8761f99775f1e203",
+          "chunk_index": 0,
+          "copied_from": "4991354",
+          "copy_number": 1,
+          "text": "Source excerpt.\nAn overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "1e1ede1f1392ec68340349246c8bf1bef4c112c27338118aaf05e037c089c49f",
+          "char_start": 0,
+          "char_end": 295,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7533807754516602,
+          "kept": false
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7462971210479736,
+          "kept": false
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7421955466270447,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          0.9628068555120741,
+          0.9980953472967293,
+          1.9609022028088035,
+          0.9842181791953095,
+          0.9842181791953095
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          3,
+          4,
+          0
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0003510117530822754,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9990472197532654
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9920777082443237
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9812272191047668
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9808762073516846
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8057525157928467
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7956926226615906
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7915802001953125
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7861843109130859
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7823790907859802
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__BN2__unfiltered",
+          "request_sha256": "cd2a643627bf4e21daa0a17c57f8668fd285ac618f4389fb58c0faf1d7946243",
+          "reference": {
+            "status": "ok",
+            "answer": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor, leading to a biochemical chain of events inside the cell.",
+            "first_call_id": "NanoMSMARCO:1067640__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor, leading to a biochemical chain of events inside the cell.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__BN2__filtered",
+          "request_sha256": "26b1cc2bb236904aee61cad62cf83d118562cf8153b1fb4ef29d98b64d67b075",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7462971210479736,
+          "kept": false
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7421955466270447,
+          "kept": false
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7221992611885071,
+          "kept": false
+        },
+        {
+          "chunk_id": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "826058",
+          "instance_key": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The signal transduction pathway is the mechanism by which the energy of a photon signals a mechanism in the cell that leads to its electrical polarization. 1  This polarization ultimately leads to either the transmittance or inhibition of a neural signal that will be fed to the brain via the optic nerve.",
+          "text_sha256": "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7150094509124756,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.9721873355961819,
+          2.384457548797009,
+          2.3358810424119767,
+          2.0900663979298812,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9721873355961819,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.09240937232971191,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9920777678489685
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8558415770530701
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8381084203720093
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8094293475151062
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8057524561882019
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.71334308385849
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7059153914451599
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6826476454734802
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6766031980514526
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__PN1__unfiltered",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__PN1__filtered",
+          "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+          "reference": {
+            "status": "ok",
+            "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+            "first_call_id": "NanoMSMARCO:1067640__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The signal transduction pathway involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmission or inhibition of a neural signal.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7462971210479736,
+          "kept": false
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7421955466270447,
+          "kept": false
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7221992611885071,
+          "kept": false
+        },
+        {
+          "chunk_id": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "826058",
+          "instance_key": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The signal transduction pathway is the mechanism by which the energy of a photon signals a mechanism in the cell that leads to its electrical polarization. 1  This polarization ultimately leads to either the transmittance or inhibition of a neural signal that will be fed to the brain via the optic nerve.",
+          "text_sha256": "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7150094509124756,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.9721873355961819,
+          2.384457548797009,
+          2.3358810424119767,
+          2.0900663979298812,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9721873355961819,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.09240937232971191,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9920777678489685
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8558415770530701
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8381084203720093
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8094293475151062
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8057524561882019
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.71334308385849
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7059153914451599
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6826476454734802
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6766031980514526
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__PN2__unfiltered",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__PN2__filtered",
+          "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+          "reference": {
+            "status": "ok",
+            "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+            "first_call_id": "NanoMSMARCO:1067640__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The signal transduction pathway involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmission or inhibition of a neural signal.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "e2d0d79be2ea4a1cc3e667987c3e3e0352212aecb656db61effd30d107d46c62:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067640/BE/1",
+          "instance_key": "e2d0d79be2ea4a1cc3e667987c3e3e0352212aecb656db61effd30d107d46c62",
+          "chunk_index": 0,
+          "copied_from": "4991354",
+          "copy_number": 1,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7462971210479736,
+          "kept": false
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7421955466270447,
+          "kept": true
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7221992611885071,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          1.7166829842079956,
+          0.9842181791953095,
+          0.7324648050126861
+        ],
+        "removal_ranking": [
+          2,
+          0,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 0.015782059223283795,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.01773315668106079,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9920777082443237
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8558415770530701
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.8381084203720093
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8094293475151062
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8094293475151062
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8057525157928467
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8057525157928467
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__BE1__unfiltered",
+          "request_sha256": "797b8bfd7effb563eb7b153cf79a4c49e7895465c55e2108537def73bbd5cbac",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__BE1__filtered",
+          "request_sha256": "c86df491ff9a954e2fb77e78718e724809ee869ed05cdfd29b9d568c10df6e11",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__BE1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "69bca797f07f93c1676ef279e8c9bd35c963875dc3cbe176efbaf60e15bfa861:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067640/BE/2",
+          "instance_key": "69bca797f07f93c1676ef279e8c9bd35c963875dc3cbe176efbaf60e15bfa861",
+          "chunk_index": 0,
+          "copied_from": "4991354",
+          "copy_number": 2,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "e2d0d79be2ea4a1cc3e667987c3e3e0352212aecb656db61effd30d107d46c62:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1067640/BE/1",
+          "instance_key": "e2d0d79be2ea4a1cc3e667987c3e3e0352212aecb656db61effd30d107d46c62",
+          "chunk_index": 0,
+          "copied_from": "4991354",
+          "copy_number": 1,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7462971210479736,
+          "kept": true
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7421955466270447,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          2.0000004768371866,
+          2.0000004768371866,
+          2.0000004768371866,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0000004768371866,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.00792241096496582,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9920777082443237
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8057525157928467
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8057525157928467
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.8057525157928467
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__BE2__unfiltered",
+          "request_sha256": "8d5393a29d924a469328a9fd22c0b3b073e17480e14e0b4010583439d3930055",
+          "reference": {
+            "status": "ok",
+            "answer": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor, leading to a biochemical chain of events inside the cell.",
+            "first_call_id": "NanoMSMARCO:1067640__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor, leading to a biochemical chain of events inside the cell.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__BE2__filtered",
+          "request_sha256": "63b28fda688a56fdfb487dd990d5225feb9b02b9836a14aecb65da5497547e2d",
+          "reference": {
+            "status": "ok",
+            "answer": "A signal transduction pathway example involves an extracellular signaling molecule activating a specific receptor, which then triggers a biochemical chain of events inside the cell.",
+            "first_call_id": "NanoMSMARCO:1067640__BE2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Signal transduction pathway examples involve extracellular signaling molecules activating specific receptors, which then trigger a biochemical chain of events inside the cell.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7462971210479736,
+          "kept": false
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7421955466270447,
+          "kept": false
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7221992611885071,
+          "kept": false
+        },
+        {
+          "chunk_id": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "826058",
+          "instance_key": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The signal transduction pathway is the mechanism by which the energy of a photon signals a mechanism in the cell that leads to its electrical polarization. 1  This polarization ultimately leads to either the transmittance or inhibition of a neural signal that will be fed to the brain via the optic nerve.",
+          "text_sha256": "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7150094509124756,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.9721873355961819,
+          2.384457548797009,
+          2.3358810424119767,
+          2.0900663979298812,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9721873355961819,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.09240937232971191,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9920777678489685
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8558415770530701
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8381084203720093
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8094293475151062
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8057524561882019
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.71334308385849
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7059153914451599
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6826476454734802
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6766031980514526
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__PE1__unfiltered",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__PE1__filtered",
+          "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+          "reference": {
+            "status": "ok",
+            "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+            "first_call_id": "NanoMSMARCO:1067640__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The signal transduction pathway involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmission or inhibition of a neural signal.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoMSMARCO:1067640",
+        "dataset": "NanoMSMARCO",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991354",
+          "instance_key": "0f36bfd948fc24183b58e9afc8305871f65460bbd2b7ed7cba476f4186c1c8d0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "An overview of major signal transduction pathways in mammals. Signal transduction refers to the transmission of a molecular signal in the form of a chemical modification by recruitment of protein complexes along a pathway that ultimately triggers a biochemical event in the cell.",
+          "text_sha256": "b6f0e42392d89df9f1afede1dad5991a82a85142649f3981144fa7112c6a448a",
+          "char_start": 0,
+          "char_end": 279,
+          "tokens_with_specials": 50,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.767833948135376,
+          "kept": false
+        },
+        {
+          "chunk_id": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "3806458",
+          "instance_key": "0f6bdc3f8d83b27bb3d6eba53076b9874443adfd2485af0bb78f554668ebcf34",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell, creating a response.",
+          "text_sha256": "4cba64f21ab43a46db7fcafc7c84bd067efcdad898e33404a14ccb4bd380e34a",
+          "char_start": 0,
+          "char_end": 245,
+          "tokens_with_specials": 47,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7462971210479736,
+          "kept": false
+        },
+        {
+          "chunk_id": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991356",
+          "instance_key": "2bca6bce5c63a8df04613e1ef8e95aeaa9ec3ac97169b61467c6cf424dc96b17",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction occurs when an extracellular signaling molecule activates a specific receptor located on the cell surface or inside the cell. In turn, this receptor triggers a biochemical chain of events inside the cell – known as a signaling cascade – that eventually elicits a response.",
+          "text_sha256": "502367072e73ab34626880d35f72c6a5348d6f1147e0bf48dd8e070a215e4c09",
+          "char_start": 0,
+          "char_end": 292,
+          "tokens_with_specials": 57,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7421955466270447,
+          "kept": false
+        },
+        {
+          "chunk_id": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4991353",
+          "instance_key": "c483de69b49b6a928c3a7c5fdb9dbc3e93cd83269916461120beabae4403341b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Signal transduction: A basic process in molecular cell biology involving the conversion of a signal from outside the cell to a functional change within the cell.",
+          "text_sha256": "662a9df60d2f8927f32ca509e9568ed38297c9805e9d661109b754c609f119fa",
+          "char_start": 0,
+          "char_end": 161,
+          "tokens_with_specials": 31,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7221992611885071,
+          "kept": false
+        },
+        {
+          "chunk_id": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "826058",
+          "instance_key": "4478a52284d8711b96fbb3932e94b7f28fe05f16774c2d2bc31045f4af111f96",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The signal transduction pathway is the mechanism by which the energy of a photon signals a mechanism in the cell that leads to its electrical polarization. 1  This polarization ultimately leads to either the transmittance or inhibition of a neural signal that will be fed to the brain via the optic nerve.",
+          "text_sha256": "06c2484a471b2a2d4bfcdad62184b31ff84780c803a903841d65e91827bf7f74",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 60,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7150094509124756,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.9721873355961819,
+          2.384457548797009,
+          2.3358810424119767,
+          2.0900663979298812,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9721873355961819,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.09240937232971191,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9920777678489685
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8558415770530701
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8381084203720093
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.8171746730804443
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8094293475151062
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8057524561882019
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.71334308385849
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7059153914451599
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6826476454734802
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6766031980514526
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoMSMARCO:1067640__PE2__unfiltered",
+          "request_sha256": "9a17388c700ed3ae620cd3b544e5a35304e858684d382df09110e65e576acf2b",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoMSMARCO:1067640__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoMSMARCO:1067640__PE2__filtered",
+          "request_sha256": "f6020677299bfc49510e24281becac11c41125bc392f7a97e3fb9e06df8c215d",
+          "reference": {
+            "status": "ok",
+            "answer": "The signal transduction pathway example involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmittance or inhibition of a neural signal.",
+            "first_call_id": "NanoMSMARCO:1067640__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The signal transduction pathway involves the energy of a photon leading to a cell's electrical polarization, which then influences the transmission or inhibition of a neural signal.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

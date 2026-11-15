@@ -1,0 +1,516 @@
+{
+  "case_id": "NanoNQ:test1635",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test1635.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test1635.md",
+  "records": [
+    {
+      "record_id": "R1:61ce0eba59c28e8ff77aeb9aebad0f89ee00b76bf649ba6b7588f1ecf5c9204a",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1635",
+      "request_sha256": "61ce0eba59c28e8ff77aeb9aebad0f89ee00b76bf649ba6b7588f1ecf5c9204a",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1635__BN2__unfiltered",
+          "case_id": "NanoNQ:test1635",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+            "eecd1803e9e075a458127d8a60674fa0ae39cc132524aac803cc94540f666794:00000",
+            "aa8e1dd99d3da2140f35ea62301b8ad5f48ecd1994431eac25ee8768699549b2:00000",
+            "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+            "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000"
+          ],
+          "text_hashes": [
+            "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+            "fa712556a773ef8f409448776dcd28f3fb26e1ffbcdf6390caa0d75f2aba37d1",
+            "323c3cf3bd1f1b212ee2e03c885d08cf0ff5c58ffb3df385197856e3b27f6b37",
+            "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+            "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1635.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c (UCC-1 financing statement; debtor is a person who owes a debt)"
+        ],
+        "rationale": "Passage 5db85c implies a debtor can be a person but never states the individual-debtor rule; the response abstains.",
+        "disagreement": "Explicit individual-debtor-residence rule is in no retrieved passage; partial support only; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:4da861d2fe513dbbfb6b7564fabad8060941d22335a6dc475c62601b4dd5b958",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1635",
+      "request_sha256": "4da861d2fe513dbbfb6b7564fabad8060941d22335a6dc475c62601b4dd5b958",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1635__BE1__unfiltered",
+          "case_id": "NanoNQ:test1635",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "1e19a37c957a40eea4d17e9ec5c83c43659ca224205b2dda637609841a226f4b:00000",
+            "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+            "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+            "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+            "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000"
+          ],
+          "text_hashes": [
+            "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+            "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+            "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+            "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+            "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1635.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c (UCC-1 financing statement; debtor is a person who owes a debt)"
+        ],
+        "rationale": "Passage 5db85c implies a debtor can be a person; response says yes but overstates the real-estate exclusion.",
+        "disagreement": "Explicit individual-debtor-residence rule is in no retrieved passage; partial support only; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "\"not for real estate\" is overstated: passage 5db85c says a financing statement may also be filed in the real estate records for fixtures",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:c81eb878f2a6d48ceb32415dfbde98aad514ba2f2e36f80ca931a45fe08a61d9",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1635",
+      "request_sha256": "c81eb878f2a6d48ceb32415dfbde98aad514ba2f2e36f80ca931a45fe08a61d9",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1635__BE1__filtered",
+          "case_id": "NanoNQ:test1635",
+          "condition": "BE1",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+            "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000",
+            "eff634744014a8ab68b97c34a16081019075358345afb35341c8e21275d3107e:00000"
+          ],
+          "text_hashes": [
+            "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+            "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0",
+            "7bd33c9f1c89a6f8d9ec30ab8825c8daaf62f5c1ab92354e80d506d90ea782b1"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1635.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c (UCC-1 financing statement; debtor is a person who owes a debt)"
+        ],
+        "rationale": "Passage 5db85c implies a debtor can be a person but never states the individual-debtor rule; the response abstains.",
+        "disagreement": "Explicit individual-debtor-residence rule is in no retrieved passage; partial support only; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:8a59ba8dc6608538e30daf6f8dc2dfdf17fe9dd85b5516cfec30b63611ae285e",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1635",
+      "request_sha256": "8a59ba8dc6608538e30daf6f8dc2dfdf17fe9dd85b5516cfec30b63611ae285e",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1635__BE2__unfiltered",
+          "case_id": "NanoNQ:test1635",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "1e19a37c957a40eea4d17e9ec5c83c43659ca224205b2dda637609841a226f4b:00000",
+            "86eb5ecc18b438e730ccb76df0ab3675a6b86fa50ccc55fc46fe4ab1b8530f43:00000",
+            "b4f4de7d15481e513c458f005cbdb51e57e56de2b80bddaeb3517ef1b1ecae82:00000",
+            "37a371f6ebf66d4d11328b3e5ab3f5c8e2b267dca0d64a79b5b4fa60bf7f62ff:00000",
+            "5db85c9fb0d7adb90e025bb9f20c6b9bc2188943179b496ad15dbe3fba080c2e:00000"
+          ],
+          "text_hashes": [
+            "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+            "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+            "f194ab125c22b60bc1b0c8d98a0931df09015b902642114d9648ca97e0cf6ed4",
+            "2100d15926706e73426e431d95d3bbfe7e899d71b7fab0c1ce358a1ea6668bf4",
+            "2f47c35e075ff0dfeab21519913909fa91103dbe3a399f5150846c89d01a05e0"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1635.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c (UCC-1 financing statement; debtor is a person who owes a debt)"
+        ],
+        "rationale": "Passage 5db85c implies a debtor can be a person but never states the individual-debtor rule; the response abstains.",
+        "disagreement": "Explicit individual-debtor-residence rule is in no retrieved passage; partial support only; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1635:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1635",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:61ce0eba59c28e8ff77aeb9aebad0f89ee00b76bf649ba6b7588f1ecf5c9204a"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1635:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1635",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c"
+        ],
+        "rationale": "P condition; the filtered context equals the clean one (no copy retrieved) and the answer is unchanged, so strict endpoint is not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1635:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1635",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: \"not for real estate\" overstated",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:4da861d2fe513dbbfb6b7564fabad8060941d22335a6dc475c62601b4dd5b958",
+          "R1:c81eb878f2a6d48ceb32415dfbde98aad514ba2f2e36f80ca931a45fe08a61d9"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1635:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1635",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:8a59ba8dc6608538e30daf6f8dc2dfdf17fe9dd85b5516cfec30b63611ae285e"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1635:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1635",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c"
+        ],
+        "rationale": "P condition; the filtered context equals the clean one (no copy retrieved) and the answer is unchanged, so strict endpoint is not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1635:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1635",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5db85c"
+        ],
+        "rationale": "P condition; the filtered context equals the clean one (no copy retrieved) and the answer is unchanged, so strict endpoint is not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    }
+  ]
+}

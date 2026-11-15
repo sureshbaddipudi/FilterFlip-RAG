@@ -1,0 +1,2754 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test639",
+    "dataset": "NanoNQ",
+    "question": "what is the origin of the name robinson",
+    "source_family": "NanoNQ:test639",
+    "review_status": "assistant_only",
+    "target_document_id": "doc22915",
+    "expected_answer": "An English patronymic surname originating in England, meaning son of Robin; Robin is a diminutive of Robert.",
+    "answer_aliases": [],
+    "support_quote": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\".",
+    "source_qualification": "Answer as stated in the supplied reference; no external fact verification.",
+    "qrel_document_ids": [
+      "doc22915"
+    ],
+    "family_reference_texts": [
+      "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test639",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc22915",
+    "expected_answer": "An English patronymic surname originating in England, meaning son of Robin; Robin is a diminutive of Robert.",
+    "answer_aliases": [],
+    "support_quote": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\".",
+    "source_qualification": "Answer as stated in the supplied reference; no external fact verification.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test639",
+    "dataset": "NanoNQ",
+    "question": "what is the origin of the name robinson",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test639",
+      "dataset": "NanoNQ",
+      "question": "what is the origin of the name robinson",
+      "expected_answer": "An English patronymic surname originating in England, meaning son of Robin; Robin is a diminutive of Robert.",
+      "source_qualification": "Answer as stated in the supplied reference; no external fact verification.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Identical filtered requests",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+      "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/29",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/29",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test639.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 262,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 175,
+              "call_id": "NanoNQ:test639__C__unfiltered",
+              "request_sha256": "acbb8ef3299b620af5a70a9a5c4829839af8cc38ce1684dd8884c62a527a0477"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 176,
+              "call_id": "NanoNQ:test639__C__filtered",
+              "request_sha256": "e14e6cec394f7d4a9a10175904d6394c24a675b51ca99ab1b80a8ed324eb9865"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 263,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 177,
+              "call_id": "NanoNQ:test639__BN1__unfiltered",
+              "request_sha256": "d8c81f0f1633c33448ab04501e1d3ea192d7de1ccca2a023a77b69a7b361a337"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 178,
+              "call_id": "NanoNQ:test639__BN1__filtered",
+              "request_sha256": "0e1bfe648c58e7881039ad2335c6f46284912eecc54ccfefb2a386ead6e7e372"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 265,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 179,
+              "call_id": "NanoNQ:test639__PN1__unfiltered",
+              "request_sha256": "dbd2d24d4b72de0176457e8c4122511235a05fa409385b757a525d583b22a119"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 180,
+              "call_id": "NanoNQ:test639__PN1__filtered",
+              "request_sha256": "e14e6cec394f7d4a9a10175904d6394c24a675b51ca99ab1b80a8ed324eb9865"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test639",
+    "question": "what is the origin of the name robinson",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test639"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7448447942733765,
+          "kept": false
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5600109100341797,
+          "kept": true
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        },
+        {
+          "chunk_id": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1311000",
+          "instance_key": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In June 2016, Robinson had a tryout with the Seattle Seahawks.[68]",
+          "text_sha256": "4ca0f033bf4af364067d3ee2c428b9c8ab67b4fd13841136424f3f4b4fa7f055",
+          "char_start": 0,
+          "char_end": 66,
+          "tokens_with_specials": 19,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5038164854049683,
+          "kept": true
+        },
+        {
+          "chunk_id": "7f2cad639a182b3c0bf3303cc587d752e685b30062a0aef36c642d6c22529dbd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc13999",
+          "instance_key": "7f2cad639a182b3c0bf3303cc587d752e685b30062a0aef36c642d6c22529dbd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Marvin is a male given name, derived from the Welsh name Mervyn.[1] It is also found as a surname. Marven is a variant form.",
+          "text_sha256": "16846df0c2335e23991b5d694003cfb8888c259e09b6b278803269164485ea7c",
+          "char_start": 0,
+          "char_end": 124,
+          "tokens_with_specials": 35,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.501563549041748,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.30335801560751463,
+          0.0,
+          0.0,
+          0.0,
+          0.30335801560751463
+        ],
+        "removal_ranking": [
+          0,
+          4,
+          1,
+          2,
+          3
+        ],
+        "removal_gap": 0.30335801560751463,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.12393969297409058,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5507794618606567
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.42683976888656616
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.32933181524276733
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.29509061574935913
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.2679588496685028
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.25301510095596313
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.24043385684490204
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.1704532504081726
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__C__unfiltered",
+          "request_sha256": "acbb8ef3299b620af5a70a9a5c4829839af8cc38ce1684dd8884c62a527a0477",
+          "reference": {
+            "status": "ok",
+            "answer": "The origin of the name Robinson is English, deriving from the given name Robin, with a diminutive form of Robert.",
+            "first_call_id": "NanoNQ:test639__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__C__filtered",
+          "request_sha256": "e14e6cec394f7d4a9a10175904d6394c24a675b51ca99ab1b80a8ed324eb9865",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test639__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7448447942733765,
+          "kept": true
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5600109100341797,
+          "kept": false
+        },
+        {
+          "chunk_id": "0b812886b426a862c16e4b24ee89b1201fe35cdb24132018034e14a3005c1b01:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/BN/1",
+          "instance_key": "0b812886b426a862c16e4b24ee89b1201fe35cdb24132018034e14a3005c1b01",
+          "chunk_index": 0,
+          "copied_from": "doc1612364",
+          "copy_number": 1,
+          "text": "Source excerpt.\nRobinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "8c1c37f80c44429bf70664b6b78d86b2b8b58febb096c9504d3a95f8e7bdd1de",
+          "char_start": 0,
+          "char_end": 444,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5576330423355103,
+          "kept": false
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        },
+        {
+          "chunk_id": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1311000",
+          "instance_key": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In June 2016, Robinson had a tryout with the Seattle Seahawks.[68]",
+          "text_sha256": "4ca0f033bf4af364067d3ee2c428b9c8ab67b4fd13841136424f3f4b4fa7f055",
+          "char_start": 0,
+          "char_end": 66,
+          "tokens_with_specials": 19,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5038164854049683,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9803868216518055,
+          0.9803868216518055,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9803868216518055,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5633050799369812,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9901448488235474
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.42683976888656616
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.3966388702392578
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.3875578045845032
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.29509061574935913
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.2816489636898041
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.2679588496685028
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.24043385684490204
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__BN1__unfiltered",
+          "request_sha256": "d8c81f0f1633c33448ab04501e1d3ea192d7de1ccca2a023a77b69a7b361a337",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__BN1__filtered",
+          "request_sha256": "0e1bfe648c58e7881039ad2335c6f46284912eecc54ccfefb2a386ead6e7e372",
+          "reference": {
+            "status": "ok",
+            "answer": "The origin of the name Robinson is English, originating from a patronymic surname derived from the given name Robin, with \"son of Robin\" being the meaning.",
+            "first_call_id": "NanoNQ:test639__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The origin of the name Robinson is English, originating from a patronymic surname derived from the given name Robin.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7448447942733765,
+          "kept": true
+        },
+        {
+          "chunk_id": "a078c17670ff0508878d597917f8e4170dde9f6a41c39ef52ecd5fbe15cd707b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/BN/2",
+          "instance_key": "a078c17670ff0508878d597917f8e4170dde9f6a41c39ef52ecd5fbe15cd707b",
+          "chunk_index": 0,
+          "copied_from": "doc1612364",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nRobinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "a93791d6b728243487a5f2db0ac909ac2b2414f26d8cdbe93057213c2256cb42",
+          "char_start": 0,
+          "char_end": 447,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5657238960266113,
+          "kept": false
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5600109100341797,
+          "kept": true
+        },
+        {
+          "chunk_id": "0b812886b426a862c16e4b24ee89b1201fe35cdb24132018034e14a3005c1b01:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/BN/1",
+          "instance_key": "0b812886b426a862c16e4b24ee89b1201fe35cdb24132018034e14a3005c1b01",
+          "chunk_index": 0,
+          "copied_from": "doc1612364",
+          "copy_number": 1,
+          "text": "Source excerpt.\nRobinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "8c1c37f80c44429bf70664b6b78d86b2b8b58febb096c9504d3a95f8e7bdd1de",
+          "char_start": 0,
+          "char_end": 444,
+          "tokens_with_specials": 96,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5576330423355103,
+          "kept": false
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        4
+      ],
+      "removed_indices": [
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9984730355142943,
+          0.0,
+          0.9984730355142943,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        "removal_gap": 0.9984730355142943,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.007868170738220215,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9992362260818481
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9913680553436279
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9901448488235474
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.39585191011428833
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3875578045845032
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.28530192375183105
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.2816489636898041
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.2679588496685028
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__BN2__unfiltered",
+          "request_sha256": "ebb0f124309eba798549436b19f32844a471f1da22758ac057c779b72dc611e5",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from an English language patronymic surname, meaning \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__BN2__filtered",
+          "request_sha256": "09155b811371e661aed43e201241a0067b4377335a786a9296669648c035a139",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from an English language patronymic surname, meaning \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "243634d3243c22e26d0ae0f7f982e826d5e7eaa1d5d0941c3eb817b44339e835:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/PN/1",
+          "instance_key": "243634d3243c22e26d0ae0f7f982e826d5e7eaa1d5d0941c3eb817b44339e835",
+          "chunk_index": 0,
+          "copied_from": "doc22915",
+          "copy_number": 1,
+          "text": "Source excerpt.\nRobinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "20541cb96a9172a676ecdec658699074bf1dcddb688e0bc52430b965278d8ad2",
+          "char_start": 0,
+          "char_end": 445,
+          "tokens_with_specials": 97,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7831723690032959,
+          "kept": false
+        },
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7448447942733765,
+          "kept": false
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5600109100341797,
+          "kept": true
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        },
+        {
+          "chunk_id": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1311000",
+          "instance_key": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In June 2016, Robinson had a tryout with the Seattle Seahawks.[68]",
+          "text_sha256": "4ca0f033bf4af364067d3ee2c428b9c8ab67b4fd13841136424f3f4b4fa7f055",
+          "char_start": 0,
+          "char_end": 66,
+          "tokens_with_specials": 19,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5038164854049683,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9799666639857065,
+          0.9799666639857065,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9799666639857065,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5572966039180756,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.989932656288147
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4326360523700714
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.42683976888656616
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3474375009536743
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3290451169013977
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.29509061574935913
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.2679588496685028
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.24043385684490204
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__PN1__unfiltered",
+          "request_sha256": "dbd2d24d4b72de0176457e8c4122511235a05fa409385b757a525d583b22a119",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__PN1__filtered",
+          "request_sha256": "e14e6cec394f7d4a9a10175904d6394c24a675b51ca99ab1b80a8ed324eb9865",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test639__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "243634d3243c22e26d0ae0f7f982e826d5e7eaa1d5d0941c3eb817b44339e835:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/PN/1",
+          "instance_key": "243634d3243c22e26d0ae0f7f982e826d5e7eaa1d5d0941c3eb817b44339e835",
+          "chunk_index": 0,
+          "copied_from": "doc22915",
+          "copy_number": 1,
+          "text": "Source excerpt.\nRobinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "20541cb96a9172a676ecdec658699074bf1dcddb688e0bc52430b965278d8ad2",
+          "char_start": 0,
+          "char_end": 445,
+          "tokens_with_specials": 97,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7831723690032959,
+          "kept": false
+        },
+        {
+          "chunk_id": "3e1867e35be9e1c47459aca6bb17d1265b7d938d1d15a9408474ce90a9fe424b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/PN/2",
+          "instance_key": "3e1867e35be9e1c47459aca6bb17d1265b7d938d1d15a9408474ce90a9fe424b",
+          "chunk_index": 0,
+          "copied_from": "doc22915",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nRobinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "87911ff5249d949c97b1e77d931e24f60f3755cd3e7aa15a817e6b6442aa9052",
+          "char_start": 0,
+          "char_end": 448,
+          "tokens_with_specials": 97,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7728222608566284,
+          "kept": false
+        },
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7448447942733765,
+          "kept": true
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5600109100341797,
+          "kept": true
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9981465591086227,
+          0.9981465591086227,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9981465591086227,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.005470693111419678,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9990728497505188
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9936021566390991
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.989932656288147
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.4326360523700714
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.42126548290252686
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3474375009536743
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.3406447768211365
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.2679588496685028
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__PN2__unfiltered",
+          "request_sha256": "93f75644164d08ef036a63f1ca2741347c019c9b4a624bf4394726a340b540c0",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__PN2__filtered",
+          "request_sha256": "09155b811371e661aed43e201241a0067b4377335a786a9296669648c035a139",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from an English language patronymic surname, meaning \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7448447942733765,
+          "kept": true
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5600109100341797,
+          "kept": false
+        },
+        {
+          "chunk_id": "e71bd09f1049b977f91856293f01d2b658f887f78d0b5d4fe7cb8530c0c55dc3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/BE/1",
+          "instance_key": "e71bd09f1049b977f91856293f01d2b658f887f78d0b5d4fe7cb8530c0c55dc3",
+          "chunk_index": 0,
+          "copied_from": "doc1612364",
+          "copy_number": 1,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5600109100341797,
+          "kept": false
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        },
+        {
+          "chunk_id": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1311000",
+          "instance_key": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In June 2016, Robinson had a tryout with the Seattle Seahawks.[68]",
+          "text_sha256": "4ca0f033bf4af364067d3ee2c428b9c8ab67b4fd13841136424f3f4b4fa7f055",
+          "char_start": 0,
+          "char_end": 66,
+          "tokens_with_specials": 19,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5038164854049683,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5731604695320129,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.42683976888656616
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.42683976888656616
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.29509061574935913
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.2679588496685028
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.2679588496685028
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.24043385684490204
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__BE1__unfiltered",
+          "request_sha256": "9ab12c206fe92953be8ebd9f88437cac1578310f86bb929afcf22b8c564cd3a1",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__BE1__filtered",
+          "request_sha256": "0e1bfe648c58e7881039ad2335c6f46284912eecc54ccfefb2a386ead6e7e372",
+          "reference": {
+            "status": "ok",
+            "answer": "The origin of the name Robinson is English, originating from a patronymic surname derived from the given name Robin, with \"son of Robin\" being the meaning.",
+            "first_call_id": "NanoNQ:test639__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The origin of the name Robinson is English, originating from a patronymic surname derived from the given name Robin.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7448447942733765,
+          "kept": true
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5600109100341797,
+          "kept": false
+        },
+        {
+          "chunk_id": "e71bd09f1049b977f91856293f01d2b658f887f78d0b5d4fe7cb8530c0c55dc3:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/BE/1",
+          "instance_key": "e71bd09f1049b977f91856293f01d2b658f887f78d0b5d4fe7cb8530c0c55dc3",
+          "chunk_index": 0,
+          "copied_from": "doc1612364",
+          "copy_number": 1,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5600109100341797,
+          "kept": false
+        },
+        {
+          "chunk_id": "f9e866cf52197a755680e5c3926515f440bfbcb901d152fbac6a0a664ad2dc73:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/BE/2",
+          "instance_key": "f9e866cf52197a755680e5c3926515f440bfbcb901d152fbac6a0a664ad2dc73",
+          "chunk_index": 0,
+          "copied_from": "doc1612364",
+          "copy_number": 2,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5600109100341797,
+          "kept": true
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.2679588496685028
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.2679588496685028
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.2679588496685028
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__BE2__unfiltered",
+          "request_sha256": "6509ff6a9720e87b6f89ba2ddcd139d96c2f8f2154301ef7cac5180664631ff6",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__BE2__filtered",
+          "request_sha256": "09155b811371e661aed43e201241a0067b4377335a786a9296669648c035a139",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from an English language patronymic surname, meaning \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7448447942733765,
+          "kept": false
+        },
+        {
+          "chunk_id": "e7700e726f8669b25356de7a946eb7fd16bb5a78f4002bf3c9d2fafb5cfa5996:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/PE/1",
+          "instance_key": "e7700e726f8669b25356de7a946eb7fd16bb5a78f4002bf3c9d2fafb5cfa5996",
+          "chunk_index": 0,
+          "copied_from": "doc22915",
+          "copy_number": 1,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7448447942733765,
+          "kept": false
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5600109100341797,
+          "kept": true
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        },
+        {
+          "chunk_id": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1311000",
+          "instance_key": "69e27cb221cfe06eb9da4c5af286234a85789551a220b1b701ccded303b84533",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In June 2016, Robinson had a tryout with the Seattle Seahawks.[68]",
+          "text_sha256": "4ca0f033bf4af364067d3ee2c428b9c8ab67b4fd13841136424f3f4b4fa7f055",
+          "char_start": 0,
+          "char_end": 66,
+          "tokens_with_specials": 19,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5038164854049683,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.5731602311134338,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.42683976888656616
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.29509061574935913
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.29509061574935913
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.2679588496685028
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.24043385684490204
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__PE1__unfiltered",
+          "request_sha256": "172b2b7eb493c404edf75c2f060503f4f548baa4f615b88c468a970437825c10",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__PE1__filtered",
+          "request_sha256": "e14e6cec394f7d4a9a10175904d6394c24a675b51ca99ab1b80a8ed324eb9865",
+          "reference": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "first_call_id": "NanoNQ:test639__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Not enough information.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test639",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc22915",
+          "instance_key": "3986a89d8c02ba04730ec5c8f344950bb75881b47626b9ccceba2f932767eb58",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7448447942733765,
+          "kept": false
+        },
+        {
+          "chunk_id": "c32b130fbd50b7d605b690f6e0c5df6e35a6c0de89d623ab2a621fc56d6d8631:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/PE/2",
+          "instance_key": "c32b130fbd50b7d605b690f6e0c5df6e35a6c0de89d623ab2a621fc56d6d8631",
+          "chunk_index": 0,
+          "copied_from": "doc22915",
+          "copy_number": 2,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7448447942733765,
+          "kept": false
+        },
+        {
+          "chunk_id": "e7700e726f8669b25356de7a946eb7fd16bb5a78f4002bf3c9d2fafb5cfa5996:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test639/PE/1",
+          "instance_key": "e7700e726f8669b25356de7a946eb7fd16bb5a78f4002bf3c9d2fafb5cfa5996",
+          "chunk_index": 0,
+          "copied_from": "doc22915",
+          "copy_number": 1,
+          "text": "Robinson is an English language patronymic surname, originating in England. It means \"son of Robin (a diminutive of Robert)\". There are similar surname spellings such as Robison and Robeson. Robinson is the 15th most common surname in the United Kingdom.[1] According to the 1990 United States Census, Robinson was the twentieth most frequently encountered surname among those reported, accounting for 0.23% of the population.[2]",
+          "text_sha256": "d5584b20f324713721a038b4adf2a8960e2fe643db50c3f6614405e6bce5c469",
+          "char_start": 0,
+          "char_end": 429,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7448447942733765,
+          "kept": true
+        },
+        {
+          "chunk_id": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1612364",
+          "instance_key": "e1705cae5b12982fde62baa6bb8380ce747eb85022c07681587df6aaf71f94fd",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson was born in Chicago, Illinois, to a music teacher mother and an attorney father.[1][2] He was raised on the South Side of Chicago, and was brought up Methodist.[3] He attended Whitney M. Young Magnet High School. He received his undergraduate degree from Illinois State University in 1994, and his masters of education from Saint Xavier University. He was a music teacher at Horace Mann Elementary School in Chicago.[4]",
+          "text_sha256": "62f747312997435b6d7301051bdfcc7fb6a572d8400c77b855cf885789d9c25b",
+          "char_start": 0,
+          "char_end": 428,
+          "tokens_with_specials": 93,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5600109100341797,
+          "kept": true
+        },
+        {
+          "chunk_id": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc751435",
+          "instance_key": "a84907f943419fecad0b5c40f31023ad83e8624182ec1cf12e3c8c7a7c510ccf",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Robinson is given credit for having popularized the word and claimed to have invented it while still living in Richmond.[20] The Oxford English Dictionary lists the origins of the word as unknown and documents the earliest written use of the word in 1919, by the newspaperman and author Irving Bacheller, in his serialized book, A Man for the Ages; this was followed by uses in 1926 by Carl Van Vechten in his novel Nigger Heaven, in 1934 in Webster's New International Dictionary, and by John O'Hara in his novel Appointment in Samarra.[21] Robinson's biographer credits him with having introduced the word into popular culture via his frequent use in vaudeville, radio, and recordings.",
+          "text_sha256": "fd00540f2a20c538138fba5a82afbb48b36449134b11aae343f98d3f669a0bba",
+          "char_start": 0,
+          "char_end": 687,
+          "tokens_with_specials": 145,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5407184958457947,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.3972250521183014
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.33605629205703735
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.2679588496685028
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test639__PE2__unfiltered",
+          "request_sha256": "cb9902db1a361f84307699eae7f3deab5f49c6aac9c45e3930c556f3354f9549",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The origin of the name Robinson is English, originating in England. It means \"son of Robin (a diminutive of Robert)\".",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test639__PE2__filtered",
+          "request_sha256": "09155b811371e661aed43e201241a0067b4377335a786a9296669648c035a139",
+          "reference": {
+            "status": "ok",
+            "answer": "The name Robinson originates from England and means \"son of Robin (a diminutive of Robert).\"",
+            "first_call_id": "NanoNQ:test639__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "The name Robinson originates from an English language patronymic surname, meaning \"son of Robin (a diminutive of Robert).\"",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

@@ -1,0 +1,859 @@
+{
+  "background_endpoint": {
+    "met": 3,
+    "not_met": 8,
+    "uncertain": 1
+  },
+  "case_count": 12,
+  "context_count": 36,
+  "distinct_fresh_responses": 60,
+  "historical_native_vs_new_T": {
+    "complete_value_transitions": {
+      "met -> met": 1,
+      "not_met -> met": 4,
+      "not_met -> not_met": 6
+    },
+    "planned_pairs": 12,
+    "states": {
+      "complete_pair": 11,
+      "uncertain_pair": 1
+    },
+    "uncertain_value_transitions": {
+      "not_met -> uncertain": 1
+    }
+  },
+  "logical_positions": 72,
+  "new_native_vs_new_T": {
+    "complete_value_transitions": {
+      "not_met -> met": 2,
+      "not_met -> not_met": 4
+    },
+    "planned_pairs": 12,
+    "states": {
+      "complete_pair": 6,
+      "not_reviewed": 5,
+      "uncertain_pair": 1
+    },
+    "uncertain_value_transitions": {
+      "not_met -> uncertain": 1
+    }
+  },
+  "scope": "Stage 1 plus frozen answering, 12 selected cases. Native historical/reproduction answers are not a fresh jointly generated native-filter control panel.",
+  "strict_endpoint": {
+    "met": 5,
+    "not_met": 6,
+    "uncertain": 1
+  },
+  "support_and_answer_pairs": [
+    {
+      "R_T_same_ordered_survivors": 10,
+      "T_core": {
+        "no": 18,
+        "uncertain": 1,
+        "yes": 17
+      },
+      "T_support": {
+        "absent": 11,
+        "partial": 5,
+        "sufficient": 20
+      },
+      "U_core": {
+        "no": 8,
+        "uncertain": 3,
+        "yes": 25
+      },
+      "U_support": {
+        "absent": 5,
+        "sufficient": 31
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 7,
+            "no -> yes": 1,
+            "yes -> no": 8,
+            "yes -> yes": 16
+          },
+          "planned_pairs": 36,
+          "states": {
+            "complete_pair": 32,
+            "uncertain_pair": 4
+          },
+          "uncertain_value_transitions": {
+            "uncertain -> no": 3,
+            "yes -> uncertain": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 15,
+            "no -> yes": 1,
+            "yes -> no": 8,
+            "yes -> yes": 11
+          },
+          "planned_pairs": 36,
+          "states": {
+            "complete_pair": 35,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "no -> uncertain": 1
+          }
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 5,
+            "sufficient -> absent": 6,
+            "sufficient -> partial": 5,
+            "sufficient -> sufficient": 20
+          },
+          "planned_pairs": 36,
+          "states": {
+            "complete_pair": 36
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "all",
+      "context_pairs": 36,
+      "empty_T_contexts": 3,
+      "same_R_T_request": 10,
+      "stratum": "all"
+    },
+    {
+      "R_T_same_ordered_survivors": 8,
+      "T_core": {
+        "no": 10,
+        "yes": 8
+      },
+      "T_support": {
+        "absent": 5,
+        "partial": 1,
+        "sufficient": 12
+      },
+      "U_core": {
+        "no": 5,
+        "uncertain": 3,
+        "yes": 10
+      },
+      "U_support": {
+        "absent": 2,
+        "sufficient": 16
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 4,
+            "no -> yes": 1,
+            "yes -> no": 3,
+            "yes -> yes": 7
+          },
+          "planned_pairs": 18,
+          "states": {
+            "complete_pair": 15,
+            "uncertain_pair": 3
+          },
+          "uncertain_value_transitions": {
+            "uncertain -> no": 3
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 7,
+            "no -> yes": 1,
+            "yes -> no": 3,
+            "yes -> yes": 7
+          },
+          "planned_pairs": 18,
+          "states": {
+            "complete_pair": 18
+          },
+          "uncertain_value_transitions": {}
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 2,
+            "sufficient -> absent": 3,
+            "sufficient -> partial": 1,
+            "sufficient -> sufficient": 12
+          },
+          "planned_pairs": 18,
+          "states": {
+            "complete_pair": 18
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "all",
+      "context_pairs": 18,
+      "empty_T_contexts": 0,
+      "same_R_T_request": 8,
+      "stratum": "NanoNQ"
+    },
+    {
+      "R_T_same_ordered_survivors": 2,
+      "T_core": {
+        "no": 8,
+        "uncertain": 1,
+        "yes": 9
+      },
+      "T_support": {
+        "absent": 6,
+        "partial": 4,
+        "sufficient": 8
+      },
+      "U_core": {
+        "no": 3,
+        "yes": 15
+      },
+      "U_support": {
+        "absent": 3,
+        "sufficient": 15
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 3,
+            "yes -> no": 5,
+            "yes -> yes": 9
+          },
+          "planned_pairs": 18,
+          "states": {
+            "complete_pair": 17,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "yes -> uncertain": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 8,
+            "yes -> no": 5,
+            "yes -> yes": 4
+          },
+          "planned_pairs": 18,
+          "states": {
+            "complete_pair": 17,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "no -> uncertain": 1
+          }
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 3,
+            "sufficient -> absent": 3,
+            "sufficient -> partial": 4,
+            "sufficient -> sufficient": 8
+          },
+          "planned_pairs": 18,
+          "states": {
+            "complete_pair": 18
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "all",
+      "context_pairs": 18,
+      "empty_T_contexts": 3,
+      "same_R_T_request": 2,
+      "stratum": "NanoMSMARCO"
+    },
+    {
+      "R_T_same_ordered_survivors": 1,
+      "T_core": {
+        "no": 4,
+        "yes": 8
+      },
+      "T_support": {
+        "absent": 3,
+        "sufficient": 9
+      },
+      "U_core": {
+        "no": 2,
+        "uncertain": 1,
+        "yes": 9
+      },
+      "U_support": {
+        "absent": 2,
+        "sufficient": 10
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 2,
+            "yes -> no": 1,
+            "yes -> yes": 8
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 11,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "uncertain -> no": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 5,
+            "yes -> no": 1,
+            "yes -> yes": 6
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 12
+          },
+          "uncertain_value_transitions": {}
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 2,
+            "sufficient -> absent": 1,
+            "sufficient -> sufficient": 9
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 12
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "C",
+      "context_pairs": 12,
+      "empty_T_contexts": 1,
+      "same_R_T_request": 1,
+      "stratum": "all"
+    },
+    {
+      "R_T_same_ordered_survivors": 1,
+      "T_core": {
+        "no": 2,
+        "yes": 4
+      },
+      "T_support": {
+        "absent": 1,
+        "sufficient": 5
+      },
+      "U_core": {
+        "no": 1,
+        "uncertain": 1,
+        "yes": 4
+      },
+      "U_support": {
+        "absent": 1,
+        "sufficient": 5
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 1,
+            "yes -> yes": 4
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 5,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "uncertain -> no": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 2,
+            "yes -> yes": 4
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 1,
+            "sufficient -> sufficient": 5
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "C",
+      "context_pairs": 6,
+      "empty_T_contexts": 0,
+      "same_R_T_request": 1,
+      "stratum": "NanoNQ"
+    },
+    {
+      "R_T_same_ordered_survivors": 0,
+      "T_core": {
+        "no": 2,
+        "yes": 4
+      },
+      "T_support": {
+        "absent": 2,
+        "sufficient": 4
+      },
+      "U_core": {
+        "no": 1,
+        "yes": 5
+      },
+      "U_support": {
+        "absent": 1,
+        "sufficient": 5
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 1,
+            "yes -> no": 1,
+            "yes -> yes": 4
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 3,
+            "yes -> no": 1,
+            "yes -> yes": 2
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 1,
+            "sufficient -> absent": 1,
+            "sufficient -> sufficient": 4
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "C",
+      "context_pairs": 6,
+      "empty_T_contexts": 1,
+      "same_R_T_request": 0,
+      "stratum": "NanoMSMARCO"
+    },
+    {
+      "R_T_same_ordered_survivors": 4,
+      "T_core": {
+        "no": 6,
+        "yes": 6
+      },
+      "T_support": {
+        "absent": 2,
+        "partial": 1,
+        "sufficient": 9
+      },
+      "U_core": {
+        "no": 4,
+        "uncertain": 1,
+        "yes": 7
+      },
+      "U_support": {
+        "absent": 2,
+        "sufficient": 10
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 4,
+            "yes -> no": 1,
+            "yes -> yes": 6
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 11,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "uncertain -> no": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 6,
+            "yes -> no": 1,
+            "yes -> yes": 4
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 11,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "no -> uncertain": 1
+          }
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 2,
+            "sufficient -> partial": 1,
+            "sufficient -> sufficient": 9
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 12
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "BN1",
+      "context_pairs": 12,
+      "empty_T_contexts": 1,
+      "same_R_T_request": 4,
+      "stratum": "all"
+    },
+    {
+      "R_T_same_ordered_survivors": 3,
+      "T_core": {
+        "no": 4,
+        "yes": 2
+      },
+      "T_support": {
+        "absent": 1,
+        "sufficient": 5
+      },
+      "U_core": {
+        "no": 3,
+        "uncertain": 1,
+        "yes": 2
+      },
+      "U_support": {
+        "absent": 1,
+        "sufficient": 5
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 3,
+            "yes -> yes": 2
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 5,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "uncertain -> no": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 4,
+            "yes -> yes": 2
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 1,
+            "sufficient -> sufficient": 5
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "BN1",
+      "context_pairs": 6,
+      "empty_T_contexts": 0,
+      "same_R_T_request": 3,
+      "stratum": "NanoNQ"
+    },
+    {
+      "R_T_same_ordered_survivors": 1,
+      "T_core": {
+        "no": 2,
+        "yes": 4
+      },
+      "T_support": {
+        "absent": 1,
+        "partial": 1,
+        "sufficient": 4
+      },
+      "U_core": {
+        "no": 1,
+        "yes": 5
+      },
+      "U_support": {
+        "absent": 1,
+        "sufficient": 5
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 1,
+            "yes -> no": 1,
+            "yes -> yes": 4
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 2,
+            "yes -> no": 1,
+            "yes -> yes": 2
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 5,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "no -> uncertain": 1
+          }
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 1,
+            "sufficient -> partial": 1,
+            "sufficient -> sufficient": 4
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "BN1",
+      "context_pairs": 6,
+      "empty_T_contexts": 1,
+      "same_R_T_request": 1,
+      "stratum": "NanoMSMARCO"
+    },
+    {
+      "R_T_same_ordered_survivors": 5,
+      "T_core": {
+        "no": 8,
+        "uncertain": 1,
+        "yes": 3
+      },
+      "T_support": {
+        "absent": 6,
+        "partial": 4,
+        "sufficient": 2
+      },
+      "U_core": {
+        "no": 2,
+        "uncertain": 1,
+        "yes": 9
+      },
+      "U_support": {
+        "absent": 1,
+        "sufficient": 11
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 1,
+            "no -> yes": 1,
+            "yes -> no": 6,
+            "yes -> yes": 2
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 10,
+            "uncertain_pair": 2
+          },
+          "uncertain_value_transitions": {
+            "uncertain -> no": 1,
+            "yes -> uncertain": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 4,
+            "no -> yes": 1,
+            "yes -> no": 6,
+            "yes -> yes": 1
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 12
+          },
+          "uncertain_value_transitions": {}
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 1,
+            "sufficient -> absent": 5,
+            "sufficient -> partial": 4,
+            "sufficient -> sufficient": 2
+          },
+          "planned_pairs": 12,
+          "states": {
+            "complete_pair": 12
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "PN1",
+      "context_pairs": 12,
+      "empty_T_contexts": 1,
+      "same_R_T_request": 5,
+      "stratum": "all"
+    },
+    {
+      "R_T_same_ordered_survivors": 4,
+      "T_core": {
+        "no": 4,
+        "yes": 2
+      },
+      "T_support": {
+        "absent": 3,
+        "partial": 1,
+        "sufficient": 2
+      },
+      "U_core": {
+        "no": 1,
+        "uncertain": 1,
+        "yes": 4
+      },
+      "U_support": {
+        "sufficient": 6
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> yes": 1,
+            "yes -> no": 3,
+            "yes -> yes": 1
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 5,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "uncertain -> no": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 1,
+            "no -> yes": 1,
+            "yes -> no": 3,
+            "yes -> yes": 1
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "sufficient -> absent": 3,
+            "sufficient -> partial": 1,
+            "sufficient -> sufficient": 2
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "PN1",
+      "context_pairs": 6,
+      "empty_T_contexts": 0,
+      "same_R_T_request": 4,
+      "stratum": "NanoNQ"
+    },
+    {
+      "R_T_same_ordered_survivors": 1,
+      "T_core": {
+        "no": 4,
+        "uncertain": 1,
+        "yes": 1
+      },
+      "T_support": {
+        "absent": 3,
+        "partial": 3
+      },
+      "U_core": {
+        "no": 1,
+        "yes": 5
+      },
+      "U_support": {
+        "absent": 1,
+        "sufficient": 5
+      },
+      "U_to_T": {
+        "core_usable": {
+          "complete_value_transitions": {
+            "no -> no": 1,
+            "yes -> no": 3,
+            "yes -> yes": 1
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 5,
+            "uncertain_pair": 1
+          },
+          "uncertain_value_transitions": {
+            "yes -> uncertain": 1
+          }
+        },
+        "full_complete": {
+          "complete_value_transitions": {
+            "no -> no": 3,
+            "yes -> no": 3
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        },
+        "sufficient_support": {
+          "complete_value_transitions": {
+            "absent -> absent": 1,
+            "sufficient -> absent": 2,
+            "sufficient -> partial": 3
+          },
+          "planned_pairs": 6,
+          "states": {
+            "complete_pair": 6
+          },
+          "uncertain_value_transitions": {}
+        }
+      },
+      "condition": "PN1",
+      "context_pairs": 6,
+      "empty_T_contexts": 1,
+      "same_R_T_request": 1,
+      "stratum": "NanoMSMARCO"
+    }
+  ]
+}

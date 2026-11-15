@@ -1,0 +1,781 @@
+{
+  "case_id": "NanoNQ:test123",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test123.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+  "records": [
+    {
+      "record_id": "R1:fe8af95137a3a42edc132089b4d147a6c1a66941356ea43dc86b21e59977eb3d",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test123",
+      "request_sha256": "fe8af95137a3a42edc132089b4d147a6c1a66941356ea43dc86b21e59977eb3d",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test123__BN2__unfiltered",
+          "case_id": "NanoNQ:test123",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+            "f7e56bbd63787d61ab97bc1b574343bac0dc91d5d37138425147cf52cc4ed963:00000",
+            "7792e58a7052bd1c4c1e55d74c391b0cc783158c25d6d2e738bfdd78839d2cc7:00001"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+            "df597124a6fcfde0acb82ae55590e7610627f8e54211fa5487ccf0f499139377",
+            "145c8bbd907cac121e0f14bd479bf7d2107b2f21dab8211cc32243bb59f242db"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9 (MON/RON passage)"
+        ],
+        "rationale": "MON/RON passage d1d1a9 is in context; answer gives the core difference (MON tested at higher engine speed, no numbers given) without the other conditions or the 8-12 point difference.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:72ba2a40bca85256d05e38af256faeb6359157a907acd706fc49ee8c307dc897",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test123",
+      "request_sha256": "72ba2a40bca85256d05e38af256faeb6359157a907acd706fc49ee8c307dc897",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test123__BN2__filtered",
+          "case_id": "NanoNQ:test123",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+            "f7e56bbd63787d61ab97bc1b574343bac0dc91d5d37138425147cf52cc4ed963:00000"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+            "df597124a6fcfde0acb82ae55590e7610627f8e54211fa5487ccf0f499139377"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9 (MON/RON passage)"
+        ],
+        "rationale": "Passage d1d1a9 kept; gives 900 vs 600 rpm and variable ignition timing; omits preheated mixture and the 8-12 point difference.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:e0ebce9ac00026acecc7baadea27dcf79111407a14ffb6dc2febafc5272bbd80",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test123",
+      "request_sha256": "e0ebce9ac00026acecc7baadea27dcf79111407a14ffb6dc2febafc5272bbd80",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test123__PN2__unfiltered",
+          "case_id": "NanoNQ:test123",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "f386662eb775c7e334ac863aa64b5f9c545cf9ccfc03d880132ffe0acc523a1d:00000",
+            "e7d1c928eea15ad96826d77871393af0633d195a57495b70a4f50890050d7820:00000",
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000"
+          ],
+          "text_hashes": [
+            "ac82c05e5e3db417f6db49009d52973ed7228bada0281f16478d1b85240dcd1d",
+            "4111a94de3ccf0cf402f25b6ae8697e5451db301b1a50fdc204143077d08b5f0",
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9 (MON/RON passage)"
+        ],
+        "rationale": "MON/RON passage d1d1a9 is in context; answer gives the core difference (MON tested at higher engine speed, 900 vs 600 rpm) without the other conditions or the 8-12 point difference.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:f2aea01b7da30e22b8a567734ae99725656fc0e8fa2ef284a4f633c3889c9a58",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test123",
+      "request_sha256": "f2aea01b7da30e22b8a567734ae99725656fc0e8fa2ef284a4f633c3889c9a58",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test123__PN2__filtered",
+          "case_id": "NanoNQ:test123",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test123__BE2__filtered",
+          "case_id": "NanoNQ:test123",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test123__PE2__filtered",
+          "case_id": "NanoNQ:test123",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d8f879951b08307d8383d1b8f84d9d3960db916ab15ac2a89f13770542a34c96:00000",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9 (MON/RON passage)"
+        ],
+        "rationale": "Passage d1d1a9 or its exact copy is kept; gives 900 vs 600 rpm only.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:71669ad7f434810635f2c8a4407f1caf9a6d9d8b17b03f9b909f85daeb68f628",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test123",
+      "request_sha256": "71669ad7f434810635f2c8a4407f1caf9a6d9d8b17b03f9b909f85daeb68f628",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test123__BE1__unfiltered",
+          "case_id": "NanoNQ:test123",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "38e86d3d80cd2140a9288c71b0abdbba9d879c2737e7e3f66daf6a16a69c30fc:00001",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+            "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35:00000"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+            "c0bd9a9a9ad1e20075491a32b598e5fd37ffcf24a580e2f1268606fb2779e36a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9 (MON/RON passage)"
+        ],
+        "rationale": "MON/RON passage d1d1a9 is in context; answer gives the core difference (MON tested at higher engine speed, 900 vs 600 rpm) without the other conditions or the 8-12 point difference.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:33206e7b7bfb700a4fcbe9b46e642329512cbf5135f15942d362d7f4f0db2ac5",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test123",
+      "request_sha256": "33206e7b7bfb700a4fcbe9b46e642329512cbf5135f15942d362d7f4f0db2ac5",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test123__BE2__unfiltered",
+          "case_id": "NanoNQ:test123",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "38e86d3d80cd2140a9288c71b0abdbba9d879c2737e7e3f66daf6a16a69c30fc:00001",
+            "e4e48f20a2f7dbd7412d1faadf07d08bd9badb62a706618aaee0743a4d0b5419:00001",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9 (MON/RON passage)"
+        ],
+        "rationale": "MON/RON passage d1d1a9 is in context; answer gives the core difference (MON tested at higher engine speed, 900 vs 600 rpm) without the other conditions or the 8-12 point difference.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:6a089d6855826ab76de9dc713552dcd1bb5421d447fc43556daeefecd3312560",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test123",
+      "request_sha256": "6a089d6855826ab76de9dc713552dcd1bb5421d447fc43556daeefecd3312560",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test123__PE1__unfiltered",
+          "case_id": "NanoNQ:test123",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "d8f879951b08307d8383d1b8f84d9d3960db916ab15ac2a89f13770542a34c96:00000",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000",
+            "6fa48b08c4c5fbb459db4818095ce9b32dedc283a0e388f41fcd42bf63b82c35:00000"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da",
+            "c0bd9a9a9ad1e20075491a32b598e5fd37ffcf24a580e2f1268606fb2779e36a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9 (MON/RON passage)"
+        ],
+        "rationale": "MON/RON passage d1d1a9 is in context; answer gives the core difference (MON tested at higher engine speed, 900 vs 600 rpm) without the other conditions or the 8-12 point difference.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:d3ada142b0f79e3729daa1eacfa6f7a2576674275d6b0afba218f043ab089993",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test123",
+      "request_sha256": "d3ada142b0f79e3729daa1eacfa6f7a2576674275d6b0afba218f043ab089993",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test123__PE2__unfiltered",
+          "case_id": "NanoNQ:test123",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5cc46f62ef1e9d39d2554b67be9a5f8fea2836800e9aaa410108b5a4e3e32c96:00000",
+            "d1d1a95082d89ac78441ac804450c65b0f99249eaba0bd99acbb7349449f46b8:00000",
+            "d8f879951b08307d8383d1b8f84d9d3960db916ab15ac2a89f13770542a34c96:00000",
+            "f47ddeeb69af5f7c3e50df4004ff7deeba60584571873916ad3fdb48dc2c2049:00001",
+            "5d6bc4f9437033a65cdfe08e58435ffd6033a03a8d8c7a44f15680f4b4e888a3:00000"
+          ],
+          "text_hashes": [
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "e6b4e89edbb039e9f6c18f82607f8c79c579450f9b3cd1bbd9b1ec79a0570a16",
+            "190884fa62e7e4ffc04abdafe3eeafa9919ba00e2ebab3f4be5cff8978c1eb90",
+            "3e482b7632da400b3265a3f8d30ff865c9bb7085e98f7736b4e2981288b802da"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test123.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9 (MON/RON passage)"
+        ],
+        "rationale": "Passage d1d1a9 present; answer gives 900 vs 600 rpm, preheated mixture, variable ignition timing, the 8-12 point difference and no direct link.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test123:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test123",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:fe8af95137a3a42edc132089b4d147a6c1a66941356ea43dc86b21e59977eb3d",
+          "R1:72ba2a40bca85256d05e38af256faeb6359157a907acd706fc49ee8c307dc897"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test123:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test123",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9"
+        ],
+        "rationale": "P condition judged from the same-panel chain. Answer passage kept in filtered context; strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:e0ebce9ac00026acecc7baadea27dcf79111407a14ffb6dc2febafc5272bbd80",
+          "R1:f2aea01b7da30e22b8a567734ae99725656fc0e8fa2ef284a4f633c3889c9a58"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test123:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test123",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Reproduction filtered answer is an abstention despite sufficient support (original-prefix response, not newly generated).",
+        "disagreement": "Abstention despite kept support; flagged for Suresh"
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered reproduction (original prefix) abstains although the answer passage is kept",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:71669ad7f434810635f2c8a4407f1caf9a6d9d8b17b03f9b909f85daeb68f628"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test123:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test123",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:f2aea01b7da30e22b8a567734ae99725656fc0e8fa2ef284a4f633c3889c9a58",
+          "R1:33206e7b7bfb700a4fcbe9b46e642329512cbf5135f15942d362d7f4f0db2ac5"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test123:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test123",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9",
+          "d8f879 (exact copy)"
+        ],
+        "rationale": "P condition judged from the same-panel chain. Reference panel reproduces the accepted event; reproduction panel does not because its clean filtered answer already abstains (original-prefix response).",
+        "disagreement": "Reference and reproduction panels differ on the endpoint; flagged for joint discussion with Suresh"
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "C/filtered reproduction (original prefix) abstains although the answer passage is kept; clean prerequisite fails in this panel",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:6a089d6855826ab76de9dc713552dcd1bb5421d447fc43556daeefecd3312560"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test123:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test123",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule per week04_core_answer_mixed_usable_2026-10-26 as applied to the accepted event; no extension",
+        "decisive_passages": [
+          "d1d1a9",
+          "d8f879 (exact copy)"
+        ],
+        "rationale": "P condition judged from the same-panel chain. Exact copy of the answer passage is kept in the filtered context; strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:f2aea01b7da30e22b8a567734ae99725656fc0e8fa2ef284a4f633c3889c9a58",
+          "R1:d3ada142b0f79e3729daa1eacfa6f7a2576674275d6b0afba218f043ab089993"
+        ]
+      }
+    }
+  ]
+}

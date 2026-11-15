@@ -1,0 +1,636 @@
+{
+  "case_id": "NanoNQ:test194",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test194.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test194.md",
+  "records": [
+    {
+      "record_id": "R1:5027338419f9a970a75dc87820423c2c23193b7dcfdcd86816b310ab617eb7ea",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test194",
+      "request_sha256": "5027338419f9a970a75dc87820423c2c23193b7dcfdcd86816b310ab617eb7ea",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test194__BN2__unfiltered",
+          "case_id": "NanoNQ:test194",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c19cc6ee7be0f73ffb18890e076ea71783584af3b00906aee730c0e78da8a484:00000",
+            "1c7931b9cb337e1719d5581d523191a2d72ec0638cd1a4ba92b4614d93443d45:00000",
+            "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+            "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+            "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000"
+          ],
+          "text_hashes": [
+            "d8185956f0ee54b95511142275172bceb5aad6c8f72c0604b25d7f68f4c8e5a0",
+            "529529b09efb28a44c7c365eab70af667f9e56c4c38f76f44c994917e25094cb",
+            "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+            "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+            "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test194.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc3e67 (separator vs terminator; semicolon by itself NOP in C/C++)"
+        ],
+        "rationale": "Only the separator/terminator passage is in context (no C-statements passage); the correct terminator answer is only partly supported.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:9a7d4e3dad27cb35abe86cba3380ec67cbface86db06a33b235afb2e189534b7",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test194",
+      "request_sha256": "9a7d4e3dad27cb35abe86cba3380ec67cbface86db06a33b235afb2e189534b7",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test194__BN2__filtered",
+          "case_id": "NanoNQ:test194",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000"
+          ],
+          "text_hashes": [
+            "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test194__BE2__filtered",
+          "case_id": "NanoNQ:test194",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000"
+          ],
+          "text_hashes": [
+            "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test194.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc3e67 (separator vs terminator; semicolon by itself NOP in C/C++)"
+        ],
+        "rationale": "Only the separator/terminator passage kept; the hedge about language conventions matches that passage.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:2b697b92ffa80f90906e6bd3c67248b70fbea5c1bf449d028438e3b214fcc077",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test194",
+      "request_sha256": "2b697b92ffa80f90906e6bd3c67248b70fbea5c1bf449d028438e3b214fcc077",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test194__PN2__unfiltered",
+          "case_id": "NanoNQ:test194",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+            "08a66d5f4ee69b095df93d1eec578f04db14642a4cbfcc7cbc146f46ec7af8c5:00000",
+            "656fc3f002769cdc1e1c8f23a348299e95621a328a40e94270a060838d39e161:00000",
+            "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+            "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000"
+          ],
+          "text_hashes": [
+            "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+            "24661c22555f5d38c07109b7ab51e53a191666ab5c74595569237f8e27ac9744",
+            "a5fe3da17417ea3669130dbe15d2b751acdfed2558a32527fb66302d9d30fdf7",
+            "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+            "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test194.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "08a66d (terminator copy)"
+        ],
+        "rationale": "Neutral-prefix copies of the terminator document (semicolons are called terminators and required after every statement, such as the C family) are in context; the answer repeats the universal claim.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "repeats the source's \"after every statement\" overgeneralization that the qualification excludes from the answer",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:ead296ed4b1aa7dd257a5c1f26c911e1f9d034767b2f856fba98eb9a8968bdb9",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test194",
+      "request_sha256": "ead296ed4b1aa7dd257a5c1f26c911e1f9d034767b2f856fba98eb9a8968bdb9",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test194__PN2__filtered",
+          "case_id": "NanoNQ:test194",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+            "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000"
+          ],
+          "text_hashes": [
+            "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+            "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test194.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc3e67 (separator vs terminator; semicolon by itself NOP in C/C++)"
+        ],
+        "rationale": "The terminator copies are removed; kept passages (French semicolon, separator/terminator) do not say C semicolons terminate statements, so the correct answer rests partly on prior knowledge.",
+        "disagreement": "Correct but only partly supported; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:32cf29fcd09a49618ad22f9357f610910dc64ae3715b921d94e5952205bb88eb",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test194",
+      "request_sha256": "32cf29fcd09a49618ad22f9357f610910dc64ae3715b921d94e5952205bb88eb",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test194__BE1__unfiltered",
+          "case_id": "NanoNQ:test194",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+            "63bec0f9882c6b79c8f173306dfef735f83f450e6823e0c4c72172ec1d30d9c2:00000",
+            "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+            "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+            "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f:00000"
+          ],
+          "text_hashes": [
+            "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+            "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+            "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+            "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+            "cacd768f70b0c74c835cfde1d2a510338814bb8153b9459ddbf39dc228bf2f6a"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test194.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc3e67 (separator vs terminator; semicolon by itself NOP in C/C++)"
+        ],
+        "rationale": "Only the separator/terminator passage is in context; correct terminator answer, partly supported.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:be086d847266281046139077df32a0c2063f774c92c71169159936bc7750fbfe",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test194",
+      "request_sha256": "be086d847266281046139077df32a0c2063f774c92c71169159936bc7750fbfe",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test194__BE2__unfiltered",
+          "case_id": "NanoNQ:test194",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+            "63bec0f9882c6b79c8f173306dfef735f83f450e6823e0c4c72172ec1d30d9c2:00000",
+            "a4eaf0519e1c4b7ca9041c9f37517e25ff17c180c4278829fc96a526c6126362:00000",
+            "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+            "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000"
+          ],
+          "text_hashes": [
+            "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+            "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+            "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+            "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+            "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test194.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc3e67 (separator vs terminator; semicolon by itself NOP in C/C++)"
+        ],
+        "rationale": "Only the separator/terminator passage is in context; the answer describes a lone semicolon as a NOP, not the terminator role.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "answers about a lone semicolon (NOP), not the statement-terminator function",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test194:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test194",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc3e67"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:5027338419f9a970a75dc87820423c2c23193b7dcfdcd86816b310ab617eb7ea",
+          "R1:9a7d4e3dad27cb35abe86cba3380ec67cbface86db06a33b235afb2e189534b7"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test194:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test194",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "08a66d",
+          "bc3e67"
+        ],
+        "rationale": "P condition: copies retrieved but the filtered answer still says the semicolon terminates statements, so it does not fail and strict endpoint is not met.",
+        "disagreement": "Filtered answer correct but only partly supported; flagged for Suresh"
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "unfiltered: repeats the source's \"after every statement\" overgeneralization that the qualification excludes from the answer",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "unfiltered: repeats the source's \"after every statement\" overgeneralization that the qualification excludes from the answer",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:2b697b92ffa80f90906e6bd3c67248b70fbea5c1bf449d028438e3b214fcc077",
+          "R1:ead296ed4b1aa7dd257a5c1f26c911e1f9d034767b2f856fba98eb9a8968bdb9"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test194:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test194",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc3e67"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:32cf29fcd09a49618ad22f9357f610910dc64ae3715b921d94e5952205bb88eb"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test194:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test194",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc3e67"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "unfiltered: answers about a lone semicolon (NOP)",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:9a7d4e3dad27cb35abe86cba3380ec67cbface86db06a33b235afb2e189534b7",
+          "R1:be086d847266281046139077df32a0c2063f774c92c71169159936bc7750fbfe"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test194:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test194",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "44cf16"
+        ],
+        "rationale": "P condition; no copy is retrieved and the answer is unchanged, strict endpoint not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test194:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test194",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "44cf16"
+        ],
+        "rationale": "P condition; no copy is retrieved and the answer is unchanged, strict endpoint not met. Answers for this condition come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,861 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1028652",
+    "question": "who invented corn flakes",
+    "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+    "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+    "source_review_status_historical": "user_recorded_review",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoMSMARCO:1028652",
+      "assessment": "partial_support_rubric_qualified",
+      "rationale": "PN1 retains a passage crediting John and Will with the first commercial cereal flake, without explicitly naming Corn Flakes or John Harvey. Partial/inferential support remains; no unqualified total-loss claim.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "e858a8f171cf6b6da362d7705a2b94c4bbb7bf99ad5e48e4b068779a773dce36:00000",
+          "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000"
+        ],
+        "BN1": [
+          "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000"
+        ],
+        "PN1": [
+          "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 6,
+    "novel_request_hashes": 3
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoMSMARCO:1028652",
+    "question": "who invented corn flakes",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "no",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1028652"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7274562120437622
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6786328554153442
+        },
+        {
+          "chunk_id": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4765789",
+          "instance_key": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+          "text_sha256": "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+          "char_start": 0,
+          "char_end": 597,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6489015817642212
+        },
+        {
+          "chunk_id": "e858a8f171cf6b6da362d7705a2b94c4bbb7bf99ad5e48e4b068779a773dce36:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8607085",
+          "instance_key": "e858a8f171cf6b6da362d7705a2b94c4bbb7bf99ad5e48e4b068779a773dce36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg's Frosted Flakes or Frosties is a breakfast cereal, produced by the Kellogg Company and consisting of sugar-coated corn flakes. It was introduced in the United States in 1951, as Sugar Frosted Flakes. The word sugar was dropped from the name in 1983. Generic versions, such as store brands, are also available. Unlike many cereals (Cheerios and Rice Krispies, for example), Frosted Flakes shares its name with generic competitors.",
+          "text_sha256": "fb509b32cdaae8d491ec634ff52647b7680f8a4f0468cd22fd17ecc7b40fa3d8",
+          "char_start": 0,
+          "char_end": 438,
+          "tokens_with_specials": 99,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.640214204788208
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "T_output_texts": [
+        "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+        "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+        "Kellogg's Frosted Flakes or Frosties is a breakfast cereal, produced by the Kellogg Company and consisting of sugar-coated corn flakes. It was introduced in the United States in 1951, as Sugar Frosted Flakes. The word sugar was dropped from the name in 1983. Generic versions, such as store brands, are also available. Unlike many cereals (Cheerios and Rice Krispies, for example), Frosted Flakes shares its name with generic competitors.",
+        "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+        "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers."
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        1,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1028652__C__U",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "6301f63713969bdbbc5e8cd587e9230b1fc75d15d4053846bc8d424bb7bc6c48",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "ordinal": 43,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1028652__C__unfiltered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "who invented corn flakes",
+          "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+          "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+            "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+            "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+            "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+            "e858a8f171cf6b6da362d7705a2b94c4bbb7bf99ad5e48e4b068779a773dce36:00000"
+          ],
+          "text_hashes": [
+            "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+            "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+            "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+            "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+            "fb509b32cdaae8d491ec634ff52647b7680f8a4f0468cd22fd17ecc7b40fa3d8"
+          ],
+          "request_sha256": "6301f63713969bdbbc5e8cd587e9230b1fc75d15d4053846bc8d424bb7bc6c48",
+          "estimated_prompt_tokens": 530,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1028652__C__unfiltered",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "prompt_eval_count": 530,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "wall_seconds": 25.828778655995848,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1028652__C__unfiltered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "6301f63713969bdbbc5e8cd587e9230b1fc75d15d4053846bc8d424bb7bc6c48",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1028652__C__T",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "39a5acd7db5c86d66b1437a5939f6a7f806798da3af3e818cbb08adb92fbd99a",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "ordinal": 44,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1028652__C__filtered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "who invented corn flakes",
+          "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+          "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+            "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+            "e858a8f171cf6b6da362d7705a2b94c4bbb7bf99ad5e48e4b068779a773dce36:00000"
+          ],
+          "text_hashes": [
+            "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+            "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+            "fb509b32cdaae8d491ec634ff52647b7680f8a4f0468cd22fd17ecc7b40fa3d8"
+          ],
+          "request_sha256": "673731681dcdc429160399aa35ee2418659d39db86548e950749a4436ebd562e",
+          "estimated_prompt_tokens": 387,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1028652__C__filtered",
+          "status": "ok",
+          "answer": "John and Will Kellogg invented corn flakes.",
+          "prompt_eval_count": 387,
+          "eval_count": 10,
+          "done_reason": "stop",
+          "wall_seconds": 19.631813334999606,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527
+        },
+        {
+          "chunk_id": "346a479b929f836387c1cacb932a9f17c4f6c8f2609f8addec1996d0a4ef1980:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/BN/1",
+          "instance_key": "346a479b929f836387c1cacb932a9f17c4f6c8f2609f8addec1996d0a4ef1980",
+          "chunk_index": 0,
+          "copied_from": "7833611",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThey toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "4c37762ae8548fe1f903e67156496865815bd66f0e7c6a8914804eac6028c3bc",
+          "char_start": 0,
+          "char_end": 371,
+          "tokens_with_specials": 79,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7301778793334961
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7274562120437622
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6786328554153442
+        },
+        {
+          "chunk_id": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4765789",
+          "instance_key": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+          "text_sha256": "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+          "char_start": 0,
+          "char_end": 597,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6489015817642212
+        }
+      ],
+      "T_native_indices": [
+        0,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+        "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+        "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world)."
+      ],
+      "T_removed_indices": [
+        1,
+        2
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1028652__BN1__U",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "25fe89d3a1c479468a155594e2f92a3297d564f59698640df62324c85b6da80d",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "ordinal": 46,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": true,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1028652__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "who invented corn flakes",
+          "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+          "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+            "346a479b929f836387c1cacb932a9f17c4f6c8f2609f8addec1996d0a4ef1980:00000",
+            "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+            "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+            "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000"
+          ],
+          "text_hashes": [
+            "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+            "4c37762ae8548fe1f903e67156496865815bd66f0e7c6a8914804eac6028c3bc",
+            "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+            "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+            "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2"
+          ],
+          "request_sha256": "25fe89d3a1c479468a155594e2f92a3297d564f59698640df62324c85b6da80d",
+          "estimated_prompt_tokens": 503,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1028652__BN1__unfiltered",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "prompt_eval_count": 503,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "wall_seconds": 25.70804080599919,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1028652__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "25fe89d3a1c479468a155594e2f92a3297d564f59698640df62324c85b6da80d",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1028652__BN1__T",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "2b8d6b157dd1fc6709e1389d5f490ffc4e063b790321d4a6b82d09baba5063fe",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented Corn Flakes.",
+          "ordinal": 45,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1028652__PE1__filtered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "PE1",
+          "mode": "filtered",
+          "question": "who invented corn flakes",
+          "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+          "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+            "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+            "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+            "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000"
+          ],
+          "text_hashes": [
+            "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+            "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+            "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+            "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2"
+          ],
+          "request_sha256": "43167bf940a5700e604a4c5dfaaaa132d973f94950e652d52f853f61010fb010",
+          "estimated_prompt_tokens": 425,
+          "identical_request_to": "NanoMSMARCO:1028652__BN1__filtered",
+          "first_call_id": "NanoMSMARCO:1028652__BN1__filtered",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "prompt_eval_count": 425,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "wall_seconds": 2.6235260920002474,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833608",
+          "instance_key": "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "John Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+          "char_start": 0,
+          "char_end": 275,
+          "tokens_with_specials": 63,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.8089234232902527
+        },
+        {
+          "chunk_id": "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1028652/PN/1",
+          "instance_key": "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04",
+          "chunk_index": 0,
+          "copied_from": "7833608",
+          "copy_number": 1,
+          "text": "Source excerpt.\nJohn Harvey Kellogg is best known for the invention of the famous breakfast cereal, Corn Flakes, in 1878. Originally, he called this cereal Granula, which he later changed to Granola in 1881. However, due to patent rights, he had to once again change the name to Corn Flakes.",
+          "text_sha256": "a16a43aa587f901177c4da8a0370bb0e7b2f98c6253a7e62795182b64c183499",
+          "char_start": 0,
+          "char_end": 291,
+          "tokens_with_specials": 66,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.805155873298645
+        },
+        {
+          "chunk_id": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7833611",
+          "instance_key": "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "They toasted the flakes, which were a big hit with patients, and patented them under the name Granose. The brothers experimented with other grains, including corn, and in 1906, Will created the Kellogg's company to sell the corn flakes. On principle, John refused to join the company because Will lowered the health benefits of the cereal by adding sugar.",
+          "text_sha256": "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+          "char_start": 0,
+          "char_end": 355,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7274562120437622
+        },
+        {
+          "chunk_id": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "8796486",
+          "instance_key": "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers.",
+          "text_sha256": "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+          "char_start": 0,
+          "char_end": 317,
+          "tokens_with_specials": 70,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6786328554153442
+        },
+        {
+          "chunk_id": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4765789",
+          "instance_key": "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "1914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).914 — Kellogg’s® Corn Flakes® was introduced to a new country: Canada. (Later the Kellogg Company will spread the goodness of grain around the world by opening factories in Australia, England, Mexico, Japan, India and more. Today Kellogg brightens breakfast in over 180 countries around the world).",
+          "text_sha256": "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2",
+          "char_start": 0,
+          "char_end": 597,
+          "tokens_with_specials": 129,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6489015817642212
+        }
+      ],
+      "T_native_indices": [
+        3
+      ],
+      "T_output_texts": [
+        "Kellogg also created a cereal like Jackson’s and even named it Granula, until a lawsuit forced him to change the name to Granola. Together with his brother, Will Kellogg, John developed the first commercial cereal flake. Their cereal, Granose Flakes, hit the market in 1896. A rift developed between the two brothers."
+      ],
+      "T_removed_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+          "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1028652__PN1__U",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "e73fe8eb755ab39df7d621f1e943974afc6b07ab92131d6dd1fde9e684e838ea",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented Corn Flakes.",
+          "ordinal": 47,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1028652__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "who invented corn flakes",
+          "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+          "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d23fec5308468456cfdc0e9ef55ab6a5e6fe03cb928dfae8381d4d3db6205b78:00000",
+            "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04:00000",
+            "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+            "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+            "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000"
+          ],
+          "text_hashes": [
+            "e9d1ce7321143c67161b0147d9df4d25a2af3b7fb8b35a82266ed00cdfa42ce2",
+            "a16a43aa587f901177c4da8a0370bb0e7b2f98c6253a7e62795182b64c183499",
+            "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+            "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+            "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2"
+          ],
+          "request_sha256": "e73fe8eb755ab39df7d621f1e943974afc6b07ab92131d6dd1fde9e684e838ea",
+          "estimated_prompt_tokens": 498,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1028652__PN1__unfiltered",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "prompt_eval_count": 498,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "wall_seconds": 19.613861784993787,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1028652__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "e73fe8eb755ab39df7d621f1e943974afc6b07ab92131d6dd1fde9e684e838ea",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented Corn Flakes.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1028652__PN1__T",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "5d083a58ac7f8e188a01375d92548eb8ea8b46fc083b2efb242ccacc1162752d",
+          "status": "ok",
+          "answer": "Not enough information.",
+          "ordinal": 48,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1028652__PN1__filtered",
+          "case_id": "NanoMSMARCO:1028652",
+          "condition": "PN1",
+          "mode": "filtered",
+          "question": "who invented corn flakes",
+          "expected_answer": "John Harvey Kellogg, according to the supplied passage.",
+          "source_qualification": "Attribution from this archived passage only. Its dates, cereal-name history, and allocation of invention credit have not been independently verified and are not part of this answer.",
+          "source_review_status": "user_recorded_review",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "c46d09e027b0500278fab6f95f73659655f04fa9e697a2b629a072556d7aca04:00000",
+            "775eee6d312ba5b16ff14763f8698d90bbe13fcba74958b3738c9b718509877c:00000",
+            "f18fa0167973d1ea426d86314a5434313c5f57470057971d55dc8a148f75538b:00000",
+            "99a86f35c181631782fe6b1cc64ea8f0cc8b21d23b7a3854092284124a21be65:00000"
+          ],
+          "text_hashes": [
+            "a16a43aa587f901177c4da8a0370bb0e7b2f98c6253a7e62795182b64c183499",
+            "820b62654906758677b7f045246d7d3935f9ec05e4e9c85603e75c822bf7666b",
+            "6e93111f5723f4fcefa4a3b172adb7998bcd781a5d15610eab3983662fdd8cad",
+            "8aa43078e02c9b41399de57039c22c5720a8e24b28186c3103aceebde7b9cab2"
+          ],
+          "request_sha256": "61642e0269c43404ae0227b59841889c715f52f08e5eaa3553a31adf148b2c48",
+          "estimated_prompt_tokens": 428,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1028652__PN1__filtered",
+          "status": "ok",
+          "answer": "John Harvey Kellogg invented corn flakes.",
+          "prompt_eval_count": 428,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "wall_seconds": 19.580940626001393,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

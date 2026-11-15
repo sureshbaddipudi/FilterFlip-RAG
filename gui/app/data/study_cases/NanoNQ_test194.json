@@ -1,0 +1,2940 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test194",
+    "dataset": "NanoNQ",
+    "question": "what is the function of the semicolon in a c statement",
+    "source_family": "NanoNQ:test194",
+    "review_status": "assistant_only",
+    "target_document_id": "doc7106",
+    "expected_answer": "It acts as a statement terminator.",
+    "answer_aliases": [],
+    "support_quote": "In other languages, semicolons are called terminators[14] and are required after every statement (such as in Java, and the C family).",
+    "source_qualification": "Use the statement-terminator function only. The source overgeneralizes when saying semicolons are required after every statement in the C family; that universal claim is not part of this answer.",
+    "qrel_document_ids": [
+      "doc7106"
+    ],
+    "family_reference_texts": [
+      "In computer programming, the semicolon is often used to separate multiple statements (for example, in Perl, Pascal, PL/I, and SQL; see Pascal: Semicolons as statement separators). In other languages, semicolons are called terminators[14] and are required after every statement (such as in Java, and the C family). Today semicolons as terminators has largely won out, but this was a divisive issue in programming languages from the 1960s into the 1980s.[15] An influential and frequently-cited study in this debate was Gannon & Horning (1975), which concluded strongly in favor of semicolon as a terminator:"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test194",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc7106",
+    "expected_answer": "It acts as a statement terminator.",
+    "answer_aliases": [],
+    "support_quote": "In other languages, semicolons are called terminators[14] and are required after every statement (such as in Java, and the C family).",
+    "source_qualification": "Use the statement-terminator function only. The source overgeneralizes when saying semicolons are required after every statement in the C family; that universal claim is not part of this answer.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used. HUMAN CHECK: The core function is supported, but the source wording is overbroad. Confirm retaining this qualified answer is appropriate for the study."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test194",
+    "dataset": "NanoNQ",
+    "question": "what is the function of the semicolon in a c statement",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "non-event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test194",
+      "dataset": "NanoNQ",
+      "question": "what is the function of the semicolon in a c statement",
+      "expected_answer": "It acts as a statement terminator.",
+      "source_qualification": "Use the statement-terminator function only. The source overgeneralizes when saying semicolons are required after every statement in the C family; that universal claim is not part of this answer.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Needs adjudication",
+      "reason_group": "Unresolved rubric/support judgment",
+      "historical_decision": "needs_adjudication",
+      "historical_reason_code": "new_rubric_or_grounding_issue",
+      "historical_rationale": "The clean context retains an alternative C-language paragraph explaining expression statements followed by a semicolon. PN1 unfiltered includes a source explicitly calling semicolons terminators; PN1 filtered retains only a null-statement discussion and a file-format passage. The answer remains correct-looking, but explicit support for the general terminator function is questionable. This could be evidence loss masked by recall; no claim that recall is proved. BN1 and PN1 filtered requests are identical, so the stricter background-control support check also needs review. PN1 has a removal-boundary tie. Not counted as an abstention/wrong-answer event.",
+      "current_assistant_rationale": "The clean context retains an alternative C-language paragraph explaining expression statements followed by a semicolon. PN1 unfiltered includes a source explicitly calling semicolons terminators; PN1 filtered retains only a null-statement discussion and a file-format passage. The answer remains correct-looking, but explicit support for the general terminator function is questionable. This could be evidence loss masked by recall; no claim that recall is proved. BN1 and PN1 filtered requests are identical, so the stricter background-control support check also needs review. PN1 has a removal-boundary tie. Not counted as an abstention/wrong-answer event.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/9",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/9",
+      "review_priority": 2,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test194.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 82,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 55,
+              "call_id": "NanoNQ:test194__C__unfiltered",
+              "request_sha256": "2ca6d902d7709719c6777917abbc257e5b9f8d84bc46c00fbb2e795602de4ba3"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 56,
+              "call_id": "NanoNQ:test194__C__filtered",
+              "request_sha256": "50eda07ebf41c9ffcfc27b6f9780380b54a07537e858e1b82f2581ed417e7695"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 83,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 57,
+              "call_id": "NanoNQ:test194__BN1__unfiltered",
+              "request_sha256": "f0a188b15665e44789725d0497f62f3e8ebb2e8b179d90214c27803f0371af27"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 58,
+              "call_id": "NanoNQ:test194__BN1__filtered",
+              "request_sha256": "cfa2103757316bb4a7897c56f1578ba6344116ae4e5f89c6bed2d353ea2ca18c"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 85,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 59,
+              "call_id": "NanoNQ:test194__PN1__unfiltered",
+              "request_sha256": "e67d98a5d80e77624bbf9910e86d2cda16956cb9e179c01ddd39cf345a51cb5e"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 60,
+              "call_id": "NanoNQ:test194__PN1__filtered",
+              "request_sha256": "cfa2103757316bb4a7897c56f1578ba6344116ae4e5f89c6bed2d353ea2ca18c"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test194",
+      "Question": "what is the function of the semicolon in a c statement",
+      "Evidence packet": "evidence/NanoNQ_test194.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "uncertain",
+      "PN1 filtered answer category": "correct-supported",
+      "Strict event judgment": "no",
+      "Background-qualified event?": "no",
+      "Evidence and reasoning": "Q1: C filtered \"mark the end of a statement\"; support C P5 doc692559 (expression statement followed by a semicolon), P3 doc7112. Q2: PN1 P2 copy of doc7106 incl. \"semicolons are called terminators ... (such as in Java, and the C family)\". Q3: \"statement terminators\". Q4: survivors P4 doc7112, P5 doc7120 give only indirect support. Q5: filtered \"mark the end of a statement ... blank statement (NOP)\" - still correct. Q6: BN1 correct.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Proposes resolving \"Needs adjudication\" as not an event (Q5 fails). In PN1 the copy displaced doc692559 from the top 5 (retrieval displacement).",
+      "workbook_row": 11,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "jointly_agreed_under_named_core_mixed_rule",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "question": "what is the function of the semicolon in a c statement",
+        "expected_answer": "It acts as a statement terminator.",
+        "source_qualification": "Use the statement-terminator function only. The source overgeneralizes when saying semicolons are required after every statement in the C family; that universal claim is not part of this answer.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Needs adjudication",
+        "reason_group": "Unresolved rubric/support judgment",
+        "historical_decision": "needs_adjudication",
+        "historical_reason_code": "new_rubric_or_grounding_issue",
+        "historical_rationale": "The clean context retains an alternative C-language paragraph explaining expression statements followed by a semicolon. PN1 unfiltered includes a source explicitly calling semicolons terminators; PN1 filtered retains only a null-statement discussion and a file-format passage. The answer remains correct-looking, but explicit support for the general terminator function is questionable. This could be evidence loss masked by recall; no claim that recall is proved. BN1 and PN1 filtered requests are identical, so the stricter background-control support check also needs review. PN1 has a removal-boundary tie. Not counted as an abstention/wrong-answer event.",
+        "current_assistant_rationale": "The clean context retains an alternative C-language paragraph explaining expression statements followed by a semicolon. PN1 unfiltered includes a source explicitly calling semicolons terminators; PN1 filtered retains only a null-statement discussion and a file-format passage. The answer remains correct-looking, but explicit support for the general terminator function is questionable. This could be evidence loss masked by recall; no claim that recall is proved. BN1 and PN1 filtered requests are identical, so the stricter background-control support check also needs review. PN1 has a removal-boundary tie. Not counted as an abstention/wrong-answer event.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/9",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/9",
+        "review_priority": 2,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoNQ_test194.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 82,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 55,
+                "call_id": "NanoNQ:test194__C__unfiltered",
+                "request_sha256": "2ca6d902d7709719c6777917abbc257e5b9f8d84bc46c00fbb2e795602de4ba3"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 56,
+                "call_id": "NanoNQ:test194__C__filtered",
+                "request_sha256": "50eda07ebf41c9ffcfc27b6f9780380b54a07537e858e1b82f2581ed417e7695"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 83,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 57,
+                "call_id": "NanoNQ:test194__BN1__unfiltered",
+                "request_sha256": "f0a188b15665e44789725d0497f62f3e8ebb2e8b179d90214c27803f0371af27"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 58,
+                "call_id": "NanoNQ:test194__BN1__filtered",
+                "request_sha256": "cfa2103757316bb4a7897c56f1578ba6344116ae4e5f89c6bed2d353ea2ca18c"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 85,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 59,
+                "call_id": "NanoNQ:test194__PN1__unfiltered",
+                "request_sha256": "e67d98a5d80e77624bbf9910e86d2cda16956cb9e179c01ddd39cf345a51cb5e"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 60,
+                "call_id": "NanoNQ:test194__PN1__filtered",
+                "request_sha256": "cfa2103757316bb4a7897c56f1578ba6344116ae4e5f89c6bed2d353ea2ca18c"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only",
+      "joint_adjudication": {
+        "joint_decision": "non-event",
+        "participants": [
+          "Shradha",
+          "Suresh"
+        ],
+        "agreement_recorded_date": "2026-10-26",
+        "suresh_response": "accept",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "uncertain",
+          "Q5": "no",
+          "Q6": "yes"
+        },
+        "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+      }
+    },
+    "prior_joint_adjudication": {
+      "case_id": "NanoNQ:test194",
+      "case_name": "Semicolon in C",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "non-event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Semicolon in C",
+        "Suresh's Label": "Non-event",
+        "Decided by": "Q5 fails"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "uncertain",
+        "Q5": "no",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "PN1 filtered: \"...mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).\"",
+        "Survivors doc7112 (separator vs terminator, null statement) and doc7120 (CSV separator); the C-specific doc692559 is not among PN1 survivors."
+      ],
+      "agreed_rationale": "Non-event. Q5 no: the PN1 filtered answer still says the semicolon marks the end of a statement. Q4 recorded as uncertain (whether the general terminator passage doc7112 is sufficient support); it does not change the label. The NOP clause is true of C and comes from doc7112, so it is not a wrong claim.",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test194",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "no",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "uncertain",
+          "Q5": "no",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "PN1 filtered: \"...mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).\"",
+          "Survivors doc7112 (separator vs terminator, null statement) and doc7120 (CSV separator); the C-specific doc692559 is not among PN1 survivors."
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Non-event. Q5 no: the PN1 filtered answer still says the semicolon marks the end of a statement. Q4 recorded as uncertain (whether the general terminator passage doc7112 is sufficient support); it does not change the label. The NOP clause is true of C and comes from doc7112, so it is not a wrong claim.",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "non-event",
+        "suresh_response": null
+      }
+    }
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test194",
+    "question": "what is the function of the semicolon in a c statement",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "non-event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoNQ:test194"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6269389986991882,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        },
+        {
+          "chunk_id": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7120",
+          "instance_key": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some delimiter-separated values file formats, the semicolon is used as the separator character, as an alternative to comma-separated values.",
+          "text_sha256": "cacd768f70b0c74c835cfde1d2a510338814bb8153b9459ddbf39dc228bf2f6a",
+          "char_start": 0,
+          "char_end": 143,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6069588661193848,
+          "kept": false
+        },
+        {
+          "chunk_id": "44cf1672e6a2d2806d7675121c3037ce00859fac3ddc485f1675ca75f24faf14:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc692559",
+          "instance_key": "44cf1672e6a2d2806d7675121c3037ce00859fac3ddc485f1675ca75f24faf14",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As an imperative language, C uses statements to specify actions. The most common statement is an expression statement, consisting of an expression to be evaluated, followed by a semicolon; as a side effect of the evaluation, functions may be called and variables may be assigned new values. To modify the normal sequential execution of statements, C provides several control-flow statements identified by reserved keywords. Structured programming is supported by if(-else) conditional execution and by do-while, while, and for iterative execution (looping). The for statement has separate initialization, testing, and reinitialization expressions, any or all of which can be omitted. break and continue can be used to leave the innermost enclosing loop statement or skip to its reinitialization. There is also a non-structured goto statement which branches directly to the designated label within the function. switch selects a case to be executed based on the value of an integer expression.",
+          "text_sha256": "c57abb312445e88bc5937ac315434c02fe43fb12fd480d46d23fb696e6786b16",
+          "char_start": 0,
+          "char_end": 992,
+          "tokens_with_specials": 196,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6068958640098572,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.2590329778833116,
+          1.1295151349793464,
+          0.0,
+          0.9765908724829231,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "removal_gap": 0.9765908724829231,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.016799509525299072,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.840225338935852
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7436762452125549
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6507968306541443
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6339973211288452
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5942336916923523
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5708812475204468
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5424047112464905
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.32785987854003906
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3222353458404541
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.25056883692741394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__C__unfiltered",
+          "request_sha256": "2ca6d902d7709719c6777917abbc257e5b9f8d84bc46c00fbb2e795602de4ba3",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to separate expressions in a statement, marking the end of the statement.",
+            "first_call_id": "NanoNQ:test194__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to terminate expression statements, marking the end of an action specified by an expression.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__C__filtered",
+          "request_sha256": "50eda07ebf41c9ffcfc27b6f9780380b54a07537e858e1b82f2581ed417e7695",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, which can be an expression statement or part of a control-flow statement.",
+            "first_call_id": "NanoNQ:test194__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement. It separates expressions that are to be evaluated and can also be used to denote the end of a blank statement.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "c19cc6ee7be0f73ffb18890e076ea71783584af3b00906aee730c0e78da8a484:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/BN/1",
+          "instance_key": "c19cc6ee7be0f73ffb18890e076ea71783584af3b00906aee730c0e78da8a484",
+          "chunk_index": 0,
+          "copied_from": "doc7091",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "d8185956f0ee54b95511142275172bceb5aad6c8f72c0604b25d7f68f4c8e5a0",
+          "char_start": 0,
+          "char_end": 392,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6788824796676636,
+          "kept": false
+        },
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6269389986991882,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        },
+        {
+          "chunk_id": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7120",
+          "instance_key": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some delimiter-separated values file formats, the semicolon is used as the separator character, as an alternative to comma-separated values.",
+          "text_sha256": "cacd768f70b0c74c835cfde1d2a510338814bb8153b9459ddbf39dc228bf2f6a",
+          "char_start": 0,
+          "char_end": 143,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6069588661193848,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.6956280270472526,
+          1.6794191683189652,
+          1.4281662994333608,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.4281662994333608,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.08814007043838501,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9866308569908142
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8498162031173706
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7520853281021118
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7436763048171997
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6507968902587891
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6339972019195557
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5832982063293457
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5424046516418457
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__BN1__unfiltered",
+          "request_sha256": "f0a188b15665e44789725d0497f62f3e8ebb2e8b179d90214c27803f0371af27",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to terminate statements.",
+            "first_call_id": "NanoNQ:test194__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to terminate statements.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__BN1__filtered",
+          "request_sha256": "cfa2103757316bb4a7897c56f1578ba6344116ae4e5f89c6bed2d353ea2ca18c",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).",
+            "first_call_id": "NanoNQ:test194__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "c19cc6ee7be0f73ffb18890e076ea71783584af3b00906aee730c0e78da8a484:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/BN/1",
+          "instance_key": "c19cc6ee7be0f73ffb18890e076ea71783584af3b00906aee730c0e78da8a484",
+          "chunk_index": 0,
+          "copied_from": "doc7091",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "d8185956f0ee54b95511142275172bceb5aad6c8f72c0604b25d7f68f4c8e5a0",
+          "char_start": 0,
+          "char_end": 392,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6788824796676636,
+          "kept": false
+        },
+        {
+          "chunk_id": "1c7931b9cb337e1719d5581d523191a2d72ec0638cd1a4ba92b4614d93443d45:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/BN/2",
+          "instance_key": "1c7931b9cb337e1719d5581d523191a2d72ec0638cd1a4ba92b4614d93443d45",
+          "chunk_index": 0,
+          "copied_from": "doc7091",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "529529b09efb28a44c7c365eab70af667f9e56c4c38f76f44c994917e25094cb",
+          "char_start": 0,
+          "char_end": 395,
+          "tokens_with_specials": 88,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.676192045211792,
+          "kept": false
+        },
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6269389986991882,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          2.6907927968348737,
+          2.7032872079259,
+          2.663913751939372,
+          2.151794153951233,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.151794153951233,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.24599182605743408,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9975794553756714
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9922170042991638
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9866308569908142
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8506631851196289
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8498162031173706
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5858511924743652
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5832982063293457
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5424046516418457
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__BN2__unfiltered",
+          "request_sha256": "5027338419f9a970a75dc87820423c2c23193b7dcfdcd86816b310ab617eb7ea",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon (;) is used to terminate statements.",
+            "first_call_id": "NanoNQ:test194__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon (;) is used to terminate statements.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__BN2__filtered",
+          "request_sha256": "9a7d4e3dad27cb35abe86cba3380ec67cbface86db06a33b235afb2e189534b7",
+          "reference": {
+            "status": "ok",
+            "answer": "A semicolon in C is used to mark the end of a statement.",
+            "first_call_id": "NanoNQ:test194__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A semicolon in C statements is used to mark the end of a statement, but its exact function can vary depending on the programming language's conventions and the specific implementation. In some cases, it is optional, in others it signifies a null statement, and in some contexts, it can be used to represent a NOP (no operation).",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "08a66d5f4ee69b095df93d1eec578f04db14642a4cbfcc7cbc146f46ec7af8c5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/PN/1",
+          "instance_key": "08a66d5f4ee69b095df93d1eec578f04db14642a4cbfcc7cbc146f46ec7af8c5",
+          "chunk_index": 0,
+          "copied_from": "doc7106",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn computer programming, the semicolon is often used to separate multiple statements (for example, in Perl, Pascal, PL/I, and SQL; see Pascal: Semicolons as statement separators). In other languages, semicolons are called terminators[14] and are required after every statement (such as in Java, and the C family). Today semicolons as terminators has largely won out, but this was a divisive issue in programming languages from the 1960s into the 1980s.[15] An influential and frequently-cited study in this debate was Gannon & Horning (1975), which concluded strongly in favor of semicolon as a terminator:",
+          "text_sha256": "24661c22555f5d38c07109b7ab51e53a191666ab5c74595569237f8e27ac9744",
+          "char_start": 0,
+          "char_end": 622,
+          "tokens_with_specials": 151,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.630725622177124,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6269389986991882,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        },
+        {
+          "chunk_id": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7120",
+          "instance_key": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some delimiter-separated values file formats, the semicolon is used as the separator character, as an alternative to comma-separated values.",
+          "text_sha256": "cacd768f70b0c74c835cfde1d2a510338814bb8153b9459ddbf39dc228bf2f6a",
+          "char_start": 0,
+          "char_end": 143,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6069588661193848,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.2590331666991013,
+          0.5651556529656432,
+          0.7059787203525367,
+          0.5651556529656432,
+          0.5530544463465645
+        ],
+        "removal_ranking": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.03693366050720215,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7517683506011963
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7436763048171997
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7067426443099976
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6568024158477783
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6507968902587891
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6339972019195557
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6226352453231812
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5424046516418457
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__PN1__unfiltered",
+          "request_sha256": "e67d98a5d80e77624bbf9910e86d2cda16956cb9e179c01ddd39cf345a51cb5e",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, semicolons are used as statement terminators.",
+            "first_call_id": "NanoNQ:test194__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used as a terminator after every statement.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__PN1__filtered",
+          "request_sha256": "cfa2103757316bb4a7897c56f1578ba6344116ae4e5f89c6bed2d353ea2ca18c",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).",
+            "first_call_id": "NanoNQ:test194__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": true,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "08a66d5f4ee69b095df93d1eec578f04db14642a4cbfcc7cbc146f46ec7af8c5:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/PN/1",
+          "instance_key": "08a66d5f4ee69b095df93d1eec578f04db14642a4cbfcc7cbc146f46ec7af8c5",
+          "chunk_index": 0,
+          "copied_from": "doc7106",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIn computer programming, the semicolon is often used to separate multiple statements (for example, in Perl, Pascal, PL/I, and SQL; see Pascal: Semicolons as statement separators). In other languages, semicolons are called terminators[14] and are required after every statement (such as in Java, and the C family). Today semicolons as terminators has largely won out, but this was a divisive issue in programming languages from the 1960s into the 1980s.[15] An influential and frequently-cited study in this debate was Gannon & Horning (1975), which concluded strongly in favor of semicolon as a terminator:",
+          "text_sha256": "24661c22555f5d38c07109b7ab51e53a191666ab5c74595569237f8e27ac9744",
+          "char_start": 0,
+          "char_end": 622,
+          "tokens_with_specials": 151,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.630725622177124,
+          "kept": false
+        },
+        {
+          "chunk_id": "656fc3f002769cdc1e1c8f23a348299e95621a328a40e94270a060838d39e161:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/PN/2",
+          "instance_key": "656fc3f002769cdc1e1c8f23a348299e95621a328a40e94270a060838d39e161",
+          "chunk_index": 0,
+          "copied_from": "doc7106",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nIn computer programming, the semicolon is often used to separate multiple statements (for example, in Perl, Pascal, PL/I, and SQL; see Pascal: Semicolons as statement separators). In other languages, semicolons are called terminators[14] and are required after every statement (such as in Java, and the C family). Today semicolons as terminators has largely won out, but this was a divisive issue in programming languages from the 1960s into the 1980s.[15] An influential and frequently-cited study in this debate was Gannon & Horning (1975), which concluded strongly in favor of semicolon as a terminator:",
+          "text_sha256": "a5fe3da17417ea3669130dbe15d2b751acdfed2558a32527fb66302d9d30fdf7",
+          "char_start": 0,
+          "char_end": 625,
+          "tokens_with_specials": 151,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6297991275787354,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6269389986991882,
+          "kept": true
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.7059787203525367,
+          0.9978002499444791,
+          1.568811742201337,
+          0.7059787203525367,
+          0.5710114922568579
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.0,
+        "removal_exact_tie": true,
+        "removal_near_tie": true,
+        "pair_cutoff_gap": 0.0038846731185913086,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.998899519443512
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7556530237197876
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7517683506011963
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.7067426443099976
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.7033696174621582
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6226352453231812
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6163606643676758
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5424046516418457
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__PN2__unfiltered",
+          "request_sha256": "2b697b92ffa80f90906e6bd3c67248b70fbea5c1bf449d028438e3b214fcc077",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, semicolons are used as terminators after every statement.",
+            "first_call_id": "NanoNQ:test194__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, semicolons are used as terminators after every statement.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__PN2__filtered",
+          "request_sha256": "ead296ed4b1aa7dd257a5c1f26c911e1f9d034767b2f856fba98eb9a8968bdb9",
+          "reference": {
+            "status": "ok",
+            "answer": "In C statements, a semicolon is used to terminate the execution of a single statement.",
+            "first_call_id": "NanoNQ:test194__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to terminate statements.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "63bec0f9882c6b79c8f173306dfef735f83f450e6823e0c4c72172ec1d30d9c2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/BE/1",
+          "instance_key": "63bec0f9882c6b79c8f173306dfef735f83f450e6823e0c4c72172ec1d30d9c2",
+          "chunk_index": 0,
+          "copied_from": "doc7091",
+          "copy_number": 1,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6269389986991882,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        },
+        {
+          "chunk_id": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7120",
+          "instance_key": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some delimiter-separated values file formats, the semicolon is used as the separator character, as an alternative to comma-separated values.",
+          "text_sha256": "cacd768f70b0c74c835cfde1d2a510338814bb8153b9459ddbf39dc228bf2f6a",
+          "char_start": 0,
+          "char_end": 143,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6069588661193848,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.7059786011432507,
+          1.7059786011432507,
+          1.4119574407050735,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.4119574407050735,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.09654909372329712,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.7436763048171997
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7436763048171997
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6507968902587891
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6339972019195557
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5424046516418457
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__BE1__unfiltered",
+          "request_sha256": "32cf29fcd09a49618ad22f9357f610910dc64ae3715b921d94e5952205bb88eb",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to terminate statements.",
+            "first_call_id": "NanoNQ:test194__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon (;) is used to terminate statements.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__BE1__filtered",
+          "request_sha256": "cfa2103757316bb4a7897c56f1578ba6344116ae4e5f89c6bed2d353ea2ca18c",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).",
+            "first_call_id": "NanoNQ:test194__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, but it can also be used to indicate a blank statement, which is treated as a no-operation (NOP).",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "63bec0f9882c6b79c8f173306dfef735f83f450e6823e0c4c72172ec1d30d9c2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/BE/1",
+          "instance_key": "63bec0f9882c6b79c8f173306dfef735f83f450e6823e0c4c72172ec1d30d9c2",
+          "chunk_index": 0,
+          "copied_from": "doc7091",
+          "copy_number": 1,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "a4eaf0519e1c4b7ca9041c9f37517e25ff17c180c4278829fc96a526c6126362:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test194/BE/2",
+          "instance_key": "a4eaf0519e1c4b7ca9041c9f37517e25ff17c180c4278829fc96a526c6126362",
+          "chunk_index": 0,
+          "copied_from": "doc7091",
+          "copy_number": 2,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6269389986991882,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          2.7059784819339647,
+          2.7059784819339647,
+          2.7059784819339647,
+          2.11793616105761,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.11793616105761,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.24599182605743408,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999999403953552
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.8402253985404968
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5942335724830627
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5424046516418457
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__BE2__unfiltered",
+          "request_sha256": "be086d847266281046139077df32a0c2063f774c92c71169159936bc7750fbfe",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon (;) is used to terminate statements.",
+            "first_call_id": "NanoNQ:test194__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C/C++, a semicolon by itself stands for a NOP (no operation or null command).",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__BE2__filtered",
+          "request_sha256": "9a7d4e3dad27cb35abe86cba3380ec67cbface86db06a33b235afb2e189534b7",
+          "reference": {
+            "status": "ok",
+            "answer": "A semicolon in C is used to mark the end of a statement.",
+            "first_call_id": "NanoNQ:test194__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "A semicolon in C statements is used to mark the end of a statement, but its exact function can vary depending on the programming language's conventions and the specific implementation. In some cases, it is optional, in others it signifies a null statement, and in some contexts, it can be used to represent a NOP (no operation).",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6269389986991882,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        },
+        {
+          "chunk_id": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7120",
+          "instance_key": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some delimiter-separated values file formats, the semicolon is used as the separator character, as an alternative to comma-separated values.",
+          "text_sha256": "cacd768f70b0c74c835cfde1d2a510338814bb8153b9459ddbf39dc228bf2f6a",
+          "char_start": 0,
+          "char_end": 143,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6069588661193848,
+          "kept": false
+        },
+        {
+          "chunk_id": "44cf1672e6a2d2806d7675121c3037ce00859fac3ddc485f1675ca75f24faf14:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc692559",
+          "instance_key": "44cf1672e6a2d2806d7675121c3037ce00859fac3ddc485f1675ca75f24faf14",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As an imperative language, C uses statements to specify actions. The most common statement is an expression statement, consisting of an expression to be evaluated, followed by a semicolon; as a side effect of the evaluation, functions may be called and variables may be assigned new values. To modify the normal sequential execution of statements, C provides several control-flow statements identified by reserved keywords. Structured programming is supported by if(-else) conditional execution and by do-while, while, and for iterative execution (looping). The for statement has separate initialization, testing, and reinitialization expressions, any or all of which can be omitted. break and continue can be used to leave the innermost enclosing loop statement or skip to its reinitialization. There is also a non-structured goto statement which branches directly to the designated label within the function. switch selects a case to be executed based on the value of an integer expression.",
+          "text_sha256": "c57abb312445e88bc5937ac315434c02fe43fb12fd480d46d23fb696e6786b16",
+          "char_start": 0,
+          "char_end": 992,
+          "tokens_with_specials": 196,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6068958640098572,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.2590329778833116,
+          1.1295151349793464,
+          0.0,
+          0.9765908724829231,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "removal_gap": 0.9765908724829231,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.016799509525299072,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.840225338935852
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7436762452125549
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6507968306541443
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6339973211288452
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5942336916923523
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5708812475204468
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5424047112464905
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.32785987854003906
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3222353458404541
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.25056883692741394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__PE1__unfiltered",
+          "request_sha256": "2ca6d902d7709719c6777917abbc257e5b9f8d84bc46c00fbb2e795602de4ba3",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to separate expressions in a statement, marking the end of the statement.",
+            "first_call_id": "NanoNQ:test194__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to terminate expression statements, marking the end of an action specified by an expression.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__PE1__filtered",
+          "request_sha256": "50eda07ebf41c9ffcfc27b6f9780380b54a07537e858e1b82f2581ed417e7695",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, which can be an expression statement or part of a control-flow statement.",
+            "first_call_id": "NanoNQ:test194__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement. It separates expressions that are to be evaluated and can also be used to denote the end of a blank statement.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test194",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7091",
+          "instance_key": "1ca415e32495c9fa3eb10a3a044c575584ef0c6811b6ee4b3200db6991515141",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The semicolon or semi colon[1] (;) is a punctuation mark that separates major sentence elements. A semicolon can be used between two closely related independent clauses, provided they are not already joined by a coordinating conjunction. Semicolons can also be used in place of commas to separate items in a list, particularly when the elements of that list contain commas.[2]",
+          "text_sha256": "5cb5350f0a0acea7fb0388295ba65cbe3653f7c14062aecf81e9a884ba88e616",
+          "char_start": 0,
+          "char_end": 376,
+          "tokens_with_specials": 85,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6660652160644531,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7099",
+          "instance_key": "8b1fef8e2bf109b59576765ea4cccaec86afdef874101b627d21a6c98cb5c772",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In French, a semicolon (point-virgule, literally 'dot-comma') is a separation between two full sentences, used where either a colon or a comma would not be appropriate. The phrase following a semicolon has to be an independent clause, which is related to the previous one (but not explaining it, contrary to a sentence introduced by a colon).",
+          "text_sha256": "3b2a945164789847215de2fb409482d14d3ffd37413d3fb3a1a4f8799d425cb3",
+          "char_start": 0,
+          "char_end": 342,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6269389986991882,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7112",
+          "instance_key": "bc3e671728eed8127041f30e4fe2a3036035de7f649c53b3170a7faeb188e7fa",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some cases the distinction between a separator and a terminator is strong, such as early versions of Pascal, where a final semicolon yields a syntax error. In other cases a final semicolon is treated either as optional syntax, or as being followed by a null statement, which is either ignored or treated as a NOP (no operation or null command); compare trailing commas in lists. In some cases a blank statement is allowed, allowing a sequence of semicolons or the use of a semicolon by itself as the body of a control flow structure. For example, a blank statement (a semicolon by itself) stands for a NOP in C/C++, which is useful in busy waiting synchronization loops.",
+          "text_sha256": "8c9a476248a1040bacd9271e4974da0a876682e2adb8b3139fbc3d807a18669b",
+          "char_start": 0,
+          "char_end": 673,
+          "tokens_with_specials": 159,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6163771748542786,
+          "kept": true
+        },
+        {
+          "chunk_id": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7120",
+          "instance_key": "4eb9788ecd34d29efeaa0484c84911b2f395aa760623e5f2b30a7f0e1ebc8c4f",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In some delimiter-separated values file formats, the semicolon is used as the separator character, as an alternative to comma-separated values.",
+          "text_sha256": "cacd768f70b0c74c835cfde1d2a510338814bb8153b9459ddbf39dc228bf2f6a",
+          "char_start": 0,
+          "char_end": 143,
+          "tokens_with_specials": 36,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6069588661193848,
+          "kept": false
+        },
+        {
+          "chunk_id": "44cf1672e6a2d2806d7675121c3037ce00859fac3ddc485f1675ca75f24faf14:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc692559",
+          "instance_key": "44cf1672e6a2d2806d7675121c3037ce00859fac3ddc485f1675ca75f24faf14",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "As an imperative language, C uses statements to specify actions. The most common statement is an expression statement, consisting of an expression to be evaluated, followed by a semicolon; as a side effect of the evaluation, functions may be called and variables may be assigned new values. To modify the normal sequential execution of statements, C provides several control-flow statements identified by reserved keywords. Structured programming is supported by if(-else) conditional execution and by do-while, while, and for iterative execution (looping). The for statement has separate initialization, testing, and reinitialization expressions, any or all of which can be omitted. break and continue can be used to leave the innermost enclosing loop statement or skip to its reinitialization. There is also a non-structured goto statement which branches directly to the designated label within the function. switch selects a case to be executed based on the value of an integer expression.",
+          "text_sha256": "c57abb312445e88bc5937ac315434c02fe43fb12fd480d46d23fb696e6786b16",
+          "char_start": 0,
+          "char_end": 992,
+          "tokens_with_specials": 196,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6068958640098572,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.2590329778833116,
+          1.1295151349793464,
+          0.0,
+          0.9765908724829231,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "removal_gap": 0.9765908724829231,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.016799509525299072,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.840225338935852
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.7436762452125549
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6507968306541443
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6339973211288452
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5942336916923523
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5708812475204468
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5424047112464905
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.32785987854003906
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.3222353458404541
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.25056883692741394
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test194__PE2__unfiltered",
+          "request_sha256": "2ca6d902d7709719c6777917abbc257e5b9f8d84bc46c00fbb2e795602de4ba3",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to separate expressions in a statement, marking the end of the statement.",
+            "first_call_id": "NanoNQ:test194__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to terminate expression statements, marking the end of an action specified by an expression.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test194__PE2__filtered",
+          "request_sha256": "50eda07ebf41c9ffcfc27b6f9780380b54a07537e858e1b82f2581ed417e7695",
+          "reference": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement, which can be an expression statement or part of a control-flow statement.",
+            "first_call_id": "NanoNQ:test194__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "In C, a semicolon is used to mark the end of a statement. It separates expressions that are to be evaluated and can also be used to denote the end of a blank statement.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "case_id": "NanoNQ:test1618",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test1618.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+  "records": [
+    {
+      "record_id": "R1:4e7b616ebf15799503bbfe8e4ceab46c11898f79895aef77352e04f8b3474382",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "4e7b616ebf15799503bbfe8e4ceab46c11898f79895aef77352e04f8b3474382",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__BN2__unfiltered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "ca411d3e66fd0a18a225a3941fcb68e3abfc0f815878983629b42c70c7ac707c:00000",
+            "993a70c6456325ecd0353e2f537b4649d62abcc8c4be738556dc8703f0fc08f0:00000",
+            "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "d01fb2723916d689996a5fea3a4368e9d362b9b538547d1d449a82214bb94e88",
+            "44ec528967aa315191ad830f56c80cc4aea67dcd3efd927ed9e135d5ea684cec",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 (Disney developed; Touchstone release)"
+        ],
+        "rationale": "Answer passage 5779f2 (names Disney development and Touchstone) is in context but the response abstains.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:52fe031e3ba6eab34c04da190146afb842477ebd31ead198a4f6b950701f6880",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "52fe031e3ba6eab34c04da190146afb842477ebd31ead198a4f6b950701f6880",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__BN2__filtered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1618__BE2__filtered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 (Disney developed; Touchstone release)"
+        ],
+        "rationale": "Answer passage 5779f2 is kept but the response abstains.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:19b09c0df9e39e2aed2c9eb314bfc3789babfd1754584006d6eb7b1809d3b121",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "19b09c0df9e39e2aed2c9eb314bfc3789babfd1754584006d6eb7b1809d3b121",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__PN2__unfiltered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "3733615b196226fba7eec58a2879ff8090b0ec9e0920bd90103bc49d7edf8072:00000",
+            "e9aa72d358ebc2571bff8571abf18d41bebf12c2b9b94bb23e6fb6cabcca3606:00000",
+            "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "aa33a8656e2fa8b742503f64050926a3c1857fb510986803f43740e774f3862f",
+            "966783fea0e2b60f1aa208af6018fd69c47f090016031d5b0d5d199eae9c9893",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 (Disney developed; Touchstone release)"
+        ],
+        "rationale": "Answer passage 5779f2 (names Disney development and Touchstone) is in context but the response abstains.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:79384264b1743b89f2815c92d96219af002cce63f50dce7ee2549ce0e8f01a16",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "79384264b1743b89f2815c92d96219af002cce63f50dce7ee2549ce0e8f01a16",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__PN2__filtered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "e9aa72d358ebc2571bff8571abf18d41bebf12c2b9b94bb23e6fb6cabcca3606:00000",
+            "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "966783fea0e2b60f1aa208af6018fd69c47f090016031d5b0d5d199eae9c9893",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 (Disney developed; Touchstone release)"
+        ],
+        "rationale": "Answer passage kept; response states the supported facts but gives the opposite yes/no verdict.",
+        "disagreement": "Wrong verdict with accurate supporting details; core usability uncertain; flagged for joint discussion with Suresh"
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "wrong",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "headline \"No, not originally a Disney movie\" contradicts the response's own supported details (developed by Walt Disney Studios, released via Touchstone)",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:3eaf4146f0a625929c4d55424d5f370c48b4f2edbf440a1c63f9466c1be42bcf",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "3eaf4146f0a625929c4d55424d5f370c48b4f2edbf440a1c63f9466c1be42bcf",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__BE1__unfiltered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "58544e86de077acecd777da2978526bc1fc873a0aabdcd697155cccf075164e4:00000",
+            "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+            "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+            "be098a4ab5af33418dfa311c075c9334195cc5893b44e6b22263a19c3b85c727"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 (Disney developed; Touchstone release)"
+        ],
+        "rationale": "Answer passage 5779f2 (names Disney development and Touchstone) is in context but the response abstains.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:625c8e9f9ba6fcf19f000e15b41bdbd051d7d374b1ab05fc6274682210488e85",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "625c8e9f9ba6fcf19f000e15b41bdbd051d7d374b1ab05fc6274682210488e85",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__BE2__unfiltered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "58544e86de077acecd777da2978526bc1fc873a0aabdcd697155cccf075164e4:00000",
+            "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+            "6f13d9b38728ed282acaad2f706d0aed4a6b3f5ca9b0e740c34339f85e835925:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 (Disney developed; Touchstone release)"
+        ],
+        "rationale": "Answer passage 5779f2 (names Disney development and Touchstone) is in context but the response abstains.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:ca3660ba88ba58ed8bf1c18c083a608a6cc439273f3e229fe46ffa183a51a663",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "ca3660ba88ba58ed8bf1c18c083a608a6cc439273f3e229fe46ffa183a51a663",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__PE1__unfiltered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "bee57b806d8b26009b9399c87bdf61b1fb0ff602ea370ab8540f4143768c9c40:00000",
+            "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000",
+            "83c57b674b3d0d9a280b99799ec775537ae195c01a00c16b253d97b1d4b19dd1:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b",
+            "be098a4ab5af33418dfa311c075c9334195cc5893b44e6b22263a19c3b85c727"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 (Disney developed; Touchstone release)"
+        ],
+        "rationale": "Answer passage 5779f2 (names Disney development and Touchstone) is in context but the response abstains.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:ef08ce5a18901ea863626e0ec587b6c21f7d105cbcfaf4d7a0b0a4cbe847819c",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "ef08ce5a18901ea863626e0ec587b6c21f7d105cbcfaf4d7a0b0a4cbe847819c",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__PE2__unfiltered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "5779f2b81d677740bcc4947cbdea82056db6c1ff1d57eca240af89eb5d62a052:00000",
+            "b6ccbe2ee293bf52689eadebcdef7e7cc776fe022e69d16b97a3797fbda52dee:00000",
+            "bee57b806d8b26009b9399c87bdf61b1fb0ff602ea370ab8540f4143768c9c40:00000",
+            "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 (Disney developed; Touchstone release)"
+        ],
+        "rationale": "Answer passage 5779f2 (names Disney development and Touchstone) is in context but the response abstains.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "abstention",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:e43beced93437cd3742482b3f430b1c60c4f9fe5181edb0d9006688f03489083",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1618",
+      "request_sha256": "e43beced93437cd3742482b3f430b1c60c4f9fe5181edb0d9006688f03489083",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1618__PE2__filtered",
+          "case_id": "NanoNQ:test1618",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "b6ccbe2ee293bf52689eadebcdef7e7cc776fe022e69d16b97a3797fbda52dee:00000",
+            "bee57b806d8b26009b9399c87bdf61b1fb0ff602ea370ab8540f4143768c9c40:00000",
+            "61e57a6309de477ba060211eb6b42076e55652c8ac0eda372123c79a2e793585:00000",
+            "06be7e9aa4967b835e729b5c3f919edf3fdbef4c58b68b8e3a4c550c86905303:00000"
+          ],
+          "text_hashes": [
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "7e1dc3156646dccf00c1fc746d403b39ebb390926134401a3897251a38db4aa3",
+            "169979615a5f0e22fe7a7b75e5c6790fa58cbd436018296661dcfbdcd0167a5a",
+            "d0134dd26328a08d199e4ca84f42912dea0de862a585dac5e2dd6d0a5cc67a1b"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1618.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 copy",
+          "61e57a"
+        ],
+        "rationale": "Exact copy of the answer passage is kept; response answers No and blends the reissue passage.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "\"No\" contradicts passage 5779f2; \"Disney later reissued it under Walt Disney Pictures\" blends the 2006 re-release (61e57a) into the origin question",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1618:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1618",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:4e7b616ebf15799503bbfe8e4ceab46c11898f79895aef77352e04f8b3474382",
+          "R1:52fe031e3ba6eab34c04da190146afb842477ebd31ead198a4f6b950701f6880"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1618:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1618",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (C filtered abstains), so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: \"No\" verdict contradicts passage 5779f2",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:19b09c0df9e39e2aed2c9eb314bfc3789babfd1754584006d6eb7b1809d3b121",
+          "R1:79384264b1743b89f2815c92d96219af002cce63f50dce7ee2549ce0e8f01a16"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1618:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1618",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered reproduction (original prefix) answers \"Yes, originally considered a Disney movie\" without Touchstone/development detail",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:3eaf4146f0a625929c4d55424d5f370c48b4f2edbf440a1c63f9466c1be42bcf"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1618:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1618",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:52fe031e3ba6eab34c04da190146afb842477ebd31ead198a4f6b950701f6880",
+          "R1:625c8e9f9ba6fcf19f000e15b41bdbd051d7d374b1ab05fc6274682210488e85"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1618:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1618",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "61e57a"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (C filtered abstains), so strict endpoint not met. Answer passage and its copy removed; kept passages show Disney involvement only (reissue).",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:ca3660ba88ba58ed8bf1c18c083a608a6cc439273f3e229fe46ffa183a51a663"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1618:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1618",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "5779f2 copy",
+          "61e57a"
+        ],
+        "rationale": "P condition; same-panel clean prerequisite fails (C filtered abstains), so strict endpoint not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: \"No\" verdict contradicts passage 5779f2",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: \"No\" verdict contradicts passage 5779f2; blends the 2006 reissue",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:ef08ce5a18901ea863626e0ec587b6c21f7d105cbcfaf4d7a0b0a4cbe847819c",
+          "R1:e43beced93437cd3742482b3f430b1c60c4f9fe5181edb0d9006688f03489083"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2948 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1989",
+    "dataset": "NanoNQ",
+    "question": "krypton-85 decays by emission of a beta particle. the product of this decay is",
+    "source_family": "NanoNQ:test1989",
+    "review_status": "assistant_only",
+    "target_document_id": "doc69765",
+    "expected_answer": "Rubidium-85",
+    "answer_aliases": [
+      "Rb-85",
+      "rubidium 85"
+    ],
+    "support_quote": "It decays into stable, non-radioactive rubidium-85.",
+    "source_qualification": "The supplied excerpt uses \"It\" for the nuclide in the query; this is the daughter nuclide, not a question about emitted particles.",
+    "qrel_document_ids": [
+      "doc69765"
+    ],
+    "family_reference_texts": [
+      "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test1989",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc69765",
+    "expected_answer": "Rubidium-85",
+    "answer_aliases": [
+      "Rb-85",
+      "rubidium 85"
+    ],
+    "support_quote": "It decays into stable, non-radioactive rubidium-85.",
+    "source_qualification": "The supplied excerpt uses \"It\" for the nuclide in the query; this is the daughter nuclide, not a question about emitted particles.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test1989",
+    "dataset": "NanoNQ",
+    "question": "krypton-85 decays by emission of a beta particle. the product of this decay is",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test1989",
+      "dataset": "NanoNQ",
+      "question": "krypton-85 decays by emission of a beta particle. the product of this decay is",
+      "expected_answer": "Rubidium-85",
+      "source_qualification": "The supplied excerpt uses \"It\" for the nuclide in the query; this is the daughter nuclide, not a question about emitted particles.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Needs adjudication",
+      "reason_group": "Unresolved rubric/support judgment",
+      "historical_decision": "needs_adjudication",
+      "historical_reason_code": "rubric_sensitive_not_counted",
+      "historical_rationale": "PN1 unfiltered first names rubidium-85, then calls the emitted electron and antineutrino the product. The frozen qualification specifically asks for the daughter nuclide. Treat this mixed answer as ambiguous, not an unqualified correct baseline. PN1 filtered gives xenon-85 and is wrong under the source rubric.",
+      "current_assistant_rationale": "PN1 unfiltered first names rubidium-85, then calls the emitted electron and antineutrino the product. The frozen qualification specifically asks for the daughter nuclide. Treat this mixed answer as ambiguous, not an unqualified correct baseline. PN1 filtered gives xenon-85 and is wrong under the source rubric.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/11",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/11",
+      "review_priority": 2,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test1989.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 100,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 67,
+              "call_id": "NanoNQ:test1989__C__unfiltered",
+              "request_sha256": "2f216c77568d8779558b4b208142b89d08d70aa680eaaaebd7c19930790f3773"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 68,
+              "call_id": "NanoNQ:test1989__C__filtered",
+              "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 101,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 69,
+              "call_id": "NanoNQ:test1989__BN1__unfiltered",
+              "request_sha256": "75f36841f685ec792fb739a8551e63a8d9471ba8b07309898ed04c8c6642e909"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 70,
+              "call_id": "NanoNQ:test1989__BN1__filtered",
+              "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 103,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 71,
+              "call_id": "NanoNQ:test1989__PN1__unfiltered",
+              "request_sha256": "4cc513d27f5c0a594d0f7003db00282a9485591236184592b5c19b998c113302"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 72,
+              "call_id": "NanoNQ:test1989__PN1__filtered",
+              "request_sha256": "c95f2a643d556f177da503d1694ca29d2b3116ca90d2141e41d098311544ea8f"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test1989",
+      "Question": "krypton-85 decays by emission of a beta particle. the product of this decay is",
+      "Evidence packet": "evidence/NanoNQ_test1989.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "wrong",
+      "Strict event judgment": "yes",
+      "Background-qualified event?": "yes",
+      "Evidence and reasoning": "Q1: C P3 doc69765 kept: \"It decays into stable, non-radioactive rubidium-85\"; answer Rubidium-85. Q2: PN1 P3 copy of doc69765. Q3: unfiltered \"...to form rubidium-85. The product of this decay is an electron ... and an electron antineutrino.\" Q4: survivors P1 doc21832, P2 doc21829, P5 doc21831 are generic beta-decay passages; no daughter nuclide. Q5: \"stable xenon-85\" - wrong. Q6: BN1 Rubidium-85.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Reviewer decision 2026-10-14: PN1 unfiltered answer accepted as correct and usable because it states rubidium-85, despite the second sentence naming the emitted particles as \"the product\". DISAGREES with \"Needs adjudication\".",
+      "workbook_row": 12,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "jointly_agreed_under_named_core_mixed_rule",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "question": "krypton-85 decays by emission of a beta particle. the product of this decay is",
+        "expected_answer": "Rubidium-85",
+        "source_qualification": "The supplied excerpt uses \"It\" for the nuclide in the query; this is the daughter nuclide, not a question about emitted particles.",
+        "source_review_status": "assistant_only",
+        "assistant_status": "Needs adjudication",
+        "reason_group": "Unresolved rubric/support judgment",
+        "historical_decision": "needs_adjudication",
+        "historical_reason_code": "rubric_sensitive_not_counted",
+        "historical_rationale": "PN1 unfiltered first names rubidium-85, then calls the emitted electron and antineutrino the product. The frozen qualification specifically asks for the daughter nuclide. Treat this mixed answer as ambiguous, not an unqualified correct baseline. PN1 filtered gives xenon-85 and is wrong under the source rubric.",
+        "current_assistant_rationale": "PN1 unfiltered first names rubidium-85, then calls the emitted electron and antineutrino the product. The frozen qualification specifically asks for the daughter nuclide. Treat this mixed answer as ambiguous, not an unqualified correct baseline. PN1 filtered gives xenon-85 and is wrong under the source rubric.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/11",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/11",
+        "review_priority": 2,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoNQ_test1989.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 100,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 67,
+                "call_id": "NanoNQ:test1989__C__unfiltered",
+                "request_sha256": "2f216c77568d8779558b4b208142b89d08d70aa680eaaaebd7c19930790f3773"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 68,
+                "call_id": "NanoNQ:test1989__C__filtered",
+                "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 101,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 69,
+                "call_id": "NanoNQ:test1989__BN1__unfiltered",
+                "request_sha256": "75f36841f685ec792fb739a8551e63a8d9471ba8b07309898ed04c8c6642e909"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 70,
+                "call_id": "NanoNQ:test1989__BN1__filtered",
+                "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 103,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 71,
+                "call_id": "NanoNQ:test1989__PN1__unfiltered",
+                "request_sha256": "4cc513d27f5c0a594d0f7003db00282a9485591236184592b5c19b998c113302"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 72,
+                "call_id": "NanoNQ:test1989__PN1__filtered",
+                "request_sha256": "c95f2a643d556f177da503d1694ca29d2b3116ca90d2141e41d098311544ea8f"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only",
+      "joint_adjudication": {
+        "joint_decision": "event",
+        "participants": [
+          "Shradha",
+          "Suresh"
+        ],
+        "agreement_recorded_date": "2026-10-26",
+        "suresh_response": "accept",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+      }
+    },
+    "prior_joint_adjudication": {
+      "case_id": "NanoNQ:test1989",
+      "case_name": "Krypton-85",
+      "source": "saved reference, not teammate rerun",
+      "joint_decision": "event",
+      "participants": [
+        "Shradha",
+        "Suresh"
+      ],
+      "agreement_recorded_date": "2026-10-26",
+      "agreement_method": "Shradha written proposal plus Suresh matching CSV and explicit in-chat full agreement; no meeting is asserted.",
+      "suresh_response": "accept",
+      "suresh_csv_response": {
+        "Case": "Krypton-85",
+        "Suresh's Label": "Event",
+        "Decided by": "Mixed-answer rule"
+      },
+      "Q1_Q6": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "yes",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "yes"
+      },
+      "rubric_version_as_supplied": "frozen rubric Q1-Q6 (as supplied)",
+      "adopted_rule_set_id": "week04_core_answer_mixed_usable_2026-10-26",
+      "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+      "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+      "decisive_quotes": [
+        "doc69765: \"It decays into stable, non-radioactive rubidium-85.\" (removed with its copy in PN1)",
+        "PN1 unfiltered: \"...to form rubidium-85. The product of this decay is an electron (beta particle) and an electron antineutrino.\"",
+        "PN1 filtered: \"...resulting in the product of stable xenon-85.\""
+      ],
+      "agreed_rationale": "Event under the mixed-answer rule. Q3 depends on it: the PN1 unfiltered answer names rubidium-85 (correct core) but then wrongly calls the particles 'the product'. Usable under 'core correct = usable', with the wrong sentence recorded. NOT an event if any wrong claim makes an answer unusable. After filtering no passage naming rubidium-85 survives and the answer is wrong (xenon-85).",
+      "original_proposal_entry": {
+        "case_id": "NanoNQ:test1989",
+        "source": "saved reference, not teammate rerun",
+        "returned_judgment": "yes",
+        "rubric_version": "frozen rubric Q1-Q6 (as supplied)",
+        "answer_completeness_rule": "Core answer: an answer is complete and usable if it gives what the question asks for (the main identity or meaning); minor descriptive or secondary elements of the frozen expected answer may be missing.",
+        "mixed_answer_rule": "Mixed answer: an answer whose core is correct and supported is usable even if it adds a wrong extra claim; the wrong claim is recorded separately and not hidden.",
+        "Q1_Q6": {
+          "Q1": "yes",
+          "Q2": "yes",
+          "Q3": "yes",
+          "Q4": "yes",
+          "Q5": "yes",
+          "Q6": "yes"
+        },
+        "decisive_quotes": [
+          "doc69765: \"It decays into stable, non-radioactive rubidium-85.\" (removed with its copy in PN1)",
+          "PN1 unfiltered: \"...to form rubidium-85. The product of this decay is an electron (beta particle) and an electron antineutrino.\"",
+          "PN1 filtered: \"...resulting in the product of stable xenon-85.\""
+        ],
+        "joint_decision": null,
+        "rationale": "PROPOSAL BY SHRADHA ONLY, not agreed. Event under the mixed-answer rule. Q3 depends on it: the PN1 unfiltered answer names rubidium-85 (correct core) but then wrongly calls the particles 'the product'. Usable under 'core correct = usable', with the wrong sentence recorded. NOT an event if any wrong claim makes an answer unusable. After filtering no passage naming rubidium-85 survives and the answer is wrong (xenon-85).",
+        "participants": [],
+        "decision_date": null,
+        "shradha_proposal": "event",
+        "suresh_response": null
+      }
+    }
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test1989",
+    "question": "krypton-85 decays by emission of a beta particle. the product of this decay is",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1989"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": false
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.640649676322937,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6235333681106567,
+          "kept": true
+        },
+        {
+          "chunk_id": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21831",
+          "instance_key": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The two types of beta decay are known as beta minus and beta plus. In beta minus (β−) decay, a neutron is converted to a proton and the process creates an electron and an electron antineutrino; while in beta plus (β+) decay, a proton is converted to a neutron and the process creates a positron and an electron neutrino. β+ decay is also known as positron emission.[4]",
+          "text_sha256": "fd4a3f91f3096bebd155524e069d70ce1baa131eaa76d46ab3351bc8788b6d1c",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6212370991706848,
+          "kept": false
+        },
+        {
+          "chunk_id": "21f9a9107d38b8268087a83c6ddfdef648426f54c25d8f4ed5b508ebb9d70c7a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc812322",
+          "instance_key": "21f9a9107d38b8268087a83c6ddfdef648426f54c25d8f4ed5b508ebb9d70c7a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The positron emitted by the decay by beta emission usually annihilates immediately with an electron. Their mass-energies plus their kinetic energy is carried off by two gamma rays (photons) with the mass-energy of 511 keV (thousand electron-volts) apiece.",
+          "text_sha256": "bc9f0c3d3b8d5851534bbb7f720f50cedf055563bd2aaf1950788e0ae6f6bba6",
+          "char_start": 0,
+          "char_end": 255,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6096477508544922,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        2
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 5,
+        "frequency_scores": [
+          1.6015928348253858,
+          1.3914711198942342,
+          0.311412259384781,
+          1.605129879469409,
+          0.8005282642115681
+        ],
+        "removal_ranking": [
+          3,
+          0,
+          1,
+          4,
+          2
+        ],
+        "removal_gap": 0.4891160048267871,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.02151346206665039,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.8142897486686707
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7232431173324585
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6472877860069275
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6176947355270386
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5365297794342041
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5112227201461792
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.42253902554512024
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__C__unfiltered",
+          "request_sha256": "2f216c77568d8779558b4b208142b89d08d70aa680eaaaebd7c19930790f3773",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "krypton-85 decays into stable rubidium-85.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__C__filtered",
+          "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": false
+        },
+        {
+          "chunk_id": "64b9a834cbb669866c0086c673be533f5f71fe1c0111371a35263471943d2eda:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/BN/1",
+          "instance_key": "64b9a834cbb669866c0086c673be533f5f71fe1c0111371a35263471943d2eda",
+          "chunk_index": 0,
+          "copied_from": "doc21832",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBeta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "63036ad0728a59bb2657aad8fc58d3d74c8b106d66fd5a0155871893004892ec",
+          "char_start": 0,
+          "char_end": 489,
+          "tokens_with_specials": 122,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6572369933128357,
+          "kept": false
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.640649676322937,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6235333681106567,
+          "kept": true
+        },
+        {
+          "chunk_id": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21831",
+          "instance_key": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The two types of beta decay are known as beta minus and beta plus. In beta minus (β−) decay, a neutron is converted to a proton and the process creates an electron and an electron antineutrino; while in beta plus (β+) decay, a proton is converted to a neutron and the process creates a positron and an electron neutrino. β+ decay is also known as positron emission.[4]",
+          "text_sha256": "fd4a3f91f3096bebd155524e069d70ce1baa131eaa76d46ab3351bc8788b6d1c",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6212370991706848,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          2.1914101611768935,
+          2.213167395689837,
+          1.6718125470784173,
+          0.0,
+          1.836197998027206
+        ],
+        "removal_ranking": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "removal_gap": 1.6718125470784173,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.165199875831604,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9855780601501465
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8142897486686707
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8062565326690674
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.7692552804946899
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7232431173324585
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.48148325085639954
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.42253902554512024
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__BN1__unfiltered",
+          "request_sha256": "75f36841f685ec792fb739a8551e63a8d9471ba8b07309898ed04c8c6642e909",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__BN1__filtered",
+          "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": false
+        },
+        {
+          "chunk_id": "64b9a834cbb669866c0086c673be533f5f71fe1c0111371a35263471943d2eda:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/BN/1",
+          "instance_key": "64b9a834cbb669866c0086c673be533f5f71fe1c0111371a35263471943d2eda",
+          "chunk_index": 0,
+          "copied_from": "doc21832",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBeta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "63036ad0728a59bb2657aad8fc58d3d74c8b106d66fd5a0155871893004892ec",
+          "char_start": 0,
+          "char_end": 489,
+          "tokens_with_specials": 122,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6572369933128357,
+          "kept": false
+        },
+        {
+          "chunk_id": "018195a21f0ae24e7dca3c8d49f26b52044da6d9181fae7fd17b514510677f1d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/BN/2",
+          "instance_key": "018195a21f0ae24e7dca3c8d49f26b52044da6d9181fae7fd17b514510677f1d",
+          "chunk_index": 0,
+          "copied_from": "doc21832",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nBeta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "d2510d3ad22ede4674cc4fc35a8991e3d8c9e1cca39d7041a0a0f428d8cb3e4b",
+          "char_start": 0,
+          "char_end": 492,
+          "tokens_with_specials": 122,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6550637483596802,
+          "kept": false
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.640649676322937,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6235333681106567,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.501571117852908,
+          2.562192472450718,
+          2.5638658355683255,
+          1.7402943511826408,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          1,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.7402943511826408,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.18826651573181152,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9995372295379639
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9865235686302185
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9855780601501465
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.7692552804946899
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.7691309452056885
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.48148325085639954
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.47859907150268555
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__BN2__unfiltered",
+          "request_sha256": "54ba5091bbdf9fcd8c2418d422580479885ff0c731953240946b61d5c4d413bd",
+          "reference": {
+            "status": "ok",
+            "answer": "krypton-85 decays by emission of a beta particle. The product of this decay is rubidium-85.",
+            "first_call_id": "NanoNQ:test1989__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "krypton-85 decays by emission of a beta particle. The product of this decay is rubidium-85.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__BN2__filtered",
+          "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": true
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.640649676322937,
+          "kept": true
+        },
+        {
+          "chunk_id": "45372a9b8045531cb5948713c63c09d69946a738e1baea4cb4aa9e7496a593c0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/PN/1",
+          "instance_key": "45372a9b8045531cb5948713c63c09d69946a738e1baea4cb4aa9e7496a593c0",
+          "chunk_index": 0,
+          "copied_from": "doc69765",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIt has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "6d182a11830e5af9b968d259bfe5ffb9b5f40f3b1c1713f2453fc033514447b9",
+          "char_start": 0,
+          "char_end": 550,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6279488205909729,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6235333681106567,
+          "kept": false
+        },
+        {
+          "chunk_id": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21831",
+          "instance_key": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The two types of beta decay are known as beta minus and beta plus. In beta minus (β−) decay, a neutron is converted to a proton and the process creates an electron and an electron antineutrino; while in beta plus (β+) decay, a proton is converted to a neutron and the process creates a positron and an electron neutrino. β+ decay is also known as positron emission.[4]",
+          "text_sha256": "fd4a3f91f3096bebd155524e069d70ce1baa131eaa76d46ab3351bc8788b6d1c",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6212370991706848,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        4
+      ],
+      "removed_indices": [
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.9801021431934629,
+          0.9801021431934629,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.9801021431934629,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.17571133375167847,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9900010824203491
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8142897486686707
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7232431173324585
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5580434799194336
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5506346225738525
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5144873261451721
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5130126476287842
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.4225390553474426
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.40831661224365234
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__PN1__unfiltered",
+          "request_sha256": "4cc513d27f5c0a594d0f7003db00282a9485591236184592b5c19b998c113302",
+          "reference": {
+            "status": "ok",
+            "answer": "krypton-85 decays by emission of a beta particle to form rubidium-85. The product of this decay is an electron (beta particle) and an electron antineutrino.",
+            "first_call_id": "NanoNQ:test1989__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "krypton-85 decays by emission of a beta particle to form rubidium-85.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__PN1__filtered",
+          "request_sha256": "c95f2a643d556f177da503d1694ca29d2b3116ca90d2141e41d098311544ea8f",
+          "reference": {
+            "status": "ok",
+            "answer": "Krypton-85 decays by emission of a beta particle, resulting in the product of stable xenon-85.",
+            "first_call_id": "NanoNQ:test1989__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Krypton-85 decays by beta minus decay, producing an electron and an electron antineutrino.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": true
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.640649676322937,
+          "kept": true
+        },
+        {
+          "chunk_id": "45372a9b8045531cb5948713c63c09d69946a738e1baea4cb4aa9e7496a593c0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/PN/1",
+          "instance_key": "45372a9b8045531cb5948713c63c09d69946a738e1baea4cb4aa9e7496a593c0",
+          "chunk_index": 0,
+          "copied_from": "doc69765",
+          "copy_number": 1,
+          "text": "Source excerpt.\nIt has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "6d182a11830e5af9b968d259bfe5ffb9b5f40f3b1c1713f2453fc033514447b9",
+          "char_start": 0,
+          "char_end": 550,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6279488205909729,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6235333681106567,
+          "kept": false
+        },
+        {
+          "chunk_id": "7606f787e853a56590d5a466e9d5d0ddc62060b13d67c24192046c7263ae6121:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/PN/2",
+          "instance_key": "7606f787e853a56590d5a466e9d5d0ddc62060b13d67c24192046c7263ae6121",
+          "chunk_index": 0,
+          "copied_from": "doc69765",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nIt has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "932ab5ec36f64f375c166be1d2de065e3f732e65de0b039d7ad13a197f0db8fc",
+          "char_start": 0,
+          "char_end": 553,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6229608058929443,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        1
+      ],
+      "removed_indices": [
+        2,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          1.9771887666363064,
+          1.9633009067087102,
+          1.9802853869580908
+        ],
+        "removal_ranking": [
+          4,
+          2,
+          3,
+          0,
+          1
+        ],
+        "removal_gap": 1.9633009067087102,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2436913251876831,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.9985422492027283
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.9915637969970703
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9900010824203491
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5580434799194336
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5530726909637451
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5506346225738525
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.516423225402832
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5144873261451721
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5130126476287842
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__PN2__unfiltered",
+          "request_sha256": "95eaf2fc413fa48afecc8fd68b4e83d1012fb474e95a61843d5b6f9c1e3d01f4",
+          "reference": {
+            "status": "ok",
+            "answer": "krypton-84 (Kr-84)",
+            "first_call_id": "NanoNQ:test1989__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "krypton-84 (Kr-84)",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__PN2__filtered",
+          "request_sha256": "ec6d5d3a0d6b5986f1e01843c9c0bca5819e2c8d9b818047f7b4aea73d26f99f",
+          "reference": {
+            "status": "ok",
+            "answer": "Krypton-85 decays by emission of a beta particle, resulting in the formation of a stable isotope of xenon-141.",
+            "first_call_id": "NanoNQ:test1989__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Krypton-85 decays by emission of a beta particle, resulting in the formation of a stable isotope of xenon-135.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": false
+        },
+        {
+          "chunk_id": "7e178825d9baf6ee38e8a207cd1a3d490baa35e8c1bd9272e1286b4927791381:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/BE/1",
+          "instance_key": "7e178825d9baf6ee38e8a207cd1a3d490baa35e8c1bd9272e1286b4927791381",
+          "chunk_index": 0,
+          "copied_from": "doc21832",
+          "copy_number": 1,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6578586101531982,
+          "kept": false
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.640649676322937,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6235333681106567,
+          "kept": true
+        },
+        {
+          "chunk_id": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21831",
+          "instance_key": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The two types of beta decay are known as beta minus and beta plus. In beta minus (β−) decay, a neutron is converted to a proton and the process creates an electron and an electron antineutrino; while in beta plus (β+) decay, a proton is converted to a neutron and the process creates a positron and an electron neutrino. β+ decay is also known as positron emission.[4]",
+          "text_sha256": "fd4a3f91f3096bebd155524e069d70ce1baa131eaa76d46ab3351bc8788b6d1c",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6212370991706848,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        3
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          2.220046286946161,
+          2.220046286946161,
+          1.637037114250134,
+          0.0,
+          1.849216196342546
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "removal_gap": 1.637037114250134,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.165199875831604,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8142897486686707
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.8142897486686707
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.7232431173324585
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.42253902554512024
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__BE1__unfiltered",
+          "request_sha256": "332d90e8a3c8db6ad74eb568ba67bd841e8d45d21389522131582c3c2d415a4e",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__BE1__filtered",
+          "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 4,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": false
+        },
+        {
+          "chunk_id": "6383b69a80bd8f7e93c5c4ba92a2d74b898a97dd4738861a3cbde1936c36dfe0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/BE/2",
+          "instance_key": "6383b69a80bd8f7e93c5c4ba92a2d74b898a97dd4738861a3cbde1936c36dfe0",
+          "chunk_index": 0,
+          "copied_from": "doc21832",
+          "copy_number": 2,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6578586101531982,
+          "kept": false
+        },
+        {
+          "chunk_id": "7e178825d9baf6ee38e8a207cd1a3d490baa35e8c1bd9272e1286b4927791381:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/BE/1",
+          "instance_key": "7e178825d9baf6ee38e8a207cd1a3d490baa35e8c1bd9272e1286b4927791381",
+          "chunk_index": 0,
+          "copied_from": "doc21832",
+          "copy_number": 1,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6578586101531982,
+          "kept": false
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.640649676322937,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6235333681106567,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 4,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          2.5569787305778675,
+          2.5569787305778675,
+          2.5569787305778675,
+          1.6709347612220427,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.6709347612220427,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.18826651573181152,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 6,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5130125284194946
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__BE2__unfiltered",
+          "request_sha256": "e8c9aa36661495e565120aa7a0378c15d4c16b0e1d44f7f4909aac5507934048",
+          "reference": {
+            "status": "ok",
+            "answer": "krypton-85 decays by emission of a beta particle. The product of this decay is rubidium-85.",
+            "first_call_id": "NanoNQ:test1989__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "krypton-85 decays by emission of a beta particle. The product of this decay is rubidium-85.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__BE2__filtered",
+          "request_sha256": "89ceef9a493aa6841f08bcb9921605fc7227f1491640f6c4d6431f2089ed9d94",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": true
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.640649676322937,
+          "kept": true
+        },
+        {
+          "chunk_id": "13a4b36e427765cc3a3ea6169221b86af6e54a00e51a76f5b89b4788f2f0e3ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/PE/1",
+          "instance_key": "13a4b36e427765cc3a3ea6169221b86af6e54a00e51a76f5b89b4788f2f0e3ee",
+          "chunk_index": 0,
+          "copied_from": "doc69765",
+          "copy_number": 1,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6235333681106567,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6235333681106567,
+          "kept": false
+        },
+        {
+          "chunk_id": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21831",
+          "instance_key": "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The two types of beta decay are known as beta minus and beta plus. In beta minus (β−) decay, a neutron is converted to a proton and the process creates an electron and an electron antineutrino; while in beta plus (β+) decay, a proton is converted to a neutron and the process creates a positron and an electron neutrino. β+ decay is also known as positron emission.[4]",
+          "text_sha256": "fd4a3f91f3096bebd155524e069d70ce1baa131eaa76d46ab3351bc8788b6d1c",
+          "char_start": 0,
+          "char_end": 368,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6212370991706848,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        4
+      ],
+      "removed_indices": [
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.18571025133132935,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.8142897486686707
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.7232431173324585
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.42253902554512024
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.42253902554512024
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__PE1__unfiltered",
+          "request_sha256": "1527a98ad2cba8e496414b8ee1fa58568dbb9708230a9fb0f192840cd2cae36a",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "krypton-85 decays into rubidium-85 by beta particle emission.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__PE1__filtered",
+          "request_sha256": "c95f2a643d556f177da503d1694ca29d2b3116ca90d2141e41d098311544ea8f",
+          "reference": {
+            "status": "ok",
+            "answer": "Krypton-85 decays by emission of a beta particle, resulting in the product of stable xenon-85.",
+            "first_call_id": "NanoNQ:test1989__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Krypton-85 decays by beta minus decay, producing an electron and an electron antineutrino.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1989",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21832",
+          "instance_key": "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay conserves a quantum number known as the lepton number, or the number of electrons and their associated neutrinos (other leptons are the muon and tau particles). These particles have lepton number +1, while their antiparticles have lepton number −1. Since a proton or neutron has lepton number zero, β+ decay (a positron, or antielectron) must be accompanied with an electron neutrino, while β− decay (an electron) must be accompanied by an electron antineutrino.",
+          "text_sha256": "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+          "char_start": 0,
+          "char_end": 473,
+          "tokens_with_specials": 119,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6578586101531982,
+          "kept": true
+        },
+        {
+          "chunk_id": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc21829",
+          "instance_key": "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Beta decay is a consequence of the weak force, which is characterized by relatively lengthy decay times. Nucleons are composed of up or down quarks,[2] and the weak force allows a quark to change type by the exchange of a W boson and the creation of an electron/antineutrino or positron/neutrino pair. For example, a neutron, composed of two down quarks and an up quark, decays to a proton composed of a down quark and two up quarks. Decay times for many nuclides that are subject to beta decay can be thousands of years.",
+          "text_sha256": "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+          "char_start": 0,
+          "char_end": 521,
+          "tokens_with_specials": 133,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.640649676322937,
+          "kept": true
+        },
+        {
+          "chunk_id": "13a4b36e427765cc3a3ea6169221b86af6e54a00e51a76f5b89b4788f2f0e3ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/PE/1",
+          "instance_key": "13a4b36e427765cc3a3ea6169221b86af6e54a00e51a76f5b89b4788f2f0e3ee",
+          "chunk_index": 0,
+          "copied_from": "doc69765",
+          "copy_number": 1,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6235333681106567,
+          "kept": false
+        },
+        {
+          "chunk_id": "68ed4b3b4ff69ae172bb1a0c594159bb64ce8717d0d61296fae0a90029196195:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1989/PE/2",
+          "instance_key": "68ed4b3b4ff69ae172bb1a0c594159bb64ce8717d0d61296fae0a90029196195",
+          "chunk_index": 0,
+          "copied_from": "doc69765",
+          "copy_number": 2,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6235333681106567,
+          "kept": false
+        },
+        {
+          "chunk_id": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc69765",
+          "instance_key": "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "It has a half-life of 10.756 years and a maximum decay energy of 687 keV.[1] It decays into stable, non-radioactive rubidium-85. Its most common decay (99.57%) is by beta particle emission with maximum energy of 687 keV and an average energy of 251 keV. The second most common decay (0.43%) is by beta particle emission (maximum energy of 173 keV) followed by gamma ray emission (energy of 514 keV).[2] Other decay modes have very small probabilities and emit less energetic gammas.[1][3] There are 33 other known isotopes of krypton.",
+          "text_sha256": "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+          "char_start": 0,
+          "char_end": 534,
+          "tokens_with_specials": 150,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6235333681106567,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        1
+      ],
+      "removed_indices": [
+        2,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          4,
+          0,
+          1
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.253690242767334,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.746309757232666
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5580432415008545
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5130125284194946
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5130125284194946
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1989__PE2__unfiltered",
+          "request_sha256": "dfa2d649550cfc94336d05ccd9513ec18076887d18f451876175564858f6344f",
+          "reference": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "first_call_id": "NanoNQ:test1989__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Rubidium-85",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1989__PE2__filtered",
+          "request_sha256": "ec6d5d3a0d6b5986f1e01843c9c0bca5819e2c8d9b818047f7b4aea73d26f99f",
+          "reference": {
+            "status": "ok",
+            "answer": "Krypton-85 decays by emission of a beta particle, resulting in the formation of a stable isotope of xenon-141.",
+            "first_call_id": "NanoNQ:test1989__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Krypton-85 decays by emission of a beta particle, resulting in the formation of a stable isotope of xenon-135.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

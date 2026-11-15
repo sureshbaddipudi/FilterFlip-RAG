@@ -1,0 +1,122 @@
+....E.......Security logging unavailable; inspect private work-folder permissions.
+..........EEE..........E............Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+E.E
+======================================================================
+ERROR: test_real_http_serves_all_cases_without_starting_worker (test_all_conditions.StudyTests.test_real_http_serves_all_cases_without_starting_worker)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/tests/test_all_conditions.py", line 57, in test_real_http_serves_all_cases_without_starting_worker
+    s=server.Server(src,0);thread=threading.Thread(target=s.serve_forever,daemon=True);thread.start()
+      ^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/server.py", line 120, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_extra_cancel_fields_consistently_rejected (test_hardening.SecurityHTTPTests.test_extra_cancel_fields_consistently_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/tests/test_hardening.py", line 80, in setUp
+    self.server=server.Server(self.p/'config.json',0);self.thread=threading.Thread(target=self.server.serve_forever,daemon=True);self.thread.start()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/server.py", line 120, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_new_route_headers_and_no_model_work (test_hardening.SecurityHTTPTests.test_new_route_headers_and_no_model_work)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/tests/test_hardening.py", line 80, in setUp
+    self.server=server.Server(self.p/'config.json',0);self.thread=threading.Thread(target=self.server.serve_forever,daemon=True);self.thread.start()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/server.py", line 120, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_rejected_requests_logged_without_raw_secrets (test_hardening.SecurityHTTPTests.test_rejected_requests_logged_without_raw_secrets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/tests/test_hardening.py", line 80, in setUp
+    self.server=server.Server(self.p/'config.json',0);self.thread=threading.Thread(target=self.server.serve_forever,daemon=True);self.thread.start()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/server.py", line 120, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: setUpClass (test_live.HTTPTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/tests/test_live.py", line 12, in setUpClass
+    with patch.object(server,'Manager',return_value=cls.m):cls.s=server.Server('unused',0)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/server.py", line 120, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_owned_descendant_listener_is_closed (test_security.ProcessTests.test_owned_descendant_listener_is_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/tests/test_security.py", line 93, in test_owned_descendant_listener_is_closed
+    port=json.loads(info.read_text())['port'];s=socket.create_connection(('127.0.0.1',port),timeout=1);s.close()
+                    ^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpdfrnuo7_/listener.json'
+
+======================================================================
+ERROR: setUpClass (test_security.ExtraHTTPTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/tests/test_live.py", line 12, in setUpClass
+    with patch.object(server,'Manager',return_value=cls.m):cls.s=server.Server('unused',0)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/Documents/Codex/2026-09-28/we-are-continuing-our-m-tech/outputs/FilterFlip_GUI_v2_9_All_Work_2026-11-10/app/server.py", line 120, in __init__
+    super().__init__(('127.0.0.1',port),Handler)
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/suresh/anaconda3/envs/filterflip-core/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+----------------------------------------------------------------------
+Ran 49 tests in 13.382s
+
+FAILED (errors=7)

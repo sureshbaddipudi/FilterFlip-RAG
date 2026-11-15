@@ -1,0 +1,2751 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test740",
+    "dataset": "NanoNQ",
+    "question": "who is next in line to inherit the british throne",
+    "source_family": "NanoNQ:test740",
+    "review_status": "assistant_only",
+    "target_document_id": "doc26444",
+    "expected_answer": "Charles, Prince of Wales, the eldest son of Queen Elizabeth II, in the succession described by the source.",
+    "answer_aliases": [],
+    "support_quote": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales.",
+    "source_qualification": "Historical source-relative answer: the paragraph explicitly treats Elizabeth II as sovereign. It must not be presented as the present-day line of succession.",
+    "qrel_document_ids": [
+      "doc26444"
+    ],
+    "family_reference_texts": [
+      "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test740",
+    "reviewer": "Assistant draft (human verification pending)",
+    "decision": "eligible",
+    "target_document_id": "doc26444",
+    "expected_answer": "Charles, Prince of Wales, the eldest son of Queen Elizabeth II, in the succession described by the source.",
+    "answer_aliases": [],
+    "support_quote": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales.",
+    "source_qualification": "Historical source-relative answer: the paragraph explicitly treats Elizabeth II as sovereign. It must not be presented as the present-day line of succession.",
+    "exclusion_reason": "",
+    "notes": "Assistant source-only draft; human verification pending. No experiment outcomes used. HUMAN CHECK: Verify that the historical qualification appears in the answer rubric and demo. Do not score a current-world answer as the source answer."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test740",
+    "dataset": "NanoNQ",
+    "question": "who is next in line to inherit the british throne",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test740",
+      "dataset": "NanoNQ",
+      "question": "who is next in line to inherit the british throne",
+      "expected_answer": "Charles, Prince of Wales, the eldest son of Queen Elizabeth II, in the succession described by the source.",
+      "source_qualification": "Historical source-relative answer: the paragraph explicitly treats Elizabeth II as sovereign. It must not be presented as the present-day line of succession.",
+      "source_review_status": "assistant_only",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Clean-answer prerequisite fails",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "clean_answer_fails_frozen_rubric",
+      "historical_rationale": "Clean filtered answer says Princess Anne, inconsistent with the archived-source answer Charles. No claim about current succession is made.",
+      "current_assistant_rationale": "Clean filtered answer says Princess Anne, inconsistent with the archived-source answer Charles. No claim about current succession is made.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/31",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/31",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test740.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 280,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 187,
+              "call_id": "NanoNQ:test740__C__unfiltered",
+              "request_sha256": "1a2541f763b7a89bdbdcf9217eb6c84f7dc772a4219be086badc81c9bb97d4e5"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 188,
+              "call_id": "NanoNQ:test740__C__filtered",
+              "request_sha256": "e09a6bc90a84c397815021e478b109f6d96ddca92f980973480544f0327b275b"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 281,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 189,
+              "call_id": "NanoNQ:test740__BN1__unfiltered",
+              "request_sha256": "4866c805e12bc7005adbe5d914b221eb0784527b458b4a067eed24be7d709487"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 190,
+              "call_id": "NanoNQ:test740__BN1__filtered",
+              "request_sha256": "ea77bdcbeeab4492521f024e149a9934c8d1a5f8b55c3fc61e9b52b88b85464a"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 283,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 191,
+              "call_id": "NanoNQ:test740__PN1__unfiltered",
+              "request_sha256": "db7b35c8016dd789086b35b08695c7e06ca1acb86503b4fc82355e3ec518217f"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 192,
+              "call_id": "NanoNQ:test740__PN1__filtered",
+              "request_sha256": "df505d5a8323b1d88c9987d47715849302889668d4e76dd124b735abe070017f"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test740",
+    "question": "who is next in line to inherit the british throne",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test740"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": true
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6756724119186401,
+          "kept": false
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        },
+        {
+          "chunk_id": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc474073",
+          "instance_key": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The title Prince of Wales is given only to the heir apparentâ€”somebody who cannot be displaced in the succession to the throne by any future birth. The succession had followed male-preference primogeniture, which meant that the heir apparent was the eldest son of the reigning monarch or, if he was deceased, his eldest son and so on, or if the monarch's eldest son had died without issue, the monarch's second eldest son, etc. As such, a daughter of the sovereign who was next in line to the throne was never the heir apparent because she would be displaced in the succession by any future legitimate son of the sovereign.",
+          "text_sha256": "dee8dbb7ba6e7882a90c3c20f72c4728477274876ffbb7ea77be29a39017e19b",
+          "char_start": 0,
+          "char_end": 624,
+          "tokens_with_specials": 135,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5895479321479797,
+          "kept": false
+        },
+        {
+          "chunk_id": "e45b71e6e17ec332d1f0508da1fd5d79872f7a8ab990dc6da309ddfa8a7eed82:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2289855",
+          "instance_key": "e45b71e6e17ec332d1f0508da1fd5d79872f7a8ab990dc6da309ddfa8a7eed82",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Prince of the United Kingdom of Great Britain and Northern Ireland is a royal title normally granted to sons and grandsons of reigning and past British monarchs. It is also held by the Duke of Edinburgh, husband and consort of Queen Elizabeth II. The title is granted by the reigning monarch, who is the fount of all honours, through the issuing of letters patent as an expression of the royal will.",
+          "text_sha256": "64fce75656072200d86e540b4699aa9b737c5f090054c11186d76931b4ef221b",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5841545462608337,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        2,
+        4
+      ],
+      "removed_indices": [
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.46177887579177934,
+          0.0,
+          0.46177887579177934,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        "removal_gap": 0.46177887579177934,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.030515730381011963,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.679543137550354
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.649027407169342
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6210213303565979
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5710664987564087
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5461114645004272
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5042629837989807
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4968660771846771
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4484732151031494
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.434429794549942
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__C__unfiltered",
+          "request_sha256": "1a2541f763b7a89bdbdcf9217eb6c84f7dc772a4219be086badc81c9bb97d4e5",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__C__filtered",
+          "request_sha256": "e09a6bc90a84c397815021e478b109f6d96ddca92f980973480544f0327b275b",
+          "reference": {
+            "status": "ok",
+            "answer": "Princess Anne and her descendants.",
+            "first_call_id": "NanoNQ:test740__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Princess Anne and her descendants.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": false
+        },
+        {
+          "chunk_id": "5f9d792ca68cae37520ca103f9a8ac393d08fd5c0d631b8317e1f66d4eda9e95:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/BN/1",
+          "instance_key": "5f9d792ca68cae37520ca103f9a8ac393d08fd5c0d631b8317e1f66d4eda9e95",
+          "chunk_index": 0,
+          "copied_from": "doc207464",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "a69221ee2f47314eee7807077d3b6f3c150768c36320d0197d9bb484d6f37b5e",
+          "char_start": 0,
+          "char_end": 98,
+          "tokens_with_specials": 21,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7190770506858826,
+          "kept": false
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756724119186401,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        },
+        {
+          "chunk_id": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc474073",
+          "instance_key": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The title Prince of Wales is given only to the heir apparentâ€”somebody who cannot be displaced in the succession to the throne by any future birth. The succession had followed male-preference primogeniture, which meant that the heir apparent was the eldest son of the reigning monarch or, if he was deceased, his eldest son and so on, or if the monarch's eldest son had died without issue, the monarch's second eldest son, etc. As such, a daughter of the sovereign who was next in line to the throne was never the heir apparent because she would be displaced in the succession by any future legitimate son of the sovereign.",
+          "text_sha256": "dee8dbb7ba6e7882a90c3c20f72c4728477274876ffbb7ea77be29a39017e19b",
+          "char_start": 0,
+          "char_end": 624,
+          "tokens_with_specials": 135,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5895479321479797,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          0.8833544962728865,
+          0.8833544962728865,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.8833544962728865,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.2603262662887573,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9398694038391113
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.679543137550354
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5710664987564087
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5700207352638245
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5384857654571533
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5042629837989807
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4968660771846771
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.48598164319992065
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.434429794549942
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__BN1__unfiltered",
+          "request_sha256": "4866c805e12bc7005adbe5d914b221eb0784527b458b4a067eed24be7d709487",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__BN1__filtered",
+          "request_sha256": "ea77bdcbeeab4492521f024e149a9934c8d1a5f8b55c3fc61e9b52b88b85464a",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": true
+        },
+        {
+          "chunk_id": "70554a08643505bcce7f9b6a829b9c6f5ece1cacc04d3fa8711eaa0370ddd41e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/BN/2",
+          "instance_key": "70554a08643505bcce7f9b6a829b9c6f5ece1cacc04d3fa8711eaa0370ddd41e",
+          "chunk_index": 0,
+          "copied_from": "doc207464",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "237ef66da95b9c87e781146fc9fff2e74e3c2e78f989e8931f2024051b6c9d7c",
+          "char_start": 0,
+          "char_end": 101,
+          "tokens_with_specials": 21,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7259457111358643,
+          "kept": false
+        },
+        {
+          "chunk_id": "5f9d792ca68cae37520ca103f9a8ac393d08fd5c0d631b8317e1f66d4eda9e95:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/BN/1",
+          "instance_key": "5f9d792ca68cae37520ca103f9a8ac393d08fd5c0d631b8317e1f66d4eda9e95",
+          "chunk_index": 0,
+          "copied_from": "doc207464",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "a69221ee2f47314eee7807077d3b6f3c150768c36320d0197d9bb484d6f37b5e",
+          "char_start": 0,
+          "char_end": 98,
+          "tokens_with_specials": 21,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7190770506858826,
+          "kept": false
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6756724119186401,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 2,
+        "frequency_scores": [
+          0.0,
+          0.9774793129641388,
+          0.9774793129641388,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9774793129641388,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.03619104623794556,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9886755347251892
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9524844884872437
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9398694038391113
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5700207352638245
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5674994587898254
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5042629241943359
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.49686604738235474
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.4877307116985321
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.48598161339759827
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__BN2__unfiltered",
+          "request_sha256": "26a7132d39e0ba16ecc7e0ab45691ce6b3d77aa47e2099fd09e39d1b86d17557",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__BN2__filtered",
+          "request_sha256": "b8a65d790ef8c2f9cfe2512ef9b5e9499881a4f7d16844ed04b76cebb40ff323",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": true
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6756724119186401,
+          "kept": false
+        },
+        {
+          "chunk_id": "e30b36d5790e2c5cf4f60e43742a4794aaadb61a53e0dcc2eb5a9fbe0a6fdb0a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/PN/1",
+          "instance_key": "e30b36d5790e2c5cf4f60e43742a4794aaadb61a53e0dcc2eb5a9fbe0a6fdb0a",
+          "chunk_index": 0,
+          "copied_from": "doc26444",
+          "copy_number": 1,
+          "text": "Source excerpt.\nQueen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "0638215554b773e2cb8c0a6244832e6ee1d6551d6962a2bc2675646ea2657fb1",
+          "char_start": 0,
+          "char_end": 589,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6707156896591187,
+          "kept": false
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        },
+        {
+          "chunk_id": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc474073",
+          "instance_key": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The title Prince of Wales is given only to the heir apparentâ€”somebody who cannot be displaced in the succession to the throne by any future birth. The succession had followed male-preference primogeniture, which meant that the heir apparent was the eldest son of the reigning monarch or, if he was deceased, his eldest son and so on, or if the monarch's eldest son had died without issue, the monarch's second eldest son, etc. As such, a daughter of the sovereign who was next in line to the throne was never the heir apparent because she would be displaced in the succession by any future legitimate son of the sovereign.",
+          "text_sha256": "dee8dbb7ba6e7882a90c3c20f72c4728477274876ffbb7ea77be29a39017e19b",
+          "char_start": 0,
+          "char_end": 624,
+          "tokens_with_specials": 135,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5895479321479797,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        3
+      ],
+      "removed_indices": [
+        1,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.4088932164098829,
+          1.3862078156562951,
+          0.0,
+          0.900872350829971
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "removal_gap": 0.900872350829971,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.06529384851455688,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9731979966163635
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.679543137550354
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6626412868499756
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5710664987564087
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5139665007591248
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5042629837989807
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5026419162750244
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4968660771846771
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.434429794549942
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__PN1__unfiltered",
+          "request_sha256": "db7b35c8016dd789086b35b08695c7e06ca1acb86503b4fc82355e3ec518217f",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__PN1__filtered",
+          "request_sha256": "df505d5a8323b1d88c9987d47715849302889668d4e76dd124b735abe070017f",
+          "reference": {
+            "status": "ok",
+            "answer": "Princess Anne and her descendants.",
+            "first_call_id": "NanoNQ:test740__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Princess Anne and her descendants.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": true
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6756724119186401,
+          "kept": true
+        },
+        {
+          "chunk_id": "e30b36d5790e2c5cf4f60e43742a4794aaadb61a53e0dcc2eb5a9fbe0a6fdb0a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/PN/1",
+          "instance_key": "e30b36d5790e2c5cf4f60e43742a4794aaadb61a53e0dcc2eb5a9fbe0a6fdb0a",
+          "chunk_index": 0,
+          "copied_from": "doc26444",
+          "copy_number": 1,
+          "text": "Source excerpt.\nQueen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "0638215554b773e2cb8c0a6244832e6ee1d6551d6962a2bc2675646ea2657fb1",
+          "char_start": 0,
+          "char_end": 589,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6707156896591187,
+          "kept": false
+        },
+        {
+          "chunk_id": "7feb4bb29d37853ee255589999b260ed1cb9b6da50e3f74c82d9d5fbb691201b:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/PN/2",
+          "instance_key": "7feb4bb29d37853ee255589999b260ed1cb9b6da50e3f74c82d9d5fbb691201b",
+          "chunk_index": 0,
+          "copied_from": "doc26444",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nQueen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "ac07a8235f923b453d7ea981fac521ef44262dd7a5232c5ef3bc24b1da6b1152",
+          "char_start": 0,
+          "char_end": 592,
+          "tokens_with_specials": 130,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6683993339538574,
+          "kept": false
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        1,
+        4
+      ],
+      "removed_indices": [
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.0,
+          0.994270449009548,
+          0.994270449009548,
+          0.0
+        ],
+        "removal_ranking": [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        "removal_gap": 0.994270449009548,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.017367780208587646,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9971311092376709
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9797633290290833
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9731980562210083
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5139665603637695
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5059183835983276
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5042629837989807
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5026419758796692
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5004347562789917
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4968660771846771
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__PN2__unfiltered",
+          "request_sha256": "9bbdadbd3b096eecdc48e61db04f0a18bc4e6998503194119608106a1f9e434d",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__PN2__filtered",
+          "request_sha256": "b8a65d790ef8c2f9cfe2512ef9b5e9499881a4f7d16844ed04b76cebb40ff323",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "75c3b0b2fda1ca3572a94389d960f0f8bfb8eab62a4efeb32ed12a8516ca97cc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/BE/1",
+          "instance_key": "75c3b0b2fda1ca3572a94389d960f0f8bfb8eab62a4efeb32ed12a8516ca97cc",
+          "chunk_index": 0,
+          "copied_from": "doc207464",
+          "copy_number": 1,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": false
+        },
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7580201625823975,
+          "kept": false
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756724119186401,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        },
+        {
+          "chunk_id": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc474073",
+          "instance_key": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The title Prince of Wales is given only to the heir apparentâ€”somebody who cannot be displaced in the succession to the throne by any future birth. The succession had followed male-preference primogeniture, which meant that the heir apparent was the eldest son of the reigning monarch or, if he was deceased, his eldest son and so on, or if the monarch's eldest son had died without issue, the monarch's second eldest son, etc. As such, a daughter of the sovereign who was next in line to the throne was never the heir apparent because she would be displaced in the succession by any future legitimate son of the sovereign.",
+          "text_sha256": "dee8dbb7ba6e7882a90c3c20f72c4728477274876ffbb7ea77be29a39017e19b",
+          "char_start": 0,
+          "char_end": 624,
+          "tokens_with_specials": 135,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5895479321479797,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 1,
+        "frequency_scores": [
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3204571008682251,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.679543137550354
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5710664987564087
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5710664987564087
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5042629837989807
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4968660771846771
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.4968660771846771
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.434429794549942
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__BE1__unfiltered",
+          "request_sha256": "3fb63660108a4dac354b63fa05e51a7ef282c79963c82b1ebce1d6cfc7acc21c",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__BE1__filtered",
+          "request_sha256": "ea77bdcbeeab4492521f024e149a9934c8d1a5f8b55c3fc61e9b52b88b85464a",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "75c3b0b2fda1ca3572a94389d960f0f8bfb8eab62a4efeb32ed12a8516ca97cc:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/BE/1",
+          "instance_key": "75c3b0b2fda1ca3572a94389d960f0f8bfb8eab62a4efeb32ed12a8516ca97cc",
+          "chunk_index": 0,
+          "copied_from": "doc207464",
+          "copy_number": 1,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": false
+        },
+        {
+          "chunk_id": "88c3209f0eb2bcbeef34adedf46a838a3d82b9ecd1efc4c816bd9e30a7604cc4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/BE/2",
+          "instance_key": "88c3209f0eb2bcbeef34adedf46a838a3d82b9ecd1efc4c816bd9e30a7604cc4",
+          "chunk_index": 0,
+          "copied_from": "doc207464",
+          "copy_number": 2,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7580201625823975,
+          "kept": false
+        },
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7580201625823975,
+          "kept": true
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6756724119186401,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.000000476837215,
+          1.000000476837215,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.000000476837215,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5042629241943359
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.49686604738235474
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.49686604738235474
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.49686604738235474
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__BE2__unfiltered",
+          "request_sha256": "33a888701b9345957e9bc6d107af2af68785bc37193483a0ed4fee9d5c1440b3",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__BE2__filtered",
+          "request_sha256": "b8a65d790ef8c2f9cfe2512ef9b5e9499881a4f7d16844ed04b76cebb40ff323",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": true
+        },
+        {
+          "chunk_id": "8b79e7b8933acd81e6dda5e4c98f19f6bcf513915e778fe32c2551cd3bc0777c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/PE/1",
+          "instance_key": "8b79e7b8933acd81e6dda5e4c98f19f6bcf513915e778fe32c2551cd3bc0777c",
+          "chunk_index": 0,
+          "copied_from": "doc26444",
+          "copy_number": 1,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6756724119186401,
+          "kept": false
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756724119186401,
+          "kept": false
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        },
+        {
+          "chunk_id": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc474073",
+          "instance_key": "765725eadc5b6c29e2887bbe59cc1c96e601e98a07d181dfac2774f894520797",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The title Prince of Wales is given only to the heir apparentâ€”somebody who cannot be displaced in the succession to the throne by any future birth. The succession had followed male-preference primogeniture, which meant that the heir apparent was the eldest son of the reigning monarch or, if he was deceased, his eldest son and so on, or if the monarch's eldest son had died without issue, the monarch's second eldest son, etc. As such, a daughter of the sovereign who was next in line to the throne was never the heir apparent because she would be displaced in the succession by any future legitimate son of the sovereign.",
+          "text_sha256": "dee8dbb7ba6e7882a90c3c20f72c4728477274876ffbb7ea77be29a39017e19b",
+          "char_start": 0,
+          "char_end": 624,
+          "tokens_with_specials": 135,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5895479321479797,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        3
+      ],
+      "removed_indices": [
+        1,
+        2,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.4617793526289944,
+          1.4617793526289944,
+          0.0,
+          0.9235577515835587
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "removal_gap": 0.9235577515835587,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0821956992149353,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.000000238418579
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.679543137550354
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.679543137550354
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5710664987564087
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5042629837989807
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5042629837989807
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.4968660771846771
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.4968660771846771
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.434429794549942
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__PE1__unfiltered",
+          "request_sha256": "5027f8b8c09457e66fb2083ee9477f6b4c4e2f8800115eb07fe097f4ac0474a3",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__PE1__filtered",
+          "request_sha256": "df505d5a8323b1d88c9987d47715849302889668d4e76dd124b735abe070017f",
+          "reference": {
+            "status": "ok",
+            "answer": "Princess Anne and her descendants.",
+            "first_call_id": "NanoNQ:test740__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Princess Anne and her descendants.",
+            "result_origin": "Suresh_local_continuation_2026-10-27",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test740",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc207464",
+          "instance_key": "d5a8ee4a0af3aea6b0bac0f9c6541e0287877a082d4f74e9367017c842bf9dc2",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The succession to the throne was the same as the succession to the British throne.",
+          "text_sha256": "f51ee376f90221b676d8325220b1d6d329b404463200ce4d199f1013525f494f",
+          "char_start": 0,
+          "char_end": 82,
+          "tokens_with_specials": 18,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7580201625823975,
+          "kept": true
+        },
+        {
+          "chunk_id": "20be30dc962c70bfd9b1884e276c4411bd4cecced903237637298eb66ea1682d:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/PE/2",
+          "instance_key": "20be30dc962c70bfd9b1884e276c4411bd4cecced903237637298eb66ea1682d",
+          "chunk_index": 0,
+          "copied_from": "doc26444",
+          "copy_number": 2,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6756724119186401,
+          "kept": false
+        },
+        {
+          "chunk_id": "8b79e7b8933acd81e6dda5e4c98f19f6bcf513915e778fe32c2551cd3bc0777c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test740/PE/1",
+          "instance_key": "8b79e7b8933acd81e6dda5e4c98f19f6bcf513915e778fe32c2551cd3bc0777c",
+          "chunk_index": 0,
+          "copied_from": "doc26444",
+          "copy_number": 1,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6756724119186401,
+          "kept": false
+        },
+        {
+          "chunk_id": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26444",
+          "instance_key": "9165554b2dcac29aeb28716a7a89fbe2d9ea5998a095c4408bbc085da04be1f9",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Queen Elizabeth II is the sovereign, and her heir apparent is her eldest son, Charles, Prince of Wales. Next in line after him is Prince William, Duke of Cambridge, the Prince of Wales's elder son. Third in line is Prince George, the son of the Duke of Cambridge, followed by his sister, Princess Charlotte. Fifth in line is Prince Henry of Wales, the younger son of the Prince of Wales. Sixth in line is Prince Andrew, Duke of York, the Queen's second-eldest son. Any of the first six in line marrying without the sovereign's consent would be disqualified from succession.",
+          "text_sha256": "2a7ce82c82231a264b00b8896bc7f61715741d44f7a31559939a824271203cb7",
+          "char_start": 0,
+          "char_end": 573,
+          "tokens_with_specials": 127,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6756724119186401,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc26461",
+          "instance_key": "8a5aa807c5c36af49b336d63d3f2865d94ca8f48f958a0a1856dc9a2db55c643",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The English Bill of Rights passed in 1689 determined succession to the English, Scottish and Irish Thrones. First in the line were the descendants of Mary II. Next came Mary's sister Princess Anne and her descendants. Finally, the descendants of William by any future marriage were added to the line of succession. Only Protestants were allowed to succeed to the Thrones, and those who married Roman Catholics were excluded.",
+          "text_sha256": "0c0167e29e2db589d52d5fff33f0221e262f695986e044c85791f0e12661fa73",
+          "char_start": 0,
+          "char_end": 424,
+          "tokens_with_specials": 83,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.621906042098999,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 1.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5973474383354187
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5042629241943359
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5042629241943359
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.5042629241943359
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.49686604738235474
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.49686604738235474
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.49686604738235474
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test740__PE2__unfiltered",
+          "request_sha256": "30cc3c79d09732292897129469eac3ba4f005452febae5fe7c495526acd62cf3",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test740__PE2__filtered",
+          "request_sha256": "b8a65d790ef8c2f9cfe2512ef9b5e9499881a4f7d16844ed04b76cebb40ff323",
+          "reference": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge",
+            "first_call_id": "NanoNQ:test740__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Prince William, Duke of Cambridge.",
+            "result_origin": "Suresh_explicit_recovery_v3",
+            "response_reused": true
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

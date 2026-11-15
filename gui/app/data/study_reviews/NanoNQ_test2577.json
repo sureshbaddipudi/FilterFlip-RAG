@@ -1,0 +1,534 @@
+{
+  "case_id": "NanoNQ:test2577",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test2577.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test2577.md",
+  "records": [
+    {
+      "record_id": "R1:d94ff43bc4143ea313be6bf7e7acda3e0d992d26152631944c5d1eee8007079a",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2577",
+      "request_sha256": "d94ff43bc4143ea313be6bf7e7acda3e0d992d26152631944c5d1eee8007079a",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2577__BN2__unfiltered",
+          "case_id": "NanoNQ:test2577",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e74c63e3d158a50cdf7d7313bb97561f27706bfdb9795c5a8c09c6953aa536e0:00000",
+            "f2564a19e5e4e880df1ec411a9876fd8dab069e2f61d89886af02ac598f74acb:00000",
+            "6fd1b6527fe0026619846a15bc34cc27b33248d544c1e8de589d00b81942845b:00000",
+            "75d3fcfa850b03a24cb74809b1f699ca9c85c0b20557bb53cbea7293441429cb:00000",
+            "6ec94dd203436d9e36b7e1419913219bd1a4f4e34f38554fb72cd803e909e834:00000"
+          ],
+          "text_hashes": [
+            "3abc479e993ac9b3ab4bfa00c9246126c18a90afd19371487c551614adf7e4bc",
+            "c11ac477dcc0011b645186982b64ed42d4312922304542498f2983e0b0daa1c8",
+            "3fbd1d18dce03b78d76ff14105c61fdb3402d3752f6a8ef0f9e9a265b2d8fbcf",
+            "ca51a901d35aab93cec403d75760b6b35b8df63ca08e1f38aaab97447bcc74e3",
+            "acea5dd99e2bab7481da5a063c2bb885faa2b3f965b4e61b8b63c2192afd5d46"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2577.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "Passage e74c63 (or its exact copy) states the Assyrians conquered the Kingdom of Israel in 722 BCE; Samaria is in no retrieved passage.",
+        "disagreement": "Kingdom named instead of the city Samaria; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "names the Kingdom of Israel, not the city Samaria; the city/kingdom distinction is the qualification's point",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:c585b80f777eee0177fa5b186dc09897b16d0bc6942fc2a6ea70d17af8038af1",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2577",
+      "request_sha256": "c585b80f777eee0177fa5b186dc09897b16d0bc6942fc2a6ea70d17af8038af1",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2577__BN2__filtered",
+          "case_id": "NanoNQ:test2577",
+          "condition": "BN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e74c63e3d158a50cdf7d7313bb97561f27706bfdb9795c5a8c09c6953aa536e0:00000",
+            "75d3fcfa850b03a24cb74809b1f699ca9c85c0b20557bb53cbea7293441429cb:00000",
+            "6ec94dd203436d9e36b7e1419913219bd1a4f4e34f38554fb72cd803e909e834:00000"
+          ],
+          "text_hashes": [
+            "3abc479e993ac9b3ab4bfa00c9246126c18a90afd19371487c551614adf7e4bc",
+            "ca51a901d35aab93cec403d75760b6b35b8df63ca08e1f38aaab97447bcc74e3",
+            "acea5dd99e2bab7481da5a063c2bb885faa2b3f965b4e61b8b63c2192afd5d46"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test2577__BE2__filtered",
+          "case_id": "NanoNQ:test2577",
+          "condition": "BE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e74c63e3d158a50cdf7d7313bb97561f27706bfdb9795c5a8c09c6953aa536e0:00000",
+            "75d3fcfa850b03a24cb74809b1f699ca9c85c0b20557bb53cbea7293441429cb:00000",
+            "6ec94dd203436d9e36b7e1419913219bd1a4f4e34f38554fb72cd803e909e834:00000"
+          ],
+          "text_hashes": [
+            "3abc479e993ac9b3ab4bfa00c9246126c18a90afd19371487c551614adf7e4bc",
+            "ca51a901d35aab93cec403d75760b6b35b8df63ca08e1f38aaab97447bcc74e3",
+            "acea5dd99e2bab7481da5a063c2bb885faa2b3f965b4e61b8b63c2192afd5d46"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2577.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "Passage e74c63 (or its exact copy) states the Assyrians conquered the Kingdom of Israel in 722 BCE; Samaria is in no retrieved passage.",
+        "disagreement": "Kingdom named instead of the city Samaria; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "names the Kingdom of Israel, not the city Samaria; the city/kingdom distinction is the qualification's point",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:bf40a9433b9881223ffd80b9101d6e0031692cbb0b30cd49cef1002874e8e631",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2577",
+      "request_sha256": "bf40a9433b9881223ffd80b9101d6e0031692cbb0b30cd49cef1002874e8e631",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2577__BE1__unfiltered",
+          "case_id": "NanoNQ:test2577",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "d94db51b6e64c65bd386731ce08ccd41a3074b7caff8daf42a314f86a4ed2f6c:00000",
+            "e74c63e3d158a50cdf7d7313bb97561f27706bfdb9795c5a8c09c6953aa536e0:00000",
+            "75d3fcfa850b03a24cb74809b1f699ca9c85c0b20557bb53cbea7293441429cb:00000",
+            "6ec94dd203436d9e36b7e1419913219bd1a4f4e34f38554fb72cd803e909e834:00000",
+            "fe9644b5b6c5240a01fb069866f4c33714d95f8b5c0afc0872c0c3606fa1b82f:00000"
+          ],
+          "text_hashes": [
+            "3abc479e993ac9b3ab4bfa00c9246126c18a90afd19371487c551614adf7e4bc",
+            "3abc479e993ac9b3ab4bfa00c9246126c18a90afd19371487c551614adf7e4bc",
+            "ca51a901d35aab93cec403d75760b6b35b8df63ca08e1f38aaab97447bcc74e3",
+            "acea5dd99e2bab7481da5a063c2bb885faa2b3f965b4e61b8b63c2192afd5d46",
+            "00871b95742d9138e6f1a99d7f27e504dda8a66d8d382841fb355e8d34e4d8e1"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2577.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "Passage e74c63 (or its exact copy) states the Assyrians conquered the Kingdom of Israel in 722 BCE; Samaria is in no retrieved passage.",
+        "disagreement": "Kingdom named instead of the city Samaria; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "names the Kingdom of Israel, not the city Samaria; the city/kingdom distinction is the qualification's point",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:00bc31c689ea2bba4990204127e8a9665afeb6d37c9c004e5c5b7f6c05960330",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test2577",
+      "request_sha256": "00bc31c689ea2bba4990204127e8a9665afeb6d37c9c004e5c5b7f6c05960330",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test2577__BE2__unfiltered",
+          "case_id": "NanoNQ:test2577",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "27a6951a67f42510d7bcf8f1b41bc98df22a4b9aa0e205d5e2086830b6c6ef08:00000",
+            "d94db51b6e64c65bd386731ce08ccd41a3074b7caff8daf42a314f86a4ed2f6c:00000",
+            "e74c63e3d158a50cdf7d7313bb97561f27706bfdb9795c5a8c09c6953aa536e0:00000",
+            "75d3fcfa850b03a24cb74809b1f699ca9c85c0b20557bb53cbea7293441429cb:00000",
+            "6ec94dd203436d9e36b7e1419913219bd1a4f4e34f38554fb72cd803e909e834:00000"
+          ],
+          "text_hashes": [
+            "3abc479e993ac9b3ab4bfa00c9246126c18a90afd19371487c551614adf7e4bc",
+            "3abc479e993ac9b3ab4bfa00c9246126c18a90afd19371487c551614adf7e4bc",
+            "3abc479e993ac9b3ab4bfa00c9246126c18a90afd19371487c551614adf7e4bc",
+            "ca51a901d35aab93cec403d75760b6b35b8df63ca08e1f38aaab97447bcc74e3",
+            "acea5dd99e2bab7481da5a063c2bb885faa2b3f965b4e61b8b63c2192afd5d46"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test2577.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "Passage e74c63 (or its exact copy) states the Assyrians conquered the Kingdom of Israel in 722 BCE; Samaria is in no retrieved passage.",
+        "disagreement": "Kingdom named instead of the city Samaria; core usability uncertain; flagged for Suresh"
+      },
+      "judgment": {
+        "context_support": "partial",
+        "answer_category": "incomplete",
+        "core_usable": "uncertain",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "names the Kingdom of Israel, not the city Samaria; the city/kingdom distinction is the qualification's point",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2577:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2577",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:d94ff43bc4143ea313be6bf7e7acda3e0d992d26152631944c5d1eee8007079a",
+          "R1:c585b80f777eee0177fa5b186dc09897b16d0bc6942fc2a6ea70d17af8038af1"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2577:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2577",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "P condition; no copy is retrieved and the answer is unchanged by filtering, strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2577:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2577",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable. Filtered prefix answer abstains.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:bf40a9433b9881223ffd80b9101d6e0031692cbb0b30cd49cef1002874e8e631"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2577:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2577",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:c585b80f777eee0177fa5b186dc09897b16d0bc6942fc2a6ea70d17af8038af1",
+          "R1:00bc31c689ea2bba4990204127e8a9665afeb6d37c9c004e5c5b7f6c05960330"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2577:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2577",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "P condition; no copy is retrieved and the answer is unchanged by filtering, strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test2577:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test2577",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "e74c63"
+        ],
+        "rationale": "P condition; no copy is retrieved and the answer is unchanged by filtering, strict endpoint not met. Answers come from the original prefix.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "partial",
+        "filtered_context_support": "partial",
+        "unfiltered_core_usable": "uncertain",
+        "filtered_core_usable": "uncertain",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      }
+    }
+  ]
+}

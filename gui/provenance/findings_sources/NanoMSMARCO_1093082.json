@@ -1,0 +1,897 @@
+{
+  "case": {
+    "case_id": "NanoMSMARCO:1093082",
+    "question": "meaning of copper for a policeman",
+    "expected_answer": "A policeman; literally, one who arrests.",
+    "source_qualification": "Meaning stated by the source. The passage's suggestions about badges and historical origins remain tentative, not required answer elements.",
+    "source_review_status_historical": "assistant_only",
+    "prior_component_assistant_assessment": {
+      "case_id": "NanoMSMARCO:1093082",
+      "assessment": "alternative_support_retained",
+      "rationale": "PN1 retains copper as police officer and a passage explaining catching criminals. This supports the core meaning and an arrest/catch interpretation despite the designated quote disappearing; etymology remains uncertain.",
+      "reviewer": "Assistant",
+      "human_verified": false,
+      "independent_review": false,
+      "scope": "Post-filter passage support only; no generated-answer or full-system outcome.",
+      "kept_ids": {
+        "C": [
+          "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+          "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+          "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+          "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000",
+          "f214e836e44bca3b12aab45536be020fd52779d4a009996ed614ed9183715272:00000"
+        ],
+        "BN1": [
+          "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+          "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+          "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+        ],
+        "PN1": [
+          "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+          "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+          "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000"
+        ]
+      }
+    },
+    "logical_positions": 6,
+    "unique_requests": 5,
+    "novel_request_hashes": 2
+  },
+  "current_primary_review_history": {
+    "case_id": "NanoMSMARCO:1093082",
+    "question": "meaning of copper for a policeman",
+    "current_assessment": {
+      "source": "prior_joint_adjudication",
+      "recorded_value": "non-event",
+      "rule_set_id": "week04_core_answer_mixed_usable_2026-10-26"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-26",
+    "suresh_review_date": "2026-10-26",
+    "date_basis": "Dated eight-case joint adjudication record. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Earlier eight-case joint adjudication",
+    "source_record": "data/human_reviews.json; case NanoMSMARCO:1093082"
+  },
+  "contexts": [
+    {
+      "condition": "C",
+      "retrieved": [
+        {
+          "chunk_id": "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4605271",
+          "instance_key": "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wikipedia says that it is an acronym for constable on patrol. I have personally herd the phrase citizen on patrol. However, there's another story that in early NYC, officers were noted for having copper buttons on their uniforms, so the word copper became slang for an officer which gets shortened to cop.",
+          "text_sha256": "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7889890670776367
+        },
+        {
+          "chunk_id": "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4900578",
+          "instance_key": "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To cop something means to sieze or catch it. In 19th century England, the term copper began being used as slang for police officers, since their job is to catch criminals. At some point, it became shortened to cop.",
+          "text_sha256": "229a86c2753da0fbf24633f00f21c498c0c0e991928463dadbb538bdab4ee03c",
+          "char_start": 0,
+          "char_end": 214,
+          "tokens_with_specials": 49,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7837153673171997
+        },
+        {
+          "chunk_id": "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4409027",
+          "instance_key": "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "This usage of copper got shortened to cop.. The first documented use of the term copper for a police officer is in 1846. The Oxford English Dictionary documents this usage. Most sources report that the first documented use of the short form cop as applied to a police officer is in 1859. Snopes finds that the term copper was used in London for police by 1846.",
+          "text_sha256": "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7",
+          "char_start": 0,
+          "char_end": 360,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7606551051139832
+        },
+        {
+          "chunk_id": "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7778956",
+          "instance_key": "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Based on current findings it seems that copper (a policeman, lit. 'one who arrests') predates cop (either used verbally and meaning to arrest or when a noun meaning a policeman) It may well be that the copper badges carried by New York City’s first police sergeants - though not the buttons worn by London 'bobbies' - play a part.",
+          "text_sha256": "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd",
+          "char_start": 0,
+          "char_end": 330,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7527731657028198
+        },
+        {
+          "chunk_id": "f214e836e44bca3b12aab45536be020fd52779d4a009996ed614ed9183715272:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "2531512",
+          "instance_key": "f214e836e44bca3b12aab45536be020fd52779d4a009996ed614ed9183715272",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "In Americia,The badges were copper in the old days, so crooks called them coppers, which was later shorten to cop. The English I think coined the Phrase Constable on Patrol shortened to COP! There are several different stories around.",
+          "text_sha256": "c68969493bcae285ea15a42a70136296ab7447dea87ea78d2f6901dc56db407c",
+          "char_start": 0,
+          "char_end": 234,
+          "tokens_with_specials": 53,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6860499382019043
+        }
+      ],
+      "T_native_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "Wikipedia says that it is an acronym for constable on patrol. I have personally herd the phrase citizen on patrol. However, there's another story that in early NYC, officers were noted for having copper buttons on their uniforms, so the word copper became slang for an officer which gets shortened to cop.",
+        "To cop something means to sieze or catch it. In 19th century England, the term copper began being used as slang for police officers, since their job is to catch criminals. At some point, it became shortened to cop.",
+        "This usage of copper got shortened to cop.. The first documented use of the term copper for a police officer is in 1846. The Oxford English Dictionary documents this usage. Most sources report that the first documented use of the short form cop as applied to a police officer is in 1859. Snopes finds that the term copper was used in London for police by 1846.",
+        "Based on current findings it seems that copper (a policeman, lit. 'one who arrests') predates cop (either used verbally and meaning to arrest or when a noun meaning a policeman) It may well be that the copper badges carried by New York City’s first police sergeants - though not the buttons worn by London 'bobbies' - play a part.",
+        "In Americia,The badges were copper in the old days, so crooks called them coppers, which was later shorten to cop. The English I think coined the Phrase Constable on Patrol shortened to COP! There are several different stories around."
+      ],
+      "T_removed_indices": [],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        3
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1093082__C__U",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "arm": "U",
+          "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being shortened to \"cop.\"",
+          "ordinal": 56,
+          "same_run_reuse_of": "NanoMSMARCO:1093082__C__T",
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1093082__C__unfiltered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "meaning of copper for a policeman",
+          "expected_answer": "A policeman; literally, one who arrests.",
+          "source_qualification": "Meaning stated by the source. The passage's suggestions about badges and historical origins remain tentative, not required answer elements.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+            "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+            "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+            "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000",
+            "f214e836e44bca3b12aab45536be020fd52779d4a009996ed614ed9183715272:00000"
+          ],
+          "text_hashes": [
+            "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+            "229a86c2753da0fbf24633f00f21c498c0c0e991928463dadbb538bdab4ee03c",
+            "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7",
+            "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd",
+            "c68969493bcae285ea15a42a70136296ab7447dea87ea78d2f6901dc56db407c"
+          ],
+          "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+          "estimated_prompt_tokens": 387,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1093082__C__unfiltered",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being used in 1846 in London. The term \"cop\" is a shortened version of \"copper.\"",
+          "prompt_eval_count": 387,
+          "eval_count": 62,
+          "done_reason": "stop",
+          "wall_seconds": 30.31141898700298,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1093082__C__unfiltered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being shortened to \"cop.\"",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1093082__C__T",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "arm": "T",
+          "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being shortened to \"cop.\"",
+          "ordinal": 56,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": true,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1093082__C__unfiltered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "mode": "unfiltered",
+          "question": "meaning of copper for a policeman",
+          "expected_answer": "A policeman; literally, one who arrests.",
+          "source_qualification": "Meaning stated by the source. The passage's suggestions about badges and historical origins remain tentative, not required answer elements.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+            "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+            "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+            "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000",
+            "f214e836e44bca3b12aab45536be020fd52779d4a009996ed614ed9183715272:00000"
+          ],
+          "text_hashes": [
+            "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+            "229a86c2753da0fbf24633f00f21c498c0c0e991928463dadbb538bdab4ee03c",
+            "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7",
+            "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd",
+            "c68969493bcae285ea15a42a70136296ab7447dea87ea78d2f6901dc56db407c"
+          ],
+          "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+          "estimated_prompt_tokens": 387,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1093082__C__unfiltered",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being used in 1846 in London. The term \"cop\" is a shortened version of \"copper.\"",
+          "prompt_eval_count": 387,
+          "eval_count": 62,
+          "done_reason": "stop",
+          "wall_seconds": 30.31141898700298,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1093082__C__unfiltered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "mode": "unfiltered",
+          "request_sha256": "89d8012831a52cb334e54f557a97e1023808924438a7be7aa06ef85ed33b32cf",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early NYC. It later became slang for police officers, with the term \"copper\" being shortened to \"cop.\"",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": false,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1093082__C__filtered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "C",
+          "mode": "filtered",
+          "question": "meaning of copper for a policeman",
+          "expected_answer": "A policeman; literally, one who arrests.",
+          "source_qualification": "Meaning stated by the source. The passage's suggestions about badges and historical origins remain tentative, not required answer elements.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+            "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+          ],
+          "text_hashes": [
+            "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+            "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd"
+          ],
+          "request_sha256": "60608dbde176105ddcb7faa8af47b0aed4034056e26ee286c608a39a6412af6c",
+          "estimated_prompt_tokens": 204,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1093082__C__filtered",
+          "status": "ok",
+          "answer": "\"copper\" can mean a policeman, derived from the copper buttons on their uniforms in early NYC.",
+          "prompt_eval_count": 204,
+          "eval_count": 21,
+          "done_reason": "stop",
+          "wall_seconds": 10.33806589100277,
+          "response_reused": false
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "BN1",
+      "retrieved": [
+        {
+          "chunk_id": "911cc001ad771caef32469912cc3cbf31a689a1b6b223280d4c0b6fd4b949dbf:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1093082/BN/1",
+          "instance_key": "911cc001ad771caef32469912cc3cbf31a689a1b6b223280d4c0b6fd4b949dbf",
+          "chunk_index": 0,
+          "copied_from": "4605271",
+          "copy_number": 1,
+          "text": "Source excerpt.\nWikipedia says that it is an acronym for constable on patrol. I have personally herd the phrase citizen on patrol. However, there's another story that in early NYC, officers were noted for having copper buttons on their uniforms, so the word copper became slang for an officer which gets shortened to cop.",
+          "text_sha256": "00068ae8d1d7057833100dd9170c6ce0367faa507f5716ccd83369bc7e32745a",
+          "char_start": 0,
+          "char_end": 321,
+          "tokens_with_specials": 65,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7950090169906616
+        },
+        {
+          "chunk_id": "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4605271",
+          "instance_key": "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wikipedia says that it is an acronym for constable on patrol. I have personally herd the phrase citizen on patrol. However, there's another story that in early NYC, officers were noted for having copper buttons on their uniforms, so the word copper became slang for an officer which gets shortened to cop.",
+          "text_sha256": "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7889890670776367
+        },
+        {
+          "chunk_id": "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4900578",
+          "instance_key": "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To cop something means to sieze or catch it. In 19th century England, the term copper began being used as slang for police officers, since their job is to catch criminals. At some point, it became shortened to cop.",
+          "text_sha256": "229a86c2753da0fbf24633f00f21c498c0c0e991928463dadbb538bdab4ee03c",
+          "char_start": 0,
+          "char_end": 214,
+          "tokens_with_specials": 49,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7837153673171997
+        },
+        {
+          "chunk_id": "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4409027",
+          "instance_key": "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "This usage of copper got shortened to cop.. The first documented use of the term copper for a police officer is in 1846. The Oxford English Dictionary documents this usage. Most sources report that the first documented use of the short form cop as applied to a police officer is in 1859. Snopes finds that the term copper was used in London for police by 1846.",
+          "text_sha256": "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7",
+          "char_start": 0,
+          "char_end": 360,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7606551051139832
+        },
+        {
+          "chunk_id": "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7778956",
+          "instance_key": "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Based on current findings it seems that copper (a policeman, lit. 'one who arrests') predates cop (either used verbally and meaning to arrest or when a noun meaning a policeman) It may well be that the copper badges carried by New York City’s first police sergeants - though not the buttons worn by London 'bobbies' - play a part.",
+          "text_sha256": "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd",
+          "char_start": 0,
+          "char_end": 330,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7527731657028198
+        }
+      ],
+      "T_native_indices": [
+        2,
+        3,
+        4
+      ],
+      "T_output_texts": [
+        "To cop something means to sieze or catch it. In 19th century England, the term copper began being used as slang for police officers, since their job is to catch criminals. At some point, it became shortened to cop.",
+        "This usage of copper got shortened to cop.. The first documented use of the term copper for a police officer is in 1846. The Oxford English Dictionary documents this usage. Most sources report that the first documented use of the short form cop as applied to a police officer is in 1859. Snopes finds that the term copper was used in London for police by 1846.",
+        "Based on current findings it seems that copper (a policeman, lit. 'one who arrests') predates cop (either used verbally and meaning to arrest or when a noun meaning a policeman) It may well be that the copper badges carried by New York City’s first police sergeants - though not the buttons worn by London 'bobbies' - play a part."
+      ],
+      "T_removed_indices": [
+        0,
+        1
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+        ],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        3,
+        4
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1093082__BN1__U",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BN1",
+          "arm": "U",
+          "request_sha256": "1951d6a617c6248baa3a58594cd797c9a87de51376bdfaa1dee2246f630e3635",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman predates \"cop,\" with the first documented use in 1846.",
+          "ordinal": 57,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": false,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1093082__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "question": "meaning of copper for a policeman",
+          "expected_answer": "A policeman; literally, one who arrests.",
+          "source_qualification": "Meaning stated by the source. The passage's suggestions about badges and historical origins remain tentative, not required answer elements.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "911cc001ad771caef32469912cc3cbf31a689a1b6b223280d4c0b6fd4b949dbf:00000",
+            "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+            "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+            "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+            "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+          ],
+          "text_hashes": [
+            "00068ae8d1d7057833100dd9170c6ce0367faa507f5716ccd83369bc7e32745a",
+            "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+            "229a86c2753da0fbf24633f00f21c498c0c0e991928463dadbb538bdab4ee03c",
+            "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7",
+            "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd"
+          ],
+          "request_sha256": "1951d6a617c6248baa3a58594cd797c9a87de51376bdfaa1dee2246f630e3635",
+          "estimated_prompt_tokens": 401,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1093082__BN1__unfiltered",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early New York City. It later became slang for police officers, with the term \"cop\" being a shortened version of \"copper.\"",
+          "prompt_eval_count": 401,
+          "eval_count": 47,
+          "done_reason": "stop",
+          "wall_seconds": 27.265164364005614,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1093082__BN1__unfiltered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BN1",
+          "mode": "unfiltered",
+          "request_sha256": "1951d6a617c6248baa3a58594cd797c9a87de51376bdfaa1dee2246f630e3635",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman originated from the copper buttons on their uniforms in early New York City. It later became slang for police officers, with the term \"cop\" being a shortened version of \"copper.\"",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1093082__BN1__T",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BN1",
+          "arm": "T",
+          "request_sha256": "b78d21fe80294bbcb946f2b50bceb0528ace5053307eeb3a5ab034f988f5ad1a",
+          "status": "ok",
+          "answer": "\"Copper\" was used as slang for police officers in 19th century England, derived from their job of catching criminals. The term \"copper\" was shortened to \"cop\" at some point.",
+          "ordinal": 58,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1093082__BE1__filtered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "BE1",
+          "mode": "filtered",
+          "question": "meaning of copper for a policeman",
+          "expected_answer": "A policeman; literally, one who arrests.",
+          "source_qualification": "Meaning stated by the source. The passage's suggestions about badges and historical origins remain tentative, not required answer elements.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+            "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+          ],
+          "text_hashes": [
+            "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7",
+            "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd"
+          ],
+          "request_sha256": "1805f441e64adbd1e561a6233a9444988757949c30118e177e1eac836005ae6e",
+          "estimated_prompt_tokens": 227,
+          "identical_request_to": "NanoMSMARCO:1093082__BN1__filtered",
+          "first_call_id": "NanoMSMARCO:1093082__BN1__filtered",
+          "status": "ok",
+          "answer": "\"Copper\" for a policeman predates \"cop\" and is first documented in 1846.",
+          "prompt_eval_count": 227,
+          "eval_count": 23,
+          "done_reason": "stop",
+          "wall_seconds": 16.426955476999865,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    },
+    {
+      "condition": "PN1",
+      "retrieved": [
+        {
+          "chunk_id": "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4605271",
+          "instance_key": "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Wikipedia says that it is an acronym for constable on patrol. I have personally herd the phrase citizen on patrol. However, there's another story that in early NYC, officers were noted for having copper buttons on their uniforms, so the word copper became slang for an officer which gets shortened to cop.",
+          "text_sha256": "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+          "char_start": 0,
+          "char_end": 305,
+          "tokens_with_specials": 62,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7889890670776367
+        },
+        {
+          "chunk_id": "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4900578",
+          "instance_key": "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "To cop something means to sieze or catch it. In 19th century England, the term copper began being used as slang for police officers, since their job is to catch criminals. At some point, it became shortened to cop.",
+          "text_sha256": "229a86c2753da0fbf24633f00f21c498c0c0e991928463dadbb538bdab4ee03c",
+          "char_start": 0,
+          "char_end": 214,
+          "tokens_with_specials": 49,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7837153673171997
+        },
+        {
+          "chunk_id": "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "4409027",
+          "instance_key": "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "This usage of copper got shortened to cop.. The first documented use of the term copper for a police officer is in 1846. The Oxford English Dictionary documents this usage. Most sources report that the first documented use of the short form cop as applied to a police officer is in 1859. Snopes finds that the term copper was used in London for police by 1846.",
+          "text_sha256": "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7",
+          "char_start": 0,
+          "char_end": 360,
+          "tokens_with_specials": 76,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7606551051139832
+        },
+        {
+          "chunk_id": "c0267b2026427bb8552d48b05eb5ac030768792390ce82f32af39470f52f42a2:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "copy/NanoMSMARCO:1093082/PN/1",
+          "instance_key": "c0267b2026427bb8552d48b05eb5ac030768792390ce82f32af39470f52f42a2",
+          "chunk_index": 0,
+          "copied_from": "7778956",
+          "copy_number": 1,
+          "text": "Source excerpt.\nBased on current findings it seems that copper (a policeman, lit. 'one who arrests') predates cop (either used verbally and meaning to arrest or when a noun meaning a policeman) It may well be that the copper badges carried by New York City’s first police sergeants - though not the buttons worn by London 'bobbies' - play a part.",
+          "text_sha256": "e051f6345d29ed89504900aa76baea4ac5e929bb3128cbe3d796e50f0d3c6ba5",
+          "char_start": 0,
+          "char_end": 346,
+          "tokens_with_specials": 81,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7575200796127319
+        },
+        {
+          "chunk_id": "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000",
+          "dataset": "NanoMSMARCO",
+          "record_id": "7778956",
+          "instance_key": "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Based on current findings it seems that copper (a policeman, lit. 'one who arrests') predates cop (either used verbally and meaning to arrest or when a noun meaning a policeman) It may well be that the copper badges carried by New York City’s first police sergeants - though not the buttons worn by London 'bobbies' - play a part.",
+          "text_sha256": "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd",
+          "char_start": 0,
+          "char_end": 330,
+          "tokens_with_specials": 78,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.7527731657028198
+        }
+      ],
+      "T_native_indices": [
+        0,
+        1,
+        2
+      ],
+      "T_output_texts": [
+        "Wikipedia says that it is an acronym for constable on patrol. I have personally herd the phrase citizen on patrol. However, there's another story that in early NYC, officers were noted for having copper buttons on their uniforms, so the word copper became slang for an officer which gets shortened to cop.",
+        "To cop something means to sieze or catch it. In 19th century England, the term copper began being used as slang for police officers, since their job is to catch criminals. At some point, it became shortened to cop.",
+        "This usage of copper got shortened to cop.. The first documented use of the term copper for a police officer is in 1846. The Oxford English Dictionary documents this usage. Most sources report that the first documented use of the short form cop as applied to a police officer is in 1859. Snopes finds that the term copper was used in London for police by 1846."
+      ],
+      "T_removed_indices": [
+        3,
+        4
+      ],
+      "component_before": {
+        "original_source_present": true,
+        "source_or_copy_present": true,
+        "quote_present": true,
+        "quote_chunk_ids": [
+          "c0267b2026427bb8552d48b05eb5ac030768792390ce82f32af39470f52f42a2:00000",
+          "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+        ],
+        "inserted_documents": 1
+      },
+      "component_after": {
+        "original_source_present": false,
+        "source_or_copy_present": false,
+        "quote_present": false,
+        "quote_chunk_ids": [],
+        "inserted_documents": 0
+      },
+      "prior_ragdefender_survivor_indices": [
+        0,
+        2
+      ],
+      "U": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1093082__PN1__U",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PN1",
+          "arm": "U",
+          "request_sha256": "fe8e41524fcc371c7e017f1ef8dcd189769ce0faca8f214675d5fd6a6cdf07e2",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman predates \"cop,\" with the first documented use in 1846.",
+          "ordinal": 60,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": false,
+          "exact_historical_reproduction_match": false,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": {
+          "call_id": "NanoMSMARCO:1093082__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "question": "meaning of copper for a policeman",
+          "expected_answer": "A policeman; literally, one who arrests.",
+          "source_qualification": "Meaning stated by the source. The passage's suggestions about badges and historical origins remain tentative, not required answer elements.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+            "688c62f0be21b980e1c22780e80081bfdbd25070051d7307052ecb9be7222500:00000",
+            "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000",
+            "c0267b2026427bb8552d48b05eb5ac030768792390ce82f32af39470f52f42a2:00000",
+            "42b9ad4264b7a1534fbbbc94e9d8c5616912e2e7978b51b98c4aa4515e1312a8:00000"
+          ],
+          "text_hashes": [
+            "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+            "229a86c2753da0fbf24633f00f21c498c0c0e991928463dadbb538bdab4ee03c",
+            "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7",
+            "e051f6345d29ed89504900aa76baea4ac5e929bb3128cbe3d796e50f0d3c6ba5",
+            "95f674803f025632b9bfa4cf5175a594035772d349f8b581d49c00b678dd58fd"
+          ],
+          "request_sha256": "fe8e41524fcc371c7e017f1ef8dcd189769ce0faca8f214675d5fd6a6cdf07e2",
+          "estimated_prompt_tokens": 413,
+          "identical_request_to": null,
+          "first_call_id": "NanoMSMARCO:1093082__PN1__unfiltered",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman predates \"cop,\" with the first documented use in 1846. It is believed that the copper badges carried by New York City's first police sergeants contributed to this usage.",
+          "prompt_eval_count": 413,
+          "eval_count": 49,
+          "done_reason": "stop",
+          "wall_seconds": 21.82663443199999,
+          "response_reused": false
+        },
+        "historical_reproduction": {
+          "call_id": "NanoMSMARCO:1093082__PN1__unfiltered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PN1",
+          "mode": "unfiltered",
+          "request_sha256": "fe8e41524fcc371c7e017f1ef8dcd189769ce0faca8f214675d5fd6a6cdf07e2",
+          "status": "ok",
+          "answer": "\"Copper\" as a term for a policeman predates \"cop,\" with the first documented use in 1846. It is believed that the copper badges carried by New York City's first police sergeants contributed to this usage.",
+          "result_origin": "Suresh_local_continuation_2026-10-27",
+          "exact_reference_text_match": true,
+          "response_reused": false,
+          "semantic_review": "pending; no automatic transfer of original labels"
+        }
+      },
+      "T": {
+        "new_result": {
+          "logical_id": "NanoMSMARCO:1093082__PN1__T",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PN1",
+          "arm": "T",
+          "request_sha256": "676da6f13b6cad7e99e7332651a67ca6a23f6984efa7f9441aa93ed83b710258",
+          "status": "ok",
+          "answer": "\"Copper\" was used as slang for police officers, likely due to their copper buttons on uniforms, and this term eventually shortened to \"cop.\"",
+          "ordinal": 59,
+          "same_run_reuse_of": null,
+          "result_origin": "Task03_fresh_same_run",
+          "exact_historical_reference_match": null,
+          "exact_historical_reproduction_match": null,
+          "historical_answer_used_for_primary": false,
+          "semantic_review": "pending"
+        },
+        "historical_reference": null,
+        "historical_reproduction": null
+      },
+      "historical_R": {
+        "reference": {
+          "call_id": "NanoMSMARCO:1093082__PE2__filtered",
+          "case_id": "NanoMSMARCO:1093082",
+          "condition": "PE2",
+          "mode": "filtered",
+          "question": "meaning of copper for a policeman",
+          "expected_answer": "A policeman; literally, one who arrests.",
+          "source_qualification": "Meaning stated by the source. The passage's suggestions about badges and historical origins remain tentative, not required answer elements.",
+          "source_review_status": "assistant_only",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "e6e66562b1212c3caffb6493e4e04e009b4afc6136ac618c9f28538c0d61797e:00000",
+            "6d82dae35da84479b9aec39525e437a4e5f5940d81a1dde49c973dd7e5797737:00000"
+          ],
+          "text_hashes": [
+            "53a260fd996f0bf4ab2af81ea41af8be034512e1155e7ea52a4501fcc2bcf2b2",
+            "f15b081bf264a118e3499ac4f389f31e41d0ae4741ab5ff764b14ef2180dcfe7"
+          ],
+          "request_sha256": "4bf68b0899993b4e75e295599119c3a8ef117a9925488bd1c6affd1d1be708e8",
+          "estimated_prompt_tokens": 215,
+          "identical_request_to": "NanoMSMARCO:1093082__PN1__filtered",
+          "first_call_id": "NanoMSMARCO:1093082__PN1__filtered",
+          "status": "ok",
+          "answer": "\"Copper\" is slang for a police officer, with its first documented use in 1846. The term originated from officers having copper buttons on their uniforms.",
+          "prompt_eval_count": 215,
+          "eval_count": 35,
+          "done_reason": "stop",
+          "wall_seconds": 13.25980755600176,
+          "response_reused": true
+        }
+      },
+      "human_review": {
+        "reviewer": null,
+        "actual_review_date": null,
+        "assistance": null,
+        "blinding": "Reference visible; unblinded",
+        "U_support": null,
+        "T_support": null,
+        "U_core_usable": null,
+        "T_core_usable": null,
+        "U_full_frozen_answer_completeness": null,
+        "T_full_frozen_answer_completeness": null,
+        "U_wrong_extra_claims": null,
+        "T_wrong_extra_claims": null,
+        "decisive_passages": null,
+        "rationale": null,
+        "disagreement": null
+      }
+    }
+  ],
+  "endpoint_review": {
+    "strict_event": null,
+    "background_qualified_event": null,
+    "clean_prerequisite": null,
+    "copy_exposure": null,
+    "unfiltered_prerequisite": null,
+    "all_support_lost": null,
+    "filtered_answer_failure": null,
+    "rule_used": null,
+    "rule_scope_or_extension_disposition": null,
+    "reviewer": null,
+    "actual_review_date": null,
+    "assistance": null,
+    "rationale": null
+  },
+  "review_note": "Earlier component judgments are assistant-authored; primary confirmations do not automatically adjudicate this hybrid pipeline or new answers."
+}

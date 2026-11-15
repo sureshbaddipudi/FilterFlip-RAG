@@ -1,0 +1,708 @@
+{
+  "case_id": "NanoNQ:test1989",
+  "packet": "evidence/task02/expected/cases/NanoNQ_test1989.json",
+  "reading_file": "case_reading/primary_secondary/NanoNQ_test1989.md",
+  "records": [
+    {
+      "record_id": "R1:54ba5091bbdf9fcd8c2418d422580479885ff0c731953240946b61d5c4d413bd",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1989",
+      "request_sha256": "54ba5091bbdf9fcd8c2418d422580479885ff0c731953240946b61d5c4d413bd",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1989__BN2__unfiltered",
+          "case_id": "NanoNQ:test1989",
+          "condition": "BN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+            "64b9a834cbb669866c0086c673be533f5f71fe1c0111371a35263471943d2eda:00000",
+            "018195a21f0ae24e7dca3c8d49f26b52044da6d9181fae7fd17b514510677f1d:00000",
+            "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+            "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000"
+          ],
+          "text_hashes": [
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "63036ad0728a59bb2657aad8fc58d3d74c8b106d66fd5a0155871893004892ec",
+            "d2510d3ad22ede4674cc4fc35a8991e3d8c9e1cca39d7041a0a0f428d8cb3e4b",
+            "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1989.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c (decays into stable rubidium-85)"
+        ],
+        "rationale": "Answer passage bc913c is in context and states the product rubidium-85.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:95eaf2fc413fa48afecc8fd68b4e83d1012fb474e95a61843d5b6f9c1e3d01f4",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1989",
+      "request_sha256": "95eaf2fc413fa48afecc8fd68b4e83d1012fb474e95a61843d5b6f9c1e3d01f4",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1989__PN2__unfiltered",
+          "case_id": "NanoNQ:test1989",
+          "condition": "PN2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+            "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+            "45372a9b8045531cb5948713c63c09d69946a738e1baea4cb4aa9e7496a593c0:00000",
+            "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+            "7606f787e853a56590d5a466e9d5d0ddc62060b13d67c24192046c7263ae6121:00000"
+          ],
+          "text_hashes": [
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+            "6d182a11830e5af9b968d259bfe5ffb9b5f40f3b1c1713f2453fc033514447b9",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+            "932ab5ec36f64f375c166be1d2de065e3f732e65de0b039d7ad13a197f0db8fc"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1989.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c (decays into stable rubidium-85)"
+        ],
+        "rationale": "Answer passage is in context but the response names a different nuclide.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "names krypton-84 although passage bc913c says the product is rubidium-85",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:ec6d5d3a0d6b5986f1e01843c9c0bca5819e2c8d9b818047f7b4aea73d26f99f",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1989",
+      "request_sha256": "ec6d5d3a0d6b5986f1e01843c9c0bca5819e2c8d9b818047f7b4aea73d26f99f",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1989__PN2__filtered",
+          "case_id": "NanoNQ:test1989",
+          "condition": "PN2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+            "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000"
+          ],
+          "text_hashes": [
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078"
+          ]
+        },
+        {
+          "call_id": "NanoNQ:test1989__PE2__filtered",
+          "case_id": "NanoNQ:test1989",
+          "condition": "PE2",
+          "mode": "filtered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+            "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000"
+          ],
+          "text_hashes": [
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1989.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "263369",
+          "14b28b",
+          "bc913c removed"
+        ],
+        "rationale": "Answer passage and copies removed; the kept passages are general beta-decay passages that never name the product nuclide.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "absent",
+        "answer_category": "wrong",
+        "core_usable": "no",
+        "full_frozen_answer_complete": "no",
+        "wrong_or_unsupported_extras": "invents xenon-135 as the product; unsupported by any kept passage",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:332d90e8a3c8db6ad74eb568ba67bd841e8d45d21389522131582c3c2d415a4e",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1989",
+      "request_sha256": "332d90e8a3c8db6ad74eb568ba67bd841e8d45d21389522131582c3c2d415a4e",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1989__BE1__unfiltered",
+          "case_id": "NanoNQ:test1989",
+          "condition": "BE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+            "7e178825d9baf6ee38e8a207cd1a3d490baa35e8c1bd9272e1286b4927791381:00000",
+            "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+            "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+            "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556:00000"
+          ],
+          "text_hashes": [
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+            "fd4a3f91f3096bebd155524e069d70ce1baa131eaa76d46ab3351bc8788b6d1c"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1989.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c (decays into stable rubidium-85)"
+        ],
+        "rationale": "Answer passage bc913c is in context and states the product rubidium-85.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:e8c9aa36661495e565120aa7a0378c15d4c16b0e1d44f7f4909aac5507934048",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1989",
+      "request_sha256": "e8c9aa36661495e565120aa7a0378c15d4c16b0e1d44f7f4909aac5507934048",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1989__BE2__unfiltered",
+          "case_id": "NanoNQ:test1989",
+          "condition": "BE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+            "6383b69a80bd8f7e93c5c4ba92a2d74b898a97dd4738861a3cbde1936c36dfe0:00000",
+            "7e178825d9baf6ee38e8a207cd1a3d490baa35e8c1bd9272e1286b4927791381:00000",
+            "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+            "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000"
+          ],
+          "text_hashes": [
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1989.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c (decays into stable rubidium-85)"
+        ],
+        "rationale": "Answer passage bc913c is in context and states the product rubidium-85.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "R1:1527a98ad2cba8e496414b8ee1fa58568dbb9708230a9fb0f192840cd2cae36a",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1989",
+      "request_sha256": "1527a98ad2cba8e496414b8ee1fa58568dbb9708230a9fb0f192840cd2cae36a",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": false,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1989__PE1__unfiltered",
+          "case_id": "NanoNQ:test1989",
+          "condition": "PE1",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+            "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+            "13a4b36e427765cc3a3ea6169221b86af6e54a00e51a76f5b89b4788f2f0e3ee:00000",
+            "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000",
+            "70297efe837f6e294a0ed8a075f2490bf61fea5b14f0518b019d98d925af4556:00000"
+          ],
+          "text_hashes": [
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+            "fd4a3f91f3096bebd155524e069d70ce1baa131eaa76d46ab3351bc8788b6d1c"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1989.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c (decays into stable rubidium-85)"
+        ],
+        "rationale": "Answer passage bc913c is in context and states the product rubidium-85.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "minor"
+      }
+    },
+    {
+      "record_id": "R1:dfa2d649550cfc94336d05ccd9513ec18076887d18f451876175564858f6344f",
+      "record_type": "reproduction_response",
+      "case_id": "NanoNQ:test1989",
+      "request_sha256": "dfa2d649550cfc94336d05ccd9513ec18076887d18f451876175564858f6344f",
+      "execution_origin": "Suresh_explicit_recovery_v2",
+      "technical_status": "ok",
+      "exact_reference_text_match": true,
+      "logical_links": [
+        {
+          "call_id": "NanoNQ:test1989__PE2__unfiltered",
+          "case_id": "NanoNQ:test1989",
+          "condition": "PE2",
+          "mode": "unfiltered",
+          "context_support": "UNREVIEWED_FOR_THIS_CALL",
+          "chunk_ids": [
+            "2633692ac3d08f5856d4218e625a6890424825ffba4fcabac879e35fa25ea2de:00000",
+            "14b28b33bedfdcb652807416e62e7d65d08ee9c988f4a1e40848715874bdba10:00000",
+            "13a4b36e427765cc3a3ea6169221b86af6e54a00e51a76f5b89b4788f2f0e3ee:00000",
+            "68ed4b3b4ff69ae172bb1a0c594159bb64ce8717d0d61296fae0a90029196195:00000",
+            "bc913c37c77792665fdbd995401fa1ab77d8c414e538142bdfb2a1450cc3756e:00000"
+          ],
+          "text_hashes": [
+            "b1054502c9e42a8360e560b485cca26e929af2a3e649e295cc9ba0a7982e9974",
+            "c47936fd78f8b340ecc9cebeee9559efaee1484e56bb7cdf7c6b087654915078",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047",
+            "f9ee0077746da839484920354059c768a5aa4248a19bd39cba67815142185047"
+          ]
+        }
+      ],
+      "reading_file": "case_reading/primary_secondary/NanoNQ_test1989.md",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c (decays into stable rubidium-85)"
+        ],
+        "rationale": "Answer passage bc913c is in context and states the product rubidium-85.",
+        "disagreement": null
+      },
+      "judgment": {
+        "context_support": "sufficient",
+        "answer_category": "correct",
+        "core_usable": "yes",
+        "full_frozen_answer_complete": "yes",
+        "wrong_or_unsupported_extras": "none observed",
+        "semantic_difference_from_reference": "none"
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1989:BN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1989",
+      "condition": "BN2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:54ba5091bbdf9fcd8c2418d422580479885ff0c731953240946b61d5c4d413bd"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1989:PN2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1989",
+      "condition": "PN2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BN2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c"
+        ],
+        "rationale": "P condition; the copied unfiltered answer is already wrong, so the strict chain breaks and endpoint is not met.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: names krypton-84; filtered: invents xenon-135",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "no",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "no",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "unfiltered: names krypton-84; filtered: invents xenon-135",
+        "strict_endpoint": "not_met",
+        "background_qualified_endpoint": "not_met",
+        "linked_response_review_ids": [
+          "R1:95eaf2fc413fa48afecc8fd68b4e83d1012fb474e95a61843d5b6f9c1e3d01f4",
+          "R1:ec6d5d3a0d6b5986f1e01843c9c0bca5819e2c8d9b818047f7b4aea73d26f99f"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1989:BE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1989",
+      "condition": "BE1",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:332d90e8a3c8db6ad74eb568ba67bd841e8d45d21389522131582c3c2d415a4e"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1989:BE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1989",
+      "condition": "BE2",
+      "role": "B_control",
+      "matching_background": null,
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c"
+        ],
+        "rationale": "Background control, not a P endpoint candidate; endpoint fields not applicable.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "sufficient",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "yes",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "yes",
+        "wrong_extra_claims": "none observed",
+        "strict_endpoint": "not_applicable",
+        "background_qualified_endpoint": "not_applicable",
+        "linked_response_review_ids": [
+          "R1:e8c9aa36661495e565120aa7a0378c15d4c16b0e1d44f7f4909aac5507934048"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1989:PE1",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1989",
+      "condition": "PE1",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE1",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c",
+          "263369"
+        ],
+        "rationale": "P condition: clean answer correct, copy retrieved, answer passage and copy removed, filtered answer fails, matching control BE1 keeps the passage and answers correctly; strict chain met in both panels.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: wrong product (prefix says an electron and an antineutrino; reproduction says xenon-135)",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: wrong product (prefix says an electron and an antineutrino; reproduction says xenon-135)",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": [
+          "R1:1527a98ad2cba8e496414b8ee1fa58568dbb9708230a9fb0f192840cd2cae36a"
+        ]
+      }
+    },
+    {
+      "record_id": "SECONDARY:NanoNQ:test1989:PE2",
+      "record_type": "secondary_condition",
+      "case_id": "NanoNQ:test1989",
+      "condition": "PE2",
+      "role": "P_endpoint_candidate",
+      "matching_background": "BE2",
+      "human": {
+        "review_status": "reviewed",
+        "reviewer": "Shradha",
+        "actual_review_date": "2026-11-01",
+        "date_status": "known",
+        "assistance_disclosure": "none",
+        "basis": "direct_evidence_review",
+        "prior_decision_link": null,
+        "rule_used": "Core-answer rule as supplied (REVIEW_RULES.md); no extension",
+        "decisive_passages": [
+          "bc913c",
+          "263369"
+        ],
+        "rationale": "P condition: clean answer correct, copy retrieved, answer passage and copy removed, filtered answer fails, matching control BE2 keeps the passage and answers correctly; strict chain met in both panels.",
+        "disagreement": null
+      },
+      "reference": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: wrong product (prefix says an electron and an antineutrino; reproduction says xenon-135)",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": []
+      },
+      "reproduction": {
+        "unfiltered_context_support": "sufficient",
+        "filtered_context_support": "absent",
+        "unfiltered_core_usable": "yes",
+        "filtered_core_usable": "no",
+        "unfiltered_full_complete": "yes",
+        "filtered_full_complete": "no",
+        "wrong_extra_claims": "filtered: wrong product (prefix says an electron and an antineutrino; reproduction says xenon-135)",
+        "strict_endpoint": "met",
+        "background_qualified_endpoint": "met",
+        "linked_response_review_ids": [
+          "R1:ec6d5d3a0d6b5986f1e01843c9c0bca5819e2c8d9b818047f7b4aea73d26f99f",
+          "R1:dfa2d649550cfc94336d05ccd9513ec18076887d18f451876175564858f6344f"
+        ]
+      }
+    }
+  ]
+}

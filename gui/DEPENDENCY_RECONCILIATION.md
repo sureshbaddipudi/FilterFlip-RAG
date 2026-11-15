@@ -1,0 +1,7 @@
+# Dependency evidence and remaining risks
+
+10 November 2026. The supplied v2.8 review now includes raw scanner evidence. Its 82 raw advisory rows deduplicate by package and ID/alias to 72 groups: certifi 1, filelock 12, Pillow 39, sentence-transformers 1, transformers 19. All match the shared groups in the earlier core assessment. That assessment's additional Torch 8 and setuptools 1 explain 81 total. The submitted scan skipped Torch 2.8.0+cpu and the editable vendor requirement; its freeze list has 40 non-comment entries rather than an independently supported 41 installed-package inventory. The count difference is explained, not fixed.
+
+v2.9 additionally imports the recorded TrustRAG support runtime locally in that backend branch. A separate four-package lookup reports 73 raw NLTK rows / 41 advisory groups; absl-py, click and rouge-score had zero matches in that lookup. Do not sum dated/scope-dependent scan counts into a universal vulnerability count. The raw JSON and runtime file inventory are retained. No installed package was upgraded and the separate candidate is not adopted.
+
+The fixed input allowlist, verified contexts and explicit text/token bounds limit exposure of the active Porter-stemmer path. This is a bounded application control, not library remediation or a claim that all advisories are unreachable. Existing original assets and negative scientific findings remain intact. Detailed interpretation is in SECURITY_REVIEW.md.

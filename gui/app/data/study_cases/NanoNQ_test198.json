@@ -1,0 +1,2782 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test198",
+    "dataset": "NanoNQ",
+    "question": "did the cast of friends really go to london",
+    "source_family": "NanoNQ:test198",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc7161",
+    "expected_answer": "Yes, except Lisa Kudrow: the rest of the cast filmed in London, while her scenes were filmed in Burbank because she was too pregnant to fly.",
+    "answer_aliases": [],
+    "support_quote": "The episode was filmed in March 1998 under the direction of executive producer Kevin S. Bright on locations in London, and in front of a live studio audience at The Fountain Studios. Scenes featuring Lisa Kudrow's character Phoebe Buffay were filmed on the show's sets in Burbank, California, as Kudrow was too pregnant to fly to London with the rest of the cast.",
+    "source_qualification": "Refers to the episode filmed in March 1998; a bare yes should not imply every cast member travelled.",
+    "qrel_document_ids": [
+      "doc7161",
+      "doc7166"
+    ],
+    "family_reference_texts": [
+      "The episode featured numerous supporting roles from British actors. For her role as Andrea Waltham, Saunders \"heard Joan Collins' voice in [her] head\".[3] Her Absolutely Fabulous co-star June Whitfield appeared in cameo as the housekeeper. Felicity, the bridesmaid who Joey entices, is played by Olivia Williams. Further cameos were made by Sarah Ferguson as herself, Richard Branson as the vendor who sells Joey a hat, and Hugh Laurie as the man sitting next to Rachel on the plane. Lisa Kudrow did not join the others in London as she was too heavily pregnant to fly, like her character Phoebe. Elliott Gould inadvertently revealed to the public that Rachel was to turn up at the wedding, upsetting Marta Kauffman.[4]",
+      "The episode's teleplay was written by Shana Goldberg-Meehan & Scott Silveri from a story by Michael Borkow (part one) and Jill Condon & Amy Toomin (part two). The episode's genesis came during the break between seasons three and four, when Channel 4, the British first-run broadcaster of Friends proposed an episode set in the United Kingdom to the series producers. The proposal fitted neatly with a storyline already being planned, whereby the character of Ross would be married at the end of the fourth season. The episode was filmed in March 1998 under the direction of executive producer Kevin S. Bright on locations in London, and in front of a live studio audience at The Fountain Studios. Scenes featuring Lisa Kudrow's character Phoebe Buffay were filmed on the show's sets in Burbank, California, as Kudrow was too pregnant to fly to London with the rest of the cast. Kudrow gave birth to her son on the day of the episode's original airing."
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test198",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc7161",
+    "expected_answer": "Yes, except Lisa Kudrow: the rest of the cast filmed in London, while her scenes were filmed in Burbank because she was too pregnant to fly.",
+    "answer_aliases": [],
+    "support_quote": "The episode was filmed in March 1998 under the direction of executive producer Kevin S. Bright on locations in London, and in front of a live studio audience at The Fountain Studios. Scenes featuring Lisa Kudrow's character Phoebe Buffay were filmed on the show's sets in Burbank, California, as Kudrow was too pregnant to fly to London with the rest of the cast.",
+    "source_qualification": "Refers to the episode filmed in March 1998; a bare yes should not imply every cast member travelled.",
+    "exclusion_reason": "",
+    "notes": "Initially drafted by the assistant; subsequently reviewed by Suresh. Human verified by Suresh against the supplied passage."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test198",
+    "dataset": "NanoNQ",
+    "question": "did the cast of friends really go to london",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test198",
+      "dataset": "NanoNQ",
+      "question": "did the cast of friends really go to london",
+      "expected_answer": "Yes, except Lisa Kudrow: the rest of the cast filmed in London, while her scenes were filmed in Burbank because she was too pregnant to fly.",
+      "source_qualification": "Refers to the episode filmed in March 1998; a bare yes should not imply every cast member travelled.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Not a strict event",
+      "reason_group": "Identical filtered requests",
+      "historical_decision": "not_strict_event",
+      "historical_reason_code": "identical_clean_and_PN1_filtered_request",
+      "historical_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "current_assistant_rationale": "The entire clean filtered and PN1 filtered model requests are identical, including passage text and order. They share the same saved response. Therefore this recorded comparison cannot satisfy a new clean-supported/correct to unsupported/failing transition. This is a logical endpoint exclusion, not a label that the answer is correct or that the question is safe under other conditions.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/PRIMARY_ENDPOINT_AUDIT.json#/records/10",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/10",
+      "review_priority": 4,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test198.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 91,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 61,
+              "call_id": "NanoNQ:test198__C__unfiltered",
+              "request_sha256": "0b27fa9adef88c79bbd9895ca90b4a10ee8432a7c0bd8fca2a613d5fd814cda2"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 62,
+              "call_id": "NanoNQ:test198__C__filtered",
+              "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 92,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 63,
+              "call_id": "NanoNQ:test198__BN1__unfiltered",
+              "request_sha256": "40505807ebc78efaec2bf390e581f8efecfaf4fe73b828bf6ddc99f53ae824e6"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 64,
+              "call_id": "NanoNQ:test198__BN1__filtered",
+              "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 94,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 65,
+              "call_id": "NanoNQ:test198__PN1__unfiltered",
+              "request_sha256": "0b27fa9adef88c79bbd9895ca90b4a10ee8432a7c0bd8fca2a613d5fd814cda2"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 66,
+              "call_id": "NanoNQ:test198__PN1__filtered",
+              "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": null,
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test198",
+    "question": "did the cast of friends really go to london",
+    "current_assessment": {
+      "source": "existing_assessment_now_human_confirmed_without_change",
+      "recorded_value": "Not a strict event",
+      "historical_decision": "not_strict_event",
+      "note": "Original category wording retained as provenance; current review attribution is human-confirmed."
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "Not supplied",
+    "suresh_review_date": "Not supplied",
+    "date_basis": "Later 59-case confirmation has no actual date supplied; recorded on 2026-10-27. Recording date is not silently substituted for review date. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test198"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1273458",
+          "instance_key": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The program was successful and Aniston, along with her co-stars, gained worldwide reputation among television viewers. Aniston received a salary of US$1 million per episode for the last two seasons of Friends, as well as five Emmy nominations (two for Supporting Actress, three for Lead Actress), including a win for Outstanding Lead Actress in a Comedy Series.[39] She was also nominated for two Golden Globe Awards and won, in 2003, the Golden Globe Award for Best Actress – Television Series Musical or Comedy. According to the Guinness World Book of Records (2005), Aniston (along with her female costars) became the highest paid TV actresses of all time with US$1 million-per-episode paycheck for the tenth and final season of Friends.[40] Her character's relationship with Ross Geller, portrayed by David Schwimmer in the show, was widely popular among audiences, and the couple were frequently voted as TV's favorite couple by polls and magazines.[41]",
+          "text_sha256": "2580fa2b50932344687624fbeb52a29375bba1e97f18b418a2319d2c76d1d9d2",
+          "char_start": 0,
+          "char_end": 958,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.47799038887023926,
+          "kept": true
+        },
+        {
+          "chunk_id": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2298808",
+          "instance_key": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sources suggest that David Schwimmer was actually out of the country filming Band of Brothers when the final scenes of the episode were filmed, hence why Ross is not there when the friends hug Monica and Chandler on hearing their announcement.",
+          "text_sha256": "4b61bf61440add3d4c163a1e757a200f2221ee8e038f9c579e23d2497063e386",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 48,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4771471619606018,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.4253865884052743,
+          0.0,
+          0.0,
+          0.0,
+          0.4253865884052743
+        ],
+        "removal_ranking": [
+          0,
+          4,
+          1,
+          2,
+          3
+        ],
+        "removal_gap": 0.4253865884052743,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0077315568923950195,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6522166728973389
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6444851160049438
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.48370659351348877
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4825907349586487
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4057327210903168
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.3418326675891876
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.32448509335517883
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.304382860660553
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__C__unfiltered",
+          "request_sha256": "0b27fa9adef88c79bbd9895ca90b4a10ee8432a7c0bd8fca2a613d5fd814cda2",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "first_call_id": "NanoNQ:test198__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__C__filtered",
+          "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "first_call_id": "NanoNQ:test198__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "f053a7c08a44f057071bab30357dd8b653bfc137419c7d3c60da32d6936ed334:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test198/BN/1",
+          "instance_key": "f053a7c08a44f057071bab30357dd8b653bfc137419c7d3c60da32d6936ed334",
+          "chunk_index": 0,
+          "copied_from": "doc7165",
+          "copy_number": 1,
+          "text": "Source excerpt.\nDuring the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "acb7dd07c276599ea91f3bdc5a168c70fe74316c84c418eacb6f2c123fb043d0",
+          "char_start": 0,
+          "char_end": 415,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6259626150131226,
+          "kept": false
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1273458",
+          "instance_key": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The program was successful and Aniston, along with her co-stars, gained worldwide reputation among television viewers. Aniston received a salary of US$1 million per episode for the last two seasons of Friends, as well as five Emmy nominations (two for Supporting Actress, three for Lead Actress), including a win for Outstanding Lead Actress in a Comedy Series.[39] She was also nominated for two Golden Globe Awards and won, in 2003, the Golden Globe Award for Best Actress – Television Series Musical or Comedy. According to the Guinness World Book of Records (2005), Aniston (along with her female costars) became the highest paid TV actresses of all time with US$1 million-per-episode paycheck for the tenth and final season of Friends.[40] Her character's relationship with Ross Geller, portrayed by David Schwimmer in the show, was widely popular among audiences, and the couple were frequently voted as TV's favorite couple by polls and magazines.[41]",
+          "text_sha256": "2580fa2b50932344687624fbeb52a29375bba1e97f18b418a2319d2c76d1d9d2",
+          "char_start": 0,
+          "char_end": 958,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.47799038887023926,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.9722941514983319,
+          0.9722941514983319,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 0.9722941514983319,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3415646553039551,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9860497713088989
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6444851160049438
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5470641255378723
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.519784688949585
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.48370659351348877
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.48135578632354736
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.32448509335517883
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.304382860660553
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__BN1__unfiltered",
+          "request_sha256": "40505807ebc78efaec2bf390e581f8efecfaf4fe73b828bf6ddc99f53ae824e6",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "first_call_id": "NanoNQ:test198__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for an episode.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__BN1__filtered",
+          "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "first_call_id": "NanoNQ:test198__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": true
+        },
+        {
+          "chunk_id": "724eac59a2b15f089d141c408acc86f3acdb78ec11289c64101a485ffbb7f7ee:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test198/BN/2",
+          "instance_key": "724eac59a2b15f089d141c408acc86f3acdb78ec11289c64101a485ffbb7f7ee",
+          "chunk_index": 0,
+          "copied_from": "doc7165",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nDuring the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "3e24796afe8dfaf87ec6992bef57a9f9015e2a6b2400191564d1576273faea79",
+          "char_start": 0,
+          "char_end": 418,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6290125846862793,
+          "kept": false
+        },
+        {
+          "chunk_id": "f053a7c08a44f057071bab30357dd8b653bfc137419c7d3c60da32d6936ed334:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test198/BN/1",
+          "instance_key": "f053a7c08a44f057071bab30357dd8b653bfc137419c7d3c60da32d6936ed334",
+          "chunk_index": 0,
+          "copied_from": "doc7165",
+          "copy_number": 1,
+          "text": "Source excerpt.\nDuring the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "acb7dd07c276599ea91f3bdc5a168c70fe74316c84c418eacb6f2c123fb043d0",
+          "char_start": 0,
+          "char_end": 415,
+          "tokens_with_specials": 94,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6259626150131226,
+          "kept": false
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        3,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.0,
+          0.9978299006121603,
+          0.9978299006121603,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "removal_gap": 0.9978299006121603,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.009267449378967285,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.998914361000061
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9896469116210938
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9860497713088989
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5470641255378723
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.546775221824646
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5269333124160767
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.519784688949585
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.32448509335517883
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__BN2__unfiltered",
+          "request_sha256": "7a4bc4c7e7953f17669cb8c8f68d5bf6d40667ff29cc1b9ce531d402837a6278",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the episode.",
+            "first_call_id": "NanoNQ:test198__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the episode.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__BN2__filtered",
+          "request_sha256": "b45c6cd2be164c4fbff1c85d995b90a134dcce2d4d9c95e78ed9c494174a1174",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "first_call_id": "NanoNQ:test198__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1273458",
+          "instance_key": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The program was successful and Aniston, along with her co-stars, gained worldwide reputation among television viewers. Aniston received a salary of US$1 million per episode for the last two seasons of Friends, as well as five Emmy nominations (two for Supporting Actress, three for Lead Actress), including a win for Outstanding Lead Actress in a Comedy Series.[39] She was also nominated for two Golden Globe Awards and won, in 2003, the Golden Globe Award for Best Actress – Television Series Musical or Comedy. According to the Guinness World Book of Records (2005), Aniston (along with her female costars) became the highest paid TV actresses of all time with US$1 million-per-episode paycheck for the tenth and final season of Friends.[40] Her character's relationship with Ross Geller, portrayed by David Schwimmer in the show, was widely popular among audiences, and the couple were frequently voted as TV's favorite couple by polls and magazines.[41]",
+          "text_sha256": "2580fa2b50932344687624fbeb52a29375bba1e97f18b418a2319d2c76d1d9d2",
+          "char_start": 0,
+          "char_end": 958,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.47799038887023926,
+          "kept": true
+        },
+        {
+          "chunk_id": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2298808",
+          "instance_key": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sources suggest that David Schwimmer was actually out of the country filming Band of Brothers when the final scenes of the episode were filmed, hence why Ross is not there when the friends hug Monica and Chandler on hearing their announcement.",
+          "text_sha256": "4b61bf61440add3d4c163a1e757a200f2221ee8e038f9c579e23d2497063e386",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 48,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4771471619606018,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.4253865884052743,
+          0.0,
+          0.0,
+          0.0,
+          0.4253865884052743
+        ],
+        "removal_ranking": [
+          0,
+          4,
+          1,
+          2,
+          3
+        ],
+        "removal_gap": 0.4253865884052743,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0077315568923950195,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6522166728973389
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6444851160049438
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.48370659351348877
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4825907349586487
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4057327210903168
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.3418326675891876
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.32448509335517883
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.304382860660553
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__PN1__unfiltered",
+          "request_sha256": "0b27fa9adef88c79bbd9895ca90b4a10ee8432a7c0bd8fca2a613d5fd814cda2",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "first_call_id": "NanoNQ:test198__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__PN1__filtered",
+          "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "first_call_id": "NanoNQ:test198__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1273458",
+          "instance_key": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The program was successful and Aniston, along with her co-stars, gained worldwide reputation among television viewers. Aniston received a salary of US$1 million per episode for the last two seasons of Friends, as well as five Emmy nominations (two for Supporting Actress, three for Lead Actress), including a win for Outstanding Lead Actress in a Comedy Series.[39] She was also nominated for two Golden Globe Awards and won, in 2003, the Golden Globe Award for Best Actress – Television Series Musical or Comedy. According to the Guinness World Book of Records (2005), Aniston (along with her female costars) became the highest paid TV actresses of all time with US$1 million-per-episode paycheck for the tenth and final season of Friends.[40] Her character's relationship with Ross Geller, portrayed by David Schwimmer in the show, was widely popular among audiences, and the couple were frequently voted as TV's favorite couple by polls and magazines.[41]",
+          "text_sha256": "2580fa2b50932344687624fbeb52a29375bba1e97f18b418a2319d2c76d1d9d2",
+          "char_start": 0,
+          "char_end": 958,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.47799038887023926,
+          "kept": true
+        },
+        {
+          "chunk_id": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2298808",
+          "instance_key": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sources suggest that David Schwimmer was actually out of the country filming Band of Brothers when the final scenes of the episode were filmed, hence why Ross is not there when the friends hug Monica and Chandler on hearing their announcement.",
+          "text_sha256": "4b61bf61440add3d4c163a1e757a200f2221ee8e038f9c579e23d2497063e386",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 48,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4771471619606018,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.4253865884052743,
+          0.0,
+          0.0,
+          0.0,
+          0.4253865884052743
+        ],
+        "removal_ranking": [
+          0,
+          4,
+          1,
+          2,
+          3
+        ],
+        "removal_gap": 0.4253865884052743,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0077315568923950195,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6522166728973389
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6444851160049438
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.48370659351348877
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4825907349586487
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4057327210903168
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.3418326675891876
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.32448509335517883
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.304382860660553
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__PN2__unfiltered",
+          "request_sha256": "0b27fa9adef88c79bbd9895ca90b4a10ee8432a7c0bd8fca2a613d5fd814cda2",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "first_call_id": "NanoNQ:test198__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__PN2__filtered",
+          "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "first_call_id": "NanoNQ:test198__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "8abb14a6ec3389c1d4a740873f8782a08a8b59e9a9a8cd02508a49233252a569:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test198/BE/1",
+          "instance_key": "8abb14a6ec3389c1d4a740873f8782a08a8b59e9a9a8cd02508a49233252a569",
+          "chunk_index": 0,
+          "copied_from": "doc7165",
+          "copy_number": 1,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1273458",
+          "instance_key": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The program was successful and Aniston, along with her co-stars, gained worldwide reputation among television viewers. Aniston received a salary of US$1 million per episode for the last two seasons of Friends, as well as five Emmy nominations (two for Supporting Actress, three for Lead Actress), including a win for Outstanding Lead Actress in a Comedy Series.[39] She was also nominated for two Golden Globe Awards and won, in 2003, the Golden Globe Award for Best Actress – Television Series Musical or Comedy. According to the Guinness World Book of Records (2005), Aniston (along with her female costars) became the highest paid TV actresses of all time with US$1 million-per-episode paycheck for the tenth and final season of Friends.[40] Her character's relationship with Ross Geller, portrayed by David Schwimmer in the show, was widely popular among audiences, and the couple were frequently voted as TV's favorite couple by polls and magazines.[41]",
+          "text_sha256": "2580fa2b50932344687624fbeb52a29375bba1e97f18b418a2319d2c76d1d9d2",
+          "char_start": 0,
+          "char_end": 958,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.47799038887023926,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3555150032043457,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6444851160049438
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.48370659351348877
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.48370659351348877
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.32448509335517883
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.304382860660553
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__BE1__unfiltered",
+          "request_sha256": "97b1c3b5c1b691cc701a1b24e278ad4c131318d7b2966d8b9292223653ebcf1e",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for an episode.",
+            "first_call_id": "NanoNQ:test198__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for an episode.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__BE1__filtered",
+          "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "first_call_id": "NanoNQ:test198__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 1,
+        "retained_copy_chunks": 1,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "66e8771adc5b2fa7f6013535cadb1fe20d5e1eb7163cf1d17a6feedfcb39f6cb:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test198/BE/2",
+          "instance_key": "66e8771adc5b2fa7f6013535cadb1fe20d5e1eb7163cf1d17a6feedfcb39f6cb",
+          "chunk_index": 0,
+          "copied_from": "doc7165",
+          "copy_number": 2,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "8abb14a6ec3389c1d4a740873f8782a08a8b59e9a9a8cd02508a49233252a569:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test198/BE/1",
+          "instance_key": "8abb14a6ec3389c1d4a740873f8782a08a8b59e9a9a8cd02508a49233252a569",
+          "chunk_index": 0,
+          "copied_from": "doc7165",
+          "copy_number": 1,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6311207413673401,
+          "kept": true
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          1.0000002384185933,
+          1.0000002384185933,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.0000002384185933,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0,
+        "pair_cutoff_near_tie": true,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0000001192092896
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.32448509335517883
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__BE2__unfiltered",
+          "request_sha256": "f4433ec0d65f7567615b49e80fb7a49868112eaefc62fce4fc9ba7bc80a16a77",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for filming an episode.",
+            "first_call_id": "NanoNQ:test198__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the episode.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": false,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__BE2__filtered",
+          "request_sha256": "b45c6cd2be164c4fbff1c85d995b90a134dcce2d4d9c95e78ed9c494174a1174",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "first_call_id": "NanoNQ:test198__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1273458",
+          "instance_key": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The program was successful and Aniston, along with her co-stars, gained worldwide reputation among television viewers. Aniston received a salary of US$1 million per episode for the last two seasons of Friends, as well as five Emmy nominations (two for Supporting Actress, three for Lead Actress), including a win for Outstanding Lead Actress in a Comedy Series.[39] She was also nominated for two Golden Globe Awards and won, in 2003, the Golden Globe Award for Best Actress – Television Series Musical or Comedy. According to the Guinness World Book of Records (2005), Aniston (along with her female costars) became the highest paid TV actresses of all time with US$1 million-per-episode paycheck for the tenth and final season of Friends.[40] Her character's relationship with Ross Geller, portrayed by David Schwimmer in the show, was widely popular among audiences, and the couple were frequently voted as TV's favorite couple by polls and magazines.[41]",
+          "text_sha256": "2580fa2b50932344687624fbeb52a29375bba1e97f18b418a2319d2c76d1d9d2",
+          "char_start": 0,
+          "char_end": 958,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.47799038887023926,
+          "kept": true
+        },
+        {
+          "chunk_id": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2298808",
+          "instance_key": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sources suggest that David Schwimmer was actually out of the country filming Band of Brothers when the final scenes of the episode were filmed, hence why Ross is not there when the friends hug Monica and Chandler on hearing their announcement.",
+          "text_sha256": "4b61bf61440add3d4c163a1e757a200f2221ee8e038f9c579e23d2497063e386",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 48,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4771471619606018,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.4253865884052743,
+          0.0,
+          0.0,
+          0.0,
+          0.4253865884052743
+        ],
+        "removal_ranking": [
+          0,
+          4,
+          1,
+          2,
+          3
+        ],
+        "removal_gap": 0.4253865884052743,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0077315568923950195,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6522166728973389
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6444851160049438
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.48370659351348877
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4825907349586487
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4057327210903168
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.3418326675891876
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.32448509335517883
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.304382860660553
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__PE1__unfiltered",
+          "request_sha256": "0b27fa9adef88c79bbd9895ca90b4a10ee8432a7c0bd8fca2a613d5fd814cda2",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "first_call_id": "NanoNQ:test198__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__PE1__filtered",
+          "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "first_call_id": "NanoNQ:test198__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test198",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": false,
+        "original_source_after": false,
+        "source_or_copy_before": false,
+        "source_or_copy_after": false,
+        "quote_before": false,
+        "quote_after": false,
+        "removed_chunks": 2,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": false
+      },
+      "passages": [
+        {
+          "chunk_id": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7165",
+          "instance_key": "350054a44204696f0bb7876f890c9e971acfa1aed210297ae4a47b821810aa36",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "During the summer hiatus of 1997 the producers were contacted by Channel 4, the British first-run broadcaster of Friends, with a proposal to film an episode in London. Producer Greg Malins is quoted as saying \"We had to come up with a storyline that would cause all the Friends to go to London [...] and that ended up being Ross getting married, because they would all have to go to his wedding\".[2]",
+          "text_sha256": "e63d6fd48a36822b21a7380f70f04a9a535fc6e276b23775ce1ec8019bb09f2e",
+          "char_start": 0,
+          "char_end": 399,
+          "tokens_with_specials": 91,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6311207413673401,
+          "kept": false
+        },
+        {
+          "chunk_id": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1670303",
+          "instance_key": "2be154e5b5c81abc8381bccb83b733e702c9f7d89cd463692eb4d74ef9287da0",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The main cast members were familiar to television viewers before their roles on Friends, but were not considered to be stars.[3][4] Series creator David Crane wanted all six characters to be equally prominent,[5] and the series was lauded as being \"the first true 'ensemble' show\".[6] The cast members made efforts to keep the ensemble format and not allow one member to dominate;[6] they entered themselves in the same acting categories for awards,[7] opted for collective instead of individual salary negotiations,[6] and asked to appear together on magazine cover photos in the first season.[8] The cast members became best friends off screen,[9] and one guest star, Tom Selleck, reported sometimes feeling left out.[10] The cast remained good friends after the series' run, notably Cox and Aniston, with Aniston being godmother to Cox and David Arquette's daughter, Coco.[11] In the official farewell commemorative book Friends 'Til the End, each separately acknowledged in his/her interview that the cast had become his/her family.[12]",
+          "text_sha256": "ea40f94f0d2ea6010882d0e74e3f76aff69abaf15e773b967555ae71e5879456",
+          "char_start": 0,
+          "char_end": 1040,
+          "tokens_with_specials": 235,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5455213785171509,
+          "kept": true
+        },
+        {
+          "chunk_id": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc7163",
+          "instance_key": "c6c20529c628da3f1cf8a4f8c003b345d1182d1b051a6ea71aca56d6e6e5707c",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Part 1 begins as the group heads off to Ross's wedding in London leaving behind a heavily pregnant Phoebe (Lisa Kudrow), and Rachel (Jennifer Aniston), who has declined the invitation. In London, Joey (Matt LeBlanc) and Chandler (Matthew Perry) go see the sights in a musical montage featuring The Clash's song \"London Calling\", with Joey filming everything on his camcorder. Chandler becomes embarrassed by his friend's enthusiasm, and after Joey buys a large Union Flag hat from a vendor (played by guest star Richard Branson), they part company. They reunite in their hotel room and Chandler apologizes. Joey impresses him with a video recording of Sarah, Duchess of York (who played herself). Emily takes Ross to the hall where the wedding will be, but they discover it is being demolished earlier than originally scheduled. Monica later suggests Emily postpone the wedding until everything is perfect. She passes the thought on to Ross, angering him; he tells her people have flown from America to be there and that it is \"now or never\"; she chooses \"never\". Monica berates Ross for his insens",
+          "text_sha256": "4f6813e3806f352eb99916164f0e25756c22a3c2dd40a870bdf6480c8a4f13f8",
+          "char_start": 0,
+          "char_end": 1098,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.49298861622810364,
+          "kept": true
+        },
+        {
+          "chunk_id": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1273458",
+          "instance_key": "8a2d8aea9b71a412534895ae06b206b3d1b577da90fd3d5641b5dbaf9de9b067",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The program was successful and Aniston, along with her co-stars, gained worldwide reputation among television viewers. Aniston received a salary of US$1 million per episode for the last two seasons of Friends, as well as five Emmy nominations (two for Supporting Actress, three for Lead Actress), including a win for Outstanding Lead Actress in a Comedy Series.[39] She was also nominated for two Golden Globe Awards and won, in 2003, the Golden Globe Award for Best Actress – Television Series Musical or Comedy. According to the Guinness World Book of Records (2005), Aniston (along with her female costars) became the highest paid TV actresses of all time with US$1 million-per-episode paycheck for the tenth and final season of Friends.[40] Her character's relationship with Ross Geller, portrayed by David Schwimmer in the show, was widely popular among audiences, and the couple were frequently voted as TV's favorite couple by polls and magazines.[41]",
+          "text_sha256": "2580fa2b50932344687624fbeb52a29375bba1e97f18b418a2319d2c76d1d9d2",
+          "char_start": 0,
+          "char_end": 958,
+          "tokens_with_specials": 211,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.47799038887023926,
+          "kept": true
+        },
+        {
+          "chunk_id": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc2298808",
+          "instance_key": "05060f8179ff93b19af17b57a0283f3a95ea5f5d3ff19c5e615b27ee2977fc91",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "Sources suggest that David Schwimmer was actually out of the country filming Band of Brothers when the final scenes of the episode were filmed, hence why Ross is not there when the friends hug Monica and Chandler on hearing their announcement.",
+          "text_sha256": "4b61bf61440add3d4c163a1e757a200f2221ee8e038f9c579e23d2497063e386",
+          "char_start": 0,
+          "char_end": 243,
+          "tokens_with_specials": 48,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.4771471619606018,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        1,
+        2,
+        3
+      ],
+      "removed_indices": [
+        0,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 2,
+        "tfidf_vote_count": 0,
+        "frequency_scores": [
+          0.4253865884052743,
+          0.0,
+          0.0,
+          0.0,
+          0.4253865884052743
+        ],
+        "removal_ranking": [
+          0,
+          4,
+          1,
+          2,
+          3
+        ],
+        "removal_gap": 0.4253865884052743,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.0077315568923950195,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 1,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6522166728973389
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6444851160049438
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5456170439720154
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5331754684448242
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.48370659351348877
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.4825907349586487
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4057327210903168
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.3418326675891876
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.32448509335517883
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.304382860660553
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test198__PE2__unfiltered",
+          "request_sha256": "0b27fa9adef88c79bbd9895ca90b4a10ee8432a7c0bd8fca2a613d5fd814cda2",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "first_call_id": "NanoNQ:test198__C__unfiltered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends did go to London for the filming of an episode.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test198__PE2__filtered",
+          "request_sha256": "c2c5357c3a3368f098f3175732d12aaa2f85ea9f5adb39a5daa03b88c3871687",
+          "reference": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "first_call_id": "NanoNQ:test198__C__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Yes, the cast of Friends went to London for Ross's wedding.",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C",
+            "BN1",
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

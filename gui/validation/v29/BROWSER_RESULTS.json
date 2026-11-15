@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "browser": "157.0.8103.38",
+  "checks": [
+    "current challenge selection loads and explains fresh generation",
+    "findings and limitations render",
+    "all 12 TrustRAG cases: 72 linked answers, 180 passage positions and current rationales render exactly",
+    "findings remains within mobile viewport with scrollable tables",
+    "findings opens the corresponding recorded Heather case",
+    "all-nine table opens PN2 and its paired answers",
+    "hostile question, saved answer and passage render as literal text",
+    "real browser start, cancellation and JSON download retain synthetic partial output",
+    "all 13 project tasks, four security documents, report draft and mobile layout",
+    "TrustRAG uses 12 fixed cases and three conditions; recorded inspection selects TrustRAG rather than native verdict",
+    "TrustRAG synthetic start, reload recovery, U/T rendering, cancellation and export",
+    "hostile TrustRAG question, answer and passage remain literal text",
+    "project source records render hostile text literally",
+    "no browser JavaScript errors"
+  ],
+  "research_model_calls": 0,
+  "scope": "Actual UI and HTTP server, synthetic worker and deliberately substituted XSS fixture"
+}

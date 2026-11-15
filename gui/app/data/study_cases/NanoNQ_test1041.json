@@ -1,0 +1,2853 @@
+{
+  "case": {
+    "case_id": "NanoNQ:test1041",
+    "dataset": "NanoNQ",
+    "question": "what is the genus of a bald eagle",
+    "source_family": "NanoNQ:test1041",
+    "review_status": "user_recorded_review",
+    "target_document_id": "doc36467",
+    "expected_answer": "Haliaeetus",
+    "answer_aliases": [],
+    "support_quote": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head.",
+    "source_qualification": "Genus as stated in the supplied reference.",
+    "qrel_document_ids": [
+      "doc36467"
+    ],
+    "family_reference_texts": [
+      "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]"
+    ]
+  },
+  "source_label": {
+    "case_id": "NanoNQ:test1041",
+    "reviewer": "Suresh",
+    "decision": "eligible",
+    "target_document_id": "doc36467",
+    "expected_answer": "Haliaeetus",
+    "answer_aliases": [],
+    "support_quote": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head.",
+    "source_qualification": "Genus as stated in the supplied reference.",
+    "exclusion_reason": "",
+    "notes": "“Sea eagles” is the explanatory common name; the expected genus name is Haliaeetus."
+  },
+  "original_primary_human_record": {
+    "case_id": "NanoNQ:test1041",
+    "dataset": "NanoNQ",
+    "question": "what is the genus of a bald eagle",
+    "human_outcome_status": "Human reviewed and confirmed by Shradha",
+    "human_reviewed": true,
+    "confirmation": {
+      "reviewer": "Shradha",
+      "review_type": "human_review",
+      "status": "human_reviewed_and_confirmed",
+      "review_basis": "Existing AI-assisted case assessments reviewed and confirmed without changes, as reported by Suresh",
+      "assistance": "AI-assisted assessments with human review/confirmation; not relabelled as unaided review",
+      "recorded_date": "2026-10-27",
+      "actual_review_date": null,
+      "actual_review_date_note": "User says later; exact review date not supplied",
+      "source": "Suresh explicit statement in the project conversation",
+      "source_statement": "Ohh. later Shradha reviewed and confirmed that there is no change in all 59 AI-assisted reviews. So, please mark them as human reviews",
+      "new_case_level_artifact_supplied": false,
+      "verification_scope": "Record user-reported human review and unchanged decisions; not a new assistant semantic review or model rerun",
+      "joint_adjudication_scope_changed": false
+    },
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "historical_case_register_entry": {
+      "case_id": "NanoNQ:test1041",
+      "dataset": "NanoNQ",
+      "question": "what is the genus of a bald eagle",
+      "expected_answer": "Haliaeetus",
+      "source_qualification": "Genus as stated in the supplied reference.",
+      "source_review_status": "user_recorded_review",
+      "assistant_status": "Assistant-confirmed event",
+      "reason_group": "Strict recorded event (assistant)",
+      "historical_decision": "provisional_event",
+      "historical_reason_code": "provisional_event",
+      "historical_rationale": "C and BN1 filtered and PN1 unfiltered give Haliaeetus. PN1 filtered gives Aquila from a golden-eagle passage after the bald-eagle genus evidence is removed.",
+      "current_assistant_rationale": "All five checks pass for this recorded configuration under the frozen source interpretation.\nclean: The retained source explicitly places the bald eagle in Haliaeetus, and the clean answer matches this source.\nunfiltered: The original and copied genus passage are retrieved; the unfiltered answer is Haliaeetus.\nloss: Only bald-eagle conservation information and golden-eagle subspecies remain. Neither supports the bald-eagle genus.\nfailure: The answer Aquila is the genus occurring in the golden-eagle passage and does not answer the bald-eagle question under the frozen source.\ncontrol: The bald-eagle genus passage survives the background-copy filter and the answer remains Haliaeetus.",
+      "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/1",
+      "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/2",
+      "review_priority": 1,
+      "sample_reason": "",
+      "evidence_file": "evidence/NanoNQ_test1041.txt",
+      "human_outcome_status": "Pending independent review",
+      "evidence": [
+        {
+          "condition": "C",
+          "filter_jsonl_line": 19,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 13,
+              "call_id": "NanoNQ:test1041__C__unfiltered",
+              "request_sha256": "3709bf5c8ae863d85678c29d5336740c1b1185882c5596784a46010762cfcc36"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 14,
+              "call_id": "NanoNQ:test1041__C__filtered",
+              "request_sha256": "785c077354600eb2de20be0bceda783d0fc37df3201386dcca0a0080c27800e5"
+            }
+          ]
+        },
+        {
+          "condition": "BN1",
+          "filter_jsonl_line": 20,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 15,
+              "call_id": "NanoNQ:test1041__BN1__unfiltered",
+              "request_sha256": "72a2d1031ad1cc2ca67818c80981487a9ded11690944534bbfc6528fc0a54893"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 16,
+              "call_id": "NanoNQ:test1041__BN1__filtered",
+              "request_sha256": "bab2253e3ebdeb8d533262c61192cb773b77cc194c815d1cf0125f70434e27d8"
+            }
+          ]
+        },
+        {
+          "condition": "PN1",
+          "filter_jsonl_line": 22,
+          "responses": [
+            {
+              "mode": "unfiltered",
+              "jsonl_line": 17,
+              "call_id": "NanoNQ:test1041__PN1__unfiltered",
+              "request_sha256": "e3183c33623f5e307b601196324293d6a12161099e678baa6a2cb4a337718673"
+            },
+            {
+              "mode": "filtered",
+              "jsonl_line": 18,
+              "call_id": "NanoNQ:test1041__PN1__filtered",
+              "request_sha256": "e6566a4a7eb971badb5c1fee81982933a3cccbbe70332aeaec3a2ddbca83400c"
+            }
+          ]
+        }
+      ],
+      "later_order_note": "Not included in the saved order diagnostic.",
+      "later_order_source": ""
+    },
+    "prior_individual_human_review": {
+      "Case ID": "NanoNQ:test1041",
+      "Question": "what is the genus of a bald eagle",
+      "Evidence packet": "evidence/NanoNQ_test1041.txt",
+      "Reviewer": "Shradha",
+      "Review date": "2026-10-14",
+      "Copy retrieved?": "yes",
+      "Answer preserved in copy?": "yes",
+      "Clean supported + correct?": "yes",
+      "Background supported + correct?": "yes",
+      "PN1 unfiltered supported + correct?": "yes",
+      "All support lost after filter?": "yes",
+      "PN1 filtered answer category": "wrong",
+      "Strict event judgment": "yes",
+      "Background-qualified event?": "yes",
+      "Evidence and reasoning": "Q1: C P1 doc36467 kept: \"placed in the genus Haliaeetus\"; answer Haliaeetus. Q2: PN1 P1 copy of doc36467. Q3: Haliaeetus. Q4: survivors P3 doc36460 (national bird), P5 doc1618376 (golden-eagle subspecies): no bald-eagle genus. Q5: \"Aquila\" (golden-eagle genus) - wrong. Q6: BN1 P1 kept, Haliaeetus.",
+      "Reviewed run / artifact version": "W4-review-v1 evidence packet; reference filter_run1 + answers_run1 (no rerun)",
+      "Adjudication / disagreement notes": "Agrees with prior (event). Answer is relative to the supplied reference.",
+      "workbook_row": 4,
+      "source_workbook": "FilterFlip_Week4_Review_Shradha_2026-10-14.xlsx",
+      "adjudication_status": "not_jointly_adjudicated",
+      "assistant_prior": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "question": "what is the genus of a bald eagle",
+        "expected_answer": "Haliaeetus",
+        "source_qualification": "Genus as stated in the supplied reference.",
+        "source_review_status": "user_recorded_review",
+        "assistant_status": "Assistant-confirmed event",
+        "reason_group": "Strict recorded event (assistant)",
+        "historical_decision": "provisional_event",
+        "historical_reason_code": "provisional_event",
+        "historical_rationale": "C and BN1 filtered and PN1 unfiltered give Haliaeetus. PN1 filtered gives Aquila from a golden-eagle passage after the bald-eagle genus evidence is removed.",
+        "current_assistant_rationale": "All five checks pass for this recorded configuration under the frozen source interpretation.\nclean: The retained source explicitly places the bald eagle in Haliaeetus, and the clean answer matches this source.\nunfiltered: The original and copied genus passage are retrieved; the unfiltered answer is Haliaeetus.\nloss: Only bald-eagle conservation information and golden-eagle subspecies remain. Neither supports the bald-eagle genus.\nfailure: The answer Aquila is the genus occurring in the golden-eagle passage and does not answer the bald-eagle question under the frozen source.\ncontrol: The bald-eagle genus passage survives the background-copy filter and the answer remains Haliaeetus.",
+        "decision_source": "output/filterflip_study_v1_outcome_review/ASSISTANT_VERIFICATION.json#/cases/1",
+        "rubric_source": "output/filterflip_study_v1_retrieval/case_manifest.json#/cases/2",
+        "review_priority": 1,
+        "sample_reason": "",
+        "evidence_file": "evidence/NanoNQ_test1041.txt",
+        "human_outcome_status": "Pending independent review",
+        "evidence": [
+          {
+            "condition": "C",
+            "filter_jsonl_line": 19,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 13,
+                "call_id": "NanoNQ:test1041__C__unfiltered",
+                "request_sha256": "3709bf5c8ae863d85678c29d5336740c1b1185882c5596784a46010762cfcc36"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 14,
+                "call_id": "NanoNQ:test1041__C__filtered",
+                "request_sha256": "785c077354600eb2de20be0bceda783d0fc37df3201386dcca0a0080c27800e5"
+              }
+            ]
+          },
+          {
+            "condition": "BN1",
+            "filter_jsonl_line": 20,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 15,
+                "call_id": "NanoNQ:test1041__BN1__unfiltered",
+                "request_sha256": "72a2d1031ad1cc2ca67818c80981487a9ded11690944534bbfc6528fc0a54893"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 16,
+                "call_id": "NanoNQ:test1041__BN1__filtered",
+                "request_sha256": "bab2253e3ebdeb8d533262c61192cb773b77cc194c815d1cf0125f70434e27d8"
+              }
+            ]
+          },
+          {
+            "condition": "PN1",
+            "filter_jsonl_line": 22,
+            "responses": [
+              {
+                "mode": "unfiltered",
+                "jsonl_line": 17,
+                "call_id": "NanoNQ:test1041__PN1__unfiltered",
+                "request_sha256": "e3183c33623f5e307b601196324293d6a12161099e678baa6a2cb4a337718673"
+              },
+              {
+                "mode": "filtered",
+                "jsonl_line": 18,
+                "call_id": "NanoNQ:test1041__PN1__filtered",
+                "request_sha256": "e6566a4a7eb971badb5c1fee81982933a3cccbbe70332aeaec3a2ddbca83400c"
+              }
+            ]
+          }
+        ],
+        "later_order_note": "Not included in the saved order diagnostic.",
+        "later_order_source": ""
+      },
+      "source_reviewer_field": "Shradha (Draft by AI Assistant, decided by Shradha)",
+      "review_type": "human_review",
+      "judgment_method": "manual",
+      "ai_assistance_in_judgment": false,
+      "ai_use": "report preparation only"
+    },
+    "prior_joint_adjudication": null
+  },
+  "current_primary_review_summary": {
+    "case_id": "NanoNQ:test1041",
+    "question": "what is the genus of a bald eagle",
+    "current_assessment": {
+      "source": "prior_individual_human_review",
+      "recorded_value": "yes",
+      "field": "Strict event judgment"
+    },
+    "human_reviewed": true,
+    "reviewers": [
+      "Shradha",
+      "Suresh"
+    ],
+    "shradha_review_date": "2026-10-14",
+    "suresh_review_date": "2026-10-14",
+    "date_basis": "Dated individual review supplied by Shradha. Suresh instructs using the same date for his corresponding review; supplied on 2026-10-28.",
+    "later_confirmation_review_date": "Not supplied",
+    "later_confirmation_recorded_date": "2026-10-27",
+    "joint_adjudication_scope": "Human-reviewed; not newly labelled joint adjudication by this demo-return agreement",
+    "source_record": "data/human_reviews.json; case NanoNQ:test1041"
+  },
+  "primary_review_scope": "Original saved C/BN1/PN1 assessments; no new variant or reproduced-answer review inferred.",
+  "conditions": {
+    "C": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "C",
+        "inserted_documents": 0,
+        "retrieved_copy_documents": 0,
+        "retrieved_copy_chunks": 0,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7357717752456665,
+          "kept": true
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7006378173828125,
+          "kept": true
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6502175331115723,
+          "kept": false
+        },
+        {
+          "chunk_id": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1618376",
+          "instance_key": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There are six extant subspecies of golden eagle that differ slightly in size and plumage. Individuals of any race are somewhat variable and the differences between subspecies are clinal, especially in terms of body size. Other than these characteristics, there is little variation across the range of the species.[5] Some recent studies have gone so far as to propose that only two subspecies be recognized based on genetic markers: Aquila chrysaetos chrysaetos (including A. c. homeyeri) and A. c. canadensis (including the races A. c. japonica, A. c. daphanea and A. c. kamtschatica).[40]",
+          "text_sha256": "840f7684206451ab815b4d2869a85f8edcbe6e9f03b430e34adda9708a327190",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6342469453811646,
+          "kept": false
+        },
+        {
+          "chunk_id": "4ebaabd3e2f3da56438fc5172e0bc5695dacbf32f2ba6d9ef34fdf556c5d7888:00001",
+          "dataset": "NanoNQ",
+          "record_id": "doc1618372",
+          "instance_key": "4ebaabd3e2f3da56438fc5172e0bc5695dacbf32f2ba6d9ef34fdf556c5d7888",
+          "chunk_index": 1,
+          "copied_from": null,
+          "copy_number": null,
+          "text": ", like the golden eagle, often flies with a pronounced dihedral. The turkey vulture can be distinguished by its less controlled, forceful flying style and its smaller, thinner body, much smaller head and, at closer range, its slaty black-brown colour and silvery wing secondaries.[30] Compared to Haliaeetus eagles, the golden eagle has wings that are only somewhat more slender but are more hawk-like and lack the flat, plank-like wing positioning seen in the other genus.[30] Large northern Haliaeetus species usually have a larger bill and larger head which protrudes more distinctly than a golden eagleâ€™s in flight. The tail of the golden eagle is longer on average than those of Haliaeetus eagles, appearing to be two or three times the length of the head in soaring flight, whereas in the other eagles the head is often more than twice the length of the tail.[30] Confusion is most likely between juvenile Haliaeetus and golden eagles, as the adult golden has a more solidly golden-brown coloration and all Haliaeetus eagles have obvious distinctive plumages as adults. Haliaeetus eagles",
+          "text_sha256": "2fce06fb043f870bc063846b30039b72db009df09b06c1b5d17064fb755eb9c4",
+          "char_start": 1005,
+          "char_end": 2100,
+          "tokens_with_specials": 242,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.5887160301208496,
+          "kept": false
+        }
+      ],
+      "kept_indices": [
+        0,
+        1
+      ],
+      "removed_indices": [
+        2,
+        3,
+        4
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          0.4046261599365977,
+          0.864494744037259,
+          0.49527767348104135,
+          0.9551462575817027
+        ],
+        "removal_ranking": [
+          4,
+          2,
+          3,
+          1,
+          0
+        ],
+        "removal_gap": 0.09065151354444367,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.008071839809417725,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.7037596702575684
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6781361103057861
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.6280304789543152
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6134979724884033
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5399346947669983
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5311063528060913
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.4956803023815155
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__C__unfiltered",
+          "request_sha256": "3709bf5c8ae863d85678c29d5336740c1b1185882c5596784a46010762cfcc36",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__C__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__C__filtered",
+          "request_sha256": "785c077354600eb2de20be0bceda783d0fc37df3201386dcca0a0080c27800e5",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__C__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "C"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "BN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7357717752456665,
+          "kept": true
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7006378173828125,
+          "kept": false
+        },
+        {
+          "chunk_id": "6671ae7bcf25eabed4c8096c55b926f0b6a96d0a5210fa8038f1f002235946d4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/BN/1",
+          "instance_key": "6671ae7bcf25eabed4c8096c55b926f0b6a96d0a5210fa8038f1f002235946d4",
+          "chunk_index": 0,
+          "copied_from": "doc36460",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "f5e92cdb1a4ece37c898c5432877deab2d32c7dc872d1169b2b2b56388124847",
+          "char_start": 0,
+          "char_end": 529,
+          "tokens_with_specials": 110,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.698106050491333,
+          "kept": false
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6502175331115723,
+          "kept": false
+        },
+        {
+          "chunk_id": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1618376",
+          "instance_key": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There are six extant subspecies of golden eagle that differ slightly in size and plumage. Individuals of any race are somewhat variable and the differences between subspecies are clinal, especially in terms of body size. Other than these characteristics, there is little variation across the range of the species.[5] Some recent studies have gone so far as to propose that only two subspecies be recognized based on genetic markers: Aquila chrysaetos chrysaetos (including A. c. homeyeri) and A. c. canadensis (including the races A. c. japonica, A. c. daphanea and A. c. kamtschatica).[40]",
+          "text_sha256": "840f7684206451ab815b4d2869a85f8edcbe6e9f03b430e34adda9708a327190",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6342469453811646,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.3790817771343455,
+          1.369320712877311,
+          0.7994912556161609,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 0.7994912556161609,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.01488494873046875,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.987145185470581
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6283829212188721
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6134979724884033
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5707807540893555
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5428835153579712
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5399346947669983
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5311063528060913
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__BN1__unfiltered",
+          "request_sha256": "72a2d1031ad1cc2ca67818c80981487a9ded11690944534bbfc6528fc0a54893",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__BN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__BN1__filtered",
+          "request_sha256": "bab2253e3ebdeb8d533262c61192cb773b77cc194c815d1cf0125f70434e27d8",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__BN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "BN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7357717752456665,
+          "kept": true
+        },
+        {
+          "chunk_id": "293f2358b2b3defe98e13f948a8a3000c640bc794a5f9235b7075511f3295199:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/BN/2",
+          "instance_key": "293f2358b2b3defe98e13f948a8a3000c640bc794a5f9235b7075511f3295199",
+          "chunk_index": 0,
+          "copied_from": "doc36460",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "fac6a99d5b8640c121a1a092403ae5a582f7b97f88e8eeaf3c296e565f90c97a",
+          "char_start": 0,
+          "char_end": 532,
+          "tokens_with_specials": 110,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7133768796920776,
+          "kept": false
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7006378173828125,
+          "kept": false
+        },
+        {
+          "chunk_id": "6671ae7bcf25eabed4c8096c55b926f0b6a96d0a5210fa8038f1f002235946d4:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/BN/1",
+          "instance_key": "6671ae7bcf25eabed4c8096c55b926f0b6a96d0a5210fa8038f1f002235946d4",
+          "chunk_index": 0,
+          "copied_from": "doc36460",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "f5e92cdb1a4ece37c898c5432877deab2d32c7dc872d1169b2b2b56388124847",
+          "char_start": 0,
+          "char_end": 529,
+          "tokens_with_specials": 110,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.698106050491333,
+          "kept": false
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6502175331115723,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.0,
+          1.9663044251983912,
+          1.9451540277700907,
+          1.9700616318237962,
+          0.0
+        ],
+        "removal_ranking": [
+          3,
+          1,
+          2,
+          0,
+          4
+        ],
+        "removal_gap": 1.9451540277700907,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.34913796186447144,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9978005886077881
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.987145185470581
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9852402806282043
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6358699798583984
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6283829212188721
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5859862565994263
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5707807540893555
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5333443880081177
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__BN2__unfiltered",
+          "request_sha256": "5ff06701389c0b5b25ae8aee03a52e1a961a10a14ce15390b836f6ad19ba03ac",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__BN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__BN2__filtered",
+          "request_sha256": "9a82e280954ec815912f2947da1b9508f80c386244c1d259e30282eb3ea31cea",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__BN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "PN1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "b798320626219f8183dba568f021e7fc6d439a7b1edc0e1821de7c0de4fec634:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/PN/1",
+          "instance_key": "b798320626219f8183dba568f021e7fc6d439a7b1edc0e1821de7c0de4fec634",
+          "chunk_index": 0,
+          "copied_from": "doc36467",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "21eb07af0ec892563e79b331f62615f1fc2610bb331c6efceb83491ab5b886e4",
+          "char_start": 0,
+          "char_end": 572,
+          "tokens_with_specials": 156,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.737644612789154,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7357717752456665,
+          "kept": false
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7006378173828125,
+          "kept": true
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6502175331115723,
+          "kept": false
+        },
+        {
+          "chunk_id": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1618376",
+          "instance_key": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There are six extant subspecies of golden eagle that differ slightly in size and plumage. Individuals of any race are somewhat variable and the differences between subspecies are clinal, especially in terms of body size. Other than these characteristics, there is little variation across the range of the species.[5] Some recent studies have gone so far as to propose that only two subspecies be recognized based on genetic markers: Aquila chrysaetos chrysaetos (including A. c. homeyeri) and A. c. canadensis (including the races A. c. japonica, A. c. daphanea and A. c. kamtschatica).[40]",
+          "text_sha256": "840f7684206451ab815b4d2869a85f8edcbe6e9f03b430e34adda9708a327190",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6342469453811646,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.9873255541106687,
+          0.9873255541106687,
+          0.4046261599365977,
+          0.7810059221839794,
+          0.3763797622473817
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "removal_gap": 0.3763797622473817,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.04625141620635986,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9936425685882568
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6134979724884033
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5672465562820435
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5399346947669983
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5311063528060913
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5280264019966125
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.526705265045166
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__PN1__unfiltered",
+          "request_sha256": "e3183c33623f5e307b601196324293d6a12161099e678baa6a2cb4a337718673",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__PN1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__PN1__filtered",
+          "request_sha256": "e6566a4a7eb971badb5c1fee81982933a3cccbbe70332aeaec3a2ddbca83400c",
+          "reference": {
+            "status": "ok",
+            "answer": "Aquila",
+            "first_call_id": "NanoNQ:test1041__PN1__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Aquila",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PN2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "PN2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "710b01709d33474ffa9a1c3339d23a2e48ba02201573d2326b516228057c24ce:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/PN/2",
+          "instance_key": "710b01709d33474ffa9a1c3339d23a2e48ba02201573d2326b516228057c24ce",
+          "chunk_index": 0,
+          "copied_from": "doc36467",
+          "copy_number": 2,
+          "text": "Reference excerpt.\nThe bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "bc2dbbcf6722981dc3024d7b2dcb62db041cd2be00d6cdfcf9c6a9d7fab1ee37",
+          "char_start": 0,
+          "char_end": 575,
+          "tokens_with_specials": 156,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7419580221176147,
+          "kept": false
+        },
+        {
+          "chunk_id": "b798320626219f8183dba568f021e7fc6d439a7b1edc0e1821de7c0de4fec634:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/PN/1",
+          "instance_key": "b798320626219f8183dba568f021e7fc6d439a7b1edc0e1821de7c0de4fec634",
+          "chunk_index": 0,
+          "copied_from": "doc36467",
+          "copy_number": 1,
+          "text": "Source excerpt.\nThe bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "21eb07af0ec892563e79b331f62615f1fc2610bb331c6efceb83491ab5b886e4",
+          "char_start": 0,
+          "char_end": 572,
+          "tokens_with_specials": 156,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.737644612789154,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7357717752456665,
+          "kept": false
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7006378173828125,
+          "kept": true
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6502175331115723,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          1.990114236729056,
+          1.985663275888399,
+          1.9791020690619945,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 1.9791020690619945,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3575402498245239,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.9991685152053833
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.9958797693252563
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9936425685882568
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.567257285118103
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5672465562820435
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5329065322875977
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.526705265045166
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__PN2__unfiltered",
+          "request_sha256": "ea03ff46db8902d26f51325d2ba0842f4c43b42c4bfbff9de9ed1ece45f75970",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__PN2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__PN2__filtered",
+          "request_sha256": "8e1c8db93ab9d68bdadd7f5125a46013a80ea3f475f48e57a5bd68ad92bc7767",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__PN2__filtered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "BE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7357717752456665,
+          "kept": true
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7006378173828125,
+          "kept": false
+        },
+        {
+          "chunk_id": "e459f190ecec29ba521174083e149cfe632597bc2c36ee061a41e0bbb3cd6968:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/BE/1",
+          "instance_key": "e459f190ecec29ba521174083e149cfe632597bc2c36ee061a41e0bbb3cd6968",
+          "chunk_index": 0,
+          "copied_from": "doc36460",
+          "copy_number": 1,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7006378173828125,
+          "kept": false
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6502175331115723,
+          "kept": false
+        },
+        {
+          "chunk_id": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1618376",
+          "instance_key": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There are six extant subspecies of golden eagle that differ slightly in size and plumage. Individuals of any race are somewhat variable and the differences between subspecies are clinal, especially in terms of body size. Other than these characteristics, there is little variation across the range of the species.[5] Some recent studies have gone so far as to propose that only two subspecies be recognized based on genetic markers: Aquila chrysaetos chrysaetos (including A. c. homeyeri) and A. c. canadensis (including the races A. c. japonica, A. c. daphanea and A. c. kamtschatica).[40]",
+          "text_sha256": "840f7684206451ab815b4d2869a85f8edcbe6e9f03b430e34adda9708a327190",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6342469453811646,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          0.0,
+          1.4046259215180328,
+          1.4046259215180328,
+          0.8092523198731953,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 0.8092523198731953,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.02260434627532959,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6134979724884033
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5399346947669983
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5399346947669983
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5311063528060913
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__BE1__unfiltered",
+          "request_sha256": "35e043d249a19c2c9d0835ca67ff211f2e3085641f19d0c0f41e16f6b1646ad6",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__BE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__BE1__filtered",
+          "request_sha256": "bab2253e3ebdeb8d533262c61192cb773b77cc194c815d1cf0125f70434e27d8",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__BN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "BN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "BE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "BE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": true,
+        "source_or_copy_before": true,
+        "source_or_copy_after": true,
+        "quote_before": true,
+        "quote_after": true,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": false,
+        "matching_background_quote_retained": null
+      },
+      "passages": [
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7357717752456665,
+          "kept": true
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7006378173828125,
+          "kept": false
+        },
+        {
+          "chunk_id": "e459f190ecec29ba521174083e149cfe632597bc2c36ee061a41e0bbb3cd6968:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/BE/1",
+          "instance_key": "e459f190ecec29ba521174083e149cfe632597bc2c36ee061a41e0bbb3cd6968",
+          "chunk_index": 0,
+          "copied_from": "doc36460",
+          "copy_number": 1,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7006378173828125,
+          "kept": false
+        },
+        {
+          "chunk_id": "f5a32fb26ff766f930cf070b456c9eb9f24770a9f062edd50520782fc50a7a5e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/BE/2",
+          "instance_key": "f5a32fb26ff766f930cf070b456c9eb9f24770a9f062edd50520782fc50a7a5e",
+          "chunk_index": 0,
+          "copied_from": "doc36460",
+          "copy_number": 2,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7006378173828125,
+          "kept": false
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6502175331115723,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        0,
+        4
+      ],
+      "removed_indices": [
+        1,
+        2,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          0.0,
+          1.9999995231628702,
+          1.9999995231628702,
+          1.9999995231628702,
+          0.0
+        ],
+        "removal_ranking": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "removal_gap": 1.9999995231628702,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.36389756202697754,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.9999998807907104
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5333443880081177
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__BE2__unfiltered",
+          "request_sha256": "6fcfaa22206ad264397759ad4a1879dd69b97362915576d1abe72cf429dc5a86",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__BE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__BE2__filtered",
+          "request_sha256": "9a82e280954ec815912f2947da1b9508f80c386244c1d259e30282eb3ea31cea",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__BN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE1": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "PE1",
+        "inserted_documents": 1,
+        "retrieved_copy_documents": 1,
+        "retrieved_copy_chunks": 1,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "141edf1b94de63a9c729121efda1980b6aad2dde2ade8e7d7626ef8601886214:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/PE/1",
+          "instance_key": "141edf1b94de63a9c729121efda1980b6aad2dde2ade8e7d7626ef8601886214",
+          "chunk_index": 0,
+          "copied_from": "doc36467",
+          "copy_number": 1,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7357717752456665,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7357717752456665,
+          "kept": false
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7006378173828125,
+          "kept": true
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6502175331115723,
+          "kept": false
+        },
+        {
+          "chunk_id": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc1618376",
+          "instance_key": "5298e101334eec36e7498c8d93780c8be079685a16f648b38a98c91b77781eac",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "There are six extant subspecies of golden eagle that differ slightly in size and plumage. Individuals of any race are somewhat variable and the differences between subspecies are clinal, especially in terms of body size. Other than these characteristics, there is little variation across the range of the species.[5] Some recent studies have gone so far as to propose that only two subspecies be recognized based on genetic markers: Aquila chrysaetos chrysaetos (including A. c. homeyeri) and A. c. canadensis (including the races A. c. japonica, A. c. daphanea and A. c. kamtschatica).[40]",
+          "text_sha256": "840f7684206451ab815b4d2869a85f8edcbe6e9f03b430e34adda9708a327190",
+          "char_start": 0,
+          "char_end": 590,
+          "tokens_with_specials": 143,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6342469453811646,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        2,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        3
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 3,
+        "frequency_scores": [
+          1.0,
+          1.0,
+          0.4046261599365977,
+          0.7810059221839794,
+          0.3763797622473817
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "removal_gap": 0.3763797622473817,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.055671513080596924,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6134979724884033
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5399346947669983
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5311063528060913
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5311063528060913
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__PE1__unfiltered",
+          "request_sha256": "1ed186c0c5de9ef639ef63940d92682ec6c013d1cad9f2ba5cc0c8292e0dca1a",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__PE1__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__PE1__filtered",
+          "request_sha256": "e6566a4a7eb971badb5c1fee81982933a3cccbbe70332aeaec3a2ddbca83400c",
+          "reference": {
+            "status": "ok",
+            "answer": "Aquila",
+            "first_call_id": "NanoNQ:test1041__PN1__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Aquila",
+            "result_origin": "Shradha_original_completed_prefix",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [
+            "PN1"
+          ],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    },
+    "PE2": {
+      "metrics": {
+        "case_id": "NanoNQ:test1041",
+        "dataset": "NanoNQ",
+        "condition": "PE2",
+        "inserted_documents": 2,
+        "retrieved_copy_documents": 2,
+        "retrieved_copy_chunks": 2,
+        "retained_copy_documents": 0,
+        "retained_copy_chunks": 0,
+        "original_source_before": true,
+        "original_source_after": false,
+        "source_or_copy_before": true,
+        "source_or_copy_after": false,
+        "quote_before": true,
+        "quote_after": false,
+        "removed_chunks": 3,
+        "retrieval_cutoff_tie": false,
+        "filter_removal_exact_tie": false,
+        "clean_qualified_quote_loss_screen": true,
+        "matching_background_quote_retained": true
+      },
+      "passages": [
+        {
+          "chunk_id": "03611cff0b6f7febb0d066e7b05565fb35dec2e7867e0894f75e3d7c3701b0a7:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/PE/2",
+          "instance_key": "03611cff0b6f7febb0d066e7b05565fb35dec2e7867e0894f75e3d7c3701b0a7",
+          "chunk_index": 0,
+          "copied_from": "doc36467",
+          "copy_number": 2,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7357717752456665,
+          "kept": false
+        },
+        {
+          "chunk_id": "141edf1b94de63a9c729121efda1980b6aad2dde2ade8e7d7626ef8601886214:00000",
+          "dataset": "NanoNQ",
+          "record_id": "copy/NanoNQ:test1041/PE/1",
+          "instance_key": "141edf1b94de63a9c729121efda1980b6aad2dde2ade8e7d7626ef8601886214",
+          "chunk_index": 0,
+          "copied_from": "doc36467",
+          "copy_number": 1,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7357717752456665,
+          "kept": false
+        },
+        {
+          "chunk_id": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36467",
+          "instance_key": "8d71ff2a4bd97df3868e7deaf8a2c4593e1e8f2514962e3c0c4f75b40647fc5a",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle placed in the genus Haliaeetus (sea eagles) which gets both its common and specific scientific names from the distinctive appearance of the adult's head. Bald in the English name is derived from the word piebald, and refers to the white head and tail feathers and their contrast with the darker body.[18] The scientific name is derived from Haliaeetus, New Latin for \"sea eagle\" (from the Ancient Greek haliaetos), and leucocephalus, Latinized Ancient Greek for \"white head,\" from λευκος leukos (\"white\") and κεφαλη kephale (\"head\").[19][20]",
+          "text_sha256": "a98dcbcc12dc39c76eb8a78fe0bdc4208512409386fd05c03f6e80d04744c7c4",
+          "char_start": 0,
+          "char_end": 556,
+          "tokens_with_specials": 153,
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7357717752456665,
+          "kept": false
+        },
+        {
+          "chunk_id": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36460",
+          "instance_key": "76852470b9729ced043aaad68ef22eb2d4978ab0af6aadba3b9ac4512f1d351e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle is both the national bird and national animal of the United States of America. The bald eagle appears on its seal. In the late 20th century it was on the brink of extirpation in the contiguous United States. Populations have since recovered and the species was removed from the U.S. government's list of endangered species on July 12, 1995 and transferred to the list of threatened species. It was removed from the List of Endangered and Threatened Wildlife in the Lower 48 States on June 28, 2007.",
+          "text_sha256": "a7f533d3db6e9404e79e3ea588176f9d743fc520b45c0ce41e04060ff6251ec2",
+          "char_start": 0,
+          "char_end": 513,
+          "tokens_with_specials": 107,
+          "retrieval_rank": 4,
+          "retrieval_score": 0.7006378173828125,
+          "kept": true
+        },
+        {
+          "chunk_id": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e:00000",
+          "dataset": "NanoNQ",
+          "record_id": "doc36463",
+          "instance_key": "08f5535074710e79b4c6aab843c157db715b954cd718093f817c838018ed495e",
+          "chunk_index": 0,
+          "copied_from": null,
+          "copy_number": null,
+          "text": "The bald eagle has sometimes been considered the largest true raptor (accipitrid) in North America. The only larger species of raptor-like bird is the California condor (Gymnogyps californianus), a New World vulture which today is not generally considered a taxonomic ally of true accipitrids.[7] However, the golden eagle, averaging 4.18 kg (9.2 lb) and 63 cm (25 in) in wing chord length in its American race (A. c. canadensis), is merely 455 g (1.003 lb) lighter in mean body mass and exceeds the bald eagle in mean wing chord length by around 3 cm (1.2 in).[5][8] Additionally, the bald eagle's close cousins, the relatively longer-winged but shorter-tailed white-tailed eagle and the overall larger Steller's sea eagle (H. pelagicus), may, rarely, wander to coastal Alaska from Asia.[5]",
+          "text_sha256": "ba86ff90da4bb5ed0100754aa37939c7e7c1b738c331e808ad45d1b150a5e2a3",
+          "char_start": 0,
+          "char_end": 791,
+          "tokens_with_specials": 212,
+          "retrieval_rank": 5,
+          "retrieval_score": 0.6502175331115723,
+          "kept": true
+        }
+      ],
+      "kept_indices": [
+        3,
+        4
+      ],
+      "removed_indices": [
+        0,
+        1,
+        2
+      ],
+      "filter_trace": {
+        "estimated_removal_count": 3,
+        "tfidf_vote_count": 4,
+        "frequency_scores": [
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "removal_ranking": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "removal_gap": 2.0,
+        "removal_exact_tie": false,
+        "removal_near_tie": false,
+        "pair_cutoff_gap": 0.3638976812362671,
+        "pair_cutoff_near_tie": false,
+        "selected_pair_count": 3,
+        "all_pairs": [
+          {
+            "indices": [
+              0,
+              1
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              0,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              1,
+              2
+            ],
+            "similarity": 1.0
+          },
+          {
+            "indices": [
+              3,
+              4
+            ],
+            "similarity": 0.6361023187637329
+          },
+          {
+            "indices": [
+              0,
+              3
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              1,
+              3
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              2,
+              3
+            ],
+            "similarity": 0.5578264594078064
+          },
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              1,
+              4
+            ],
+            "similarity": 0.5333443880081177
+          },
+          {
+            "indices": [
+              2,
+              4
+            ],
+            "similarity": 0.5333443880081177
+          }
+        ],
+        "matches_native_removals": true
+      },
+      "responses": {
+        "unfiltered": {
+          "call_id": "NanoNQ:test1041__PE2__unfiltered",
+          "request_sha256": "4c7f44e301c3daa28523b0149455633fa7ab5474e53d33275113d0bde4736b33",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__PE2__unfiltered",
+            "response_reused": false
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": false
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        },
+        "filtered": {
+          "call_id": "NanoNQ:test1041__PE2__filtered",
+          "request_sha256": "8e1c8db93ab9d68bdadd7f5125a46013a80ea3f475f48e57a5bd68ad92bc7767",
+          "reference": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "first_call_id": "NanoNQ:test1041__PN2__filtered",
+            "response_reused": true
+          },
+          "reproduction": {
+            "status": "ok",
+            "answer": "Haliaeetus",
+            "result_origin": "Suresh_explicit_recovery_v2",
+            "response_reused": true
+          },
+          "exact_reference_text_match": true,
+          "identical_ordered_text_to_primary": [],
+          "semantic_review": {
+            "reviewer": null,
+            "actual_review_date": null,
+            "assistance": null,
+            "answer_core": null,
+            "extra_claim_errors": null,
+            "context_support": null,
+            "rationale": null
+          },
+          "review_note": "Primary context equality is an evidence-navigation aid, not transfer of acceptance to this variant or new response."
+        }
+      }
+    }
+  },
+  "secondary_condition_reviews": [
+    {
+      "condition": "BN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PN2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "BE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE1",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    },
+    {
+      "condition": "PE2",
+      "reference_support": null,
+      "reference_unfiltered_core": null,
+      "reference_filtered_core": null,
+      "reproduced_support": null,
+      "reproduced_unfiltered_core": null,
+      "reproduced_filtered_core": null,
+      "strict_endpoint": null,
+      "background_qualified_endpoint": null,
+      "reviewer": null,
+      "actual_review_date": null,
+      "assistance": null,
+      "decisive_passages": null,
+      "disagreement": null,
+      "rationale": null
+    }
+  ]
+}

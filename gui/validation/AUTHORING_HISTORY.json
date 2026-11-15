@@ -1,0 +1,9 @@
+{
+  "initial_42_test_invocation": {
+    "result": "41 pass; one failed expected-error assertion",
+    "cause": "System temporary folders were not writable; tempfile fell back inside the app, so the run/source-overlap guard correctly rejected that test before reaching its expected private-permissions guard.",
+    "disposition": "Use explicit writable external TMPDIR; no protection was relaxed."
+  },
+  "corrected_final_python_checks": "49 tests PASS per normal and optimized mode, logged separately",
+  "screenshot_persistence": "Initial direct CUA file write was read-only. Original browser JPEG bytes were saved via a temporary loopback-only capture form inside the authorized workspace; capture service and tab closed afterward. No image modification."
+}
